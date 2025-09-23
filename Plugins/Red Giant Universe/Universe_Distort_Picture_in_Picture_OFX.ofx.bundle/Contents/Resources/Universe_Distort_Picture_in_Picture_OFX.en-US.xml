@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Distort_Picture_in_Picture_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Picture in Picture</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Utilities</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble2D name="0">
+          <OfxPropLabel>Position</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>Scale Horizontal</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>Scale Vertical</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="3">
+          <OfxPropLabel>Scale Proportional</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>Rotate X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>Rotate Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>Rotate Z</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="7">
+          <OfxPropLabel>Border</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="8">
+          <OfxPropLabel>Border Type</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Centered</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Inside</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Outside</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeRGB name="9">
+          <OfxPropLabel>Border Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="10">
+          <OfxPropLabel>Border Width</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>Border Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="12">
+          <OfxPropLabel>Drop Shadow</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="13">
+          <OfxPropLabel>Shadow Direction</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Southeast</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>South</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Southwest</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>West</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Northwest</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>North</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Northeast</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>East</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Center</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeRGB name="14">
+          <OfxPropLabel>Shadow Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="15">
+          <OfxPropLabel>Shadow Scale</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="16">
+          <OfxPropLabel>Shadow Softness</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="17">
+          <OfxPropLabel>Shadow Offset</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="18">
+          <OfxPropLabel>Shadow Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Glow_Glow_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.发光</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe 发光</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>许可证...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>选择预设</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>保存预设</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="37">
+          <OfxPropLabel>输入通道</OfxPropLabel>
+          <OfxParamPropChoiceOption>RGBA</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>亮度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>明度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Alpha</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>红色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>绿色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>蓝色</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>阈值</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="38">
+          <OfxPropLabel>阈值柔化</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>大小</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>强度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="39">
+          <OfxPropLabel>衰减</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>宽</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>高</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>伽马</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="8">
+          <OfxPropLabel>颜色</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>饱和度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="9">
+          <OfxPropLabel>颜色1</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="10">
+          <OfxPropLabel>颜色2</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>颜色强度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="12">
+          <OfxPropLabel>像差</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="41">
+          <OfxPropLabel>像差衰减</OfxPropLabel>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>线性</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>平滑</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="13">
+          <OfxPropLabel>像差X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="14">
+          <OfxPropLabel>像差Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="15">
+          <OfxPropLabel>红色缩放</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="16">
+          <OfxPropLabel>绿色缩放</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="17">
+          <OfxPropLabel>蓝色缩放</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="42">
+          <OfxPropLabel>颜色饱和度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="43">
+          <OfxPropLabel>色度色调</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="44">
+          <OfxPropLabel>次数</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeGroup name="27">
+          <OfxPropLabel>蒙版</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="28">
+          <OfxPropLabel>使用蒙版</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="46">
+          <OfxPropLabel>显示蒙版区域</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="29">
+          <OfxPropLabel>蒙版形状</OfxPropLabel>
+          <OfxParamPropChoiceOption>矩形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>椭圆</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble2D name="30">
+          <OfxPropLabel>蒙版位置</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="31">
+          <OfxPropLabel>蒙版宽度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="32">
+          <OfxPropLabel>蒙版高度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="47">
+          <OfxPropLabel>保持宽高比</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="33">
+          <OfxPropLabel>蒙版旋转</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="34">
+          <OfxPropLabel>蒙版羽化</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="35">
+          <OfxPropLabel>反转蒙版</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="18">
+          <OfxPropLabel>颜色隔离</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="19">
+          <OfxPropLabel>隔离颜色</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeRGB name="20">
+          <OfxPropLabel>颜色</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="21">
+          <OfxPropLabel>颜色宽度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="22">
+          <OfxPropLabel>颜色柔化</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="23">
+          <OfxPropLabel>柔和遮罩</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="24">
+          <OfxPropLabel>黑色剪辑</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="25">
+          <OfxPropLabel>白色剪辑</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="26">
+          <OfxPropLabel>显示遮罩</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="48">
+          <OfxPropLabel>噪声</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="36">
+          <OfxPropLabel>辉光不透明度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="49">
+          <OfxPropLabel>源不透明度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="50">
+          <OfxPropLabel>质量</OfxPropLabel>
+          <OfxParamPropChoiceOption>草稿</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>生产</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>极端</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>传统</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

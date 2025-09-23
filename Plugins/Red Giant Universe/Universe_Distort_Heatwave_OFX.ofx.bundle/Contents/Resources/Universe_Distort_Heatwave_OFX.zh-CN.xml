@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Distort_Heatwave_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Heatwave热浪</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe 扭曲</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>许可证...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>选择预设</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>保存预设</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="0">
+          <OfxPropLabel>波类型</OfxPropLabel>
+          <OfxParamPropChoiceOption>默认</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>翻滚</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>隆起</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>热强度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>流动方向</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>流动速度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>模糊量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="5">
+          <OfxPropLabel>失真设置</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>热大小</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>热细节量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="8">
+          <OfxPropLabel>热细节缩放</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="9">
+          <OfxPropLabel>热模糊设置</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="10">
+          <OfxPropLabel>模糊尺寸</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>模糊羽化</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>模糊细节量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="13">
+          <OfxPropLabel>模糊细节缩放</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="14">
+          <OfxPropLabel>模糊质量</OfxPropLabel>
+          <OfxParamPropChoiceOption>快</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>中</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>精确（慢）</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="15">
+          <OfxPropLabel>蒙版选项</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="16">
+          <OfxPropLabel>形状</OfxPropLabel>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>椭圆</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>矩形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>图层</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="17">
+          <OfxPropLabel>反转</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble2D name="18">
+          <OfxPropLabel>点A</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="19">
+          <OfxPropLabel>点B</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="20">
+          <OfxPropLabel>半径</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="21">
+          <OfxPropLabel>羽化大小</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="22">
+          <OfxPropLabel>蒙版通道</OfxPropLabel>
+          <OfxParamPropChoiceOption>明度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Alpha</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="23">
+          <OfxPropLabel>蒙版缩放</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="24">
+          <OfxPropLabel>蒙版位置</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeChoice name="25">
+          <OfxPropLabel>输出</OfxPropLabel>
+          <OfxParamPropChoiceOption>最终图像</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>失真</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>模糊</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>蒙版</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>蒙版叠加</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="26">
+          <OfxPropLabel>热偏差</OfxPropLabel>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

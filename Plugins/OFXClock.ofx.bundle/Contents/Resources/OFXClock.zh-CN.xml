@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="de.hlinke.ofxclock">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>OFX时钟</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>OFX时钟</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="ClockChoice">
+          <OfxPropLabel>时钟样式选择</OfxPropLabel>
+          <OfxParamPropHint>选择时钟样式</OfxParamPropHint>
+          <OfxParamPropChoiceOption>模拟时钟</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>电子时钟</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>LED时钟</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble2D name="corner1">
+          <OfxPropLabel>时钟位置</OfxPropLabel>
+          <OfxParamPropHint>时钟中心位置</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeRGBA name="Main Colour">
+          <OfxPropLabel>时钟主颜色</OfxPropLabel>
+          <OfxParamPropHint>时钟的颜色</OfxParamPropHint>
+        </OfxParamTypeRGBA>
+        <OfxParamTypeRGBA name="Background Colour">
+          <OfxPropLabel>时钟背景颜色</OfxPropLabel>
+          <OfxParamPropHint>背景的颜色</OfxParamPropHint>
+        </OfxParamTypeRGBA>
+        <OfxParamTypeDouble name="ClockSize">
+          <OfxPropLabel>时钟大小</OfxPropLabel>
+          <OfxParamPropHint>时钟的大小</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="Time Parameters">
+          <OfxPropLabel>时间参数</OfxPropLabel>
+          <OfxParamPropHint>时间参数</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeGroup name="AnalogueClock">
+          <OfxPropLabel>模拟时钟参数</OfxPropLabel>
+          <OfxParamPropHint>为模拟时钟设置的参数</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="Run clock backwards">
+          <OfxPropLabel>时钟倒转</OfxPropLabel>
+          <OfxParamPropHint>时钟是否倒转</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="Speed Factor">
+          <OfxPropLabel>速度因子</OfxPropLabel>
+          <OfxParamPropHint>速度因子</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="Start Day">
+          <OfxPropLabel>起始-日</OfxPropLabel>
+          <OfxParamPropHint>起始-日</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="Start Month">
+          <OfxPropLabel>起始-月</OfxPropLabel>
+          <OfxParamPropHint>起始-月</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="Start Year">
+          <OfxPropLabel>起始-年</OfxPropLabel>
+          <OfxParamPropHint>起始-年</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="Start Hour">
+          <OfxPropLabel>起始-小时</OfxPropLabel>
+          <OfxParamPropHint>起始-小时</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="Start Minute">
+          <OfxPropLabel>起始-分钟</OfxPropLabel>
+          <OfxParamPropHint>起始-分钟</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="Start Second">
+          <OfxPropLabel>起始-秒</OfxPropLabel>
+          <OfxParamPropHint>起始-秒</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="Stop Day">
+          <OfxPropLabel>终止-日</OfxPropLabel>
+          <OfxParamPropHint>终止-日</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="Stop Month">
+          <OfxPropLabel>终止-月</OfxPropLabel>
+          <OfxParamPropHint>终止-月</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="Stop Year">
+          <OfxPropLabel>终止-年</OfxPropLabel>
+          <OfxParamPropHint>终止-年</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="Stop Hour">
+          <OfxPropLabel>终止-小时</OfxPropLabel>
+          <OfxParamPropHint>终止-小时</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="Stop Minute">
+          <OfxPropLabel>终止-分钟</OfxPropLabel>
+          <OfxParamPropHint>终止-分钟</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="Stop Second">
+          <OfxPropLabel>终止-秒</OfxPropLabel>
+          <OfxParamPropHint>终止-秒</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Hour Size">
+          <OfxPropLabel>时针粗细</OfxPropLabel>
+          <OfxParamPropHint>控制时针粗细</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Hour Length">
+          <OfxPropLabel>时针长度</OfxPropLabel>
+          <OfxParamPropHint>控制时针长度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGBA name="Hour Colour">
+          <OfxPropLabel>时针颜色</OfxPropLabel>
+          <OfxParamPropHint>控制时针颜色</OfxParamPropHint>
+        </OfxParamTypeRGBA>
+        <OfxParamTypeBoolean name="Use Hour Colour">
+          <OfxPropLabel>是否应用时针颜色</OfxPropLabel>
+          <OfxParamPropHint>是否应用时针颜色</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="Minute Size">
+          <OfxPropLabel>分针粗细</OfxPropLabel>
+          <OfxParamPropHint>控制分针粗细</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Minute Length">
+          <OfxPropLabel>分针长度</OfxPropLabel>
+          <OfxParamPropHint>控制分针长度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGBA name="Minute Colour">
+          <OfxPropLabel>分针颜色</OfxPropLabel>
+          <OfxParamPropHint>控制分针颜色</OfxParamPropHint>
+        </OfxParamTypeRGBA>
+        <OfxParamTypeBoolean name="Use Minute Colour">
+          <OfxPropLabel>是否应用分针颜色</OfxPropLabel>
+          <OfxParamPropHint>是否应用分针颜色</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="Second Size">
+          <OfxPropLabel>秒针粗细</OfxPropLabel>
+          <OfxParamPropHint>控制秒针粗细</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Second Length">
+          <OfxPropLabel>秒针长度</OfxPropLabel>
+          <OfxParamPropHint>控制秒针长度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGBA name="Second Colour">
+          <OfxPropLabel>秒针颜色</OfxPropLabel>
+          <OfxParamPropHint>控制秒针颜色</OfxParamPropHint>
+        </OfxParamTypeRGBA>
+        <OfxParamTypeBoolean name="Use Second Colour">
+          <OfxPropLabel>是否应用秒针颜色</OfxPropLabel>
+          <OfxParamPropHint>是否应用秒针颜色</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="Point Size">
+          <OfxPropLabel>刻度粗细</OfxPropLabel>
+          <OfxParamPropHint>控制刻度粗细</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Point Length">
+          <OfxPropLabel>刻度长度</OfxPropLabel>
+          <OfxParamPropHint>控制刻度长度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGBA name="Point Colour">
+          <OfxPropLabel>刻度颜色</OfxPropLabel>
+          <OfxParamPropHint>控制刻度颜色</OfxParamPropHint>
+        </OfxParamTypeRGBA>
+        <OfxParamTypeBoolean name="Use Point Colour">
+          <OfxPropLabel>是否应用刻度颜色</OfxPropLabel>
+          <OfxParamPropHint>是否应用刻度颜色</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="DigitalClock">
+          <OfxPropLabel>电子时钟/LED时钟参数</OfxPropLabel>
+          <OfxParamPropHint>为电子时钟/LED时钟设置的参数</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="Dig Clock Format">
+          <OfxPropLabel>时间格式预设</OfxPropLabel>
+          <OfxParamPropHint>选择电子时钟/LED时钟的时间格式预设</OfxParamPropHint>
+          <OfxParamPropChoiceOption>时:分:秒.3位毫秒</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>时:分:秒.2位毫秒</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>时:分:秒.1位毫秒</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>时:分:秒</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>时:分</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>分:秒</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>分</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>分:秒.1位毫秒</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>秒.1位毫秒</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>时:分:秒 帧</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>帧计数器</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>月.日.年 时:分:秒</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>日/月/年 时:分:秒</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>自定义格式</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypePushButton name="Button_Font">
+          <OfxPropLabel>电子时钟的字体设置</OfxPropLabel>
+          <OfxParamPropHint>设置电子时钟的字体样式</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypeString name="Dig Clock Free Format">
+          <OfxPropLabel>自定义格式</OfxPropLabel>
+          <OfxParamPropHint>（注：LED时钟只支持半角数字和“.:”；电子时钟只支持半角数字、标点和英文字符。）</OfxParamPropHint>
+        </OfxParamTypeString>
+        <OfxParamTypeString name="FontParam">
+          <OfxPropLabel>Font</OfxPropLabel>
+          <OfxParamPropHint>Font</OfxParamPropHint>
+        </OfxParamTypeString>
+        <OfxParamTypeGroup name="KeyParams">
+          <OfxPropLabel>色键参数</OfxPropLabel>
+          <OfxParamPropHint>色键参数设置</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGBA name="Key Colour">
+          <OfxPropLabel>色键颜色</OfxPropLabel>
+          <OfxParamPropHint>色键颜色设置</OfxParamPropHint>
+        </OfxParamTypeRGBA>
+        <OfxParamTypeChoice name="Use Key Colour">
+          <OfxPropLabel>是否启用色键</OfxPropLabel>
+          <OfxParamPropHint>启用后，若时钟任一部件颜色与色键颜色完全相同，则把该部件区域（连同下方的原素材）抠成透明。</OfxParamPropHint>
+          <OfxParamPropChoiceOption>不启用色键</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>启用色键</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

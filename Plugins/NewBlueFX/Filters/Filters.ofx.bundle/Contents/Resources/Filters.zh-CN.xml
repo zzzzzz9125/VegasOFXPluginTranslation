@@ -1,0 +1,2432 @@
+<?xml version='1.0' encoding='utf-8'?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.NewBlue.FIBleachBypass">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>NB_漂白</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue 滤镜</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>预设</OfxPropLabel>
+          <OfxParamPropHint>打开预设下拉菜单</OfxParamPropHint>
+          <OfxParamPropChoiceOption>漂白旁路</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>明亮的日子</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>暗淡的</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>褪色的照片</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>灰度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>重置为无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>鲜艳的颜色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>打开预设...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>另存预设为...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="0">
+          <OfxPropLabel>光曲线</OfxPropLabel>
+          <OfxParamPropHint>调整图像的整体亮度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>去饱和</OfxPropLabel>
+          <OfxParamPropHint>设置从图像中移除多少颜色</OfxParamPropHint>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.FIColorFast">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>NB_快速调色</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue 滤镜</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>预设</OfxPropLabel>
+          <OfxParamPropHint>打开预设下拉菜单</OfxParamPropHint>
+          <OfxParamPropChoiceOption>重置为无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>黑白</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>盛开的蓝色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>蓝天荒凉景观</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>蓝天</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>奶油般的</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>居中高光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>冷的</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>凉爽的</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>扩散</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>尘土飞扬的</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>平坦阴影</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>荧光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>金色小麦</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>热的</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>让它流行</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>机械化</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>奖章</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>老家庭电影</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>不祥的</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>加强</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>时代</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>温暖的</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>黄色和蓝色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>打开预设...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>另存预设为...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="0">
+          <OfxPropLabel>初级校正</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="1">
+          <OfxPropLabel>选择白色</OfxPropLabel>
+          <OfxParamPropHint>选择什么颜色应该是白色</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>校正</OfxPropLabel>
+          <OfxParamPropHint>控制白平衡校正的强度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>饱和度</OfxPropLabel>
+          <OfxParamPropHint>控制颜色强度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>曝光</OfxPropLabel>
+          <OfxParamPropHint>均匀控制图像的整体亮度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>亮度</OfxPropLabel>
+          <OfxParamPropHint>控制高光区域的强度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>胶片伽马</OfxPropLabel>
+          <OfxParamPropHint>加强阴影和高光</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="8">
+          <OfxPropLabel>二级校正</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="9">
+          <OfxPropLabel>显示蒙版</OfxPropLabel>
+          <OfxParamPropHint>选择哪个蒙版来查看其影响区域</OfxParamPropHint>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>高光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>中间调</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>阴影</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>皮肤蒙版</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>形状蒙版</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="10">
+          <OfxPropLabel>高/中/阴影</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeGroup name="11">
+          <OfxPropLabel>亮度范围</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>高光阈值</OfxPropLabel>
+          <OfxParamPropHint>设置高光范围的低端</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="13">
+          <OfxPropLabel>阴影阈值</OfxPropLabel>
+          <OfxParamPropHint>设置阴影范围的高端</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="14">
+          <OfxPropLabel>混合</OfxPropLabel>
+          <OfxParamPropHint>在亮度范围之间应用溶解</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="15">
+          <OfxPropLabel>扩散</OfxPropLabel>
+          <OfxParamPropHint>缓和亮度范围之间的变化以保留细节</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="17">
+          <OfxPropLabel>高光</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="18">
+          <OfxPropLabel>选择色调</OfxPropLabel>
+          <OfxParamPropHint>选择要添加或减去的颜色</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="19">
+          <OfxPropLabel>色调</OfxPropLabel>
+          <OfxParamPropHint>添加或减去所选颜色</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="20">
+          <OfxPropLabel>饱和度</OfxPropLabel>
+          <OfxParamPropHint>控制高光范围内的颜色强度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="21">
+          <OfxPropLabel>水平</OfxPropLabel>
+          <OfxParamPropHint>控制高光范围内的曝光</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="22">
+          <OfxPropLabel>启用</OfxPropLabel>
+          <OfxParamPropHint>开启/关闭高光范围控制</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="24">
+          <OfxPropLabel>中间调</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="25">
+          <OfxPropLabel>选择色调</OfxPropLabel>
+          <OfxParamPropHint>选择要添加或减去的颜色</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="26">
+          <OfxPropLabel>色调</OfxPropLabel>
+          <OfxParamPropHint>添加或减去所选颜色</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="27">
+          <OfxPropLabel>饱和度</OfxPropLabel>
+          <OfxParamPropHint>控制中间调范围内的颜色强度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="28">
+          <OfxPropLabel>水平</OfxPropLabel>
+          <OfxParamPropHint>控制中间调范围内的曝光</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="29">
+          <OfxPropLabel>启用</OfxPropLabel>
+          <OfxParamPropHint>开启/关闭中间调范围控制</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="31">
+          <OfxPropLabel>阴影</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="32">
+          <OfxPropLabel>选择色调</OfxPropLabel>
+          <OfxParamPropHint>选择要添加或减去的颜色</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="33">
+          <OfxPropLabel>色调</OfxPropLabel>
+          <OfxParamPropHint>添加或减去所选颜色</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="34">
+          <OfxPropLabel>饱和度</OfxPropLabel>
+          <OfxParamPropHint>控制阴影范围内的颜色强度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="35">
+          <OfxPropLabel>水平</OfxPropLabel>
+          <OfxParamPropHint>控制阴影范围内的曝光</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="36">
+          <OfxPropLabel>启用</OfxPropLabel>
+          <OfxParamPropHint>开启/关闭阴影范围控制</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="39">
+          <OfxPropLabel>蒙版</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeGroup name="40">
+          <OfxPropLabel>皮肤保护(颜色蒙版)</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="41">
+          <OfxPropLabel>选择色调</OfxPropLabel>
+          <OfxParamPropHint>选择要保护免受二级校正的颜色</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="42">
+          <OfxPropLabel>敏感度</OfxPropLabel>
+          <OfxParamPropHint>设置所选颜色周围的范围宽度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="43">
+          <OfxPropLabel>软化</OfxPropLabel>
+          <OfxParamPropHint>模糊颜色蒙版的边缘</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="44">
+          <OfxPropLabel>反转</OfxPropLabel>
+          <OfxParamPropHint>反转颜色蒙版的区域</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="45">
+          <OfxPropLabel>启用</OfxPropLabel>
+          <OfxParamPropHint>开启/关闭颜色蒙版</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="47">
+          <OfxPropLabel>形状蒙版</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble2D name="48">
+          <OfxPropLabel>左上</OfxPropLabel>
+          <OfxParamPropHint>设置蒙版的左上角</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="49">
+          <OfxPropLabel>右上</OfxPropLabel>
+          <OfxParamPropHint>设置蒙版的右上角</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="50">
+          <OfxPropLabel>左下</OfxPropLabel>
+          <OfxParamPropHint>设置蒙版的左下角</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="51">
+          <OfxPropLabel>右下</OfxPropLabel>
+          <OfxParamPropHint>设置蒙版的右下角</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="52">
+          <OfxPropLabel>曲线</OfxPropLabel>
+          <OfxParamPropHint>圆化蒙版角</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="53">
+          <OfxPropLabel>羽化</OfxPropLabel>
+          <OfxParamPropHint>软化蒙版边缘</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="54">
+          <OfxPropLabel>反转</OfxPropLabel>
+          <OfxParamPropHint>反转形状蒙版的区域</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="55">
+          <OfxPropLabel>限制颜色蒙版</OfxPropLabel>
+          <OfxParamPropHint>使用形状蒙版限制颜色蒙版的区域</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="56">
+          <OfxPropLabel>启用</OfxPropLabel>
+          <OfxParamPropHint>开启/关闭形状蒙版</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.FIColorFast2">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>NB_快速调色2</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue 滤镜</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>预设</OfxPropLabel>
+          <OfxParamPropHint>打开预设下拉菜单</OfxParamPropHint>
+          <OfxParamPropChoiceOption>重置为无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>80年代警察</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>黑白Ilford</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>黑白墨水</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>黑白Tri-X</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>黑白</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>黑墨</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>盛开的蓝色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>蓝天荒凉景观</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>蓝天</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>明亮的日子</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>奶油般的</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>居中高光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>突击队</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>对比增强</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>凉爽泼溅</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>科波菲尔</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>黑暗天使</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深晕影</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>密集的</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>扩散</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>变暗的</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>梦想雾</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>尘土飞扬的</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>谜</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>辐射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>平坦阴影</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>荧光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>温柔晕影</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>魅力</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>魅力光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>金色小麦</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>金发姑娘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>哥谭</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>格雷森</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>砂砾</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>蜂蜜</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>杀手霜</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>品红色投射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>磁铁</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>让它流行</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>机械化</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>奖章</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>芥子气</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>老家庭电影</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>老照片</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>不祥的</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>寄生虫</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>毒藤</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>加强</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>放射性</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>酸补丁</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>晒伤</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>蓝绿色投射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>时代</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>怀旧</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>剃度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>三合一</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>风滚草</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>紫外线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>水下</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>复古</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>紫罗兰</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>西部</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>黄色和蓝色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>打开预设...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>另存预设为...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="0">
+          <OfxPropLabel>初级校正</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="1">
+          <OfxPropLabel>选择白色</OfxPropLabel>
+          <OfxParamPropHint>选择应该是白色或灰色的无颜色偏差</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>白色强度</OfxPropLabel>
+          <OfxParamPropHint>控制白平衡校正的量</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>白色调整</OfxPropLabel>
+          <OfxParamPropHint>微调白平衡结果</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>色相</OfxPropLabel>
+          <OfxParamPropHint>在光谱中移动色相值</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>饱和度</OfxPropLabel>
+          <OfxParamPropHint>控制颜色强度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>曝光</OfxPropLabel>
+          <OfxParamPropHint>均匀控制图像的整体亮度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>亮度</OfxPropLabel>
+          <OfxParamPropHint>控制高光区域的强度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="8">
+          <OfxPropLabel>胶片伽马</OfxPropLabel>
+          <OfxParamPropHint>加强阴影和高光</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="10">
+          <OfxPropLabel>二级校正</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="11">
+          <OfxPropLabel>显示蒙版</OfxPropLabel>
+          <OfxParamPropHint>选择蒙版来查看其受影响区域</OfxParamPropHint>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>高光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>中间调</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>阴影</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>皮肤蒙版(颜色)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>形状蒙版</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="12">
+          <OfxPropLabel>高/中/阴影</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeGroup name="13">
+          <OfxPropLabel>高光</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="14">
+          <OfxPropLabel>选择色调</OfxPropLabel>
+          <OfxParamPropHint>选择要添加或减去的颜色</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="15">
+          <OfxPropLabel>色调</OfxPropLabel>
+          <OfxParamPropHint>添加或减去所选颜色</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="16">
+          <OfxPropLabel>饱和度</OfxPropLabel>
+          <OfxParamPropHint>控制高光范围内的颜色强度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="17">
+          <OfxPropLabel>水平</OfxPropLabel>
+          <OfxParamPropHint>控制高光范围内的曝光</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="18">
+          <OfxPropLabel>启用</OfxPropLabel>
+          <OfxParamPropHint>开启/关闭高光范围控制</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="20">
+          <OfxPropLabel>中间调</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="21">
+          <OfxPropLabel>选择色调</OfxPropLabel>
+          <OfxParamPropHint>选择要添加或减去的颜色</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="22">
+          <OfxPropLabel>色调</OfxPropLabel>
+          <OfxParamPropHint>添加或减去所选颜色</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="23">
+          <OfxPropLabel>饱和度</OfxPropLabel>
+          <OfxParamPropHint>控制中间调范围内的颜色强度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="24">
+          <OfxPropLabel>水平</OfxPropLabel>
+          <OfxParamPropHint>控制中间调范围内的曝光</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="25">
+          <OfxPropLabel>启用</OfxPropLabel>
+          <OfxParamPropHint>开启/关闭中间调范围控制</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="27">
+          <OfxPropLabel>阴影</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="28">
+          <OfxPropLabel>选择色调</OfxPropLabel>
+          <OfxParamPropHint>选择要添加或减去的颜色</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="29">
+          <OfxPropLabel>色调</OfxPropLabel>
+          <OfxParamPropHint>添加或减去所选颜色</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="30">
+          <OfxPropLabel>饱和度</OfxPropLabel>
+          <OfxParamPropHint>控制阴影范围内的颜色强度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="31">
+          <OfxPropLabel>水平</OfxPropLabel>
+          <OfxParamPropHint>控制阴影范围内的曝光</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="32">
+          <OfxPropLabel>启用</OfxPropLabel>
+          <OfxParamPropHint>开启/关闭阴影范围控制</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="34">
+          <OfxPropLabel>H/M/S蒙版范围</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="35">
+          <OfxPropLabel>高-中阈值</OfxPropLabel>
+          <OfxParamPropHint>设置高光与中间调相遇的边界</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="36">
+          <OfxPropLabel>中-阴影阈值</OfxPropLabel>
+          <OfxParamPropHint>设置中间调与阴影相遇的边界</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="37">
+          <OfxPropLabel>混合</OfxPropLabel>
+          <OfxParamPropHint>在亮度范围之间应用溶解</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="38">
+          <OfxPropLabel>扩散</OfxPropLabel>
+          <OfxParamPropHint>擦除亮度范围之间的变化以保留细节</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="41">
+          <OfxPropLabel>蒙版</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeGroup name="42">
+          <OfxPropLabel>皮肤蒙版(颜色)</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="43">
+          <OfxPropLabel>选择色调</OfxPropLabel>
+          <OfxParamPropHint>选择要从二级校正中省略的颜色范围</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="44">
+          <OfxPropLabel>敏感度</OfxPropLabel>
+          <OfxParamPropHint>设置所选颜色周围的范围宽度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="45">
+          <OfxPropLabel>软化</OfxPropLabel>
+          <OfxParamPropHint>模糊颜色蒙版的边缘</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="46">
+          <OfxPropLabel>混合</OfxPropLabel>
+          <OfxParamPropHint>调整蒙版的不透明度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="47">
+          <OfxPropLabel>反转</OfxPropLabel>
+          <OfxParamPropHint>反转颜色蒙版的区域</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="48">
+          <OfxPropLabel>启用</OfxPropLabel>
+          <OfxParamPropHint>开启/关闭皮肤蒙版</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="50">
+          <OfxPropLabel>形状蒙版</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble2D name="51">
+          <OfxPropLabel>左上</OfxPropLabel>
+          <OfxParamPropHint>设置蒙版的左上角</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="52">
+          <OfxPropLabel>右上</OfxPropLabel>
+          <OfxParamPropHint>设置蒙版的右上角</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="53">
+          <OfxPropLabel>左下</OfxPropLabel>
+          <OfxParamPropHint>设置蒙版的左下角</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="54">
+          <OfxPropLabel>右下</OfxPropLabel>
+          <OfxParamPropHint>设置蒙版的右下角</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="55">
+          <OfxPropLabel>圆度</OfxPropLabel>
+          <OfxParamPropHint>弯曲蒙版角</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="56">
+          <OfxPropLabel>羽化</OfxPropLabel>
+          <OfxParamPropHint>软化蒙版边缘</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="57">
+          <OfxPropLabel>混合</OfxPropLabel>
+          <OfxParamPropHint>调整蒙版的不透明度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="58">
+          <OfxPropLabel>反转</OfxPropLabel>
+          <OfxParamPropHint>反转形状蒙版的区域</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="59">
+          <OfxPropLabel>限制颜色蒙版</OfxPropLabel>
+          <OfxParamPropHint>使用形状蒙版限制颜色蒙版的区域</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="60">
+          <OfxPropLabel>启用</OfxPropLabel>
+          <OfxParamPropHint>开启/关闭形状蒙版</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="64">
+          <OfxPropLabel>输出校正</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="65">
+          <OfxPropLabel>饱和度</OfxPropLabel>
+          <OfxParamPropHint>在二级校正后控制颜色强度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="66">
+          <OfxPropLabel>曝光</OfxPropLabel>
+          <OfxParamPropHint>在二级校正后控制亮度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="67">
+          <OfxPropLabel>亮度</OfxPropLabel>
+          <OfxParamPropHint>在二级校正后调整高光区域</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="69">
+          <OfxPropLabel>区域范围</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble2D name="70">
+          <OfxPropLabel>位置</OfxPropLabel>
+          <OfxParamPropHint>更改区域范围的位置</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="71">
+          <OfxPropLabel>宽度</OfxPropLabel>
+          <OfxParamPropHint>调整区域范围的宽度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="72">
+          <OfxPropLabel>高度</OfxPropLabel>
+          <OfxParamPropHint>调整区域范围的高度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="73">
+          <OfxPropLabel>视频范围</OfxPropLabel>
+          <OfxParamPropHint>选择所需的视频范围叠加类型</OfxParamPropHint>
+          <OfxParamPropChoiceOption>矢量 - 经典</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>矢量 - 颜色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>矢量 - 饱和度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>RGB游行</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>波形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>直方图</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>关闭</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.FIColorReplace">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>NB_颜色替换</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue 滤镜</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>预设</OfxPropLabel>
+          <OfxParamPropHint>打开预设下拉菜单</OfxParamPropHint>
+          <OfxParamPropChoiceOption>重置为无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>下午到日落</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>蓝色到绿色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>蓝色到红色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>更蓝的天空</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>更绿的绿色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>紫色天空</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>红色气体</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>红色到蓝色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>夏天到秋天橙色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>夏天到秋天红色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>打开预设...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>另存预设为...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeRGB name="0">
+          <OfxPropLabel>源颜色</OfxPropLabel>
+          <OfxParamPropHint>选择要替换的颜色</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>范围</OfxPropLabel>
+          <OfxParamPropHint>设置颜色的范围</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>渐变</OfxPropLabel>
+          <OfxParamPropHint>确定颜色的渐变淡出</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="3">
+          <OfxPropLabel>交换</OfxPropLabel>
+          <OfxParamPropHint>设置替换颜色</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>羽化</OfxPropLabel>
+          <OfxParamPropHint>模糊图像之间的边界</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>混合</OfxPropLabel>
+          <OfxParamPropHint>确定颜色的混合程度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="6">
+          <OfxPropLabel>显示蒙版</OfxPropLabel>
+          <OfxParamPropHint>仅显示将被替换的区域</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="7">
+          <OfxPropLabel>形状蒙版</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble2D name="8">
+          <OfxPropLabel>左上</OfxPropLabel>
+          <OfxParamPropHint>设置形状蒙版的左上角</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="9">
+          <OfxPropLabel>右上</OfxPropLabel>
+          <OfxParamPropHint>设置形状蒙版的右上角</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="10">
+          <OfxPropLabel>左下</OfxPropLabel>
+          <OfxParamPropHint>设置形状蒙版的左下角</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="11">
+          <OfxPropLabel>右下</OfxPropLabel>
+          <OfxParamPropHint>设置形状蒙版的右下角</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>曲线</OfxPropLabel>
+          <OfxParamPropHint>设置形状蒙版的圆度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="13">
+          <OfxPropLabel>羽化</OfxPropLabel>
+          <OfxParamPropHint>模糊形状蒙版的边缘</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="14">
+          <OfxPropLabel>反转</OfxPropLabel>
+          <OfxParamPropHint>反转形状蒙版</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="15">
+          <OfxPropLabel>启用</OfxPropLabel>
+          <OfxParamPropHint>启用形状蒙版</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.FIColorize">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>NB_着色</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue 滤镜</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>预设</OfxPropLabel>
+          <OfxParamPropHint>打开预设下拉菜单</OfxParamPropHint>
+          <OfxParamPropChoiceOption>糟糕的烟雾</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>柑橘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>褪色的原色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>褪色的打印</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>灰色的人</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>凌乱的腮红</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>只有蓝天</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>人们户外</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>粉红！</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>紫色黄色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>重置为无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>肤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>钠灯</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>打开预设...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>另存预设为...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeRGB name="0">
+          <OfxPropLabel>颜色A</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>强度A</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="2">
+          <OfxPropLabel>颜色B</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>强度B</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="4">
+          <OfxPropLabel>颜色C</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>强度C</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>平滑</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>饱和度</OfxPropLabel>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.FIDayforNight">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>NB_白天变黑夜</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue 滤镜</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>预设</OfxPropLabel>
+          <OfxParamPropHint>打开预设下拉菜单</OfxParamPropHint>
+          <OfxParamPropChoiceOption>重置为无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>黑暗的夜晚</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>黑暗的天空</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>黎明</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>强烈的</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>月光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>钠灯</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>体育场灯</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>打开预设...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>另存预设为...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="0">
+          <OfxPropLabel>颜色</OfxPropLabel>
+          <OfxParamPropHint>白天变黑夜</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="1">
+          <OfxPropLabel>色调</OfxPropLabel>
+          <OfxParamPropHint>选择要给图像着色的颜色</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>色调</OfxPropLabel>
+          <OfxParamPropHint>设置用所选颜色给图像着色的程度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>去饱和</OfxPropLabel>
+          <OfxParamPropHint>设置从图像中移除多少颜色</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="5">
+          <OfxPropLabel>光</OfxPropLabel>
+          <OfxParamPropHint>白天变黑夜</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>对比度</OfxPropLabel>
+          <OfxParamPropHint>设置图像对比度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>亮度</OfxPropLabel>
+          <OfxParamPropHint>调整图像亮度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="9">
+          <OfxPropLabel>变暗</OfxPropLabel>
+          <OfxParamPropHint>白天变黑夜</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="10">
+          <OfxPropLabel>颜色</OfxPropLabel>
+          <OfxParamPropHint>选择要由其他变暗天空控制调整的颜色。</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeBoolean name="11">
+          <OfxPropLabel>反转</OfxPropLabel>
+          <OfxParamPropHint>设置是否反转受影响的颜色</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>黑暗度</OfxPropLabel>
+          <OfxParamPropHint>设置所选颜色的黑暗水平</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="13">
+          <OfxPropLabel>敏感度</OfxPropLabel>
+          <OfxParamPropHint>设置所选颜色的敏感度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="14">
+          <OfxPropLabel>软化</OfxPropLabel>
+          <OfxParamPropHint>模糊处理和未处理图像之间的边界</OfxParamPropHint>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.FIDiffusion">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>NB_漫射/扩散</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue 滤镜</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>预设</OfxPropLabel>
+          <OfxParamPropHint>打开预设下拉菜单</OfxParamPropHint>
+          <OfxParamPropChoiceOption>重置为无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>来世</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>黑光夜晚</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>蓝光特别</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>电影戏剧</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深红光环</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>青色精神</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>外质口音</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>金色梦想</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>忧郁的自然</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>怀旧的演员</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>粉红天空</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>浪漫的梦想</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>有毒的迷恋</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>小麦</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>打开预设...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>另存预设为...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeRGB name="0">
+          <OfxPropLabel>颜色</OfxPropLabel>
+          <OfxParamPropHint>创建的大气颜色</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>模糊</OfxPropLabel>
+          <OfxParamPropHint>软化辉光</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>辉光</OfxPropLabel>
+          <OfxParamPropHint>创建辉光的区域大小</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>氛围</OfxPropLabel>
+          <OfxParamPropHint>辉光源外部周围区域的亮度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>变暗</OfxPropLabel>
+          <OfxParamPropHint>减少效果的整体亮度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="5">
+          <OfxPropLabel>混合模式</OfxPropLabel>
+          <OfxParamPropHint>将效果与原图混合的方法</OfxParamPropHint>
+          <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>颜色减淡</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>强光</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>混合</OfxPropLabel>
+          <OfxParamPropHint>效果与原图混合的量</OfxParamPropHint>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.FIDreamGlow">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>NB_梦幻发光</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue 滤镜</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>预设</OfxPropLabel>
+          <OfxParamPropHint>打开预设下拉菜单</OfxParamPropHint>
+          <OfxParamPropChoiceOption>重置为无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>天使般的</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>水色的</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>黑光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>暗室</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>辉光高光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>灰色梦想</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>柠檬果冻</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>夜视</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>紫色边缘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>打开预设...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>另存预设为...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeRGB name="0">
+          <OfxPropLabel>颜色</OfxPropLabel>
+          <OfxParamPropHint>辉光的颜色</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>模糊</OfxPropLabel>
+          <OfxParamPropHint>应用于辉光的模糊量</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>辉光</OfxPropLabel>
+          <OfxParamPropHint>从边缘发出的辉光强度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.FIDuochrome">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>NB_双色调</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue 滤镜</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>预设</OfxPropLabel>
+          <OfxParamPropHint>打开预设下拉菜单</OfxParamPropHint>
+          <OfxParamPropChoiceOption>重置为无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>酸之旅</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>黑白</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>凉爽的</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>腐蚀</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>荧光高光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>火辉光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>光雾</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>晕动病</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>负片</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>莎草纸</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>粉红溢出</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>极地</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>放射性橄榄</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>棕褐色色调</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>温暖的</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>黄色 - 蓝色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>打开预设...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>另存预设为...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeRGB name="0">
+          <OfxPropLabel>纸张</OfxPropLabel>
+          <OfxParamPropHint>高光区域的颜色</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="1">
+          <OfxPropLabel>墨水</OfxPropLabel>
+          <OfxParamPropHint>阴影区域的颜色</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>混合</OfxPropLabel>
+          <OfxParamPropHint>效果与原图混合的量</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="3">
+          <OfxPropLabel>混合模式</OfxPropLabel>
+          <OfxParamPropHint>将效果与原图混合的方法</OfxParamPropHint>
+          <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>流行</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>颜色减淡</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>强光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>生动光</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.FIFilmCamera">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>NB_胶片相机</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue 滤镜</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>预设</OfxPropLabel>
+          <OfxParamPropHint>打开预设下拉菜单</OfxParamPropHint>
+          <OfxParamPropChoiceOption>相机，手摇</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>地震！</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>电风暴</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>火光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>来自战前线的新闻片</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>重置为无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>轻微相机抖动</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>火车之旅</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>打开预设...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>另存预设为...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="0">
+          <OfxPropLabel>Y抖动</OfxPropLabel>
+          <OfxParamPropHint>在Y轴上移动帧</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>X抖动</OfxPropLabel>
+          <OfxParamPropHint>在X轴上移动帧</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="2">
+          <OfxPropLabel>边框</OfxPropLabel>
+          <OfxParamPropHint>设置图像周围边框的颜色</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>闪烁</OfxPropLabel>
+          <OfxParamPropHint>调整每个帧的亮度以产生闪烁效果</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>闪烁速率</OfxPropLabel>
+          <OfxParamPropHint>调整亮度调整的频率</OfxParamPropHint>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.FIFilmColor">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>NB_胶片颜色</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue 滤镜</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>预设</OfxPropLabel>
+          <OfxParamPropHint>打开预设下拉菜单</OfxParamPropHint>
+          <OfxParamPropChoiceOption>重置为无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>黑白</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>漂白的</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>鲜艳颜色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>咖啡馆</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>凉爽的</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>扩散</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>地球</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>爱克发彩色胶片</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>褪色的</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>黑色电影</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>荧光灯</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>教母</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>热</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>冰</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>柯达彩色胶片</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>苦难</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>月光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>夜晚</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>粉红色调</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>海报化</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>锈</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>饱和颜色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>灼热</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>科幻未来</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>棕褐色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>烟雾弥漫的日子</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>钠灯</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>温暖的</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>洗掉的</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>打开预设...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>另存预设为...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeRGB name="0">
+          <OfxPropLabel>色调</OfxPropLabel>
+          <OfxParamPropHint>设置要强调的颜色</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>色调</OfxPropLabel>
+          <OfxParamPropHint>设置颜色的影响</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>饱和度</OfxPropLabel>
+          <OfxParamPropHint>调整颜色强度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>亮度</OfxPropLabel>
+          <OfxParamPropHint>调整图像亮度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>对比度</OfxPropLabel>
+          <OfxParamPropHint>调整图像对比度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>胶片伽马</OfxPropLabel>
+          <OfxParamPropHint>再现胶片的亮度行为</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>扩散</OfxPropLabel>
+          <OfxParamPropHint>在图像的光区域周围添加辉光</OfxParamPropHint>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.FIFilmColor2">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>NB_胶片颜色2</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue 滤镜</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>预设</OfxPropLabel>
+          <OfxParamPropHint>打开预设下拉菜单</OfxParamPropHint>
+          <OfxParamPropChoiceOption>重置为无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>黑白Ilford</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>黑白墨水</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>黑白Tri-X</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>鸟女孩</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>黑白</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>漂白的</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>咖啡馆</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>肉桂</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>凉爽的</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>凉爽对比</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>扩散</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>地球</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>爱克发彩色胶片</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>褪色的</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>黑色电影</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>荧光灯</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>法医</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Gitty绿色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>教母</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Gramify</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>即时肖像</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>锁定</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>棕褐色投射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>日落投射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>生动</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>生动颜色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>温暖焦点</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>波浪骑士</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>打开预设...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>另存预设为...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeRGB name="0">
+          <OfxPropLabel>选择色调</OfxPropLabel>
+          <OfxParamPropHint>要强调的颜色</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>色调</OfxPropLabel>
+          <OfxParamPropHint>颜色的量</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>饱和度</OfxPropLabel>
+          <OfxParamPropHint>颜色强度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>曝光</OfxPropLabel>
+          <OfxParamPropHint>整体亮度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>亮度</OfxPropLabel>
+          <OfxParamPropHint>高光的强度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>胶片伽马</OfxPropLabel>
+          <OfxParamPropHint>添加胶片的阴影和高光特性</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>扩散</OfxPropLabel>
+          <OfxParamPropHint>绽放高光区域</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="7">
+          <OfxPropLabel>晕影</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="8">
+          <OfxPropLabel>风格</OfxPropLabel>
+          <OfxParamPropHint>晕影形状</OfxParamPropHint>
+          <OfxParamPropChoiceOption>椭圆</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>矩形</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="9">
+          <OfxPropLabel>大小</OfxPropLabel>
+          <OfxParamPropHint>从边缘的晕影区域</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="10">
+          <OfxPropLabel>强度</OfxPropLabel>
+          <OfxParamPropHint>晕影与原图混合的量</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>羽化</OfxPropLabel>
+          <OfxParamPropHint>晕影边缘的柔软度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="13">
+          <OfxPropLabel>颗粒</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="14">
+          <OfxPropLabel>大小</OfxPropLabel>
+          <OfxParamPropHint>颗粒晶体的规模</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="15">
+          <OfxPropLabel>平衡</OfxPropLabel>
+          <OfxParamPropHint>阴影与高光中的颗粒量</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="16">
+          <OfxPropLabel>混合</OfxPropLabel>
+          <OfxParamPropHint>颗粒与原图混合的量</OfxParamPropHint>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.FIFilmGrain">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>NB_胶片颗粒</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue 滤镜</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>预设</OfxPropLabel>
+          <OfxParamPropHint>打开预设下拉菜单</OfxParamPropHint>
+          <OfxParamPropChoiceOption>重置为无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>化学脆化</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>晶化</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深砂砾</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>细而锐利</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>FJI 35mm</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>FJI 8mm</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>亮部颗粒</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>火药</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>KDK 16mm</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>KDK 35mm</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>KDK 8mm</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>小斑点</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>NY Luke</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>软颗粒</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>打开预设...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>另存预设为...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="0">
+          <OfxPropLabel>去噪</OfxPropLabel>
+          <OfxParamPropHint>从原图移除视频噪声</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="1">
+          <OfxPropLabel>混合模式</OfxPropLabel>
+          <OfxParamPropHint>将颗粒与原图混合的方法</OfxParamPropHint>
+          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>流行</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>颜色加深</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>强度</OfxPropLabel>
+          <OfxParamPropHint>增加颗粒的对比度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>大小</OfxPropLabel>
+          <OfxParamPropHint>颗粒晶体的规模</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>平衡</OfxPropLabel>
+          <OfxParamPropHint>阴影与高光中的颗粒量</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>混合</OfxPropLabel>
+          <OfxParamPropHint>颗粒与原图混合的量</OfxParamPropHint>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.FIFishEye">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>NB_鱼眼</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue 滤镜</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>预设</OfxPropLabel>
+          <OfxParamPropHint>打开预设下拉菜单</OfxParamPropHint>
+          <OfxParamPropChoiceOption>大脸</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>黑洞</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>气泡</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>鱼眼镜头</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>焦点左侧</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>焦点右侧</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>向下看</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>向上看</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>针垫</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>餐垫</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>重置为无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>广角镜头</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>打开预设...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>另存预设为...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble2D name="0">
+          <OfxPropLabel>中心</OfxPropLabel>
+          <OfxParamPropHint>设置鱼眼中心的的位置</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>大小</OfxPropLabel>
+          <OfxParamPropHint>设置鱼眼的大小</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>扭曲</OfxPropLabel>
+          <OfxParamPropHint>设置扭曲量</OfxParamPropHint>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.FIFrameRate">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>NB_帧率/定格动画</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue 滤镜</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>预设</OfxPropLabel>
+          <OfxParamPropHint>打开预设下拉菜单</OfxParamPropHint>
+          <OfxParamPropChoiceOption>1秒全渐变(1fps)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1秒保持(1fps)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>2秒全渐变(2fps)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>2秒保持(2fps)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>动作动画(18fps)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>模糊帧(8fps)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>插图(8fps)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>平滑插图(8fps)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>跳跃轨迹(6fps)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>单帧(24fps)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>单帧(30fps)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>双帧(12fps)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>双帧(15fps)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>重置为无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>打开预设...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>另存预设为...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="0">
+          <OfxPropLabel>每秒帧数</OfxPropLabel>
+          <OfxParamPropHint>设置静止图像显示的长度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>随机化FPS</OfxPropLabel>
+          <OfxParamPropHint>允许显示的时间被随机修改</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>交叉渐变百分比</OfxPropLabel>
+          <OfxParamPropHint>设置静止图像交叉渐变</OfxParamPropHint>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.FIGradientTint">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>NB_渐变色调</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue 滤镜</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>预设</OfxPropLabel>
+          <OfxParamPropHint>打开预设下拉菜单</OfxParamPropHint>
+          <OfxParamPropChoiceOption>重置为无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>更蓝的天空</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>突出最佳</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>改变蓝色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>黑暗和光明</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>黑暗角落</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>黑暗邪恶</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>沙漠胜利</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>祖母绿触感</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>褪色胶片1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>褪色胶片2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>褪色胶片3</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>微弱的肉色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>假3D眼镜</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>荧光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>温柔的威严</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>绿黄红秀</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>更绿的草</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>加热视觉</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>嬉皮雾</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>火星上的生命</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>上方光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>下方光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>橄榄</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>橙色地平线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>粉红雾</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>伪热成像</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>紫色威严</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>风暴来临</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>技术色彩划分</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>黄昏</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>右上光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>非常蓝的水</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>温暖光谱</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>黄色轮廓</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>打开预设...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>另存预设为...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="0">
+          <OfxPropLabel>渐变</OfxPropLabel>
+          <OfxParamPropHint>设置两个色调之间的位置和过渡</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble2D name="1">
+          <OfxPropLabel>中心</OfxPropLabel>
+          <OfxParamPropHint>设置渐变的位置</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>角度</OfxPropLabel>
+          <OfxParamPropHint>旋转渐变</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>交叉渐变</OfxPropLabel>
+          <OfxParamPropHint>调整过渡柔软度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="5">
+          <OfxPropLabel>第一色调</OfxPropLabel>
+          <OfxParamPropHint>设置色调一的颜色、色调和蒙版</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="6">
+          <OfxPropLabel>颜色</OfxPropLabel>
+          <OfxParamPropHint>设置色调颜色</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>混合</OfxPropLabel>
+          <OfxParamPropHint>调整色调的混合</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="8">
+          <OfxPropLabel>蒙版</OfxPropLabel>
+          <OfxParamPropHint>选择要应用色调的颜色</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="10">
+          <OfxPropLabel>第二色调</OfxPropLabel>
+          <OfxParamPropHint>设置色调二的颜色、色调和蒙版</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="11">
+          <OfxPropLabel>颜色</OfxPropLabel>
+          <OfxParamPropHint>设置色调颜色</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>混合</OfxPropLabel>
+          <OfxParamPropHint>调整色调的混合</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="13">
+          <OfxPropLabel>蒙版</OfxPropLabel>
+          <OfxParamPropHint>选择要应用色调的颜色</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="15">
+          <OfxPropLabel>混合模式</OfxPropLabel>
+          <OfxParamPropHint>选择色调如何影响源图像</OfxParamPropHint>
+          <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>流行</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>变亮</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>变暗</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>颜色减淡</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>颜色加深</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>否定</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>色相</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.FILightLeak">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>NB_光晕/漏光</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue 滤镜</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>预设</OfxPropLabel>
+          <OfxParamPropHint>打开预设下拉菜单</OfxParamPropHint>
+          <OfxParamPropChoiceOption>重置为无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>凉爽洗涤</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>跨越</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>银河干扰</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>魅力</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>绿地精</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>灰雾</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>热闪</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>冰瀑</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>柠檬青柠</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>传递温暖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>粉红光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓慢燃烧</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>软漏</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>条纹蓝色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>冲浪电影</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>白雾</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>打开预设...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>另存预设为...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="0">
+          <OfxPropLabel>光外观</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="1">
+          <OfxPropLabel>类型</OfxPropLabel>
+          <OfxParamPropHint>选择要使用的漏光形状</OfxParamPropHint>
+          <OfxParamPropChoiceOption>两者</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>洗涤</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缕</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>变体</OfxPropLabel>
+          <OfxParamPropHint>浏览选项</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>旋转</OfxPropLabel>
+          <OfxParamPropHint>旋转方向</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>规模</OfxPropLabel>
+          <OfxParamPropHint>增加大小</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>强度</OfxPropLabel>
+          <OfxParamPropHint>增加强度和对比度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>饱和度</OfxPropLabel>
+          <OfxParamPropHint>加强颜色</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>色相</OfxPropLabel>
+          <OfxParamPropHint>改变颜色</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="8">
+          <OfxPropLabel>混合模式</OfxPropLabel>
+          <OfxParamPropHint>将效果与原图混合的方法</OfxParamPropHint>
+          <OfxParamPropChoiceOption>加法</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>变亮</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="9">
+          <OfxPropLabel>混合</OfxPropLabel>
+          <OfxParamPropHint>效果与原图混合的量</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="11">
+          <OfxPropLabel>光运动</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>速度</OfxPropLabel>
+          <OfxParamPropHint>漏光播放的速度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="13">
+          <OfxPropLabel>密度</OfxPropLabel>
+          <OfxParamPropHint>一起播放多少漏光</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="14">
+          <OfxPropLabel>安静期</OfxPropLabel>
+          <OfxParamPropHint>漏光不出现的频率</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="15">
+          <OfxPropLabel>缓出</OfxPropLabel>
+          <OfxParamPropHint>漏光逐渐结束 vs 突然</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.FIOldTV">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>NB_老电视</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue 滤镜</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>预设</OfxPropLabel>
+          <OfxParamPropHint>打开预设下拉菜单</OfxParamPropHint>
+          <OfxParamPropChoiceOption>断天线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>打电话给修理工</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>控制台电视</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>爷爷的电视</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>绿屏</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>搞砸了</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>重置为无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>拍摄屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>雪</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>来自火星的传输</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>管时代</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>暮光区</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>打开预设...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>另存预设为...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="0">
+          <OfxPropLabel>视频质量</OfxPropLabel>
+          <OfxParamPropHint>老电视</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>噪声</OfxPropLabel>
+          <OfxParamPropHint>向图像添加静态</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>色度</OfxPropLabel>
+          <OfxParamPropHint>调整图像的色调</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="3">
+          <OfxPropLabel>色调</OfxPropLabel>
+          <OfxParamPropHint>设置色调颜色</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>色调</OfxPropLabel>
+          <OfxParamPropHint>调整色调的混合</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>饱和度</OfxPropLabel>
+          <OfxParamPropHint>调整颜色强度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>亮度</OfxPropLabel>
+          <OfxParamPropHint>调整图像亮度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>对比度</OfxPropLabel>
+          <OfxParamPropHint>设置图像对比度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="8">
+          <OfxPropLabel>重影</OfxPropLabel>
+          <OfxParamPropHint>向图像添加重影</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="10">
+          <OfxPropLabel>扫描线</OfxPropLabel>
+          <OfxParamPropHint>老电视</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>分辨率</OfxPropLabel>
+          <OfxParamPropHint>设置扫描线的厚度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>强度</OfxPropLabel>
+          <OfxParamPropHint>设置扫描线的亮度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="14">
+          <OfxPropLabel>水平同步</OfxPropLabel>
+          <OfxParamPropHint>老电视</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="15">
+          <OfxPropLabel>严重度</OfxPropLabel>
+          <OfxParamPropHint>设置水平同步错误的严重度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="16">
+          <OfxPropLabel>频率</OfxPropLabel>
+          <OfxParamPropHint>设置水平同步错误的频率</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="18">
+          <OfxPropLabel>垂直同步</OfxPropLabel>
+          <OfxParamPropHint>老电视</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="19">
+          <OfxPropLabel>速度</OfxPropLabel>
+          <OfxParamPropHint>设置图像滚动的速度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="20">
+          <OfxPropLabel>周期</OfxPropLabel>
+          <OfxParamPropHint>设置图像滚动的频率</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="21">
+          <OfxPropLabel>垂直空白</OfxPropLabel>
+          <OfxParamPropHint>在图像滚动时添加黑条</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="23">
+          <OfxPropLabel>扫描相位</OfxPropLabel>
+          <OfxParamPropHint>老电视</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="24">
+          <OfxPropLabel>速率</OfxPropLabel>
+          <OfxParamPropHint>设置亮带移动的速度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="25">
+          <OfxPropLabel>重叠</OfxPropLabel>
+          <OfxParamPropHint>设置亮带的高度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="27">
+          <OfxPropLabel>形状</OfxPropLabel>
+          <OfxParamPropHint>老电视</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="28">
+          <OfxPropLabel>曲率</OfxPropLabel>
+          <OfxParamPropHint>设置电视图像的圆度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="29">
+          <OfxPropLabel>软化边缘</OfxPropLabel>
+          <OfxParamPropHint>羽化电视图像的边缘</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="30">
+          <OfxPropLabel>不透明度</OfxPropLabel>
+          <OfxParamPropHint>设置电视图像边框的不透明度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.FISaturationEQ">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>NB_饱和度EQ(均衡器)</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue 滤镜</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>预设</OfxPropLabel>
+          <OfxParamPropHint>打开预设下拉菜单</OfxParamPropHint>
+          <OfxParamPropChoiceOption>仅水色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>仅蓝色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>增强蓝色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>增强绿色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>增强红色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>绿草 - 蓝天</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>仅绿色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>仅品红色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>柔和红色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>仅橙色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>仅紫色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>仅红色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>减少蓝色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>减少绿色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>减少红色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>移除天空</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>重置为无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>仅黄色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>打开预设...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>另存预设为...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="0">
+          <OfxPropLabel>红色</OfxPropLabel>
+          <OfxParamPropHint>调整图像中红色的量</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>橙色</OfxPropLabel>
+          <OfxParamPropHint>调整图像中橙色的量</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>黄色</OfxPropLabel>
+          <OfxParamPropHint>调整图像中黄色的量</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>绿色</OfxPropLabel>
+          <OfxParamPropHint>调整图像中绿色的量</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>水色</OfxPropLabel>
+          <OfxParamPropHint>调整图像中水色的量</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>蓝色</OfxPropLabel>
+          <OfxParamPropHint>调整图像中蓝色的量</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>紫色</OfxPropLabel>
+          <OfxParamPropHint>调整图像中紫色的量</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>品红色</OfxPropLabel>
+          <OfxParamPropHint>调整图像中品红色的量</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="8">
+          <OfxPropLabel>平滑</OfxPropLabel>
+          <OfxParamPropHint>平滑图像中颜色之间的过渡</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="9">
+          <OfxPropLabel>自定义颜色</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="10">
+          <OfxPropLabel>颜色</OfxPropLabel>
+          <OfxParamPropHint>设置要调整的自定义颜色</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>增益</OfxPropLabel>
+          <OfxParamPropHint>调整自定义颜色的饱和度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>范围</OfxPropLabel>
+          <OfxParamPropHint>调整自定义颜色影响的范围</OfxParamPropHint>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.FISaturationModifier">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>NB_饱和度修改器</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue 滤镜</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>预设</OfxPropLabel>
+          <OfxParamPropHint>打开预设下拉菜单</OfxParamPropHint>
+          <OfxParamPropChoiceOption>背景太饱和</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>两全其美</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>增强不饱和颜色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>去饱和</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>强调饱和物体</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>强烈的</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>减少过饱和颜色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>重置为无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>打开预设...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>另存预设为...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="0">
+          <OfxPropLabel>饱和度以上</OfxPropLabel>
+          <OfxParamPropHint>调整阈值以上颜色的饱和度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>阈值</OfxPropLabel>
+          <OfxParamPropHint>设置饱和度调整的阈值</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>饱和度以下</OfxPropLabel>
+          <OfxParamPropHint>调整阈值以下颜色的饱和度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>平滑</OfxPropLabel>
+          <OfxParamPropHint>平滑图像中颜色之间的过渡</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="4">
+          <OfxPropLabel>显示蒙版</OfxPropLabel>
+          <OfxParamPropHint>显示正在应用的饱和度变化</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="5">
+          <OfxPropLabel>自定义饱和颜色</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="6">
+          <OfxPropLabel>颜色</OfxPropLabel>
+          <OfxParamPropHint>设置要调整的自定义颜色</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>增益</OfxPropLabel>
+          <OfxParamPropHint>调整自定义颜色的饱和度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="8">
+          <OfxPropLabel>范围</OfxPropLabel>
+          <OfxParamPropHint>调整自定义颜色的范围</OfxParamPropHint>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.FISelectiveColor">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>NB_选择性颜色/颜色分离</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue 滤镜</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>预设</OfxPropLabel>
+          <OfxParamPropHint>打开预设下拉菜单</OfxParamPropHint>
+          <OfxParamPropChoiceOption>荒凉的</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>蓝天和绿树</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>沉闷的日子</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>肉色调</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>颗粒颜色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>仅蓝色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>仅绿色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>仅红色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>自然</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>重置为无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>日落</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>打开预设...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>另存预设为...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="0">
+          <OfxPropLabel>第一颜色</OfxPropLabel>
+          <OfxParamPropHint>选择性颜色</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="1">
+          <OfxPropLabel>色调</OfxPropLabel>
+          <OfxParamPropHint>设置要隔离的主要颜色</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>范围</OfxPropLabel>
+          <OfxParamPropHint>调整保持可见的色调范围</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="4">
+          <OfxPropLabel>第二颜色</OfxPropLabel>
+          <OfxParamPropHint>选择性颜色</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="5">
+          <OfxPropLabel>色调</OfxPropLabel>
+          <OfxParamPropHint>设置要隔离的次要颜色</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>范围</OfxPropLabel>
+          <OfxParamPropHint>调整保持可见的色调范围</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="8">
+          <OfxPropLabel>软化</OfxPropLabel>
+          <OfxParamPropHint>模糊所选颜色与图像其余部分之间的边界</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="9">
+          <OfxPropLabel>强度</OfxPropLabel>
+          <OfxParamPropHint>设置效果的强度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="10">
+          <OfxPropLabel>显示蒙版</OfxPropLabel>
+          <OfxParamPropHint>将图像显示为黑白蒙版</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.FISelectiveHue">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>NB_选择性色相</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue 滤镜</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>预设</OfxPropLabel>
+          <OfxParamPropHint>打开预设下拉菜单</OfxParamPropHint>
+          <OfxParamPropChoiceOption>重置为无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>蓝色到红色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>色度键绿色增强</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>去黄色皮肤</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>增强金色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>吸出蓝色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>加强粉红</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>红色到蓝色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>从绿色中移除黄色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>冬天</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>打开预设...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>另存预设为...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeRGB name="0">
+          <OfxPropLabel>源颜色</OfxPropLabel>
+          <OfxParamPropHint>选择要操纵的目标颜色</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeGroup name="1">
+          <OfxPropLabel>源调整</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>目标亮度</OfxPropLabel>
+          <OfxParamPropHint>按亮度移动目标颜色</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>目标饱和度</OfxPropLabel>
+          <OfxParamPropHint>按饱和度移动目标颜色</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>目标色相</OfxPropLabel>
+          <OfxParamPropHint>按色相移动目标颜色</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>范围</OfxPropLabel>
+          <OfxParamPropHint>蒙版中包含的相邻颜色量</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>色相</OfxPropLabel>
+          <OfxParamPropHint>将目标颜色移动到另一个色相</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="8">
+          <OfxPropLabel>饱和度</OfxPropLabel>
+          <OfxParamPropHint>加强颜色结果的亮度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="9">
+          <OfxPropLabel>亮度</OfxPropLabel>
+          <OfxParamPropHint>亮化颜色结果</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="10">
+          <OfxPropLabel>软化</OfxPropLabel>
+          <OfxParamPropHint>模糊颜色蒙版的边缘</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>强度</OfxPropLabel>
+          <OfxParamPropHint>将效果量混合到原图</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="12">
+          <OfxPropLabel>反转</OfxPropLabel>
+          <OfxParamPropHint>反转蒙版以影响外部</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="13">
+          <OfxPropLabel>显示蒙版</OfxPropLabel>
+          <OfxParamPropHint>查看正在创建的实际颜色蒙版</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="14">
+          <OfxPropLabel>蒙版清理</OfxPropLabel>
+          <OfxParamPropHint>移除垃圾并平滑蒙版的边缘</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="15">
+          <OfxPropLabel>蒙版大小</OfxPropLabel>
+          <OfxParamPropHint>增加或减少蒙版的区域</OfxParamPropHint>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.FISelectiveTint">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>NB_选择性色调</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue 滤镜</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>预设</OfxPropLabel>
+          <OfxParamPropHint>打开预设下拉菜单</OfxParamPropHint>
+          <OfxParamPropChoiceOption>蓝色晕影</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>中心聚光灯</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>死亡射线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>增强蓝天</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>金色辉光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>热灯</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>即时晒黑</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>月光夜晚</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>负片</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>橙色和蓝绿色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>重置为无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>奇怪的框架</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>牵引光束</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>打开预设...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>另存预设为...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="0">
+          <OfxPropLabel>形状</OfxPropLabel>
+          <OfxParamPropHint>选择性色调</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble2D name="1">
+          <OfxPropLabel>左上</OfxPropLabel>
+          <OfxParamPropHint>设置蒙版区域的左上角</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="2">
+          <OfxPropLabel>右上</OfxPropLabel>
+          <OfxParamPropHint>设置蒙版区域的右上角</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="3">
+          <OfxPropLabel>左下</OfxPropLabel>
+          <OfxParamPropHint>设置蒙版区域的左下角</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="4">
+          <OfxPropLabel>右下</OfxPropLabel>
+          <OfxParamPropHint>设置蒙版区域的右下角</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>曲线</OfxPropLabel>
+          <OfxParamPropHint>设置蒙版的圆度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>渐变</OfxPropLabel>
+          <OfxParamPropHint>设置内外部区域之间的混合量</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="7">
+          <OfxPropLabel>测试蒙版</OfxPropLabel>
+          <OfxParamPropHint>将蒙版外部区域显示为负像</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="9">
+          <OfxPropLabel>内色调</OfxPropLabel>
+          <OfxParamPropHint>选择性色调</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="10">
+          <OfxPropLabel>颜色</OfxPropLabel>
+          <OfxParamPropHint>设置色调颜色</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>混合</OfxPropLabel>
+          <OfxParamPropHint>调整色调的混合</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>蒙版</OfxPropLabel>
+          <OfxParamPropHint>选择要应用色调的颜色</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="14">
+          <OfxPropLabel>外色调</OfxPropLabel>
+          <OfxParamPropHint>选择性色调</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="15">
+          <OfxPropLabel>颜色</OfxPropLabel>
+          <OfxParamPropHint>设置色调颜色</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="16">
+          <OfxPropLabel>混合</OfxPropLabel>
+          <OfxParamPropHint>调整色调的混合</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="17">
+          <OfxPropLabel>蒙版</OfxPropLabel>
+          <OfxParamPropHint>选择要应用色调的颜色</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="19">
+          <OfxPropLabel>混合模式</OfxPropLabel>
+          <OfxParamPropHint>选择色调如何影响源图像</OfxParamPropHint>
+          <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>流行</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>变亮</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>变暗</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>颜色减淡</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>颜色加深</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>否定</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>色相</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.FISoftFocus">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>NB_柔焦/散焦</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue 滤镜</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>预设</OfxPropLabel>
+          <OfxParamPropHint>打开预设下拉菜单</OfxParamPropHint>
+          <OfxParamPropChoiceOption>模糊视野</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>梦想</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>雾</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>重置为无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>软化</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>打开预设...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>另存预设为...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="0">
+          <OfxPropLabel>模糊</OfxPropLabel>
+          <OfxParamPropHint>控制模糊的宽度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>混合</OfxPropLabel>
+          <OfxParamPropHint>设置模糊图像与原图的混合</OfxParamPropHint>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.FISpotlight">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>NB_聚光灯</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue 滤镜</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>预设</OfxPropLabel>
+          <OfxParamPropHint>打开预设下拉菜单</OfxParamPropHint>
+          <OfxParamPropChoiceOption>重置为无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>艺术之家梦想</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>黑白中心</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>盲点</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>模糊点</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>明亮椭圆点</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>明亮点</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>烧焦窥孔</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>天花板灯</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>中心增强</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆形叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>经典肖像</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>优雅强调</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>清晰点</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>交叉带</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>暗点</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>黑暗晕影</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>聚焦注意力</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>磨砂雪球</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>发光球体</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>家庭电影</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>隔离</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>熔岩灯</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>光晕影</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>单色带</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>机架焦点</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>红球</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>探照灯</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>棕褐色侧面</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>演出必须继续</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>柔和舒缓</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>微妙强调</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>沼泽外星人眼睛</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>剑切</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>打开预设...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>另存预设为...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="0">
+          <OfxPropLabel>形状</OfxPropLabel>
+          <OfxParamPropHint>控制聚光灯的位置和尺寸</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble2D name="1">
+          <OfxPropLabel>中心</OfxPropLabel>
+          <OfxParamPropHint>在图像内移动聚光灯</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="2">
+          <OfxPropLabel>角度</OfxPropLabel>
+          <OfxParamPropHint>改变聚光灯的倾斜</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeBoolean name="3">
+          <OfxPropLabel>角度跟踪中心</OfxPropLabel>
+          <OfxParamPropHint>确保中心和角度始终具有相同的相对大小</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>大小</OfxPropLabel>
+          <OfxParamPropHint>改变聚光灯的大小</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>羽化</OfxPropLabel>
+          <OfxParamPropHint>软化聚光灯的边缘</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="6">
+          <OfxPropLabel>透明背景</OfxPropLabel>
+          <OfxParamPropHint>清除聚光灯周围的一切，以便用作叠加</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="8">
+          <OfxPropLabel>聚光灯</OfxPropLabel>
+          <OfxParamPropHint>调整聚光灯边界内部</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="9">
+          <OfxPropLabel>色调</OfxPropLabel>
+          <OfxParamPropHint>设置色调</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="10">
+          <OfxPropLabel>色调</OfxPropLabel>
+          <OfxParamPropHint>调整色调的强度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>颜色</OfxPropLabel>
+          <OfxParamPropHint>调整饱和度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>亮度</OfxPropLabel>
+          <OfxParamPropHint>调整亮度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="13">
+          <OfxPropLabel>清晰度</OfxPropLabel>
+          <OfxParamPropHint>设置动态范围的对比度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="14">
+          <OfxPropLabel>模糊</OfxPropLabel>
+          <OfxParamPropHint>调整模糊和焦点</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="16">
+          <OfxPropLabel>背景</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="17">
+          <OfxPropLabel>色调</OfxPropLabel>
+          <OfxParamPropHint>设置色调</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="18">
+          <OfxPropLabel>色调</OfxPropLabel>
+          <OfxParamPropHint>调整色调的强度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="19">
+          <OfxPropLabel>颜色</OfxPropLabel>
+          <OfxParamPropHint>调整饱和度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="20">
+          <OfxPropLabel>亮度</OfxPropLabel>
+          <OfxParamPropHint>调整亮度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="21">
+          <OfxPropLabel>清晰度</OfxPropLabel>
+          <OfxParamPropHint>设置动态范围的对比度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="22">
+          <OfxPropLabel>模糊</OfxPropLabel>
+          <OfxParamPropHint>调整模糊和焦点</OfxParamPropHint>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.FITiltShift">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>NB_变焦/景深</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue 滤镜</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>预设</OfxPropLabel>
+          <OfxParamPropHint>打开预设下拉菜单</OfxParamPropHint>
+          <OfxParamPropChoiceOption>奶油边缘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>对角动态</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>远处顶部</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>梦想模糊</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>半像</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>重置为无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>锐利距离</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>移轴</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>打开预设...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>另存预设为...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="0">
+          <OfxPropLabel>散焦</OfxPropLabel>
+          <OfxParamPropHint>设置焦点模糊的量</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="1">
+          <OfxPropLabel>中心</OfxPropLabel>
+          <OfxParamPropHint>设置焦点带的中心点</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>角度</OfxPropLabel>
+          <OfxParamPropHint>设置焦点带的方向</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>扩散</OfxPropLabel>
+          <OfxParamPropHint>设置焦点带的宽度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>混合</OfxPropLabel>
+          <OfxParamPropHint>设置焦点区域之间的混合速率</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>曝光</OfxPropLabel>
+          <OfxParamPropHint>增加光水平</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="6">
+          <OfxPropLabel>显示蒙版</OfxPropLabel>
+          <OfxParamPropHint>仅显示将被替换的区域</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.FITint">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>NB_色调</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue 滤镜</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>预设</OfxPropLabel>
+          <OfxParamPropHint>打开预设下拉菜单</OfxParamPropHint>
+          <OfxParamPropChoiceOption>重置为无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>青铜</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>澄清</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>突击队</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>黄昏</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>辐射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>搏击俱乐部</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>熔炉</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>夜视</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>温暖的</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>打开预设...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>另存预设为...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeRGB name="0">
+          <OfxPropLabel>颜色</OfxPropLabel>
+          <OfxParamPropHint>色调的颜色</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>色调</OfxPropLabel>
+          <OfxParamPropHint>色调的强度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>饱和度</OfxPropLabel>
+          <OfxParamPropHint>颜色强度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>亮度</OfxPropLabel>
+          <OfxParamPropHint>整体曝光</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>胶片伽马</OfxPropLabel>
+          <OfxParamPropHint>添加胶片的阴影和高光特性</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="5">
+          <OfxPropLabel>混合模式</OfxPropLabel>
+          <OfxParamPropHint>将效果与原图混合的方法</OfxParamPropHint>
+          <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>流行</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>变暗</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>强光</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>混合</OfxPropLabel>
+          <OfxParamPropHint>效果与原图混合的量</OfxParamPropHint>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.FIVignette">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>NB_晕影/暗角</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue 滤镜</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>预设</OfxPropLabel>
+          <OfxParamPropHint>打开预设下拉菜单</OfxParamPropHint>
+          <OfxParamPropChoiceOption>添加特征</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>双筒望远镜</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>梦幻的</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>假钥匙孔</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>框架的</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>磨砂玻璃</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>颗粒的</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>颗粒焦点</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>幸运星！</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>纸袋蒙版</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>重置为无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>聚光灯</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>观星者</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>蒸汽朋克</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>微妙的</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>打开预设...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>另存预设为...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="0">
+          <OfxPropLabel>形状</OfxPropLabel>
+          <OfxParamPropHint>设置晕影的形状和位置</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble2D name="1">
+          <OfxPropLabel>位置</OfxPropLabel>
+          <OfxParamPropHint>放置晕影的中心</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeChoice name="2">
+          <OfxPropLabel>风格</OfxPropLabel>
+          <OfxParamPropHint>确定形状</OfxParamPropHint>
+          <OfxParamPropChoiceOption>椭圆</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>矩形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>心形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>星形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>三角形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>双筒望远镜</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>宽度</OfxPropLabel>
+          <OfxParamPropHint>设置晕影的宽度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>高度</OfxPropLabel>
+          <OfxParamPropHint>设置晕影的高度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>旋转</OfxPropLabel>
+          <OfxParamPropHint>设置形状的旋转</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="7">
+          <OfxPropLabel>框架</OfxPropLabel>
+          <OfxParamPropHint>设置框架的颜色和半透明度</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="8">
+          <OfxPropLabel>颜色</OfxPropLabel>
+          <OfxParamPropHint>设置框架颜色</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="9">
+          <OfxPropLabel>不透明</OfxPropLabel>
+          <OfxParamPropHint>设置透明度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="11">
+          <OfxPropLabel>边缘</OfxPropLabel>
+          <OfxParamPropHint>设置边缘的纹理</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>宽度</OfxPropLabel>
+          <OfxParamPropHint>设置软晕影边缘的宽度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="13">
+          <OfxPropLabel>颗粒量</OfxPropLabel>
+          <OfxParamPropHint>向软边框添加噪声</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="14">
+          <OfxPropLabel>颗粒大小</OfxPropLabel>
+          <OfxParamPropHint>控制噪声颗粒的大小</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="15">
+          <OfxPropLabel>闪烁</OfxPropLabel>
+          <OfxParamPropHint>设置噪声颗粒改变或保持不变</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="16">
+          <OfxPropLabel>软焦点</OfxPropLabel>
+          <OfxParamPropHint>向晕影边缘添加失焦模糊</OfxParamPropHint>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

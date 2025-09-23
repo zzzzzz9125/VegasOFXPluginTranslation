@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="xyz.gyroflow">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>Gyroflow</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>变形</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeGroup name="ProjectGroup">
+          <OfxPropLabel>Gyroflow 项目</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeString name="Status">
+          <OfxPropLabel>状态</OfxPropLabel>
+          <OfxParamPropHint>状态</OfxParamPropHint>
+        </OfxParamTypeString>
+        <OfxParamTypePushButton name="Browse">
+          <OfxPropLabel>浏览</OfxPropLabel>
+          <OfxParamPropHint>浏览 Gyroflow 项目文件</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="LoadLens">
+          <OfxPropLabel>加载预设/镜头配置文件</OfxPropLabel>
+          <OfxParamPropHint>浏览镜头配置文件或预设</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="OpenGyroflow">
+          <OfxPropLabel>打开 Gyroflow</OfxPropLabel>
+          <OfxParamPropHint>在 Gyroflow 中打开项目</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="ReloadProject">
+          <OfxPropLabel>重新加载项目</OfxPropLabel>
+          <OfxParamPropHint>重新加载当前已加载的项目</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="OpenRecentProject">
+          <OfxPropLabel>最后保存的项目</OfxPropLabel>
+          <OfxParamPropHint>加载 Gyroflow 应用中最近保存的项目</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypeGroup name="AdjustGroup">
+          <OfxPropLabel>调整参数</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Smoothness">
+          <OfxPropLabel>平滑度</OfxPropLabel>
+          <OfxParamPropHint>平滑度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="ZoomLimit">
+          <OfxPropLabel>缩放限制</OfxPropLabel>
+          <OfxParamPropHint>缩放限制</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="LensCorrectionStrength">
+          <OfxPropLabel>镜头校正</OfxPropLabel>
+          <OfxParamPropHint>镜头校正</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="HorizonLockAmount">
+          <OfxPropLabel>水平线锁定</OfxPropLabel>
+          <OfxParamPropHint>水平线锁定强度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="HorizonLockRoll">
+          <OfxPropLabel>水平线横滚</OfxPropLabel>
+          <OfxParamPropHint>水平线锁定横滚调整</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="AdditionalPitch">
+          <OfxPropLabel>附加俯仰</OfxPropLabel>
+          <OfxParamPropHint>附加俯仰旋转</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="AdditionalYaw">
+          <OfxPropLabel>附加偏航</OfxPropLabel>
+          <OfxParamPropHint>附加偏航旋转</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Rotation">
+          <OfxPropLabel>视频旋转</OfxPropLabel>
+          <OfxParamPropHint>视频旋转</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="InputRotation">
+          <OfxPropLabel>输入旋转</OfxPropLabel>
+          <OfxParamPropHint>输入旋转</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Fov">
+          <OfxPropLabel>视野</OfxPropLabel>
+          <OfxParamPropHint>视野</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="VideoSpeed">
+          <OfxPropLabel>视频速度</OfxPropLabel>
+          <OfxParamPropHint>使用此滑块更改视频速度或设置关键帧，而不是使用编辑器内置的速度更改</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="DisableStretch">
+          <OfxPropLabel>禁用 Gyroflow 的拉伸</OfxPropLabel>
+          <OfxParamPropHint>如果您在 Gyroflow 的镜头配置文件中使用了输入拉伸，并在编辑器中单独取消了视频的拉伸（通过设置变形挤压因子），请勾选此项以禁用 Gyroflow 的内部拉伸。</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="IntegrationMethod">
+          <OfxPropLabel>融合方法</OfxPropLabel>
+          <OfxParamPropHint>IMU 融合方法</OfxParamPropHint>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>互补滤波</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>VQF</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>简单陀螺仪</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>简单陀螺仪 + 加速度计</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Mahony</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Madgwick</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="KeyframesGroup">
+          <OfxPropLabel>关键帧</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="UseGyroflowsKeyframes">
+          <OfxPropLabel>使用 Gyroflow 的关键帧</OfxPropLabel>
+          <OfxParamPropHint>使用 Gyroflow 内部的关键帧，而非编辑器的关键帧。</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypePushButton name="RecalculateKeyframes">
+          <OfxPropLabel>重新计算关键帧</OfxPropLabel>
+          <OfxParamPropHint>调整样条曲线后重新计算关键帧（在 Fusion 模式下）</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypeGroup name="OutputSizeGroup">
+          <OfxPropLabel>输出尺寸</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="OutputWidth">
+          <OfxPropLabel>宽度</OfxPropLabel>
+          <OfxParamPropHint>宽度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="OutputHeight">
+          <OfxPropLabel>高度</OfxPropLabel>
+          <OfxParamPropHint>高度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypePushButton name="OutputSizeToTimeline">
+          <OfxPropLabel>适应时间线</OfxPropLabel>
+          <OfxParamPropHint>将输出尺寸设置为时间线尺寸</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="OutputSizeSwap">
+          <OfxPropLabel>交换</OfxPropLabel>
+          <OfxParamPropHint>交换宽度和高度</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="Interpolation">
+          <OfxPropLabel>插值</OfxPropLabel>
+          <OfxParamPropHint>缩放插值方法</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Lanczos4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>RobidouxSharp</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>双线性</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>双三次</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Robidoux</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Mitchell</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>CatmullRom</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="ToggleOverview">
+          <OfxPropLabel>稳定化预览</OfxPropLabel>
+          <OfxParamPropHint>缩小视图以查看稳定化结果。渲染前请禁用此选项。</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="DontDrawOutside">
+          <OfxPropLabel>不绘制到源片段外部</OfxPropLabel>
+          <OfxParamPropHint>当片段和时间线宽高比不匹配时，在源片段内部绘制最终图像，而不是绘制到其外部。</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="IncludeProjectData">
+          <OfxPropLabel>在插件中嵌入 .gyroflow 数据</OfxPropLabel>
+          <OfxParamPropHint>如果您打算将项目分享给他人，插件可以将 Gyroflow 项目数据（包括陀螺仪数据）嵌入到视频编辑器项目中。这样您就不需要分享 .gyroflow 项目文件。启用此选项会使项目文件变大。</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="InfoGroup">
+          <OfxPropLabel>信息</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeString name="LoadedProject">
+          <OfxPropLabel>已加载的项目</OfxPropLabel>
+          <OfxParamPropHint>已加载的项目或视频文件</OfxParamPropHint>
+        </OfxParamTypeString>
+        <OfxParamTypeString name="LoadedPreset">
+          <OfxPropLabel>已加载的预设</OfxPropLabel>
+          <OfxParamPropHint>已加载的预设</OfxParamPropHint>
+        </OfxParamTypeString>
+        <OfxParamTypeString name="LoadedLens">
+          <OfxPropLabel>已加载的镜头配置文件</OfxPropLabel>
+          <OfxParamPropHint>已加载的镜头配置文件</OfxParamPropHint>
+        </OfxParamTypeString>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

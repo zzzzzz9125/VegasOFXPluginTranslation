@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Distort_Chromatic_Aberration_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Chromatic Aberration</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Distort</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble2D name="23">
+          <OfxPropLabel>Center</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="1001">
+          <OfxPropLabel>Distortion Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="25">
+          <OfxPropLabel>Uniform Scale</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="1002">
+          <OfxPropLabel>Scale</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="26">
+          <OfxPropLabel>Scale X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="27">
+          <OfxPropLabel>Scale Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="28">
+          <OfxPropLabel>Rotation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="9">
+          <OfxPropLabel>Gaussian Blur</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="10">
+          <OfxPropLabel>Radial Blur</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="24">
+          <OfxPropLabel>Lens Radius</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>Edge Falloff</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="502">
+          <OfxPropLabel>Blur Filter</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cubic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Bilinear</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="29">
+          <OfxPropLabel>Chromatic Saturation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="30">
+          <OfxPropLabel>Chromatic Tint</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="31">
+          <OfxPropLabel>Channels</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="0">
+          <OfxPropLabel>Red Distortion</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>Red Scale</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>Green Distortion</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>Green Scale</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>Blue Distortion</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>Blue Scale</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>Additional Lens Distortion</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>Flatten</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="503">
+          <OfxPropLabel>Process Alpha</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="14">
+          <OfxPropLabel>Lens Texture</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="15">
+          <OfxPropLabel>Lens Texture</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Dirt</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Bokeh</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Dried</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Frozen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Salt</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Smudges</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Soap</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Viewfinder</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Water Drops</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="16">
+          <OfxPropLabel>Texture Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="19">
+          <OfxPropLabel>Texture Mask</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="33">
+          <OfxPropLabel>Show Masked Area</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="17">
+          <OfxPropLabel>Mask Radius</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="18">
+          <OfxPropLabel>Mask Falloff</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="20">
+          <OfxPropLabel>Mask Aspect</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="22">
+          <OfxPropLabel>Stretch Map to Fit</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeInteger name="34">
+          <OfxPropLabel>Passes</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeBoolean name="35">
+          <OfxPropLabel>Linear Gamma</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="36">
+          <OfxPropLabel>Reverse</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="501">
+          <OfxPropLabel>Legacy</OfxPropLabel>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

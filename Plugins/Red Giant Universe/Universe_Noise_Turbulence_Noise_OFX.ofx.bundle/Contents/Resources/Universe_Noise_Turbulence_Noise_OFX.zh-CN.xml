@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Noise_Turbulence_Noise_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.湍流噪声</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe 生成器</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>许可证...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>选择预设</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>保存预设</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="0">
+          <OfxPropLabel>图案</OfxPropLabel>
+          <OfxParamPropChoiceOption>默认</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>翻滚</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>隆起</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>航空</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>最大</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>等离子</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>扰乱</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>默认正值</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>最大正值</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="1">
+          <OfxPropLabel>插值</OfxPropLabel>
+          <OfxParamPropChoiceOption>块状渐变</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>块状扁平</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>线性</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>样条</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>高级</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="2">
+          <OfxPropLabel>外观</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeInteger name="3">
+          <OfxPropLabel>复杂度</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>对比度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>亮度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>伽马</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="7">
+          <OfxPropLabel>反转</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="8">
+          <OfxPropLabel>输出</OfxPropLabel>
+          <OfxParamPropChoiceOption>HDR</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>柔和固定</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>剪裁</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="9">
+          <OfxPropLabel>动画</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="10">
+          <OfxPropLabel>演变</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="11">
+          <OfxPropLabel>周期</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>动画速度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="13">
+          <OfxPropLabel>自动动画</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="14">
+          <OfxPropLabel>变形</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="15">
+          <OfxPropLabel>变焦</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="16">
+          <OfxPropLabel>宽高比</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="17">
+          <OfxPropLabel>中心</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="18">
+          <OfxPropLabel>旋转</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="19">
+          <OfxPropLabel>滤镜</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="20">
+          <OfxPropLabel>高级</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="21">
+          <OfxPropLabel>影响</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="22">
+          <OfxPropLabel>湍流因子</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="23">
+          <OfxPropLabel>种子</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="24">
+          <OfxPropLabel>不透明度</OfxPropLabel>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

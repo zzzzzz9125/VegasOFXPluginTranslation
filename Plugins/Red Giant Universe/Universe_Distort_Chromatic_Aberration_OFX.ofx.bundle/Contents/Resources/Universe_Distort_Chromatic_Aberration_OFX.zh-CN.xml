@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Distort_Chromatic_Aberration_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.镜头失真/颜色偏移</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe 扭曲</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>许可证...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>选择预设</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>保存预设</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble2D name="23">
+          <OfxPropLabel>中心</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="1001">
+          <OfxPropLabel>失真量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="25">
+          <OfxPropLabel>统一比例</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="1002">
+          <OfxPropLabel>缩放</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="26">
+          <OfxPropLabel>缩放X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="27">
+          <OfxPropLabel>缩放Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="28">
+          <OfxPropLabel>旋转</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="9">
+          <OfxPropLabel>高斯模糊</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="10">
+          <OfxPropLabel>径向模糊</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="24">
+          <OfxPropLabel>镜头半径</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>边缘衰减</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="502">
+          <OfxPropLabel>模糊滤镜</OfxPropLabel>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>三次曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>双线性</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="29">
+          <OfxPropLabel>颜色饱和度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="30">
+          <OfxPropLabel>色度色调</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="31">
+          <OfxPropLabel>通道</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="0">
+          <OfxPropLabel>红色失真</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>红色缩放</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>绿色失真</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>绿色缩放</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>蓝色失真</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>蓝色缩放</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>其他镜头失真</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>压平</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="503">
+          <OfxPropLabel>处理Alpha</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="14">
+          <OfxPropLabel>镜头纹理</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="15">
+          <OfxPropLabel>镜头纹理</OfxPropLabel>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>污渍</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Bokeh</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>干燥</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>冻结</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>盐</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>污迹</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>肥皂</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>取景器</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>水滴</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="16">
+          <OfxPropLabel>纹理量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="19">
+          <OfxPropLabel>纹理蒙版</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="33">
+          <OfxPropLabel>显示蒙版区域</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="17">
+          <OfxPropLabel>蒙版半径</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="18">
+          <OfxPropLabel>蒙版衰减</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="20">
+          <OfxPropLabel>蒙版宽高比</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="22">
+          <OfxPropLabel>贴图拉伸以适应</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeInteger name="34">
+          <OfxPropLabel>次数</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeBoolean name="35">
+          <OfxPropLabel>线性伽马</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="36">
+          <OfxPropLabel>反向</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="501">
+          <OfxPropLabel>传统</OfxPropLabel>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Stylize_Analog_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.CRT模拟电视/老电视</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe 风格化</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>许可证...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1200">
+          <OfxPropLabel>选择预设...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1201">
+          <OfxPropLabel>保存预设...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="0">
+          <OfxPropLabel>宽高比</OfxPropLabel>
+          <OfxParamPropChoiceOption>4:3 - CRT</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1:1 - 方形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>16:9 - 宽屏</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>5:4 - PC</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>16:10 - 宽屏PC</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>饱和度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>相位</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>滤镜</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>色温</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>图像对比度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>色度分割</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>亮度对比度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="8">
+          <OfxPropLabel>黑场</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="9">
+          <OfxPropLabel>屏幕亮度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="10">
+          <OfxPropLabel>锐度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="11">
+          <OfxPropLabel>色调</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>色调量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="13">
+          <OfxPropLabel>扫描线</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="14">
+          <OfxPropLabel>扫描线方向</OfxPropLabel>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>横向</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>纵向</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>方形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>TV CRT</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>PC CRT</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="15">
+          <OfxPropLabel>扫描线比例</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="16">
+          <OfxPropLabel>扫描线间距</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="17">
+          <OfxPropLabel>扫描线羽化</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="18">
+          <OfxPropLabel>扫描线量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="19">
+          <OfxPropLabel>干扰</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="20">
+          <OfxPropLabel>静态量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="21">
+          <OfxPropLabel>静态置换</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="22">
+          <OfxPropLabel>加扰量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="23">
+          <OfxPropLabel>加扰比例</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="24">
+          <OfxPropLabel>加扰速度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="25">
+          <OfxPropLabel>闪烁亮度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="26">
+          <OfxPropLabel>闪烁比例</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="27">
+          <OfxPropLabel>闪烁速度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="28">
+          <OfxPropLabel>线条粗细</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="29">
+          <OfxPropLabel>线条速度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="30">
+          <OfxPropLabel>线条亮度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="31">
+          <OfxPropLabel>线条颜色</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeGroup name="32">
+          <OfxPropLabel>随机干扰</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="33">
+          <OfxPropLabel>启用随机干扰</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="34">
+          <OfxPropLabel>随机干扰频率</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="35">
+          <OfxPropLabel>随机滚动速度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="36">
+          <OfxPropLabel>随机加扰量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="37">
+          <OfxPropLabel>随机加扰比例</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="38">
+          <OfxPropLabel>随机分隔量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="39">
+          <OfxPropLabel>随机噪声量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="40">
+          <OfxPropLabel>变换</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="41">
+          <OfxPropLabel>曲率</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="42">
+          <OfxPropLabel>裁剪源图像</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="43">
+          <OfxPropLabel>X轴旋转</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="44">
+          <OfxPropLabel>Y轴旋转</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="45">
+          <OfxPropLabel>Z轴旋转</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="46">
+          <OfxPropLabel>缩放</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="47">
+          <OfxPropLabel>相机</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble2D name="48">
+          <OfxPropLabel>相机位置X/Y</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="49">
+          <OfxPropLabel>相机Z位置</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="50">
+          <OfxPropLabel>视场</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="51">
+          <OfxPropLabel>相机X旋转</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="52">
+          <OfxPropLabel>相机Y旋转</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="53">
+          <OfxPropLabel>相机Z旋转</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="54">
+          <OfxPropLabel>材质和照明</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="55">
+          <OfxPropLabel>颜色</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="56">
+          <OfxPropLabel>颜色混合</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="57">
+          <OfxPropLabel>光泽</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="58">
+          <OfxPropLabel>镜面反射</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="59">
+          <OfxPropLabel>环境贴图</OfxPropLabel>
+          <OfxParamPropChoiceOption>卧室内部</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>现代室内</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>照片工作室</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>柔光箱工作室</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>双灯设置</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="60">
+          <OfxPropLabel>环境光</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="61">
+          <OfxPropLabel>环境光颜色</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="62">
+          <OfxPropLabel>点光源</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="63">
+          <OfxPropLabel>点光源颜色</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="64">
+          <OfxPropLabel>点光源X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="65">
+          <OfxPropLabel>点光源Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="66">
+          <OfxPropLabel>点光源Z</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="67">
+          <OfxPropLabel>抗锯齿</OfxPropLabel>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>x2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>x4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>x8</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>x16</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="68">
+          <OfxPropLabel>辉光量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="69">
+          <OfxPropLabel>辉光半径</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="70">
+          <OfxPropLabel>随机种子</OfxPropLabel>
+        </OfxParamTypeInteger>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

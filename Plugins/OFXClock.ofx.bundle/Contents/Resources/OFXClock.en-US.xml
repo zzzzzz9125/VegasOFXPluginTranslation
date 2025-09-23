@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="de.hlinke.ofxclock">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>OFX Clock</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>OFX-HLinke</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="ClockChoice">
+          <OfxPropLabel>ClockChoice</OfxPropLabel>
+          <OfxParamPropHint>Select Clock</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Analogue Clock</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Digital Clock</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>LED Clock</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble2D name="corner1">
+          <OfxPropLabel>Clock Centre</OfxPropLabel>
+          <OfxParamPropHint>Centre of the Clock</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeRGBA name="Main Colour">
+          <OfxPropLabel>Main Colour</OfxPropLabel>
+          <OfxParamPropHint>The colour of the Clock</OfxParamPropHint>
+        </OfxParamTypeRGBA>
+        <OfxParamTypeRGBA name="Background Colour">
+          <OfxPropLabel>Background Colour</OfxPropLabel>
+          <OfxParamPropHint>Background colour of the Clock</OfxParamPropHint>
+        </OfxParamTypeRGBA>
+        <OfxParamTypeDouble name="ClockSize">
+          <OfxPropLabel>ClockSize</OfxPropLabel>
+          <OfxParamPropHint>ClockSize</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="Time Parameters">
+          <OfxPropLabel>Time Parameters</OfxPropLabel>
+          <OfxParamPropHint>Time Parameters</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeGroup name="AnalogueClock">
+          <OfxPropLabel>Analogue Clock Params</OfxPropLabel>
+          <OfxParamPropHint>Parameter for analogue clock</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="Run clock backwards">
+          <OfxPropLabel>Run clock backwards</OfxPropLabel>
+          <OfxParamPropHint>Run clock backwards</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="Speed Factor">
+          <OfxPropLabel>Speed Factor</OfxPropLabel>
+          <OfxParamPropHint>Speed Factor</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="Start Day">
+          <OfxPropLabel>Start Day</OfxPropLabel>
+          <OfxParamPropHint>Start Day</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="Start Month">
+          <OfxPropLabel>Start Month</OfxPropLabel>
+          <OfxParamPropHint>Start Month</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="Start Year">
+          <OfxPropLabel>Start Year</OfxPropLabel>
+          <OfxParamPropHint>Start Year</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="Start Hour">
+          <OfxPropLabel>Start Hour</OfxPropLabel>
+          <OfxParamPropHint>Start Hour</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="Start Minute">
+          <OfxPropLabel>Start Minute</OfxPropLabel>
+          <OfxParamPropHint>Start Minute</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="Start Second">
+          <OfxPropLabel>Start Second</OfxPropLabel>
+          <OfxParamPropHint>Start Second</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="Stop Day">
+          <OfxPropLabel>Stop Day</OfxPropLabel>
+          <OfxParamPropHint>Stop Day</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="Stop Month">
+          <OfxPropLabel>Stop Month</OfxPropLabel>
+          <OfxParamPropHint>Stop Month</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="Stop Year">
+          <OfxPropLabel>Stop Year</OfxPropLabel>
+          <OfxParamPropHint>Stop Year</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="Stop Hour">
+          <OfxPropLabel>Stop Hour</OfxPropLabel>
+          <OfxParamPropHint>Stop Hour</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="Stop Minute">
+          <OfxPropLabel>Stop Minute</OfxPropLabel>
+          <OfxParamPropHint>Stop Minute</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="Stop Second">
+          <OfxPropLabel>Stop Second</OfxPropLabel>
+          <OfxParamPropHint>Stop Second</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Hour Size">
+          <OfxPropLabel>Hour Size</OfxPropLabel>
+          <OfxParamPropHint>Hour Size</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Hour Length">
+          <OfxPropLabel>Hour Length</OfxPropLabel>
+          <OfxParamPropHint>Hour Length</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGBA name="Hour Colour">
+          <OfxPropLabel>Hour Colour</OfxPropLabel>
+          <OfxParamPropHint>Hour Colour</OfxParamPropHint>
+        </OfxParamTypeRGBA>
+        <OfxParamTypeBoolean name="Use Hour Colour">
+          <OfxPropLabel>Use Hour Colour</OfxPropLabel>
+          <OfxParamPropHint>Use Hour Colour</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="Minute Size">
+          <OfxPropLabel>Minute Size</OfxPropLabel>
+          <OfxParamPropHint>Minute Size</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Minute Length">
+          <OfxPropLabel>Minute Length</OfxPropLabel>
+          <OfxParamPropHint>Minute Length</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGBA name="Minute Colour">
+          <OfxPropLabel>Minute Colour</OfxPropLabel>
+          <OfxParamPropHint>Minute Colour</OfxParamPropHint>
+        </OfxParamTypeRGBA>
+        <OfxParamTypeBoolean name="Use Minute Colour">
+          <OfxPropLabel>Use Minute Colour</OfxPropLabel>
+          <OfxParamPropHint>Use Minute Colour</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="Second Size">
+          <OfxPropLabel>Second Size</OfxPropLabel>
+          <OfxParamPropHint>Second Size</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Second Length">
+          <OfxPropLabel>Second Length</OfxPropLabel>
+          <OfxParamPropHint>Second Length</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGBA name="Second Colour">
+          <OfxPropLabel>Second Colour</OfxPropLabel>
+          <OfxParamPropHint>Second Colour</OfxParamPropHint>
+        </OfxParamTypeRGBA>
+        <OfxParamTypeBoolean name="Use Second Colour">
+          <OfxPropLabel>Use Second Colour</OfxPropLabel>
+          <OfxParamPropHint>Use Second Colour</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="Point Size">
+          <OfxPropLabel>Point Size</OfxPropLabel>
+          <OfxParamPropHint>Point Size</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Point Length">
+          <OfxPropLabel>Point Length</OfxPropLabel>
+          <OfxParamPropHint>Point Length</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGBA name="Point Colour">
+          <OfxPropLabel>Point Colour</OfxPropLabel>
+          <OfxParamPropHint>Point Colour</OfxParamPropHint>
+        </OfxParamTypeRGBA>
+        <OfxParamTypeBoolean name="Use Point Colour">
+          <OfxPropLabel>Use Point Colour</OfxPropLabel>
+          <OfxParamPropHint>Use Point Colour</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="DigitalClock">
+          <OfxPropLabel>Digital and LED Clock Params</OfxPropLabel>
+          <OfxParamPropHint>Parameter for digital and LED clock</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="Dig Clock Format">
+          <OfxPropLabel>Digital Clock Format</OfxPropLabel>
+          <OfxParamPropHint>Select Clock Format</OfxParamPropHint>
+          <OfxParamPropChoiceOption>hh:mm:ss.mmm</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>hh:mm:ss.mm</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>hh:mm:ss.m</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>hh:mm:ss</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>hh:mm</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>mm:ss</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>mm</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>mm:ss.m</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>ss.m</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>hh:mm:ss,ff</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Framecounter</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Date and Time (German)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Date and Time (English)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Free Format</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypePushButton name="Button_Font">
+          <OfxPropLabel>Font</OfxPropLabel>
+          <OfxParamPropHint>Select Font</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypeString name="Dig Clock Free Format">
+          <OfxPropLabel>Free Format String</OfxPropLabel>
+          <OfxParamPropHint>Dig Clock Free Format</OfxParamPropHint>
+        </OfxParamTypeString>
+        <OfxParamTypeString name="FontParam">
+          <OfxPropLabel>Font</OfxPropLabel>
+          <OfxParamPropHint>Font</OfxParamPropHint>
+        </OfxParamTypeString>
+        <OfxParamTypeGroup name="KeyParams">
+          <OfxPropLabel>Keying Params</OfxPropLabel>
+          <OfxParamPropHint>Parameter for Keying a Colour</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGBA name="Key Colour">
+          <OfxPropLabel>Key Colour</OfxPropLabel>
+          <OfxParamPropHint>Key Colour</OfxParamPropHint>
+        </OfxParamTypeRGBA>
+        <OfxParamTypeChoice name="Use Key Colour">
+          <OfxPropLabel>Keying Mode</OfxPropLabel>
+          <OfxParamPropHint>Select Keying Mode</OfxParamPropHint>
+          <OfxParamPropChoiceOption>No Key - Composite with Source</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Use Key Colour - Composite with Lower Layer</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

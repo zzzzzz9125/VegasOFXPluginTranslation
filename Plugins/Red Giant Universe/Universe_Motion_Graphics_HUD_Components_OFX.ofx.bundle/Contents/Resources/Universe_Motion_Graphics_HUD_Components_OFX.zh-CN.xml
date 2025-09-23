@@ -1,0 +1,1141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Motion_Graphics_HUD_Components_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.HUD(透明显示器)元素</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe MG运动图形</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>许可证...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="0">
+          <OfxPropLabel>选择预设...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>选择预设</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>主动画速度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>主随机种子</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="3">
+          <OfxPropLabel>元素1</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypePushButton name="1001">
+          <OfxPropLabel>浏览元素...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="4">
+          <OfxPropLabel>元素类型E1</OfxPropLabel>
+          <OfxParamPropChoiceOption>重置元素组</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>基本箭头</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>开放箭头</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>细双箭头</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>8位箭头</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>指针</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆弧</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>测量圆弧1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>测量圆弧2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>测量圆弧3</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>测量圆弧4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>测量圆弧5</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>十字线1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>十字线2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>十字线3</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>十字线4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>十字线5</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>十字线6</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>十字线7</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>目标1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>目标2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>8位目标</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆形目标</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>针</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>针尖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>火箭</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>细矩形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>基本三角形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>基本三角形圆角</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>基本三角形画线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>开闭三角形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>双重三角形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>双重边缘1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>基本V形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>宽V形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>V形轮廓</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>V形画线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>三重V形细</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>实心六边形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>六边形角填充1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>六边形角填充2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆形目标</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆形轮廓</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>钟面</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>罗盘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>定位器1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>定位器2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>小方形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>加号反转</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>斜条形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>方形轮廓中</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>方形轮廓大</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>中方形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>连接器</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>指纹</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>网格</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>网格2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>OS窗口1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>OS窗口2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>OS窗口3</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeRGB name="5">
+          <OfxPropLabel>颜色E1</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>不透明度E1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="7">
+          <OfxPropLabel>动画E1</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypePushButton name="1041">
+          <OfxPropLabel>浏览动画...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="8">
+          <OfxPropLabel>动画类型E1</OfxPropLabel>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>闪烁</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>脉冲不透明度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>闪烁</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>扭动缩放</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>脉冲缩放</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>横向振荡</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>纵向振荡</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>横向扭动</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>纵向扭动</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>扭动旋转2D</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>扭动旋转3D</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>轨道2D</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>扭动轨道2D</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="9">
+          <OfxPropLabel>动画速度E1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="10">
+          <OfxPropLabel>动画振幅E1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>动画种子E1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>动画半径E1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="13">
+          <OfxPropLabel>循环动画E1</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="14">
+          <OfxPropLabel>循环时间E1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="15">
+          <OfxPropLabel>变形E1</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble2D name="16">
+          <OfxPropLabel>位置E1</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="17">
+          <OfxPropLabel>X旋转E1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="18">
+          <OfxPropLabel>Y旋转E1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="19">
+          <OfxPropLabel>Z旋转E1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="20">
+          <OfxPropLabel>等比例缩放E1</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="21">
+          <OfxPropLabel>统一比例E1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="22">
+          <OfxPropLabel>X缩放E1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="23">
+          <OfxPropLabel>Y缩放E1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="24">
+          <OfxPropLabel>X锚点偏移E1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="25">
+          <OfxPropLabel>Y锚点偏移E1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="26">
+          <OfxPropLabel>圆弧选项E1</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="27">
+          <OfxPropLabel>分段角度E1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="28">
+          <OfxPropLabel>半径E1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="29">
+          <OfxPropLabel>画线宽度E1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="30">
+          <OfxPropLabel>画线位置E1</OfxPropLabel>
+          <OfxParamPropChoiceOption>内部</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>中心</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>外部</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="31">
+          <OfxPropLabel>克隆E1</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeInteger name="32">
+          <OfxPropLabel>克隆数量E1</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble2D name="33">
+          <OfxPropLabel>克隆位置E1</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeChoice name="34">
+          <OfxPropLabel>旋转和缩放行为E1</OfxPropLabel>
+          <OfxParamPropChoiceOption>与元素1一致</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>增量级联</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="35">
+          <OfxPropLabel>克隆X旋转E1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="36">
+          <OfxPropLabel>克隆Y旋转E1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="37">
+          <OfxPropLabel>克隆Z旋转E1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="38">
+          <OfxPropLabel>克隆轨道锚点E1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="39">
+          <OfxPropLabel>克隆等比例缩放E1</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="40">
+          <OfxPropLabel>克隆统一比例E1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="41">
+          <OfxPropLabel>克隆X缩放E1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="42">
+          <OfxPropLabel>克隆Y缩放E1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="43">
+          <OfxPropLabel>克隆淡出E1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="44">
+          <OfxPropLabel>克隆半径偏移E1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="45">
+          <OfxPropLabel>克隆分段偏移E1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="46">
+          <OfxPropLabel>克隆画线宽度偏移E1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="47">
+          <OfxPropLabel>克隆时间偏移E1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="48">
+          <OfxPropLabel>随机性E1</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="49">
+          <OfxPropLabel>随机种子E1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="50">
+          <OfxPropLabel>随机X偏移E1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="51">
+          <OfxPropLabel>随机Y偏移E1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="52">
+          <OfxPropLabel>随机X旋转E1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="53">
+          <OfxPropLabel>随机Y旋转E1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="54">
+          <OfxPropLabel>随机Z旋转E1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="55">
+          <OfxPropLabel>随机比例E1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="56">
+          <OfxPropLabel>随机不透明度E1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="57">
+          <OfxPropLabel>随机半径E1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="58">
+          <OfxPropLabel>随机分段角度E1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="59">
+          <OfxPropLabel>随机画线宽度E1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="60">
+          <OfxPropLabel>元素2</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypePushButton name="1002">
+          <OfxPropLabel>浏览元素...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="61">
+          <OfxPropLabel>元素类型E2</OfxPropLabel>
+          <OfxParamPropChoiceOption>重置元素组</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>基本箭头</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>开放箭头</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>细双箭头</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>8位箭头</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>指针</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆弧</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>测量圆弧1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>测量圆弧2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>测量圆弧3</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>测量圆弧4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>测量圆弧5</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>十字线1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>十字线2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>十字线3</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>十字线4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>十字线5</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>十字线6</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>十字线7</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>目标1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>目标2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>8位目标</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆形目标</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>针</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>针尖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>火箭</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>细矩形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>基本三角形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>基本三角形圆角</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>基本三角形画线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>开闭三角形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>双重三角形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>双重边缘1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>基本V形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>宽V形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>V形轮廓</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>V形画线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>三重V形细</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>实心六边形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>六边形角填充1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>六边形角填充2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆形目标</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆形轮廓</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>钟面</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>罗盘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>定位器1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>定位器2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>小方形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>加号反转</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>斜条形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>方形轮廓中</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>方形轮廓大</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>中方形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>连接器</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>指纹</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>网格</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>网格2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>OS窗口1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>OS窗口2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>OS窗口3</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="62">
+          <OfxPropLabel>将元素2链接到元素1</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeRGB name="63">
+          <OfxPropLabel>颜色E2</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="64">
+          <OfxPropLabel>不透明度E2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="65">
+          <OfxPropLabel>动画E2</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypePushButton name="1042">
+          <OfxPropLabel>浏览动画...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="66">
+          <OfxPropLabel>动画类型E2</OfxPropLabel>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>闪烁</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>脉冲不透明度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>闪烁</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>扭动缩放</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>脉冲缩放</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>横向振荡</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>纵向振荡</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>横向扭动</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>纵向扭动</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>扭动旋转2D</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>扭动旋转3D</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>轨道2D</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>扭动轨道2D</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="67">
+          <OfxPropLabel>动画速度E2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="68">
+          <OfxPropLabel>动画振幅E2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="69">
+          <OfxPropLabel>动画种子E2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="70">
+          <OfxPropLabel>动画半径E2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="71">
+          <OfxPropLabel>循环动画E2</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="72">
+          <OfxPropLabel>循环时间E2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="73">
+          <OfxPropLabel>变形E2</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble2D name="74">
+          <OfxPropLabel>位置E2</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="75">
+          <OfxPropLabel>X旋转E2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="76">
+          <OfxPropLabel>Y旋转E2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="77">
+          <OfxPropLabel>Z旋转E2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="78">
+          <OfxPropLabel>等比例缩放E2</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="79">
+          <OfxPropLabel>统一比例E2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="80">
+          <OfxPropLabel>X缩放E2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="81">
+          <OfxPropLabel>Y缩放E2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="82">
+          <OfxPropLabel>X锚点偏移E2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="83">
+          <OfxPropLabel>Y锚点偏移E2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="84">
+          <OfxPropLabel>圆弧选项E2</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="85">
+          <OfxPropLabel>分段角度E2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="86">
+          <OfxPropLabel>半径E2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="87">
+          <OfxPropLabel>画线宽度E2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="88">
+          <OfxPropLabel>画线位置E2</OfxPropLabel>
+          <OfxParamPropChoiceOption>内部</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>中心</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>外部</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="89">
+          <OfxPropLabel>克隆E2</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeInteger name="90">
+          <OfxPropLabel>克隆数量E2</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble2D name="91">
+          <OfxPropLabel>克隆位置E2</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeChoice name="92">
+          <OfxPropLabel>旋转和缩放行为E2</OfxPropLabel>
+          <OfxParamPropChoiceOption>与元素2一致</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>增量级联</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="93">
+          <OfxPropLabel>克隆X旋转E2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="94">
+          <OfxPropLabel>克隆Y旋转E2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="95">
+          <OfxPropLabel>克隆Z旋转E2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="96">
+          <OfxPropLabel>克隆轨道锚点E2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="97">
+          <OfxPropLabel>克隆等比例缩放E2</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="98">
+          <OfxPropLabel>克隆统一比例E2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="99">
+          <OfxPropLabel>克隆X缩放E2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="100">
+          <OfxPropLabel>克隆Y缩放E2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="101">
+          <OfxPropLabel>克隆淡出E2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="102">
+          <OfxPropLabel>克隆半径偏移E2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="103">
+          <OfxPropLabel>克隆分段偏移E2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="104">
+          <OfxPropLabel>克隆画线宽度偏移E2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="105">
+          <OfxPropLabel>克隆时间偏移E2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="106">
+          <OfxPropLabel>随机性E2</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="107">
+          <OfxPropLabel>随机种子E2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="108">
+          <OfxPropLabel>随机X偏移E2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="109">
+          <OfxPropLabel>随机Y偏移E2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="110">
+          <OfxPropLabel>随机X旋转E2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="111">
+          <OfxPropLabel>随机Y旋转E2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="112">
+          <OfxPropLabel>随机Z旋转E2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="113">
+          <OfxPropLabel>随机比例E2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="114">
+          <OfxPropLabel>随机不透明度E2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="115">
+          <OfxPropLabel>随机半径E2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="116">
+          <OfxPropLabel>随机分段角度E2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="117">
+          <OfxPropLabel>随机画线宽度E2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="118">
+          <OfxPropLabel>元素3</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypePushButton name="1003">
+          <OfxPropLabel>浏览元素...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="119">
+          <OfxPropLabel>元素类型E3</OfxPropLabel>
+          <OfxParamPropChoiceOption>重置元素组</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>基本箭头</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>开放箭头</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>细双箭头</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>8位箭头</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>指针</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆弧</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>测量圆弧1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>测量圆弧2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>测量圆弧3</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>测量圆弧4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>测量圆弧5</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>十字线1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>十字线2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>十字线3</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>十字线4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>十字线5</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>十字线6</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>十字线7</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>目标1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>目标2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>8位目标</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆形目标</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>针</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>针尖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>火箭</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>细矩形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>基本三角形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>基本三角形圆角</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>基本三角形画线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>开闭三角形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>双重三角形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>双重边缘1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>基本V形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>宽V形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>V形轮廓</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>V形画线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>三重V形细</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>实心六边形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>六边形角填充1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>六边形角填充2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆形目标</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆形轮廓</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>钟面</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>罗盘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>定位器1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>定位器2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>小方形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>加号反转</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>斜条形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>方形轮廓中</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>方形轮廓大</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>中方形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>连接器</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>指纹</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>网格</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>网格2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>OS窗口1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>OS窗口2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>OS窗口3</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="120">
+          <OfxPropLabel>将元素3链接到元素1</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeRGB name="121">
+          <OfxPropLabel>颜色E3</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="122">
+          <OfxPropLabel>不透明度E3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="123">
+          <OfxPropLabel>动画E3</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypePushButton name="1043">
+          <OfxPropLabel>浏览动画...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="124">
+          <OfxPropLabel>动画类型E3</OfxPropLabel>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>闪烁</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>脉冲不透明度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>闪烁</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>扭动缩放</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>脉冲缩放</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>横向振荡</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>纵向振荡</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>横向扭动</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>纵向扭动</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>扭动旋转2D</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>扭动旋转3D</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>轨道2D</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>扭动轨道2D</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="125">
+          <OfxPropLabel>动画速度E3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="126">
+          <OfxPropLabel>动画振幅E3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="127">
+          <OfxPropLabel>动画种子E3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="128">
+          <OfxPropLabel>动画半径E3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="129">
+          <OfxPropLabel>循环动画E3</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="130">
+          <OfxPropLabel>循环时间E3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="131">
+          <OfxPropLabel>变形E3</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble2D name="132">
+          <OfxPropLabel>位置E3</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="133">
+          <OfxPropLabel>X旋转E3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="134">
+          <OfxPropLabel>Y旋转E3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="135">
+          <OfxPropLabel>Z旋转E3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="136">
+          <OfxPropLabel>等比例缩放E3</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="137">
+          <OfxPropLabel>统一比例E3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="138">
+          <OfxPropLabel>X缩放E3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="139">
+          <OfxPropLabel>Y缩放E3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="140">
+          <OfxPropLabel>X锚点偏移E3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="141">
+          <OfxPropLabel>Y锚点偏移E3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="142">
+          <OfxPropLabel>圆弧选项E3</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="143">
+          <OfxPropLabel>分段角度E3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="144">
+          <OfxPropLabel>半径E3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="145">
+          <OfxPropLabel>画线宽度E3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="146">
+          <OfxPropLabel>画线位置E3</OfxPropLabel>
+          <OfxParamPropChoiceOption>内部</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>中心</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>外部</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="147">
+          <OfxPropLabel>克隆E3</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeInteger name="148">
+          <OfxPropLabel>克隆数量E3</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble2D name="149">
+          <OfxPropLabel>克隆位置E3</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeChoice name="150">
+          <OfxPropLabel>旋转和缩放行为E3</OfxPropLabel>
+          <OfxParamPropChoiceOption>与元素3一致</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>增量级联</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="151">
+          <OfxPropLabel>克隆X旋转E3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="152">
+          <OfxPropLabel>克隆Y旋转E3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="153">
+          <OfxPropLabel>克隆Z旋转E3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="154">
+          <OfxPropLabel>克隆轨道锚点E3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="155">
+          <OfxPropLabel>克隆等比例缩放E3</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="156">
+          <OfxPropLabel>克隆统一比例E3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="157">
+          <OfxPropLabel>克隆X缩放E3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="158">
+          <OfxPropLabel>克隆Y缩放E3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="159">
+          <OfxPropLabel>克隆淡出E3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="160">
+          <OfxPropLabel>克隆半径偏移E3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="161">
+          <OfxPropLabel>克隆分段偏移E3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="162">
+          <OfxPropLabel>克隆画线宽度偏移E3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="163">
+          <OfxPropLabel>克隆时间偏移E3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="164">
+          <OfxPropLabel>随机性E3</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="165">
+          <OfxPropLabel>随机种子E3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="166">
+          <OfxPropLabel>随机X偏移E3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="167">
+          <OfxPropLabel>随机Y偏移E3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="168">
+          <OfxPropLabel>随机X旋转E3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="169">
+          <OfxPropLabel>随机Y旋转E3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="170">
+          <OfxPropLabel>随机Z旋转E3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="171">
+          <OfxPropLabel>随机比例E3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="172">
+          <OfxPropLabel>随机不透明度E3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="173">
+          <OfxPropLabel>随机半径E3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="174">
+          <OfxPropLabel>随机分段角度E3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="175">
+          <OfxPropLabel>随机画线宽度E3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="176">
+          <OfxPropLabel>元素4</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypePushButton name="1004">
+          <OfxPropLabel>浏览元素...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="177">
+          <OfxPropLabel>元素类型E4</OfxPropLabel>
+          <OfxParamPropChoiceOption>重置元素组</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>基本箭头</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>开放箭头</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>细双箭头</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>8位箭头</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>指针</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆弧</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>测量圆弧1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>测量圆弧2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>测量圆弧3</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>测量圆弧4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>测量圆弧5</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>十字线1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>十字线2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>十字线3</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>十字线4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>十字线5</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>十字线6</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>十字线7</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>目标1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>目标2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>8位目标</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆形目标</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>针</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>针尖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>火箭</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>细矩形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>基本三角形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>基本三角形圆角</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>基本三角形画线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>开闭三角形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>双重三角形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>双重边缘1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>基本V形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>宽V形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>V形轮廓</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>V形画线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>三重V形细</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>实心六边形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>六边形角填充1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>六边形角填充2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆形目标</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆形轮廓</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>钟面</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>罗盘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>定位器1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>定位器2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>小方形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>加号反转</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>斜条形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>方形轮廓中</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>方形轮廓大</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>中方形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>连接器</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>指纹</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>网格</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>网格2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>OS窗口1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>OS窗口2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>OS窗口3</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="178">
+          <OfxPropLabel>元素4链接到元素1</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeRGB name="179">
+          <OfxPropLabel>颜色E4</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="180">
+          <OfxPropLabel>不透明度E4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="181">
+          <OfxPropLabel>动画E4</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypePushButton name="1044">
+          <OfxPropLabel>浏览动画...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="182">
+          <OfxPropLabel>动画类型E4</OfxPropLabel>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>闪烁</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>脉冲不透明度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>闪烁</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>扭动缩放</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>脉冲缩放</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>横向振荡</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>纵向振荡</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>横向扭动</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>纵向扭动</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>扭动旋转2D</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>扭动旋转3D</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>轨道2D</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>扭动轨道2D</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="183">
+          <OfxPropLabel>动画速度E4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="184">
+          <OfxPropLabel>动画振幅E4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="185">
+          <OfxPropLabel>动画种子E4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="186">
+          <OfxPropLabel>动画半径E4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="187">
+          <OfxPropLabel>循环动画E4</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="188">
+          <OfxPropLabel>循环时间E4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="189">
+          <OfxPropLabel>变形E4</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble2D name="190">
+          <OfxPropLabel>位置E4</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="191">
+          <OfxPropLabel>X旋转E4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="192">
+          <OfxPropLabel>Y旋转E4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="193">
+          <OfxPropLabel>Z旋转E4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="194">
+          <OfxPropLabel>等比例缩放E4</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="195">
+          <OfxPropLabel>统一比例E4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="196">
+          <OfxPropLabel>X缩放E4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="197">
+          <OfxPropLabel>Y缩放E4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="198">
+          <OfxPropLabel>X锚点偏移E4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="199">
+          <OfxPropLabel>Y锚点偏移E4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="200">
+          <OfxPropLabel>圆弧选项E4</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="201">
+          <OfxPropLabel>分段角度E4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="202">
+          <OfxPropLabel>半径E4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="203">
+          <OfxPropLabel>画线宽度E4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="204">
+          <OfxPropLabel>画线位置E4</OfxPropLabel>
+          <OfxParamPropChoiceOption>内部</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>中心</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>外部</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="205">
+          <OfxPropLabel>克隆E4</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeInteger name="206">
+          <OfxPropLabel>克隆数量E4</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble2D name="207">
+          <OfxPropLabel>克隆位置E4</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeChoice name="208">
+          <OfxPropLabel>旋转和缩放行为E4</OfxPropLabel>
+          <OfxParamPropChoiceOption>与元素4一致</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>增量级联</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="209">
+          <OfxPropLabel>克隆X旋转E4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="210">
+          <OfxPropLabel>克隆Y旋转E4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="211">
+          <OfxPropLabel>克隆Z旋转E4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="212">
+          <OfxPropLabel>克隆轨道锚点E4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="213">
+          <OfxPropLabel>克隆等比例缩放E4</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="214">
+          <OfxPropLabel>克隆统一比例E4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="215">
+          <OfxPropLabel>克隆X缩放E4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="216">
+          <OfxPropLabel>克隆Y缩放E4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="217">
+          <OfxPropLabel>克隆淡出E4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="218">
+          <OfxPropLabel>克隆半径偏移E4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="219">
+          <OfxPropLabel>克隆分段偏移E4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="220">
+          <OfxPropLabel>克隆画线宽度偏移E4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="221">
+          <OfxPropLabel>克隆时间偏移E4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="222">
+          <OfxPropLabel>随机性E4</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="223">
+          <OfxPropLabel>随机种子E4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="224">
+          <OfxPropLabel>随机X偏移E4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="225">
+          <OfxPropLabel>随机Y偏移E4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="226">
+          <OfxPropLabel>随机X旋转E4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="227">
+          <OfxPropLabel>随机Y旋转E4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="228">
+          <OfxPropLabel>随机Z旋转E4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="229">
+          <OfxPropLabel>随机比例E4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="230">
+          <OfxPropLabel>随机不透明度E4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="231">
+          <OfxPropLabel>随机半径E4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="232">
+          <OfxPropLabel>随机分段角度E4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="233">
+          <OfxPropLabel>随机画线宽度E4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="234">
+          <OfxPropLabel>合成设置</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="235">
+          <OfxPropLabel>混合模式</OfxPropLabel>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>调暗</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>颜色加深</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>调亮</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>色彩减淡</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>硬光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>排除</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>色相</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>饱和度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>颜色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>明度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>抠图</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>背后</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="236">
+          <OfxPropLabel>源不透明度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="237">
+          <OfxPropLabel>组件不透明度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="238">
+          <OfxPropLabel>噪声量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="1046">
+          <OfxPropLabel>质量</OfxPropLabel>
+          <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>高</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="239">
+          <OfxPropLabel>辉光</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="240">
+          <OfxPropLabel>辉光颜色</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="241">
+          <OfxPropLabel>辉光半径</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="242">
+          <OfxPropLabel>辉光柔化</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="243">
+          <OfxPropLabel>辉光强度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="244">
+          <OfxPropLabel>辉光颜色混合</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="245">
+          <OfxPropLabel>辉光混合</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="246">
+          <OfxPropLabel>运动模糊</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="247">
+          <OfxPropLabel>运动模糊</OfxPropLabel>
+          <OfxParamPropChoiceOption>关闭</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>低</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>中</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>高</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="248">
+          <OfxPropLabel>运动模糊快门</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="249">
+          <OfxPropLabel>运动模糊相位</OfxPropLabel>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

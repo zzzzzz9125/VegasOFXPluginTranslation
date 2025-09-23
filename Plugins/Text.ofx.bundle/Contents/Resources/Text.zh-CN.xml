@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="no.openfx.Text">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>TextOFX</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>TextOFX</OfxImageEffectPluginPropGrouping>
+      <OfxPropPluginDescription>OpenFX文本生成器
+
+Copyright (c) Ole-André Rodlie, NettStudio AS. All rights reserved.
+
+更多信息详见 https://text.openfx.no。</OfxPropPluginDescription>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeString name="text">
+          <OfxPropLabel>文本</OfxPropLabel>
+          <OfxParamPropHint>要绘制的文本。</OfxParamPropHint>
+        </OfxParamTypeString>
+        <OfxParamTypeString name="file">
+          <OfxPropLabel>文件</OfxPropLabel>
+          <OfxParamPropHint>从文件导入文本或标记语言。</OfxParamPropHint>
+        </OfxParamTypeString>
+        <OfxParamTypeGroup name="propertiesGroup">
+          <OfxPropLabel>属性</OfxPropLabel>
+          <OfxParamPropHint>文本排版的主要属性。</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="markup">
+          <OfxPropLabel>标记语言</OfxPropLabel>
+          <OfxParamPropHint>将文本解析为Pango文本属性标记语言。
+
+更多信息请参见https://docs.gtk.org/Pango/pango_markup.html。</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="name">
+          <OfxPropLabel>选择</OfxPropLabel>
+          <OfxParamPropHint>选择要使用的字体系列。</OfxParamPropHint>
+        </OfxParamTypeChoice>
+        <OfxParamTypeString name="font">
+          <OfxPropLabel>字体</OfxPropLabel>
+          <OfxParamPropHint>正在使用的字体系列。</OfxParamPropHint>
+        </OfxParamTypeString>
+        <OfxParamTypeInteger name="size">
+          <OfxPropLabel>大小</OfxPropLabel>
+          <OfxParamPropHint>字体大小，以像素为单位。</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="strokeSize">
+          <OfxPropLabel>描边</OfxPropLabel>
+          <OfxParamPropHint>描边大小。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="letterSpace">
+          <OfxPropLabel>间距</OfxPropLabel>
+          <OfxParamPropHint>文字间的间距。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="lineSpace">
+          <OfxPropLabel>行距</OfxPropLabel>
+          <OfxParamPropHint>文字间的行距。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="wrap">
+          <OfxPropLabel>文字换行</OfxPropLabel>
+          <OfxParamPropHint>换行至预期的宽度。</OfxParamPropHint>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>单词</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>字符</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>单词和字符</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="halign">
+          <OfxPropLabel>水平对齐</OfxPropLabel>
+          <OfxParamPropHint>水平文本对齐。</OfxParamPropHint>
+          <OfxParamPropChoiceOption>左对齐</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>右对齐</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>居中</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>两端对齐偏左</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>两端对齐偏右</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="valign">
+          <OfxPropLabel>垂直对齐</OfxPropLabel>
+          <OfxParamPropHint>垂直文本对齐。</OfxParamPropHint>
+          <OfxParamPropChoiceOption>顶对齐</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>居中</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>底对齐</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="style">
+          <OfxPropLabel>风格</OfxPropLabel>
+          <OfxParamPropHint>字体风格。</OfxParamPropHint>
+          <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>斜体</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="weight">
+          <OfxPropLabel>字重</OfxPropLabel>
+          <OfxParamPropHint>指定字体粗细的字重字段。</OfxParamPropHint>
+          <OfxParamPropChoiceOption>淡体</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>特细</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>细体</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>次细</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>书籍</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>标准</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>适中</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>次粗</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>粗体</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>特粗</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>浓体</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>特浓</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="stretch">
+          <OfxPropLabel>拉伸</OfxPropLabel>
+          <OfxParamPropHint>字体相对于系列中其他设计的宽度。</OfxParamPropHint>
+          <OfxParamPropChoiceOption>特宽</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>较宽</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>宽体</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>次宽</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>次窄</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>窄体</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>较窄</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>特窄</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeString name="showChars">
+          <OfxPropLabel>字符</OfxPropLabel>
+          <OfxParamPropHint>限制要显示的字符。比如可以输入“1, 3, 5”。</OfxParamPropHint>
+        </OfxParamTypeString>
+        <OfxParamTypeGroup name="colorGroup">
+          <OfxPropLabel>颜色</OfxPropLabel>
+          <OfxParamPropHint>文本、描边和背景的填充颜色(RGBA)。</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGBA name="color">
+          <OfxPropLabel>填充</OfxPropLabel>
+          <OfxParamPropHint>文本填充颜色。</OfxParamPropHint>
+        </OfxParamTypeRGBA>
+        <OfxParamTypeRGBA name="strokeColor">
+          <OfxPropLabel>描边</OfxPropLabel>
+          <OfxParamPropHint>描边填充颜色。</OfxParamPropHint>
+        </OfxParamTypeRGBA>
+        <OfxParamTypeRGBA name="backgroundColor">
+          <OfxPropLabel>背景</OfxPropLabel>
+          <OfxParamPropHint>背景填充颜色。</OfxParamPropHint>
+        </OfxParamTypeRGBA>
+        <OfxParamTypeGroup name="transformGroup">
+          <OfxPropLabel>变形</OfxPropLabel>
+          <OfxParamPropHint>以各种方式变形文本排版。</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="translate">
+          <OfxPropLabel>位移</OfxPropLabel>
+          <OfxParamPropHint>启用位移。</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble2D name="position">
+          <OfxPropLabel>位置</OfxPropLabel>
+          <OfxParamPropHint>若启用位移，文本布局的自定义位置。</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeBoolean name="interactive">
+          <OfxPropLabel>交互</OfxPropLabel>
+          <OfxParamPropHint>勾选时，在移动叠加交互时渲染图像，而不是在释放鼠标时渲染。</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble2D name="scale">
+          <OfxPropLabel>缩放</OfxPropLabel>
+          <OfxParamPropHint>缩放文本排版。</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="skewX">
+          <OfxPropLabel>X倾斜</OfxPropLabel>
+          <OfxParamPropHint>在X方向上倾斜文本排版。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="skewY">
+          <OfxPropLabel>Y倾斜</OfxPropLabel>
+          <OfxParamPropHint>在Y方向上倾斜文本排版。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="rotate">
+          <OfxPropLabel>旋转</OfxPropLabel>
+          <OfxParamPropHint>旋转文本排版。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="layoutWidth">
+          <OfxPropLabel>排版</OfxPropLabel>
+          <OfxParamPropHint>当使用位移(自定义位置)时，设置文本排版的宽度。默认值0是文本或源/项目格式的宽度。</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeGroup name="rodGroup">
+          <OfxPropLabel>RoD</OfxPropLabel>
+          <OfxParamPropHint>图像效果的定义区域(Region of Definition)是它能够填充的二维图像平面的矩形截面。默认是项目格式或源输入。</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeInteger2D name="customRoD">
+          <OfxPropLabel>自定义RoD</OfxPropLabel>
+          <OfxParamPropHint>设置自定义RoD大小，默认值0是源/项目格式。</OfxParamPropHint>
+        </OfxParamTypeInteger2D>
+        <OfxParamTypeBoolean name="autoRoD">
+          <OfxPropLabel>自动RoD</OfxPropLabel>
+          <OfxParamPropHint>根据文本排版设置RoD大小。会覆盖“自定义RoD”和默认的源/项目格式。</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="pathGroup">
+          <OfxPropLabel>路径</OfxPropLabel>
+          <OfxParamPropHint>文本到路径是一项实验性功能，可能随时发生变化。它不应该用于生产，只用于测试/反馈。</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypePushButton name="pathAdd">
+          <OfxPropLabel>添加</OfxPropLabel>
+          <OfxParamPropHint>添加当前位置到路径。</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="pathClear">
+          <OfxPropLabel>清除</OfxPropLabel>
+          <OfxParamPropHint>清除路径。</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="pathType">
+          <OfxPropLabel>类型</OfxPropLabel>
+          <OfxParamPropHint>路径类型。</OfxParamPropHint>
+          <OfxParamPropChoiceOption>移动到</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>画线到</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="pathPreview">
+          <OfxPropLabel>预览</OfxPropLabel>
+          <OfxParamPropHint>预览路径(画线)。</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeString name="pathCords">
+          <OfxPropLabel>路径</OfxPropLabel>
+          <OfxParamPropHint>使用的路径。</OfxParamPropHint>
+        </OfxParamTypeString>
+        <OfxParamTypeGroup name="otherGroup">
+          <OfxPropLabel>其他</OfxPropLabel>
+          <OfxParamPropHint>其他选项。</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="glyphs">
+          <OfxPropLabel>字形</OfxPropLabel>
+          <OfxParamPropHint>渲染字形而不是路径。不应该在动画中使用。</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypePushButton name="info">
+          <OfxPropLabel>信息</OfxPropLabel>
+          <OfxParamPropHint>信息</OfxParamPropHint>
+        </OfxParamTypePushButton>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

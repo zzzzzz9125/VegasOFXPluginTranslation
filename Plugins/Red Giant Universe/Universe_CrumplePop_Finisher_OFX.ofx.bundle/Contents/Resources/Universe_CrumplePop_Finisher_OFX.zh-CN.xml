@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_CrumplePop_Finisher_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.图像修整器</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe 风格化</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>许可证...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>选择预设</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>保存预设</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble name="0">
+          <OfxPropLabel>增强对比度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>对比度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>曝光</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>饱和度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>细节</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="5">
+          <OfxPropLabel>滤镜</OfxPropLabel>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Atwater</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>百老汇</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>切诺基</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>回声公园</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>佛罗伦萨</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hyperion</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Los Feliz</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Mariposa</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Olvera</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pico</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>San Pedro</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Santee</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>银湖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Soto</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>春天</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>维多利亚</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>滤镜强度</OfxPropLabel>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

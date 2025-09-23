@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Motion_Graphics_Progresso_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Progresso</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Motion Graphics</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1900">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1901">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="0">
+          <OfxPropLabel>Text Style...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="1">
+          <OfxPropLabel>Chart Type</OfxPropLabel>
+          <OfxParamPropChoiceOption>Linear Bar</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Arc</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pie Chart</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Linear Sequence</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>Progress</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="3">
+          <OfxPropLabel>Position</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeGroup name="4">
+          <OfxPropLabel>Color</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypePushButton name="1902">
+          <OfxPropLabel>Choose a Color Map...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="5">
+          <OfxPropLabel>Fill Style</OfxPropLabel>
+          <OfxParamPropChoiceOption>Solid</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Gradient</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="6">
+          <OfxPropLabel>Gradient Anchor</OfxPropLabel>
+          <OfxParamPropChoiceOption>Start</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>End</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeRGB name="7">
+          <OfxPropLabel>FG Fill Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="8">
+          <OfxPropLabel>FG Fill Color 2</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="9">
+          <OfxPropLabel>FG Stroke Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="10">
+          <OfxPropLabel>BG Fill Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="11">
+          <OfxPropLabel>BG Stroke Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeGroup name="12">
+          <OfxPropLabel>Text Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeString name="13">
+          <OfxPropLabel>Text</OfxPropLabel>
+        </OfxParamTypeString>
+        <OfxParamTypeString name="14">
+          <OfxPropLabel>Font Family</OfxPropLabel>
+        </OfxParamTypeString>
+        <OfxParamTypeString name="15">
+          <OfxPropLabel>Font Style</OfxPropLabel>
+        </OfxParamTypeString>
+        <OfxParamTypeBoolean name="16">
+          <OfxPropLabel>Render Text</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="17">
+          <OfxPropLabel>Number Style</OfxPropLabel>
+          <OfxParamPropChoiceOption>Numbers</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Time</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="18">
+          <OfxPropLabel>Text Follows Progress</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="19">
+          <OfxPropLabel>Auto Rotate Text</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeRGB name="20">
+          <OfxPropLabel>Font Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="21">
+          <OfxPropLabel>Font Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="22">
+          <OfxPropLabel>Text Offset X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="23">
+          <OfxPropLabel>Text Offset Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="24">
+          <OfxPropLabel>Text Radius Offset</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="25">
+          <OfxPropLabel>Text Rotation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="26">
+          <OfxPropLabel>Justification</OfxPropLabel>
+          <OfxParamPropChoiceOption>Left</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Center</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Right</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="27">
+          <OfxPropLabel>Horizontal Tracking</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="28">
+          <OfxPropLabel>Text Blend Mode</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Darken</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Multiply</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Burn</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Add</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Lighten</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Dodge</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Overlay</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Soft Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hard Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Difference</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Exclusion</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Subtract</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Saturation</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Luminosity</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cutout</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Behind</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="29">
+          <OfxPropLabel>Numbers</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="30">
+          <OfxPropLabel>Final Value</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="31">
+          <OfxPropLabel>Number of Decimals</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="32">
+          <OfxPropLabel>Minimum Integer Length</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeBoolean name="33">
+          <OfxPropLabel>Use Commas</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="34">
+          <OfxPropLabel>Swap Comma/Period</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="35">
+          <OfxPropLabel>Unit of Measure</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Percent</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Dollar</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cents</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Euro</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Yen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Degrees</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Degrees F</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Degrees C</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Million</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Billion</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="36">
+          <OfxPropLabel>Unit Placement </OfxPropLabel>
+          <OfxParamPropChoiceOption>Smart</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Before</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>After</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="37">
+          <OfxPropLabel>Insert Space</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="38">
+          <OfxPropLabel>Time</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="39">
+          <OfxPropLabel>Format</OfxPropLabel>
+          <OfxParamPropChoiceOption>12 Hour Clock</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>24 Hour Clock</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Timecode</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="40">
+          <OfxPropLabel>Rate</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="41">
+          <OfxPropLabel>Hours Offset</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="42">
+          <OfxPropLabel>Minutes Offset</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="43">
+          <OfxPropLabel>Seconds Offset</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="44">
+          <OfxPropLabel>Show Seconds</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="45">
+          <OfxPropLabel>Show Milliseconds</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeInteger name="46">
+          <OfxPropLabel>Millseconds Rate</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeChoice name="47">
+          <OfxPropLabel>Time Separator</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Colon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Forward Slash</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Dash</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Period</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Asterisk</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Double Dash</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pipe</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Underscore</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="48">
+          <OfxPropLabel>Allow Negative Values</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="49">
+          <OfxPropLabel>Marker Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="50">
+          <OfxPropLabel>Draw Marker</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="51">
+          <OfxPropLabel>Marker Shape</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pointer</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rectangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ellipse</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Triangle</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="52">
+          <OfxPropLabel>Marker Width</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="53">
+          <OfxPropLabel>Marker Height</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="54">
+          <OfxPropLabel>Pointer Height</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="55">
+          <OfxPropLabel>Marker Offset X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="56">
+          <OfxPropLabel>Marker Offset Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="57">
+          <OfxPropLabel>Marker Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="58">
+          <OfxPropLabel>Marker Angle</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="59">
+          <OfxPropLabel>Linear Bar</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="60">
+          <OfxPropLabel>Bar Width</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="61">
+          <OfxPropLabel>Bar Height</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="62">
+          <OfxPropLabel>Bar Rounding</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="63">
+          <OfxPropLabel>Bar FG Stroke Width</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="64">
+          <OfxPropLabel>Bar BG Stroke Width</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="65">
+          <OfxPropLabel>Bar FG Fill Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="66">
+          <OfxPropLabel>Bar BG Fill Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="67">
+          <OfxPropLabel>Arc</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="68">
+          <OfxPropLabel>Arc Diameter</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="69">
+          <OfxPropLabel>Arc Angle</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="70">
+          <OfxPropLabel>Arc Rounding</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="71">
+          <OfxPropLabel>Arc FG Bar Width</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="72">
+          <OfxPropLabel>Arc FG Stroke Outline</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="73">
+          <OfxPropLabel>Arc BG Stroke Width</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="74">
+          <OfxPropLabel>Arc BG Stroke Outline</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="75">
+          <OfxPropLabel>Arc FG Fill Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="76">
+          <OfxPropLabel>Arc BG Fill Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="77">
+          <OfxPropLabel>Segments</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="78">
+          <OfxPropLabel>Draw Arc Segments</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="79">
+          <OfxPropLabel>Arc Segments Follow Progress</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeInteger name="80">
+          <OfxPropLabel>Arc Segments Count</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="81">
+          <OfxPropLabel>Arc Segment Radius Adjust</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="82">
+          <OfxPropLabel>Arc Segment Width</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="83">
+          <OfxPropLabel>Arc Segment Height</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="84">
+          <OfxPropLabel>Arc Interval Mark Frequency</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="85">
+          <OfxPropLabel>Arc Interval Mark Height</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="86">
+          <OfxPropLabel>Pie Chart</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="87">
+          <OfxPropLabel>Pie FG Diameter</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="88">
+          <OfxPropLabel>Pie BG Diameter</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="89">
+          <OfxPropLabel>Pie Angle</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="90">
+          <OfxPropLabel>Pie FG Stroke Width</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="91">
+          <OfxPropLabel>Pie BG Stroke Width</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="92">
+          <OfxPropLabel>Pie FG Fill Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="93">
+          <OfxPropLabel>Pie BG Fill Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="94">
+          <OfxPropLabel>Linear Sequence</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="95">
+          <OfxPropLabel>Seq Total Width</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="96">
+          <OfxPropLabel>Seq Segment Width</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="97">
+          <OfxPropLabel>Seq Segment Height</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="98">
+          <OfxPropLabel>Seq BG Bar Height</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="99">
+          <OfxPropLabel>Seq Segments</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="100">
+          <OfxPropLabel>Seq Rounding</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="101">
+          <OfxPropLabel>Seq Stroke Width FG</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="102">
+          <OfxPropLabel>Seq Stroke Width BG</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="103">
+          <OfxPropLabel>Seq FG Fill Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="104">
+          <OfxPropLabel>Seq BG Fill Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="105">
+          <OfxPropLabel>Foreground Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="106">
+          <OfxPropLabel>Background Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="107">
+          <OfxPropLabel>Blend Mode</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Darken</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Multiply</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Burn</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Add</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Lighten</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Dodge</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Overlay</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Soft Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hard Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Difference</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Exclusion</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Subtract</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Saturation</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Luminosity</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cutout</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Behind</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

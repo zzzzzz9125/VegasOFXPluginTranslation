@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="wtf.vala:NtscRs">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>NTSC-rs</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Filter</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="load_preset">
+          <OfxPropLabel>读取预设...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="save_preset">
+          <OfxPropLabel>保存预设...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeInteger name="36">
+          <OfxPropLabel>随机种子</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeChoice name="30">
+          <OfxPropLabel>使用的场</OfxPropLabel>
+          <OfxParamPropHint>选择将使用源图像的哪些行(NTSC术语中的“场”)。</OfxParamPropHint>
+          <OfxParamPropChoiceOption>交替场</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>仅上场</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>仅下场</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>上场优先</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>下场优先</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>整个画面</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="46">
+          <OfxPropLabel>低通滤波器类型</OfxPropLabel>
+          <OfxParamPropHint>在整个效果中使用的低通滤波器。</OfxParamPropHint>
+          <OfxParamPropChoiceOption>常数K(模糊)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Butterworth滤波器(锐化)</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="38">
+          <OfxPropLabel>输入亮度滤波器</OfxPropLabel>
+          <OfxParamPropHint>过滤输入亮度以减少色度串扰伪影。</OfxParamPropHint>
+          <OfxParamPropChoiceOption>陷波(Notch)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>方框(Box)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="0">
+          <OfxPropLabel>色度低通输入</OfxPropLabel>
+          <OfxParamPropHint>对输入色度信号应用低通滤波器。</OfxParamPropHint>
+          <OfxParamPropChoiceOption>全部</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>亮度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>复合预加重</OfxPropLabel>
+          <OfxParamPropHint>增强NTSC信号中的高频，使图像锐化并增强颜色。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="52_group">
+          <OfxPropLabel>复合噪点</OfxPropLabel>
+          <OfxParamPropHint>对NTSC信号应用的噪点。</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="52">
+          <OfxPropLabel>是否启用</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>强度</OfxPropLabel>
+          <OfxParamPropHint>噪点的强度。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="53">
+          <OfxPropLabel>频率</OfxPropLabel>
+          <OfxParamPropHint>噪点的基准波长，以像素为单位。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="54">
+          <OfxPropLabel>细节</OfxPropLabel>
+          <OfxParamPropHint>噪点的信频。</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>雪花</OfxPropLabel>
+          <OfxParamPropHint>图像中随机的雪花斑点的频率。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="34">
+          <OfxPropLabel>雪花异向性</OfxPropLabel>
+          <OfxParamPropHint>确定雪花斑点是真正的随机放置，还是集中在某些行。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="2">
+          <OfxPropLabel>扫描线相移</OfxPropLabel>
+          <OfxParamPropHint>各扫描线色度信号的相移。一般为180°。</OfxParamPropHint>
+          <OfxParamPropChoiceOption>0°</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>90°</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>180°</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>270°</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeInteger name="3">
+          <OfxPropLabel>扫描线相移偏移量</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeChoice name="33">
+          <OfxPropLabel>色度解调滤波器</OfxPropLabel>
+          <OfxParamPropHint>用于调制出复合NTSC信号的色度(颜色)数据的滤波器。</OfxParamPropHint>
+          <OfxParamPropChoiceOption>方框(Box)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>陷波(Notch)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>单线梳状(1-line comb)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>双线梳状(2-line comb)</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="45">
+          <OfxPropLabel>亮度涂抹</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="11_group">
+          <OfxPropLabel>磁头切换</OfxPropLabel>
+          <OfxParamPropHint>在图像底部模拟VHS的磁头切换伪影。</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="11">
+          <OfxPropLabel>是否启用</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeInteger name="12">
+          <OfxPropLabel>高度</OfxPropLabel>
+          <OfxParamPropHint>磁头切换伪影的总高度。</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="13">
+          <OfxPropLabel>偏移</OfxPropLabel>
+          <OfxParamPropHint>磁头切换伪影在屏幕外的偏移量。</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="14">
+          <OfxPropLabel>水平转换</OfxPropLabel>
+          <OfxParamPropHint>磁头切换伪影水平移动的行数。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="49_group">
+          <OfxPropLabel>起始中线</OfxPropLabel>
+          <OfxParamPropHint>从中间的扫描线开始磁头切换伪影，并在开始时添加部分静态画面。</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="49">
+          <OfxPropLabel>是否启用</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="50">
+          <OfxPropLabel>位置</OfxPropLabel>
+          <OfxParamPropHint>开始磁头切换时的水平位置。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="51">
+          <OfxPropLabel>抖动</OfxPropLabel>
+          <OfxParamPropHint>磁头切换的水平抖动量。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="15_group">
+          <OfxPropLabel>跟踪噪点</OfxPropLabel>
+          <OfxParamPropHint>模拟VHS跟踪错误的噪点。</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="15">
+          <OfxPropLabel>是否启用</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeInteger name="16">
+          <OfxPropLabel>高度</OfxPropLabel>
+          <OfxParamPropHint>跟踪伪影的总高度。</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="17">
+          <OfxPropLabel>波动强度</OfxPropLabel>
+          <OfxParamPropHint>受影响的扫描线来回“波动”的程度。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="18">
+          <OfxPropLabel>雪花强度</OfxPropLabel>
+          <OfxParamPropHint>伪影中雪花斑点噪点的频率。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="35">
+          <OfxPropLabel>雪花异向性</OfxPropLabel>
+          <OfxParamPropHint>扫描线聚集的斑点量。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="31">
+          <OfxPropLabel>噪点强度</OfxPropLabel>
+          <OfxParamPropHint>非散斑噪点的强度。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="19_group">
+          <OfxPropLabel>振铃</OfxPropLabel>
+          <OfxParamPropHint>额外的振铃伪影，用陷波(Notch)滤波器模拟。</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="19">
+          <OfxPropLabel>是否启用</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="20">
+          <OfxPropLabel>频率</OfxPropLabel>
+          <OfxParamPropHint>振铃的频率(周期)，单位为“每像素振铃数”。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="21">
+          <OfxPropLabel>功率</OfxPropLabel>
+          <OfxParamPropHint>陷波滤波器的功率(振铃延伸的距离)。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="22">
+          <OfxPropLabel>缩放</OfxPropLabel>
+          <OfxParamPropHint>振铃的强度。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="55_group">
+          <OfxPropLabel>亮度噪点</OfxPropLabel>
+          <OfxParamPropHint>应用于亮度信号的噪点。对于频率高于“复合噪点”设置提供的噪点来说，此选项可能更有用。</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="55">
+          <OfxPropLabel>是否启用</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="57">
+          <OfxPropLabel>强度</OfxPropLabel>
+          <OfxParamPropHint>噪点的强度。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="56">
+          <OfxPropLabel>频率</OfxPropLabel>
+          <OfxParamPropHint>噪点的基准波长，以像素为单位。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="58">
+          <OfxPropLabel>细节</OfxPropLabel>
+          <OfxParamPropHint>噪点的信频。</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeGroup name="42_group">
+          <OfxPropLabel>色度噪点</OfxPropLabel>
+          <OfxParamPropHint>Noise applied to the chrominance (color) signal.</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="42">
+          <OfxPropLabel>是否启用</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>强度</OfxPropLabel>
+          <OfxParamPropHint>噪点的强度。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="43">
+          <OfxPropLabel>频率</OfxPropLabel>
+          <OfxParamPropHint>噪点的基准波长，以像素为单位。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="44">
+          <OfxPropLabel>细节</OfxPropLabel>
+          <OfxParamPropHint>噪点的信频。</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="37">
+          <OfxPropLabel>色度相位误差</OfxPropLabel>
+          <OfxParamPropHint>色度信号的相位误差。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>色度相位噪点</OfxPropLabel>
+          <OfxParamPropHint>应用于色度信号相位的每条扫描线的噪点。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="8">
+          <OfxPropLabel>色度延迟(水平)</OfxPropLabel>
+          <OfxParamPropHint>色度信号的水平偏移量。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="9">
+          <OfxPropLabel>色度延迟(垂直)</OfxPropLabel>
+          <OfxParamPropHint>色度信号的垂直偏移量。通常随VHS生成的损耗而增加。</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeGroup name="23_group">
+          <OfxPropLabel>VHS模拟</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="23">
+          <OfxPropLabel>是否启用</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="24">
+          <OfxPropLabel>磁带速度</OfxPropLabel>
+          <OfxParamPropHint>模拟高频数据在各种VHS记录速度下的截止。</OfxParamPropHint>
+          <OfxParamPropChoiceOption>标准时长唱片(SP)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>长时间唱片(LP)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>拓展唱片(EP)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="26">
+          <OfxPropLabel>色度损失</OfxPropLabel>
+          <OfxParamPropHint>色度信号在每条扫描线中完全损失的可能性。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="47_group">
+          <OfxPropLabel>锐化</OfxPropLabel>
+          <OfxParamPropHint>锐化图像，如一些VHS录机所做的。</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="47">
+          <OfxPropLabel>是否启用</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="27">
+          <OfxPropLabel>强度</OfxPropLabel>
+          <OfxParamPropHint>应用锐化的强度。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="48">
+          <OfxPropLabel>频率</OfxPropLabel>
+          <OfxParamPropHint>锐化的频率(周期)，相对于磁带速度的截止频率。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="39_group">
+          <OfxPropLabel>边缘波动</OfxPropLabel>
+          <OfxParamPropHint>图像的水平波动。</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="39">
+          <OfxPropLabel>是否启用</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="28">
+          <OfxPropLabel>强度</OfxPropLabel>
+          <OfxParamPropHint>图像的水平波动，以像素为单位。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="29">
+          <OfxPropLabel>速度</OfxPropLabel>
+          <OfxParamPropHint>水平波动发生时的速度。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="40">
+          <OfxPropLabel>频率</OfxPropLabel>
+          <OfxParamPropHint>水平波的基准波长。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="41">
+          <OfxPropLabel>细节</OfxPropLabel>
+          <OfxParamPropHint>波动的噪点信频。</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeBoolean name="25">
+          <OfxPropLabel>垂直混合色度</OfxPropLabel>
+          <OfxParamPropHint>垂直混合每个扫描线的色度与其上方的扫描线。</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="10">
+          <OfxPropLabel>色度低通输出</OfxPropLabel>
+          <OfxParamPropHint>对输出色度信号应用低通滤波器。</OfxParamPropHint>
+          <OfxParamPropChoiceOption>全部</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>亮度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="61_group">
+          <OfxPropLabel>缩放</OfxPropLabel>
+          <OfxParamPropHint>用这些参数缩放效果。</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="61">
+          <OfxPropLabel>是否启用</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="32">
+          <OfxPropLabel>水平缩放</OfxPropLabel>
+          <OfxParamPropHint>将效果在此数值上水平缩放。对于480p视频，将其设置为1.0以获得最准确的物理效果。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="59">
+          <OfxPropLabel>垂直缩放</OfxPropLabel>
+          <OfxParamPropHint>将效果在此数值上垂直缩放。您最好将此值保持为 1.0。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="60">
+          <OfxPropLabel>根据视频大小缩放</OfxPropLabel>
+          <OfxParamPropHint>将缩放参数乘以视频的高度。推荐不使用这个，而是将输入视频缩放到480p，这样可以获得更准确的结果。</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="SrgbGammaCorrect">
+          <OfxPropLabel>应用sRGB伽马校正</OfxPropLabel>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

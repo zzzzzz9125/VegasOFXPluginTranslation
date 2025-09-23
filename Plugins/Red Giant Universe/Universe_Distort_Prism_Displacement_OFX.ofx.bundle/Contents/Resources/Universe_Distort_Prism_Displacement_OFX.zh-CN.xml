@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Distort_Prism_Displacement_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.棱镜置换</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe 扭曲</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>许可证...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>选择预设</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>保存预设</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="0">
+          <OfxPropLabel>预设</OfxPropLabel>
+          <OfxParamPropChoiceOption>默认</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>小折射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>中折射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>大折射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>软置换</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>重折射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>反向颜色转换</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>纵向颜色分割</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>-------</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>设置：灰色 = 0</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>设置：黑色 = 0</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>设置：Alpha = 灰色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>设置：Alpha = 黑色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>用户定义</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="1">
+          <OfxPropLabel>源</OfxPropLabel>
+          <OfxParamPropChoiceOption>明度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Alpha（用灰色预乘）</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Alpha（用黑色预乘）</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>玻璃折射</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>折射率</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>柔化置换贴图</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="1500">
+          <OfxPropLabel>传统模式</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="5">
+          <OfxPropLabel>折射设置</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>红色折射</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>绿色折射</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="8">
+          <OfxPropLabel>蓝色折射</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="9">
+          <OfxPropLabel>置换贴图级别</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="10">
+          <OfxPropLabel>黑场</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>白场</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>伽马</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="13">
+          <OfxPropLabel>照明</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="14">
+          <OfxPropLabel>光线X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="15">
+          <OfxPropLabel>光线Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="16">
+          <OfxPropLabel>光线Z</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="17">
+          <OfxPropLabel>漫反射</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeBoolean name="18">
+          <OfxPropLabel>贴图拉伸以适应</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="19">
+          <OfxPropLabel>双三次取样</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="20">
+          <OfxPropLabel>环绕模式</OfxPropLabel>
+          <OfxParamPropChoiceOption>边界</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>重复</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>固定</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="21">
+          <OfxPropLabel>视图置换贴图</OfxPropLabel>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

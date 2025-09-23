@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Blur_Box_Bokeh_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Bokeh</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Blur</OfxImageEffectPluginPropGrouping>
+      <OfxPropPluginDescription>Copyright (C) 2016 Red Giant LLC. All Rights Reserved.</OfxPropPluginDescription>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="42918">
+          <OfxPropLabel>Shape</OfxPropLabel>
+          <OfxParamPropChoiceOption>Triangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Circle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pentagon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hexagon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Heptagon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Octagon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Star</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="0">
+          <OfxPropLabel>Blur Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>Blur Angle</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="51146">
+          <OfxPropLabel>Highlight Boost</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5729">
+          <OfxPropLabel>Bokeh Ratio</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="48575">
+          <OfxPropLabel>Camera Focus</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="53433">
+          <OfxPropLabel>Enable</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="52522">
+          <OfxPropLabel>Focal Length</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="64707">
+          <OfxPropLabel>Invert Blur Map</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble2D name="57083">
+          <OfxPropLabel>Focus Position</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="13433">
+          <OfxPropLabel>Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="40864">
+          <OfxPropLabel>Attenuation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="55723">
+          <OfxPropLabel>Aspect Ratio</OfxPropLabel>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>
