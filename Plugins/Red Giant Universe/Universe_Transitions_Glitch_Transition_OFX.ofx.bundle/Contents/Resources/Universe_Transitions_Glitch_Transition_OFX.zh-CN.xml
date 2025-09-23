@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Transitions_Glitch_Transition_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.故障转场</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe 转场</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>许可证...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble name="Transition">
+          <OfxPropLabel>Transition</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>选择预设</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>保存预设</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="2">
+          <OfxPropLabel>预设</OfxPropLabel>
+          <OfxParamPropChoiceOption>默认</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>糟糕的东西</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>压缩的混乱内容</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>方形和线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>数据差别</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>彩色不良内容</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>数据条</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>宽且平</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>置换</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>压缩的置换</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>压缩的颜色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>颜色块</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>明亮的脏污</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>褪色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>褪色2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>颜色灾难</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>仅转场</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>文本 - 糟糕的分手</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>文本 - 小块</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>文本 - 大块</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>文本 - 低劣</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>文本 - 焦虑不安</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>文本 - 短且宽</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>文本 - 宽块</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>文本 - 超宽</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>文本- 上下</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>文本- 上下细</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>文本 - 抖动</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>文本 - 混乱的业务</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeInteger name="3">
+          <OfxPropLabel>随机种子</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeBoolean name="4">
+          <OfxPropLabel>Unmult</OfxPropLabel>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

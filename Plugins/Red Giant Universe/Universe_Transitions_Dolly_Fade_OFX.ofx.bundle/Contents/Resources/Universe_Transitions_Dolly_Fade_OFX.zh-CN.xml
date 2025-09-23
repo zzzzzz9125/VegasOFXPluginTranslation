@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Transitions_Dolly_Fade_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.滑镜淡化(拉镜)</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe 转场</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>许可证...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble name="Transition">
+          <OfxPropLabel>Transition</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>选择预设</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>保存预设</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="2">
+          <OfxPropLabel>方向</OfxPropLabel>
+          <OfxParamPropChoiceOption>推入运镜</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>推出运镜</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="3">
+          <OfxPropLabel>动画</OfxPropLabel>
+          <OfxParamPropChoiceOption>线性补间动画</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓入二次曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓出二次曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓入缓出二次曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓入三次曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓出三次曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓入缓出三次曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓入四次曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓出四次曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓入缓出四次曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓入五次曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓出五次曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓入缓出五次曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓入正弦曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓出正弦曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓入缓出正弦曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓入指数曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓出指数曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓入缓出指数曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓入圆</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓出圆</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓入缓出圆</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>步进</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>移动摄影架</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="5">
+          <OfxPropLabel>运动模糊</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="6">
+          <OfxPropLabel>运动模糊</OfxPropLabel>
+          <OfxParamPropChoiceOption>关闭</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>低</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>中</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>高</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>运动模糊快门</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="8">
+          <OfxPropLabel>边缘平滑</OfxPropLabel>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>低</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>中</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>高</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

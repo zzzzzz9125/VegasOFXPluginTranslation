@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Transitions_Color_Stripe_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Color Stripe</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Transitions</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble name="Transition">
+          <OfxPropLabel>Transition</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="2">
+          <OfxPropLabel>Direction</OfxPropLabel>
+          <OfxParamPropChoiceOption>Left to Right</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Right to Left</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Down</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Up</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="3">
+          <OfxPropLabel>Reverse</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="4">
+          <OfxPropLabel>Animation</OfxPropLabel>
+          <OfxParamPropChoiceOption>Linear Tween</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Quad</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease Out Quad</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Out Quad</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Cubic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease Out Cubic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Out Cubic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Quartic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease Out Quartic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Out Quartic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Quintic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease Out Quintic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Out Quintic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Sine</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease Out Sine</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Out Sine</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Exponential</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease Out Exponential</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption> Ease In Out Exponential</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Circle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease Out Circle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Out Circle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Step</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>Time Offset</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="6">
+          <OfxPropLabel>Number of Layers</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeChoice name="7">
+          <OfxPropLabel>Color Scheme</OfxPropLabel>
+          <OfxParamPropChoiceOption>Analagous</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Triadic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Complementary</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Split Complementary</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Tetradic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Custom</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Custom Offset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeRGB name="8">
+          <OfxPropLabel>Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeGroup name="9">
+          <OfxPropLabel>Custom Colors</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="10">
+          <OfxPropLabel>Use Color 2</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeRGB name="11">
+          <OfxPropLabel>Color 2</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeBoolean name="12">
+          <OfxPropLabel>Use Color 3</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeRGB name="13">
+          <OfxPropLabel>Color 3</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="14">
+          <OfxPropLabel>Hue Offset</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="15">
+          <OfxPropLabel>Drop Shadow</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="16">
+          <OfxPropLabel>Shadow Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="17">
+          <OfxPropLabel>Motion Blur</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="18">
+          <OfxPropLabel>Motion Blur</OfxPropLabel>
+          <OfxParamPropChoiceOption>Off</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Low</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Medium</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>High</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="19">
+          <OfxPropLabel>Motion Blur Shutter</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="20">
+          <OfxPropLabel>Motion Blur Phase</OfxPropLabel>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Utilities_Modes_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.混合模式</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe 实用工具</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>许可证...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1001">
+          <OfxPropLabel>选择预设...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1002">
+          <OfxPropLabel>保存预设...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="0">
+          <OfxPropLabel>输入色彩空间</OfxPropLabel>
+          <OfxParamPropChoiceOption>RGB</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>RGB到HSL</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>RGB到YUV</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>HSL到RGB</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>YUV到RGB</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>RGB到亮度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>RGB到明度</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="1">
+          <OfxPropLabel>混合模式A</OfxPropLabel>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>调暗</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>颜色加深</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>调亮</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>色彩减淡</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>硬光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>艳光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>线性光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>点光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>排除</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>色相</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>饱和度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>颜色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>明度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>自定义混合</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="2">
+          <OfxPropLabel>混合模式B</OfxPropLabel>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>调暗</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>颜色加深</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>调亮</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>色彩减淡</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>硬光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>艳光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>线性光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>点光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>排除</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>色相</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>饱和度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>颜色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>明度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>自定义混合</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>A &lt;-&gt; B混合</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>前景强度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>背景强度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="6">
+          <OfxPropLabel>交换前景/背景</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="7">
+          <OfxPropLabel>拉伸背景以适应</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="8">
+          <OfxPropLabel>自定义混合设置</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="9">
+          <OfxPropLabel>初始值</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="10">
+          <OfxPropLabel>初始运算符</OfxPropLabel>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>减</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>除</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>小于</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>大于</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="11">
+          <OfxPropLabel>组合(R=G=B)</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="12">
+          <OfxPropLabel>红色通道</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="13">
+          <OfxPropLabel>红色源</OfxPropLabel>
+          <OfxParamPropChoiceOption>红色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>绿色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>蓝色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Alpha</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1 - 红色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1 - 绿色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1 - 蓝色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>全开</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>全关</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="14">
+          <OfxPropLabel>红色源乘数</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="15">
+          <OfxPropLabel>红色运算符</OfxPropLabel>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>减</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>除</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>小于</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>大于</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>min(src.dest)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>max(src.dest)</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="16">
+          <OfxPropLabel>红色目的地</OfxPropLabel>
+          <OfxParamPropChoiceOption>红色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>绿色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>蓝色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Alpha</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1 - 红色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1 - 绿色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1 - 蓝色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>全开</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>全关</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="17">
+          <OfxPropLabel>红色目的地乘数</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="18">
+          <OfxPropLabel>绿色通道</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="19">
+          <OfxPropLabel>绿色源</OfxPropLabel>
+          <OfxParamPropChoiceOption>红色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>绿色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>蓝色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Alpha</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1 - 红色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1 - 绿色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1 - 蓝色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>全开</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>全关</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="20">
+          <OfxPropLabel>绿色源乘数</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="21">
+          <OfxPropLabel>绿色运算符</OfxPropLabel>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>减</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>除</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>小于</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>大于</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>min(src.dest)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>max(src.dest)</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="22">
+          <OfxPropLabel>绿色目标</OfxPropLabel>
+          <OfxParamPropChoiceOption>红色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>绿色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>蓝色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Alpha</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1 - 红色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1 - 绿色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1 - 蓝色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>全开</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>全关</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="23">
+          <OfxPropLabel>绿色目标乘数</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="24">
+          <OfxPropLabel>蓝色通道</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="25">
+          <OfxPropLabel>蓝色源</OfxPropLabel>
+          <OfxParamPropChoiceOption>红色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>绿色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>蓝色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Alpha</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1 - 红色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1 - 绿色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1 - 蓝色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>全开</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>全关</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="26">
+          <OfxPropLabel>蓝色源乘数</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="27">
+          <OfxPropLabel>蓝色运算符</OfxPropLabel>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>减</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>除</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>小于</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>大于</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>min(src.dest)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>max(src.dest)</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="28">
+          <OfxPropLabel>蓝色目标</OfxPropLabel>
+          <OfxParamPropChoiceOption>红色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>绿色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>蓝色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Alpha</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1 - 红色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1 - 绿色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1 - 蓝色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>全开</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>全关</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="29">
+          <OfxPropLabel>蓝色目标乘数</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="30">
+          <OfxPropLabel>输出色彩空间</OfxPropLabel>
+          <OfxParamPropChoiceOption>穿过</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>RGB到HSL</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>RGB到YUV</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>HSL到RGB</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>YUV到RGB</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>RGB到亮度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>RGB到明度</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="31">
+          <OfxPropLabel>线性</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="32">
+          <OfxPropLabel>显示公式</OfxPropLabel>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

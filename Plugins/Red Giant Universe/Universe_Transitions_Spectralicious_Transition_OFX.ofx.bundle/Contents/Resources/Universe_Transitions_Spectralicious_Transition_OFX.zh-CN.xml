@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Transitions_Spectralicious_Transition_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.光谱六色转场</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe 转场</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>许可证...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>选择预设</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>保存预设</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble name="Transition">
+          <OfxPropLabel>Transition</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>光谱时间偏移</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>光谱预模糊</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="4">
+          <OfxPropLabel>动画</OfxPropLabel>
+          <OfxParamPropChoiceOption>线性补间动画</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓入二次曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓出二次曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓入缓出二次曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓入三次曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓出三次曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓入缓出三次曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓入四次曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓出四次曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓入缓出四次曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓入五次曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓出五次曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓入缓出五次曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓入正弦曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓出正弦曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓入缓出正弦曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓入指数曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓出指数曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓入缓出指数曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓入圆</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓出圆</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓入缓出圆</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>步进</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>主体扩展</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>噪声</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="7">
+          <OfxPropLabel>调亮混合</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="8">
+          <OfxPropLabel>动画点</OfxPropLabel>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>显示变形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>随机化</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="9">
+          <OfxPropLabel>点速度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="10">
+          <OfxPropLabel>随机种子</OfxPropLabel>
+        </OfxParamTypeInteger>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

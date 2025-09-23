@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Transitions_HalfLight_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.眩光/漏光/光晕转场</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe 转场</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>许可证...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble name="Transition">
+          <OfxPropLabel>Transition</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>选择预设</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>保存预设</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="2">
+          <OfxPropLabel>镜头眩光</OfxPropLabel>
+          <OfxParamPropChoiceOption>碰撞</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>碰撞光束</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>碰撞Bokeh</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>碰撞圆</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>碰撞辉光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>碰撞弹出</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>碰撞方形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>碰撞三角形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>擦除角度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>擦除光束</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>擦除辉光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>横向擦除</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>擦除快门</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>擦除闪光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>纵向擦除</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="3">
+          <OfxPropLabel>混合模式</OfxPropLabel>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>调暗</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>颜色加深</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>调亮</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>色彩减淡</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>硬光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>排除</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>色相</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>饱和度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>颜色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>明度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>抠图</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>背后</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>不透明度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>亮度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>饱和度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="7">
+          <OfxPropLabel>翻转</OfxPropLabel>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>横向</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>纵向</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>双向</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Transitions_Glitch_Transition_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Glitch Transition</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Transitions</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble name="Transition">
+          <OfxPropLabel>Transition</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="2">
+          <OfxPropLabel>Preset</OfxPropLabel>
+          <OfxParamPropChoiceOption>Default</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Bad Stuff</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Compressed Mess</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Squares &amp; Lines</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Data Difference</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Colorful Badness</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Data Strips</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Wide &amp; Flat</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Displacement</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Compressed Displacement</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Compressed Color</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Chunks</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Bright Nasties</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Loss</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Loss 2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Calamity</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Transition Only</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Text - Bad Breakup</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Text - Little Bits</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Text - Big Chunks</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Text - Grungy</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Text - Jumpy</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Text - Short &amp; Wide</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Text - Wide Chunks</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Text - Super Wide</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Text - Up &amp; Down</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Text - Up &amp; Down Thin</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Text - Jittery</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Text - Messy Bussiness</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeInteger name="3">
+          <OfxPropLabel>Random Seed</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeBoolean name="4">
+          <OfxPropLabel>Unmult</OfxPropLabel>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

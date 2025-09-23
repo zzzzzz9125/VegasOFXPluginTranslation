@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Transitions_Cube_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.立方体</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe 转场</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>许可证...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble name="Transition">
+          <OfxPropLabel>Transition</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>选择预设</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>保存预设</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="2">
+          <OfxPropLabel>动画</OfxPropLabel>
+          <OfxParamPropChoiceOption>线性补间动画</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓入二次曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓出二次曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓入缓出二次曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓入三次曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓出三次曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓入缓出三次曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓入四次曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓出四次曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓入缓出四次曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓入五次曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓出五次曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓入缓出五次曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓入正弦曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓出正弦曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓入缓出正弦曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓入指数曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓出指数曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓入缓出指数曲线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓入圆</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓出圆</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缓入缓出圆</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>步进</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>移动摄影架</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="4">
+          <OfxPropLabel>方向</OfxPropLabel>
+          <OfxParamPropChoiceOption>右</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>左</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>向下</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>向上</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="5">
+          <OfxPropLabel>运动模糊</OfxPropLabel>
+          <OfxParamPropChoiceOption>关闭</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>低</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>中</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>高</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>运动模糊快门</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="7">
+          <OfxPropLabel>边缘平滑</OfxPropLabel>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>低</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>中</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>高</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="8">
+          <OfxPropLabel>光线</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="9">
+          <OfxPropLabel>光线</OfxPropLabel>
+          <OfxParamPropChoiceOption>关闭</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>打开</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="10">
+          <OfxPropLabel>光线类型</OfxPropLabel>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>环境</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>定向</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>位置</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>聚光灯</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>光强度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="12">
+          <OfxPropLabel>环境光</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="13">
+          <OfxPropLabel>光的漫反射</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="14">
+          <OfxPropLabel>光的镜面反射</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble2D name="15">
+          <OfxPropLabel>光线位置XY</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="16">
+          <OfxPropLabel>光线位置Z</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="17">
+          <OfxPropLabel>光线方向X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="18">
+          <OfxPropLabel>光线方向Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="19">
+          <OfxPropLabel>光线方向Z</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="20">
+          <OfxPropLabel>光线阻隔</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="21">
+          <OfxPropLabel>光线指数</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="22">
+          <OfxPropLabel>光因子恒定</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="23">
+          <OfxPropLabel>光因子线性</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="24">
+          <OfxPropLabel>光因子二次</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="25">
+          <OfxPropLabel>相机</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="26">
+          <OfxPropLabel>相机启用</OfxPropLabel>
+          <OfxParamPropChoiceOption>关闭</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>打开</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="27">
+          <OfxPropLabel>相机变焦</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="28">
+          <OfxPropLabel>相机X旋转</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="29">
+          <OfxPropLabel>相机Y旋转</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="30">
+          <OfxPropLabel>相机Z旋转</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="31">
+          <OfxPropLabel>相机X平移</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="32">
+          <OfxPropLabel>相机Y过渡</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="33">
+          <OfxPropLabel>相机Z过渡</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="34">
+          <OfxPropLabel>相机正交</OfxPropLabel>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

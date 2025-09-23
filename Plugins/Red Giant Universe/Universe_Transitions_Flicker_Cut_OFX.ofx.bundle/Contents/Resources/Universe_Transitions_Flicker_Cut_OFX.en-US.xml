@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Transitions_Flicker_Cut_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Flicker Cut</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Transitions</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble name="Transition">
+          <OfxPropLabel>Transition</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypePushButton name="2">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1001">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="3">
+          <OfxPropLabel>Pattern Select</OfxPropLabel>
+          <OfxParamPropChoiceOption>C/A</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>C/B</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>B/C</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>B/A</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>C/A/C/B</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeInteger name="4">
+          <OfxPropLabel>Cycles</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeRGB name="5">
+          <OfxPropLabel>Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>Color Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="7">
+          <OfxPropLabel>End Behavior</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Solid Color</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Fade Color</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Fade White</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="8">
+          <OfxPropLabel>Hold A/B Frames</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="9">
+          <OfxPropLabel>Effects</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="10">
+          <OfxPropLabel>Fade Clips</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>Fade Exposure</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="12">
+          <OfxPropLabel>Invert A Clip</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="13">
+          <OfxPropLabel>Invert B Clip</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="14">
+          <OfxPropLabel>Contrast</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="15">
+          <OfxPropLabel>Noise</OfxPropLabel>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

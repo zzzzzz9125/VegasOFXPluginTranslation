@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Transitions_Bokeh_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Bokeh散景转场</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Transitions</OfxImageEffectPluginPropGrouping>
+      <OfxPropPluginDescription>版权所有(C) 2016 Red Giant LLC.保留所有权利。</OfxPropPluginDescription>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>许可证...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="2127">
+          <OfxPropLabel>选择预设...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="26583">
+          <OfxPropLabel>保存预设...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="42918">
+          <OfxPropLabel>形状</OfxPropLabel>
+          <OfxParamPropChoiceOption>三角形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>方形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆圈</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>五边形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>六边形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>七边形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>八边形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>星形</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="7803">
+          <OfxPropLabel>模糊量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="44159">
+          <OfxPropLabel>模糊角度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="51146">
+          <OfxPropLabel>高光增强</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5729">
+          <OfxPropLabel>Bokeh比率</OfxPropLabel>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>
