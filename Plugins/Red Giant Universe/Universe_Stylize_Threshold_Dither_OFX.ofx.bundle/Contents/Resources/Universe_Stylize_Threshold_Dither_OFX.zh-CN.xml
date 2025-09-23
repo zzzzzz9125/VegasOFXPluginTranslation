@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Stylize_Threshold_Dither_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Threshold Dither</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe 风格化</OfxImageEffectPluginPropGrouping>
+      <OfxPropPluginDescription>版权所有(C) 2016 Red Giant LLC.保留所有权利。</OfxPropPluginDescription>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>许可证...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="2127">
+          <OfxPropLabel>选择预设...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="26583">
+          <OfxPropLabel>保存预设...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="43629">
+          <OfxPropLabel>阈值类型</OfxPropLabel>
+          <OfxParamPropChoiceOption>明度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>RGB</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>饱和度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Alpha</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="45377">
+          <OfxPropLabel>仿色尺寸</OfxPropLabel>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1/2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1/4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1/8</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1/16</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="31716">
+          <OfxPropLabel>仿色偏差</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="53638">
+          <OfxPropLabel>色调分离级别</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeGroup name="4278">
+          <OfxPropLabel>阈值设置</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="46677">
+          <OfxPropLabel>反转</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="4543">
+          <OfxPropLabel>与原色混合</OfxPropLabel>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

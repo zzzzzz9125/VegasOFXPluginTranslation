@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Stylize_VHS_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.VHS录像机</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe 风格化</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>许可证...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="200">
+          <OfxPropLabel>选择预设...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="301">
+          <OfxPropLabel>保存预设...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeBoolean name="201">
+          <OfxPropLabel>启用颜色控件</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="5">
+          <OfxPropLabel>颜色控件</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>黑场</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>饱和度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="8">
+          <OfxPropLabel>明度模糊</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="9">
+          <OfxPropLabel>色度模糊</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="202">
+          <OfxPropLabel>锐化半径</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="203">
+          <OfxPropLabel>锐化混合</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="10">
+          <OfxPropLabel>颜色偏移</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>色度偏移X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>色度偏移Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="13">
+          <OfxPropLabel>色度编织X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="14">
+          <OfxPropLabel>色度编织Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="15">
+          <OfxPropLabel>速度X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="16">
+          <OfxPropLabel>速度Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="204">
+          <OfxPropLabel>颜色混合</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="19">
+          <OfxPropLabel>通道控件</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="20">
+          <OfxPropLabel>红色偏移</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="21">
+          <OfxPropLabel>绿色偏移</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="22">
+          <OfxPropLabel>蓝色偏移</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="23">
+          <OfxPropLabel>红色模糊</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="24">
+          <OfxPropLabel>绿色模糊</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="25">
+          <OfxPropLabel>蓝色模糊</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="205">
+          <OfxPropLabel>启用录像带损坏</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="27">
+          <OfxPropLabel>录像带损坏</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="36">
+          <OfxPropLabel>录像带噪声类型</OfxPropLabel>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>VHS噪声</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>损坏的跟踪</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>严重损坏的跟踪</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>空白带</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>垂直滑落</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>混合跟踪</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>色彩噪声</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>垂直滑落2</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="206">
+          <OfxPropLabel>调节噪声缩放</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="28">
+          <OfxPropLabel>弹出线频率</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="29">
+          <OfxPropLabel>帧抖动</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="30">
+          <OfxPropLabel>交错错误</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="31">
+          <OfxPropLabel>交错错误</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="32">
+          <OfxPropLabel>缩放</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="33">
+          <OfxPropLabel>颜色1</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="34">
+          <OfxPropLabel>颜色2</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeInteger name="37">
+          <OfxPropLabel>偏移</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="38">
+          <OfxPropLabel>录像带噪声</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="39">
+          <OfxPropLabel>失真</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="40">
+          <OfxPropLabel>录像带皱褶</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="41">
+          <OfxPropLabel>皱褶失真</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="42">
+          <OfxPropLabel>滚动速度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="43">
+          <OfxPropLabel>可能性百分比</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="44">
+          <OfxPropLabel>皱褶半径</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="207">
+          <OfxPropLabel>启用文本</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="208">
+          <OfxPropLabel>文本生成器</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeGroup name="209">
+          <OfxPropLabel>播放状态</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="210">
+          <OfxPropLabel>显示状态</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="211">
+          <OfxPropLabel>包括图标</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="212">
+          <OfxPropLabel>状态文本</OfxPropLabel>
+          <OfxParamPropChoiceOption>播放</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>停止</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>倒带</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>快进</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>弹出</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>-----</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>自动校准</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>暂停</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble2D name="213">
+          <OfxPropLabel>状态位置</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeBoolean name="214">
+          <OfxPropLabel>闪烁</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="215">
+          <OfxPropLabel>闪烁速度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="217">
+          <OfxPropLabel>时间码</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="218">
+          <OfxPropLabel>显示计数器</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="219">
+          <OfxPropLabel>格式</OfxPropLabel>
+          <OfxParamPropChoiceOption>MM-SS</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>MM:SS</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>HH:MM:SS</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>HH:MM:SS:FF</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble2D name="220">
+          <OfxPropLabel>时间码位置</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="221">
+          <OfxPropLabel>时间偏移</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="223">
+          <OfxPropLabel>录像带速度</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="224">
+          <OfxPropLabel>显示速度</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="225">
+          <OfxPropLabel>速度</OfxPropLabel>
+          <OfxParamPropChoiceOption>SP</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>LP</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>SLP</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble2D name="226">
+          <OfxPropLabel>文本速度位置</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeBoolean name="228">
+          <OfxPropLabel>文本阴影</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="229">
+          <OfxPropLabel>纯色</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="230">
+          <OfxPropLabel>文本大小</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="240">
+          <OfxPropLabel>填充颜色</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeChoice name="241">
+          <OfxPropLabel>源</OfxPropLabel>
+          <OfxParamPropChoiceOption>来自VCR</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>来自录像带</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="3">
+          <OfxPropLabel>帧样式</OfxPropLabel>
+          <OfxParamPropChoiceOption>原色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>4x3</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>图像偏移</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="2">
+          <OfxPropLabel>录像带样式(LUT)</OfxPropLabel>
+          <OfxParamPropChoiceOption>VHS</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>损坏的VHS</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>S-VHS</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>U-matic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Beta</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="243">
+          <OfxPropLabel>后噪声</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="244">
+          <OfxPropLabel>渲染Alpha</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeInteger name="47">
+          <OfxPropLabel>随机种子</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="48">
+          <OfxPropLabel>与原色混合</OfxPropLabel>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

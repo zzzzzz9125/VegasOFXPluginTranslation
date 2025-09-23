@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Stylize_Misfire_Premium_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.电影损坏</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe 风格化</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>许可证...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>选择预设</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>保存预设</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>损坏量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>颜色量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="3">
+          <OfxPropLabel>随机种子</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeGroup name="4">
+          <OfxPropLabel>效果</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="5">
+          <OfxPropLabel>应用柔化</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="6">
+          <OfxPropLabel>柔化</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>柔化量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="8">
+          <OfxPropLabel>应用饱和度</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="9">
+          <OfxPropLabel>饱和度</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="10">
+          <OfxPropLabel>饱和度量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="11">
+          <OfxPropLabel>应用褪色</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="12">
+          <OfxPropLabel>褪色</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="13">
+          <OfxPropLabel>褪色量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="14">
+          <OfxPropLabel>应用Funk</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="15">
+          <OfxPropLabel>Funk</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="16">
+          <OfxPropLabel>Funk不透明度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="17">
+          <OfxPropLabel>应用斑点</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="18">
+          <OfxPropLabel>斑点</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeInteger name="19">
+          <OfxPropLabel>斑点数</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="20">
+          <OfxPropLabel>斑点比例</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="21">
+          <OfxPropLabel>斑点不透明度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="22">
+          <OfxPropLabel>斑点频率</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="23">
+          <OfxPropLabel>应用灰尘</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="24">
+          <OfxPropLabel>灰尘</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeInteger name="25">
+          <OfxPropLabel>黑色灰尘量</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="26">
+          <OfxPropLabel>白色灰尘量</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="27">
+          <OfxPropLabel>灰尘不透明度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="28">
+          <OfxPropLabel>灰尘频率</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="29">
+          <OfxPropLabel>应用闪烁</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="30">
+          <OfxPropLabel>闪烁</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="31">
+          <OfxPropLabel>闪烁频率</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="32">
+          <OfxPropLabel>闪烁量</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeBoolean name="33">
+          <OfxPropLabel>应用暗角</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="34">
+          <OfxPropLabel>暗角</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="35">
+          <OfxPropLabel>暗角尺寸</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="36">
+          <OfxPropLabel>暗角强度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="37">
+          <OfxPropLabel>应用置换</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="38">
+          <OfxPropLabel>置换</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="39">
+          <OfxPropLabel>置换量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="40">
+          <OfxPropLabel>置换比例</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="41">
+          <OfxPropLabel>应用微划痕</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="42">
+          <OfxPropLabel>微划痕</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeInteger name="43">
+          <OfxPropLabel>微划痕数</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="44">
+          <OfxPropLabel>微划痕不透明度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="45">
+          <OfxPropLabel>应用彩色颗粒</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="46">
+          <OfxPropLabel>彩色颗粒</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="47">
+          <OfxPropLabel>颗粒量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="48">
+          <OfxPropLabel>颗粒颜色</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="49">
+          <OfxPropLabel>颗粒比例</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="50">
+          <OfxPropLabel>颗粒持久性</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="51">
+          <OfxPropLabel>颗粒红色柔化</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="52">
+          <OfxPropLabel>颗粒绿色柔化</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="53">
+          <OfxPropLabel>颗粒蓝色柔化</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="54">
+          <OfxPropLabel>颗粒黑色抑制</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="55">
+          <OfxPropLabel>颗粒白色抑制</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="56">
+          <OfxPropLabel>应用明度噪声</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="57">
+          <OfxPropLabel>明度噪声</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="58">
+          <OfxPropLabel>明度噪声量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="59">
+          <OfxPropLabel>明度噪声对比度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="60">
+          <OfxPropLabel>明度噪声比例</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="61">
+          <OfxPropLabel>明度噪声持久性</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeBoolean name="62">
+          <OfxPropLabel>明度噪声超采样</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="63">
+          <OfxPropLabel>明度噪声不透明度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="64">
+          <OfxPropLabel>应用深划痕</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="65">
+          <OfxPropLabel>深划痕</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeInteger name="66">
+          <OfxPropLabel>深划痕数量</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="67">
+          <OfxPropLabel>深划痕持续时间</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeRGB name="68">
+          <OfxPropLabel>深划痕色调</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeBoolean name="69">
+          <OfxPropLabel>应用基本划痕</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="70">
+          <OfxPropLabel>基本划痕</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeInteger name="71">
+          <OfxPropLabel>基本划痕数量</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="72">
+          <OfxPropLabel>基本划痕持续时间</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeBoolean name="73">
+          <OfxPropLabel>反转基本划痕</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="74">
+          <OfxPropLabel>应用轻微晃动</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="75">
+          <OfxPropLabel>轻微晃动</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="76">
+          <OfxPropLabel>晃动频率</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="77">
+          <OfxPropLabel>晃动振幅</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="78">
+          <OfxPropLabel>晃动噪声频率</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="79">
+          <OfxPropLabel>应用后对比度</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="80">
+          <OfxPropLabel>后对比度</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="81">
+          <OfxPropLabel>后对比度</OfxPropLabel>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

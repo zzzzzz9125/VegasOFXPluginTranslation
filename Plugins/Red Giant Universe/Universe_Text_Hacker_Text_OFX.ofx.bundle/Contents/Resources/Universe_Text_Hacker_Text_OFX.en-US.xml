@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Text_Hacker_Text_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Hacker Text</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Text</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeString name="41">
+          <OfxPropLabel>Edit Custom Text</OfxPropLabel>
+        </OfxParamTypeString>
+        <OfxParamTypeString name="42">
+          <OfxPropLabel>Edit Custom Character</OfxPropLabel>
+        </OfxParamTypeString>
+        <OfxParamTypeString name="0">
+          <OfxPropLabel>Text Source</OfxPropLabel>
+        </OfxParamTypeString>
+        <OfxParamTypeString name="1">
+          <OfxPropLabel>Text Target</OfxPropLabel>
+        </OfxParamTypeString>
+        <OfxParamTypePushButton name="1001">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1002">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="2">
+          <OfxPropLabel>Edit Text...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble2D name="3">
+          <OfxPropLabel>Position</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeGroup name="43">
+          <OfxPropLabel>Animation</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="44">
+          <OfxPropLabel>Animation Timing</OfxPropLabel>
+          <OfxParamPropChoiceOption>Automatic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Manual</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="5">
+          <OfxPropLabel>Text Transition Type</OfxPropLabel>
+          <OfxParamPropChoiceOption>Random=&gt;Target</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Source=&gt;Random=&gt;Target</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Source=&gt;Target</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="6">
+          <OfxPropLabel>Text Direction</OfxPropLabel>
+          <OfxParamPropChoiceOption>Left to Right</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Random</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Right to Left</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>Text Transition</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="45">
+          <OfxPropLabel>Text Wipe</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="46">
+          <OfxPropLabel>Text Wipe Direction</OfxPropLabel>
+          <OfxParamPropChoiceOption>Left to Right</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Random</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Right to Left</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="47">
+          <OfxPropLabel>Enable Text Intro</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="48">
+          <OfxPropLabel>Text Wipe Intro Start</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="49">
+          <OfxPropLabel>Text Wipe Intro End</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="50">
+          <OfxPropLabel>Enable Text Transition</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="51">
+          <OfxPropLabel>Text Transition Start</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="52">
+          <OfxPropLabel>Text Transition End</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="53">
+          <OfxPropLabel>Enable Text Outro</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="54">
+          <OfxPropLabel>Text Wipe Outro Start</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="55">
+          <OfxPropLabel>Text Wipe Outro End</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="9">
+          <OfxPropLabel>Text Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypePushButton name="57">
+          <OfxPropLabel>Edit Custom Character...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="58">
+          <OfxPropLabel>Filler Character</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Period</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Plus</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Dash</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Letter x</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Asterisk</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Double Dash</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Double Slash</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pipe</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Underscore</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Colon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Dollar Sign</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ampersand</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Double Colon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Forward Slash</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Greater Than</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Less Than</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Right Shift</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Left Shift</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Not Equal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Left Bracket</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Right Bracket</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ellipsis</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Slash Dot</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Modulus</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Custom</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="7">
+          <OfxPropLabel>Prefix</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Period</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Plus</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Dash</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Letter x</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Asterisk</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Double Dash</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Double Slash</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pipe</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Underscore</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Colon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Dollar Sign</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ampersand</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Double Colon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Forward Slash</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Greater Than</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Less Than</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Right Shift</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Left Shift</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Not Equal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Left Bracket</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Right Bracket</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ellipsis</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Slash Dot</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Modulus</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Custom</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="8">
+          <OfxPropLabel>Suffix</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Period</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Plus</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Dash</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Letter x</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Asterisk</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Double Dash</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Double Slash</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pipe</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Underscore</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Colon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Dollar Sign</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ampersand</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Double Colon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Forward Slash</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Greater Than</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Less Than</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Right Shift</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Left Shift</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Not Equal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Left Bracket</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Right Bracket</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ellipsis</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Slash Dot</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Modulus</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Custom</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="10">
+          <OfxPropLabel>Font Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="11">
+          <OfxPropLabel>Font Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeChoice name="12">
+          <OfxPropLabel>Justification</OfxPropLabel>
+          <OfxParamPropChoiceOption>Left</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Center</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Right</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="13">
+          <OfxPropLabel>Horizontal Tracking</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="14">
+          <OfxPropLabel>Randomization</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="15">
+          <OfxPropLabel>Scroll Behavior</OfxPropLabel>
+          <OfxParamPropChoiceOption>Scroll with Time</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Scroll with Transition</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="16">
+          <OfxPropLabel>Scroll Rate</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="60">
+          <OfxPropLabel>Frame Rate</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeBoolean name="17">
+          <OfxPropLabel>Preserve Spaces</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="18">
+          <OfxPropLabel>Random Seed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="61">
+          <OfxPropLabel>Flicker</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="62">
+          <OfxPropLabel>Enable Flicker</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="63">
+          <OfxPropLabel>Flicker Frequency</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="64">
+          <OfxPropLabel>Flicker Sustain</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="65">
+          <OfxPropLabel>Flicker Characters</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="66">
+          <OfxPropLabel>Flicker Opacity</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="67">
+          <OfxPropLabel>Flicker Opacity Level</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="68">
+          <OfxPropLabel>Flicker Scale</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="69">
+          <OfxPropLabel>Flicker Scale Level</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="19">
+          <OfxPropLabel>Random Characters</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="20">
+          <OfxPropLabel>Uppercase Letters</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="21">
+          <OfxPropLabel>Lowercase Letters</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="22">
+          <OfxPropLabel>Numbers 0-9</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="23">
+          <OfxPropLabel>Hexadecimal Uppercase</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="24">
+          <OfxPropLabel>Hexadecimal Lowercase</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="25">
+          <OfxPropLabel>Symbols</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="71">
+          <OfxPropLabel>Custom Text</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypePushButton name="72">
+          <OfxPropLabel>Edit Custom Text...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeInteger name="26">
+          <OfxPropLabel>Number Limit</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="27">
+          <OfxPropLabel>Character Limit</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeGroup name="28">
+          <OfxPropLabel>Effects</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="29">
+          <OfxPropLabel>Enable Glow</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="30">
+          <OfxPropLabel>Glow Intensity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="31">
+          <OfxPropLabel>Glow Radius</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="74">
+          <OfxPropLabel>Glow Boost Light</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="32">
+          <OfxPropLabel>Enable Scan Lines</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="33">
+          <OfxPropLabel>Scan Line Thickness</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="34">
+          <OfxPropLabel>Scan Line Spacing</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="35">
+          <OfxPropLabel>Scan Line Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="36">
+          <OfxPropLabel>Foreground Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="37">
+          <OfxPropLabel>Background Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="38">
+          <OfxPropLabel>Blend Mode</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Darken</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Multiply</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Burn</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Add</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Lighten</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Dodge</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Overlay</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Soft Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hard Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Difference</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Exclusion</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Subtract</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Saturation</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Luminosity</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cutout</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Behind</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeString name="39">
+          <OfxPropLabel>Font Family Tgt</OfxPropLabel>
+        </OfxParamTypeString>
+        <OfxParamTypeString name="40">
+          <OfxPropLabel>Font Style Tgt</OfxPropLabel>
+        </OfxParamTypeString>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Text_Glo_Fi_II_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.文字动态光芒 II</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe 风格化</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>许可证...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>选择预设</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>保存预设</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="1">
+          <OfxPropLabel>颜色贴图</OfxPropLabel>
+          <OfxParamPropChoiceOption>暖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>冰</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叶绿素</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>思乡</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>风情万种</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>绸缎</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>雪</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>闪烁微光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>史诗</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>水银灯</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>棱镜光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>三叶草</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>用户定义</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>循环持续时间（秒）</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>速度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>亮度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>增强</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="6">
+          <OfxPropLabel>方向性模糊</OfxPropLabel>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>纵向</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>横向</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="7">
+          <OfxPropLabel>模糊</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="8">
+          <OfxPropLabel>高斯模糊尺寸</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="9">
+          <OfxPropLabel>高斯模糊混合</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="10">
+          <OfxPropLabel>条纹模糊尺寸</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>条纹模糊混合</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="12">
+          <OfxPropLabel>上色</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="13">
+          <OfxPropLabel>高光</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="14">
+          <OfxPropLabel>中间调</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="15">
+          <OfxPropLabel>阴影</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="16">
+          <OfxPropLabel>饱和度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="17">
+          <OfxPropLabel>后辉光</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="18">
+          <OfxPropLabel>源图案</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="19">
+          <OfxPropLabel>对比度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="20">
+          <OfxPropLabel>缩放</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="21">
+          <OfxPropLabel>滚动X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="22">
+          <OfxPropLabel>滚动Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="23">
+          <OfxPropLabel>随机种子</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="24">
+          <OfxPropLabel>辉光混合</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="25">
+          <OfxPropLabel>允许HDR结果</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="26">
+          <OfxPropLabel>Unmult</OfxPropLabel>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

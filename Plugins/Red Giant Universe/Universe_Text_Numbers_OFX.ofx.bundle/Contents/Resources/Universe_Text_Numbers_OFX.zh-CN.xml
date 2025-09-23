@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Text_Numbers_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.多格式数字</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe 文字</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>许可证...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeString name="1902">
+          <OfxPropLabel>Edit Custom Text</OfxPropLabel>
+        </OfxParamTypeString>
+        <OfxParamTypePushButton name="1900">
+          <OfxPropLabel>选择预设...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1901">
+          <OfxPropLabel>保存预设...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="0">
+          <OfxPropLabel>文本样式...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble2D name="1">
+          <OfxPropLabel>位置</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeChoice name="2">
+          <OfxPropLabel>数字类型</OfxPropLabel>
+          <OfxParamPropChoiceOption>数字</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>日期</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>时间</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>值</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>比率</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="5">
+          <OfxPropLabel>文本设置</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>字号</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="7">
+          <OfxPropLabel>字体颜色</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeChoice name="8">
+          <OfxPropLabel>对齐</OfxPropLabel>
+          <OfxParamPropChoiceOption>左</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>中心</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>右</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="9">
+          <OfxPropLabel>水平字间距</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeString name="10">
+          <OfxPropLabel>Font Family</OfxPropLabel>
+        </OfxParamTypeString>
+        <OfxParamTypeString name="11">
+          <OfxPropLabel>Font Style</OfxPropLabel>
+        </OfxParamTypeString>
+        <OfxParamTypeGroup name="12">
+          <OfxPropLabel>数字</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeInteger name="13">
+          <OfxPropLabel>小数位数量</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="14">
+          <OfxPropLabel>最小整数长度</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeBoolean name="15">
+          <OfxPropLabel>使用逗号</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="16">
+          <OfxPropLabel>交换逗号/句号</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="17">
+          <OfxPropLabel>单位</OfxPropLabel>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>百分比</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>美元</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>分</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>欧元</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>日元</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>华氏度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>摄氏度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>百万</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>十亿</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>英镑</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>自定义</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="18">
+          <OfxPropLabel>单位放置</OfxPropLabel>
+          <OfxParamPropChoiceOption>智能</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>之前</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>之后</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypePushButton name="1050">
+          <OfxPropLabel>编辑自定义文本...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeBoolean name="19">
+          <OfxPropLabel>插入空格</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="20">
+          <OfxPropLabel>日期</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeInteger name="21">
+          <OfxPropLabel>年偏移</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="22">
+          <OfxPropLabel>日偏移</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeChoice name="23">
+          <OfxPropLabel>日期格式</OfxPropLabel>
+          <OfxParamPropChoiceOption>DD MM YYYY</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>MM DD YYYY</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>MMM DD YYYY</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>MMMM DD YYYY</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>YYYY MM DD</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>YYYY DD MM</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>YYYY-MM</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>--MM-DD</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="24">
+          <OfxPropLabel>日期分隔符</OfxPropLabel>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>冒号</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>正斜杠</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>短划线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>句号</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>星号</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>双划线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>竖线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>下划线</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="25">
+          <OfxPropLabel>日期全大写</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="26">
+          <OfxPropLabel>时间</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="27">
+          <OfxPropLabel>格式</OfxPropLabel>
+          <OfxParamPropChoiceOption>12小时制时钟上午/下午</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>12小时制时钟</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>24小时制时钟</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>时间码</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>MM:SS:FF</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeInteger name="28">
+          <OfxPropLabel>时偏移</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="29">
+          <OfxPropLabel>分偏移</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="30">
+          <OfxPropLabel>秒偏移</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="31">
+          <OfxPropLabel>显示秒数</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="32">
+          <OfxPropLabel>显示毫秒</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeInteger name="33">
+          <OfxPropLabel>毫秒速率</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeChoice name="34">
+          <OfxPropLabel>时间分隔符</OfxPropLabel>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>冒号</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>正斜杠</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>短划线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>句号</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>星号</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>双划线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>竖线</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>下划线</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="35">
+          <OfxPropLabel>允许负值</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="36">
+          <OfxPropLabel>前景不透明度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="37">
+          <OfxPropLabel>背景不透明度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="38">
+          <OfxPropLabel>混合模式</OfxPropLabel>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>调暗</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>颜色加深</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>调亮</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>色彩减淡</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>硬光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>排除</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>色相</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>饱和度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>颜色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>明度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>抠图</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>背后</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

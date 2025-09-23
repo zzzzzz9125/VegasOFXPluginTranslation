@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Stylize_Texturize_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.纹理化</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe 风格化</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>许可证...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>选择预设</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>保存预设</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="0">
+          <OfxPropLabel>纹理</OfxPropLabel>
+          <OfxParamPropChoiceOption>开裂的墙壁</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>混凝土</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>高对比度墙壁</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>混凝土砖块</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>地面</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>斑块状沥青</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>风化的岩石</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>煤渣砖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>多孔混凝土</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>混凝土孔</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>被液体溅污的砖块</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>被液体溅污的砖块2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>脏污的砖块</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>斑驳的油漆</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>风化的岩石</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>缩放</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="2">
+          <OfxPropLabel>中心</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>纹理不透明度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>纹理对比度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>纹理模糊</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="1001">
+          <OfxPropLabel>置换贴图</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="1002">
+          <OfxPropLabel>使用置换</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="1003">
+          <OfxPropLabel>水平置换</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1004">
+          <OfxPropLabel>垂直置换</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1005">
+          <OfxPropLabel>柔化置换贴图</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="6">
+          <OfxPropLabel>色调</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>色调强度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="8">
+          <OfxPropLabel>混合模式</OfxPropLabel>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>调暗</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>颜色加深</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>调亮</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>色彩减淡</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>硬光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>排除</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>色相</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>饱和度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>颜色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>明度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>抠图</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>背后</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="9">
+          <OfxPropLabel>蒙版</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="10">
+          <OfxPropLabel>启用蒙版</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>缩放</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="12">
+          <OfxPropLabel>中心</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="13">
+          <OfxPropLabel>宽高比</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="14">
+          <OfxPropLabel>衰减</OfxPropLabel>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

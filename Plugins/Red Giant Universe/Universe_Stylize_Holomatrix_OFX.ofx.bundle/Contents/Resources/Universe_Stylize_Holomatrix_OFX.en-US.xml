@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Stylize_Holomatrix_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Holomatrix II</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Stylize</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1200">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1201">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>More Damage</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>More Often</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="1060">
+          <OfxPropLabel>Punch It</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>Effect Scale</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="4">
+          <OfxPropLabel>Unmult</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="5">
+          <OfxPropLabel>Alpha Edge Fix</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>Frame Rate</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="1070">
+          <OfxPropLabel>Disable Time FX</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="1080">
+          <OfxPropLabel>Random Seed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>Blend With Original</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="8">
+          <OfxPropLabel>Effects</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="9">
+          <OfxPropLabel>Random Frame Rate</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="10">
+          <OfxPropLabel>Random Frame Rate Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>% Chance of Random Frame Rate</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>Frame Rate Randomness Range</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="13">
+          <OfxPropLabel>Frame Rate Random Duration</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="14">
+          <OfxPropLabel>Random Duration Variation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="15">
+          <OfxPropLabel>Colorization</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="16">
+          <OfxPropLabel>Color/Brightness Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="17">
+          <OfxPropLabel>Source Brightness</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="18">
+          <OfxPropLabel>Source Contrast</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="19">
+          <OfxPropLabel>Color - Highlights</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="20">
+          <OfxPropLabel>Color - Midtones</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="21">
+          <OfxPropLabel>Color - Shadows</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="22">
+          <OfxPropLabel>Colorize %</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="23">
+          <OfxPropLabel>Glow</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="24">
+          <OfxPropLabel>Secondary Glow</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="25">
+          <OfxPropLabel>Glow Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="26">
+          <OfxPropLabel>Glow Threshold</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="27">
+          <OfxPropLabel>Glow Radius</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="28">
+          <OfxPropLabel>Glow Intensity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="29">
+          <OfxPropLabel>Secondary Glow Radius</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="30">
+          <OfxPropLabel>Scan Lines</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="31">
+          <OfxPropLabel>Scan Line Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="32">
+          <OfxPropLabel>Scan Line Distance</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="33">
+          <OfxPropLabel>Scan Line Thickness</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="34">
+          <OfxPropLabel>Scan Line Feather</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1324">
+          <OfxPropLabel>Scan Line Blur</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="35">
+          <OfxPropLabel>Scan Line Direction</OfxPropLabel>
+          <OfxParamPropChoiceOption>Horizontal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Vertical</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Horizontal &amp; Vertical</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="1320">
+          <OfxPropLabel>Scan Line Advanced</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="1321">
+          <OfxPropLabel>Scan Line Fix</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="1322">
+          <OfxPropLabel>Disable Scaling</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="36">
+          <OfxPropLabel>Lines</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="37">
+          <OfxPropLabel>Lines Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="38">
+          <OfxPropLabel>Line Direction</OfxPropLabel>
+          <OfxParamPropChoiceOption>Up</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Down</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Up and Down</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="39">
+          <OfxPropLabel>LU - Speed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="40">
+          <OfxPropLabel>LU - Line Height</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="41">
+          <OfxPropLabel>LD - Speed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="42">
+          <OfxPropLabel>LD - Line Height</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1330">
+          <OfxPropLabel>Lines Distortion Strength</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="43">
+          <OfxPropLabel>Advanced</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="44">
+          <OfxPropLabel>LU - Random Seed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="45">
+          <OfxPropLabel>LU - Opacity Min</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="46">
+          <OfxPropLabel>LU - Opacity Max</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="47">
+          <OfxPropLabel>LU - Strobe Every X Frames</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="48">
+          <OfxPropLabel>LU - Fade Instead of Strobe</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="49">
+          <OfxPropLabel>LD - Random Seed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="50">
+          <OfxPropLabel>LD - Opacity Min</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="51">
+          <OfxPropLabel>LD - Opacity Max</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="52">
+          <OfxPropLabel>LD - Strobe Every X Frames</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="53">
+          <OfxPropLabel>LD - Fade Instead of Strobe</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="1210">
+          <OfxPropLabel>Scrolling Line</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="1211">
+          <OfxPropLabel>Scrolling Line Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="1212">
+          <OfxPropLabel>SL - % Chance</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1213">
+          <OfxPropLabel>SL - Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1214">
+          <OfxPropLabel>SL - Duration</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1215">
+          <OfxPropLabel>SL - Duration Variation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1216">
+          <OfxPropLabel>SL - Line Speed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1217">
+          <OfxPropLabel>SL - Line Height</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1218">
+          <OfxPropLabel>SL - Line Blur</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1219">
+          <OfxPropLabel>SL - Distortion Strength</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1220">
+          <OfxPropLabel>SL - Fade Time</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1221">
+          <OfxPropLabel>SL - Offscreen Edge %</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="1222">
+          <OfxPropLabel>SL - Random Start Position</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="1223">
+          <OfxPropLabel>SL - Randomize Position</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="1224">
+          <OfxPropLabel>SL - Randomize Position Frequency</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1225">
+          <OfxPropLabel>SL - Random Seed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="54">
+          <OfxPropLabel>Static</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="55">
+          <OfxPropLabel>Static Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="56">
+          <OfxPropLabel>Static Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="57">
+          <OfxPropLabel>Static Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="58">
+          <OfxPropLabel>Color Noise</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="59">
+          <OfxPropLabel>Color Noise Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="60">
+          <OfxPropLabel>Noise Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="61">
+          <OfxPropLabel>Noise Scale</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="62">
+          <OfxPropLabel>Interference Ghost</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="63">
+          <OfxPropLabel>Distortion</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="64">
+          <OfxPropLabel>Interference Ghost Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="65">
+          <OfxPropLabel>% Chance of Interference </OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1050">
+          <OfxPropLabel>Interference Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="66">
+          <OfxPropLabel>Advanced</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="67">
+          <OfxPropLabel>Chance of Random X Position </OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="68">
+          <OfxPropLabel>Random X Position Min</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="69">
+          <OfxPropLabel>Random X Position Max</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="70">
+          <OfxPropLabel>Chance of Random Y Position </OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="71">
+          <OfxPropLabel>Random Y Position Min</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="72">
+          <OfxPropLabel>Random Y Position Max</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="73">
+          <OfxPropLabel>% Chance of Distortion </OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="74">
+          <OfxPropLabel>Distortion Min</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="75">
+          <OfxPropLabel>Distortion Max</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="76">
+          <OfxPropLabel>Distortion Duration</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="77">
+          <OfxPropLabel>Distortion Duration Variation </OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="78">
+          <OfxPropLabel>Color Separation</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="79">
+          <OfxPropLabel>Color Separation Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="80">
+          <OfxPropLabel>% Chance of Color Separation </OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="81">
+          <OfxPropLabel>Amount of Separation </OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="82">
+          <OfxPropLabel>Color Separation Duration</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="83">
+          <OfxPropLabel>CS-Duration Variation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="84">
+          <OfxPropLabel>Low-Resolution</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="85">
+          <OfxPropLabel>Low-Res Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="86">
+          <OfxPropLabel>Low-Res %</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="87">
+          <OfxPropLabel>Random Low-Res</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="88">
+          <OfxPropLabel>Random Low-Res Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="89">
+          <OfxPropLabel>Random Low-Res Min</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="90">
+          <OfxPropLabel>Random Low-Res Max</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="91">
+          <OfxPropLabel>% Chance of Low-Res</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="92">
+          <OfxPropLabel>Low-Res Duration</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="93">
+          <OfxPropLabel>Low-Res Duration Variation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="94">
+          <OfxPropLabel>Freeze Frame</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="95">
+          <OfxPropLabel>Freeze Frame Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="96">
+          <OfxPropLabel>% Chance of Freeze Frame</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="97">
+          <OfxPropLabel>Freeze Duration</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="98">
+          <OfxPropLabel>Freeze Duration Variation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="99">
+          <OfxPropLabel>TV Roll</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="1040">
+          <OfxPropLabel>TV Distortion</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="100">
+          <OfxPropLabel>TV Roll Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="101">
+          <OfxPropLabel>TV Roll Speed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="102">
+          <OfxPropLabel>% Chance of TV Roll</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="103">
+          <OfxPropLabel>TV Roll Duration</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="104">
+          <OfxPropLabel>TV Roll Duration Variation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="1041">
+          <OfxPropLabel>TV Distortion Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="1042">
+          <OfxPropLabel>% Chance of TV Distortion</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1043">
+          <OfxPropLabel>TV Roll Distort Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1044">
+          <OfxPropLabel>TV Distortion Scale</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1045">
+          <OfxPropLabel>TV Distortion Random Seed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="1001">
+          <OfxPropLabel>Flicker</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="1002">
+          <OfxPropLabel>Flicker Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="1003">
+          <OfxPropLabel>Flicker Opacity Min</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1004">
+          <OfxPropLabel>Flicker Opacity Max</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1005">
+          <OfxPropLabel>% Chance of Flicker</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1006">
+          <OfxPropLabel>Flicker Duration</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1007">
+          <OfxPropLabel>Flicker Duration Variation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="1340">
+          <OfxPropLabel>Strobe</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="1341">
+          <OfxPropLabel>Strobe Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="1342">
+          <OfxPropLabel>Strobe Opacity Min</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1343">
+          <OfxPropLabel>Strobe Opacity Max</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1344">
+          <OfxPropLabel>Strobe Every X Frames</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="1345">
+          <OfxPropLabel>Fade Instead of Strobe</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="1010">
+          <OfxPropLabel>Glitch</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="1011">
+          <OfxPropLabel>Glitch Holes</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="1012">
+          <OfxPropLabel>Glitch Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="1013">
+          <OfxPropLabel>% Chance of Glitch</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1014">
+          <OfxPropLabel>Glitch Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1015">
+          <OfxPropLabel>Glitch Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1016">
+          <OfxPropLabel>Glitch Aspect</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="1017">
+          <OfxPropLabel>Glitch Complexity</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="1018">
+          <OfxPropLabel>Glitch Fragments</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1019">
+          <OfxPropLabel>Glitch Displacement H</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1020">
+          <OfxPropLabel>Glitch Displacement V</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1021">
+          <OfxPropLabel>Glitch Speed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1022">
+          <OfxPropLabel>Glitch Random Seed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1023">
+          <OfxPropLabel>Glitch Duration</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1024">
+          <OfxPropLabel>Glitch Duration Variation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="1025">
+          <OfxPropLabel>Glitch Holes Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="1026">
+          <OfxPropLabel>% Chance of Glitch Holes</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1027">
+          <OfxPropLabel>Glitch Hole Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1028">
+          <OfxPropLabel>Glitch Hole Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1029">
+          <OfxPropLabel>Glitch Hole Aspect</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="1030">
+          <OfxPropLabel>Glitch Hole Complexity</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="1031">
+          <OfxPropLabel>Glitch Hole Fragments</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="1090">
+          <OfxPropLabel>Traveling Distortion</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="1091">
+          <OfxPropLabel>Traveling Distortion Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="1092">
+          <OfxPropLabel>TD - % Chance</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1093">
+          <OfxPropLabel>TD - Duration</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1094">
+          <OfxPropLabel>TD - Duration Variation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1095">
+          <OfxPropLabel>TD - Line Speed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1096">
+          <OfxPropLabel>TD - Line Height</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1097">
+          <OfxPropLabel>TD - Distortion Speed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1098">
+          <OfxPropLabel>TD - Distortion Strength X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1099">
+          <OfxPropLabel>TD - Distortion Strength Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1240">
+          <OfxPropLabel>TD - Soften Distortion Map</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1100">
+          <OfxPropLabel>TD - Distortion Scale</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1101">
+          <OfxPropLabel>TD - Distortion Falloff</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="1241">
+          <OfxPropLabel>TD - Chromatic Distortion</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="1242">
+          <OfxPropLabel>TD - Chromatic Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="1243">
+          <OfxPropLabel>TD - Displace Red X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1244">
+          <OfxPropLabel>TD - Displace Red Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1245">
+          <OfxPropLabel>TD - Displace Green X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1246">
+          <OfxPropLabel>TD - Displace Green Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1247">
+          <OfxPropLabel>TD - Displace Blue X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1248">
+          <OfxPropLabel>TD - Displace Blue Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1250">
+          <OfxPropLabel>TD - Distortion Blur Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1251">
+          <OfxPropLabel>TD - Distortion Blur Quality</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1252">
+          <OfxPropLabel>TD - Distortion Blur Falloff</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1102">
+          <OfxPropLabel>TD - Fade Time</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1103">
+          <OfxPropLabel>TD - Offscreen Edge %</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="1104">
+          <OfxPropLabel>TD - Random Start Position</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="1105">
+          <OfxPropLabel>TD - Randomize Position</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="1106">
+          <OfxPropLabel>TD - Randomize Position Frequency</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1107">
+          <OfxPropLabel>TD - Random Seed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="1108">
+          <OfxPropLabel>TD - Distort Last</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="1130">
+          <OfxPropLabel>Block Distortion</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="1131">
+          <OfxPropLabel>Block Distortion Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="1132">
+          <OfxPropLabel>BD - % Chance</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1133">
+          <OfxPropLabel>BD - Duration</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1134">
+          <OfxPropLabel>BD - Duration Variation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1135">
+          <OfxPropLabel>BD - Block Speed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1136">
+          <OfxPropLabel>BD - Block Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1138">
+          <OfxPropLabel>BD - Block Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1139">
+          <OfxPropLabel>BD - Block Aspect</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1140">
+          <OfxPropLabel>BD - Distortion Speed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1141">
+          <OfxPropLabel>BD - Distortion Strength X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1142">
+          <OfxPropLabel>BD - Distortion Strength Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1260">
+          <OfxPropLabel>BD - Soften Distortion Map</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1143">
+          <OfxPropLabel>BD - Distortion Scale</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1144">
+          <OfxPropLabel>BD - Distortion Falloff</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="1261">
+          <OfxPropLabel>BD - Chromatic Distortion</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="1262">
+          <OfxPropLabel>BD - Chromatic Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="1263">
+          <OfxPropLabel>BD - Displace Red X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1264">
+          <OfxPropLabel>BD - Displace Red Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1265">
+          <OfxPropLabel>BD - Displace Green X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1266">
+          <OfxPropLabel>BD - Displace Green Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1267">
+          <OfxPropLabel>BD - Displace Blue X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1268">
+          <OfxPropLabel>BD - Displace Blue Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1270">
+          <OfxPropLabel>BD - Distortion Blur Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1271">
+          <OfxPropLabel>BD - Distortion Blur Quality</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1272">
+          <OfxPropLabel>BD - Distortion Blur Falloff</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1145">
+          <OfxPropLabel>BD - Random Seed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="1146">
+          <OfxPropLabel>BD - Distort Last</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="1110">
+          <OfxPropLabel>Screen Distortion</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="1111">
+          <OfxPropLabel>Screen Distortion Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="1112">
+          <OfxPropLabel>SD - % Chance</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1113">
+          <OfxPropLabel>SD - Duration</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1114">
+          <OfxPropLabel>SD - Duration Variation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1115">
+          <OfxPropLabel>SD - Distortion Speed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1116">
+          <OfxPropLabel>SD - Distortion Strength X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1117">
+          <OfxPropLabel>SD - Distortion Strength Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1280">
+          <OfxPropLabel>SD - Soften Distortion Map</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1118">
+          <OfxPropLabel>SD - Distortion Scale</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="1281">
+          <OfxPropLabel>SD - Chromatic Distortion</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="1282">
+          <OfxPropLabel>SD - Chromatic Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="1283">
+          <OfxPropLabel>SD - Displace Red X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1284">
+          <OfxPropLabel>SD - Displace Red Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1285">
+          <OfxPropLabel>SD - Displace Green X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1286">
+          <OfxPropLabel>SD - Displace Green Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1287">
+          <OfxPropLabel>SD - Displace Blue X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1288">
+          <OfxPropLabel>SD - Displace Blue Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1290">
+          <OfxPropLabel>SD - Distortion Blur Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1291">
+          <OfxPropLabel>SD - Distortion Blur Quality</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1119">
+          <OfxPropLabel>SD - Random Seed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="1120">
+          <OfxPropLabel>SD - Distort Last</OfxPropLabel>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Stylize_Glitch_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Glitch</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Stylize</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1020">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1021">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>Compression</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="2">
+          <OfxPropLabel>Compression Last</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>Glitch Frequency</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1010">
+          <OfxPropLabel>Glitch Speed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1011">
+          <OfxPropLabel>Glitch Speed Random</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="1500">
+          <OfxPropLabel>Legacy Mode</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>Small Glitches</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="5">
+          <OfxPropLabel>Small Glitch Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="6">
+          <OfxPropLabel>SG - Blending Mode</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Difference</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Exclusion</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>SG - Saturation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="8">
+          <OfxPropLabel>SG - Complexity</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="9">
+          <OfxPropLabel>SG - Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="10">
+          <OfxPropLabel>SG - Aspect</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>SG - Pattern Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>SG - Pattern Aspect</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="13">
+          <OfxPropLabel>SG - Displacement X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="14">
+          <OfxPropLabel>SG - Displacement Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="15">
+          <OfxPropLabel>Wide Glitches</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="16">
+          <OfxPropLabel>Wide Glitch Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="17">
+          <OfxPropLabel>WG - Height</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="18">
+          <OfxPropLabel>WG - Blending Mode</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Exclusion</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="19">
+          <OfxPropLabel>WG - Saturation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="20">
+          <OfxPropLabel>WG - Difference Glitches</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="21">
+          <OfxPropLabel>WG - Pattern Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="22">
+          <OfxPropLabel>WG - Color Displacement</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="23">
+          <OfxPropLabel>WG - Difference Displacement</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="24">
+          <OfxPropLabel>WG - Displacement X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="25">
+          <OfxPropLabel>WG - Displacement Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="26">
+          <OfxPropLabel>Random Seed</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeBoolean name="27">
+          <OfxPropLabel>Unmult</OfxPropLabel>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

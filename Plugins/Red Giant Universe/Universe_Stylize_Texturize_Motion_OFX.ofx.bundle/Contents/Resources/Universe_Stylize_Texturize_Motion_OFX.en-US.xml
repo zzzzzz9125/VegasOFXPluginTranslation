@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Stylize_Texturize_Motion_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Texturize Motion</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Stylize</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble2D name="0">
+          <OfxPropLabel>Position</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>Scale</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="2">
+          <OfxPropLabel>Texture Select</OfxPropLabel>
+          <OfxParamPropChoiceOption>Concrete</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Abstract</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Canvas</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Crayon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Crumpled Paper</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cutting Board</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Drum Head</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Fabric</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Fuzzy</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ground</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Marker</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Shattered</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Threaded</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Watercolor</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="3">
+          <OfxPropLabel>Texture Behavior</OfxPropLabel>
+          <OfxParamPropChoiceOption>Still</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cycle</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="4">
+          <OfxPropLabel>Custom Texture</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="5">
+          <OfxPropLabel>Use Custom Texture</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>Custom Layer Saturation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>Texture Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="8">
+          <OfxPropLabel>Texture Contrast</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="9">
+          <OfxPropLabel>Texture Tint</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="10">
+          <OfxPropLabel>Tint Strength</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="11">
+          <OfxPropLabel>Texture Speed</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="12">
+          <OfxPropLabel>Texture Frame Offset</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeBoolean name="1200">
+          <OfxPropLabel>Posterize Source Time</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="13">
+          <OfxPropLabel>Invert Texture</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="14">
+          <OfxPropLabel>Texture Blend Mode</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Darken</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Multiply</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Burn</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Add</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Lighten</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Dodge</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Overlay</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Soft Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hard Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Difference</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Exclusion</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Subtract</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Saturation</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Luminosity</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cutout</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Behind</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="15">
+          <OfxPropLabel>Displacement Map</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="16">
+          <OfxPropLabel>Use Displacement</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="17">
+          <OfxPropLabel>Horizontal Displacement</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="18">
+          <OfxPropLabel>Vertical Displacement</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="19">
+          <OfxPropLabel>Color Separation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="20">
+          <OfxPropLabel>Soften Displacement Map</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="21">
+          <OfxPropLabel>Jitter</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="22">
+          <OfxPropLabel>Jitter Speed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="23">
+          <OfxPropLabel>Animate Rotation</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="24">
+          <OfxPropLabel>Rotate Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="25">
+          <OfxPropLabel>Animate Scale</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="26">
+          <OfxPropLabel>Scale Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="27">
+          <OfxPropLabel>Animate Position</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="28">
+          <OfxPropLabel>Position Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="29">
+          <OfxPropLabel>Animate Brightness</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="30">
+          <OfxPropLabel>Brightness Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="31">
+          <OfxPropLabel>Mask</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="32">
+          <OfxPropLabel>Enable Mask</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="33">
+          <OfxPropLabel>Mask Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="34">
+          <OfxPropLabel>Mask Center</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="35">
+          <OfxPropLabel>Mask Aspect</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="36">
+          <OfxPropLabel>Mask Falloff</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="37">
+          <OfxPropLabel>Random Seed</OfxPropLabel>
+        </OfxParamTypeInteger>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Stylize_Misfire_Premium_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.MisFire</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Stylize</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>Damage Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>Color Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="3">
+          <OfxPropLabel>Random Seed</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeGroup name="4">
+          <OfxPropLabel>Effects</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="5">
+          <OfxPropLabel>Apply Softness</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="6">
+          <OfxPropLabel>Softness</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>Softness Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="8">
+          <OfxPropLabel>Apply Saturation</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="9">
+          <OfxPropLabel>Saturation</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="10">
+          <OfxPropLabel>Saturation Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="11">
+          <OfxPropLabel>Apply Fading</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="12">
+          <OfxPropLabel>Fading</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="13">
+          <OfxPropLabel>Fade Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="14">
+          <OfxPropLabel>Apply Funk</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="15">
+          <OfxPropLabel>Funk</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="16">
+          <OfxPropLabel>Funk Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="17">
+          <OfxPropLabel>Apply Splotches</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="18">
+          <OfxPropLabel>Splotches</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeInteger name="19">
+          <OfxPropLabel>Splotch Number</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="20">
+          <OfxPropLabel>Splotch Scale</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="21">
+          <OfxPropLabel>Splotch Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="22">
+          <OfxPropLabel>Splotch Frequency</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="23">
+          <OfxPropLabel>Apply Dust</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="24">
+          <OfxPropLabel>Dust</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeInteger name="25">
+          <OfxPropLabel>Black Dust Amount</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="26">
+          <OfxPropLabel>White Dust Amount</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="27">
+          <OfxPropLabel>Dust Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="28">
+          <OfxPropLabel>Dust Frequency</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="29">
+          <OfxPropLabel>Apply Flicker</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="30">
+          <OfxPropLabel>Flicker</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="31">
+          <OfxPropLabel>Flicker Frequency</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="32">
+          <OfxPropLabel>Flicker Amount</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeBoolean name="33">
+          <OfxPropLabel>Apply Vignette</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="34">
+          <OfxPropLabel>Vignette</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="35">
+          <OfxPropLabel>Vignette Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="36">
+          <OfxPropLabel>Vignette Intensity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="37">
+          <OfxPropLabel>Apply Displacement</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="38">
+          <OfxPropLabel>Displacement</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="39">
+          <OfxPropLabel>Displacement Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="40">
+          <OfxPropLabel>Displacement Scale</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="41">
+          <OfxPropLabel>Apply Micro Scratches</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="42">
+          <OfxPropLabel>Micro Scratches</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeInteger name="43">
+          <OfxPropLabel>Number Micro Scratches</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="44">
+          <OfxPropLabel>Micro Scratches Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="45">
+          <OfxPropLabel>Apply Color Grain</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="46">
+          <OfxPropLabel>Color Grain</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="47">
+          <OfxPropLabel>Grain Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="48">
+          <OfxPropLabel>Grain Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="49">
+          <OfxPropLabel>Grain Scale</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="50">
+          <OfxPropLabel>Grain Persistence</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="51">
+          <OfxPropLabel>Grain Red Softness</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="52">
+          <OfxPropLabel>Grain Green Softness</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="53">
+          <OfxPropLabel>Grain Blue Softness</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="54">
+          <OfxPropLabel>Grain Black Suppression</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="55">
+          <OfxPropLabel>Grain White Suppression</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="56">
+          <OfxPropLabel>Apply Luminance Noise</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="57">
+          <OfxPropLabel>Luminance Noise</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="58">
+          <OfxPropLabel>Luminance Noise Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="59">
+          <OfxPropLabel>Luminance Noise Contrast</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="60">
+          <OfxPropLabel>Luminance Noise Scale</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="61">
+          <OfxPropLabel>Luminance Noise Persistence</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeBoolean name="62">
+          <OfxPropLabel>Luminance Noise Supersample</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="63">
+          <OfxPropLabel>Luminance Noise Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="64">
+          <OfxPropLabel>Apply Deep Scratches</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="65">
+          <OfxPropLabel>Deep Scratches</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeInteger name="66">
+          <OfxPropLabel>Number of Deep Scratches</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="67">
+          <OfxPropLabel>Deep Scratch Duration</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeRGB name="68">
+          <OfxPropLabel>Deep Scratches Tint</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeBoolean name="69">
+          <OfxPropLabel>Apply Basic Scratches</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="70">
+          <OfxPropLabel>Basic Scratches</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeInteger name="71">
+          <OfxPropLabel>Number of Basic Scratches</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="72">
+          <OfxPropLabel>Basic Scratch Duration</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeBoolean name="73">
+          <OfxPropLabel>Invert Basic Scratches</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="74">
+          <OfxPropLabel>Apply Gate Weave</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="75">
+          <OfxPropLabel>Gate Weave</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="76">
+          <OfxPropLabel>Weave Frequency</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="77">
+          <OfxPropLabel>Weave Amplitude</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="78">
+          <OfxPropLabel>Weave Noise Frequency</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="79">
+          <OfxPropLabel>Apply Post Contrast</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="80">
+          <OfxPropLabel>Post Contrast</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="81">
+          <OfxPropLabel>Post Contrast</OfxPropLabel>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Stylize_Multitone_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.多色调</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe 风格化</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>许可证...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1001">
+          <OfxPropLabel>选择预设...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1002">
+          <OfxPropLabel>保存预设...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="0">
+          <OfxPropLabel>颜色方案</OfxPropLabel>
+          <OfxParamPropChoiceOption>双色调</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>三色调</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeRGB name="1">
+          <OfxPropLabel>高光</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="2">
+          <OfxPropLabel>中间调</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="3">
+          <OfxPropLabel>阴影</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>对比度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>中点</OfxPropLabel>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

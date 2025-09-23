@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Text_Numbers_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Numbers</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Text</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeString name="1902">
+          <OfxPropLabel>Edit Custom Text</OfxPropLabel>
+        </OfxParamTypeString>
+        <OfxParamTypePushButton name="1900">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1901">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="0">
+          <OfxPropLabel>Text Style...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble2D name="1">
+          <OfxPropLabel>Position</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeChoice name="2">
+          <OfxPropLabel>Number Type</OfxPropLabel>
+          <OfxParamPropChoiceOption>Numbers</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Dates</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Time</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>Value</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>Rate</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="5">
+          <OfxPropLabel>Text Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>Font Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="7">
+          <OfxPropLabel>Font Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeChoice name="8">
+          <OfxPropLabel>Justification</OfxPropLabel>
+          <OfxParamPropChoiceOption>Left</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Center</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Right</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="9">
+          <OfxPropLabel>Horizontal Tracking</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeString name="10">
+          <OfxPropLabel>Font Family</OfxPropLabel>
+        </OfxParamTypeString>
+        <OfxParamTypeString name="11">
+          <OfxPropLabel>Font Style</OfxPropLabel>
+        </OfxParamTypeString>
+        <OfxParamTypeGroup name="12">
+          <OfxPropLabel>Numbers</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeInteger name="13">
+          <OfxPropLabel>Number of Decimals</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="14">
+          <OfxPropLabel>Minimum Integer Length</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeBoolean name="15">
+          <OfxPropLabel>Use Commas</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="16">
+          <OfxPropLabel>Swap Comma/Period</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="17">
+          <OfxPropLabel>Unit of Measure</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Percent</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Dollars</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cents</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Euros</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Yen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Degrees</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Degrees F</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Degrees C</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Million</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Billion</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pound Sterling</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Custom</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="18">
+          <OfxPropLabel>Unit Placement </OfxPropLabel>
+          <OfxParamPropChoiceOption>Smart</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Before</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>After</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypePushButton name="1050">
+          <OfxPropLabel>Edit Custom Text...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeBoolean name="19">
+          <OfxPropLabel>Insert Space</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="20">
+          <OfxPropLabel>Dates</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeInteger name="21">
+          <OfxPropLabel>Year Offset</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="22">
+          <OfxPropLabel>Day Offset</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeChoice name="23">
+          <OfxPropLabel>Date Format</OfxPropLabel>
+          <OfxParamPropChoiceOption>DD MM YYYY</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>MM DD YYYY</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>MMM DD YYYY</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>MMMM DD YYYY</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>YYYY MM DD</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>YYYY DD MM</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>YYYY-MM</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>--MM-DD</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="24">
+          <OfxPropLabel>Date Separator</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Colon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Forward Slash</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Dash</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Period</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Asterisk</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Double Dash</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pipe</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Underscore</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="25">
+          <OfxPropLabel>Date All Caps</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="26">
+          <OfxPropLabel>Time</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="27">
+          <OfxPropLabel>Format</OfxPropLabel>
+          <OfxParamPropChoiceOption>12 Hour Clock am/pm</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>12 Hour Clock</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>24 Hour Clock</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Timecode</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>MM:SS:FF</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeInteger name="28">
+          <OfxPropLabel>Hours Offset</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="29">
+          <OfxPropLabel>Minutes Offset</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="30">
+          <OfxPropLabel>Seconds Offset</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="31">
+          <OfxPropLabel>Show Seconds</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="32">
+          <OfxPropLabel>Show Milliseconds</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeInteger name="33">
+          <OfxPropLabel>Milliseconds Rate</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeChoice name="34">
+          <OfxPropLabel>Time Separator</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Colon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Forward Slash</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Dash</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Period</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Asterisk</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Double Dash</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pipe</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Underscore</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="35">
+          <OfxPropLabel>Allow Negative Values</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="36">
+          <OfxPropLabel>Foreground Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="37">
+          <OfxPropLabel>Background Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="38">
+          <OfxPropLabel>Blend Mode</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Darken</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Multiply</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Burn</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Add</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Lighten</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Dodge</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Overlay</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Soft Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hard Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Difference</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Exclusion</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Subtract</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Saturation</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Luminosity</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cutout</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Behind</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

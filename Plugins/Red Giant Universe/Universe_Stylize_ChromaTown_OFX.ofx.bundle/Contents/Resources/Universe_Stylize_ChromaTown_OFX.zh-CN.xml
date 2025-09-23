@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Stylize_ChromaTown_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.ChromaTown色度模糊</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe 风格化</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>许可证...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>选择预设</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>保存预设</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="0">
+          <OfxPropLabel>色度样式</OfxPropLabel>
+          <OfxParamPropChoiceOption>有色光谱</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>开始/结束上色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>开始/结束填充</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="1">
+          <OfxPropLabel>衰减</OfxPropLabel>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>线性进入</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>线性退出</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>平滑进入</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>平滑退出</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>三角形进入/退出</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>平滑进入/退出</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>衰减伽马</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>完整性</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>完整性中心</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="5">
+          <OfxPropLabel>完整性上限</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="6">
+          <OfxPropLabel>起始</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="7">
+          <OfxPropLabel>起始颜色</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="8">
+          <OfxPropLabel>起始颜色量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="9">
+          <OfxPropLabel>起始位置</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeBoolean name="10">
+          <OfxPropLabel>统一起始比例</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>起始缩放</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>起始缩放X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="13">
+          <OfxPropLabel>起始缩放Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="14">
+          <OfxPropLabel>起始旋转</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="15">
+          <OfxPropLabel>起始镜头失真</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="16">
+          <OfxPropLabel>起始模糊</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="17">
+          <OfxPropLabel>结束</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="18">
+          <OfxPropLabel>结束颜色</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="19">
+          <OfxPropLabel>结束颜色量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="20">
+          <OfxPropLabel>结束位置</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeBoolean name="21">
+          <OfxPropLabel>统一结束比例</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="22">
+          <OfxPropLabel>结束缩放</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="23">
+          <OfxPropLabel>结束缩放X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="24">
+          <OfxPropLabel>结束缩放Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="25">
+          <OfxPropLabel>结束旋转</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="26">
+          <OfxPropLabel>结束镜头失真</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="27">
+          <OfxPropLabel>结束模糊</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="28">
+          <OfxPropLabel>交换起始/结束</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="29">
+          <OfxPropLabel>色彩度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="30">
+          <OfxPropLabel>Alpha</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="31">
+          <OfxPropLabel>有色光谱</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="32">
+          <OfxPropLabel>色度色调</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="33">
+          <OfxPropLabel>起始/结束颜色</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="34">
+          <OfxPropLabel>起始/结束颜色插值</OfxPropLabel>
+          <OfxParamPropChoiceOption>RGB</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>LAB</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="35">
+          <OfxPropLabel>色彩归一化</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="36">
+          <OfxPropLabel>质量</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeBoolean name="37">
+          <OfxPropLabel>重复边缘</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="38">
+          <OfxPropLabel>线性伽马</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="39">
+          <OfxPropLabel>合成原色</OfxPropLabel>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>前方</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>背后</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="40">
+          <OfxPropLabel>绘制叠加</OfxPropLabel>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

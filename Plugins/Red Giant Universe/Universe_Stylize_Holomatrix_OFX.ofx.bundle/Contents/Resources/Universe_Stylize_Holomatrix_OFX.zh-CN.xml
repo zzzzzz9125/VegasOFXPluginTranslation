@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Stylize_Holomatrix_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.全息矩阵投影</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe 风格化</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>许可证...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1200">
+          <OfxPropLabel>选择预设...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1201">
+          <OfxPropLabel>保存预设...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>更多损坏</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>更频繁</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="1060">
+          <OfxPropLabel>强化</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>效果缩放</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="4">
+          <OfxPropLabel>Unmult</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="5">
+          <OfxPropLabel>Alpha边缘修复</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>帧率</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="1070">
+          <OfxPropLabel>禁用时间FX</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="1080">
+          <OfxPropLabel>随机种子</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>与原色混合</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="8">
+          <OfxPropLabel>效果</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="9">
+          <OfxPropLabel>随机帧率</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="10">
+          <OfxPropLabel>随机帧率设置</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>随机帧率的可能性百分比</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>帧率随机性范围</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="13">
+          <OfxPropLabel>帧率随机持续时间</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="14">
+          <OfxPropLabel>随机持续时间变化</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="15">
+          <OfxPropLabel>上色</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="16">
+          <OfxPropLabel>颜色/亮度设置</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="17">
+          <OfxPropLabel>源亮度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="18">
+          <OfxPropLabel>源对比度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="19">
+          <OfxPropLabel>颜色 - 高光</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="20">
+          <OfxPropLabel>颜色 - 中间调</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="21">
+          <OfxPropLabel>颜色 - 阴影</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="22">
+          <OfxPropLabel>上色百分比</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="23">
+          <OfxPropLabel>辉光</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="24">
+          <OfxPropLabel>次辉光</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="25">
+          <OfxPropLabel>辉光设置</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="26">
+          <OfxPropLabel>辉光阈值</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="27">
+          <OfxPropLabel>辉光半径</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="28">
+          <OfxPropLabel>辉光强度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="29">
+          <OfxPropLabel>次辉光半径</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="30">
+          <OfxPropLabel>扫描线</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="31">
+          <OfxPropLabel>扫描线设置</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="32">
+          <OfxPropLabel>扫描线距离</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="33">
+          <OfxPropLabel>扫描线粗细</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="34">
+          <OfxPropLabel>扫描线羽化</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1324">
+          <OfxPropLabel>扫描线模糊</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="35">
+          <OfxPropLabel>扫描线方向</OfxPropLabel>
+          <OfxParamPropChoiceOption>横向</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>纵向</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>横向和纵向</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="1320">
+          <OfxPropLabel>扫描线高级</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="1321">
+          <OfxPropLabel>扫描线修复</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="1322">
+          <OfxPropLabel>禁用缩放</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="36">
+          <OfxPropLabel>线</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="37">
+          <OfxPropLabel>线设置</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="38">
+          <OfxPropLabel>线方向</OfxPropLabel>
+          <OfxParamPropChoiceOption>上</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>下</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>上和下</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="39">
+          <OfxPropLabel>LU - 速度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="40">
+          <OfxPropLabel>LU - 线高</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="41">
+          <OfxPropLabel>LD - 速度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="42">
+          <OfxPropLabel>LD - 线高</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1330">
+          <OfxPropLabel>线失真强度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="43">
+          <OfxPropLabel>高级</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="44">
+          <OfxPropLabel>LU - 随机种子</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="45">
+          <OfxPropLabel>LU - 不透明度最小值</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="46">
+          <OfxPropLabel>LU - 不透明度最大值</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="47">
+          <OfxPropLabel>LU - 每X帧闪光</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="48">
+          <OfxPropLabel>LU - 淡出而非闪光</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="49">
+          <OfxPropLabel>LD - 随机种子</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="50">
+          <OfxPropLabel>LD - 不透明度最小值</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="51">
+          <OfxPropLabel>LD - 不透明度最大值</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="52">
+          <OfxPropLabel>LD - 每X帧闪光</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="53">
+          <OfxPropLabel>LD - 淡出而非闪光</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="1210">
+          <OfxPropLabel>滚动线</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="1211">
+          <OfxPropLabel>滚动线设置</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="1212">
+          <OfxPropLabel>SL - 可能性百分比</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1213">
+          <OfxPropLabel>SL - 不透明度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1214">
+          <OfxPropLabel>SL - 持续时间</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1215">
+          <OfxPropLabel>SL - 持续时间变化</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1216">
+          <OfxPropLabel>SL - 线速</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1217">
+          <OfxPropLabel>SL - 线高</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1218">
+          <OfxPropLabel>SL - 线模糊</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1219">
+          <OfxPropLabel>SL - 失真强度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1220">
+          <OfxPropLabel>SL - 淡出时间</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1221">
+          <OfxPropLabel>SL - 屏幕外边缘百分比</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="1222">
+          <OfxPropLabel>SL - 随机起始位置</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="1223">
+          <OfxPropLabel>SL - 随机化位置</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="1224">
+          <OfxPropLabel>SL - 随机化位置频率</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1225">
+          <OfxPropLabel>SL - 随机种子</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="54">
+          <OfxPropLabel>静态</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="55">
+          <OfxPropLabel>静态设置</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="56">
+          <OfxPropLabel>静态尺寸</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="57">
+          <OfxPropLabel>静态不透明度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="58">
+          <OfxPropLabel>色彩噪声</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="59">
+          <OfxPropLabel>色彩噪声设置</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="60">
+          <OfxPropLabel>噪声不透明度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="61">
+          <OfxPropLabel>噪声缩放</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="62">
+          <OfxPropLabel>干扰伪影</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="63">
+          <OfxPropLabel>失真</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="64">
+          <OfxPropLabel>干扰伪影设置</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="65">
+          <OfxPropLabel>干扰的可能性百分比</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1050">
+          <OfxPropLabel>干扰不透明度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="66">
+          <OfxPropLabel>高级</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="67">
+          <OfxPropLabel>随机X位置的可能性</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="68">
+          <OfxPropLabel>随机X位置最小值</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="69">
+          <OfxPropLabel>随机X位置最大值</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="70">
+          <OfxPropLabel>随机Y位置的可能性</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="71">
+          <OfxPropLabel>随机Y位置最小值</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="72">
+          <OfxPropLabel>随机Y位置最大值</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="73">
+          <OfxPropLabel>失真的可能性百分比</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="74">
+          <OfxPropLabel>失真最小值</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="75">
+          <OfxPropLabel>失真最大值</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="76">
+          <OfxPropLabel>失真持续时间</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="77">
+          <OfxPropLabel>失真持续时间变化</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="78">
+          <OfxPropLabel>分色</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="79">
+          <OfxPropLabel>分色设置</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="80">
+          <OfxPropLabel>分色的可能性百分比</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="81">
+          <OfxPropLabel>分隔量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="82">
+          <OfxPropLabel>分色持续时间</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="83">
+          <OfxPropLabel>CS - 持续时间变化</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="84">
+          <OfxPropLabel>低分辨率</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="85">
+          <OfxPropLabel>低分辨率设置</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="86">
+          <OfxPropLabel>低分辨率百分比</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="87">
+          <OfxPropLabel>随机低分辨率</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="88">
+          <OfxPropLabel>随机低分辨率设置</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="89">
+          <OfxPropLabel>随机低分辨率最小值</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="90">
+          <OfxPropLabel>随机低分辨率最大值</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="91">
+          <OfxPropLabel>低分辨率的可能性百分比</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="92">
+          <OfxPropLabel>低分辨率持续时间</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="93">
+          <OfxPropLabel>低分辨率持续时间变化</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="94">
+          <OfxPropLabel>冻结帧</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="95">
+          <OfxPropLabel>冻结帧设置</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="96">
+          <OfxPropLabel>冻结帧的可能性百分比</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="97">
+          <OfxPropLabel>冻结持续时间</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="98">
+          <OfxPropLabel>冻结持续时间变化</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="99">
+          <OfxPropLabel>TV滚动</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="1040">
+          <OfxPropLabel>TV失真</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="100">
+          <OfxPropLabel>TV滚动设置</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="101">
+          <OfxPropLabel>TV滚动速度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="102">
+          <OfxPropLabel>TV滚动的可能性百分比</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="103">
+          <OfxPropLabel>TV滚动持续时间</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="104">
+          <OfxPropLabel>TV滚动持续时间变化</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="1041">
+          <OfxPropLabel>TV失真设置</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="1042">
+          <OfxPropLabel>TV失真的可能性百分比</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1043">
+          <OfxPropLabel>TV滚动失真量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1044">
+          <OfxPropLabel>TV失真比例</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1045">
+          <OfxPropLabel>TV失真随机种子</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="1001">
+          <OfxPropLabel>闪烁</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="1002">
+          <OfxPropLabel>闪烁设置</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="1003">
+          <OfxPropLabel>最小闪烁不透明度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1004">
+          <OfxPropLabel>闪烁不透明度最大值</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1005">
+          <OfxPropLabel>闪烁的可能性百分比</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1006">
+          <OfxPropLabel>闪烁持续时间</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1007">
+          <OfxPropLabel>闪烁持续时间变化</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="1340">
+          <OfxPropLabel>闪光</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="1341">
+          <OfxPropLabel>闪光设置</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="1342">
+          <OfxPropLabel>闪光不透明度最小值</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1343">
+          <OfxPropLabel>闪光不透明度最大值</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1344">
+          <OfxPropLabel>每X帧闪光</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="1345">
+          <OfxPropLabel>淡出而非闪光</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="1010">
+          <OfxPropLabel>选择预设</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="1011">
+          <OfxPropLabel>保存预设</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="1012">
+          <OfxPropLabel>信号故障设置</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="1013">
+          <OfxPropLabel>信号故障的可能性百分比</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1014">
+          <OfxPropLabel>信号故障量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1015">
+          <OfxPropLabel>信号故障尺寸</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1016">
+          <OfxPropLabel>信号故障宽高比</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="1017">
+          <OfxPropLabel>信号故障复杂度</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="1018">
+          <OfxPropLabel>信号故障片段</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1019">
+          <OfxPropLabel>信号故障置换H</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1020">
+          <OfxPropLabel>信号故障置换V</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1021">
+          <OfxPropLabel>信号故障速度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1022">
+          <OfxPropLabel>信号故障随机种子</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1023">
+          <OfxPropLabel>信号故障持续时间</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1024">
+          <OfxPropLabel>信号故障持续时间变化</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="1025">
+          <OfxPropLabel>信号故障黑洞设置</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="1026">
+          <OfxPropLabel>信号故障黑洞的可能性百分比</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1027">
+          <OfxPropLabel>信号故障黑洞量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1028">
+          <OfxPropLabel>信号故障黑洞尺寸</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1029">
+          <OfxPropLabel>信号故障黑洞宽高比</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="1030">
+          <OfxPropLabel>信号故障黑洞复杂度</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="1031">
+          <OfxPropLabel>信号故障黑洞片段</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="1090">
+          <OfxPropLabel>行程失真</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="1091">
+          <OfxPropLabel>行程失真设置</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="1092">
+          <OfxPropLabel>TD - 可能性百分比</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1093">
+          <OfxPropLabel>TD - 持续时间</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1094">
+          <OfxPropLabel>TD - 持续时间变化</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1095">
+          <OfxPropLabel>TD - 线速</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1096">
+          <OfxPropLabel>TD - 线高</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1097">
+          <OfxPropLabel>TD - 失真速度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1098">
+          <OfxPropLabel>TD - 失真强度X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1099">
+          <OfxPropLabel>TD - 失真强度Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1240">
+          <OfxPropLabel>TD - 柔化失真映射</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1100">
+          <OfxPropLabel>TD - 失真比例</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1101">
+          <OfxPropLabel>TD - 失真衰减</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="1241">
+          <OfxPropLabel>TD - 色度失真</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="1242">
+          <OfxPropLabel>TD - 色度设置</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="1243">
+          <OfxPropLabel>TD - 置换红色X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1244">
+          <OfxPropLabel>TD - 置换红色Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1245">
+          <OfxPropLabel>TD - 置换绿色X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1246">
+          <OfxPropLabel>TD - 置换绿色Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1247">
+          <OfxPropLabel>TD - 置换蓝色X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1248">
+          <OfxPropLabel>TD - 置换蓝色Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1250">
+          <OfxPropLabel>TD - 失真模糊量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1251">
+          <OfxPropLabel>TD - 失真模糊质量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1252">
+          <OfxPropLabel>TD - 失真模糊衰减</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1102">
+          <OfxPropLabel>TD - 淡出时间</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1103">
+          <OfxPropLabel>TD - 屏幕外边缘百分比</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="1104">
+          <OfxPropLabel>TD - 随机起始位置</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="1105">
+          <OfxPropLabel>TD - 随机化位置</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="1106">
+          <OfxPropLabel>TD - 随机化位置频率</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1107">
+          <OfxPropLabel>TD - 随机种子</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="1108">
+          <OfxPropLabel>TD - 失真持续</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="1130">
+          <OfxPropLabel>块失真</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="1131">
+          <OfxPropLabel>块失真设置</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="1132">
+          <OfxPropLabel>BD - 可能性百分比</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1133">
+          <OfxPropLabel>BD - 持续时间</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1134">
+          <OfxPropLabel>BD - 持续时间变化</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1135">
+          <OfxPropLabel>BD - 块速度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1136">
+          <OfxPropLabel>BD - 块量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1138">
+          <OfxPropLabel>BD - 块尺寸</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1139">
+          <OfxPropLabel>BD - 块宽高比</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1140">
+          <OfxPropLabel>BD - 失真速度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1141">
+          <OfxPropLabel>BD - 失真强度X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1142">
+          <OfxPropLabel>BD - 失真强度Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1260">
+          <OfxPropLabel>BD - 柔化失真映射</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1143">
+          <OfxPropLabel>BD - 失真比例</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1144">
+          <OfxPropLabel>BD - 失真衰减</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="1261">
+          <OfxPropLabel>BD - 色度失真</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="1262">
+          <OfxPropLabel>BD - 色度设置</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="1263">
+          <OfxPropLabel>BD - 置换红色X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1264">
+          <OfxPropLabel>BD - 置换红色Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1265">
+          <OfxPropLabel>BD - 置换绿色X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1266">
+          <OfxPropLabel>BD - 置换绿色Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1267">
+          <OfxPropLabel>BD - 置换蓝色X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1268">
+          <OfxPropLabel>BD - 置换蓝色Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1270">
+          <OfxPropLabel>BD - 失真模糊量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1271">
+          <OfxPropLabel>BD - 失真模糊质量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1272">
+          <OfxPropLabel>BD - 失真模糊衰减</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1145">
+          <OfxPropLabel>BD - 随机种子</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="1146">
+          <OfxPropLabel>BD - 失真持续</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="1110">
+          <OfxPropLabel>屏幕失真</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="1111">
+          <OfxPropLabel>屏幕失真设置</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="1112">
+          <OfxPropLabel>SD - 可能性百分比</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1113">
+          <OfxPropLabel>SD - 持续时间</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1114">
+          <OfxPropLabel>SD - 持续时间变化</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1115">
+          <OfxPropLabel>SD - 失真速度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1116">
+          <OfxPropLabel>SD - 失真强度X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1117">
+          <OfxPropLabel>SD - 失真强度Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1280">
+          <OfxPropLabel>SD - 柔化失真映射</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1118">
+          <OfxPropLabel>SD - 失真比例</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="1281">
+          <OfxPropLabel>SD - 色度失真</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="1282">
+          <OfxPropLabel>SD - 色度设置</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="1283">
+          <OfxPropLabel>SD - 置换红色X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1284">
+          <OfxPropLabel>SD - 置换红色Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1285">
+          <OfxPropLabel>SD - 置换绿色X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1286">
+          <OfxPropLabel>SD - 置换绿色Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1287">
+          <OfxPropLabel>SD - 置换蓝色X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1288">
+          <OfxPropLabel>SD - 置换蓝色Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1290">
+          <OfxPropLabel>SD - 失真模糊量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1291">
+          <OfxPropLabel>SD - 失真模糊质量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1119">
+          <OfxPropLabel>SD - 随机种子</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="1120">
+          <OfxPropLabel>SD - 失真持续</OfxPropLabel>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

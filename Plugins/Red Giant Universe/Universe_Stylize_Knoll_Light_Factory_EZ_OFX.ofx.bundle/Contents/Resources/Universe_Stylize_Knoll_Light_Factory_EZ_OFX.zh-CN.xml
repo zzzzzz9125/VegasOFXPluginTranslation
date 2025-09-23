@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Stylize_Knoll_Light_Factory_EZ_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.KNOLL灯光工厂EZ</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe 风格化</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>许可证...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1020">
+          <OfxPropLabel>选择眩光...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1021">
+          <OfxPropLabel>保存预设...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="0">
+          <OfxPropLabel>眩光类别</OfxPropLabel>
+          <OfxParamPropChoiceOption>动作和科幻</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>电影眩光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>运动图形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>自然光</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="1">
+          <OfxPropLabel>动作和科幻镜头</OfxPropLabel>
+          <OfxParamPropChoiceOption>默认</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Alpha基地</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>图集</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>坏蛋</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>蓝色巨人</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>植物学湾</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>电子人</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>沙漠数码</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>数字预设</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>遥远量子</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>双管</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>逃逸</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>前灯</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Helios</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Isis</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Javelin</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Kaus</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>激光瞄准器</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>月球车</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>人猿星球</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>月亮辉光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>上菜</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>粉色星星</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pollux</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Quantum5</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>类星体</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Sargas</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>涡旋光亮</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="2">
+          <OfxPropLabel>电影镜头</OfxPropLabel>
+          <OfxParamPropChoiceOption>变形变焦</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Anamorphic60mm</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Anamorphic75mm</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>CS5440</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>EH1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>EH2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>EH3</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>EH4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>EH5</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>EH6</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>EH7</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>MP100</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>MP40</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="3">
+          <OfxPropLabel>运动图形镜头</OfxPropLabel>
+          <OfxParamPropChoiceOption>环境</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>紫晶之星</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>极点</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>弧焊机</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>三角形三</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>飞艇眩光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Diagon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Flash Gordon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Garnet</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Jaxon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>橙色花穗</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>简单六尖星型</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>固态</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>条纹</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>SunnyD</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Union City Blue</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="4">
+          <OfxPropLabel>自然光镜头</OfxPropLabel>
+          <OfxParamPropChoiceOption>35mm</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>85mm</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>基本聚光灯</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>亮蓝色镜头</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>亮罂粟红</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>明亮天空</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>冷色太阳耀斑</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>冷镜头</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>沙漠太阳</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>钻石</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>衍射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>衍射2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>衍射3</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>数码相机太阳</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>通用宽银幕电影</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>闪烁</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>枫树</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>全天域电影</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Panamorphic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>北极星</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>摇滚音乐会</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>简单前灯</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>六点星星</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>污迹镜头</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>柔软</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>晴天</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>日落</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>暖色太阳耀斑</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>眩光亮度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>眩光比例</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="7">
+          <OfxPropLabel>光线位置</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeRGB name="8">
+          <OfxPropLabel>颜色</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="9">
+          <OfxPropLabel>角度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="10">
+          <OfxPropLabel>渲染Alpha</OfxPropLabel>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

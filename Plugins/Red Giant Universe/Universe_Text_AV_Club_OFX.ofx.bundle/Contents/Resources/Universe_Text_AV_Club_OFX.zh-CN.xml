@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Text_AV_Club_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.复古 AV Club</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe 风格化</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>许可证...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>选择预设</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>保存预设</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble name="0">
+          <OfxPropLabel>源模糊不清</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>源浓淡不均</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="2">
+          <OfxPropLabel>色调</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>色调强度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>边缘崩溃</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="5">
+          <OfxPropLabel>边缘颜色</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>边缘色相噪波</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>边缘亮度噪声</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="8">
+          <OfxPropLabel>量化颜色</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="9">
+          <OfxPropLabel>锐化</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="10">
+          <OfxPropLabel>分离</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>后噪声</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>抖动</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="13">
+          <OfxPropLabel>阴影</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="14">
+          <OfxPropLabel>启用</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="15">
+          <OfxPropLabel>扭动</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="16">
+          <OfxPropLabel>偏移</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="17">
+          <OfxPropLabel>颜色</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="18">
+          <OfxPropLabel>闪烁速度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="19">
+          <OfxPropLabel>颜色闪烁</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="20">
+          <OfxPropLabel>混合原色</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="21">
+          <OfxPropLabel>Unmult</OfxPropLabel>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

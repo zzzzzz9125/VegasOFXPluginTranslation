@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Stylize_Knoll_Light_Factory_EZ_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Knoll Light Factory EZ</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Stylize</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1020">
+          <OfxPropLabel>Choose a Flare...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1021">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="0">
+          <OfxPropLabel>Flare Category</OfxPropLabel>
+          <OfxParamPropChoiceOption>Action &amp; SciFi</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cinematic Flares</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Motion Graphics</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Natural Light</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="1">
+          <OfxPropLabel>Action &amp; SciFi Lenses</OfxPropLabel>
+          <OfxParamPropChoiceOption>Default</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Alpha Base</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Atlas</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Bad Guy</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Blue Giant</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Botany Bay</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cyborg</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Desert Digital</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Digital Preset</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Distant Quantum</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Double Barrel</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Escape</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Headlight</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Helios</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Isis</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Javelin</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Kaus</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Laser Sight</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Lunar Rover</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Monkey Planet</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Moon Glow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Order Up</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pink Star</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pollux</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Quantum5</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Quasar</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Sargas</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Vortex Bright</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="2">
+          <OfxPropLabel>Cinematic Lenses</OfxPropLabel>
+          <OfxParamPropChoiceOption>Anamorphic Zoom</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Anamorphic60mm</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Anamorphic75mm</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>CS5440</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>EH1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>EH2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>EH3</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>EH4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>EH5</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>EH6</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>EH7</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>MP100</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>MP40</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="3">
+          <OfxPropLabel>Motion Graphics Lenses</OfxPropLabel>
+          <OfxParamPropChoiceOption>Ambient</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Amethyst Star</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Apogee</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Arc Welder</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Atria</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Blimp Flare</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Diagon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Flash Gordon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Garnet</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Jaxon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Orange Spike</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Simple Six</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Solid State</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Streaks</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>SunnyD</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Union City Blue</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="4">
+          <OfxPropLabel>Natural Light Lenses</OfxPropLabel>
+          <OfxParamPropChoiceOption>35mm</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>85mm</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Basic Spotlight</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Bright Blue Lens</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Bright Poppy</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Bright Sky</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cold Sunflare</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cool Lens</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Desert Sun</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Diamond</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Diffraction</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Diffraction2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Diffraction3</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Digicam Sun</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Generic Panavision</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Glint</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Maple Tree</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Omnimax</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Panamorphic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Polaris</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rock Concert</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Simple Headlight</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Six Point Star</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Smudge Lens</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Soft</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Sunny Day</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Sunset</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Warm Sunflare</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>Flare Brightness</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>Flare Scale</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="7">
+          <OfxPropLabel>Light Location</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeRGB name="8">
+          <OfxPropLabel>Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="9">
+          <OfxPropLabel>Angle</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="10">
+          <OfxPropLabel>Render Alpha</OfxPropLabel>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

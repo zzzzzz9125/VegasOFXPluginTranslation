@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Stylize_ChromaTown_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.ChromaTown</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Stylize</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="0">
+          <OfxPropLabel>Chroma Style</OfxPropLabel>
+          <OfxParamPropChoiceOption>Chromatic Spectrum</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Start/End Colorize</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Start/End Fill</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="1">
+          <OfxPropLabel>Falloff</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Linear In</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Linear Out</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Smooth In</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Smooth Out</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Triangle In/Out</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Smooth In/Out</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>Falloff Gamma</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>Completeness</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>Completeness Center</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="5">
+          <OfxPropLabel>Completeness Capped</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="6">
+          <OfxPropLabel>Start</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="7">
+          <OfxPropLabel>Start Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="8">
+          <OfxPropLabel>Start Color Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="9">
+          <OfxPropLabel>Start Position</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeBoolean name="10">
+          <OfxPropLabel>Uniform Start Scale</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>Start Scale</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>Start Scale X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="13">
+          <OfxPropLabel>Start Scale Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="14">
+          <OfxPropLabel>Start Rotation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="15">
+          <OfxPropLabel>Start Lens Distortion</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="16">
+          <OfxPropLabel>Start Blur</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="17">
+          <OfxPropLabel>End</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="18">
+          <OfxPropLabel>End Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="19">
+          <OfxPropLabel>End Color Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="20">
+          <OfxPropLabel>End Position</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeBoolean name="21">
+          <OfxPropLabel>Uniform End Scale</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="22">
+          <OfxPropLabel>End Scale</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="23">
+          <OfxPropLabel>End Scale X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="24">
+          <OfxPropLabel>End Scale Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="25">
+          <OfxPropLabel>End Rotation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="26">
+          <OfxPropLabel>End Lens Distortion</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="27">
+          <OfxPropLabel>End Blur</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="28">
+          <OfxPropLabel>Swap Start/End</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="29">
+          <OfxPropLabel>Colorfulness</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="30">
+          <OfxPropLabel>Alpha</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="31">
+          <OfxPropLabel>Chromatic Spectrum</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="32">
+          <OfxPropLabel>Chroma Tint</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="33">
+          <OfxPropLabel>Start/End Color</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="34">
+          <OfxPropLabel>Start/End Color Interpolation</OfxPropLabel>
+          <OfxParamPropChoiceOption>RGB</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>LAB</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="35">
+          <OfxPropLabel>Color normalization</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="36">
+          <OfxPropLabel>Quality</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeBoolean name="37">
+          <OfxPropLabel>Repeat Edges</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="38">
+          <OfxPropLabel>Linear Gamma</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="39">
+          <OfxPropLabel>Composite Original</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>In Front</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Behind</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Add</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="40">
+          <OfxPropLabel>Draw Overlay</OfxPropLabel>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

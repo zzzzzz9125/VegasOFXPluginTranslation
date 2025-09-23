@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Stylize_Halftone_Dither_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Halftone Dither</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe 风格化</OfxImageEffectPluginPropGrouping>
+      <OfxPropPluginDescription>版权所有(C) 2016 Red Giant LLC.保留所有权利。</OfxPropPluginDescription>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>许可证...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="2127">
+          <OfxPropLabel>选择预设...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="26583">
+          <OfxPropLabel>保存预设...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="11356">
+          <OfxPropLabel>半色调类型</OfxPropLabel>
+          <OfxParamPropChoiceOption>打印机</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>监视器</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>LED</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="174">
+          <OfxPropLabel>仿色尺寸</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="9966">
+          <OfxPropLabel>色彩校正</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="58682">
+          <OfxPropLabel>RGB分离</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="33382">
+          <OfxPropLabel>色相偏移</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="25770">
+          <OfxPropLabel>亮度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="40710">
+          <OfxPropLabel>预饱和度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="46115">
+          <OfxPropLabel>后饱和度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="5719">
+          <OfxPropLabel>打印机设置</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="57778">
+          <OfxPropLabel>旋转</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="56877">
+          <OfxPropLabel>间距</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="1929">
+          <OfxPropLabel>监视器设置</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="41474">
+          <OfxPropLabel>像素缩放X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="41909">
+          <OfxPropLabel>像素缩放Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="56242">
+          <OfxPropLabel>LED设置</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="43177">
+          <OfxPropLabel>像素缩放X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="42742">
+          <OfxPropLabel>像素缩放Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="30334">
+          <OfxPropLabel>LED缩放</OfxPropLabel>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>
