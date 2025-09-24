@@ -1548,16 +1548,16 @@
         <OfxParamTypeChoice name="Show">
           <OfxPropLabel>显示</OfxPropLabel>
           <OfxParamPropChoiceOption>最终</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>皮肤检测蒙版</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>带垃圾蒙版</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>皮肤检测遮罩</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>带垃圾遮罩</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>皮肤</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>带垃圾蒙版的皮肤</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>带垃圾遮罩的皮肤</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeBoolean name="Show Color Helper">
           <OfxPropLabel>显示颜色助手</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group_2">
-          <OfxPropLabel>垃圾蒙版</OfxPropLabel>
+          <OfxPropLabel>垃圾遮罩</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeChoice name="Mask Use">
           <OfxPropLabel>遮罩使用</OfxPropLabel>
@@ -2697,7 +2697,7 @@
           <OfxPropLabel>使用 Gamma</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="Matte Gamma">
-          <OfxPropLabel>遮罩 Gamma</OfxPropLabel>
+          <OfxPropLabel>蒙版 Gamma</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="Boost Highlights">
           <OfxPropLabel>增强高光</OfxPropLabel>
@@ -2766,12 +2766,12 @@
           <OfxParamPropChoiceOption>内核大小</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Matte Use">
-          <OfxPropLabel>遮罩使用</OfxPropLabel>
+          <OfxPropLabel>蒙版使用</OfxPropLabel>
           <OfxParamPropChoiceOption>亮度</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>Alpha</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeBoolean name="Invert Matte">
-          <OfxPropLabel>反转遮罩</OfxPropLabel>
+          <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeBoolean name="Soft Borders">
           <OfxPropLabel>柔和边框</OfxPropLabel>
@@ -4115,7 +4115,7 @@
           <OfxPropLabel>使用 Gamma</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="Matte Gamma">
-          <OfxPropLabel>遮罩 Gamma</OfxPropLabel>
+          <OfxPropLabel>蒙版 Gamma</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="Boost Highlights">
           <OfxPropLabel>增强高光</OfxPropLabel>
@@ -4127,12 +4127,12 @@
           <OfxPropLabel>合成预乘</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="Matte Use">
-          <OfxPropLabel>遮罩使用</OfxPropLabel>
+          <OfxPropLabel>蒙版使用</OfxPropLabel>
           <OfxParamPropChoiceOption>亮度</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>Alpha</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeBoolean name="Invert Matte">
-          <OfxPropLabel>反转遮罩</OfxPropLabel>
+          <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="Edge Mode">
           <OfxPropLabel>边缘模式</OfxPropLabel>
@@ -13436,15 +13436,15 @@
           <OfxPropLabel>合成预乘</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="Matte Use">
-          <OfxPropLabel>遮罩使用</OfxPropLabel>
+          <OfxPropLabel>蒙版使用</OfxPropLabel>
           <OfxParamPropChoiceOption>亮度</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>Alpha</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeBoolean name="Invert Matte">
-          <OfxPropLabel>反转遮罩</OfxPropLabel>
+          <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group_2">
-          <OfxPropLabel>遮罩操作</OfxPropLabel>
+          <OfxPropLabel>蒙版操作</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeDouble name="Shrink- Grow+">
           <OfxPropLabel>收缩-增长+</OfxPropLabel>
@@ -13638,7 +13638,7 @@
           <OfxPropLabel>合成预乘</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="Matte Use">
-          <OfxPropLabel>遮罩使用</OfxPropLabel>
+          <OfxPropLabel>蒙版使用</OfxPropLabel>
           <OfxParamPropChoiceOption>亮度</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>Alpha</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>全不透明</OfxParamPropChoiceOption>
@@ -13977,12 +13977,12 @@
           <OfxParamPropChoiceOption>高斯</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Matte Use">
-          <OfxPropLabel>遮罩使用</OfxPropLabel>
+          <OfxPropLabel>蒙版使用</OfxPropLabel>
           <OfxParamPropChoiceOption>亮度</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>Alpha</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeBoolean name="Invert Matte">
-          <OfxPropLabel>反转遮罩</OfxPropLabel>
+          <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeBoolean name="Soft Borders">
           <OfxPropLabel>柔和边框</OfxPropLabel>
@@ -17666,12 +17666,12 @@
           <OfxPropLabel>合成预乘</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="Matte Use">
-          <OfxPropLabel>遮罩使用</OfxPropLabel>
+          <OfxPropLabel>蒙版使用</OfxPropLabel>
           <OfxParamPropChoiceOption>亮度</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>Alpha</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeBoolean name="Invert Matte">
-          <OfxPropLabel>反转遮罩</OfxPropLabel>
+          <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeBoolean name="Show Shift">
           <OfxPropLabel>显示偏移</OfxPropLabel>
@@ -37798,18 +37798,18 @@
           <OfxParamPropChoiceOption>仅Mocha遮罩</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="Scale Mo Matte">
-          <OfxPropLabel>缩放运动遮罩</OfxPropLabel>
+          <OfxPropLabel>缩放运动蒙版</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="Threshold Matte">
-          <OfxPropLabel>阈值遮罩</OfxPropLabel>
+          <OfxPropLabel>阈值蒙版</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="Blur Mo Matte">
-          <OfxPropLabel>模糊运动遮罩</OfxPropLabel>
+          <OfxPropLabel>模糊运动蒙版</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="Show">
           <OfxPropLabel>显示</OfxPropLabel>
           <OfxParamPropChoiceOption>结果</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>运动遮罩</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>运动蒙版</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Use Field">
           <OfxPropLabel>使用场</OfxPropLabel>
@@ -38040,12 +38040,12 @@
           <OfxPropLabel>设置保持电平</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeChoice name="Matte Use">
-          <OfxPropLabel>遮罩使用</OfxPropLabel>
+          <OfxPropLabel>蒙版使用</OfxPropLabel>
           <OfxParamPropChoiceOption>亮度</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>Alpha通道</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeBoolean name="Invert Matte">
-          <OfxPropLabel>反转遮罩</OfxPropLabel>
+          <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypePushButton name="Help">
           <OfxPropLabel>帮助</OfxPropLabel>
@@ -38119,12 +38119,12 @@
           <OfxPropLabel>设置保持颜色</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeChoice name="Matte Use">
-          <OfxPropLabel>遮罩使用</OfxPropLabel>
+          <OfxPropLabel>蒙版使用</OfxPropLabel>
           <OfxParamPropChoiceOption>亮度</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>Alpha通道</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeBoolean name="Invert Matte">
-          <OfxPropLabel>反转遮罩</OfxPropLabel>
+          <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypePushButton name="Help">
           <OfxPropLabel>帮助</OfxPropLabel>

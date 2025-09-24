@@ -5317,7 +5317,7 @@
           <OfxParamPropHint>视图</OfxParamPropHint>
           <OfxParamPropChoiceOption>来源</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>状态</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>遮罩</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>蒙版</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>溢出抑制遮罩</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>溢出抑制区域</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>最终效果</OfxParamPropChoiceOption>
