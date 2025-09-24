@@ -2550,9 +2550,9 @@
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>合成</OfxPropLabel>
           <OfxParamPropChoiceOption>仅卷积</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="Mix With Source">
           <OfxPropLabel>与源混合</OfxPropLabel>
@@ -2726,7 +2726,7 @@
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>结合</OfxPropLabel>
           <OfxParamPropChoiceOption>仅卷积</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
@@ -3618,7 +3618,7 @@
           <OfxParamPropChoiceOption>复合</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>乘</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去反转</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>仅渐晕</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>仅渐晕反转</OfxParamPropChoiceOption>
@@ -13497,9 +13497,9 @@
           <OfxPropLabel>模式</OfxPropLabel>
           <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>溶解</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>硬光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>颜色减淡</OfxParamPropChoiceOption>
@@ -13661,11 +13661,11 @@
           <OfxPropLabel>操作</OfxPropLabel>
           <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>除</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平均</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>最小</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>最大</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
@@ -17551,7 +17551,7 @@
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>混合模式</OfxPropLabel>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>仅灯光</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
@@ -17982,7 +17982,7 @@
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>混合模式</OfxPropLabel>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>仅闪光</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
@@ -18600,11 +18600,11 @@
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>结合</OfxPropLabel>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Edge Mode">
           <OfxPropLabel>边缘模式</OfxPropLabel>
@@ -18782,11 +18782,11 @@
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>结合</OfxPropLabel>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="Bg Brightness">
           <OfxPropLabel>背景亮度</OfxPropLabel>
@@ -19038,11 +19038,11 @@
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>结合</OfxPropLabel>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="Bg Brightness">
           <OfxPropLabel>背景亮度</OfxPropLabel>
@@ -19176,11 +19176,11 @@
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>结合</OfxPropLabel>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="Bg Brightness">
           <OfxPropLabel>背景亮度</OfxPropLabel>
@@ -19347,11 +19347,11 @@
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>结合</OfxPropLabel>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Edge Mode">
           <OfxPropLabel>边缘模式</OfxPropLabel>
@@ -19620,11 +19620,11 @@
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>结合</OfxPropLabel>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="Bg Brightness">
           <OfxPropLabel>背景亮度</OfxPropLabel>
@@ -19764,11 +19764,11 @@
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>结合</OfxPropLabel>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="Bg Brightness">
           <OfxPropLabel>背景亮度</OfxPropLabel>
@@ -19969,7 +19969,7 @@
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>混合模式</OfxPropLabel>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>仅光晕</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
@@ -20276,7 +20276,7 @@
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>混合模式</OfxPropLabel>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>仅光晕</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
@@ -20490,7 +20490,7 @@
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>混合模式</OfxPropLabel>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>仅漏光</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
@@ -21063,10 +21063,10 @@
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>混合模式</OfxPropLabel>
           <OfxParamPropChoiceOption>仅灯光</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Mask Use">
           <OfxPropLabel>遮罩使用</OfxPropLabel>
@@ -21210,7 +21210,7 @@
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>混合模式</OfxPropLabel>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Wrap">
           <OfxPropLabel>环绕</OfxPropLabel>
@@ -21498,11 +21498,11 @@
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="Highlights Combine">
           <OfxPropLabel>高光结合</OfxPropLabel>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>仅高光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>溶解</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>硬光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>颜色减淡</OfxParamPropChoiceOption>
@@ -21766,7 +21766,7 @@
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>混合模式</OfxPropLabel>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>仅极光</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
@@ -21909,11 +21909,11 @@
         <OfxParamTypeChoice name="Bg Combine">
           <OfxPropLabel>背景混合模式</OfxPropLabel>
           <OfxParamPropChoiceOption>仅焦散</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Mask Use">
           <OfxPropLabel>遮罩使用</OfxPropLabel>
@@ -22045,11 +22045,11 @@
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>混合模式</OfxPropLabel>
           <OfxParamPropChoiceOption>仅云</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Mask Use">
           <OfxPropLabel>遮罩使用</OfxPropLabel>
@@ -22172,11 +22172,11 @@
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>混合模式</OfxPropLabel>
           <OfxParamPropChoiceOption>仅云</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Mask Use">
           <OfxPropLabel>遮罩使用</OfxPropLabel>
@@ -22323,11 +22323,11 @@
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>混合模式</OfxPropLabel>
           <OfxParamPropChoiceOption>仅云</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Mask Use">
           <OfxPropLabel>遮罩使用</OfxPropLabel>
@@ -22474,11 +22474,11 @@
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>混合模式</OfxPropLabel>
           <OfxParamPropChoiceOption>仅云</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Mask Use">
           <OfxPropLabel>遮罩使用</OfxPropLabel>
@@ -22628,11 +22628,11 @@
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>混合模式</OfxPropLabel>
           <OfxParamPropChoiceOption>仅云</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Mask Use">
           <OfxPropLabel>遮罩使用</OfxPropLabel>
@@ -22773,11 +22773,11 @@
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>混合模式</OfxPropLabel>
           <OfxParamPropChoiceOption>仅云</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Mask Use">
           <OfxPropLabel>遮罩使用</OfxPropLabel>
@@ -23008,8 +23008,8 @@
           <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>加色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypePushButton name="Help">
           <OfxPropLabel>帮助</OfxPropLabel>
@@ -23106,11 +23106,11 @@
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>混合模式</OfxPropLabel>
           <OfxParamPropChoiceOption>仅渐变</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Mask Use">
           <OfxPropLabel>遮罩使用</OfxPropLabel>
@@ -23314,11 +23314,11 @@
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>混合模式</OfxPropLabel>
           <OfxParamPropChoiceOption>仅渐变</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Mask Use">
           <OfxPropLabel>遮罩使用</OfxPropLabel>
@@ -23438,11 +23438,11 @@
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>混合模式</OfxPropLabel>
           <OfxParamPropChoiceOption>仅渐变</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Mask Use">
           <OfxPropLabel>遮罩使用</OfxPropLabel>
@@ -23603,7 +23603,7 @@
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>混合模式</OfxPropLabel>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>排除</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>仅网格</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
@@ -23978,12 +23978,12 @@
           <OfxPropLabel>混合模式</OfxPropLabel>
           <OfxParamPropChoiceOption>仅污渍</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>合成</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相减</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>强光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>颜色减淡</OfxParamPropChoiceOption>
@@ -24182,7 +24182,7 @@
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>混合模式</OfxPropLabel>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>仅光束</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
@@ -24402,9 +24402,9 @@
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>混合模式</OfxPropLabel>
           <OfxParamPropChoiceOption>仅月球</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>最大</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>透明阴影</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
@@ -24561,7 +24561,7 @@
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>混合模式</OfxPropLabel>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>仅枪口火焰</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
@@ -24890,11 +24890,11 @@
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>混合模式</OfxPropLabel>
           <OfxParamPropChoiceOption>仅星星</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="Blur Mask">
           <OfxPropLabel>模糊遮罩</OfxPropLabel>
@@ -25039,12 +25039,12 @@
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>混合模式</OfxPropLabel>
           <OfxParamPropChoiceOption>仅形状</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>在上方</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Mask Use">
           <OfxPropLabel>遮罩使用</OfxPropLabel>
@@ -25520,11 +25520,11 @@
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>混合模式</OfxPropLabel>
           <OfxParamPropChoiceOption>仅纹理</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Mask Use">
           <OfxPropLabel>遮罩使用</OfxPropLabel>
@@ -25647,11 +25647,11 @@
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>混合模式</OfxPropLabel>
           <OfxParamPropChoiceOption>仅纹理</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Mask Use">
           <OfxPropLabel>遮罩使用</OfxPropLabel>
@@ -25789,11 +25789,11 @@
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>混合模式</OfxPropLabel>
           <OfxParamPropChoiceOption>仅纹理</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Mask Use">
           <OfxPropLabel>遮罩使用</OfxPropLabel>
@@ -25931,11 +25931,11 @@
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>混合模式</OfxPropLabel>
           <OfxParamPropChoiceOption>仅纹理</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Mask Use">
           <OfxPropLabel>遮罩使用</OfxPropLabel>
@@ -26109,8 +26109,8 @@
         <OfxParamTypeChoice name="Combine Loops">
           <OfxPropLabel>合并循环</OfxPropLabel>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>合成</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="Bg Brightness">
@@ -26119,11 +26119,11 @@
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>混合模式</OfxPropLabel>
           <OfxParamPropChoiceOption>仅纹理</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Mask Use">
           <OfxPropLabel>遮罩使用</OfxPropLabel>
@@ -26255,11 +26255,11 @@
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>混合模式</OfxPropLabel>
           <OfxParamPropChoiceOption>仅纹理</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Mask Use">
           <OfxPropLabel>遮罩使用</OfxPropLabel>
@@ -26439,11 +26439,11 @@
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>混合模式</OfxPropLabel>
           <OfxParamPropChoiceOption>仅纹理</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Mask Use">
           <OfxPropLabel>遮罩使用</OfxPropLabel>
@@ -26617,11 +26617,11 @@
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>混合模式</OfxPropLabel>
           <OfxParamPropChoiceOption>仅纹理</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Mask Use">
           <OfxPropLabel>遮罩使用</OfxPropLabel>
@@ -26753,11 +26753,11 @@
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>混合模式</OfxPropLabel>
           <OfxParamPropChoiceOption>仅纹理</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Mask Use">
           <OfxPropLabel>遮罩使用</OfxPropLabel>
@@ -26892,11 +26892,11 @@
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>混合模式</OfxPropLabel>
           <OfxParamPropChoiceOption>仅纹理</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Mask Use">
           <OfxPropLabel>遮罩使用</OfxPropLabel>
@@ -27040,11 +27040,11 @@
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>混合模式</OfxPropLabel>
           <OfxParamPropChoiceOption>仅纹理</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Mask Use">
           <OfxPropLabel>遮罩使用</OfxPropLabel>
@@ -27179,11 +27179,11 @@
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>混合模式</OfxPropLabel>
           <OfxParamPropChoiceOption>仅纹理</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Mask Use">
           <OfxPropLabel>遮罩使用</OfxPropLabel>
@@ -27345,11 +27345,11 @@
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>混合模式</OfxPropLabel>
           <OfxParamPropChoiceOption>仅纹理</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Mask Use">
           <OfxPropLabel>遮罩使用</OfxPropLabel>
@@ -27496,11 +27496,11 @@
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>混合模式</OfxPropLabel>
           <OfxParamPropChoiceOption>仅纹理</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Mask Use">
           <OfxPropLabel>遮罩使用</OfxPropLabel>
@@ -28214,7 +28214,7 @@
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>混合模式</OfxPropLabel>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>仅闪电</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
@@ -28452,7 +28452,7 @@
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>混合模式</OfxPropLabel>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>仅闪电</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
@@ -28664,7 +28664,7 @@
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>混合模式</OfxPropLabel>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>仅闪电</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
@@ -32090,7 +32090,7 @@
         <OfxParamTypeChoice name="Circle Overlap">
           <OfxPropLabel>圆重叠方式</OfxPropLabel>
           <OfxParamPropChoiceOption>加权平均值</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>最大</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>最小</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相乘(正片叠底)</OfxParamPropChoiceOption>
@@ -33734,9 +33734,9 @@
         <OfxParamTypeChoice name="Pulse Combine">
           <OfxPropLabel>脉冲组合</OfxPropLabel>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>合成</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平均</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>最小</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>最大</OfxParamPropChoiceOption>
@@ -36657,9 +36657,9 @@
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>组合</OfxPropLabel>
           <OfxParamPropChoiceOption>合成</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>反向相减</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>仅暗角</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>仅反向暗角</OfxParamPropChoiceOption>
@@ -37297,9 +37297,9 @@
           <OfxPropLabel>组合新帧</OfxPropLabel>
           <OfxParamPropChoiceOption>平均</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>最大</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>下方</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>最小</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
@@ -37455,9 +37455,9 @@
           <OfxPropLabel>组合新帧</OfxPropLabel>
           <OfxParamPropChoiceOption>平均</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>最大</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>下方</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>最小</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
@@ -37640,9 +37640,9 @@
           <OfxPropLabel>组合新帧</OfxPropLabel>
           <OfxParamPropChoiceOption>平均</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>最大</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>下方</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>最小</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
@@ -38461,11 +38461,11 @@
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>组合</OfxPropLabel>
           <OfxParamPropChoiceOption>仅运动</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相减</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Mask Use">
@@ -39324,9 +39324,9 @@
           <OfxPropLabel>组合新帧</OfxPropLabel>
           <OfxParamPropChoiceOption>平均</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>最大</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>下方</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>最小</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
@@ -39437,9 +39437,9 @@
           <OfxPropLabel>组合新帧</OfxPropLabel>
           <OfxParamPropChoiceOption>平均</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>最大</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>下方</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>最小</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
@@ -39514,7 +39514,7 @@
           <OfxPropLabel>旋转次数</OfxPropLabel>
         </OfxParamTypeInteger>
         <OfxParamTypeChoice name="Spin Direction">
-          <OfxPropLabel>旋转方向</OfxPropLabel>
+          <OfxPropLabel>自旋方向</OfxPropLabel>
           <OfxParamPropChoiceOption>左</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>右</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>上</OfxParamPropChoiceOption>
@@ -40446,7 +40446,7 @@
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>结合</OfxPropLabel>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="Seed">
@@ -41010,7 +41010,7 @@
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>结合</OfxPropLabel>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeBoolean name="Tint Bg Whites">
@@ -41146,7 +41146,7 @@
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="Combine">
           <OfxPropLabel>合成</OfxPropLabel>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>仅漏光</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
@@ -41355,10 +41355,10 @@
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="Use Luma Of">
           <OfxPropLabel>使用...的亮度</OfxPropLabel>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相乘(正片叠底)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>前景</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>背景</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
@@ -41471,9 +41471,9 @@
         <OfxParamTypeChoice name="Pulse Combine">
           <OfxPropLabel>脉冲结合</OfxPropLabel>
           <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>合成</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平均</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>最小</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>最大</OfxParamPropChoiceOption>
@@ -42275,7 +42275,7 @@
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="Edge Combine">
           <OfxPropLabel>边缘结合</OfxPropLabel>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>仅边缘</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>

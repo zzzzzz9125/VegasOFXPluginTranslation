@@ -916,7 +916,7 @@
           <OfxPropLabel>反转渐变</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.matte">
-          <OfxPropLabel>遮罩</OfxPropLabel>
+          <OfxPropLabel>蒙版</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeChoice name="_pc.matte.channel">
           <OfxPropLabel>通道</OfxPropLabel>
@@ -1410,17 +1410,17 @@
           <OfxParamPropChoiceOption>变亮</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变暗</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>乘法</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>更亮</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>更暗</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>缩放乘法</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>缩放屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差值 X2</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差值 X4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缩放 屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值×2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值×4</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>硬光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>色相</OfxParamPropChoiceOption>
@@ -1518,7 +1518,7 @@
         <OfxParamTypeChoice name="rays.blendMode">
           <OfxPropLabel>混合</OfxPropLabel>
           <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble2D name="rays.position">
           <OfxPropLabel>位置</OfxPropLabel>
@@ -1661,7 +1661,7 @@
           <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeInteger name="smoke.seed">
           <OfxPropLabel>随机种子</OfxPropLabel>
@@ -1798,7 +1798,7 @@
         <OfxParamTypeChoice name="orbs.blendMode">
           <OfxPropLabel>混合模式</OfxPropLabel>
           <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeInteger name="orbs.seed">
           <OfxPropLabel>随机种子</OfxPropLabel>
@@ -2435,7 +2435,7 @@
           <OfxPropLabel>旋转(绕X轴)</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="localDVE.spin">
-          <OfxPropLabel>旋转(绕Y轴)</OfxPropLabel>
+          <OfxPropLabel>自旋(绕Y轴)</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="localDVE.rotate">
           <OfxPropLabel>旋转(绕Z轴)</OfxPropLabel>
@@ -2586,7 +2586,7 @@
           <OfxPropLabel>旋转(绕X轴)</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="dve.spin">
-          <OfxPropLabel>旋转(绕Y轴)</OfxPropLabel>
+          <OfxPropLabel>自旋(绕Y轴)</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="dve.rotate">
           <OfxPropLabel>旋转(绕Z轴)</OfxPropLabel>
@@ -2828,16 +2828,16 @@
           <OfxParamPropChoiceOption>变暗</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>更亮</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>更暗</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Scale相乘/正片叠底</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Scale滤色</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异X2</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异X4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缩放 相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缩放 屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值×2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值×4</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>硬光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>色相</OfxParamPropChoiceOption>
@@ -3280,7 +3280,7 @@
         <OfxParamTypeChoice name="glow.blendMode">
           <OfxPropLabel>混合</OfxPropLabel>
           <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="glow.brightness">
           <OfxPropLabel>亮度</OfxPropLabel>
@@ -3366,7 +3366,7 @@
           <OfxPropLabel>加载预设</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.mask">
-          <OfxPropLabel>蒙版</OfxPropLabel>
+          <OfxPropLabel>遮罩</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeChoice name="_pc.mask.shape">
           <OfxPropLabel>形状</OfxPropLabel>
@@ -3381,10 +3381,10 @@
           <OfxPropLabel>不透明度</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeBoolean name="_pc.mask.invert">
-          <OfxPropLabel>反转蒙版</OfxPropLabel>
+          <OfxPropLabel>反转遮罩</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeDouble name="_pc.mask.feather">
-          <OfxPropLabel>蒙版羽化</OfxPropLabel>
+          <OfxPropLabel>遮罩羽化</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="_pc.mask.roundness">
           <OfxPropLabel>圆度</OfxPropLabel>
@@ -3399,16 +3399,16 @@
           <OfxPropLabel>粗糙度种子</OfxPropLabel>
         </OfxParamTypeInteger>
         <OfxParamTypeChoice name="_pc.mask.hostMode">
-          <OfxPropLabel>使用 AE 主机蒙版</OfxPropLabel>
+          <OfxPropLabel>使用 AE 主机遮罩</OfxPropLabel>
           <OfxParamPropChoiceOption>使用全部</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>选择单个</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>按名称选择</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="_pc.mask.selectMask">
-          <OfxPropLabel>选择蒙版</OfxPropLabel>
+          <OfxPropLabel>选择遮罩</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="_pc.mask.name">
-          <OfxPropLabel>蒙版名称以</OfxPropLabel>
+          <OfxPropLabel>遮罩名称以</OfxPropLabel>
           <OfxParamPropChoiceOption>任何</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>A</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>B</OfxParamPropChoiceOption>
@@ -3419,22 +3419,22 @@
           <OfxParamPropChoiceOption>G</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>H</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>I</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>蒙版</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>遮罩</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble2D name="_pc.mask.center">
-          <OfxPropLabel>蒙版中心</OfxPropLabel>
+          <OfxPropLabel>遮罩中心</OfxPropLabel>
         </OfxParamTypeDouble2D>
         <OfxParamTypeDouble name="_pc.mask.rotation">
-          <OfxPropLabel>蒙版旋转</OfxPropLabel>
+          <OfxPropLabel>遮罩旋转</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="_pc.mask.scale">
-          <OfxPropLabel>缩放蒙版</OfxPropLabel>
+          <OfxPropLabel>缩放遮罩</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="_pc.mask.scaleX">
-          <OfxPropLabel>缩放蒙版 X</OfxPropLabel>
+          <OfxPropLabel>缩放遮罩 X</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="_pc.mask.scaleY">
-          <OfxPropLabel>缩放蒙版 Y</OfxPropLabel>
+          <OfxPropLabel>缩放遮罩 Y</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeBoolean name="_pc.mask.centerOnShape">
           <OfxPropLabel>居中形状</OfxPropLabel>
@@ -6489,7 +6489,7 @@
           <OfxPropLabel>许可证/关于...</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeGroup name="group._mocha">
-          <OfxPropLabel>Mocha 蒙版和跟踪</OfxPropLabel>
+          <OfxPropLabel>Mocha 遮罩和跟踪</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypePushButton name="_pc.launchMocha">
           <OfxPropLabel>Mocha 遮罩...</OfxPropLabel>
@@ -7144,7 +7144,7 @@
           <OfxPropLabel>加载预设</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.mask">
-          <OfxPropLabel>蒙版</OfxPropLabel>
+          <OfxPropLabel>遮罩</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeChoice name="_pc.mask.shape">
           <OfxPropLabel>形状</OfxPropLabel>
@@ -7159,10 +7159,10 @@
           <OfxPropLabel>不透明度</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeBoolean name="_pc.mask.invert">
-          <OfxPropLabel>反转蒙版</OfxPropLabel>
+          <OfxPropLabel>反转遮罩</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeDouble name="_pc.mask.feather">
-          <OfxPropLabel>蒙版羽化</OfxPropLabel>
+          <OfxPropLabel>遮罩羽化</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="_pc.mask.roundness">
           <OfxPropLabel>圆度</OfxPropLabel>
@@ -7177,16 +7177,16 @@
           <OfxPropLabel>粗糙度种子</OfxPropLabel>
         </OfxParamTypeInteger>
         <OfxParamTypeChoice name="_pc.mask.hostMode">
-          <OfxPropLabel>使用 AE 主机蒙版</OfxPropLabel>
+          <OfxPropLabel>使用 AE 主机遮罩</OfxPropLabel>
           <OfxParamPropChoiceOption>使用全部</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>选择单个</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>按名称选择</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="_pc.mask.selectMask">
-          <OfxPropLabel>选择蒙版</OfxPropLabel>
+          <OfxPropLabel>选择遮罩</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="_pc.mask.name">
-          <OfxPropLabel>蒙版名称以</OfxPropLabel>
+          <OfxPropLabel>遮罩名称以</OfxPropLabel>
           <OfxParamPropChoiceOption>任何</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>A</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>B</OfxParamPropChoiceOption>
@@ -7197,22 +7197,22 @@
           <OfxParamPropChoiceOption>G</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>H</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>I</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>蒙版</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>遮罩</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble2D name="_pc.mask.center">
-          <OfxPropLabel>蒙版中心</OfxPropLabel>
+          <OfxPropLabel>遮罩中心</OfxPropLabel>
         </OfxParamTypeDouble2D>
         <OfxParamTypeDouble name="_pc.mask.rotation">
-          <OfxPropLabel>蒙版旋转</OfxPropLabel>
+          <OfxPropLabel>遮罩旋转</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="_pc.mask.scale">
-          <OfxPropLabel>缩放蒙版</OfxPropLabel>
+          <OfxPropLabel>缩放遮罩</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="_pc.mask.scaleX">
-          <OfxPropLabel>缩放蒙版 X</OfxPropLabel>
+          <OfxPropLabel>缩放遮罩 X</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="_pc.mask.scaleY">
-          <OfxPropLabel>缩放蒙版 Y</OfxPropLabel>
+          <OfxPropLabel>缩放遮罩 Y</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeBoolean name="_pc.mask.centerOnShape">
           <OfxPropLabel>居中形状</OfxPropLabel>
@@ -9111,16 +9111,16 @@
           <OfxParamPropChoiceOption>变暗</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>更亮</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>更暗</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Scale相乘/正片叠底</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Scale屏幕/滤色</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异X2</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异X4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缩放 相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缩放 屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值×2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值×4</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>硬光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>色相</OfxParamPropChoiceOption>
@@ -10641,7 +10641,7 @@
           <OfxParamPropChoiceOption>关</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>开</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>遮罩未选择像素</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>查看遮罩源</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>查看蒙版源</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeBoolean name="_pc.viewMaskMatte">
           <OfxPropLabel>查看遮罩/蒙版</OfxPropLabel>
@@ -11268,7 +11268,7 @@
           <OfxPropLabel>翻滚</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="dve.spin">
-          <OfxPropLabel>旋转</OfxPropLabel>
+          <OfxPropLabel>自旋</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="dve.rotate">
           <OfxPropLabel>旋转</OfxPropLabel>
@@ -11477,7 +11477,7 @@
           <OfxPropLabel>翻滚</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="shadow.dve.spin">
-          <OfxPropLabel>旋转</OfxPropLabel>
+          <OfxPropLabel>自旋</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="shadow.dve.rotate">
           <OfxPropLabel>旋转</OfxPropLabel>
@@ -11914,7 +11914,7 @@
           <OfxPropLabel>许可证/关于...</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeGroup name="group._mocha">
-          <OfxPropLabel>Mocha 蒙版和跟踪</OfxPropLabel>
+          <OfxPropLabel>Mocha 遮罩和跟踪</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypePushButton name="_pc.launchMocha">
           <OfxPropLabel>Mocha 遮罩...</OfxPropLabel>
@@ -12063,7 +12063,7 @@
           <OfxPropLabel>反转渐变</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.matte">
-          <OfxPropLabel>遮罩</OfxPropLabel>
+          <OfxPropLabel>蒙版</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeChoice name="_pc.matte.channel">
           <OfxPropLabel>通道</OfxPropLabel>
@@ -12345,7 +12345,7 @@
           <OfxParamPropChoiceOption>G</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>H</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>I</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>蒙版</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>遮罩</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble2D name="_pc.mask.center">
           <OfxPropLabel>遮罩中心</OfxPropLabel>
@@ -12628,7 +12628,7 @@
           <OfxPropLabel>遮罩中心</OfxPropLabel>
         </OfxParamTypeDouble2D>
         <OfxParamTypeDouble name="_pc.mask.rotation">
-          <OfxPropLabel>蒙版旋转</OfxPropLabel>
+          <OfxPropLabel>遮罩旋转</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="_pc.mask.scale">
           <OfxPropLabel>缩放遮罩</OfxPropLabel>
@@ -12843,7 +12843,7 @@
           <OfxPropLabel>加载预设</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.mask">
-          <OfxPropLabel>蒙版</OfxPropLabel>
+          <OfxPropLabel>遮罩</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeChoice name="_pc.mask.shape">
           <OfxPropLabel>形状</OfxPropLabel>
@@ -12858,10 +12858,10 @@
           <OfxPropLabel>不透明度</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeBoolean name="_pc.mask.invert">
-          <OfxPropLabel>反转蒙版</OfxPropLabel>
+          <OfxPropLabel>反转遮罩</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeDouble name="_pc.mask.feather">
-          <OfxPropLabel>蒙版羽化</OfxPropLabel>
+          <OfxPropLabel>遮罩羽化</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="_pc.mask.roundness">
           <OfxPropLabel>圆度</OfxPropLabel>
@@ -12876,16 +12876,16 @@
           <OfxPropLabel>粗糙度种子</OfxPropLabel>
         </OfxParamTypeInteger>
         <OfxParamTypeChoice name="_pc.mask.hostMode">
-          <OfxPropLabel>使用 AE 主机蒙版</OfxPropLabel>
+          <OfxPropLabel>使用 AE 主机遮罩</OfxPropLabel>
           <OfxParamPropChoiceOption>使用全部</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>选择单个</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>按名称选择</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="_pc.mask.selectMask">
-          <OfxPropLabel>选择蒙版</OfxPropLabel>
+          <OfxPropLabel>选择遮罩</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="_pc.mask.name">
-          <OfxPropLabel>蒙版名称以</OfxPropLabel>
+          <OfxPropLabel>遮罩名称以</OfxPropLabel>
           <OfxParamPropChoiceOption>任何</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>A</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>B</OfxParamPropChoiceOption>
@@ -12896,22 +12896,22 @@
           <OfxParamPropChoiceOption>G</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>H</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>I</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>蒙版</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>遮罩</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble2D name="_pc.mask.center">
-          <OfxPropLabel>蒙版中心</OfxPropLabel>
+          <OfxPropLabel>遮罩中心</OfxPropLabel>
         </OfxParamTypeDouble2D>
         <OfxParamTypeDouble name="_pc.mask.rotation">
-          <OfxPropLabel>蒙版旋转</OfxPropLabel>
+          <OfxPropLabel>遮罩旋转</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="_pc.mask.scale">
-          <OfxPropLabel>缩放蒙版</OfxPropLabel>
+          <OfxPropLabel>缩放遮罩</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="_pc.mask.scaleX">
-          <OfxPropLabel>缩放蒙版 X</OfxPropLabel>
+          <OfxPropLabel>缩放遮罩 X</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="_pc.mask.scaleY">
-          <OfxPropLabel>缩放蒙版 Y</OfxPropLabel>
+          <OfxPropLabel>缩放遮罩 Y</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeBoolean name="_pc.mask.centerOnShape">
           <OfxPropLabel>居中形状</OfxPropLabel>
@@ -13147,7 +13147,7 @@
           <OfxPropLabel>许可证/关于...</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeGroup name="group._mocha">
-          <OfxPropLabel>Mocha 蒙版和跟踪</OfxPropLabel>
+          <OfxPropLabel>Mocha 遮罩和跟踪</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypePushButton name="_pc.launchMocha">
           <OfxPropLabel>Mocha 遮罩...</OfxPropLabel>
@@ -13312,7 +13312,7 @@
           <OfxPropLabel>不透明度</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="_pc.matte.type">
-          <OfxPropLabel>遮罩类型</OfxPropLabel>
+          <OfxPropLabel>蒙版类型</OfxPropLabel>
           <OfxParamPropChoiceOption>色阶</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>阈值</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>范围</OfxParamPropChoiceOption>
@@ -13894,10 +13894,10 @@
           <OfxPropLabel>不透明度</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeBoolean name="_pc.mask.invert">
-          <OfxPropLabel>反转蒙版</OfxPropLabel>
+          <OfxPropLabel>反转遮罩</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeDouble name="_pc.mask.feather">
-          <OfxPropLabel>蒙版羽化</OfxPropLabel>
+          <OfxPropLabel>遮罩羽化</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="_pc.mask.roundness">
           <OfxPropLabel>圆度</OfxPropLabel>
@@ -13912,16 +13912,16 @@
           <OfxPropLabel>粗糙度种子</OfxPropLabel>
         </OfxParamTypeInteger>
         <OfxParamTypeChoice name="_pc.mask.hostMode">
-          <OfxPropLabel>使用 AE 主机蒙版</OfxPropLabel>
+          <OfxPropLabel>使用 AE 主机遮罩</OfxPropLabel>
           <OfxParamPropChoiceOption>使用全部</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>选择单个</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>按名称选择</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="_pc.mask.selectMask">
-          <OfxPropLabel>选择蒙版</OfxPropLabel>
+          <OfxPropLabel>选择遮罩</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="_pc.mask.name">
-          <OfxPropLabel>蒙版名称以</OfxPropLabel>
+          <OfxPropLabel>遮罩名称以</OfxPropLabel>
           <OfxParamPropChoiceOption>任何</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>A</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>B</OfxParamPropChoiceOption>
@@ -13932,22 +13932,22 @@
           <OfxParamPropChoiceOption>G</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>H</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>I</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>蒙版</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>遮罩</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble2D name="_pc.mask.center">
-          <OfxPropLabel>蒙版中心</OfxPropLabel>
+          <OfxPropLabel>遮罩中心</OfxPropLabel>
         </OfxParamTypeDouble2D>
         <OfxParamTypeDouble name="_pc.mask.rotation">
-          <OfxPropLabel>蒙版旋转</OfxPropLabel>
+          <OfxPropLabel>遮罩旋转</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="_pc.mask.scale">
-          <OfxPropLabel>缩放蒙版</OfxPropLabel>
+          <OfxPropLabel>缩放遮罩</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="_pc.mask.scaleX">
-          <OfxPropLabel>缩放蒙版 X</OfxPropLabel>
+          <OfxPropLabel>缩放遮罩 X</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="_pc.mask.scaleY">
-          <OfxPropLabel>缩放蒙版 Y</OfxPropLabel>
+          <OfxPropLabel>缩放遮罩 Y</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeBoolean name="_pc.mask.centerOnShape">
           <OfxPropLabel>居中形状</OfxPropLabel>
@@ -14494,7 +14494,7 @@
           <OfxPropLabel>许可证/关于...</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeGroup name="group._mocha">
-          <OfxPropLabel>Mocha 蒙版和跟踪</OfxPropLabel>
+          <OfxPropLabel>Mocha 遮罩和跟踪</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypePushButton name="_pc.launchMocha">
           <OfxPropLabel>Mocha 遮罩...</OfxPropLabel>
@@ -15042,7 +15042,7 @@
         <OfxParamTypeChoice name="diffusion.blendMode">
           <OfxPropLabel>混合</OfxPropLabel>
           <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="diffusion.brightness">
           <OfxPropLabel>亮度</OfxPropLabel>
@@ -15110,9 +15110,9 @@
           <OfxParamPropChoiceOption>仅纹理</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变暗</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变亮</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
@@ -15777,7 +15777,7 @@
         <OfxParamTypeChoice name=".view">
           <OfxPropLabel>查看</OfxPropLabel>
           <OfxParamPropChoiceOption>输出</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>遮罩</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>蒙版</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeGroup name="group.glow">
           <OfxPropLabel>发光</OfxPropLabel>
@@ -15785,7 +15785,7 @@
         <OfxParamTypeChoice name="glow.blendMode">
           <OfxPropLabel>混合</OfxPropLabel>
           <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="glow.brightness">
           <OfxPropLabel>亮度</OfxPropLabel>
@@ -17314,18 +17314,18 @@
           <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变亮</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变暗</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>更亮</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>更暗</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Scale相乘</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Scale屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异X2</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异X4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缩放 相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缩放 屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值×2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值×4</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>硬光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>色相</OfxParamPropChoiceOption>
@@ -17487,7 +17487,7 @@
           <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeInteger name="atmosphericGlow.smoke.seed">
           <OfxPropLabel>随机种子</OfxPropLabel>
@@ -17624,7 +17624,7 @@
         <OfxParamTypeChoice name="atmosphericGlow.orbs.blendMode">
           <OfxPropLabel>混合模式</OfxPropLabel>
           <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeInteger name="atmosphericGlow.orbs.seed">
           <OfxPropLabel>随机种子</OfxPropLabel>
@@ -18710,18 +18710,18 @@
           <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变亮</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变暗</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>更亮</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>更暗</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Scale相乘</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Scale屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异X2</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异X4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缩放 相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缩放 屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值×2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值×4</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>硬光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>色相</OfxParamPropChoiceOption>
@@ -18898,18 +18898,18 @@
           <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变亮</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变暗</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>更亮</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>更暗</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Scale相乘</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Scale屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异X2</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异X4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缩放 相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缩放 屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值×2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值×4</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>硬光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>色相</OfxParamPropChoiceOption>
@@ -19420,16 +19420,16 @@
           <OfxParamPropChoiceOption>变暗</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>更亮</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>更暗</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Scale相乘/正片叠底</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Scale屏幕/滤色</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异X2</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异X4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缩放 相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缩放 屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值×2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值×4</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>硬光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>色相</OfxParamPropChoiceOption>
@@ -19626,7 +19626,7 @@
         <OfxParamTypeChoice name="multiStar.blend">
           <OfxPropLabel>混合</OfxPropLabel>
           <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="multiStar.brightness">
           <OfxPropLabel>亮度</OfxPropLabel>
@@ -19836,7 +19836,7 @@
         <OfxParamTypeChoice name="orbs.blendMode">
           <OfxPropLabel>混合模式</OfxPropLabel>
           <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeInteger name="orbs.seed">
           <OfxPropLabel>随机种子</OfxPropLabel>
@@ -20147,7 +20147,7 @@
         <OfxParamTypeChoice name="rackFocus.blend">
           <OfxPropLabel>混合</OfxPropLabel>
           <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="rackFocus.brightness">
           <OfxPropLabel>亮度</OfxPropLabel>
@@ -20544,7 +20544,7 @@
           <OfxPropLabel>混合模式</OfxPropLabel>
           <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeInteger name="smoke.seed">
           <OfxPropLabel>随机种子</OfxPropLabel>
@@ -20640,7 +20640,7 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx.bcc_dft.ofx.dissolveSpinBlurTransition">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC+旋转模糊淡化</OfxPropLabel>
+      <OfxPropLabel>BCC+自旋模糊淡化</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>BCC 转场</OfxImageEffectPluginPropGrouping>
       <OfxImageEffectContext name="default">
         <OfxParamTypePushButton name=".help">
@@ -21007,8 +21007,8 @@
           <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>颜色</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="videoGlitch.blockDamage.patternAmount">
@@ -21842,7 +21842,7 @@
         <OfxParamTypeChoice name="glow.blendMode">
           <OfxPropLabel>混合</OfxPropLabel>
           <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="glow.brightness">
           <OfxPropLabel>亮度</OfxPropLabel>
@@ -22810,7 +22810,7 @@
           <OfxPropLabel>旋转(绕X轴)</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="spin">
-          <OfxPropLabel>旋转(绕Y轴)</OfxPropLabel>
+          <OfxPropLabel>自旋(绕Y轴)</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="rotate">
           <OfxPropLabel>旋转(绕Z轴)</OfxPropLabel>
@@ -23260,7 +23260,7 @@
           <OfxPropLabel>加载预设</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.mask">
-          <OfxPropLabel>蒙版</OfxPropLabel>
+          <OfxPropLabel>遮罩</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeChoice name="_pc.mask.shape">
           <OfxPropLabel>形状</OfxPropLabel>
@@ -23275,10 +23275,10 @@
           <OfxPropLabel>不透明度</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeBoolean name="_pc.mask.invert">
-          <OfxPropLabel>反转蒙版</OfxPropLabel>
+          <OfxPropLabel>反转遮罩</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeDouble name="_pc.mask.feather">
-          <OfxPropLabel>蒙版羽化</OfxPropLabel>
+          <OfxPropLabel>遮罩羽化</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="_pc.mask.roundness">
           <OfxPropLabel>圆度</OfxPropLabel>
@@ -23293,13 +23293,13 @@
           <OfxPropLabel>粗糙度种子</OfxPropLabel>
         </OfxParamTypeInteger>
         <OfxParamTypeChoice name="_pc.mask.hostMode">
-          <OfxPropLabel>使用 AE 主机蒙版</OfxPropLabel>
+          <OfxPropLabel>使用 AE 主机遮罩</OfxPropLabel>
           <OfxParamPropChoiceOption>使用全部</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>选择单个</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>按名称选择</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="_pc.mask.selectMask">
-          <OfxPropLabel>选择蒙版</OfxPropLabel>
+          <OfxPropLabel>选择遮罩</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="_pc.mask.name">
           <OfxPropLabel>遮罩名称以</OfxPropLabel>
@@ -23313,22 +23313,22 @@
           <OfxParamPropChoiceOption>G</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>H</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>I</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>蒙版</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>遮罩</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble2D name="_pc.mask.center">
-          <OfxPropLabel>蒙版中心</OfxPropLabel>
+          <OfxPropLabel>遮罩中心</OfxPropLabel>
         </OfxParamTypeDouble2D>
         <OfxParamTypeDouble name="_pc.mask.rotation">
-          <OfxPropLabel>蒙版旋转</OfxPropLabel>
+          <OfxPropLabel>遮罩旋转</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="_pc.mask.scale">
-          <OfxPropLabel>缩放蒙版</OfxPropLabel>
+          <OfxPropLabel>缩放遮罩</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="_pc.mask.scaleX">
-          <OfxPropLabel>缩放蒙版 X</OfxPropLabel>
+          <OfxPropLabel>缩放遮罩 X</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="_pc.mask.scaleY">
-          <OfxPropLabel>缩放蒙版 Y</OfxPropLabel>
+          <OfxPropLabel>缩放遮罩 Y</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeBoolean name="_pc.mask.centerOnShape">
           <OfxPropLabel>居中形状</OfxPropLabel>
@@ -23847,7 +23847,7 @@
         <OfxParamTypeChoice name="blendMode">
           <OfxPropLabel>混合</OfxPropLabel>
           <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="brightness">
           <OfxPropLabel>亮度</OfxPropLabel>
@@ -24141,7 +24141,7 @@
           <OfxParamPropChoiceOption>关</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>开</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>遮罩未选择像素</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>查看遮罩源</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>查看蒙版源</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeBoolean name="_pc.viewMaskMatte">
           <OfxPropLabel>查看遮罩/遮罩</OfxPropLabel>
@@ -24799,17 +24799,17 @@
           <OfxParamPropChoiceOption>变亮</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变暗</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>乘法</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>更亮</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>更暗</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>缩放乘法</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>缩放屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差值 X2</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差值 X4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缩放 屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值×2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值×4</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>硬光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>色相</OfxParamPropChoiceOption>
@@ -24849,7 +24849,7 @@
           <OfxPropLabel>Mocha 遮罩和跟踪</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypePushButton name="_pc.launchMocha">
-          <OfxPropLabel>Mocha 蒙版...</OfxPropLabel>
+          <OfxPropLabel>Mocha 遮罩...</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeGroup name="group._mocha.group._pc">
           <OfxPropLabel>像素选择器/Mocha</OfxPropLabel>
@@ -25438,7 +25438,7 @@
         <OfxParamTypeChoice name="dBlend">
           <OfxPropLabel>混合</OfxPropLabel>
           <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="dAmount">
@@ -26136,7 +26136,7 @@
         <OfxParamTypeChoice name="blend">
           <OfxPropLabel>混合</OfxPropLabel>
           <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble2D name="pos">
           <OfxPropLabel>位置</OfxPropLabel>
@@ -26747,7 +26747,7 @@
           <OfxPropLabel>加载预设</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.mask">
-          <OfxPropLabel>蒙版</OfxPropLabel>
+          <OfxPropLabel>遮罩</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeChoice name="_pc.mask.shape">
           <OfxPropLabel>形状</OfxPropLabel>
@@ -26762,10 +26762,10 @@
           <OfxPropLabel>不透明度</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeBoolean name="_pc.mask.invert">
-          <OfxPropLabel>反转蒙版</OfxPropLabel>
+          <OfxPropLabel>反转遮罩</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeDouble name="_pc.mask.feather">
-          <OfxPropLabel>蒙版羽化</OfxPropLabel>
+          <OfxPropLabel>遮罩羽化</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="_pc.mask.roundness">
           <OfxPropLabel>圆度</OfxPropLabel>
@@ -26780,7 +26780,7 @@
           <OfxPropLabel>粗糙度种子</OfxPropLabel>
         </OfxParamTypeInteger>
         <OfxParamTypeChoice name="_pc.mask.hostMode">
-          <OfxPropLabel>使用 AE 主机蒙版</OfxPropLabel>
+          <OfxPropLabel>使用 AE 主机遮罩</OfxPropLabel>
           <OfxParamPropChoiceOption>使用全部</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>选择单个</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>按名称选择</OfxParamPropChoiceOption>
@@ -26800,22 +26800,22 @@
           <OfxParamPropChoiceOption>G</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>H</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>I</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>蒙版</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>遮罩</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble2D name="_pc.mask.center">
-          <OfxPropLabel>蒙版中心</OfxPropLabel>
+          <OfxPropLabel>遮罩中心</OfxPropLabel>
         </OfxParamTypeDouble2D>
         <OfxParamTypeDouble name="_pc.mask.rotation">
-          <OfxPropLabel>蒙版旋转</OfxPropLabel>
+          <OfxPropLabel>遮罩旋转</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="_pc.mask.scale">
-          <OfxPropLabel>缩放蒙版</OfxPropLabel>
+          <OfxPropLabel>缩放遮罩</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="_pc.mask.scaleX">
-          <OfxPropLabel>缩放蒙版 X</OfxPropLabel>
+          <OfxPropLabel>缩放遮罩 X</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="_pc.mask.scaleY">
-          <OfxPropLabel>缩放蒙版 Y</OfxPropLabel>
+          <OfxPropLabel>缩放遮罩 Y</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeBoolean name="_pc.mask.centerOnShape">
           <OfxPropLabel>居中形状</OfxPropLabel>
@@ -27700,7 +27700,7 @@
         <OfxParamTypeChoice name="fog.blendMode">
           <OfxPropLabel>混合</OfxPropLabel>
           <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="fog.brightness">
           <OfxPropLabel>亮度</OfxPropLabel>
@@ -27906,7 +27906,7 @@
           <OfxPropLabel>反转渐变</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.matte">
-          <OfxPropLabel>遮罩</OfxPropLabel>
+          <OfxPropLabel>蒙版</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeChoice name="_pc.matte.channel">
           <OfxPropLabel>通道</OfxPropLabel>
@@ -28307,7 +28307,7 @@
         <OfxParamTypeChoice name="mist.blendMode">
           <OfxPropLabel>混合</OfxPropLabel>
           <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="mist.brightness">
           <OfxPropLabel>亮度</OfxPropLabel>
@@ -28435,7 +28435,7 @@
           <OfxPropLabel>加载预设</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.mask">
-          <OfxPropLabel>蒙版</OfxPropLabel>
+          <OfxPropLabel>遮罩</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeChoice name="_pc.mask.shape">
           <OfxPropLabel>形状</OfxPropLabel>
@@ -28450,10 +28450,10 @@
           <OfxPropLabel>不透明度</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeBoolean name="_pc.mask.invert">
-          <OfxPropLabel>反转蒙版</OfxPropLabel>
+          <OfxPropLabel>反转遮罩</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeDouble name="_pc.mask.feather">
-          <OfxPropLabel>蒙版羽化</OfxPropLabel>
+          <OfxPropLabel>遮罩羽化</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="_pc.mask.roundness">
           <OfxPropLabel>圆度</OfxPropLabel>
@@ -28468,16 +28468,16 @@
           <OfxPropLabel>粗糙度种子</OfxPropLabel>
         </OfxParamTypeInteger>
         <OfxParamTypeChoice name="_pc.mask.hostMode">
-          <OfxPropLabel>使用 AE 主机蒙版</OfxPropLabel>
+          <OfxPropLabel>使用 AE 主机遮罩</OfxPropLabel>
           <OfxParamPropChoiceOption>使用全部</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>选择单个</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>按名称选择</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="_pc.mask.selectMask">
-          <OfxPropLabel>选择蒙版</OfxPropLabel>
+          <OfxPropLabel>选择遮罩</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="_pc.mask.name">
-          <OfxPropLabel>蒙版名称以</OfxPropLabel>
+          <OfxPropLabel>遮罩名称以</OfxPropLabel>
           <OfxParamPropChoiceOption>任何</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>A</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>B</OfxParamPropChoiceOption>
@@ -28488,22 +28488,22 @@
           <OfxParamPropChoiceOption>G</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>H</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>I</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>蒙版</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>遮罩</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble2D name="_pc.mask.center">
-          <OfxPropLabel>蒙版中心</OfxPropLabel>
+          <OfxPropLabel>遮罩中心</OfxPropLabel>
         </OfxParamTypeDouble2D>
         <OfxParamTypeDouble name="_pc.mask.rotation">
           <OfxPropLabel>遮罩旋转</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="_pc.mask.scale">
-          <OfxPropLabel>缩放蒙版</OfxPropLabel>
+          <OfxPropLabel>缩放遮罩</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="_pc.mask.scaleX">
-          <OfxPropLabel>缩放蒙版 X</OfxPropLabel>
+          <OfxPropLabel>缩放遮罩 X</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="_pc.mask.scaleY">
-          <OfxPropLabel>缩放蒙版 Y</OfxPropLabel>
+          <OfxPropLabel>缩放遮罩 Y</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeBoolean name="_pc.mask.centerOnShape">
           <OfxPropLabel>居中形状</OfxPropLabel>
@@ -28553,7 +28553,7 @@
           <OfxPropLabel>反转渐变</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.matte">
-          <OfxPropLabel>遮罩</OfxPropLabel>
+          <OfxPropLabel>蒙版</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeChoice name="_pc.matte.channel">
           <OfxPropLabel>通道</OfxPropLabel>
@@ -29628,7 +29628,7 @@
           <OfxPropLabel>不透明度</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="_pc.matte.type">
-          <OfxPropLabel>遮罩类型</OfxPropLabel>
+          <OfxPropLabel>蒙版类型</OfxPropLabel>
           <OfxParamPropChoiceOption>色阶</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>阈值</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>范围</OfxParamPropChoiceOption>
@@ -30004,7 +30004,7 @@
         <OfxParamTypeChoice name="blendMode">
           <OfxPropLabel>混合</OfxPropLabel>
           <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="brightness">
           <OfxPropLabel>亮度</OfxPropLabel>
@@ -31120,7 +31120,7 @@
           <OfxPropLabel>模糊</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeBoolean name="_pc.matte.invert">
-          <OfxPropLabel>反转遮罩</OfxPropLabel>
+          <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeCustom name="mochaDataPrimary">
           <!-- <OfxPropLabel>Mocha项目数据</OfxPropLabel> -->
@@ -31147,7 +31147,7 @@
         <OfxParamTypeChoice name=".view">
           <OfxPropLabel>查看</OfxPropLabel>
           <OfxParamPropChoiceOption>输出</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>遮罩</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>蒙版</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeGroup name="group.halo">
           <OfxPropLabel>光环</OfxPropLabel>
@@ -31170,7 +31170,7 @@
         <OfxParamTypeChoice name="mist.blendMode">
           <OfxPropLabel>混合</OfxPropLabel>
           <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="mist.brightness">
           <OfxPropLabel>亮度</OfxPropLabel>
@@ -32301,7 +32301,7 @@
           <OfxPropLabel>反转渐变</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.matte">
-          <OfxPropLabel>遮罩</OfxPropLabel>
+          <OfxPropLabel>蒙版</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeChoice name="_pc.matte.channel">
           <OfxPropLabel>通道</OfxPropLabel>
@@ -32695,7 +32695,7 @@
         <OfxParamTypeChoice name="type">
           <OfxPropLabel>混合</OfxPropLabel>
           <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变亮</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="level">
@@ -32823,7 +32823,7 @@
           <OfxPropLabel>选择遮罩</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="_pc.mask.name">
-          <OfxPropLabel>蒙版名称开头</OfxPropLabel>
+          <OfxPropLabel>遮罩名称开头</OfxPropLabel>
           <OfxParamPropChoiceOption>任意</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>A</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>B</OfxParamPropChoiceOption>
@@ -33035,7 +33035,7 @@
         <OfxParamTypeChoice name="light.blend">
           <OfxPropLabel>混合</OfxPropLabel>
           <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="light.brightness">
           <OfxPropLabel>亮度</OfxPropLabel>
@@ -33681,7 +33681,7 @@
         <OfxParamTypeChoice name="blendMode">
           <OfxPropLabel>混合</OfxPropLabel>
           <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="brightness">
           <OfxPropLabel>亮度</OfxPropLabel>
@@ -33844,7 +33844,7 @@
           <OfxPropLabel>缩放遮罩</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="_pc.mask.scaleX">
-          <OfxPropLabel>缩放蒙版 X</OfxPropLabel>
+          <OfxPropLabel>缩放遮罩 X</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="_pc.mask.scaleY">
           <OfxPropLabel>缩放遮罩 Y</OfxPropLabel>
@@ -35065,7 +35065,7 @@
         <OfxParamTypeChoice name="blend">
           <OfxPropLabel>混合</OfxPropLabel>
           <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeRGB name="color">
           <OfxPropLabel>颜色</OfxPropLabel>
@@ -35512,16 +35512,16 @@
           <OfxParamPropChoiceOption>变暗</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>更亮</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>更暗</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Scale相乘/正片叠底</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Scale滤色</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异X2</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异X4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缩放 相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缩放 屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值×2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值×4</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>硬光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>色相</OfxParamPropChoiceOption>
@@ -35637,7 +35637,7 @@
           <OfxPropLabel>选择遮罩</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="_pc.mask.name">
-          <OfxPropLabel>蒙版名称开头</OfxPropLabel>
+          <OfxPropLabel>遮罩名称开头</OfxPropLabel>
           <OfxParamPropChoiceOption>任意</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>A</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>B</OfxParamPropChoiceOption>
@@ -36151,7 +36151,7 @@
         <OfxParamTypeChoice name="light.blend">
           <OfxPropLabel>混合</OfxPropLabel>
           <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="light.brightness">
@@ -36391,9 +36391,9 @@
           <OfxParamPropChoiceOption>仅图案</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变暗</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变亮</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
@@ -37255,7 +37255,7 @@
           <OfxParamPropChoiceOption>关</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>开</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>遮罩未选择像素</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>查看遮罩源</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>查看蒙版源</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeBoolean name="_pc.viewMaskMatte">
           <OfxPropLabel>查看遮罩/遮罩</OfxPropLabel>
@@ -37861,16 +37861,16 @@
           <OfxParamPropChoiceOption>变暗</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异/差值</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>浅色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>深色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>缩放正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>缩放滤色</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差值 X2</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差值 X4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值×2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值×4</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>增加/加色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>硬光/强光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>色相</OfxParamPropChoiceOption>
@@ -38517,16 +38517,16 @@
           <OfxParamPropChoiceOption>变暗</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>更亮</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>更暗</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Scale相乘/正片叠底</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Scale屏幕/滤色</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异X2</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异X4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缩放 相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缩放 屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值×2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值×4</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>硬光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>色相</OfxParamPropChoiceOption>
@@ -39465,7 +39465,7 @@
           <OfxPropLabel>Mocha 遮罩和跟踪</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypePushButton name="_pc.launchMocha">
-          <OfxPropLabel>Mocha 蒙版...</OfxPropLabel>
+          <OfxPropLabel>Mocha 遮罩...</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeGroup name="group._mocha.group._pc">
           <OfxPropLabel>像素选择器/Mocha</OfxPropLabel>
@@ -40655,7 +40655,7 @@
           <OfxPropLabel>粗糙度种子</OfxPropLabel>
         </OfxParamTypeInteger>
         <OfxParamTypeChoice name="_pc.mask.hostMode">
-          <OfxPropLabel>使用AE主机蒙版</OfxPropLabel>
+          <OfxPropLabel>使用AE主机遮罩</OfxPropLabel>
           <OfxParamPropChoiceOption>使用所有</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>选择单个</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>按名称选择</OfxParamPropChoiceOption>
@@ -40756,7 +40756,7 @@
           <OfxPropLabel>不透明度</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="_pc.matte.type">
-          <OfxPropLabel>遮罩类型</OfxPropLabel>
+          <OfxPropLabel>蒙版类型</OfxPropLabel>
           <OfxParamPropChoiceOption>色阶</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>阈值</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>范围</OfxParamPropChoiceOption>
@@ -41218,12 +41218,12 @@
           <OfxPropLabel>混合</OfxPropLabel>
           <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变暗</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变亮</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>硬光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>生动光</OfxParamPropChoiceOption>
@@ -41541,7 +41541,7 @@
         <OfxParamTypeChoice name="mist.blendMode">
           <OfxPropLabel>混合</OfxPropLabel>
           <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="mist.brightness">
           <OfxPropLabel>亮度</OfxPropLabel>
@@ -42679,16 +42679,16 @@
           <OfxParamPropChoiceOption>变暗</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>更亮</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>更暗</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Scale相乘/正片叠底</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Scale滤色</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异X2</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异X4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缩放 相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缩放 屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值×2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值×4</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>硬光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>色相</OfxParamPropChoiceOption>
@@ -43566,7 +43566,7 @@
         <OfxParamTypeChoice name="blend">
           <OfxPropLabel>混合</OfxPropLabel>
           <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="brightness">
           <OfxPropLabel>亮度</OfxPropLabel>
@@ -44115,7 +44115,7 @@
           <OfxPropLabel>不透明度</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="_pc.matte.type">
-          <OfxPropLabel>遮罩类型</OfxPropLabel>
+          <OfxPropLabel>蒙版类型</OfxPropLabel>
           <OfxParamPropChoiceOption>色阶</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>阈值</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>范围</OfxParamPropChoiceOption>
@@ -44560,7 +44560,7 @@
         <OfxParamTypeChoice name="blendMode">
           <OfxPropLabel>混合</OfxPropLabel>
           <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="brightness">
           <OfxPropLabel>亮度</OfxPropLabel>
@@ -44977,7 +44977,7 @@
           <OfxPropLabel>Mocha 遮罩和跟踪</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypePushButton name="_pc.launchMocha">
-          <OfxPropLabel>Mocha 蒙版...</OfxPropLabel>
+          <OfxPropLabel>Mocha 遮罩...</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeGroup name="group._mocha.group._pc">
           <OfxPropLabel>像素选择器/Mocha</OfxPropLabel>
@@ -45598,16 +45598,16 @@
           <OfxParamPropChoiceOption>变暗</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异/差值</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>浅色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>深色</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Scale 正片叠底</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Scale 滤色</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差值 X2</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差值 X4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缩放 相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缩放 屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值×2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值×4</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>增加/加色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>硬光/强光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>色相</OfxParamPropChoiceOption>
@@ -47366,7 +47366,7 @@
           <OfxPropLabel>反转渐变</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.matte">
-          <OfxPropLabel>遮罩</OfxPropLabel>
+          <OfxPropLabel>蒙版</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeChoice name="_pc.matte.channel">
           <OfxPropLabel>通道</OfxPropLabel>
@@ -48250,18 +48250,18 @@
           <OfxParamPropChoiceOption>常规</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变亮</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变暗</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>更亮</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>更暗</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>缩放相乘</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>缩放屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异X2</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异X4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缩放 相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缩放 屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值×2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值×4</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>硬光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>色相</OfxParamPropChoiceOption>
@@ -48580,7 +48580,7 @@
         <OfxParamTypeChoice name="blend">
           <OfxPropLabel>混合</OfxPropLabel>
           <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="brightness">
           <OfxPropLabel>亮度</OfxPropLabel>
@@ -49228,18 +49228,18 @@
           <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变亮</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变暗</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>更亮</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>更暗</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>缩放相乘</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>缩放屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差值X2</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差值X4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缩放 相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缩放 屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值×2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值×4</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>硬光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>色调</OfxParamPropChoiceOption>
@@ -50740,7 +50740,7 @@
         <OfxParamTypeChoice name="blendMode">
           <OfxPropLabel>混合</OfxPropLabel>
           <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble2D name="position">
           <OfxPropLabel>位置</OfxPropLabel>
@@ -51186,7 +51186,7 @@
           <OfxPropLabel>反转渐变</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.matte">
-          <OfxPropLabel>遮罩</OfxPropLabel>
+          <OfxPropLabel>蒙版</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeChoice name="_pc.matte.channel">
           <OfxPropLabel>通道</OfxPropLabel>
@@ -52151,7 +52151,7 @@
         <OfxParamTypeChoice name="light.blendMode">
           <OfxPropLabel>混合</OfxPropLabel>
           <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="light.brightness">
           <OfxPropLabel>亮度</OfxPropLabel>
@@ -52376,9 +52376,9 @@
           <OfxParamPropChoiceOption>仅形状</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变暗</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变亮</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
@@ -54218,7 +54218,7 @@
           <OfxPropLabel>加载预设</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.mask">
-          <OfxPropLabel>蒙版</OfxPropLabel>
+          <OfxPropLabel>遮罩</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeChoice name="_pc.mask.shape">
           <OfxPropLabel>形状</OfxPropLabel>
@@ -54233,10 +54233,10 @@
           <OfxPropLabel>不透明度</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeBoolean name="_pc.mask.invert">
-          <OfxPropLabel>反转蒙版</OfxPropLabel>
+          <OfxPropLabel>反转遮罩</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeDouble name="_pc.mask.feather">
-          <OfxPropLabel>蒙版羽化</OfxPropLabel>
+          <OfxPropLabel>遮罩羽化</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="_pc.mask.roundness">
           <OfxPropLabel>圆度</OfxPropLabel>
@@ -54251,16 +54251,16 @@
           <OfxPropLabel>粗糙度种子</OfxPropLabel>
         </OfxParamTypeInteger>
         <OfxParamTypeChoice name="_pc.mask.hostMode">
-          <OfxPropLabel>使用 AE 主机蒙版</OfxPropLabel>
+          <OfxPropLabel>使用 AE 主机遮罩</OfxPropLabel>
           <OfxParamPropChoiceOption>使用全部</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>选择单个</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>按名称选择</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="_pc.mask.selectMask">
-          <OfxPropLabel>选择蒙版</OfxPropLabel>
+          <OfxPropLabel>选择遮罩</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="_pc.mask.name">
-          <OfxPropLabel>蒙版名称以</OfxPropLabel>
+          <OfxPropLabel>遮罩名称以</OfxPropLabel>
           <OfxParamPropChoiceOption>任何</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>A</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>B</OfxParamPropChoiceOption>
@@ -54271,22 +54271,22 @@
           <OfxParamPropChoiceOption>G</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>H</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>I</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>蒙版</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>遮罩</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble2D name="_pc.mask.center">
-          <OfxPropLabel>蒙版中心</OfxPropLabel>
+          <OfxPropLabel>遮罩中心</OfxPropLabel>
         </OfxParamTypeDouble2D>
         <OfxParamTypeDouble name="_pc.mask.rotation">
-          <OfxPropLabel>蒙版旋转</OfxPropLabel>
+          <OfxPropLabel>遮罩旋转</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="_pc.mask.scale">
-          <OfxPropLabel>缩放蒙版</OfxPropLabel>
+          <OfxPropLabel>缩放遮罩</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="_pc.mask.scaleX">
-          <OfxPropLabel>缩放蒙版 X</OfxPropLabel>
+          <OfxPropLabel>缩放遮罩 X</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="_pc.mask.scaleY">
-          <OfxPropLabel>缩放蒙版 Y</OfxPropLabel>
+          <OfxPropLabel>缩放遮罩 Y</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeBoolean name="_pc.mask.centerOnShape">
           <OfxPropLabel>居中形状</OfxPropLabel>
@@ -54827,18 +54827,18 @@
           <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变亮</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变暗</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>更亮</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>更暗</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>缩放相乘</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>缩放屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差值X2</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差值X4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缩放 相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缩放 屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值×2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值×4</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>硬光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>色调</OfxParamPropChoiceOption>
@@ -56390,7 +56390,7 @@
           <OfxParamPropChoiceOption>关</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>开</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>遮罩未选择像素</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>查看遮罩源</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>查看蒙版源</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeBoolean name="_pc.viewMaskMatte">
           <OfxPropLabel>查看遮罩/蒙版</OfxPropLabel>
@@ -56874,7 +56874,7 @@
           <OfxPropLabel>不透明度</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="_pc.matte.type">
-          <OfxPropLabel>遮罩类型</OfxPropLabel>
+          <OfxPropLabel>蒙版类型</OfxPropLabel>
           <OfxParamPropChoiceOption>色阶</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>阈值</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>范围</OfxParamPropChoiceOption>
@@ -57250,7 +57250,7 @@
         <OfxParamTypeChoice name="blendMode">
           <OfxPropLabel>混合</OfxPropLabel>
           <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="brightness">
           <OfxPropLabel>亮度</OfxPropLabel>
@@ -57968,7 +57968,7 @@
           <OfxPropLabel>遮罩旋转</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="_pc.mask.scale">
-          <OfxPropLabel>缩放蒙版</OfxPropLabel>
+          <OfxPropLabel>缩放遮罩</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="_pc.mask.scaleX">
           <OfxPropLabel>缩放遮罩 X</OfxPropLabel>
@@ -58910,7 +58910,7 @@
           <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>常规</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeInteger name="smoke.seed">
           <OfxPropLabel>随机种子</OfxPropLabel>
@@ -59016,13 +59016,13 @@
           <OfxParamPropChoiceOption>常规</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变亮</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变暗</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>比例相乘</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>比例屏幕</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>下方</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name=".mixWithOrig">
@@ -59427,16 +59427,16 @@
           <OfxParamPropChoiceOption>变暗</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异/差值</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>浅色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>深色</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Scale 正片叠底</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Scale 滤色</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差值 X2</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差值 X4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缩放 相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缩放 屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值×2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值×4</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>增加/加色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>硬光/强光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>色相</OfxParamPropChoiceOption>
@@ -59699,18 +59699,18 @@
           <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变亮</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变暗</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>更亮</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>更暗</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Scale相乘</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Scale屏幕</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异X2</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异X4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缩放 相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缩放 屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值×2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值×4</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>硬光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>色相</OfxParamPropChoiceOption>
@@ -63539,16 +63539,16 @@
           <OfxParamPropChoiceOption>变暗</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>更亮</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>更暗</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Scale相乘/正片叠底</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Scale滤色</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异X2</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差异X4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缩放 相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缩放 屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值×2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值×4</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>硬光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>色相</OfxParamPropChoiceOption>

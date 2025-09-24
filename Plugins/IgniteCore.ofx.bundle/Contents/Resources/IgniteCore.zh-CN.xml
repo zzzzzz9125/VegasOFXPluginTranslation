@@ -79,9 +79,9 @@
           <OfxParamPropChoiceOption>排除</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>硬光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变亮</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
@@ -264,8 +264,8 @@
           <OfxParamPropChoiceOption>排除</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>硬光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变亮</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
@@ -522,12 +522,12 @@
           <OfxParamPropChoiceOption>颜色加深</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>颜色减淡</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变暗</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差值/区别</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>排除</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>硬光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变亮</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>覆盖/叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
@@ -886,9 +886,9 @@
           <OfxParamPropChoiceOption>排除</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>硬光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变亮</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
@@ -2405,12 +2405,12 @@
           <OfxParamPropChoiceOption>颜色加深</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>颜色减淡</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变暗</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差值/区别</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>排除</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>硬光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变亮</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>覆盖/叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
@@ -2453,9 +2453,9 @@
           <OfxParamPropChoiceOption>排除</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>硬光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变亮</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
@@ -2646,9 +2646,9 @@
           <OfxParamPropChoiceOption>排除</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>硬光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变亮</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
@@ -3196,8 +3196,8 @@
           <OfxParamPropChoiceOption>排除</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>硬光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变亮</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
@@ -3311,9 +3311,9 @@
           <OfxParamPropChoiceOption>排除</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>硬光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变亮</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘(正片叠底)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕(滤色)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
@@ -3355,9 +3355,9 @@
           <OfxParamPropChoiceOption>排除</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>硬光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变亮</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
@@ -3579,12 +3579,12 @@
           <OfxParamPropChoiceOption>颜色加深</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>颜色减淡</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变暗</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差值/区别</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>排除</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>硬光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变亮</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>覆盖/叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
@@ -3702,9 +3702,9 @@
           <OfxParamPropChoiceOption>排除</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>硬光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变亮</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
@@ -3850,12 +3850,12 @@
           <OfxParamPropChoiceOption>颜色加深</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>颜色减淡</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变暗</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>差值/区别</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>差值</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>排除</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>硬光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变亮</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>覆盖/叠加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
@@ -4002,9 +4002,9 @@
           <OfxParamPropChoiceOption>排除</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>硬光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变亮</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
@@ -4386,9 +4386,9 @@
           <OfxParamPropChoiceOption>排除</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>硬光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变亮</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
@@ -4493,8 +4493,8 @@
           <OfxParamPropHint>扩展</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="spin">
-          <OfxPropLabel>旋转</OfxPropLabel>
-          <OfxParamPropHint>旋转</OfxParamPropHint>
+          <OfxPropLabel>自旋</OfxPropLabel>
+          <OfxParamPropHint>自旋</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="tansferMode">
           <OfxPropLabel>混合</OfxPropLabel>
@@ -4509,9 +4509,9 @@
           <OfxParamPropChoiceOption>排除</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>硬光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变亮</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
@@ -5691,9 +5691,9 @@
           <OfxParamPropChoiceOption>排除</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>硬光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变亮</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>相乘</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>叠加</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>屏幕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>柔光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
