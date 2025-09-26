@@ -6,9 +6,18 @@
       <OfxImageEffectPluginPropGrouping>Ignite - 渐变与填充</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>蓝天</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>蓝色三角形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>彩虹灯</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>日落</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeGroup name="Point 138">
-          <OfxPropLabel>点1</OfxPropLabel>
-          <OfxParamPropHint>点1</OfxParamPropHint>
+          <OfxPropLabel>点 1</OfxPropLabel>
+          <OfxParamPropHint>点 1</OfxParamPropHint>
         </OfxParamTypeGroup>
         <OfxParamTypeDouble2D name="point1">
           <OfxPropLabel>位置</OfxPropLabel>
@@ -19,8 +28,8 @@
           <OfxParamPropHint>颜色</OfxParamPropHint>
         </OfxParamTypeRGB>
         <OfxParamTypeGroup name="Point 239">
-          <OfxPropLabel>点2</OfxPropLabel>
-          <OfxParamPropHint>点2</OfxParamPropHint>
+          <OfxPropLabel>点 2</OfxPropLabel>
+          <OfxParamPropHint>点 2</OfxParamPropHint>
         </OfxParamTypeGroup>
         <OfxParamTypeDouble2D name="point2">
           <OfxPropLabel>位置</OfxPropLabel>
@@ -31,8 +40,8 @@
           <OfxParamPropHint>颜色</OfxParamPropHint>
         </OfxParamTypeRGB>
         <OfxParamTypeGroup name="Point 340">
-          <OfxPropLabel>点3</OfxPropLabel>
-          <OfxParamPropHint>点3</OfxParamPropHint>
+          <OfxPropLabel>点 3</OfxPropLabel>
+          <OfxParamPropHint>点 3</OfxParamPropHint>
         </OfxParamTypeGroup>
         <OfxParamTypeDouble2D name="point3">
           <OfxPropLabel>位置</OfxPropLabel>
@@ -43,8 +52,8 @@
           <OfxParamPropHint>颜色</OfxParamPropHint>
         </OfxParamTypeRGB>
         <OfxParamTypeGroup name="Point 441">
-          <OfxPropLabel>点4</OfxPropLabel>
-          <OfxParamPropHint>点4</OfxParamPropHint>
+          <OfxPropLabel>点 4</OfxPropLabel>
+          <OfxParamPropHint>点 4</OfxParamPropHint>
         </OfxParamTypeGroup>
         <OfxParamTypeDouble2D name="point4">
           <OfxPropLabel>位置</OfxPropLabel>
@@ -88,12 +97,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.AlphaBrightnessContrast">
+  <OfxPlugin name="com.FXHOME.HitFilm.AlphaBrightnessContrast">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Alpha 亮度和对比度</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 键控 - 蒙版增强</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="brightness">
           <OfxPropLabel>亮度</OfxPropLabel>
           <OfxParamPropHint>亮度</OfxParamPropHint>
@@ -105,129 +119,149 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.AutoColor">
+  <OfxPlugin name="com.FXHOME.HitFilm.AutoColor">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 自动颜色</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 颜色校正</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="threshold">
           <OfxPropLabel>阈值</OfxPropLabel>
           <OfxParamPropHint>阈值</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="blend">
-          <OfxPropLabel>与源画面混合</OfxPropLabel>
-          <OfxParamPropHint>与原画面混合</OfxParamPropHint>
+          <OfxPropLabel>与原图混合</OfxPropLabel>
+          <OfxParamPropHint>与原图混合</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeBoolean name="selectFrame">
           <OfxPropLabel>选择帧</OfxPropLabel>
           <OfxParamPropHint>选择帧</OfxParamPropHint>
         </OfxParamTypeBoolean>
         <OfxParamTypeInteger name="frameNumber">
-          <OfxPropLabel>帧数</OfxPropLabel>
-          <OfxParamPropHint>帧数</OfxParamPropHint>
+          <OfxPropLabel>帧号</OfxPropLabel>
+          <OfxParamPropHint>帧号</OfxParamPropHint>
         </OfxParamTypeInteger>
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.AutoContrast">
+  <OfxPlugin name="com.FXHOME.HitFilm.AutoContrast">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 自动对比度</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 颜色校正</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="threshold">
           <OfxPropLabel>阈值</OfxPropLabel>
           <OfxParamPropHint>阈值</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="blend">
-          <OfxPropLabel>与原画面混合</OfxPropLabel>
-          <OfxParamPropHint>与原画面混合</OfxParamPropHint>
+          <OfxPropLabel>与原图混合</OfxPropLabel>
+          <OfxParamPropHint>与原图混合</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeBoolean name="selectFrame">
           <OfxPropLabel>选择帧</OfxPropLabel>
           <OfxParamPropHint>选择帧</OfxParamPropHint>
         </OfxParamTypeBoolean>
         <OfxParamTypeInteger name="frameNumber">
-          <OfxPropLabel>帧数</OfxPropLabel>
-          <OfxParamPropHint>帧数</OfxParamPropHint>
+          <OfxPropLabel>帧号</OfxPropLabel>
+          <OfxParamPropHint>帧号</OfxParamPropHint>
         </OfxParamTypeInteger>
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.AutoLevels">
+  <OfxPlugin name="com.FXHOME.HitFilm.AutoLevels">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 自动色阶</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 颜色校正</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="threshold">
           <OfxPropLabel>阈值</OfxPropLabel>
           <OfxParamPropHint>阈值</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="blend">
-          <OfxPropLabel>与原画面混合</OfxPropLabel>
-          <OfxParamPropHint>与原画面混合</OfxParamPropHint>
+          <OfxPropLabel>与原图混合</OfxPropLabel>
+          <OfxParamPropHint>与原图混合</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeBoolean name="selectFrame">
           <OfxPropLabel>选择帧</OfxPropLabel>
           <OfxParamPropHint>选择帧</OfxParamPropHint>
         </OfxParamTypeBoolean>
         <OfxParamTypeInteger name="frameNumber">
-          <OfxPropLabel>帧数</OfxPropLabel>
-          <OfxParamPropHint>帧数</OfxParamPropHint>
+          <OfxPropLabel>帧号</OfxPropLabel>
+          <OfxParamPropHint>帧号</OfxParamPropHint>
         </OfxParamTypeInteger>
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.AutoLightFlares">
+  <OfxPlugin name="com.FXHOME.HitFilm.AutoLightFlares">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 自动光斑</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 灯光与耀斑</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeChoice name="flareType">
           <OfxPropLabel>光斑类型</OfxPropLabel>
           <OfxParamPropHint>光斑类型</OfxParamPropHint>
-          <OfxParamPropChoiceOption>105mm prime</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>35mm prime</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>50-300mm zoom</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Anamorphic enterprise</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Anamorphic halo</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Anamorphic spiked</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Anamorphic streak</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Chromatic arc</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Chromatic arc double</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Chromatic halo</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Chromatic hoop</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Diffraction chromatic</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Diffraction hoops</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Diffraction spike</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Diffraction streaks</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Digital Blocks</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Digital Stripe</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>DV camcorder</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Flashlight LED</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Flashlight white</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Flashlight beam</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Golden artifacts</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Green circles</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Hypnotic green</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>105mm 主镜头</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>35mm 主镜头</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>50-300mm 变焦</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>变形企业</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>变形光环</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>变形尖刺</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>变形条纹</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>色差弧</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>色差弧 双</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>色差光环</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>色差环</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>衍射色差</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>衍射环</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>衍射尖刺</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>衍射条纹</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>数字块</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>数字条纹</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>DV 摄像机</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>闪光灯 LED</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>闪光灯 白</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>闪光灯 光束</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>金色伪影</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>绿色圆圈</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>催眠绿色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>IMAX</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Laser dot</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Laser spike</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Lightsword clash blue</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Lightsword clash orange</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Microparticle streak</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Soft secondaries</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Soft spike</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Spiked orange</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Spiked star</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Spotlight hard</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Spotlight soft</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Sun glare</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Sun spike</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>White rays</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>激光点</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>激光尖刺</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>光剑碰撞 蓝</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>光剑碰撞 橙</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>微粒子条纹</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>柔和次级</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>柔和尖刺</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>尖刺橙</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>尖刺星</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>聚光灯 硬</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>聚光灯 软</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>太阳眩光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>太阳尖刺</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>白光射线</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeGroup name="Hotspot Generation47">
           <OfxPropLabel>热点生成</OfxPropLabel>
@@ -278,8 +312,8 @@
           <OfxParamPropHint>颜色</OfxParamPropHint>
         </OfxParamTypeRGB>
         <OfxParamTypeDouble name="gamma">
-          <OfxPropLabel>Gamma</OfxPropLabel>
-          <OfxParamPropHint>Gamma</OfxParamPropHint>
+          <OfxPropLabel>伽马</OfxPropLabel>
+          <OfxParamPropHint>伽马</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="saturation">
           <OfxPropLabel>饱和度</OfxPropLabel>
@@ -348,12 +382,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.AutomatedLightsaber">
+  <OfxPlugin name="com.FXHOME.HitFilm.AutomatedLightsaber">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 光剑 (2点 自动)</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 生成</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeGroup name="Hilt60">
           <OfxPropLabel>剑柄</OfxPropLabel>
           <OfxParamPropHint>剑柄</OfxParamPropHint>
@@ -379,8 +418,8 @@
           <OfxParamPropHint>宽度</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="extension">
-          <OfxPropLabel>扩展/延伸</OfxPropLabel>
-          <OfxParamPropHint>扩展/延伸</OfxParamPropHint>
+          <OfxPropLabel>延伸</OfxPropLabel>
+          <OfxParamPropHint>延伸</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeGroup name="Core62">
           <OfxPropLabel>核心</OfxPropLabel>
@@ -423,8 +462,8 @@
           <OfxParamPropHint>稳定性</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="innerGlowFlicker">
-          <OfxPropLabel>闪烁器</OfxPropLabel>
-          <OfxParamPropHint>闪烁器</OfxParamPropHint>
+          <OfxPropLabel>闪烁</OfxPropLabel>
+          <OfxParamPropHint>闪烁</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeGroup name="Outer Glow64">
           <OfxPropLabel>外发光</OfxPropLabel>
@@ -467,7 +506,7 @@
           <OfxParamPropHint>深度估计</OfxParamPropHint>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="useDepthEstimation">
-          <OfxPropLabel>运动估计</OfxPropLabel>
+          <OfxPropLabel>估计深度</OfxPropLabel>
           <OfxParamPropHint>估计深度</OfxParamPropHint>
         </OfxParamTypeBoolean>
         <OfxParamTypeDouble name="lightsaberDepthShift">
@@ -475,11 +514,11 @@
           <OfxParamPropHint>深度偏移</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeBoolean name="tipFlipEstimatedZ">
-          <OfxPropLabel>翻转估计</OfxPropLabel>
+          <OfxPropLabel>翻转 Z</OfxPropLabel>
           <OfxParamPropHint>翻转 Z</OfxParamPropHint>
         </OfxParamTypeBoolean>
         <OfxParamTypeString name="estimatedTipZValue">
-          <OfxPropLabel>Esimated Tip Z</OfxPropLabel>
+          <OfxPropLabel>估计剑尖 Z</OfxPropLabel>
         </OfxParamTypeString>
         <OfxParamTypeDouble name="motionPersistence">
           <OfxPropLabel>运动持久性</OfxPropLabel>
@@ -502,23 +541,23 @@
           <OfxParamPropHint>速度阈值</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="swingThreshold">
-          <OfxPropLabel>摇摆阈值</OfxPropLabel>
-          <OfxParamPropHint>摇摆阈值</OfxParamPropHint>
+          <OfxPropLabel>摆动阈值</OfxPropLabel>
+          <OfxParamPropHint>摆动阈值</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="motionPersistenceMinimum">
           <OfxPropLabel>最小持久性</OfxPropLabel>
           <OfxParamPropHint>最小持久性</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="distortionAmount">
-          <OfxPropLabel>失真/扭曲</OfxPropLabel>
-          <OfxParamPropHint>失真/扭曲</OfxParamPropHint>
+          <OfxPropLabel>扭曲</OfxPropLabel>
+          <OfxParamPropHint>扭曲</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="blendMode">
-          <OfxPropLabel>混合模式</OfxPropLabel>
+          <OfxPropLabel>混合</OfxPropLabel>
           <OfxParamPropHint>混合</OfxParamPropHint>
           <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>颜色加深</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>颜色减淡</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变暗</OfxParamPropChoiceOption>
@@ -535,12 +574,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.BezierWarp">
+  <OfxPlugin name="com.FXHOME.HitFilm.BezierWarp">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 贝塞尔曲线变形</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 变形</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeGroup name="Top Left72">
           <OfxPropLabel>左上</OfxPropLabel>
           <OfxParamPropHint>左上</OfxParamPropHint>
@@ -608,12 +652,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Bulge">
+  <OfxPlugin name="com.FXHOME.HitFilm.Bulge">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 膨胀/凸出</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 扭曲</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble2D name="center">
           <OfxPropLabel>中心</OfxPropLabel>
           <OfxParamPropHint>中心</OfxParamPropHint>
@@ -627,22 +676,22 @@
           <OfxParamPropHint>半径</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="taperRadius">
-          <OfxPropLabel>高原</OfxPropLabel>
-          <OfxParamPropHint>高原</OfxParamPropHint>
+          <OfxPropLabel>平台</OfxPropLabel>
+          <OfxParamPropHint>平台</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="wrap">
-          <OfxPropLabel>环绕</OfxPropLabel>
-          <OfxParamPropHint>环绕</OfxParamPropHint>
-          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxPropLabel>包裹</OfxPropLabel>
+          <OfxParamPropHint>包裹</OfxParamPropHint>
+          <OfxParamPropChoiceOption>否</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="irisShape">
           <OfxPropLabel>形状</OfxPropLabel>
           <OfxParamPropHint>形状</OfxParamPropHint>
-          <OfxParamPropChoiceOption>圆</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆形</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>三角形</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>正方形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>方形</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>五边形</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>六边形</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>七边形</OfxParamPropChoiceOption>
@@ -663,8 +712,8 @@
           <OfxParamPropHint>曲率</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="irisPinch">
-          <OfxPropLabel>收缩</OfxPropLabel>
-          <OfxParamPropHint>收缩</OfxParamPropHint>
+          <OfxPropLabel>捏合</OfxPropLabel>
+          <OfxParamPropHint>捏合</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="irisShift">
           <OfxPropLabel>偏移</OfxPropLabel>
@@ -685,12 +734,21 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Cartoon">
+  <OfxPlugin name="com.FXHOME.HitFilm.Cartoon">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 卡通</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 风格化</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>明亮且详细</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>线条艺术</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>霓虹</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>白线</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeGroup name="Edge82">
           <OfxPropLabel>边缘</OfxPropLabel>
           <OfxParamPropHint>边缘</OfxParamPropHint>
@@ -720,16 +778,16 @@
           <OfxParamPropHint>平滑源</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="posterize">
-          <OfxPropLabel>色调分离</OfxPropLabel>
-          <OfxParamPropHint>色调分离</OfxParamPropHint>
+          <OfxPropLabel>海报化</OfxPropLabel>
+          <OfxParamPropHint>海报化</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="smoothPosterize">
-          <OfxPropLabel>平滑色调分离</OfxPropLabel>
-          <OfxParamPropHint>平滑色调分离</OfxParamPropHint>
+          <OfxPropLabel>平滑海报化</OfxPropLabel>
+          <OfxParamPropHint>平滑海报化</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="posterizePhase">
-          <OfxPropLabel>色调分离相位</OfxPropLabel>
-          <OfxParamPropHint>色调分离相位</OfxParamPropHint>
+          <OfxPropLabel>海报化相位</OfxPropLabel>
+          <OfxParamPropHint>海报化相位</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="saturation">
           <OfxPropLabel>饱和度</OfxPropLabel>
@@ -742,12 +800,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.ChromaBlur">
+  <OfxPlugin name="com.FXHOME.HitFilm.ChromaBlur">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 色度UV模糊</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 键控</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeInteger name="radius">
           <OfxPropLabel>半径 (已弃用)</OfxPropLabel>
           <OfxParamPropHint>半径 (已弃用)</OfxParamPropHint>
@@ -766,7 +829,7 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Chromenator">
+  <OfxPlugin name="com.FXHOME.HitFilm.Chromenator">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 液态金属</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 扭曲</OfxImageEffectPluginPropGrouping>
@@ -776,6 +839,12 @@
           <OfxPropLabel>交换输入</OfxPropLabel>
           <OfxParamPropHint>交换输入</OfxParamPropHint>
         </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>雪地</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeChoice name="sourceChannel">
           <OfxPropLabel>通道</OfxPropLabel>
           <OfxParamPropHint>通道</OfxParamPropHint>
@@ -783,9 +852,9 @@
           <OfxParamPropChoiceOption>绿</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>蓝</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>Alpha</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Luminance亮度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>亮度</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>色相</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Lightness亮度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>亮度</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>饱和度</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>关</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
@@ -798,21 +867,26 @@
           <OfxParamPropHint>反射距离</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="wrapPixels">
-          <OfxPropLabel>环绕</OfxPropLabel>
-          <OfxParamPropHint>环绕</OfxParamPropHint>
-          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxPropLabel>包裹</OfxPropLabel>
+          <OfxParamPropHint>包裹</OfxParamPropHint>
+          <OfxParamPropChoiceOption>否</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.ColorDifferenceKey">
+  <OfxPlugin name="com.FXHOME.HitFilm.ColorDifferenceKey">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 颜色差异键</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 键控</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeChoice name="screenColor">
           <OfxPropLabel>屏幕颜色</OfxPropLabel>
           <OfxParamPropHint>屏幕颜色</OfxParamPropHint>
@@ -829,8 +903,8 @@
           <OfxParamPropHint>最大</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="gamma">
-          <OfxPropLabel>Gamma</OfxPropLabel>
-          <OfxParamPropHint>Gamma</OfxParamPropHint>
+          <OfxPropLabel>伽马</OfxPropLabel>
+          <OfxParamPropHint>伽马</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeBoolean name="viewMatte">
           <OfxPropLabel>查看蒙版</OfxPropLabel>
@@ -839,12 +913,32 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.ColorGradient">
+  <OfxPlugin name="com.FXHOME.HitFilm.ColorGradient">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 颜色渐变</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 渐变与填充</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>基本黑白水平</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>基本黑白垂直</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>蓝</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>明亮天空</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>棕色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>雾夜天空</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>绿</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>夜空</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>紫</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>红</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>分屏蒙版水平</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>分屏蒙版垂直</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>日落</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>水下</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>黄</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble2D name="startPoint">
           <OfxPropLabel>起始点</OfxPropLabel>
           <OfxParamPropHint>起始点</OfxParamPropHint>
@@ -895,12 +989,25 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.ColorTemperature">
+  <OfxPlugin name="com.FXHOME.HitFilm.ColorTemperature">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 色温</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 颜色校正</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>蓝天 (10000K)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>烛光 (1920K)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>多云 (6500)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>冷荧光 (4200K)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>日光 (5500)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>卤素 (3000K)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>白炽灯 (2700K)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>钨丝 (3400K)</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="temperatureShift">
           <OfxPropLabel>温度</OfxPropLabel>
           <OfxParamPropHint>温度</OfxParamPropHint>
@@ -908,12 +1015,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.CreditsTextCrawl">
+  <OfxPlugin name="com.FXHOME.HitFilm.CreditsTextCrawl">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 剧终鸣谢字幕</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 生成</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeGroup name="Text Format130">
           <OfxPropLabel>文本格式</OfxPropLabel>
           <OfxParamPropHint>文本格式</OfxParamPropHint>
@@ -1040,8 +1152,8 @@
           <OfxParamPropHint>列间隙</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="collumnMinimumWidth">
-          <OfxPropLabel>列名称宽度</OfxPropLabel>
-          <OfxParamPropHint>列名称宽度</OfxParamPropHint>
+          <OfxPropLabel>列名宽度</OfxPropLabel>
+          <OfxParamPropHint>列名宽度</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="textSpeed">
           <OfxPropLabel>速度</OfxPropLabel>
@@ -1444,12 +1556,23 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.CrushBlacksWhites">
+  <OfxPlugin name="com.FXHOME.HitFilm.CrushBlacksWhites">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 压缩黑色和白色</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 颜色校正</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>重</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>高对比度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>加强黑色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>轻</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>中</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>过曝</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="inputBlack">
           <OfxPropLabel>黑色</OfxPropLabel>
           <OfxParamPropHint>黑色</OfxParamPropHint>
@@ -1461,12 +1584,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.CrushBlacksWhitesAlpha">
+  <OfxPlugin name="com.FXHOME.HitFilm.CrushBlacksWhitesAlpha">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Alpha 压缩黑色和白色</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 键控 - 蒙版增强</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="inputBlack">
           <OfxPropLabel>透明</OfxPropLabel>
           <OfxParamPropHint>透明</OfxParamPropHint>
@@ -1478,12 +1606,20 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.DayForNight">
+  <OfxPlugin name="com.FXHOME.HitFilm.DayForNight">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 白天变黑夜</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 颜色分级</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>重蓝</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>自然光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>日出</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="horizon">
           <OfxPropLabel>地平线</OfxPropLabel>
           <OfxParamPropHint>地平线</OfxParamPropHint>
@@ -1493,12 +1629,12 @@
           <OfxParamPropHint>近</OfxParamPropHint>
         </OfxParamTypeGroup>
         <OfxParamTypeDouble name="redGamma">
-          <OfxPropLabel>红Gamma</OfxPropLabel>
-          <OfxParamPropHint>红Gamma</OfxParamPropHint>
+          <OfxPropLabel>红伽马</OfxPropLabel>
+          <OfxParamPropHint>红伽马</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="blueGamma">
-          <OfxPropLabel>蓝Gamma</OfxPropLabel>
-          <OfxParamPropHint>蓝Gamma</OfxParamPropHint>
+          <OfxPropLabel>蓝伽马</OfxPropLabel>
+          <OfxParamPropHint>蓝伽马</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="nearBrightness">
           <OfxPropLabel>亮度</OfxPropLabel>
@@ -1513,8 +1649,8 @@
           <OfxParamPropHint>远</OfxParamPropHint>
         </OfxParamTypeGroup>
         <OfxParamTypeDouble name="farGamma">
-          <OfxPropLabel>Gamma</OfxPropLabel>
-          <OfxParamPropHint>Gamma</OfxParamPropHint>
+          <OfxPropLabel>伽马</OfxPropLabel>
+          <OfxParamPropHint>伽马</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="farBrightness">
           <OfxPropLabel>亮度</OfxPropLabel>
@@ -1527,12 +1663,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Demult">
+  <OfxPlugin name="com.FXHOME.HitFilm.Demult">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 快速抠除黑色</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 键控</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeChoice name="alphaSource">
           <OfxPropLabel>Alpha 来自</OfxPropLabel>
           <OfxParamPropHint>Alpha 来自</OfxParamPropHint>
@@ -1543,7 +1684,7 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Derez">
+  <OfxPlugin name="com.FXHOME.HitFilm.Derez">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 击杀效果(游戏学院)</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 扭曲</OfxImageEffectPluginPropGrouping>
@@ -1553,6 +1694,11 @@
           <OfxPropLabel>交换输入</OfxPropLabel>
           <OfxParamPropHint>交换输入</OfxParamPropHint>
         </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeChoice name="view">
           <OfxPropLabel>查看</OfxPropLabel>
           <OfxParamPropHint>查看</OfxParamPropHint>
@@ -1570,12 +1716,12 @@
           <OfxParamPropHint>强度</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeInteger name="pixelSourceFrameShift">
-          <OfxPropLabel>源帧移位</OfxPropLabel>
-          <OfxParamPropHint>源帧移位</OfxParamPropHint>
+          <OfxPropLabel>源帧偏移</OfxPropLabel>
+          <OfxParamPropHint>源帧偏移</OfxParamPropHint>
         </OfxParamTypeInteger>
         <OfxParamTypeDouble name="pixelMaskErodeExpand">
-          <OfxPropLabel>蒙版侵蚀/扩展</OfxPropLabel>
-          <OfxParamPropHint>蒙版侵蚀/扩展</OfxParamPropHint>
+          <OfxPropLabel>遮罩腐蚀/扩展</OfxPropLabel>
+          <OfxParamPropHint>遮罩腐蚀/扩展</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="pixelHorizontalBlocks">
           <OfxPropLabel>水平块</OfxPropLabel>
@@ -1594,12 +1740,12 @@
           <OfxParamPropHint>强度</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeInteger name="waveyLnSourceFrameShift">
-          <OfxPropLabel>源帧移位</OfxPropLabel>
-          <OfxParamPropHint>源帧移位</OfxParamPropHint>
+          <OfxPropLabel>源帧偏移</OfxPropLabel>
+          <OfxParamPropHint>源帧偏移</OfxParamPropHint>
         </OfxParamTypeInteger>
         <OfxParamTypeGroup name="Lines14">
-          <OfxPropLabel>线条</OfxPropLabel>
-          <OfxParamPropHint>线条</OfxParamPropHint>
+          <OfxPropLabel>线</OfxPropLabel>
+          <OfxParamPropHint>线</OfxParamPropHint>
         </OfxParamTypeGroup>
         <OfxParamTypeDouble name="waveyLnFrequency">
           <OfxPropLabel>频率</OfxPropLabel>
@@ -1622,8 +1768,8 @@
           <OfxParamPropHint>颜色</OfxParamPropHint>
         </OfxParamTypeGroup>
         <OfxParamTypeGroup name="Master Controls16">
-          <OfxPropLabel>主控件</OfxPropLabel>
-          <OfxParamPropHint>主控件</OfxParamPropHint>
+          <OfxPropLabel>主控制</OfxPropLabel>
+          <OfxParamPropHint>主控制</OfxParamPropHint>
         </OfxParamTypeGroup>
         <OfxParamTypeDouble name="waveyLnSaturation">
           <OfxPropLabel>饱和度</OfxPropLabel>
@@ -1748,8 +1894,8 @@
           <OfxParamPropHint>强度</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeInteger name="horizLnSourceFrameShift">
-          <OfxPropLabel>源帧移位</OfxPropLabel>
-          <OfxParamPropHint>源帧移位</OfxParamPropHint>
+          <OfxPropLabel>源帧偏移</OfxPropLabel>
+          <OfxParamPropHint>源帧偏移</OfxParamPropHint>
         </OfxParamTypeInteger>
         <OfxParamTypeGroup name="Inverted Lines22">
           <OfxPropLabel>反转线</OfxPropLabel>
@@ -1794,7 +1940,7 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.DifferenceKey">
+  <OfxPlugin name="com.FXHOME.HitFilm.DifferenceKey">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 差异键</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 键控</OfxImageEffectPluginPropGrouping>
@@ -1804,6 +1950,11 @@
           <OfxPropLabel>交换输入</OfxPropLabel>
           <OfxParamPropHint>交换输入</OfxParamPropHint>
         </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="comparisonBlur">
           <OfxPropLabel>模糊比较</OfxPropLabel>
           <OfxParamPropHint>模糊比较</OfxParamPropHint>
@@ -1819,12 +1970,20 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Diffuse">
+  <OfxPlugin name="com.FXHOME.HitFilm.Diffuse">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 扩散/柔焦</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 模糊</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>重</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>柔化</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>细微</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeInteger name="radius">
           <OfxPropLabel>半径 (已弃用)</OfxPropLabel>
           <OfxParamPropHint>半径 (已弃用)</OfxParamPropHint>
@@ -1840,12 +1999,19 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.DimensionRift">
+  <OfxPlugin name="com.FXHOME.HitFilm.DimensionRift">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 次元裂缝/时空门</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 生成</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>火球</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>神秘球</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeGroup name="Shape270">
           <OfxPropLabel>形状</OfxPropLabel>
           <OfxParamPropHint>形状</OfxParamPropHint>
@@ -1867,8 +2033,8 @@
           <OfxParamPropHint>锚点</OfxParamPropHint>
         </OfxParamTypeDouble2D>
         <OfxParamTypeDouble name="portalRoundness">
-          <OfxPropLabel>门户圆度</OfxPropLabel>
-          <OfxParamPropHint>门户圆度</OfxParamPropHint>
+          <OfxPropLabel>传送门圆度</OfxPropLabel>
+          <OfxParamPropHint>传送门圆度</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeGroup name="Appearance271">
           <OfxPropLabel>外观</OfxPropLabel>
@@ -1931,20 +2097,20 @@
           <OfxParamPropHint>火花</OfxParamPropHint>
         </OfxParamTypeBoolean>
         <OfxParamTypeBoolean name="enableSecondaryPortal">
-          <OfxPropLabel>次要门户</OfxPropLabel>
-          <OfxParamPropHint>次要门户</OfxParamPropHint>
+          <OfxPropLabel>次级传送门</OfxPropLabel>
+          <OfxParamPropHint>次级传送门</OfxParamPropHint>
         </OfxParamTypeBoolean>
         <OfxParamTypeBoolean name="enableSecondaryPortalSparks">
-          <OfxPropLabel>次要火花</OfxPropLabel>
-          <OfxParamPropHint>次要火花</OfxParamPropHint>
+          <OfxPropLabel>次级火花</OfxPropLabel>
+          <OfxParamPropHint>次级火花</OfxParamPropHint>
         </OfxParamTypeBoolean>
         <OfxParamTypeRGB name="primaryPortalColor">
           <OfxPropLabel>主要颜色</OfxPropLabel>
           <OfxParamPropHint>主要颜色</OfxParamPropHint>
         </OfxParamTypeRGB>
         <OfxParamTypeRGB name="secondaryPortalColor">
-          <OfxPropLabel>次要颜色</OfxPropLabel>
-          <OfxParamPropHint>次要颜色</OfxParamPropHint>
+          <OfxPropLabel>次级颜色</OfxPropLabel>
+          <OfxParamPropHint>次级颜色</OfxParamPropHint>
         </OfxParamTypeRGB>
         <OfxParamTypeDouble name="portalExpansion">
           <OfxPropLabel>扩展</OfxPropLabel>
@@ -1957,7 +2123,7 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.DisplacementMap">
+  <OfxPlugin name="com.FXHOME.HitFilm.DisplacementMap">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 置换贴图</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 扭曲</OfxImageEffectPluginPropGrouping>
@@ -1967,6 +2133,11 @@
           <OfxPropLabel>交换输入</OfxPropLabel>
           <OfxParamPropHint>交换输入</OfxParamPropHint>
         </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeChoice name="horizontalDisplacement">
           <OfxPropLabel>水平置换</OfxPropLabel>
           <OfxParamPropHint>水平置换</OfxParamPropHint>
@@ -2004,19 +2175,33 @@
         <OfxParamTypeChoice name="wrapPixels">
           <OfxPropLabel>包裹像素</OfxPropLabel>
           <OfxParamPropHint>包裹像素</OfxParamPropHint>
-          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>否</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.DropShadow">
+  <OfxPlugin name="com.FXHOME.HitFilm.DropShadow">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 文字Logo下拉阴影</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 生成</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>大光环</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深左下</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深右下</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>微弱</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>硬轮廓</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>严苛</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>下方光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>外发光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>柔和轮廓</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="angle">
           <OfxPropLabel>角度</OfxPropLabel>
           <OfxParamPropHint>角度</OfxParamPropHint>
@@ -2060,12 +2245,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Emboss">
+  <OfxPlugin name="com.FXHOME.HitFilm.Emboss">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 浮雕</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 风格化</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="direction">
           <OfxPropLabel>方向</OfxPropLabel>
           <OfxParamPropHint>方向</OfxParamPropHint>
@@ -2085,12 +2275,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.EnvironmentMapTransform">
+  <OfxPlugin name="com.FXHOME.HitFilm.EnvironmentMapTransform">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 360视频变换</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 360 视频</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="envTrasnformXRot">
           <OfxPropLabel>X 旋转</OfxPropLabel>
           <OfxParamPropHint>X 旋转</OfxParamPropHint>
@@ -2116,31 +2311,36 @@
           <OfxParamPropHint>缩放比例</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="envWrapX">
-          <OfxPropLabel>环绕 X</OfxPropLabel>
-          <OfxParamPropHint>环绕 X</OfxParamPropHint>
-          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxPropLabel>包裹 X</OfxPropLabel>
+          <OfxParamPropHint>包裹 X</OfxParamPropHint>
+          <OfxParamPropChoiceOption>否</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="envWrapY">
-          <OfxPropLabel>环绕 Y</OfxPropLabel>
-          <OfxParamPropHint>环绕 Y</OfxParamPropHint>
-          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxPropLabel>包裹 Y</OfxPropLabel>
+          <OfxParamPropHint>包裹 Y</OfxParamPropHint>
+          <OfxParamPropChoiceOption>否</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.ErodeWhite">
+  <OfxPlugin name="com.FXHOME.HitFilm.ErodeWhite">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 侵蚀白色(不透明区)</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 键控 - 蒙版增强</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="choke">
-          <OfxPropLabel>抑制</OfxPropLabel>
-          <OfxParamPropHint>抑制</OfxParamPropHint>
+          <OfxPropLabel>收缩</OfxPropLabel>
+          <OfxParamPropHint>收缩</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeBoolean name="viewMatte">
           <OfxPropLabel>查看蒙版</OfxPropLabel>
@@ -2149,12 +2349,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.FindEdges">
+  <OfxPlugin name="com.FXHOME.HitFilm.FindEdges">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 查找边缘</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 风格化</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeBoolean name="isInverted">
           <OfxPropLabel>反转</OfxPropLabel>
           <OfxParamPropHint>反转</OfxParamPropHint>
@@ -2162,12 +2367,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.FisheyeWarp">
+  <OfxPlugin name="com.FXHOME.HitFilm.FisheyeWarp">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 球面/鱼眼变形</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 变形</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble2D name="center">
           <OfxPropLabel>中心</OfxPropLabel>
           <OfxParamPropHint>中心</OfxParamPropHint>
@@ -2193,38 +2403,43 @@
           <OfxParamPropHint>偏移纹理 Y</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="wrapX">
-          <OfxPropLabel>环绕 X</OfxPropLabel>
-          <OfxParamPropHint>环绕 X</OfxParamPropHint>
-          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxPropLabel>包裹 X</OfxPropLabel>
+          <OfxParamPropHint>包裹 X</OfxParamPropHint>
+          <OfxParamPropChoiceOption>否</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="wrapY">
-          <OfxPropLabel>环绕 Y</OfxPropLabel>
-          <OfxParamPropHint>环绕 Y</OfxParamPropHint>
-          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxPropLabel>包裹 Y</OfxPropLabel>
+          <OfxParamPropHint>包裹 Y</OfxParamPropHint>
+          <OfxParamPropChoiceOption>否</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.FisheyeWarp2">
+  <OfxPlugin name="com.FXHOME.HitFilm.FisheyeWarp2">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 运动相机镜头变形</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 变形</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeChoice name="preset">
           <OfxPropLabel>预设</OfxPropLabel>
           <OfxParamPropHint>预设</OfxParamPropHint>
           <OfxParamPropChoiceOption>-</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>GoPro HERO3+/4 Wide 16x9</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>GoPro HERO3+/4 Wide 4x3</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>GoPro HERO3+/4 Medium</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>GoPro HERO3+/4 Medium 2.7k</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>GoPro HERO3+/4 Narrow</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>GoPro HERO Wide</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>GoPro HERO3+/4 宽 16x9</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>GoPro HERO3+/4 宽 4x3</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>GoPro HERO3+/4 中</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>GoPro HERO3+/4 中 2.7k</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>GoPro HERO3+/4 窄</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>GoPro HERO 宽</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="fov">
           <OfxPropLabel>视场</OfxPropLabel>
@@ -2246,8 +2461,8 @@
           <OfxParamPropChoiceOption>宽度</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="wrap">
-          <OfxPropLabel>环绕</OfxPropLabel>
-          <OfxParamPropHint>环绕</OfxParamPropHint>
+          <OfxPropLabel>包裹</OfxPropLabel>
+          <OfxParamPropHint>包裹</OfxParamPropHint>
           <OfxParamPropChoiceOption>关</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
@@ -2256,53 +2471,53 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.FractalNoise">
+  <OfxPlugin name="com.FXHOME.HitFilm.FractalNoise">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 分形噪波</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 生成</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeChoice name="pluginPreset">
-          <OfxPropLabel>预设</OfxPropLabel>
+          <OfxPropLabel />
           <OfxParamPropHint />
           <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>大气 雾</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>冷却的岩浆</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>漂移的云</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>大气雾</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>冷却熔岩</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>漂移云</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>绿色大理石</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>玉石</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>玉</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>矩阵</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>马赛克</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>太阳</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>星空</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>电视雪花</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>液体</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>星场</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>电视静态 (动画)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>水状</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="seed">
-          <OfxPropLabel>随机种子</OfxPropLabel>
+          <OfxPropLabel>种子</OfxPropLabel>
           <OfxParamPropHint>种子</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="fractalType">
           <OfxPropLabel>类型</OfxPropLabel>
           <OfxParamPropHint>类型</OfxParamPropHint>
-          <OfxParamPropChoiceOption>滴状/团状</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>斑点</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>云</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>彩色的云</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>彩色云</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>浮雕</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>大理石</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>旋涡状</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Whisp(细腻,高对比度)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>木材</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>漩涡</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>缕</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>木</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>能量</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>液体</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>烟雾</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>流体</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>烟</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="fractalInterpolation">
           <OfxPropLabel>插值</OfxPropLabel>
           <OfxParamPropHint>插值</OfxParamPropHint>
-          <OfxParamPropChoiceOption>块状</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>块</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>线性</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>立方体</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>立方</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeGroup name="Transform185">
           <OfxPropLabel>变换</OfxPropLabel>
@@ -2337,8 +2552,8 @@
           <OfxParamPropHint>子设置</OfxParamPropHint>
         </OfxParamTypeGroup>
         <OfxParamTypeInteger name="sub_levels">
-          <OfxPropLabel>子噪波数量</OfxPropLabel>
-          <OfxParamPropHint>子噪波数量</OfxParamPropHint>
+          <OfxPropLabel>子级别</OfxPropLabel>
+          <OfxParamPropHint>子级别</OfxParamPropHint>
         </OfxParamTypeInteger>
         <OfxParamTypeDouble name="sub_influence">
           <OfxPropLabel>影响</OfxPropLabel>
@@ -2357,8 +2572,8 @@
           <OfxParamPropHint>偏移</OfxParamPropHint>
         </OfxParamTypeDouble2D>
         <OfxParamTypeBoolean name="sub_center">
-          <OfxPropLabel>对齐子噪波</OfxPropLabel>
-          <OfxParamPropHint>对齐子噪波</OfxParamPropHint>
+          <OfxPropLabel>中心子缩放</OfxPropLabel>
+          <OfxParamPropHint>中心子缩放</OfxParamPropHint>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="Appearance188">
           <OfxPropLabel>外观</OfxPropLabel>
@@ -2393,15 +2608,15 @@
           <OfxParamPropHint>曝光</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="offset">
-          <OfxPropLabel>补偿</OfxPropLabel>
-          <OfxParamPropHint>补偿</OfxParamPropHint>
+          <OfxPropLabel>偏移</OfxPropLabel>
+          <OfxParamPropHint>偏移</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="blendType">
-          <OfxPropLabel>混合模式</OfxPropLabel>
+          <OfxPropLabel>混合</OfxPropLabel>
           <OfxParamPropHint>混合</OfxParamPropHint>
           <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>颜色加深</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>颜色减淡</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变暗</OfxParamPropChoiceOption>
@@ -2418,12 +2633,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Glow">
+  <OfxPlugin name="com.FXHOME.HitFilm.Glow">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 发光</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 灯光与耀斑</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="intensity">
           <OfxPropLabel>强度</OfxPropLabel>
           <OfxParamPropHint>强度</OfxParamPropHint>
@@ -2511,8 +2731,8 @@
           <OfxParamPropHint>颜色 B</OfxParamPropHint>
         </OfxParamTypeRGB>
         <OfxParamTypeDouble name="ABMidpoint">
-          <OfxPropLabel>A 和 B 中点</OfxPropLabel>
-          <OfxParamPropHint>A 和 B 中点</OfxParamPropHint>
+          <OfxPropLabel>A &amp; B 中点</OfxPropLabel>
+          <OfxParamPropHint>A &amp; B 中点</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="colorPhase">
           <OfxPropLabel>颜色相位</OfxPropLabel>
@@ -2521,12 +2741,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.GlowDarks">
+  <OfxPlugin name="com.FXHOME.HitFilm.GlowDarks">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 黑色发光</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 风格化</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="intensity">
           <OfxPropLabel>强度</OfxPropLabel>
           <OfxParamPropHint>强度</OfxParamPropHint>
@@ -2569,12 +2794,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Grain">
+  <OfxPlugin name="com.FXHOME.HitFilm.Grain">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 颗粒</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 杂乱</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="amount">
           <OfxPropLabel>量</OfxPropLabel>
           <OfxParamPropHint>量</OfxParamPropHint>
@@ -2594,19 +2824,28 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Grid">
+  <OfxPlugin name="com.FXHOME.HitFilm.Grid">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 网格</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 生成</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>块</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>四分网格</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>三分网格</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>标题安全边界</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble2D name="point1">
-          <OfxPropLabel>点1</OfxPropLabel>
-          <OfxParamPropHint>点1</OfxParamPropHint>
+          <OfxPropLabel>点 1</OfxPropLabel>
+          <OfxParamPropHint>点 1</OfxParamPropHint>
         </OfxParamTypeDouble2D>
         <OfxParamTypeDouble2D name="point2">
-          <OfxPropLabel>点2</OfxPropLabel>
-          <OfxParamPropHint>点2</OfxParamPropHint>
+          <OfxPropLabel>点 2</OfxPropLabel>
+          <OfxParamPropHint>点 2</OfxParamPropHint>
         </OfxParamTypeDouble2D>
         <OfxParamTypeDouble name="borderSize">
           <OfxPropLabel>边框半径</OfxPropLabel>
@@ -2655,12 +2894,24 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.HalfTone">
+  <OfxPlugin name="com.FXHOME.HitFilm.HalfTone">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 圆点半色调</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 杂乱</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>超细</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>褪色新闻印刷</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>细</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>重</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>负片</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>旧新闻</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>标准</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeInteger name="resolution">
           <OfxPropLabel>分辨率</OfxPropLabel>
           <OfxParamPropHint>分辨率</OfxParamPropHint>
@@ -2704,19 +2955,24 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.HeatDistortion">
+  <OfxPlugin name="com.FXHOME.HitFilm.HeatDistortion">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 高温扭曲</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 扭曲</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="noise_scale">
           <OfxPropLabel>缩放</OfxPropLabel>
           <OfxParamPropHint>缩放</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="distortion">
-          <OfxPropLabel>失真/扭曲</OfxPropLabel>
-          <OfxParamPropHint>失真/扭曲</OfxParamPropHint>
+          <OfxPropLabel>扭曲</OfxPropLabel>
+          <OfxParamPropHint>扭曲</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="diffusionBias">
           <OfxPropLabel>扩散偏差</OfxPropLabel>
@@ -2747,15 +3003,15 @@
           <OfxParamPropHint>噪波</OfxParamPropHint>
         </OfxParamTypeGroup>
         <OfxParamTypeDouble name="noise_seed">
-          <OfxPropLabel>随机种子</OfxPropLabel>
+          <OfxPropLabel>种子</OfxPropLabel>
           <OfxParamPropHint>种子</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="noise_Interpolation">
           <OfxPropLabel>插值</OfxPropLabel>
           <OfxParamPropHint>插值</OfxParamPropHint>
+          <OfxParamPropChoiceOption>块</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>线性</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>立方体</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>立方体</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>立方</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeGroup name="Transform206">
           <OfxPropLabel>变换</OfxPropLabel>
@@ -2774,11 +3030,11 @@
           <OfxParamPropHint>轴缩放</OfxParamPropHint>
         </OfxParamTypeGroup>
         <OfxParamTypeDouble name="noise_xAxisScale">
-          <OfxPropLabel>X轴</OfxPropLabel>
+          <OfxPropLabel>X</OfxPropLabel>
           <OfxParamPropHint>X</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="noise_yAxisScale">
-          <OfxPropLabel>Y轴</OfxPropLabel>
+          <OfxPropLabel>Y</OfxPropLabel>
           <OfxParamPropHint>Y</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeGroup name="Sub Settings208">
@@ -2786,8 +3042,8 @@
           <OfxParamPropHint>子设置</OfxParamPropHint>
         </OfxParamTypeGroup>
         <OfxParamTypeInteger name="noise_sub_levels">
-          <OfxPropLabel>子噪波数量</OfxPropLabel>
-          <OfxParamPropHint>子噪波数量</OfxParamPropHint>
+          <OfxPropLabel>子级别</OfxPropLabel>
+          <OfxParamPropHint>子级别</OfxParamPropHint>
         </OfxParamTypeInteger>
         <OfxParamTypeDouble name="noise_sub_influence">
           <OfxPropLabel>影响</OfxPropLabel>
@@ -2806,18 +3062,23 @@
           <OfxParamPropHint>偏移</OfxParamPropHint>
         </OfxParamTypeDouble2D>
         <OfxParamTypeBoolean name="noise_sub_center">
-          <OfxPropLabel>对齐子噪波</OfxPropLabel>
-          <OfxParamPropHint>对齐子噪波</OfxParamPropHint>
+          <OfxPropLabel>中心子缩放</OfxPropLabel>
+          <OfxParamPropHint>中心子缩放</OfxParamPropHint>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Hotspots">
+  <OfxPlugin name="com.FXHOME.HitFilm.Hotspots">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 热点/明亮区域</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 颜色校正</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="threshold">
           <OfxPropLabel>阈值</OfxPropLabel>
           <OfxParamPropHint>阈值</OfxParamPropHint>
@@ -2845,12 +3106,24 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.HueColorize">
+  <OfxPlugin name="com.FXHOME.HitFilm.HueColorize">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 色相着色</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 颜色分级</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>蓝</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>青</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>绿</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>品红</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>橙</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>红</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>黄</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="hue">
           <OfxPropLabel>色相</OfxPropLabel>
           <OfxParamPropHint>色相</OfxParamPropHint>
@@ -2870,19 +3143,24 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.HueKey">
+  <OfxPlugin name="com.FXHOME.HitFilm.HueKey">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 色相和RGB键</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 键控</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeRGB name="leaveColor">
           <OfxPropLabel>颜色</OfxPropLabel>
           <OfxParamPropHint>颜色</OfxParamPropHint>
         </OfxParamTypeRGB>
         <OfxParamTypeDouble name="tolerance">
-          <OfxPropLabel>容忍度</OfxPropLabel>
-          <OfxParamPropHint>容忍度</OfxParamPropHint>
+          <OfxPropLabel>容差</OfxPropLabel>
+          <OfxParamPropHint>容差</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="edgeSoftness">
           <OfxPropLabel>边缘柔和度</OfxPropLabel>
@@ -2905,12 +3183,23 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.HueShift">
+  <OfxPlugin name="com.FXHOME.HitFilm.HueShift">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 色相偏移</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 颜色分级</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>60 黄</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>120 绿</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>180 青</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>240 蓝</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>310 品红</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>派对狂欢 (动画)</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="shift">
           <OfxPropLabel>色相偏移</OfxPropLabel>
           <OfxParamPropHint>色相偏移</OfxParamPropHint>
@@ -2926,12 +3215,18 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.InsectVision">
+  <OfxPlugin name="com.FXHOME.HitFilm.InsectVision">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 昆虫视觉</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 扭曲</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>六边形</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble2D name="center">
           <OfxPropLabel>中心</OfxPropLabel>
           <OfxParamPropHint>中心</OfxParamPropHint>
@@ -2953,29 +3248,40 @@
           <OfxParamPropHint>虹膜凸出</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="wrap">
-          <OfxPropLabel>环绕</OfxPropLabel>
-          <OfxParamPropHint>环绕</OfxParamPropHint>
-          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxPropLabel>包裹</OfxPropLabel>
+          <OfxParamPropHint>包裹</OfxParamPropHint>
+          <OfxParamPropChoiceOption>否</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.InvertAlpha">
+  <OfxPlugin name="com.FXHOME.HitFilm.InvertAlpha">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 反转Alpha</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 键控 - 蒙版增强</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
-      <OfxImageEffectContext name="default" />
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+      </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Jitter">
+  <OfxPlugin name="com.FXHOME.HitFilm.Jitter">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 帧跳动/跳帧</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 杂乱</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeInteger name="frameGroup">
           <OfxPropLabel>帧组大小</OfxPropLabel>
           <OfxParamPropHint>帧组大小</OfxParamPropHint>
@@ -2991,12 +3297,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.LensBlur">
+  <OfxPlugin name="com.FXHOME.HitFilm.LensBlur">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 镜头模糊</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 模糊</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeChoice name="sourceChannel">
           <OfxPropLabel>源通道</OfxPropLabel>
           <OfxParamPropHint>源通道</OfxParamPropHint>
@@ -3046,14 +3357,14 @@
           <OfxPropLabel>形状</OfxPropLabel>
           <OfxParamPropHint>形状</OfxParamPropHint>
           <OfxParamPropChoiceOption>三角形</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>正方形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>方形</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>五边形</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>六边形</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>七边形</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>八边形</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>九边形</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>十边形</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>快速正方形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>快速方形</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="irisRotation">
           <OfxPropLabel>旋转</OfxPropLabel>
@@ -3064,8 +3375,8 @@
           <OfxParamPropHint>曲率</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="irisPinch">
-          <OfxPropLabel>收缩</OfxPropLabel>
-          <OfxParamPropHint>收缩</OfxParamPropHint>
+          <OfxPropLabel>捏合</OfxPropLabel>
+          <OfxParamPropHint>捏合</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="irisShift">
           <OfxPropLabel>偏移</OfxPropLabel>
@@ -3086,12 +3397,31 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Letterbox">
+  <OfxPlugin name="com.FXHOME.HitFilm.Letterbox">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 宽屏黑条</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 生成</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1:1 (方形)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1.43:1 (IMAX 胶片全帧)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1.85:1 (宽屏电影)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>2:35:1 (宽屏电影)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>2.39:1 (宽屏电影)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>2.76:1 (超宽屏)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>3:2 (35mm 全帧)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>4:3 (SD TV)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>5:3 (超级16mm 全帧)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>5:4 (早期 TV)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>6:5: (电影音) 胶片</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>11:8 (学院标准胶片)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>16:9 (HD 视频)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>16:10 (宽屏显示器)</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeRGB name="barColor">
           <OfxPropLabel>颜色</OfxPropLabel>
           <OfxParamPropHint>颜色</OfxParamPropHint>
@@ -3100,7 +3430,7 @@
           <OfxPropLabel>宽高比</OfxPropLabel>
           <OfxParamPropHint>宽高比</OfxParamPropHint>
           <OfxParamPropChoiceOption>自定义 (比例)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>自定义 (宽:高)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>自定义 (w:h)</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>4:3</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>16:9</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>2.35:1</OfxParamPropChoiceOption>
@@ -3120,54 +3450,59 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.LightFlares">
+  <OfxPlugin name="com.FXHOME.HitFilm.LightFlares">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 光斑</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 灯光与耀斑</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeChoice name="flareType">
           <OfxPropLabel>光斑类型</OfxPropLabel>
           <OfxParamPropHint>光斑类型</OfxParamPropHint>
-          <OfxParamPropChoiceOption>105mm prime</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>35mm prime</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>50-300mm zoom</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Anamorphic enterprise</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Anamorphic halo</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Anamorphic spiked</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Anamorphic streak</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Chromatic arc</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Chromatic arc double</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Chromatic halo</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Chromatic hoop</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Diffraction chromatic</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Diffraction hoops</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Diffraction spike</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Diffraction streaks</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Digital Blocks</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Digital Stripe</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>DV camcorder</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Flashlight LED</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Flashlight white</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Flashlight beam</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Golden artifacts</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Green circles</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Hypnotic green</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>105mm 主镜头</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>35mm 主镜头</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>50-300mm 变焦</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>变形企业</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>变形光环</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>变形尖刺</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>变形条纹</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>色差弧</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>色差弧 双</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>色差光环</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>色差环</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>衍射色差</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>衍射环</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>衍射尖刺</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>衍射条纹</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>数字块</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>数字条纹</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>DV 摄像机</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>闪光灯 LED</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>闪光灯 白</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>闪光灯 光束</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>金色伪影</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>绿色圆圈</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>催眠绿色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>IMAX</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Laser dot</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Laser spike</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Lightsword clash blue</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Lightsword clash orange</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Microparticle streak</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Soft secondaries</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Soft spike</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Spiked orange</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Spiked star</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Spotlight hard</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Spotlight soft</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Sun glare</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Sun spike</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>White rays</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>激光点</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>激光尖刺</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>光剑碰撞 蓝</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>光剑碰撞 橙</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>微粒子条纹</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>柔和次级</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>柔和尖刺</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>尖刺橙</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>尖刺星</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>聚光灯 硬</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>聚光灯 软</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>太阳眩光</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>太阳尖刺</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>白光射线</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble2D name="lightPosition">
           <OfxPropLabel>热点位置</OfxPropLabel>
@@ -3210,8 +3545,8 @@
           <OfxParamPropHint>颜色</OfxParamPropHint>
         </OfxParamTypeRGB>
         <OfxParamTypeDouble name="gamma">
-          <OfxPropLabel>Gamma</OfxPropLabel>
-          <OfxParamPropHint>Gamma</OfxParamPropHint>
+          <OfxPropLabel>伽马</OfxPropLabel>
+          <OfxParamPropHint>伽马</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="saturation">
           <OfxPropLabel>饱和度</OfxPropLabel>
@@ -3280,7 +3615,7 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.LightWrap">
+  <OfxPlugin name="com.FXHOME.HitFilm.LightWrap">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 灯光渗出</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 键控 - 蒙版增强</OfxImageEffectPluginPropGrouping>
@@ -3290,6 +3625,11 @@
           <OfxPropLabel>交换输入</OfxPropLabel>
           <OfxParamPropHint>交换输入</OfxParamPropHint>
         </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="radius">
           <OfxPropLabel>半径</OfxPropLabel>
           <OfxParamPropHint>半径</OfxParamPropHint>
@@ -3299,7 +3639,7 @@
           <OfxParamPropHint>不透明度</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="blendType">
-          <OfxPropLabel>混合模式</OfxPropLabel>
+          <OfxPropLabel>混合</OfxPropLabel>
           <OfxParamPropHint>混合</OfxParamPropHint>
           <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
@@ -3320,27 +3660,38 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Lightning">
+  <OfxPlugin name="com.FXHOME.HitFilm.Lightning">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 闪电</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 粒子与仿真</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>远处闪电 (动画)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>力量闪电</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>雅各布阶梯 (动画)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>闪电打击 (动画)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>电力耦合</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>点闪电</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeInteger name="seed">
           <OfxPropLabel>种子</OfxPropLabel>
           <OfxParamPropHint>种子</OfxParamPropHint>
         </OfxParamTypeInteger>
         <OfxParamTypeInteger name="trunks">
-          <OfxPropLabel>树干</OfxPropLabel>
-          <OfxParamPropHint>树干</OfxParamPropHint>
+          <OfxPropLabel>主干</OfxPropLabel>
+          <OfxParamPropHint>主干</OfxParamPropHint>
         </OfxParamTypeInteger>
         <OfxParamTypeDouble name="waveScale">
           <OfxPropLabel>波缩放</OfxPropLabel>
           <OfxParamPropHint>波缩放</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="twitchScale">
-          <OfxPropLabel>抽动缩放</OfxPropLabel>
-          <OfxParamPropHint>抽动缩放</OfxParamPropHint>
+          <OfxPropLabel>抖动缩放</OfxPropLabel>
+          <OfxParamPropHint>抖动缩放</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="blendType">
           <OfxPropLabel>混合</OfxPropLabel>
@@ -3520,12 +3871,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.LightsaberGlow">
+  <OfxPlugin name="com.FXHOME.HitFilm.LightsaberGlow">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 光剑 (仅发光)</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 生成</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeGroup name="Inner Glow243">
           <OfxPropLabel>内发光</OfxPropLabel>
           <OfxParamPropHint>内发光</OfxParamPropHint>
@@ -3547,8 +3903,8 @@
           <OfxParamPropHint>稳定性</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="innerGlowFlicker">
-          <OfxPropLabel>闪烁器</OfxPropLabel>
-          <OfxParamPropHint>闪烁器</OfxParamPropHint>
+          <OfxPropLabel>闪烁</OfxPropLabel>
+          <OfxParamPropHint>闪烁</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeGroup name="Outer Glow244">
           <OfxPropLabel>外发光</OfxPropLabel>
@@ -3567,15 +3923,15 @@
           <OfxParamPropHint>Alpha</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="distortionAmount">
-          <OfxPropLabel>失真/扭曲</OfxPropLabel>
-          <OfxParamPropHint>失真/扭曲</OfxParamPropHint>
+          <OfxPropLabel>扭曲</OfxPropLabel>
+          <OfxParamPropHint>扭曲</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="blendMode">
-          <OfxPropLabel>混合模式</OfxPropLabel>
+          <OfxPropLabel>混合</OfxPropLabel>
           <OfxParamPropHint>混合</OfxParamPropHint>
           <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>颜色加深</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>颜色减淡</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变暗</OfxParamPropChoiceOption>
@@ -3592,46 +3948,56 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.LuminanceKey">
+  <OfxPlugin name="com.FXHOME.HitFilm.LuminanceKey">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 亮度键</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 键控</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeChoice name="keyType">
           <OfxPropLabel>键类型</OfxPropLabel>
           <OfxParamPropHint>键类型</OfxParamPropHint>
-          <OfxParamPropChoiceOption>抠除暗色</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>抠除亮色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>键出较暗</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>键出较亮</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="threshold">
           <OfxPropLabel>阈值</OfxPropLabel>
           <OfxParamPropHint>阈值</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="tolerance">
-          <OfxPropLabel>容忍度</OfxPropLabel>
-          <OfxParamPropHint>容忍度</OfxParamPropHint>
+          <OfxPropLabel>容差</OfxPropLabel>
+          <OfxParamPropHint>容差</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeBoolean name="viewMatte">
           <OfxPropLabel>查看蒙版</OfxPropLabel>
           <OfxParamPropHint>查看蒙版</OfxParamPropHint>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="brightnessUsed">
-          <OfxPropLabel>使用通道</OfxPropLabel>
+          <OfxPropLabel>亮度使用</OfxPropLabel>
           <OfxParamPropHint>亮度使用</OfxParamPropHint>
           <OfxParamPropChoiceOption>强度</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Lightness亮度</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Luminosity亮度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>亮度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>光度</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Magnify">
+  <OfxPlugin name="com.FXHOME.HitFilm.Magnify">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 放大</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 扭曲</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble2D name="center">
           <OfxPropLabel>中心</OfxPropLabel>
           <OfxParamPropHint>中心</OfxParamPropHint>
@@ -3649,18 +4015,18 @@
           <OfxParamPropHint>凸出</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="wrap">
-          <OfxPropLabel>环绕</OfxPropLabel>
-          <OfxParamPropHint>环绕</OfxParamPropHint>
-          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxPropLabel>包裹</OfxPropLabel>
+          <OfxParamPropHint>包裹</OfxParamPropHint>
+          <OfxParamPropChoiceOption>否</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="irisShape">
           <OfxPropLabel>形状</OfxPropLabel>
           <OfxParamPropHint>形状</OfxParamPropHint>
-          <OfxParamPropChoiceOption>圆</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆形</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>三角形</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>正方形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>方形</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>五边形</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>六边形</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>七边形</OfxParamPropChoiceOption>
@@ -3681,8 +4047,8 @@
           <OfxParamPropHint>曲率</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="irisPinch">
-          <OfxPropLabel>收缩</OfxPropLabel>
-          <OfxParamPropHint>收缩</OfxParamPropHint>
+          <OfxPropLabel>捏合</OfxPropLabel>
+          <OfxParamPropHint>捏合</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="irisShift">
           <OfxPropLabel>偏移</OfxPropLabel>
@@ -3711,23 +4077,28 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.ManualLightsaber">
+  <OfxPlugin name="com.FXHOME.HitFilm.ManualLightsaber">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 光剑 (4点 手动)</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 生成</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeGroup name="Hilt253">
           <OfxPropLabel>剑柄</OfxPropLabel>
           <OfxParamPropHint>剑柄</OfxParamPropHint>
         </OfxParamTypeGroup>
         <OfxParamTypeDouble2D name="hiltPos1">
-          <OfxPropLabel>位置1</OfxPropLabel>
-          <OfxParamPropHint>位置1</OfxParamPropHint>
+          <OfxPropLabel>位置 1</OfxPropLabel>
+          <OfxParamPropHint>位置 1</OfxParamPropHint>
         </OfxParamTypeDouble2D>
         <OfxParamTypeDouble2D name="hiltPos2">
-          <OfxPropLabel>位置2</OfxPropLabel>
-          <OfxParamPropHint>位置2</OfxParamPropHint>
+          <OfxPropLabel>位置 2</OfxPropLabel>
+          <OfxParamPropHint>位置 2</OfxParamPropHint>
         </OfxParamTypeDouble2D>
         <OfxParamTypeDouble name="hiltWidth">
           <OfxPropLabel>宽度</OfxPropLabel>
@@ -3738,20 +4109,20 @@
           <OfxParamPropHint>剑尖</OfxParamPropHint>
         </OfxParamTypeGroup>
         <OfxParamTypeDouble2D name="tipPos1">
-          <OfxPropLabel>位置1</OfxPropLabel>
-          <OfxParamPropHint>位置1</OfxParamPropHint>
+          <OfxPropLabel>位置 1</OfxPropLabel>
+          <OfxParamPropHint>位置 1</OfxParamPropHint>
         </OfxParamTypeDouble2D>
         <OfxParamTypeDouble2D name="tipPos2">
-          <OfxPropLabel>位置2</OfxPropLabel>
-          <OfxParamPropHint>位置2</OfxParamPropHint>
+          <OfxPropLabel>位置 2</OfxPropLabel>
+          <OfxParamPropHint>位置 2</OfxParamPropHint>
         </OfxParamTypeDouble2D>
         <OfxParamTypeDouble name="tipWidth">
           <OfxPropLabel>宽度</OfxPropLabel>
           <OfxParamPropHint>宽度</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="extension">
-          <OfxPropLabel>扩展/延伸</OfxPropLabel>
-          <OfxParamPropHint>扩展/延伸</OfxParamPropHint>
+          <OfxPropLabel>延伸</OfxPropLabel>
+          <OfxParamPropHint>延伸</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeGroup name="Core255">
           <OfxPropLabel>核心</OfxPropLabel>
@@ -3794,8 +4165,8 @@
           <OfxParamPropHint>稳定性</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="innerGlowFlicker">
-          <OfxPropLabel>闪烁器</OfxPropLabel>
-          <OfxParamPropHint>闪烁器</OfxParamPropHint>
+          <OfxPropLabel>闪烁</OfxPropLabel>
+          <OfxParamPropHint>闪烁</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeGroup name="Outer Glow257">
           <OfxPropLabel>外发光</OfxPropLabel>
@@ -3822,31 +4193,31 @@
           <OfxParamPropHint>缩放</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="hiltMotionRotationPos1">
-          <OfxPropLabel>剑柄1</OfxPropLabel>
-          <OfxParamPropHint>剑柄1</OfxParamPropHint>
+          <OfxPropLabel>剑柄 1</OfxPropLabel>
+          <OfxParamPropHint>剑柄 1</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="hiltMotionRotationPos2">
-          <OfxPropLabel>剑柄2</OfxPropLabel>
-          <OfxParamPropHint>剑柄2</OfxParamPropHint>
+          <OfxPropLabel>剑柄 2</OfxPropLabel>
+          <OfxParamPropHint>剑柄 2</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="tipMotionRotationPos1">
-          <OfxPropLabel>剑身1</OfxPropLabel>
-          <OfxParamPropHint>剑身1</OfxParamPropHint>
+          <OfxPropLabel>剑尖 1</OfxPropLabel>
+          <OfxParamPropHint>剑尖 1</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="tipMotionRotationPos2">
-          <OfxPropLabel>剑身2</OfxPropLabel>
-          <OfxParamPropHint>剑身2</OfxParamPropHint>
+          <OfxPropLabel>剑尖 2</OfxPropLabel>
+          <OfxParamPropHint>剑尖 2</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="distortionAmount">
-          <OfxPropLabel>扭曲/失真</OfxPropLabel>
-          <OfxParamPropHint>扭曲/失真</OfxParamPropHint>
+          <OfxPropLabel>扭曲</OfxPropLabel>
+          <OfxParamPropHint>扭曲</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="blendMode">
-          <OfxPropLabel>混合模式</OfxPropLabel>
+          <OfxPropLabel>混合</OfxPropLabel>
           <OfxParamPropHint>混合</OfxParamPropHint>
           <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>颜色加深</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>颜色减淡</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变暗</OfxParamPropChoiceOption>
@@ -3863,12 +4234,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.MatteCleaner">
+  <OfxPlugin name="com.FXHOME.HitFilm.MatteCleaner">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 蒙版清理器</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 键控 - 蒙版增强</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="smooth">
           <OfxPropLabel>平滑</OfxPropLabel>
           <OfxParamPropHint>平滑</OfxParamPropHint>
@@ -3878,8 +4254,8 @@
           <OfxParamPropHint>羽化</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="choke">
-          <OfxPropLabel>抑制</OfxPropLabel>
-          <OfxParamPropHint>抑制</OfxParamPropHint>
+          <OfxPropLabel>收缩</OfxPropLabel>
+          <OfxParamPropHint>收缩</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeBoolean name="viewMatte">
           <OfxPropLabel>查看蒙版</OfxPropLabel>
@@ -3888,12 +4264,22 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Mosaic">
+  <OfxPlugin name="com.FXHOME.HitFilm.Mosaic">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 马赛克</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 扭曲</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>10x5</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>40x20</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>80x40</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>100x50</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>200x100</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="horizontalBlocks">
           <OfxPropLabel>水平块</OfxPropLabel>
           <OfxParamPropHint>水平块</OfxParamPropHint>
@@ -3905,12 +4291,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.MotionBlur">
+  <OfxPlugin name="com.FXHOME.HitFilm.MotionBlur">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 运动模糊</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 模糊</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="motionBlurScale">
           <OfxPropLabel>快门角度</OfxPropLabel>
           <OfxParamPropHint>快门角度</OfxParamPropHint>
@@ -3920,8 +4311,8 @@
           <OfxParamPropHint>快门相位</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeInteger name="motionBlurSamples">
-          <OfxPropLabel>采样</OfxPropLabel>
-          <OfxParamPropHint>采样</OfxParamPropHint>
+          <OfxPropLabel>样本</OfxPropLabel>
+          <OfxParamPropHint>样本</OfxParamPropHint>
         </OfxParamTypeInteger>
         <OfxParamTypeGroup name="Optical Flow260">
           <OfxPropLabel>光流</OfxPropLabel>
@@ -3932,12 +4323,12 @@
           <OfxParamPropHint>窗口大小</OfxParamPropHint>
         </OfxParamTypeInteger>
         <OfxParamTypeDouble name="poly_sigma">
-          <OfxPropLabel>Sigma值</OfxPropLabel>
+          <OfxPropLabel>Sigma</OfxPropLabel>
           <OfxParamPropHint>Sigma</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeInteger name="iterations">
-          <OfxPropLabel>迭代/重复</OfxPropLabel>
-          <OfxParamPropHint>迭代/重复</OfxParamPropHint>
+          <OfxPropLabel>迭代</OfxPropLabel>
+          <OfxParamPropHint>迭代</OfxParamPropHint>
         </OfxParamTypeInteger>
         <OfxParamTypeInteger name="nLevels">
           <OfxPropLabel>下采样</OfxPropLabel>
@@ -3950,12 +4341,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.MotionTrails">
+  <OfxPlugin name="com.FXHOME.HitFilm.MotionTrails">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 运动尾迹/轨迹</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 时间</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="frameRadius">
           <OfxPropLabel>帧半径</OfxPropLabel>
           <OfxParamPropHint>帧半径</OfxParamPropHint>
@@ -3967,12 +4363,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.NeonGlow">
+  <OfxPlugin name="com.FXHOME.HitFilm.NeonGlow">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 霓虹灯发光</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 灯光与耀斑</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="intensity">
           <OfxPropLabel>强度</OfxPropLabel>
           <OfxParamPropHint>强度</OfxParamPropHint>
@@ -4009,18 +4410,23 @@
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeBoolean name="clampToEdge">
-          <OfxPropLabel>钳位到边缘</OfxPropLabel>
-          <OfxParamPropHint>钳位到边缘</OfxParamPropHint>
+          <OfxPropLabel>夹到边缘</OfxPropLabel>
+          <OfxParamPropHint>夹到边缘</OfxParamPropHint>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Noise">
+  <OfxPlugin name="com.FXHOME.HitFilm.Noise">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 噪点</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 杂乱</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="amount">
           <OfxPropLabel>量</OfxPropLabel>
           <OfxParamPropHint>量</OfxParamPropHint>
@@ -4036,72 +4442,87 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Parallax">
+  <OfxPlugin name="com.FXHOME.HitFilm.Parallax">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 视差</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 场景</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="depth">
           <OfxPropLabel>深度</OfxPropLabel>
           <OfxParamPropHint>深度</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeBoolean name="invertHeightMap">
-          <OfxPropLabel>反转贴图</OfxPropLabel>
-          <OfxParamPropHint>反转贴图</OfxParamPropHint>
+          <OfxPropLabel>反转地图</OfxPropLabel>
+          <OfxParamPropHint>反转地图</OfxParamPropHint>
         </OfxParamTypeBoolean>
         <OfxParamTypeDouble name="heightMapBlur">
-          <OfxPropLabel>模糊高度贴图</OfxPropLabel>
-          <OfxParamPropHint>模糊高度贴图</OfxParamPropHint>
+          <OfxPropLabel>模糊高度地图</OfxPropLabel>
+          <OfxParamPropHint>模糊高度地图</OfxParamPropHint>
         </OfxParamTypeDouble>
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.PerspectiveWarp">
+  <OfxPlugin name="com.FXHOME.HitFilm.PerspectiveWarp">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 透视变形</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 变形</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="latitude">
-          <OfxPropLabel>绕 X 轴旋转（世界）</OfxPropLabel>
-          <OfxParamPropHint>绕 X 轴旋转（世界）</OfxParamPropHint>
+          <OfxPropLabel>纬度</OfxPropLabel>
+          <OfxParamPropHint>纬度</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="swing">
-          <OfxPropLabel>绕 Z 轴旋转（对象）</OfxPropLabel>
-          <OfxParamPropHint>绕 Z 轴旋转（对象）</OfxParamPropHint>
+          <OfxPropLabel>摆动</OfxPropLabel>
+          <OfxParamPropHint>摆动</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="roll">
-          <OfxPropLabel>绕 Z 轴旋转（世界）</OfxPropLabel>
-          <OfxParamPropHint>绕 Z 轴旋转（世界）</OfxParamPropHint>
+          <OfxPropLabel>滚动</OfxPropLabel>
+          <OfxParamPropHint>滚动</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="zDist">
-          <OfxPropLabel>Z 轴距离</OfxPropLabel>
+          <OfxPropLabel>Z 距离</OfxPropLabel>
           <OfxParamPropHint>Z 距离</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="wrapX">
-          <OfxPropLabel>X 轴包裹</OfxPropLabel>
-          <OfxParamPropHint>X 轴包裹</OfxParamPropHint>
-          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxPropLabel>包裹 X</OfxPropLabel>
+          <OfxParamPropHint>包裹 X</OfxParamPropHint>
+          <OfxParamPropChoiceOption>否</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="wrapY">
-          <OfxPropLabel>Y 轴包裹</OfxPropLabel>
-          <OfxParamPropHint>Y 轴包裹</OfxParamPropHint>
-          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxPropLabel>包裹 Y</OfxPropLabel>
+          <OfxParamPropHint>包裹 Y</OfxParamPropHint>
+          <OfxParamPropChoiceOption>否</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.PolarWarp">
+  <OfxPlugin name="com.FXHOME.HitFilm.PolarWarp">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 极点状变形</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 变形</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="rotation">
           <OfxPropLabel>旋转</OfxPropLabel>
           <OfxParamPropHint>旋转</OfxParamPropHint>
@@ -4123,16 +4544,16 @@
           <OfxParamPropHint>结束半径</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="wrapX">
-          <OfxPropLabel>环绕 X</OfxPropLabel>
-          <OfxParamPropHint>环绕 X</OfxParamPropHint>
-          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxPropLabel>包裹 X</OfxPropLabel>
+          <OfxParamPropHint>包裹 X</OfxParamPropHint>
+          <OfxParamPropChoiceOption>否</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="wrapY">
-          <OfxPropLabel>环绕 Y</OfxPropLabel>
-          <OfxParamPropHint>环绕 Y</OfxParamPropHint>
-          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxPropLabel>包裹 Y</OfxPropLabel>
+          <OfxParamPropHint>包裹 Y</OfxParamPropHint>
+          <OfxParamPropChoiceOption>否</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
@@ -4143,12 +4564,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.PondRipple">
+  <OfxPlugin name="com.FXHOME.HitFilm.PondRipple">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 池塘波纹</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 生成</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeInteger name="seed">
           <OfxPropLabel>种子</OfxPropLabel>
           <OfxParamPropHint>种子</OfxParamPropHint>
@@ -4192,12 +4618,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Posterize">
+  <OfxPlugin name="com.FXHOME.HitFilm.Posterize">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 色调分离/颜色块</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 风格化</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="fillBlur">
           <OfxPropLabel>平滑源</OfxPropLabel>
           <OfxParamPropHint>平滑源</OfxParamPropHint>
@@ -4249,12 +4680,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.QuadWarp">
+  <OfxPlugin name="com.FXHOME.HitFilm.QuadWarp">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 四点变形/边角定位</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 变形</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeGroup name="Top Left280">
           <OfxPropLabel>左上</OfxPropLabel>
           <OfxParamPropHint>左上</OfxParamPropHint>
@@ -4298,12 +4734,21 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.RadialBlur">
+  <OfxPlugin name="com.FXHOME.HitFilm.RadialBlur">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 径向模糊</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 模糊</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>基本</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>重</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>细微</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>左上重</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble2D name="center">
           <OfxPropLabel>中心</OfxPropLabel>
           <OfxParamPropHint>中心</OfxParamPropHint>
@@ -4315,12 +4760,20 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.RadialGradient">
+  <OfxPlugin name="com.FXHOME.HitFilm.RadialGradient">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 径向渐变</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 渐变与填充</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>黑暗</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>詹姆斯邦德</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>光学光斑</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble2D name="centerPoint">
           <OfxPropLabel>中心</OfxPropLabel>
           <OfxParamPropHint>中心</OfxParamPropHint>
@@ -4366,8 +4819,8 @@
           <OfxParamPropHint>渐变散射</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="ellipticalDeformation">
-          <OfxPropLabel>椭圆形变形</OfxPropLabel>
-          <OfxParamPropHint>椭圆形变形</OfxParamPropHint>
+          <OfxPropLabel>椭圆变形</OfxPropLabel>
+          <OfxParamPropHint>椭圆变形</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="rotation">
           <OfxPropLabel>旋转</OfxPropLabel>
@@ -4395,12 +4848,22 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.RadioWaves">
+  <OfxPlugin name="com.FXHOME.HitFilm.RadioWaves">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 无线电波</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 生成</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>绽放</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>三叶草</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>莲花</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>偏移方形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>风轮</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble2D name="center">
           <OfxPropLabel>位置</OfxPropLabel>
           <OfxParamPropHint>位置</OfxParamPropHint>
@@ -4412,9 +4875,9 @@
         <OfxParamTypeChoice name="irisShape">
           <OfxPropLabel>形状</OfxPropLabel>
           <OfxParamPropHint>形状</OfxParamPropHint>
-          <OfxParamPropChoiceOption>圆</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆形</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>三角形</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>正方形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>方形</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>五边形</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>六边形</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>七边形</OfxParamPropChoiceOption>
@@ -4431,8 +4894,8 @@
           <OfxParamPropHint>曲率</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="irisPinch">
-          <OfxPropLabel>收缩</OfxPropLabel>
-          <OfxParamPropHint>收缩</OfxParamPropHint>
+          <OfxPropLabel>捏合</OfxPropLabel>
+          <OfxParamPropHint>捏合</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="irisShift">
           <OfxPropLabel>偏移</OfxPropLabel>
@@ -4493,8 +4956,8 @@
           <OfxParamPropHint>扩展</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="spin">
-          <OfxPropLabel>自旋</OfxPropLabel>
-          <OfxParamPropHint>自旋</OfxParamPropHint>
+          <OfxPropLabel>旋转</OfxPropLabel>
+          <OfxParamPropHint>旋转</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="tansferMode">
           <OfxPropLabel>混合</OfxPropLabel>
@@ -4518,27 +4981,38 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.RainOnGlass">
+  <OfxPlugin name="com.FXHOME.HitFilm.RainOnGlass">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 玻璃雨滴</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 粒子与仿真</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>倾盆大雨</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>重</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>轻</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>中</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>雾</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>洒落</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeGroup name="Simulation303">
           <OfxPropLabel>模拟</OfxPropLabel>
           <OfxParamPropHint>模拟</OfxParamPropHint>
         </OfxParamTypeGroup>
         <OfxParamTypeInteger name="dropsPerSecond">
-          <OfxPropLabel>每秒水滴数量</OfxPropLabel>
-          <OfxParamPropHint>每秒水滴数量</OfxParamPropHint>
+          <OfxPropLabel>每秒雨滴</OfxPropLabel>
+          <OfxParamPropHint>每秒雨滴</OfxParamPropHint>
         </OfxParamTypeInteger>
         <OfxParamTypeDouble name="dropletSize">
           <OfxPropLabel>雨滴大小</OfxPropLabel>
           <OfxParamPropHint>雨滴大小</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeInteger name="seed">
-          <OfxPropLabel>随机种子</OfxPropLabel>
-          <OfxParamPropHint>随机种子</OfxParamPropHint>
+          <OfxPropLabel>种子</OfxPropLabel>
+          <OfxParamPropHint>种子</OfxParamPropHint>
         </OfxParamTypeInteger>
         <OfxParamTypeGroup name="Rendering304">
           <OfxPropLabel>渲染</OfxPropLabel>
@@ -4547,67 +5021,76 @@
         <OfxParamTypeChoice name="layerTiling">
           <OfxPropLabel>层平铺</OfxPropLabel>
           <OfxParamPropHint>层平铺</OfxParamPropHint>
-          <OfxParamPropChoiceOption>关闭</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>关</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="layerScale">
-          <OfxPropLabel>层缩放比例</OfxPropLabel>
-          <OfxParamPropHint>层缩放比例</OfxParamPropHint>
+          <OfxPropLabel>层缩放</OfxPropLabel>
+          <OfxParamPropHint>层缩放</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="glassThickness">
           <OfxPropLabel>玻璃厚度</OfxPropLabel>
           <OfxParamPropHint>玻璃厚度</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="layerDistance">
-          <OfxPropLabel>层间距</OfxPropLabel>
-          <OfxParamPropHint>层间距</OfxParamPropHint>
+          <OfxPropLabel>层距离</OfxPropLabel>
+          <OfxParamPropHint>层距离</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeGroup name="Environment Map305">
-          <OfxPropLabel>环境贴图</OfxPropLabel>
-          <OfxParamPropHint>环境贴图</OfxParamPropHint>
+          <OfxPropLabel>环境地图</OfxPropLabel>
+          <OfxParamPropHint>环境地图</OfxParamPropHint>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="useEnvironmentMap">
-          <OfxPropLabel>使用环境贴图</OfxPropLabel>
-          <OfxParamPropHint>使用环境贴图</OfxParamPropHint>
+          <OfxPropLabel>使用环境地图</OfxPropLabel>
+          <OfxParamPropHint>使用环境地图</OfxParamPropHint>
         </OfxParamTypeBoolean>
         <OfxParamTypeDouble name="envAmount">
-          <OfxPropLabel>贴图强度</OfxPropLabel>
-          <OfxParamPropHint>贴图强度</OfxParamPropHint>
+          <OfxPropLabel>量</OfxPropLabel>
+          <OfxParamPropHint>量</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="envTexScale">
-          <OfxPropLabel>贴图缩放</OfxPropLabel>
-          <OfxParamPropHint>贴图缩放</OfxParamPropHint>
+          <OfxPropLabel>缩放</OfxPropLabel>
+          <OfxParamPropHint>缩放</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="envScaleRatio">
-          <OfxPropLabel>贴图宽高比</OfxPropLabel>
-          <OfxParamPropHint>贴图宽高比</OfxParamPropHint>
+          <OfxPropLabel>缩放比例</OfxPropLabel>
+          <OfxParamPropHint>缩放比例</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeGroup name="Transform306">
           <OfxPropLabel>变换</OfxPropLabel>
           <OfxParamPropHint>变换</OfxParamPropHint>
         </OfxParamTypeGroup>
         <OfxParamTypeDouble name="envTrasnformXRot">
-          <OfxPropLabel>X轴旋转</OfxPropLabel>
-          <OfxParamPropHint>X轴旋转</OfxParamPropHint>
+          <OfxPropLabel>X 旋转</OfxPropLabel>
+          <OfxParamPropHint>X 旋转</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="envTrasnformYRot">
-          <OfxPropLabel>Y轴旋转</OfxPropLabel>
-          <OfxParamPropHint>Y轴旋转</OfxParamPropHint>
+          <OfxPropLabel>Y 旋转</OfxPropLabel>
+          <OfxParamPropHint>Y 旋转</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="envTrasnformZRot">
-          <OfxPropLabel>Z轴旋转</OfxPropLabel>
-          <OfxParamPropHint>Z轴旋转</OfxParamPropHint>
+          <OfxPropLabel>Z 旋转</OfxPropLabel>
+          <OfxParamPropHint>Z 旋转</OfxParamPropHint>
         </OfxParamTypeDouble>
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Reflection">
+  <OfxPlugin name="com.FXHOME.HitFilm.Reflection">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 镜像/反射</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 生成</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>底部</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>并排</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>并排 (反转)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>顶部</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble2D name="center">
           <OfxPropLabel>中心</OfxPropLabel>
           <OfxParamPropHint>中心</OfxParamPropHint>
@@ -4619,12 +5102,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.RemoveFringe">
+  <OfxPlugin name="com.FXHOME.HitFilm.RemoveFringe">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 移除蒙版颜色</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 键控 - 蒙版增强</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeRGB name="backgroungColor">
           <OfxPropLabel>背景颜色</OfxPropLabel>
           <OfxParamPropHint>背景颜色</OfxParamPropHint>
@@ -4632,15 +5120,21 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Reverse">
+  <OfxPlugin name="com.FXHOME.HitFilm.Reverse">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 时间反转/倒放</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 时间</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
-      <OfxImageEffectContext name="default" />
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+      </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.SetMatte">
+  <OfxPlugin name="com.FXHOME.HitFilm.SetMatte">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 设置蒙版</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 键控 - 蒙版增强</OfxImageEffectPluginPropGrouping>
@@ -4650,26 +5144,31 @@
           <OfxPropLabel>交换输入</OfxPropLabel>
           <OfxParamPropHint>交换输入</OfxParamPropHint>
         </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeChoice name="matteChannel">
           <OfxPropLabel>蒙版源</OfxPropLabel>
           <OfxParamPropHint>蒙版源</OfxParamPropHint>
-          <OfxParamPropChoiceOption>红色</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>绿色</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>蓝色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>红</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>绿</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>蓝</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>Alpha</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>亮度Luminance</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>亮度</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>色相</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>亮度Lightness</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>亮度</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>饱和度</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>全部</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>全</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>关</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="matteBlend">
           <OfxPropLabel>混合</OfxPropLabel>
           <OfxParamPropHint>混合</OfxParamPropHint>
-          <OfxParamPropChoiceOption>增加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>代替</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>替换</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeBoolean name="invert">
           <OfxPropLabel>反转</OfxPropLabel>
@@ -4678,22 +5177,27 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Shake">
+  <OfxPlugin name="com.FXHOME.HitFilm.Shake">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 抖动</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 杂乱</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="amount">
-          <OfxPropLabel>数量</OfxPropLabel>
-          <OfxParamPropHint>数量</OfxParamPropHint>
+          <OfxPropLabel>量</OfxPropLabel>
+          <OfxParamPropHint>量</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="speed">
           <OfxPropLabel>速度</OfxPropLabel>
           <OfxParamPropHint>速度</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeInteger name="seed">
-          <OfxPropLabel>随机种子</OfxPropLabel>
+          <OfxPropLabel>种子</OfxPropLabel>
           <OfxParamPropHint>种子</OfxParamPropHint>
         </OfxParamTypeInteger>
         <OfxParamTypeDouble name="smooth">
@@ -4705,16 +5209,16 @@
           <OfxParamPropHint>缩放</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeGroup name="Individual Controls311">
-          <OfxPropLabel>个别控件</OfxPropLabel>
-          <OfxParamPropHint>个别控件</OfxParamPropHint>
+          <OfxPropLabel>个别控制</OfxPropLabel>
+          <OfxParamPropHint>个别控制</OfxParamPropHint>
         </OfxParamTypeGroup>
         <OfxParamTypeDouble name="xShake">
-          <OfxPropLabel>X抖动</OfxPropLabel>
-          <OfxParamPropHint>X抖动</OfxParamPropHint>
+          <OfxPropLabel>X 抖动</OfxPropLabel>
+          <OfxParamPropHint>X 抖动</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="yShake">
-          <OfxPropLabel>Y抖动</OfxPropLabel>
-          <OfxParamPropHint>Y抖动</OfxParamPropHint>
+          <OfxPropLabel>Y 抖动</OfxPropLabel>
+          <OfxParamPropHint>Y 抖动</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="tiltShake">
           <OfxPropLabel>倾斜抖动</OfxPropLabel>
@@ -4729,11 +5233,11 @@
           <OfxParamPropHint>级别</OfxParamPropHint>
         </OfxParamTypeInteger>
         <OfxParamTypeDouble name="fractal_amount_scalar">
-          <OfxPropLabel>距离量</OfxPropLabel>
+          <OfxPropLabel>量标量</OfxPropLabel>
           <OfxParamPropHint>量标量</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="fractal_speed_scalar">
-          <OfxPropLabel>速度量</OfxPropLabel>
+          <OfxPropLabel>速度标量</OfxPropLabel>
           <OfxParamPropHint>速度标量</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="fractal_temporal_shift">
@@ -4755,36 +5259,41 @@
           <OfxParamPropHint>缩放</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeInteger name="motionBlurSamples">
-          <OfxPropLabel>采样</OfxPropLabel>
-          <OfxParamPropHint>采样</OfxParamPropHint>
+          <OfxPropLabel>样本</OfxPropLabel>
+          <OfxParamPropHint>样本</OfxParamPropHint>
         </OfxParamTypeInteger>
         <OfxParamTypeGroup name="Wrap314">
-          <OfxPropLabel>环绕</OfxPropLabel>
-          <OfxParamPropHint>环绕</OfxParamPropHint>
+          <OfxPropLabel>包裹</OfxPropLabel>
+          <OfxParamPropHint>包裹</OfxParamPropHint>
         </OfxParamTypeGroup>
         <OfxParamTypeChoice name="wrapX">
           <OfxPropLabel>X</OfxPropLabel>
           <OfxParamPropHint>X</OfxParamPropHint>
-          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>否</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="wrapY">
           <OfxPropLabel>Y</OfxPropLabel>
           <OfxParamPropHint>Y</OfxParamPropHint>
-          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>否</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Solarize">
+  <OfxPlugin name="com.FXHOME.HitFilm.Solarize">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 底片曝光</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 风格化</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="threshold">
           <OfxPropLabel>阈值</OfxPropLabel>
           <OfxParamPropHint>阈值</OfxParamPropHint>
@@ -4808,12 +5317,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Speed">
+  <OfxPlugin name="com.FXHOME.HitFilm.Speed">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 速度(重映射)</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 时间</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="speed">
           <OfxPropLabel>速度</OfxPropLabel>
           <OfxParamPropHint>速度</OfxParamPropHint>
@@ -4821,14 +5335,14 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Sphere">
+  <OfxPlugin name="com.FXHOME.HitFilm.Sphere">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 球体</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 生成</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeChoice name="pluginPreset">
-          <OfxPropLabel>预设</OfxPropLabel>
+          <OfxPropLabel />
           <OfxParamPropHint />
           <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>基本</OfxParamPropChoiceOption>
@@ -4840,11 +5354,11 @@
           <OfxParamPropHint>半径</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="sourceTextureUse">
-          <OfxPropLabel>将源作为</OfxPropLabel>
+          <OfxPropLabel>使用源作为</OfxPropLabel>
           <OfxParamPropHint>使用源作为</OfxParamPropHint>
           <OfxParamPropChoiceOption>表面纹理</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>环境贴图</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>环境图层</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>环境地图</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>环境层</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeGroup name="Position322">
@@ -4884,48 +5398,48 @@
           <OfxParamPropHint>缩放</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="texScaleRatio">
-          <OfxPropLabel>缩放宽高比</OfxPropLabel>
+          <OfxPropLabel>缩放比例</OfxPropLabel>
           <OfxParamPropHint>缩放比例</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="wrapX">
-          <OfxPropLabel>环绕 X</OfxPropLabel>
-          <OfxParamPropHint>环绕 X</OfxParamPropHint>
-          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxPropLabel>包裹 X</OfxPropLabel>
+          <OfxParamPropHint>包裹 X</OfxParamPropHint>
+          <OfxParamPropChoiceOption>否</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>反射/镜像</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="wrapY">
-          <OfxPropLabel>环绕 Y</OfxPropLabel>
-          <OfxParamPropHint>环绕 Y</OfxParamPropHint>
-          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxPropLabel>包裹 Y</OfxPropLabel>
+          <OfxParamPropHint>包裹 Y</OfxParamPropHint>
+          <OfxParamPropChoiceOption>否</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>反射/镜像</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeGroup name="Environment Map325">
-          <OfxPropLabel>环境贴图</OfxPropLabel>
-          <OfxParamPropHint>环境贴图</OfxParamPropHint>
+          <OfxPropLabel>环境地图</OfxPropLabel>
+          <OfxParamPropHint>环境地图</OfxParamPropHint>
         </OfxParamTypeGroup>
         <OfxParamTypeDouble name="envTexScale">
           <OfxPropLabel>缩放</OfxPropLabel>
           <OfxParamPropHint>缩放</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="envScaleRatio">
-          <OfxPropLabel>缩放宽高比</OfxPropLabel>
+          <OfxPropLabel>缩放比例</OfxPropLabel>
           <OfxParamPropHint>缩放比例</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="envWrapX">
-          <OfxPropLabel>环绕 X</OfxPropLabel>
-          <OfxParamPropHint>环绕 X</OfxParamPropHint>
-          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxPropLabel>包裹 X</OfxPropLabel>
+          <OfxParamPropHint>包裹 X</OfxParamPropHint>
+          <OfxParamPropChoiceOption>否</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>反射/镜像</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="envWrapY">
-          <OfxPropLabel>环绕 Y</OfxPropLabel>
-          <OfxParamPropHint>环绕 Y</OfxParamPropHint>
-          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxPropLabel>包裹 Y</OfxPropLabel>
+          <OfxParamPropHint>包裹 Y</OfxParamPropHint>
+          <OfxParamPropChoiceOption>否</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>反射/镜像</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeGroup name="Transform326">
           <OfxPropLabel>变换</OfxPropLabel>
@@ -4948,38 +5462,43 @@
           <OfxParamPropHint>反射</OfxParamPropHint>
         </OfxParamTypeGroup>
         <OfxParamTypeDouble name="reflectionAmount">
-          <OfxPropLabel>数量</OfxPropLabel>
-          <OfxParamPropHint>数量</OfxParamPropHint>
+          <OfxPropLabel>量</OfxPropLabel>
+          <OfxParamPropHint>量</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="reflectionAngleDp">
-          <OfxPropLabel>角度依赖性</OfxPropLabel>
-          <OfxParamPropHint>角度依赖性</OfxParamPropHint>
+          <OfxPropLabel>角度依赖</OfxPropLabel>
+          <OfxParamPropHint>角度依赖</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="reflection_Region">
           <OfxPropLabel>反射区域</OfxPropLabel>
           <OfxParamPropHint>反射区域</OfxParamPropHint>
           <OfxParamPropChoiceOption>所有</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>纹理区域</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>纹理区域 多颜色</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>无纹理区域</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>纹理乘颜色</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeGroup name="Refraction328">
           <OfxPropLabel>折射</OfxPropLabel>
           <OfxParamPropHint>折射</OfxParamPropHint>
         </OfxParamTypeGroup>
         <OfxParamTypeDouble name="refractiveIndex">
-          <OfxPropLabel>折射率</OfxPropLabel>
-          <OfxParamPropHint>折射率</OfxParamPropHint>
+          <OfxPropLabel>折射指数</OfxPropLabel>
+          <OfxParamPropHint>折射指数</OfxParamPropHint>
         </OfxParamTypeDouble>
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.SpillRemoval">
+  <OfxPlugin name="com.FXHOME.HitFilm.SpillRemoval">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 溢出移除</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 键控 - 蒙版增强</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeChoice name="screenColor">
           <OfxPropLabel>屏幕颜色</OfxPropLabel>
           <OfxParamPropHint>屏幕颜色</OfxParamPropHint>
@@ -5000,29 +5519,44 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Stutter">
+  <OfxPlugin name="com.FXHOME.HitFilm.Stutter">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 帧卡顿/卡帧</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 杂乱</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeInteger name="freezeFrames">
           <OfxPropLabel>冻结帧</OfxPropLabel>
           <OfxParamPropHint>冻结帧</OfxParamPropHint>
         </OfxParamTypeInteger>
         <OfxParamTypeInteger name="frameStart">
-          <OfxPropLabel>帧开始</OfxPropLabel>
-          <OfxParamPropHint>帧开始</OfxParamPropHint>
+          <OfxPropLabel>帧起始</OfxPropLabel>
+          <OfxParamPropHint>帧起始</OfxParamPropHint>
         </OfxParamTypeInteger>
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.ThreeStripColor">
+  <OfxPlugin name="com.FXHOME.HitFilm.ThreeStripColor">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 3-strip色彩</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 颜色分级</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>强蓝</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>强绿</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>强紫</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>强红</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>强黄</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="redStrength">
           <OfxPropLabel>红强度</OfxPropLabel>
           <OfxParamPropHint>红强度</OfxParamPropHint>
@@ -5038,12 +5572,22 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Threshold">
+  <OfxPlugin name="com.FXHOME.HitFilm.Threshold">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 双色化阈值</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 风格化</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>蓝</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>暗</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>绿</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>亮</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>红</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="threshold">
           <OfxPropLabel>阈值</OfxPropLabel>
           <OfxParamPropHint>阈值</OfxParamPropHint>
@@ -5069,12 +5613,21 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Tiles">
+  <OfxPlugin name="com.FXHOME.HitFilm.Tiles">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 平铺/拼贴/电视墙</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 生成</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>3x3</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>5x5</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>7x7</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>10x10</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="scale">
           <OfxPropLabel>缩放</OfxPropLabel>
           <OfxParamPropHint>缩放</OfxParamPropHint>
@@ -5090,7 +5643,7 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.TimeDispalcement">
+  <OfxPlugin name="com.FXHOME.HitFilm.TimeDispalcement">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 时间置换</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 时间</OfxImageEffectPluginPropGrouping>
@@ -5100,6 +5653,11 @@
           <OfxPropLabel>交换输入</OfxPropLabel>
           <OfxParamPropHint>交换输入</OfxParamPropHint>
         </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeGroup name="Displacement25">
           <OfxPropLabel>置换</OfxPropLabel>
           <OfxParamPropHint>置换</OfxParamPropHint>
@@ -5124,22 +5682,27 @@
           <OfxParamPropHint>模糊</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="blackTimeShift">
-          <OfxPropLabel>黑时间移位</OfxPropLabel>
-          <OfxParamPropHint>黑时间移位</OfxParamPropHint>
+          <OfxPropLabel>黑时间偏移</OfxPropLabel>
+          <OfxParamPropHint>黑时间偏移</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="whiteTimeShift">
-          <OfxPropLabel>白时间移位</OfxPropLabel>
-          <OfxParamPropHint>白时间移位</OfxParamPropHint>
+          <OfxPropLabel>白时间偏移</OfxPropLabel>
+          <OfxParamPropHint>白时间偏移</OfxParamPropHint>
         </OfxParamTypeDouble>
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Timecode">
+  <OfxPlugin name="com.FXHOME.HitFilm.Timecode">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 时间码</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 生成</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeChoice name="format">
           <OfxPropLabel>格式</OfxPropLabel>
           <OfxParamPropHint>格式</OfxParamPropHint>
@@ -5182,26 +5745,31 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Tint">
+  <OfxPlugin name="com.FXHOME.HitFilm.Tint">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 双色调着色</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 风格化</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeChoice name="brightnessUsed">
           <OfxPropLabel>亮度使用</OfxPropLabel>
           <OfxParamPropHint>亮度使用</OfxParamPropHint>
           <OfxParamPropChoiceOption>强度</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>亮度</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>亮度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>光度</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeRGB name="newBlack">
-          <OfxPropLabel>将黑映射到</OfxPropLabel>
-          <OfxParamPropHint>将黑映射到</OfxParamPropHint>
+          <OfxPropLabel>映射黑到</OfxPropLabel>
+          <OfxParamPropHint>映射黑到</OfxParamPropHint>
         </OfxParamTypeRGB>
         <OfxParamTypeRGB name="newWhite">
-          <OfxPropLabel>将白映射到</OfxPropLabel>
-          <OfxParamPropHint>将白映射到</OfxParamPropHint>
+          <OfxPropLabel>映射白到</OfxPropLabel>
+          <OfxParamPropHint>映射白到</OfxParamPropHint>
         </OfxParamTypeRGB>
         <OfxParamTypeDouble name="amountToTint">
           <OfxPropLabel>着色量</OfxPropLabel>
@@ -5210,12 +5778,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Twirl">
+  <OfxPlugin name="com.FXHOME.HitFilm.Twirl">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 旋涡</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 扭曲</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="angle">
           <OfxPropLabel>角度</OfxPropLabel>
           <OfxParamPropHint>角度</OfxParamPropHint>
@@ -5229,8 +5802,8 @@
           <OfxParamPropHint>半径</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="wrap">
-          <OfxPropLabel>环绕</OfxPropLabel>
-          <OfxParamPropHint>环绕</OfxParamPropHint>
+          <OfxPropLabel>包裹</OfxPropLabel>
+          <OfxParamPropHint>包裹</OfxParamPropHint>
           <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
@@ -5238,19 +5811,29 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.TwoStripColor">
+  <OfxPlugin name="com.FXHOME.HitFilm.TwoStripColor">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 2-strip色彩</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 颜色分级</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>万圣节</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>冰冷</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>反转</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>现代恐怖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>沙质</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeRGB name="redFilter">
-          <OfxPropLabel>红滤镜</OfxPropLabel>
-          <OfxParamPropHint>红滤镜</OfxParamPropHint>
+          <OfxPropLabel>红过滤</OfxPropLabel>
+          <OfxParamPropHint>红过滤</OfxParamPropHint>
         </OfxParamTypeRGB>
         <OfxParamTypeRGB name="greenFilter">
-          <OfxPropLabel>绿/蓝滤镜</OfxPropLabel>
-          <OfxParamPropHint>绿/蓝滤镜</OfxParamPropHint>
+          <OfxPropLabel>绿/蓝过滤</OfxPropLabel>
+          <OfxParamPropHint>绿/蓝过滤</OfxParamPropHint>
         </OfxParamTypeRGB>
         <OfxParamTypeRGB name="redDye">
           <OfxPropLabel>红染料</OfxPropLabel>
@@ -5275,12 +5858,23 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Vignette">
+  <OfxPlugin name="com.FXHOME.HitFilm.Vignette">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 晕影/暗角</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 颜色分级</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>HD 重</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>HD 高键</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>HD 中等</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>HD 柔和</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>HD 复古</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>重</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble2D name="centerPoint">
           <OfxPropLabel>晕影中心</OfxPropLabel>
           <OfxParamPropHint>晕影中心</OfxParamPropHint>
@@ -5328,12 +5922,23 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.VignetteExposure">
+  <OfxPlugin name="com.FXHOME.HitFilm.VignetteExposure">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 晕影/暗角 曝光</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 颜色分级</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>严重过曝</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>重</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>轻</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>亮化角</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>中等</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>中等过曝</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="amount">
           <OfxPropLabel>量</OfxPropLabel>
           <OfxParamPropHint>量</OfxParamPropHint>
@@ -5369,7 +5974,7 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.VortexDisplacementWarp">
+  <OfxPlugin name="com.FXHOME.HitFilm.VortexDisplacementWarp">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 旋涡置换变形</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 变形</OfxImageEffectPluginPropGrouping>
@@ -5379,6 +5984,11 @@
           <OfxPropLabel>交换输入</OfxPropLabel>
           <OfxParamPropHint>交换输入</OfxParamPropHint>
         </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="angle">
           <OfxPropLabel>角度</OfxPropLabel>
           <OfxParamPropHint>角度</OfxParamPropHint>
@@ -5396,16 +6006,16 @@
           <OfxParamPropHint>深度</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="wrap">
-          <OfxPropLabel>环绕</OfxPropLabel>
-          <OfxParamPropHint>环绕</OfxParamPropHint>
-          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxPropLabel>包裹</OfxPropLabel>
+          <OfxParamPropHint>包裹</OfxParamPropHint>
+          <OfxParamPropChoiceOption>否</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>钳位</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>夹持</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeGroup name="Distortion Map26">
-          <OfxPropLabel>失真贴图</OfxPropLabel>
-          <OfxParamPropHint>失真贴图</OfxParamPropHint>
+          <OfxPropLabel>扭曲地图</OfxPropLabel>
+          <OfxParamPropHint>扭曲地图</OfxParamPropHint>
         </OfxParamTypeGroup>
         <OfxParamTypeDouble name="blurSource">
           <OfxPropLabel>模糊</OfxPropLabel>
@@ -5431,7 +6041,7 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Waves">
+  <OfxPlugin name="com.FXHOME.HitFilm.Waves">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 波纹</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 扭曲</OfxImageEffectPluginPropGrouping>
@@ -5441,6 +6051,11 @@
           <OfxPropLabel>交换输入</OfxPropLabel>
           <OfxParamPropHint>交换输入</OfxParamPropHint>
         </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="amplitude">
           <OfxPropLabel>振幅</OfxPropLabel>
           <OfxParamPropHint>振幅</OfxParamPropHint>
@@ -5466,20 +6081,20 @@
           <OfxParamPropHint>相位速度</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="zDist">
-          <OfxPropLabel>图像距离</OfxPropLabel>
-          <OfxParamPropHint>图像距离</OfxParamPropHint>
+          <OfxPropLabel>到图像距离</OfxPropLabel>
+          <OfxParamPropHint>到图像距离</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="wrapX">
-          <OfxPropLabel>环绕 X</OfxPropLabel>
-          <OfxParamPropHint>环绕 X</OfxParamPropHint>
-          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxPropLabel>包裹 X</OfxPropLabel>
+          <OfxParamPropHint>包裹 X</OfxParamPropHint>
+          <OfxParamPropChoiceOption>否</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="wrapY">
-          <OfxPropLabel>环绕 Y</OfxPropLabel>
-          <OfxParamPropHint>环绕 Y</OfxParamPropHint>
-          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxPropLabel>包裹 Y</OfxPropLabel>
+          <OfxParamPropHint>包裹 Y</OfxParamPropHint>
+          <OfxParamPropChoiceOption>否</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
@@ -5504,12 +6119,12 @@
           <OfxParamPropHint>阴影亮度</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="lightMaxBrightness">
-          <OfxPropLabel>灯光亮度</OfxPropLabel>
-          <OfxParamPropHint>灯光亮度</OfxParamPropHint>
+          <OfxPropLabel>光亮度</OfxPropLabel>
+          <OfxParamPropHint>光亮度</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeGroup name="Distortion Map29">
-          <OfxPropLabel>失真贴图</OfxPropLabel>
-          <OfxParamPropHint>失真贴图</OfxParamPropHint>
+          <OfxPropLabel>扭曲地图</OfxPropLabel>
+          <OfxParamPropHint>扭曲地图</OfxParamPropHint>
         </OfxParamTypeGroup>
         <OfxParamTypeDouble name="blurSource">
           <OfxPropLabel>模糊</OfxPropLabel>
@@ -5535,12 +6150,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.WhiteBalance">
+  <OfxPlugin name="com.FXHOME.HitFilm.WhiteBalance">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 白平衡</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 颜色校正</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeRGB name="newWhite">
           <OfxPropLabel>颜色</OfxPropLabel>
           <OfxParamPropHint>颜色</OfxParamPropHint>
@@ -5548,12 +6168,24 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.WitnessProtection">
+  <OfxPlugin name="com.FXHOME.HitFilm.WitnessProtection">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 证人保护</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 扭曲</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>几乎可识别</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>模糊极端</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>模糊中等</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>模糊细微</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>像素化重</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>像素化中</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>像素化小</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="size">
           <OfxPropLabel>大小</OfxPropLabel>
           <OfxParamPropHint>大小</OfxParamPropHint>
@@ -5611,12 +6243,22 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.ZoomBlur">
+  <OfxPlugin name="com.FXHOME.HitFilm.ZoomBlur">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 变焦模糊</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 模糊</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>基本</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>超速</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>细微</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>日出</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>右上</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="quality">
           <OfxPropLabel>质量</OfxPropLabel>
           <OfxParamPropHint>质量</OfxParamPropHint>
@@ -5632,12 +6274,19 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilmClouds">
+  <OfxPlugin name="com.FXHOME.HitFilmClouds">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 云层</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 生成</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>星场</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>电视噪波</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble2D name="center">
           <OfxPropLabel>中心</OfxPropLabel>
           <OfxParamPropHint>中心</OfxParamPropHint>

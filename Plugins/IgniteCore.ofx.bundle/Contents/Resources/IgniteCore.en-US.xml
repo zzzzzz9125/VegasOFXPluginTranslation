@@ -6,6 +6,15 @@
       <OfxImageEffectPluginPropGrouping>Ignite - Gradients &amp; Fills</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Blue Sky</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Blue Triangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rainbow Lights</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Sunset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeGroup name="Point 138">
           <OfxPropLabel>Point 1</OfxPropLabel>
           <OfxParamPropHint>Point 1</OfxParamPropHint>
@@ -88,12 +97,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.AlphaBrightnessContrast">
+  <OfxPlugin name="com.FXHOME.HitFilm.AlphaBrightnessContrast">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Alpha Brightness &amp; Contrast</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Keying - Matte Enhancement</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="brightness">
           <OfxPropLabel>Brightness</OfxPropLabel>
           <OfxParamPropHint>Brightness</OfxParamPropHint>
@@ -105,12 +119,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.AutoColor">
+  <OfxPlugin name="com.FXHOME.HitFilm.AutoColor">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Auto Color</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Color Correction</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="threshold">
           <OfxPropLabel>Threshold</OfxPropLabel>
           <OfxParamPropHint>Threshold</OfxParamPropHint>
@@ -130,12 +149,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.AutoContrast">
+  <OfxPlugin name="com.FXHOME.HitFilm.AutoContrast">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Auto Contrast</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Color Correction</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="threshold">
           <OfxPropLabel>Threshold</OfxPropLabel>
           <OfxParamPropHint>Threshold</OfxParamPropHint>
@@ -155,12 +179,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.AutoLevels">
+  <OfxPlugin name="com.FXHOME.HitFilm.AutoLevels">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Auto Levels</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Color Correction</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="threshold">
           <OfxPropLabel>Threshold</OfxPropLabel>
           <OfxParamPropHint>Threshold</OfxParamPropHint>
@@ -180,12 +209,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.AutoLightFlares">
+  <OfxPlugin name="com.FXHOME.HitFilm.AutoLightFlares">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Auto Light Flares</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Lights &amp; Flares</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeChoice name="flareType">
           <OfxPropLabel>Flare Type</OfxPropLabel>
           <OfxParamPropHint>Flare Type</OfxParamPropHint>
@@ -348,12 +382,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.AutomatedLightsaber">
+  <OfxPlugin name="com.FXHOME.HitFilm.AutomatedLightsaber">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Lightsword (2-Point Auto)</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Generate</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeGroup name="Hilt60">
           <OfxPropLabel>Hilt</OfxPropLabel>
           <OfxParamPropHint>Hilt</OfxParamPropHint>
@@ -535,12 +574,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.BezierWarp">
+  <OfxPlugin name="com.FXHOME.HitFilm.BezierWarp">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Bezier Warp</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Warp</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeGroup name="Top Left72">
           <OfxPropLabel>Top Left</OfxPropLabel>
           <OfxParamPropHint>Top Left</OfxParamPropHint>
@@ -608,12 +652,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Bulge">
+  <OfxPlugin name="com.FXHOME.HitFilm.Bulge">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Bulge</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Distort</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble2D name="center">
           <OfxPropLabel>Center</OfxPropLabel>
           <OfxParamPropHint>Center</OfxParamPropHint>
@@ -685,12 +734,21 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Cartoon">
+  <OfxPlugin name="com.FXHOME.HitFilm.Cartoon">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Cartoon</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Stylize</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Bright &amp; Detailed</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Line Art</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Neon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>White Lines</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeGroup name="Edge82">
           <OfxPropLabel>Edge</OfxPropLabel>
           <OfxParamPropHint>Edge</OfxParamPropHint>
@@ -742,12 +800,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.ChromaBlur">
+  <OfxPlugin name="com.FXHOME.HitFilm.ChromaBlur">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Chroma UV Blur</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Keying</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeInteger name="radius">
           <OfxPropLabel>Radius (deprecated)</OfxPropLabel>
           <OfxParamPropHint>Radius (deprecated)</OfxParamPropHint>
@@ -766,7 +829,7 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Chromenator">
+  <OfxPlugin name="com.FXHOME.HitFilm.Chromenator">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Chromenator</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Distort</OfxImageEffectPluginPropGrouping>
@@ -776,6 +839,12 @@
           <OfxPropLabel>Swap Inputs</OfxPropLabel>
           <OfxParamPropHint>Swap Inputs</OfxParamPropHint>
         </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Snowy</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeChoice name="sourceChannel">
           <OfxPropLabel>Channel</OfxPropLabel>
           <OfxParamPropHint>Channel</OfxParamPropHint>
@@ -807,12 +876,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.ColorDifferenceKey">
+  <OfxPlugin name="com.FXHOME.HitFilm.ColorDifferenceKey">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Color Difference Key</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Keying</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeChoice name="screenColor">
           <OfxPropLabel>Screen Color</OfxPropLabel>
           <OfxParamPropHint>Screen Color</OfxParamPropHint>
@@ -839,12 +913,32 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.ColorGradient">
+  <OfxPlugin name="com.FXHOME.HitFilm.ColorGradient">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Color Gradient</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Gradients &amp; Fills</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Basic Black and White Horiz</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Basic Black White Vert</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Blue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Bright Sky</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Brown</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Foggy Night Sky</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Green</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Night Sky</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Purple</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Red</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Splitscreen Matte Horiz</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Splitscreen Matte Vert</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Sunset</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Underwater</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Yellow</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble2D name="startPoint">
           <OfxPropLabel>Start Point</OfxPropLabel>
           <OfxParamPropHint>Start Point</OfxParamPropHint>
@@ -895,12 +989,25 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.ColorTemperature">
+  <OfxPlugin name="com.FXHOME.HitFilm.ColorTemperature">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Color Temperature</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Color Correction</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Blue Sky (10000K)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Candlelight (1920K)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cloudy (6500)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cool Flourescent (4200K)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Daylight (5500K)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Halogen (3000K)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Incandescent (2700K)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Tungsten (3400K)</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="temperatureShift">
           <OfxPropLabel>Temperature</OfxPropLabel>
           <OfxParamPropHint>Temperature</OfxParamPropHint>
@@ -908,12 +1015,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.CreditsTextCrawl">
+  <OfxPlugin name="com.FXHOME.HitFilm.CreditsTextCrawl">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite End Credits Crawl</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Generate</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeGroup name="Text Format130">
           <OfxPropLabel>Text Format</OfxPropLabel>
           <OfxParamPropHint>Text Format</OfxParamPropHint>
@@ -1444,12 +1556,23 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.CrushBlacksWhites">
+  <OfxPlugin name="com.FXHOME.HitFilm.CrushBlacksWhites">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Crush Blacks &amp; Whites</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Color Correction</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Heavy</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>High Contrast</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Intensify Blacks</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Medium</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Overblown</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="inputBlack">
           <OfxPropLabel>Black</OfxPropLabel>
           <OfxParamPropHint>Black</OfxParamPropHint>
@@ -1461,12 +1584,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.CrushBlacksWhitesAlpha">
+  <OfxPlugin name="com.FXHOME.HitFilm.CrushBlacksWhitesAlpha">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Crush Blacks &amp; Whites Alpha</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Keying - Matte Enhancement</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="inputBlack">
           <OfxPropLabel>Transparent</OfxPropLabel>
           <OfxParamPropHint>Transparent</OfxParamPropHint>
@@ -1478,12 +1606,20 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.DayForNight">
+  <OfxPlugin name="com.FXHOME.HitFilm.DayForNight">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Day For Night</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Color Grading</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Heavy Blue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Natural Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Sunrise</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="horizon">
           <OfxPropLabel>Horizon</OfxPropLabel>
           <OfxParamPropHint>Horizon</OfxParamPropHint>
@@ -1527,12 +1663,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Demult">
+  <OfxPlugin name="com.FXHOME.HitFilm.Demult">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Demult</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Keying</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeChoice name="alphaSource">
           <OfxPropLabel>Alpha From</OfxPropLabel>
           <OfxParamPropHint>Alpha From</OfxParamPropHint>
@@ -1543,7 +1684,7 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Derez">
+  <OfxPlugin name="com.FXHOME.HitFilm.Derez">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Derez (VGHS)</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Distort</OfxImageEffectPluginPropGrouping>
@@ -1553,6 +1694,11 @@
           <OfxPropLabel>Swap Inputs</OfxPropLabel>
           <OfxParamPropHint>Swap Inputs</OfxParamPropHint>
         </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeChoice name="view">
           <OfxPropLabel>View</OfxPropLabel>
           <OfxParamPropHint>View</OfxParamPropHint>
@@ -1794,7 +1940,7 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.DifferenceKey">
+  <OfxPlugin name="com.FXHOME.HitFilm.DifferenceKey">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Difference Key</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Keying</OfxImageEffectPluginPropGrouping>
@@ -1804,6 +1950,11 @@
           <OfxPropLabel>Swap Inputs</OfxPropLabel>
           <OfxParamPropHint>Swap Inputs</OfxParamPropHint>
         </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="comparisonBlur">
           <OfxPropLabel>Blurred Comparison</OfxPropLabel>
           <OfxParamPropHint>Blurred Comparison</OfxParamPropHint>
@@ -1819,12 +1970,20 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Diffuse">
+  <OfxPlugin name="com.FXHOME.HitFilm.Diffuse">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Diffuse</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Blurs</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Heavy</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Soften</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Subtle</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeInteger name="radius">
           <OfxPropLabel>Radius (deprecated)</OfxPropLabel>
           <OfxParamPropHint>Radius (deprecated)</OfxParamPropHint>
@@ -1840,12 +1999,19 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.DimensionRift">
+  <OfxPlugin name="com.FXHOME.HitFilm.DimensionRift">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Dimension Rift</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Generate</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>FireOrb</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>MystiqueOrb</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeGroup name="Shape270">
           <OfxPropLabel>Shape</OfxPropLabel>
           <OfxParamPropHint>Shape</OfxParamPropHint>
@@ -1957,7 +2123,7 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.DisplacementMap">
+  <OfxPlugin name="com.FXHOME.HitFilm.DisplacementMap">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Displacement</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Distort</OfxImageEffectPluginPropGrouping>
@@ -1967,6 +2133,11 @@
           <OfxPropLabel>Swap Inputs</OfxPropLabel>
           <OfxParamPropHint>Swap Inputs</OfxParamPropHint>
         </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeChoice name="horizontalDisplacement">
           <OfxPropLabel>Horizontal Displacement</OfxPropLabel>
           <OfxParamPropHint>Horizontal Displacement</OfxParamPropHint>
@@ -2011,12 +2182,26 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.DropShadow">
+  <OfxPlugin name="com.FXHOME.HitFilm.DropShadow">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Drop Shadow</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Generate</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Big Halo</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Deep Lower Left</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Deep Lower Right</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Faint</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hard Outline</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Harsh</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Light From Below</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Outer Glow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Soft Outline</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="angle">
           <OfxPropLabel>Angle</OfxPropLabel>
           <OfxParamPropHint>Angle</OfxParamPropHint>
@@ -2060,12 +2245,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Emboss">
+  <OfxPlugin name="com.FXHOME.HitFilm.Emboss">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Emboss</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Stylize</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="direction">
           <OfxPropLabel>Direction</OfxPropLabel>
           <OfxParamPropHint>Direction</OfxParamPropHint>
@@ -2085,12 +2275,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.EnvironmentMapTransform">
+  <OfxPlugin name="com.FXHOME.HitFilm.EnvironmentMapTransform">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite 360 Video Transform</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - 360 Video</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="envTrasnformXRot">
           <OfxPropLabel>X Rotation</OfxPropLabel>
           <OfxParamPropHint>X Rotation</OfxParamPropHint>
@@ -2132,12 +2327,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.ErodeWhite">
+  <OfxPlugin name="com.FXHOME.HitFilm.ErodeWhite">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Erode White</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Keying - Matte Enhancement</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="choke">
           <OfxPropLabel>Choke</OfxPropLabel>
           <OfxParamPropHint>Choke</OfxParamPropHint>
@@ -2149,12 +2349,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.FindEdges">
+  <OfxPlugin name="com.FXHOME.HitFilm.FindEdges">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Find Edges</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Stylize</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeBoolean name="isInverted">
           <OfxPropLabel>Invert</OfxPropLabel>
           <OfxParamPropHint>Invert</OfxParamPropHint>
@@ -2162,12 +2367,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.FisheyeWarp">
+  <OfxPlugin name="com.FXHOME.HitFilm.FisheyeWarp">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Spherical Warp</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Warp</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble2D name="center">
           <OfxPropLabel>Center</OfxPropLabel>
           <OfxParamPropHint>Center</OfxParamPropHint>
@@ -2209,12 +2419,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.FisheyeWarp2">
+  <OfxPlugin name="com.FXHOME.HitFilm.FisheyeWarp2">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Action Cam Lens Distort</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Warp</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeChoice name="preset">
           <OfxPropLabel>Preset</OfxPropLabel>
           <OfxParamPropHint>Preset</OfxParamPropHint>
@@ -2256,19 +2471,19 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.FractalNoise">
+  <OfxPlugin name="com.FXHOME.HitFilm.FractalNoise">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Fractal Noise</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Generate</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeChoice name="pluginPreset">
-          <OfxPropLabel>Preset</OfxPropLabel>
+          <OfxPropLabel />
           <OfxParamPropHint />
           <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>Atmosphere Fog</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>Cooling Lava</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Drifting Marble</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Drifting Clouds</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>Green Marble</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>Jade</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>Matrix</OfxParamPropChoiceOption>
@@ -2418,12 +2633,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Glow">
+  <OfxPlugin name="com.FXHOME.HitFilm.Glow">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Glow</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Lights &amp; Flares</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="intensity">
           <OfxPropLabel>Intensity</OfxPropLabel>
           <OfxParamPropHint>Intensity</OfxParamPropHint>
@@ -2521,12 +2741,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.GlowDarks">
+  <OfxPlugin name="com.FXHOME.HitFilm.GlowDarks">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Glow Darks</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Stylize</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="intensity">
           <OfxPropLabel>Intensity</OfxPropLabel>
           <OfxParamPropHint>Intensity</OfxParamPropHint>
@@ -2569,12 +2794,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Grain">
+  <OfxPlugin name="com.FXHOME.HitFilm.Grain">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Grain</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Grunge</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="amount">
           <OfxPropLabel>Amount</OfxPropLabel>
           <OfxParamPropHint>Amount</OfxParamPropHint>
@@ -2594,12 +2824,21 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Grid">
+  <OfxPlugin name="com.FXHOME.HitFilm.Grid">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Grid</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Generate</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Block</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Grid of Fourths</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Grid of Thirds</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Title Safe Boundaries</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble2D name="point1">
           <OfxPropLabel>Point 1</OfxPropLabel>
           <OfxParamPropHint>Point 1</OfxParamPropHint>
@@ -2655,12 +2894,24 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.HalfTone">
+  <OfxPlugin name="com.FXHOME.HitFilm.HalfTone">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Half Tone</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Grunge</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Extra Fine</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Faded Newsprint</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Fine</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Heavy</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Negative</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Old News</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Standard</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeInteger name="resolution">
           <OfxPropLabel>Resolution</OfxPropLabel>
           <OfxParamPropHint>Resolution</OfxParamPropHint>
@@ -2704,12 +2955,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.HeatDistortion">
+  <OfxPlugin name="com.FXHOME.HitFilm.HeatDistortion">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Heat Distortion</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Distort</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="noise_scale">
           <OfxPropLabel>Scale</OfxPropLabel>
           <OfxParamPropHint>Scale</OfxParamPropHint>
@@ -2812,12 +3068,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Hotspots">
+  <OfxPlugin name="com.FXHOME.HitFilm.Hotspots">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Hotspots</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Color Correction</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="threshold">
           <OfxPropLabel>Threshold</OfxPropLabel>
           <OfxParamPropHint>Threshold</OfxParamPropHint>
@@ -2845,12 +3106,24 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.HueColorize">
+  <OfxPlugin name="com.FXHOME.HitFilm.HueColorize">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Hue Colorize</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Color Grading</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Blue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cyan</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Green</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Mangenta</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Orange</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Red</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Yellow</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="hue">
           <OfxPropLabel>Hue</OfxPropLabel>
           <OfxParamPropHint>Hue</OfxParamPropHint>
@@ -2870,12 +3143,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.HueKey">
+  <OfxPlugin name="com.FXHOME.HitFilm.HueKey">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Hue &amp; RGB Key</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Keying</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeRGB name="leaveColor">
           <OfxPropLabel>Color</OfxPropLabel>
           <OfxParamPropHint>Color</OfxParamPropHint>
@@ -2905,12 +3183,23 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.HueShift">
+  <OfxPlugin name="com.FXHOME.HitFilm.HueShift">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Hue Shift</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Color Grading</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>60 Yellow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>120 Green</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>180 Cyan</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>240 Blue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>310 Magenta</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Party Hard (Animated)</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="shift">
           <OfxPropLabel>Hue Shift</OfxPropLabel>
           <OfxParamPropHint>Hue Shift</OfxParamPropHint>
@@ -2926,12 +3215,18 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.InsectVision">
+  <OfxPlugin name="com.FXHOME.HitFilm.InsectVision">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Insect Vision</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Distort</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hexagon</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble2D name="center">
           <OfxPropLabel>Center</OfxPropLabel>
           <OfxParamPropHint>Center</OfxParamPropHint>
@@ -2962,20 +3257,31 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.InvertAlpha">
+  <OfxPlugin name="com.FXHOME.HitFilm.InvertAlpha">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Invert Alpha</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Keying - Matte Enhancement</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
-      <OfxImageEffectContext name="default" />
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+      </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Jitter">
+  <OfxPlugin name="com.FXHOME.HitFilm.Jitter">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Jitter</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Grunge</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeInteger name="frameGroup">
           <OfxPropLabel>Frame Group Size</OfxPropLabel>
           <OfxParamPropHint>Frame Group Size</OfxParamPropHint>
@@ -2991,12 +3297,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.LensBlur">
+  <OfxPlugin name="com.FXHOME.HitFilm.LensBlur">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Lens Blur</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Blurs</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeChoice name="sourceChannel">
           <OfxPropLabel>Source Channel</OfxPropLabel>
           <OfxParamPropHint>Source Channel</OfxParamPropHint>
@@ -3086,12 +3397,31 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Letterbox">
+  <OfxPlugin name="com.FXHOME.HitFilm.Letterbox">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Letterbox</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Generate</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1:1 (Square)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1.43:1 (IMAX Film Full Frame)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1.85:1 (Widescreen Cinema)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>2:35:1 (Widescreen Cinema)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>2.39:1 (Widescreen Cinema)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>2.76:1 (Ultra Panavision)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>3:2 (35mm Full Frame)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>4:3 (SD TV)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>5:3 (Super 16mm Full Frame)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>5:4 (early TV)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>6:5: (Movietone) Film</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>11:8 (Acadamy standard film)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>16:9 (HD video)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>16:10 (Widescreen Monitor)</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeRGB name="barColor">
           <OfxPropLabel>Color</OfxPropLabel>
           <OfxParamPropHint>Color</OfxParamPropHint>
@@ -3120,12 +3450,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.LightFlares">
+  <OfxPlugin name="com.FXHOME.HitFilm.LightFlares">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Light Flares</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Lights &amp; Flares</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeChoice name="flareType">
           <OfxPropLabel>Flare Type</OfxPropLabel>
           <OfxParamPropHint>Flare Type</OfxParamPropHint>
@@ -3280,7 +3615,7 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.LightWrap">
+  <OfxPlugin name="com.FXHOME.HitFilm.LightWrap">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Light Wrap</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Keying - Matte Enhancement</OfxImageEffectPluginPropGrouping>
@@ -3290,6 +3625,11 @@
           <OfxPropLabel>Swap Inputs</OfxPropLabel>
           <OfxParamPropHint>Swap Inputs</OfxParamPropHint>
         </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="radius">
           <OfxPropLabel>Radius</OfxPropLabel>
           <OfxParamPropHint>Radius</OfxParamPropHint>
@@ -3320,12 +3660,23 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Lightning">
+  <OfxPlugin name="com.FXHOME.HitFilm.Lightning">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Lightning &amp; Electricity</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Particles &amp; Simulation</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Distant Lightning (Animated)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Force Lightning</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Jacob's Ladder (Animated)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Lightning Strike (Animated)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Power Coupling</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Spot Lightning</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeInteger name="seed">
           <OfxPropLabel>Seed</OfxPropLabel>
           <OfxParamPropHint>Seed</OfxParamPropHint>
@@ -3520,12 +3871,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.LightsaberGlow">
+  <OfxPlugin name="com.FXHOME.HitFilm.LightsaberGlow">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Lightsword (Glow Only)</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Generate</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeGroup name="Inner Glow243">
           <OfxPropLabel>Inner Glow</OfxPropLabel>
           <OfxParamPropHint>Inner Glow</OfxParamPropHint>
@@ -3592,12 +3948,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.LuminanceKey">
+  <OfxPlugin name="com.FXHOME.HitFilm.LuminanceKey">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Luminance Key</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Keying</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeChoice name="keyType">
           <OfxPropLabel>Key Type</OfxPropLabel>
           <OfxParamPropHint>Key Type</OfxParamPropHint>
@@ -3626,12 +3987,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Magnify">
+  <OfxPlugin name="com.FXHOME.HitFilm.Magnify">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Magnify</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Distort</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble2D name="center">
           <OfxPropLabel>Center</OfxPropLabel>
           <OfxParamPropHint>Center</OfxParamPropHint>
@@ -3711,12 +4077,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.ManualLightsaber">
+  <OfxPlugin name="com.FXHOME.HitFilm.ManualLightsaber">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Lightsword (4-Point Manual)</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Generate</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeGroup name="Hilt253">
           <OfxPropLabel>Hilt</OfxPropLabel>
           <OfxParamPropHint>Hilt</OfxParamPropHint>
@@ -3863,12 +4234,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.MatteCleaner">
+  <OfxPlugin name="com.FXHOME.HitFilm.MatteCleaner">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Matte Cleaner</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Keying - Matte Enhancement</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="smooth">
           <OfxPropLabel>Smooth</OfxPropLabel>
           <OfxParamPropHint>Smooth</OfxParamPropHint>
@@ -3888,12 +4264,22 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Mosaic">
+  <OfxPlugin name="com.FXHOME.HitFilm.Mosaic">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Mosaic</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Distort</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>10x5</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>40x20</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>80x40</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>100x50</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>200x100</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="horizontalBlocks">
           <OfxPropLabel>Horizontal Blocks</OfxPropLabel>
           <OfxParamPropHint>Horizontal Blocks</OfxParamPropHint>
@@ -3905,12 +4291,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.MotionBlur">
+  <OfxPlugin name="com.FXHOME.HitFilm.MotionBlur">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Motion Blur</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Blurs</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="motionBlurScale">
           <OfxPropLabel>Shutter Angle</OfxPropLabel>
           <OfxParamPropHint>Shutter Angle</OfxParamPropHint>
@@ -3950,12 +4341,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.MotionTrails">
+  <OfxPlugin name="com.FXHOME.HitFilm.MotionTrails">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Motion Trails</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Temporal</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="frameRadius">
           <OfxPropLabel>Frame Radius</OfxPropLabel>
           <OfxParamPropHint>Frame Radius</OfxParamPropHint>
@@ -3967,12 +4363,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.NeonGlow">
+  <OfxPlugin name="com.FXHOME.HitFilm.NeonGlow">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Neon Glow</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Lights &amp; Flares</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="intensity">
           <OfxPropLabel>Intensity</OfxPropLabel>
           <OfxParamPropHint>Intensity</OfxParamPropHint>
@@ -4015,12 +4416,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Noise">
+  <OfxPlugin name="com.FXHOME.HitFilm.Noise">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Noise</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Grunge</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="amount">
           <OfxPropLabel>Amount</OfxPropLabel>
           <OfxParamPropHint>Amount</OfxParamPropHint>
@@ -4036,12 +4442,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Parallax">
+  <OfxPlugin name="com.FXHOME.HitFilm.Parallax">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Parallax</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Scene</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="depth">
           <OfxPropLabel>Depth</OfxPropLabel>
           <OfxParamPropHint>Depth</OfxParamPropHint>
@@ -4057,12 +4468,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.PerspectiveWarp">
+  <OfxPlugin name="com.FXHOME.HitFilm.PerspectiveWarp">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Perspective Warp</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Warp</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="latitude">
           <OfxPropLabel>Latitude</OfxPropLabel>
           <OfxParamPropHint>Latitude</OfxParamPropHint>
@@ -4096,12 +4512,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.PolarWarp">
+  <OfxPlugin name="com.FXHOME.HitFilm.PolarWarp">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Polar Warp</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Warp</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="rotation">
           <OfxPropLabel>Rotation</OfxPropLabel>
           <OfxParamPropHint>Rotation</OfxParamPropHint>
@@ -4143,12 +4564,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.PondRipple">
+  <OfxPlugin name="com.FXHOME.HitFilm.PondRipple">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Pond Ripple</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Generate</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeInteger name="seed">
           <OfxPropLabel>Seed</OfxPropLabel>
           <OfxParamPropHint>Seed</OfxParamPropHint>
@@ -4192,12 +4618,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Posterize">
+  <OfxPlugin name="com.FXHOME.HitFilm.Posterize">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Posterize</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Stylize</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="fillBlur">
           <OfxPropLabel>Smooth Source</OfxPropLabel>
           <OfxParamPropHint>Smooth Source</OfxParamPropHint>
@@ -4249,12 +4680,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.QuadWarp">
+  <OfxPlugin name="com.FXHOME.HitFilm.QuadWarp">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Quad Warp</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Warp</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeGroup name="Top Left280">
           <OfxPropLabel>Top Left</OfxPropLabel>
           <OfxParamPropHint>Top Left</OfxParamPropHint>
@@ -4298,12 +4734,21 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.RadialBlur">
+  <OfxPlugin name="com.FXHOME.HitFilm.RadialBlur">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Radial Blur</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Blurs</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Basic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Heavy</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Subtle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Top Left Heavy</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble2D name="center">
           <OfxPropLabel>Center</OfxPropLabel>
           <OfxParamPropHint>Center</OfxParamPropHint>
@@ -4315,12 +4760,20 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.RadialGradient">
+  <OfxPlugin name="com.FXHOME.HitFilm.RadialGradient">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Radial Gradient</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Gradients &amp; Fills</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Darkness</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>JamesBond</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>OpticalFlare</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble2D name="centerPoint">
           <OfxPropLabel>Center</OfxPropLabel>
           <OfxParamPropHint>Center</OfxParamPropHint>
@@ -4395,12 +4848,22 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.RadioWaves">
+  <OfxPlugin name="com.FXHOME.HitFilm.RadioWaves">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Radio Waves</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Generate</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Bloom</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cloverleaf</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Lotus</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Shifted Square</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Wind Wheel</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble2D name="center">
           <OfxPropLabel>Position</OfxPropLabel>
           <OfxParamPropHint>Position</OfxParamPropHint>
@@ -4518,12 +4981,23 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.RainOnGlass">
+  <OfxPlugin name="com.FXHOME.HitFilm.RainOnGlass">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Rain On Glass</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Particles &amp; Simulation</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Downpour</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Heavy</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Medium</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Mist</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Sprinkling</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeGroup name="Simulation303">
           <OfxPropLabel>Simulation</OfxPropLabel>
           <OfxParamPropHint>Simulation</OfxParamPropHint>
@@ -4602,12 +5076,21 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Reflection">
+  <OfxPlugin name="com.FXHOME.HitFilm.Reflection">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Reflection</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Generate</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Bottom</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>SideBySide</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>SideBySide (Inverted)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Top</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble2D name="center">
           <OfxPropLabel>Center</OfxPropLabel>
           <OfxParamPropHint>Center</OfxParamPropHint>
@@ -4619,12 +5102,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.RemoveFringe">
+  <OfxPlugin name="com.FXHOME.HitFilm.RemoveFringe">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Remove Color Matting</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Keying - Matte Enhancement</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeRGB name="backgroungColor">
           <OfxPropLabel>Background Color</OfxPropLabel>
           <OfxParamPropHint>Background Color</OfxParamPropHint>
@@ -4632,15 +5120,21 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Reverse">
+  <OfxPlugin name="com.FXHOME.HitFilm.Reverse">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Time Reverse</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Temporal</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
-      <OfxImageEffectContext name="default" />
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+      </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.SetMatte">
+  <OfxPlugin name="com.FXHOME.HitFilm.SetMatte">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Set Matte</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Keying - Matte Enhancement</OfxImageEffectPluginPropGrouping>
@@ -4650,6 +5144,11 @@
           <OfxPropLabel>Swap Inputs</OfxPropLabel>
           <OfxParamPropHint>Swap Inputs</OfxParamPropHint>
         </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeChoice name="matteChannel">
           <OfxPropLabel>Matte Source</OfxPropLabel>
           <OfxParamPropHint>Matte Source</OfxParamPropHint>
@@ -4678,12 +5177,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Shake">
+  <OfxPlugin name="com.FXHOME.HitFilm.Shake">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Shake</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Grunge</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="amount">
           <OfxPropLabel>Amount</OfxPropLabel>
           <OfxParamPropHint>Amount</OfxParamPropHint>
@@ -4779,12 +5283,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Solarize">
+  <OfxPlugin name="com.FXHOME.HitFilm.Solarize">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Solarize</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Stylize</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="threshold">
           <OfxPropLabel>Threshold</OfxPropLabel>
           <OfxParamPropHint>Threshold</OfxParamPropHint>
@@ -4808,12 +5317,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Speed">
+  <OfxPlugin name="com.FXHOME.HitFilm.Speed">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Speed</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Temporal</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="speed">
           <OfxPropLabel>Speed</OfxPropLabel>
           <OfxParamPropHint>Speed</OfxParamPropHint>
@@ -4821,14 +5335,14 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Sphere">
+  <OfxPlugin name="com.FXHOME.HitFilm.Sphere">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Sphere</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Generate</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeChoice name="pluginPreset">
-          <OfxPropLabel>Preset</OfxPropLabel>
+          <OfxPropLabel />
           <OfxParamPropHint />
           <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>Basic</OfxParamPropChoiceOption>
@@ -4974,12 +5488,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.SpillRemoval">
+  <OfxPlugin name="com.FXHOME.HitFilm.SpillRemoval">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Spill Removal</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Keying - Matte Enhancement</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeChoice name="screenColor">
           <OfxPropLabel>Screen Color</OfxPropLabel>
           <OfxParamPropHint>Screen Color</OfxParamPropHint>
@@ -5000,12 +5519,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Stutter">
+  <OfxPlugin name="com.FXHOME.HitFilm.Stutter">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Stutter</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Grunge</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeInteger name="freezeFrames">
           <OfxPropLabel>Freeze Frames</OfxPropLabel>
           <OfxParamPropHint>Freeze Frames</OfxParamPropHint>
@@ -5017,12 +5541,22 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.ThreeStripColor">
+  <OfxPlugin name="com.FXHOME.HitFilm.ThreeStripColor">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Three Strip Color</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Color Grading</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Strong Blue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Strong Green</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Strong Purple</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Strong Red</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Strong Yellow</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="redStrength">
           <OfxPropLabel>Red Strength</OfxPropLabel>
           <OfxParamPropHint>Red Strength</OfxParamPropHint>
@@ -5038,12 +5572,22 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Threshold">
+  <OfxPlugin name="com.FXHOME.HitFilm.Threshold">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Threshold</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Stylize</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Blue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Dark</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Green</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Red</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="threshold">
           <OfxPropLabel>Threshold</OfxPropLabel>
           <OfxParamPropHint>Threshold</OfxParamPropHint>
@@ -5069,12 +5613,21 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Tiles">
+  <OfxPlugin name="com.FXHOME.HitFilm.Tiles">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Tile</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Generate</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>3x3</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>5x5</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>7x7</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>10x10</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="scale">
           <OfxPropLabel>Scale</OfxPropLabel>
           <OfxParamPropHint>Scale</OfxParamPropHint>
@@ -5090,7 +5643,7 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.TimeDispalcement">
+  <OfxPlugin name="com.FXHOME.HitFilm.TimeDispalcement">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Time Displacement</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Temporal</OfxImageEffectPluginPropGrouping>
@@ -5100,6 +5653,11 @@
           <OfxPropLabel>Swap Inputs</OfxPropLabel>
           <OfxParamPropHint>Swap Inputs</OfxParamPropHint>
         </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeGroup name="Displacement25">
           <OfxPropLabel>Displacement</OfxPropLabel>
           <OfxParamPropHint>Displacement</OfxParamPropHint>
@@ -5134,12 +5692,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Timecode">
+  <OfxPlugin name="com.FXHOME.HitFilm.Timecode">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Timecode</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Generate</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeChoice name="format">
           <OfxPropLabel>Format</OfxPropLabel>
           <OfxParamPropHint>Format</OfxParamPropHint>
@@ -5182,12 +5745,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Tint">
+  <OfxPlugin name="com.FXHOME.HitFilm.Tint">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Tint</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Stylize</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeChoice name="brightnessUsed">
           <OfxPropLabel>Brightness used</OfxPropLabel>
           <OfxParamPropHint>Brightness used</OfxParamPropHint>
@@ -5210,12 +5778,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Twirl">
+  <OfxPlugin name="com.FXHOME.HitFilm.Twirl">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Twirl</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Distort</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="angle">
           <OfxPropLabel>Angle</OfxPropLabel>
           <OfxParamPropHint>Angle</OfxParamPropHint>
@@ -5238,12 +5811,22 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.TwoStripColor">
+  <OfxPlugin name="com.FXHOME.HitFilm.TwoStripColor">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Two Strip Color</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Color Grading</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Halloween</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Icy</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Inversion</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Modern Horror</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Sandy</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeRGB name="redFilter">
           <OfxPropLabel>Red Filter</OfxPropLabel>
           <OfxParamPropHint>Red Filter</OfxParamPropHint>
@@ -5275,12 +5858,23 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Vignette">
+  <OfxPlugin name="com.FXHOME.HitFilm.Vignette">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Vignette</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Color Grading</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>HD Heavy</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>HD High Key</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>HD Moderate</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>HD Soft</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>HD Vintage</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Heavy</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble2D name="centerPoint">
           <OfxPropLabel>Vignette Center</OfxPropLabel>
           <OfxParamPropHint>Vignette Center</OfxParamPropHint>
@@ -5328,12 +5922,23 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.VignetteExposure">
+  <OfxPlugin name="com.FXHOME.HitFilm.VignetteExposure">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Vignette Exposure</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Color Grading</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Heavily Overexposed</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Heavy</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Lighten Corners</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Moderate</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Moderately Overexposed</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="amount">
           <OfxPropLabel>Amount</OfxPropLabel>
           <OfxParamPropHint>Amount</OfxParamPropHint>
@@ -5369,7 +5974,7 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.VortexDisplacementWarp">
+  <OfxPlugin name="com.FXHOME.HitFilm.VortexDisplacementWarp">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Vortex Displacement Warp</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Warp</OfxImageEffectPluginPropGrouping>
@@ -5379,6 +5984,11 @@
           <OfxPropLabel>Swap Inputs</OfxPropLabel>
           <OfxParamPropHint>Swap Inputs</OfxParamPropHint>
         </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="angle">
           <OfxPropLabel>Angle</OfxPropLabel>
           <OfxParamPropHint>Angle</OfxParamPropHint>
@@ -5431,7 +6041,7 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.Waves">
+  <OfxPlugin name="com.FXHOME.HitFilm.Waves">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Waves</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Distort</OfxImageEffectPluginPropGrouping>
@@ -5441,6 +6051,11 @@
           <OfxPropLabel>Swap Inputs</OfxPropLabel>
           <OfxParamPropHint>Swap Inputs</OfxParamPropHint>
         </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="amplitude">
           <OfxPropLabel>Amplitude</OfxPropLabel>
           <OfxParamPropHint>Amplitude</OfxParamPropHint>
@@ -5535,12 +6150,17 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.WhiteBalance">
+  <OfxPlugin name="com.FXHOME.HitFilm.WhiteBalance">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite White Balance</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Color Correction</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeRGB name="newWhite">
           <OfxPropLabel>Color</OfxPropLabel>
           <OfxParamPropHint>Color</OfxParamPropHint>
@@ -5548,12 +6168,24 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.WitnessProtection">
+  <OfxPlugin name="com.FXHOME.HitFilm.WitnessProtection">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Witness Protection</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Distort</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Almost Recognizable</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Blur Extreme</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Blur Moderate</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Blur Subtle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pixelated Heavy</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pixelated Medium</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pixelated Small</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="size">
           <OfxPropLabel>Size</OfxPropLabel>
           <OfxParamPropHint>Size</OfxParamPropHint>
@@ -5611,12 +6243,22 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilm.ZoomBlur">
+  <OfxPlugin name="com.FXHOME.HitFilm.ZoomBlur">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Zoom Blur</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Blurs</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Basic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hyperspeed</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Subtle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Sunrise</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Top Right</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble name="quality">
           <OfxPropLabel>Quality</OfxPropLabel>
           <OfxParamPropHint>Quality</OfxParamPropHint>
@@ -5632,12 +6274,19 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
-<OfxPlugin name="com.FXHOME.HitFilmClouds">
+  <OfxPlugin name="com.FXHOME.HitFilmClouds">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Ignite Clouds</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Ignite - Generate</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>From FXHOME Ltd (UK). www.hitfilm.com</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="pluginPreset">
+          <OfxPropLabel />
+          <OfxParamPropHint />
+          <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Starfield</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>TVNoise</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeDouble2D name="center">
           <OfxPropLabel>Center</OfxPropLabel>
           <OfxParamPropHint>Center</OfxParamPropHint>
