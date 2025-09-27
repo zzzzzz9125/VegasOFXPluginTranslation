@@ -11,7 +11,7 @@
           <OfxParamPropHint />
           <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
-        <OfxParamTypeGroup name="Start Point27">
+        <OfxParamTypeGroup name="Start Point48">
           <OfxPropLabel>起始点</OfxPropLabel>
           <OfxParamPropHint>起始点</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -23,7 +23,7 @@
           <OfxPropLabel>深度</OfxPropLabel>
           <OfxParamPropHint>深度</OfxParamPropHint>
         </OfxParamTypeDouble>
-        <OfxParamTypeGroup name="End Point28">
+        <OfxParamTypeGroup name="End Point49">
           <OfxPropLabel>结束点</OfxPropLabel>
           <OfxParamPropHint>结束点</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -51,7 +51,7 @@
           <OfxPropLabel>光束数量</OfxPropLabel>
           <OfxParamPropHint>光束数量</OfxParamPropHint>
         </OfxParamTypeInteger>
-        <OfxParamTypeGroup name="Beam 129">
+        <OfxParamTypeGroup name="Beam 150">
           <OfxPropLabel>光束 1</OfxPropLabel>
           <OfxParamPropHint>光束 1</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -105,7 +105,7 @@
           <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
-        <OfxParamTypeGroup name="Spiral30">
+        <OfxParamTypeGroup name="Spiral51">
           <OfxPropLabel>螺旋</OfxPropLabel>
           <OfxParamPropHint>螺旋</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -129,7 +129,7 @@
           <OfxPropLabel>旋转速度</OfxPropLabel>
           <OfxParamPropHint>旋转速度</OfxParamPropHint>
         </OfxParamTypeDouble>
-        <OfxParamTypeGroup name="Beam 231">
+        <OfxParamTypeGroup name="Beam 252">
           <OfxPropLabel>光束 2</OfxPropLabel>
           <OfxParamPropHint>光束 2</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -183,7 +183,7 @@
           <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
-        <OfxParamTypeGroup name="Spiral32">
+        <OfxParamTypeGroup name="Spiral53">
           <OfxPropLabel>螺旋</OfxPropLabel>
           <OfxParamPropHint>螺旋</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -207,7 +207,7 @@
           <OfxPropLabel>旋转速度</OfxPropLabel>
           <OfxParamPropHint>旋转速度</OfxParamPropHint>
         </OfxParamTypeDouble>
-        <OfxParamTypeGroup name="Beam 333">
+        <OfxParamTypeGroup name="Beam 354">
           <OfxPropLabel>光束 3</OfxPropLabel>
           <OfxParamPropHint>光束 3</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -261,7 +261,7 @@
           <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
-        <OfxParamTypeGroup name="Spiral34">
+        <OfxParamTypeGroup name="Spiral55">
           <OfxPropLabel>螺旋</OfxPropLabel>
           <OfxParamPropHint>螺旋</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -285,7 +285,7 @@
           <OfxPropLabel>旋转速度</OfxPropLabel>
           <OfxParamPropHint>旋转速度</OfxParamPropHint>
         </OfxParamTypeDouble>
-        <OfxParamTypeGroup name="Beam 435">
+        <OfxParamTypeGroup name="Beam 456">
           <OfxPropLabel>光束 4</OfxPropLabel>
           <OfxParamPropHint>光束 4</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -339,7 +339,7 @@
           <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
-        <OfxParamTypeGroup name="Spiral36">
+        <OfxParamTypeGroup name="Spiral57">
           <OfxPropLabel>螺旋</OfxPropLabel>
           <OfxParamPropHint>螺旋</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -363,7 +363,7 @@
           <OfxPropLabel>旋转速度</OfxPropLabel>
           <OfxParamPropHint>旋转速度</OfxParamPropHint>
         </OfxParamTypeDouble>
-        <OfxParamTypeGroup name="Beam 537">
+        <OfxParamTypeGroup name="Beam 558">
           <OfxPropLabel>光束 5</OfxPropLabel>
           <OfxParamPropHint>光束 5</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -417,7 +417,7 @@
           <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
-        <OfxParamTypeGroup name="Spiral38">
+        <OfxParamTypeGroup name="Spiral59">
           <OfxPropLabel>螺旋</OfxPropLabel>
           <OfxParamPropHint>螺旋</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -441,7 +441,7 @@
           <OfxPropLabel>旋转速度</OfxPropLabel>
           <OfxParamPropHint>旋转速度</OfxParamPropHint>
         </OfxParamTypeDouble>
-        <OfxParamTypeGroup name="Beam 639">
+        <OfxParamTypeGroup name="Beam 660">
           <OfxPropLabel>光束 6</OfxPropLabel>
           <OfxParamPropHint>光束 6</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -495,7 +495,7 @@
           <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
-        <OfxParamTypeGroup name="Spiral40">
+        <OfxParamTypeGroup name="Spiral61">
           <OfxPropLabel>螺旋</OfxPropLabel>
           <OfxParamPropHint>螺旋</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -519,7 +519,7 @@
           <OfxPropLabel>旋转速度</OfxPropLabel>
           <OfxParamPropHint>旋转速度</OfxParamPropHint>
         </OfxParamTypeDouble>
-        <OfxParamTypeGroup name="Beam 741">
+        <OfxParamTypeGroup name="Beam 762">
           <OfxPropLabel>光束 7</OfxPropLabel>
           <OfxParamPropHint>光束 7</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -573,7 +573,7 @@
           <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
-        <OfxParamTypeGroup name="Spiral42">
+        <OfxParamTypeGroup name="Spiral63">
           <OfxPropLabel>螺旋</OfxPropLabel>
           <OfxParamPropHint>螺旋</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -597,7 +597,7 @@
           <OfxPropLabel>旋转速度</OfxPropLabel>
           <OfxParamPropHint>旋转速度</OfxParamPropHint>
         </OfxParamTypeDouble>
-        <OfxParamTypeGroup name="Beam 843">
+        <OfxParamTypeGroup name="Beam 864">
           <OfxPropLabel>光束 8</OfxPropLabel>
           <OfxParamPropHint>光束 8</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -651,7 +651,7 @@
           <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
-        <OfxParamTypeGroup name="Spiral44">
+        <OfxParamTypeGroup name="Spiral65">
           <OfxPropLabel>螺旋</OfxPropLabel>
           <OfxParamPropHint>螺旋</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -675,7 +675,7 @@
           <OfxPropLabel>旋转速度</OfxPropLabel>
           <OfxParamPropHint>旋转速度</OfxParamPropHint>
         </OfxParamTypeDouble>
-        <OfxParamTypeGroup name="Beam 945">
+        <OfxParamTypeGroup name="Beam 966">
           <OfxPropLabel>光束 9</OfxPropLabel>
           <OfxParamPropHint>光束 9</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -729,7 +729,7 @@
           <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
-        <OfxParamTypeGroup name="Spiral46">
+        <OfxParamTypeGroup name="Spiral67">
           <OfxPropLabel>螺旋</OfxPropLabel>
           <OfxParamPropHint>螺旋</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -753,7 +753,7 @@
           <OfxPropLabel>旋转速度</OfxPropLabel>
           <OfxParamPropHint>旋转速度</OfxParamPropHint>
         </OfxParamTypeDouble>
-        <OfxParamTypeGroup name="Beam 1047">
+        <OfxParamTypeGroup name="Beam 1068">
           <OfxPropLabel>光束 10</OfxPropLabel>
           <OfxParamPropHint>光束 10</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -807,7 +807,7 @@
           <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>减去</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
-        <OfxParamTypeGroup name="Spiral48">
+        <OfxParamTypeGroup name="Spiral69">
           <OfxPropLabel>螺旋</OfxPropLabel>
           <OfxParamPropHint>螺旋</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -831,7 +831,7 @@
           <OfxPropLabel>旋转速度</OfxPropLabel>
           <OfxParamPropHint>旋转速度</OfxParamPropHint>
         </OfxParamTypeDouble>
-        <OfxParamTypeGroup name="Global Controls49">
+        <OfxParamTypeGroup name="Global Controls70">
           <OfxPropLabel>全局控制</OfxPropLabel>
           <OfxParamPropHint>全局控制</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -918,7 +918,7 @@
           <OfxParamPropChoiceOption>九边形</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>十边形</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
-        <OfxParamTypeGroup name="Shape52">
+        <OfxParamTypeGroup name="Shape73">
           <OfxPropLabel>形状</OfxPropLabel>
           <OfxParamPropHint>形状</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -938,7 +938,7 @@
           <OfxPropLabel>偏移</OfxPropLabel>
           <OfxParamPropHint>偏移</OfxParamPropHint>
         </OfxParamTypeDouble>
-        <OfxParamTypeGroup name="Scale53">
+        <OfxParamTypeGroup name="Scale74">
           <OfxPropLabel>缩放</OfxPropLabel>
           <OfxParamPropHint>缩放</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -969,7 +969,7 @@
           <OfxParamPropChoiceOption>仅红色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>轻微色差</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
-        <OfxParamTypeGroup name="Radius56">
+        <OfxParamTypeGroup name="Radius77">
           <OfxPropLabel>半径</OfxPropLabel>
           <OfxParamPropHint>半径</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -989,7 +989,7 @@
           <OfxPropLabel>Alpha</OfxPropLabel>
           <OfxParamPropHint>Alpha</OfxParamPropHint>
         </OfxParamTypeDouble>
-        <OfxParamTypeGroup name="Dimension57">
+        <OfxParamTypeGroup name="Dimension78">
           <OfxPropLabel>维度</OfxPropLabel>
           <OfxParamPropHint>维度</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -1043,7 +1043,7 @@
           <OfxPropLabel>偏移</OfxPropLabel>
           <OfxParamPropHint>偏移</OfxParamPropHint>
         </OfxParamTypeDouble>
-        <OfxParamTypeGroup name="Alignment59">
+        <OfxParamTypeGroup name="Alignment80">
           <OfxPropLabel>对齐</OfxPropLabel>
           <OfxParamPropHint>对齐</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -1106,11 +1106,11 @@
           <OfxParamPropChoiceOption>线性</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>立方</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
-        <OfxParamTypeGroup name="Transform74">
+        <OfxParamTypeGroup name="Transform14">
           <OfxPropLabel>变换</OfxPropLabel>
           <OfxParamPropHint>变换</OfxParamPropHint>
         </OfxParamTypeGroup>
-        <OfxParamTypeGroup name="Position75">
+        <OfxParamTypeGroup name="Position15">
           <OfxPropLabel>位置</OfxPropLabel>
           <OfxParamPropHint>位置</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -1130,7 +1130,7 @@
           <OfxPropLabel>缩放</OfxPropLabel>
           <OfxParamPropHint>缩放</OfxParamPropHint>
         </OfxParamTypeDouble>
-        <OfxParamTypeGroup name="Axis Scale76">
+        <OfxParamTypeGroup name="Axis Scale16">
           <OfxPropLabel>轴缩放</OfxPropLabel>
           <OfxParamPropHint>轴缩放</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -1142,7 +1142,7 @@
           <OfxPropLabel>Y</OfxPropLabel>
           <OfxParamPropHint>Y</OfxParamPropHint>
         </OfxParamTypeDouble>
-        <OfxParamTypeGroup name="Sub Settings77">
+        <OfxParamTypeGroup name="Sub Settings17">
           <OfxPropLabel>子设置</OfxPropLabel>
           <OfxParamPropHint>子设置</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -1166,11 +1166,11 @@
           <OfxPropLabel>中心子缩放</OfxPropLabel>
           <OfxParamPropHint>中心子缩放</OfxParamPropHint>
         </OfxParamTypeBoolean>
-        <OfxParamTypeGroup name="Appearance78">
+        <OfxParamTypeGroup name="Appearance18">
           <OfxPropLabel>外观</OfxPropLabel>
           <OfxParamPropHint>外观</OfxParamPropHint>
         </OfxParamTypeGroup>
-        <OfxParamTypeGroup name="Color 179">
+        <OfxParamTypeGroup name="Color 119">
           <OfxPropLabel>颜色 1</OfxPropLabel>
           <OfxParamPropHint>颜色 1</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -1182,7 +1182,7 @@
           <OfxPropLabel>不透明度</OfxPropLabel>
           <OfxParamPropHint>不透明度</OfxParamPropHint>
         </OfxParamTypeDouble>
-        <OfxParamTypeGroup name="Color 280">
+        <OfxParamTypeGroup name="Color 220">
           <OfxPropLabel>颜色 2</OfxPropLabel>
           <OfxParamPropHint>颜色 2</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -12331,7 +12331,7 @@
           <OfxParamPropHint />
           <OfxParamPropChoiceOption>预设</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
-        <OfxParamTypeGroup name="Global Transform0">
+        <OfxParamTypeGroup name="Global Transform21">
           <OfxPropLabel>全局变换</OfxPropLabel>
           <OfxParamPropHint>全局变换</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -12343,7 +12343,7 @@
           <OfxPropLabel>色度偏移</OfxPropLabel>
           <OfxParamPropHint>色度偏移</OfxParamPropHint>
         </OfxParamTypeDouble>
-        <OfxParamTypeGroup name="Shadow Transform1">
+        <OfxParamTypeGroup name="Shadow Transform22">
           <OfxPropLabel>阴影变换</OfxPropLabel>
           <OfxParamPropHint>阴影变换</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -12355,7 +12355,7 @@
           <OfxPropLabel>色度</OfxPropLabel>
           <OfxParamPropHint>色度</OfxParamPropHint>
         </OfxParamTypeDouble>
-        <OfxParamTypeGroup name="Midtones Transform2">
+        <OfxParamTypeGroup name="Midtones Transform23">
           <OfxPropLabel>中间调变换</OfxPropLabel>
           <OfxParamPropHint>中间调变换</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -12367,7 +12367,7 @@
           <OfxPropLabel>色度</OfxPropLabel>
           <OfxParamPropHint>色度</OfxParamPropHint>
         </OfxParamTypeDouble>
-        <OfxParamTypeGroup name="Highlights Transform3">
+        <OfxParamTypeGroup name="Highlights Transform24">
           <OfxPropLabel>高光变换</OfxPropLabel>
           <OfxParamPropHint>高光变换</OfxParamPropHint>
         </OfxParamTypeGroup>

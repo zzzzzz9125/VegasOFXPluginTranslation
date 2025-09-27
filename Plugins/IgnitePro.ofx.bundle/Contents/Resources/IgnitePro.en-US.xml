@@ -11,7 +11,7 @@
           <OfxParamPropHint />
           <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
-        <OfxParamTypeGroup name="Start Point27">
+        <OfxParamTypeGroup name="Start Point48">
           <OfxPropLabel>Start Point</OfxPropLabel>
           <OfxParamPropHint>Start Point</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -23,7 +23,7 @@
           <OfxPropLabel>Depth</OfxPropLabel>
           <OfxParamPropHint>Depth</OfxParamPropHint>
         </OfxParamTypeDouble>
-        <OfxParamTypeGroup name="End Point28">
+        <OfxParamTypeGroup name="End Point49">
           <OfxPropLabel>End Point</OfxPropLabel>
           <OfxParamPropHint>End Point</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -51,7 +51,7 @@
           <OfxPropLabel>Number of Beams</OfxPropLabel>
           <OfxParamPropHint>Number of Beams</OfxParamPropHint>
         </OfxParamTypeInteger>
-        <OfxParamTypeGroup name="Beam 129">
+        <OfxParamTypeGroup name="Beam 150">
           <OfxPropLabel>Beam 1</OfxPropLabel>
           <OfxParamPropHint>Beam 1</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -105,7 +105,7 @@
           <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>Subtract</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
-        <OfxParamTypeGroup name="Spiral30">
+        <OfxParamTypeGroup name="Spiral51">
           <OfxPropLabel>Spiral</OfxPropLabel>
           <OfxParamPropHint>Spiral</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -129,7 +129,7 @@
           <OfxPropLabel>Rotation Speed</OfxPropLabel>
           <OfxParamPropHint>Rotation Speed</OfxParamPropHint>
         </OfxParamTypeDouble>
-        <OfxParamTypeGroup name="Beam 231">
+        <OfxParamTypeGroup name="Beam 252">
           <OfxPropLabel>Beam 2</OfxPropLabel>
           <OfxParamPropHint>Beam 2</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -183,7 +183,7 @@
           <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>Subtract</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
-        <OfxParamTypeGroup name="Spiral32">
+        <OfxParamTypeGroup name="Spiral53">
           <OfxPropLabel>Spiral</OfxPropLabel>
           <OfxParamPropHint>Spiral</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -207,7 +207,7 @@
           <OfxPropLabel>Rotation Speed</OfxPropLabel>
           <OfxParamPropHint>Rotation Speed</OfxParamPropHint>
         </OfxParamTypeDouble>
-        <OfxParamTypeGroup name="Beam 333">
+        <OfxParamTypeGroup name="Beam 354">
           <OfxPropLabel>Beam 3</OfxPropLabel>
           <OfxParamPropHint>Beam 3</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -261,7 +261,7 @@
           <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>Subtract</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
-        <OfxParamTypeGroup name="Spiral34">
+        <OfxParamTypeGroup name="Spiral55">
           <OfxPropLabel>Spiral</OfxPropLabel>
           <OfxParamPropHint>Spiral</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -285,7 +285,7 @@
           <OfxPropLabel>Rotation Speed</OfxPropLabel>
           <OfxParamPropHint>Rotation Speed</OfxParamPropHint>
         </OfxParamTypeDouble>
-        <OfxParamTypeGroup name="Beam 435">
+        <OfxParamTypeGroup name="Beam 456">
           <OfxPropLabel>Beam 4</OfxPropLabel>
           <OfxParamPropHint>Beam 4</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -339,7 +339,7 @@
           <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>Subtract</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
-        <OfxParamTypeGroup name="Spiral36">
+        <OfxParamTypeGroup name="Spiral57">
           <OfxPropLabel>Spiral</OfxPropLabel>
           <OfxParamPropHint>Spiral</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -363,7 +363,7 @@
           <OfxPropLabel>Rotation Speed</OfxPropLabel>
           <OfxParamPropHint>Rotation Speed</OfxParamPropHint>
         </OfxParamTypeDouble>
-        <OfxParamTypeGroup name="Beam 537">
+        <OfxParamTypeGroup name="Beam 558">
           <OfxPropLabel>Beam 5</OfxPropLabel>
           <OfxParamPropHint>Beam 5</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -417,7 +417,7 @@
           <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>Subtract</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
-        <OfxParamTypeGroup name="Spiral38">
+        <OfxParamTypeGroup name="Spiral59">
           <OfxPropLabel>Spiral</OfxPropLabel>
           <OfxParamPropHint>Spiral</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -441,7 +441,7 @@
           <OfxPropLabel>Rotation Speed</OfxPropLabel>
           <OfxParamPropHint>Rotation Speed</OfxParamPropHint>
         </OfxParamTypeDouble>
-        <OfxParamTypeGroup name="Beam 639">
+        <OfxParamTypeGroup name="Beam 660">
           <OfxPropLabel>Beam 6</OfxPropLabel>
           <OfxParamPropHint>Beam 6</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -495,7 +495,7 @@
           <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>Subtract</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
-        <OfxParamTypeGroup name="Spiral40">
+        <OfxParamTypeGroup name="Spiral61">
           <OfxPropLabel>Spiral</OfxPropLabel>
           <OfxParamPropHint>Spiral</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -519,7 +519,7 @@
           <OfxPropLabel>Rotation Speed</OfxPropLabel>
           <OfxParamPropHint>Rotation Speed</OfxParamPropHint>
         </OfxParamTypeDouble>
-        <OfxParamTypeGroup name="Beam 741">
+        <OfxParamTypeGroup name="Beam 762">
           <OfxPropLabel>Beam 7</OfxPropLabel>
           <OfxParamPropHint>Beam 7</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -573,7 +573,7 @@
           <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>Subtract</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
-        <OfxParamTypeGroup name="Spiral42">
+        <OfxParamTypeGroup name="Spiral63">
           <OfxPropLabel>Spiral</OfxPropLabel>
           <OfxParamPropHint>Spiral</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -597,7 +597,7 @@
           <OfxPropLabel>Rotation Speed</OfxPropLabel>
           <OfxParamPropHint>Rotation Speed</OfxParamPropHint>
         </OfxParamTypeDouble>
-        <OfxParamTypeGroup name="Beam 843">
+        <OfxParamTypeGroup name="Beam 864">
           <OfxPropLabel>Beam 8</OfxPropLabel>
           <OfxParamPropHint>Beam 8</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -651,7 +651,7 @@
           <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>Subtract</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
-        <OfxParamTypeGroup name="Spiral44">
+        <OfxParamTypeGroup name="Spiral65">
           <OfxPropLabel>Spiral</OfxPropLabel>
           <OfxParamPropHint>Spiral</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -675,7 +675,7 @@
           <OfxPropLabel>Rotation Speed</OfxPropLabel>
           <OfxParamPropHint>Rotation Speed</OfxParamPropHint>
         </OfxParamTypeDouble>
-        <OfxParamTypeGroup name="Beam 945">
+        <OfxParamTypeGroup name="Beam 966">
           <OfxPropLabel>Beam 9</OfxPropLabel>
           <OfxParamPropHint>Beam 9</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -729,7 +729,7 @@
           <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>Subtract</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
-        <OfxParamTypeGroup name="Spiral46">
+        <OfxParamTypeGroup name="Spiral67">
           <OfxPropLabel>Spiral</OfxPropLabel>
           <OfxParamPropHint>Spiral</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -753,7 +753,7 @@
           <OfxPropLabel>Rotation Speed</OfxPropLabel>
           <OfxParamPropHint>Rotation Speed</OfxParamPropHint>
         </OfxParamTypeDouble>
-        <OfxParamTypeGroup name="Beam 1047">
+        <OfxParamTypeGroup name="Beam 1068">
           <OfxPropLabel>Beam 10</OfxPropLabel>
           <OfxParamPropHint>Beam 10</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -807,7 +807,7 @@
           <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>Subtract</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
-        <OfxParamTypeGroup name="Spiral48">
+        <OfxParamTypeGroup name="Spiral69">
           <OfxPropLabel>Spiral</OfxPropLabel>
           <OfxParamPropHint>Spiral</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -831,7 +831,7 @@
           <OfxPropLabel>Rotation Speed</OfxPropLabel>
           <OfxParamPropHint>Rotation Speed</OfxParamPropHint>
         </OfxParamTypeDouble>
-        <OfxParamTypeGroup name="Global Controls49">
+        <OfxParamTypeGroup name="Global Controls70">
           <OfxPropLabel>Global Controls</OfxPropLabel>
           <OfxParamPropHint>Global Controls</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -918,7 +918,7 @@
           <OfxParamPropChoiceOption>Nonagon</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>Decagon</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
-        <OfxParamTypeGroup name="Shape52">
+        <OfxParamTypeGroup name="Shape73">
           <OfxPropLabel>Shape</OfxPropLabel>
           <OfxParamPropHint>Shape</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -938,7 +938,7 @@
           <OfxPropLabel>Shift</OfxPropLabel>
           <OfxParamPropHint>Shift</OfxParamPropHint>
         </OfxParamTypeDouble>
-        <OfxParamTypeGroup name="Scale53">
+        <OfxParamTypeGroup name="Scale74">
           <OfxPropLabel>Scale</OfxPropLabel>
           <OfxParamPropHint>Scale</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -969,7 +969,7 @@
           <OfxParamPropChoiceOption>Only Red</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>Subtle Aberration</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
-        <OfxParamTypeGroup name="Radius56">
+        <OfxParamTypeGroup name="Radius77">
           <OfxPropLabel>Radius</OfxPropLabel>
           <OfxParamPropHint>Radius</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -989,7 +989,7 @@
           <OfxPropLabel>Alpha</OfxPropLabel>
           <OfxParamPropHint>Alpha</OfxParamPropHint>
         </OfxParamTypeDouble>
-        <OfxParamTypeGroup name="Dimension57">
+        <OfxParamTypeGroup name="Dimension78">
           <OfxPropLabel>Dimension</OfxPropLabel>
           <OfxParamPropHint>Dimension</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -1043,7 +1043,7 @@
           <OfxPropLabel>Shift</OfxPropLabel>
           <OfxParamPropHint>Shift</OfxParamPropHint>
         </OfxParamTypeDouble>
-        <OfxParamTypeGroup name="Alignment59">
+        <OfxParamTypeGroup name="Alignment80">
           <OfxPropLabel>Alignment</OfxPropLabel>
           <OfxParamPropHint>Alignment</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -1106,11 +1106,11 @@
           <OfxParamPropChoiceOption>Linear</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>Cubic</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
-        <OfxParamTypeGroup name="Transform74">
+        <OfxParamTypeGroup name="Transform14">
           <OfxPropLabel>Transform</OfxPropLabel>
           <OfxParamPropHint>Transform</OfxParamPropHint>
         </OfxParamTypeGroup>
-        <OfxParamTypeGroup name="Position75">
+        <OfxParamTypeGroup name="Position15">
           <OfxPropLabel>Position</OfxPropLabel>
           <OfxParamPropHint>Position</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -1130,7 +1130,7 @@
           <OfxPropLabel>Scale</OfxPropLabel>
           <OfxParamPropHint>Scale</OfxParamPropHint>
         </OfxParamTypeDouble>
-        <OfxParamTypeGroup name="Axis Scale76">
+        <OfxParamTypeGroup name="Axis Scale16">
           <OfxPropLabel>Axis Scale</OfxPropLabel>
           <OfxParamPropHint>Axis Scale</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -1142,7 +1142,7 @@
           <OfxPropLabel>Y</OfxPropLabel>
           <OfxParamPropHint>Y</OfxParamPropHint>
         </OfxParamTypeDouble>
-        <OfxParamTypeGroup name="Sub Settings77">
+        <OfxParamTypeGroup name="Sub Settings17">
           <OfxPropLabel>Sub Settings</OfxPropLabel>
           <OfxParamPropHint>Sub Settings</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -1166,11 +1166,11 @@
           <OfxPropLabel>Center Subscale</OfxPropLabel>
           <OfxParamPropHint>Center Subscale</OfxParamPropHint>
         </OfxParamTypeBoolean>
-        <OfxParamTypeGroup name="Appearance78">
+        <OfxParamTypeGroup name="Appearance18">
           <OfxPropLabel>Appearance</OfxPropLabel>
           <OfxParamPropHint>Appearance</OfxParamPropHint>
         </OfxParamTypeGroup>
-        <OfxParamTypeGroup name="Color 179">
+        <OfxParamTypeGroup name="Color 119">
           <OfxPropLabel>Color 1</OfxPropLabel>
           <OfxParamPropHint>Color 1</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -1182,7 +1182,7 @@
           <OfxPropLabel>Opacity</OfxPropLabel>
           <OfxParamPropHint>Opacity</OfxParamPropHint>
         </OfxParamTypeDouble>
-        <OfxParamTypeGroup name="Color 280">
+        <OfxParamTypeGroup name="Color 220">
           <OfxPropLabel>Color 2</OfxPropLabel>
           <OfxParamPropHint>Color 2</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -12331,7 +12331,7 @@
           <OfxParamPropHint />
           <OfxParamPropChoiceOption>Preset</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
-        <OfxParamTypeGroup name="Global Transform0">
+        <OfxParamTypeGroup name="Global Transform21">
           <OfxPropLabel>Global Transform</OfxPropLabel>
           <OfxParamPropHint>Global Transform</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -12343,7 +12343,7 @@
           <OfxPropLabel>Chrominance Shift</OfxPropLabel>
           <OfxParamPropHint>Chrominance Shift</OfxParamPropHint>
         </OfxParamTypeDouble>
-        <OfxParamTypeGroup name="Shadow Transform1">
+        <OfxParamTypeGroup name="Shadow Transform22">
           <OfxPropLabel>Shadow Transform</OfxPropLabel>
           <OfxParamPropHint>Shadow Transform</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -12355,7 +12355,7 @@
           <OfxPropLabel>Chrominance</OfxPropLabel>
           <OfxParamPropHint>Chrominance</OfxParamPropHint>
         </OfxParamTypeDouble>
-        <OfxParamTypeGroup name="Midtones Transform2">
+        <OfxParamTypeGroup name="Midtones Transform23">
           <OfxPropLabel>Midtones Transform</OfxPropLabel>
           <OfxParamPropHint>Midtones Transform</OfxParamPropHint>
         </OfxParamTypeGroup>
@@ -12367,7 +12367,7 @@
           <OfxPropLabel>Chrominance</OfxPropLabel>
           <OfxParamPropHint>Chrominance</OfxParamPropHint>
         </OfxParamTypeDouble>
-        <OfxParamTypeGroup name="Highlights Transform3">
+        <OfxParamTypeGroup name="Highlights Transform24">
           <OfxPropLabel>Highlights Transform</OfxPropLabel>
           <OfxParamPropHint>Highlights Transform</OfxParamPropHint>
         </OfxParamTypeGroup>
