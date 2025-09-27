@@ -15,33 +15,33 @@ namespace OfxTrans
     {
         public Vegas myVegas;
         static readonly string DesktopFolder = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
-        static readonly string DefaultOutputFolder = Path.Combine(DesktopFolder, "OFX_XML");
         static readonly string[] DescriptionKeywords = { "Beschreibung:", "Description:", "Descripci\xF3n:", "Description :", "説明：", "설명:", "Opis:", "Descri\xE7\xE3o:", "说明:" };
-
-        static readonly string DefaultExcludedUid = "";
-        static readonly string DefaultExtraString = "";
         static readonly string[] DefaultExtraStrings = { "", ".de-DE", ".en-US", ".es-ES", ".fr-FR", ".ja-JP", ".ko-KR", ".pl-PL", ".pt-BR", ".zh-CN" };
+
+        static string outputFolderPath = Path.Combine(DesktopFolder, "OFX_XML");
+        static string blackWhiteListString = "";
+        static bool blackWhiteList = true;
+        static string[] blackWhiteListStrings = blackWhiteListString.Split(';');
+        static string extraString = "";
+
+        static Dictionary<string, OfxImageEffectResource> dic = new Dictionary<string, OfxImageEffectResource>();
 
         public void Main(Vegas vegas)
         {
             myVegas = vegas;
 
-            string outputfolder = DefaultOutputFolder;
-            string excludedUid = DefaultExcludedUid;
-            string extraString = DefaultExtraString;
-
-            if (!ShowWindow(out outputfolder, out excludedUid, out extraString))
+            if (!ShowWindow())
             {
                 return;
             }
 
-            string[] excludedUids = excludedUid.Split(';');
+            blackWhiteListStrings = blackWhiteListString.Split(';');
 
-            if (!Directory.Exists(outputfolder))
+            if (!Directory.Exists(outputFolderPath))
             {
                 try
                 {
-                    Directory.CreateDirectory(outputfolder);
+                    Directory.CreateDirectory(outputFolderPath);
                 }
                 catch (Exception ex)
                 {
@@ -54,117 +54,13 @@ namespace OfxTrans
 
             GetOfxPluginNode(list, myVegas.PlugIns);
 
-            Dictionary<string, OfxImageEffectResource> dic = new Dictionary<string, OfxImageEffectResource>();
-
-            string uidPattern = @"^{Svfx:(.*)}$";
-
             using (Project tmpProject = myVegas.CreateEmptyProject())
             {
                 using (UndoBlock undo = new UndoBlock(tmpProject, "Undo"))
                 {
-                    VideoTrack trk = tmpProject.AddVideoTrack();
                     foreach (PlugInNode node in list)
                     {
-                        try
-                        {
-                            Effect ef = new Effect(node);
-
-                            trk.Effects.Add(ef);
-
-                            OFXEffect ofxEffect = ef.OFXEffect;
-                            string path = ofxEffect.PlugInPath;
-
-                            OfxImageEffectResource resource = dic.ContainsKey(path) ? dic[path] : null;
-
-                            if (resource == null)
-                            {
-                                resource = new OfxImageEffectResource();
-                                dic.Add(path, resource);
-                            }
-
-                            string uid = Regex.Match(node.UniqueID, uidPattern).Groups[1].Value;
-
-                            if (string.IsNullOrEmpty(uid))
-                            {
-                                continue;
-                            }
-
-                            bool isExcluded = false;
-                            foreach (string excluded in excludedUids)
-                            {
-                                if (!string.IsNullOrEmpty(excluded) && Regex.IsMatch(uid, excluded.Trim(' ')))
-                                {
-                                    isExcluded = true;
-                                    break;
-                                }
-                            }
-
-                            if (isExcluded)
-                            {
-                                continue;
-                            }
-
-                            OfxPlugin ofxPlugin = new OfxPlugin { Name = uid };
-                            resource.Plugins.Add(ofxPlugin);
-
-                            string description = ExtractDescription(node.Info);
-                            OfxResourceSet set = new OfxResourceSet() { Label = node.Name, Grouping = node.Group, Description = description == null ? null : description.Trim(' ').Trim('\n') };
-                            ofxPlugin.ResourceSets.Add(set);
-
-                            OfxImageEffectContext context = new OfxImageEffectContext();
-                            set.Contexts.Add(context);
-
-                            foreach (OFXParameter para in ofxEffect.Parameters)
-                            {
-                                string type = para.ParameterType.ToString(), name = para.Name == null ? null : para.Name.Trim(' ').Trim('\n'), label = para.Label == null ? null : para.Label.Trim(' ').Trim('\n'), hint = para.Hint == null ? null : para.Hint.Trim(' ').Trim('\n');
-
-                                object obj = null;
-
-                                switch (type)
-                                {
-                                    case "Group": obj = new OfxParamTypeGroup(); break;
-                                    case "Boolean": obj = new OfxParamTypeBoolean(); break;
-                                    case "Choice": obj = new OfxParamTypeChoice(); break;
-                                    case "Custom": obj = new OfxParamTypeCustom(); break;
-                                    case "Double2D": obj = new OfxParamTypeDouble2D(); break;
-                                    case "Double3D": obj = new OfxParamTypeDouble3D(); break;
-                                    case "Double": obj = new OfxParamTypeDouble(); break;
-                                    case "Integer2D": obj = new OfxParamTypeInteger2D(); break;
-                                    case "Integer3D": obj = new OfxParamTypeInteger3D(); break;
-                                    case "Integer": obj = new OfxParamTypeInteger(); break;
-                                    case "RGBA": obj = new OfxParamTypeRGBA(); break;
-                                    case "RGB": obj = new OfxParamTypeRGB(); break;
-                                    case "String": obj = new OfxParamTypeString(); break;
-                                    case "PushButton": obj = new OfxParamTypePushButton(); break;
-                                    case "16": obj = new OfxParamTypeImage(); break;
-                                    default: break;
-                                }
-
-                                OfxParamBase paramBase = obj as OfxParamBase;
-
-                                if (paramBase == null || string.IsNullOrEmpty(name) || (string.IsNullOrEmpty(label) && !(paramBase is OfxParamTypeChoice)))
-                                {
-                                    continue;
-                                }
-
-                                paramBase.Name = name;
-                                paramBase.Label = label;
-                                paramBase.Hint = hint;
-
-                                if (paramBase is OfxParamTypeChoice && para is OFXChoiceParameter)
-                                {
-                                    OfxParamTypeChoice choice = paramBase as OfxParamTypeChoice;
-                                    OFXChoiceParameter choicePara = para as OFXChoiceParameter;
-                                    foreach (OFXChoice ch in choicePara.Choices)
-                                    {
-                                        choice.Options.Add(ch.Name);
-                                    }
-                                }
-
-                                context.Parameters.Add(paramBase);
-                            }
-                        }
-                        catch { continue; }
+                        GetInfoFromNode(tmpProject, node);
                     }
                 }
             }
@@ -175,7 +71,7 @@ namespace OfxTrans
             foreach (KeyValuePair<string, OfxImageEffectResource> kvp in dic)
             {
                 string fileName = string.Format("{0}{1}.xml", Path.GetFileNameWithoutExtension(kvp.Key), extraString);
-                string filePath = Path.Combine(outputfolder, fileName);
+                string filePath = Path.Combine(outputFolderPath, fileName);
 
                 string prefix = commonOfxFolder;
                 if (!kvp.Key.StartsWith(prefix, StringComparison.OrdinalIgnoreCase))
@@ -198,7 +94,7 @@ namespace OfxTrans
 
                     string contentsPath = Path.GetDirectoryName(Path.GetDirectoryName(relativePath.TrimStart('\\')));
 
-                    filePath = Path.Combine(outputfolder, contentsPath, "Resources", fileName);
+                    filePath = Path.Combine(outputFolderPath, contentsPath, "Resources", fileName);
                 }
 
                 string dir = Path.GetDirectoryName(filePath);
@@ -214,6 +110,107 @@ namespace OfxTrans
             }
 
             MessageBox.Show("Done.");
+        }
+
+        public static void GetInfoFromNode(Project project, PlugInNode node)
+        {
+            string uid = Regex.Match(node.UniqueID, @"^{Svfx:(.*)}$").Groups[1].Value;
+
+            if (string.IsNullOrEmpty(uid))
+            {
+                return;
+            }
+
+            bool isMatch = false;
+            foreach (string str in blackWhiteListStrings)
+            {
+                if (!string.IsNullOrEmpty(str) && Regex.IsMatch(uid, str.Trim(' ')))
+                {
+                    isMatch = true;
+                    break;
+                }
+            }
+
+            if (isMatch == blackWhiteList)
+            {
+                return;
+            }
+
+            Effect ef = new Effect(node);
+
+            VideoTrack trk = project.AddVideoTrack();
+            trk.Effects.Add(ef);
+
+            OFXEffect ofxEffect = ef.OFXEffect;
+            string path = ofxEffect.PlugInPath;
+
+            OfxImageEffectResource resource = dic.ContainsKey(path) ? dic[path] : null;
+
+            if (resource == null)
+            {
+                resource = new OfxImageEffectResource();
+                dic.Add(path, resource);
+            }
+
+            OfxPlugin ofxPlugin = new OfxPlugin { Name = uid };
+            resource.Plugins.Add(ofxPlugin);
+
+            string description = ExtractDescription(node.Info);
+            OfxResourceSet set = new OfxResourceSet() { Label = node.Name, Grouping = node.Group, Description = description == null ? null : description.Trim(' ').Trim('\n') };
+            ofxPlugin.ResourceSets.Add(set);
+
+            OfxImageEffectContext context = new OfxImageEffectContext();
+            set.Contexts.Add(context);
+
+            foreach (OFXParameter para in ofxEffect.Parameters)
+            {
+                string type = para.ParameterType.ToString(), name = para.Name == null ? null : para.Name.Trim(' ').Trim('\n'), label = para.Label == null ? null : para.Label.Trim(' ').Trim('\n'), hint = para.Hint == null ? null : para.Hint.Trim(' ').Trim('\n');
+
+                object obj = null;
+
+                switch (type)
+                {
+                    case "Group": obj = new OfxParamTypeGroup(); break;
+                    case "Boolean": obj = new OfxParamTypeBoolean(); break;
+                    case "Choice": obj = new OfxParamTypeChoice(); break;
+                    case "Custom": obj = new OfxParamTypeCustom(); break;
+                    case "Double2D": obj = new OfxParamTypeDouble2D(); break;
+                    case "Double3D": obj = new OfxParamTypeDouble3D(); break;
+                    case "Double": obj = new OfxParamTypeDouble(); break;
+                    case "Integer2D": obj = new OfxParamTypeInteger2D(); break;
+                    case "Integer3D": obj = new OfxParamTypeInteger3D(); break;
+                    case "Integer": obj = new OfxParamTypeInteger(); break;
+                    case "RGBA": obj = new OfxParamTypeRGBA(); break;
+                    case "RGB": obj = new OfxParamTypeRGB(); break;
+                    case "String": obj = new OfxParamTypeString(); break;
+                    case "PushButton": obj = new OfxParamTypePushButton(); break;
+                    case "16": obj = new OfxParamTypeImage(); break;
+                    default: break;
+                }
+
+                OfxParamBase paramBase = obj as OfxParamBase;
+
+                if (paramBase == null || string.IsNullOrEmpty(name) || (string.IsNullOrEmpty(label) && !(paramBase is OfxParamTypeChoice)))
+                {
+                    continue;
+                }
+
+                paramBase.Name = name;
+                paramBase.Label = label;
+                paramBase.Hint = hint;
+
+                if (paramBase is OfxParamTypeChoice && para is OFXChoiceParameter)
+                {
+                    OfxParamTypeChoice choice = paramBase as OfxParamTypeChoice;
+                    OFXChoiceParameter choicePara = para as OFXChoiceParameter;
+                    foreach (OFXChoice ch in choicePara.Choices)
+                    {
+                        choice.Options.Add(ch.Name);
+                    }
+                }
+
+                context.Parameters.Add(paramBase);
+            }
         }
 
         public static string ExtractDescription(string str)
@@ -288,7 +285,7 @@ namespace OfxTrans
             }
         }
 
-        public bool ShowWindow(out string folderPath, out string excludedUid, out string extraString)
+        public bool ShowWindow()
         {
             Form form = new Form
             {
@@ -334,7 +331,7 @@ namespace OfxTrans
             {
                 AutoSize = true,
                 Margin = new Padding(6, 6, 6, 6),
-                Text = DefaultOutputFolder,
+                Text = outputFolderPath,
                 Dock = DockStyle.Fill
             };
             l.Controls.Add(folderTextBox);
@@ -344,7 +341,7 @@ namespace OfxTrans
                 FolderBrowserDialog folderBrowserDialog = new FolderBrowserDialog
                 {
                     Description = "Select Output Folder.",
-                    SelectedPath = DefaultOutputFolder
+                    SelectedPath = outputFolderPath
                 };
 
                 if (folderBrowserDialog.ShowDialog() != DialogResult.OK)
@@ -355,24 +352,33 @@ namespace OfxTrans
                 folderTextBox.Text = folderBrowserDialog.SelectedPath;
             };
 
-            Label label = new Label
+            Button blackWhiteListButton = new Button
             {
-                Margin = new Padding(12, 9, 6, 6),
-                Text = "Excluded UID",
-                AutoSize = true
+                Text = blackWhiteList ? "Black List" : "White List",
+                Margin = new Padding(0, 3, 0, 3),
+                TextAlign = ContentAlignment.MiddleCenter,
+                AutoSize = true,
+                FlatStyle = FlatStyle.Flat,
+                Anchor = AnchorStyles.None
             };
-            l.Controls.Add(label);
+            l.Controls.Add(blackWhiteListButton);
 
-            TextBox excludedUidTextBox = new TextBox
+            blackWhiteListButton.Click += delegate (object o, EventArgs e)
+            {
+                blackWhiteList = !blackWhiteList;
+                blackWhiteListButton.Text = blackWhiteList ? "Black List" : "White List";
+            };
+
+            TextBox blackWhiteListTextBox = new TextBox
             {
                 AutoSize = true,
                 Margin = new Padding(6, 6, 6, 6),
-                Text = DefaultExcludedUid,
+                Text = blackWhiteListString,
                 Dock = DockStyle.Fill
             };
-            l.Controls.Add(excludedUidTextBox);
+            l.Controls.Add(blackWhiteListTextBox);
 
-            label = new Label
+            Label label = new Label
             {
                 Margin = new Padding(12, 9, 6, 6),
                 Text = "Extra String",
@@ -386,7 +392,7 @@ namespace OfxTrans
                 DropDownStyle = ComboBoxStyle.DropDown,
                 Margin = new Padding(6, 6, 6, 6),
                 Dock = DockStyle.Fill,
-                Text = DefaultExtraString
+                Text = extraString
             };
             l.Controls.Add(cb);
 
@@ -417,9 +423,9 @@ namespace OfxTrans
             form.CancelButton = cancel;
 
             DialogResult result = form.ShowDialog(myVegas.MainWindow);
-            folderPath = folderTextBox.Text;
-            excludedUid = excludedUidTextBox.Text;
+            outputFolderPath = folderTextBox.Text;
             extraString = cb.Text;
+            blackWhiteListString = blackWhiteListTextBox.Text;
             return result == DialogResult.OK;
         }
     }
