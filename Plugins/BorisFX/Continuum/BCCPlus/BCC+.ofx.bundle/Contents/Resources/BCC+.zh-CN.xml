@@ -792,10 +792,10 @@
           <OfxPropLabel>强度</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypePushButton name="_pc.savePreset">
-          <OfxPropLabel>Save Preset</OfxPropLabel>
+          <OfxPropLabel>保存预设</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypePushButton name="_pc.loadPreset">
-          <OfxPropLabel>Load Preset</OfxPropLabel>
+          <OfxPropLabel>加载预设</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.mask">
           <OfxPropLabel>遮罩</OfxPropLabel>
@@ -1941,10 +1941,10 @@
           <OfxPropLabel>强度</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypePushButton name="_pc.savePreset">
-          <OfxPropLabel>Save Preset</OfxPropLabel>
+          <OfxPropLabel>保存预设</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypePushButton name="_pc.loadPreset">
-          <OfxPropLabel>Load Preset</OfxPropLabel>
+          <OfxPropLabel>加载预设</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.mask">
           <OfxPropLabel>遮罩</OfxPropLabel>
@@ -30095,10 +30095,10 @@
           <OfxPropLabel>强度</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypePushButton name="_pc.savePreset">
-          <OfxPropLabel>Save Preset</OfxPropLabel>
+          <OfxPropLabel>保存预设</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypePushButton name="_pc.loadPreset">
-          <OfxPropLabel>Load Preset</OfxPropLabel>
+          <OfxPropLabel>加载预设</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.mask">
           <OfxPropLabel>遮罩</OfxPropLabel>
@@ -35209,10 +35209,10 @@
           <OfxPropLabel>强度</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypePushButton name="_pc.savePreset">
-          <OfxPropLabel>Save Preset</OfxPropLabel>
+          <OfxPropLabel>保存预设</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypePushButton name="_pc.loadPreset">
-          <OfxPropLabel>Load Preset</OfxPropLabel>
+          <OfxPropLabel>加载预设</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.mask">
           <OfxPropLabel>遮罩</OfxPropLabel>
@@ -36572,10 +36572,10 @@
           <OfxPropLabel>强度</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypePushButton name="_pc.savePreset">
-          <OfxPropLabel>Save Preset</OfxPropLabel>
+          <OfxPropLabel>保存预设</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypePushButton name="_pc.loadPreset">
-          <OfxPropLabel>Load Preset</OfxPropLabel>
+          <OfxPropLabel>加载预设</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.mask">
           <OfxPropLabel>遮罩</OfxPropLabel>
@@ -38588,10 +38588,10 @@
           <OfxPropLabel>强度</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypePushButton name="_pc.savePreset">
-          <OfxPropLabel>Save Preset</OfxPropLabel>
+          <OfxPropLabel>保存预设</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypePushButton name="_pc.loadPreset">
-          <OfxPropLabel>Load Preset</OfxPropLabel>
+          <OfxPropLabel>加载预设</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.mask">
           <OfxPropLabel>遮罩</OfxPropLabel>
@@ -41952,10 +41952,10 @@
           <OfxPropLabel>强度</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypePushButton name="_pc.savePreset">
-          <OfxPropLabel>Save Preset</OfxPropLabel>
+          <OfxPropLabel>保存预设</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypePushButton name="_pc.loadPreset">
-          <OfxPropLabel>Load Preset</OfxPropLabel>
+          <OfxPropLabel>加载预设</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.mask">
           <OfxPropLabel>遮罩</OfxPropLabel>
@@ -46654,10 +46654,10 @@
           <OfxPropLabel>强度</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypePushButton name="pcfo.savePreset">
-          <OfxPropLabel>Save Preset</OfxPropLabel>
+          <OfxPropLabel>保存预设</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypePushButton name="pcfo.loadPreset">
-          <OfxPropLabel>Load Preset</OfxPropLabel>
+          <OfxPropLabel>加载预设</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeGroup name="group.pcfo.group.pcfo.mask">
           <OfxPropLabel>遮罩</OfxPropLabel>
@@ -46906,10 +46906,10 @@
           <OfxPropLabel>强度</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypePushButton name="_pc.savePreset">
-          <OfxPropLabel>Save Preset</OfxPropLabel>
+          <OfxPropLabel>保存预设</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypePushButton name="_pc.loadPreset">
-          <OfxPropLabel>Load Preset</OfxPropLabel>
+          <OfxPropLabel>加载预设</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.mask">
           <OfxPropLabel>遮罩</OfxPropLabel>
@@ -59538,163 +59538,162 @@
       <OfxImageEffectPluginPropGrouping>BCC 转场</OfxImageEffectPluginPropGrouping>
       <OfxImageEffectContext name="default">
         <OfxParamTypePushButton name=".help">
-          <OfxPropLabel>BCC+快速平移镜头 发光</OfxPropLabel>
-        </OfxParamTypePushButton>
-        <OfxParamTypePushButton name=".setup">
           <OfxPropLabel>帮助...</OfxPropLabel>
         </OfxParamTypePushButton>
-        <OfxParamTypePushButton name=".license">
+        <OfxParamTypePushButton name=".setup">
           <OfxPropLabel>FX编辑器...</OfxPropLabel>
         </OfxParamTypePushButton>
-        <OfxParamTypeChoice name="transition.mode">
+        <OfxParamTypePushButton name=".license">
           <OfxPropLabel>许可证/关于...</OfxPropLabel>
-          <OfxParamPropChoiceOption>动画</OfxParamPropChoiceOption>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="transition.mode">
+          <OfxPropLabel>动画</OfxPropLabel>
           <OfxParamPropChoiceOption>自动</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>手动完成百分比</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="percentDone">
-          <OfxPropLabel>手动完成百分比</OfxPropLabel>
+          <OfxPropLabel>完成百分比</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="panDirection">
-          <OfxPropLabel>完成百分比</OfxPropLabel>
-          <OfxParamPropChoiceOption>平移方向</OfxParamPropChoiceOption>
+          <OfxPropLabel>平移方向</OfxPropLabel>
           <OfxParamPropChoiceOption>左</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>上</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>右</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>下</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeInteger name="rollSpeed">
-          <OfxPropLabel>下</OfxPropLabel>
+          <OfxPropLabel>滚动速度</OfxPropLabel>
         </OfxParamTypeInteger>
         <OfxParamTypeDouble name="separation">
-          <OfxPropLabel>滚动速度</OfxPropLabel>
+          <OfxPropLabel>分离</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeBoolean name="useColoredBackground">
-          <OfxPropLabel>分离</OfxPropLabel>
+          <OfxPropLabel>使用彩色背景</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeRGB name="backgroundColor">
-          <OfxPropLabel>使用彩色背景</OfxPropLabel>
+          <OfxPropLabel>背景颜色</OfxPropLabel>
         </OfxParamTypeRGB>
         <OfxParamTypeBoolean name="expandEdge">
-          <OfxPropLabel>背景颜色</OfxPropLabel>
+          <OfxPropLabel>扩展边缘</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group.filmGlow">
-          <OfxPropLabel>扩展边缘</OfxPropLabel>
+          <OfxPropLabel>胶片发光</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeChoice name="filmGlow.view">
-          <OfxPropLabel>胶片发光</OfxPropLabel>
-          <OfxParamPropChoiceOption>查看</OfxParamPropChoiceOption>
+          <OfxPropLabel>查看</OfxPropLabel>
           <OfxParamPropChoiceOption>输出</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>发光</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>阈值</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>阈值 w 增强 + 去饱和</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="filmGlow.glowIntensity">
-          <OfxPropLabel>阈值 w 增强 + 去饱和</OfxPropLabel>
+          <OfxPropLabel>强度</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeRGB name="filmGlow.glowColor">
-          <OfxPropLabel>强度</OfxPropLabel>
+          <OfxPropLabel>颜色</OfxPropLabel>
         </OfxParamTypeRGB>
         <OfxParamTypeDouble name="filmGlow.glowRadius">
-          <OfxPropLabel>颜色</OfxPropLabel>
-        </OfxParamTypeDouble>
-        <OfxParamTypeDouble name="filmGlow.glowDesaturation">
           <OfxPropLabel>半径</OfxPropLabel>
         </OfxParamTypeDouble>
-        <OfxParamTypeDouble name="filmGlow.glowThreshold">
+        <OfxParamTypeDouble name="filmGlow.glowDesaturation">
           <OfxPropLabel>去饱和</OfxPropLabel>
         </OfxParamTypeDouble>
-        <OfxParamTypeDouble name="filmGlow.glowFromAlpha">
+        <OfxParamTypeDouble name="filmGlow.glowThreshold">
           <OfxPropLabel>阈值</OfxPropLabel>
         </OfxParamTypeDouble>
-        <OfxParamTypeDouble name="filmGlow.glowBoostAlpha">
+        <OfxParamTypeDouble name="filmGlow.glowFromAlpha">
           <OfxPropLabel>从Alpha发光</OfxPropLabel>
         </OfxParamTypeDouble>
-        <OfxParamTypeDouble name="filmGlow.glowUnderSource">
+        <OfxParamTypeDouble name="filmGlow.glowBoostAlpha">
           <OfxPropLabel>增强Alpha</OfxPropLabel>
         </OfxParamTypeDouble>
-        <OfxParamTypeChoice name="filmGlow.edgeMode">
+        <OfxParamTypeDouble name="filmGlow.glowUnderSource">
           <OfxPropLabel>源层下发光</OfxPropLabel>
-          <OfxParamPropChoiceOption>边缘模式</OfxParamPropChoiceOption>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="filmGlow.edgeMode">
+          <OfxPropLabel>边缘模式</OfxPropLabel>
           <OfxParamPropChoiceOption>透明</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>重复</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>包裹</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeBoolean name="filmGlow.rgbScale.enable">
-          <OfxPropLabel>包裹</OfxPropLabel>
+          <OfxPropLabel>RGB独立发光</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group.filmGlow.group.filmGlow.rgbScale.rgbIndependent">
-          <OfxPropLabel>RGB独立发光</OfxPropLabel>
+          <OfxPropLabel>RGB独立</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeDouble name="filmGlow.rgbScale.redScale">
-          <OfxPropLabel>RGB独立</OfxPropLabel>
-        </OfxParamTypeDouble>
-        <OfxParamTypeDouble name="filmGlow.rgbScale.redScaleXY.x">
           <OfxPropLabel>红色缩放</OfxPropLabel>
         </OfxParamTypeDouble>
-        <OfxParamTypeDouble name="filmGlow.rgbScale.redScaleXY.y">
+        <OfxParamTypeDouble name="filmGlow.rgbScale.redScaleXY.x">
           <OfxPropLabel>红色缩放 X</OfxPropLabel>
         </OfxParamTypeDouble>
-        <OfxParamTypeDouble name="filmGlow.rgbScale.greenScale">
+        <OfxParamTypeDouble name="filmGlow.rgbScale.redScaleXY.y">
           <OfxPropLabel>红色缩放 Y</OfxPropLabel>
         </OfxParamTypeDouble>
-        <OfxParamTypeDouble name="filmGlow.rgbScale.greenScaleXY.x">
+        <OfxParamTypeDouble name="filmGlow.rgbScale.greenScale">
           <OfxPropLabel>绿色缩放</OfxPropLabel>
         </OfxParamTypeDouble>
-        <OfxParamTypeDouble name="filmGlow.rgbScale.greenScaleXY.y">
+        <OfxParamTypeDouble name="filmGlow.rgbScale.greenScaleXY.x">
           <OfxPropLabel>绿色缩放 X</OfxPropLabel>
         </OfxParamTypeDouble>
-        <OfxParamTypeDouble name="filmGlow.rgbScale.blueScale">
+        <OfxParamTypeDouble name="filmGlow.rgbScale.greenScaleXY.y">
           <OfxPropLabel>绿色缩放 Y</OfxPropLabel>
         </OfxParamTypeDouble>
-        <OfxParamTypeDouble name="filmGlow.rgbScale.blueScaleXY.x">
+        <OfxParamTypeDouble name="filmGlow.rgbScale.blueScale">
           <OfxPropLabel>蓝色缩放</OfxPropLabel>
         </OfxParamTypeDouble>
-        <OfxParamTypeDouble name="filmGlow.rgbScale.blueScaleXY.y">
+        <OfxParamTypeDouble name="filmGlow.rgbScale.blueScaleXY.x">
           <OfxPropLabel>蓝色缩放 X</OfxPropLabel>
         </OfxParamTypeDouble>
-        <OfxParamTypeBoolean name="filmGlow.secondaryGlow.enable">
+        <OfxParamTypeDouble name="filmGlow.rgbScale.blueScaleXY.y">
           <OfxPropLabel>蓝色缩放 Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="filmGlow.secondaryGlow.enable">
+          <OfxPropLabel>启用次级发光</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group.filmGlow.group.filmGlow.secondaryGlow">
-          <OfxPropLabel>启用次级发光</OfxPropLabel>
+          <OfxPropLabel>次级发光</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="filmGlow.secondaryGlow.linkGlows">
-          <OfxPropLabel>次级发光</OfxPropLabel>
+          <OfxPropLabel>链接发光强度</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeDouble name="filmGlow.secondaryGlow.glowIntensity">
-          <OfxPropLabel>链接发光强度</OfxPropLabel>
+          <OfxPropLabel>强度</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeRGB name="filmGlow.secondaryGlow.glowColor">
-          <OfxPropLabel>强度</OfxPropLabel>
+          <OfxPropLabel>颜色</OfxPropLabel>
         </OfxParamTypeRGB>
         <OfxParamTypeDouble name="filmGlow.secondaryGlow.glowRadius">
-          <OfxPropLabel>颜色</OfxPropLabel>
-        </OfxParamTypeDouble>
-        <OfxParamTypeDouble name="filmGlow.secondaryGlow.glowRadiusXY.x">
           <OfxPropLabel>半径</OfxPropLabel>
         </OfxParamTypeDouble>
-        <OfxParamTypeDouble name="filmGlow.secondaryGlow.glowRadiusXY.y">
+        <OfxParamTypeDouble name="filmGlow.secondaryGlow.glowRadiusXY.x">
           <OfxPropLabel>半径 X</OfxPropLabel>
         </OfxParamTypeDouble>
-        <OfxParamTypeDouble name="filmGlow.secondaryGlow.glowDesaturation">
+        <OfxParamTypeDouble name="filmGlow.secondaryGlow.glowRadiusXY.y">
           <OfxPropLabel>半径 Y</OfxPropLabel>
         </OfxParamTypeDouble>
-        <OfxParamTypeDouble name="filmGlow.secondaryGlow.glowThreshold">
+        <OfxParamTypeDouble name="filmGlow.secondaryGlow.glowDesaturation">
           <OfxPropLabel>去饱和</OfxPropLabel>
         </OfxParamTypeDouble>
-        <OfxParamTypeDouble name="filmGlow.secondaryGlow.glowUnderSource">
+        <OfxParamTypeDouble name="filmGlow.secondaryGlow.glowThreshold">
           <OfxPropLabel>阈值</OfxPropLabel>
         </OfxParamTypeDouble>
-        <OfxParamTypeGroup name="group.filmGlow.group.filmGlow.secondaryGlow.group.filmGlow.secondaryGlow.rgbScale.rgbIndependent">
+        <OfxParamTypeDouble name="filmGlow.secondaryGlow.glowUnderSource">
           <OfxPropLabel>源层下发光</OfxPropLabel>
-        </OfxParamTypeGroup>
-        <OfxParamTypeGroup name="group.filmGlow.group.filmGlow.extras">
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="group.filmGlow.group.filmGlow.secondaryGlow.group.filmGlow.secondaryGlow.rgbScale.rgbIndependent">
           <OfxPropLabel>RGB独立</OfxPropLabel>
         </OfxParamTypeGroup>
-        <OfxParamTypeRGB name="filmGlow.thresholdColor">
+        <OfxParamTypeGroup name="group.filmGlow.group.filmGlow.extras">
           <OfxPropLabel>附加</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="filmGlow.thresholdColor">
+          <OfxPropLabel>阈值颜色</OfxPropLabel>
         </OfxParamTypeRGB>
         <OfxParamTypeChoice name="filmGlow.applyMode">
-          <OfxPropLabel>阈值颜色</OfxPropLabel>
-          <OfxParamPropChoiceOption>混合模式</OfxParamPropChoiceOption>
+          <OfxPropLabel>混合模式</OfxPropLabel>
           <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>变亮</OfxParamPropChoiceOption>
@@ -59717,90 +59716,91 @@
           <OfxParamPropChoiceOption>饱和度</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>颜色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>亮度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>在源之下</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeGroup name="group.blur">
-          <OfxPropLabel>在源之下</OfxPropLabel>
+          <OfxPropLabel>模糊</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeChoice name="blur.quality">
-          <OfxPropLabel>模糊</OfxPropLabel>
-          <OfxParamPropChoiceOption>模糊质量</OfxParamPropChoiceOption>
+          <OfxPropLabel>模糊质量</OfxPropLabel>
           <OfxParamPropChoiceOption>盒状</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>金字塔</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>金字塔更平滑</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>高斯</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="blur.blur">
-          <OfxPropLabel>高斯</OfxPropLabel>
+          <OfxPropLabel>模糊</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="blur.edgeMode">
-          <OfxPropLabel>模糊</OfxPropLabel>
-          <OfxParamPropChoiceOption>边缘模式</OfxParamPropChoiceOption>
+          <OfxPropLabel>边缘模式</OfxPropLabel>
           <OfxParamPropChoiceOption>透明</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>重复</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeBoolean name="blur.draft">
-          <OfxPropLabel>反射</OfxPropLabel>
+          <OfxPropLabel>草稿</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeDouble name="blur.perpendicularBlur">
-          <OfxPropLabel>草稿</OfxPropLabel>
+          <OfxPropLabel>垂直模糊</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeGroup name="group.cc">
-          <OfxPropLabel>垂直模糊</OfxPropLabel>
+          <OfxPropLabel>颜色校正</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeDouble name="cc.hue">
-          <OfxPropLabel>颜色校正</OfxPropLabel>
+          <OfxPropLabel>色相</OfxPropLabel>
           <!-- <OfxParamPropHint>OfxParamPropDoubleHintHue</OfxParamPropHint> -->
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="cc.saturation">
-          <OfxPropLabel>色相</OfxPropLabel>
+          <OfxPropLabel>饱和度</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="cc.brightness">
-          <OfxPropLabel>饱和度</OfxPropLabel>
+          <OfxPropLabel>亮度</OfxPropLabel>
           <!-- <OfxParamPropHint>OfxParamPropDoubleHintLuminance</OfxParamPropHint> -->
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="cc.contrast">
-          <OfxPropLabel>亮度</OfxPropLabel>
-        </OfxParamTypeDouble>
-        <OfxParamTypeDouble name="cc.gamma">
           <OfxPropLabel>对比度</OfxPropLabel>
         </OfxParamTypeDouble>
-        <OfxParamTypeDouble name="cc.temperature">
+        <OfxParamTypeDouble name="cc.gamma">
           <OfxPropLabel>Gamma</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="cc.temperature">
+          <OfxPropLabel>色温</OfxPropLabel>
           <!-- <OfxParamPropHint>OfxParamPropDoubleHintTemperature</OfxParamPropHint> -->
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="cc.cyanMagenta">
-          <OfxPropLabel>色温</OfxPropLabel>
+          <OfxPropLabel>青色/洋红</OfxPropLabel>
           <!-- <OfxParamPropHint>OfxParamPropDoubleHintCyanMagenta</OfxParamPropHint> -->
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="cc.red">
-          <OfxPropLabel>青色/洋红</OfxPropLabel>
+          <OfxPropLabel>红</OfxPropLabel>
           <!-- <OfxParamPropHint>OfxParamPropDoubleHintRed</OfxParamPropHint> -->
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="cc.green">
-          <OfxPropLabel>红</OfxPropLabel>
+          <OfxPropLabel>绿</OfxPropLabel>
           <!-- <OfxParamPropHint>OfxParamPropDoubleHintGreen</OfxParamPropHint> -->
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="cc.blue">
-          <OfxPropLabel>绿</OfxPropLabel>
+          <OfxPropLabel>蓝</OfxPropLabel>
           <!-- <OfxParamPropHint>OfxParamPropDoubleHintBlue</OfxParamPropHint> -->
         </OfxParamTypeDouble>
         <OfxParamTypeGroup name="group.tuning">
-          <OfxPropLabel>蓝</OfxPropLabel>
+          <OfxPropLabel>动画调整</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeDouble name="tuning.ease_in">
-          <OfxPropLabel>动画调整</OfxPropLabel>
-        </OfxParamTypeDouble>
-        <OfxParamTypeDouble name="tuning.ease_out">
           <OfxPropLabel>缓入</OfxPropLabel>
         </OfxParamTypeDouble>
-        <OfxParamTypeBoolean name="osc_enabled">
+        <OfxParamTypeDouble name="tuning.ease_out">
           <OfxPropLabel>缓出</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="osc_enabled">
+          <OfxPropLabel>启用OSC</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name=".precision">
-          <OfxPropLabel>启用OSC</OfxPropLabel>
-          <OfxParamPropChoiceOption>GPU渲染</OfxParamPropChoiceOption>
+          <OfxPropLabel>GPU渲染</OfxPropLabel>
           <OfxParamPropChoiceOption>默认</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>16 位浮点</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>32 位浮点</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>禁用</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -59811,127 +59811,128 @@
       <OfxImageEffectPluginPropGrouping>BCC 转场</OfxImageEffectPluginPropGrouping>
       <OfxImageEffectContext name="default">
         <OfxParamTypePushButton name=".help">
-          <OfxPropLabel>BCC+快速平移镜头</OfxPropLabel>
-        </OfxParamTypePushButton>
-        <OfxParamTypePushButton name=".setup">
           <OfxPropLabel>帮助...</OfxPropLabel>
         </OfxParamTypePushButton>
-        <OfxParamTypePushButton name=".license">
+        <OfxParamTypePushButton name=".setup">
           <OfxPropLabel>FX编辑器...</OfxPropLabel>
         </OfxParamTypePushButton>
-        <OfxParamTypeChoice name="transition.mode">
+        <OfxParamTypePushButton name=".license">
           <OfxPropLabel>许可证/关于...</OfxPropLabel>
-          <OfxParamPropChoiceOption>动画</OfxParamPropChoiceOption>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="transition.mode">
+          <OfxPropLabel>动画</OfxPropLabel>
           <OfxParamPropChoiceOption>自动</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>手动完成百分比</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="percentDone">
-          <OfxPropLabel>手动完成百分比</OfxPropLabel>
+          <OfxPropLabel>完成百分比</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="panDirection">
-          <OfxPropLabel>完成百分比</OfxPropLabel>
-          <OfxParamPropChoiceOption>平移方向</OfxParamPropChoiceOption>
+          <OfxPropLabel>平移方向</OfxPropLabel>
           <OfxParamPropChoiceOption>左</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>上</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>右</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>下</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeInteger name="rollSpeed">
-          <OfxPropLabel>下</OfxPropLabel>
+          <OfxPropLabel>滚动速度</OfxPropLabel>
         </OfxParamTypeInteger>
         <OfxParamTypeDouble name="separation">
-          <OfxPropLabel>滚动速度</OfxPropLabel>
+          <OfxPropLabel>分离</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeBoolean name="useColoredBackground">
-          <OfxPropLabel>分离</OfxPropLabel>
+          <OfxPropLabel>使用彩色背景</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeRGB name="backgroundColor">
-          <OfxPropLabel>使用彩色背景</OfxPropLabel>
+          <OfxPropLabel>背景颜色</OfxPropLabel>
         </OfxParamTypeRGB>
         <OfxParamTypeBoolean name="expandEdge">
-          <OfxPropLabel>背景颜色</OfxPropLabel>
+          <OfxPropLabel>扩展边缘</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group.blur">
-          <OfxPropLabel>扩展边缘</OfxPropLabel>
+          <OfxPropLabel>模糊</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeChoice name="blur.quality">
-          <OfxPropLabel>模糊</OfxPropLabel>
-          <OfxParamPropChoiceOption>模糊质量</OfxParamPropChoiceOption>
+          <OfxPropLabel>模糊质量</OfxPropLabel>
           <OfxParamPropChoiceOption>盒状</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>金字塔</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>金字塔更平滑</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>高斯</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="blur.blur">
-          <OfxPropLabel>高斯</OfxPropLabel>
+          <OfxPropLabel>模糊</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="blur.edgeMode">
-          <OfxPropLabel>模糊</OfxPropLabel>
-          <OfxParamPropChoiceOption>边缘模式</OfxParamPropChoiceOption>
+          <OfxPropLabel>边缘模式</OfxPropLabel>
           <OfxParamPropChoiceOption>透明</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>重复</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeBoolean name="blur.draft">
-          <OfxPropLabel>反射</OfxPropLabel>
+          <OfxPropLabel>草稿</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeDouble name="blur.perpendicularBlur">
-          <OfxPropLabel>草稿</OfxPropLabel>
+          <OfxPropLabel>垂直模糊</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeGroup name="group.cc">
-          <OfxPropLabel>垂直模糊</OfxPropLabel>
+          <OfxPropLabel>颜色校正</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeDouble name="cc.hue">
-          <OfxPropLabel>颜色校正</OfxPropLabel>
+          <OfxPropLabel>色相</OfxPropLabel>
           <!-- <OfxParamPropHint>OfxParamPropDoubleHintHue</OfxParamPropHint> -->
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="cc.saturation">
-          <OfxPropLabel>色相</OfxPropLabel>
+          <OfxPropLabel>饱和度</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="cc.brightness">
-          <OfxPropLabel>饱和度</OfxPropLabel>
+          <OfxPropLabel>亮度</OfxPropLabel>
           <!-- <OfxParamPropHint>OfxParamPropDoubleHintLuminance</OfxParamPropHint> -->
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="cc.contrast">
-          <OfxPropLabel>亮度</OfxPropLabel>
-        </OfxParamTypeDouble>
-        <OfxParamTypeDouble name="cc.gamma">
           <OfxPropLabel>对比度</OfxPropLabel>
         </OfxParamTypeDouble>
-        <OfxParamTypeDouble name="cc.temperature">
+        <OfxParamTypeDouble name="cc.gamma">
           <OfxPropLabel>Gamma</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="cc.temperature">
+          <OfxPropLabel>色温</OfxPropLabel>
           <!-- <OfxParamPropHint>OfxParamPropDoubleHintTemperature</OfxParamPropHint> -->
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="cc.cyanMagenta">
-          <OfxPropLabel>色温</OfxPropLabel>
+          <OfxPropLabel>青色/洋红</OfxPropLabel>
           <!-- <OfxParamPropHint>OfxParamPropDoubleHintCyanMagenta</OfxParamPropHint> -->
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="cc.red">
-          <OfxPropLabel>青色/洋红</OfxPropLabel>
+          <OfxPropLabel>红</OfxPropLabel>
           <!-- <OfxParamPropHint>OfxParamPropDoubleHintRed</OfxParamPropHint> -->
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="cc.green">
-          <OfxPropLabel>红</OfxPropLabel>
+          <OfxPropLabel>绿</OfxPropLabel>
           <!-- <OfxParamPropHint>OfxParamPropDoubleHintGreen</OfxParamPropHint> -->
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="cc.blue">
-          <OfxPropLabel>绿</OfxPropLabel>
+          <OfxPropLabel>蓝</OfxPropLabel>
           <!-- <OfxParamPropHint>OfxParamPropDoubleHintBlue</OfxParamPropHint> -->
         </OfxParamTypeDouble>
         <OfxParamTypeGroup name="group.tuning">
-          <OfxPropLabel>蓝</OfxPropLabel>
+          <OfxPropLabel>动画调整</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeDouble name="tuning.ease_in">
-          <OfxPropLabel>动画调整</OfxPropLabel>
-        </OfxParamTypeDouble>
-        <OfxParamTypeDouble name="tuning.ease_out">
           <OfxPropLabel>缓入</OfxPropLabel>
         </OfxParamTypeDouble>
-        <OfxParamTypeBoolean name="osc_enabled">
+        <OfxParamTypeDouble name="tuning.ease_out">
           <OfxPropLabel>缓出</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="osc_enabled">
+          <OfxPropLabel>启用OSC</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name=".precision">
-          <OfxPropLabel>启用OSC</OfxPropLabel>
+          <OfxPropLabel>GPU渲染</OfxPropLabel>
           <OfxParamPropChoiceOption>GPU渲染</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>默认</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>16 位浮点</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>32 位浮点</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>禁用</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -59942,177 +59943,177 @@
       <OfxImageEffectPluginPropGrouping>BCC 转场</OfxImageEffectPluginPropGrouping>
       <OfxImageEffectContext name="default">
         <OfxParamTypePushButton name=".help">
-          <OfxPropLabel>BCC+快速平移镜头 棱镜色散/色差/RGB分离</OfxPropLabel>
-        </OfxParamTypePushButton>
-        <OfxParamTypePushButton name=".setup">
           <OfxPropLabel>帮助...</OfxPropLabel>
         </OfxParamTypePushButton>
-        <OfxParamTypePushButton name=".license">
+        <OfxParamTypePushButton name=".setup">
           <OfxPropLabel>FX编辑器...</OfxPropLabel>
         </OfxParamTypePushButton>
-        <OfxParamTypeChoice name="transition.mode">
+        <OfxParamTypePushButton name=".license">
           <OfxPropLabel>许可证/关于...</OfxPropLabel>
-          <OfxParamPropChoiceOption>动画</OfxParamPropChoiceOption>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="transition.mode">
+          <OfxPropLabel>动画</OfxPropLabel>
           <OfxParamPropChoiceOption>自动</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>手动完成百分比</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="percentDone">
-          <OfxPropLabel>手动完成百分比</OfxPropLabel>
+          <OfxPropLabel>完成百分比</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="panDirection">
-          <OfxPropLabel>完成百分比</OfxPropLabel>
-          <OfxParamPropChoiceOption>平移方向</OfxParamPropChoiceOption>
+          <OfxPropLabel>平移方向</OfxPropLabel>
           <OfxParamPropChoiceOption>左</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>上</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>右</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>下</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeInteger name="rollSpeed">
-          <OfxPropLabel>下</OfxPropLabel>
+          <OfxPropLabel>滚动速度</OfxPropLabel>
         </OfxParamTypeInteger>
         <OfxParamTypeDouble name="separation">
-          <OfxPropLabel>滚动速度</OfxPropLabel>
+          <OfxPropLabel>分离</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeBoolean name="useColoredBackground">
-          <OfxPropLabel>分离</OfxPropLabel>
+          <OfxPropLabel>使用彩色背景</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeRGB name="backgroundColor">
-          <OfxPropLabel>使用彩色背景</OfxPropLabel>
+          <OfxPropLabel>背景颜色</OfxPropLabel>
         </OfxParamTypeRGB>
         <OfxParamTypeBoolean name="expandEdge">
-          <OfxPropLabel>背景颜色</OfxPropLabel>
+          <OfxPropLabel>扩展边缘</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group.prism">
-          <OfxPropLabel>扩展边缘</OfxPropLabel>
+          <OfxPropLabel>棱镜</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeDouble name="prism.depthDelta">
-          <OfxPropLabel>棱镜</OfxPropLabel>
-        </OfxParamTypeDouble>
-        <OfxParamTypeDouble name="prism.prismShift">
           <OfxPropLabel>深度增量</OfxPropLabel>
         </OfxParamTypeDouble>
-        <OfxParamTypeChoice name="prism.smoothMode">
+        <OfxParamTypeDouble name="prism.prismShift">
           <OfxPropLabel>棱镜移位</OfxPropLabel>
-          <OfxParamPropChoiceOption>平滑模式</OfxParamPropChoiceOption>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="prism.smoothMode">
+          <OfxPropLabel>平滑模式</OfxPropLabel>
           <OfxParamPropChoiceOption>自动</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>手动</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="prism.smoothness">
-          <OfxPropLabel>手动</OfxPropLabel>
-        </OfxParamTypeDouble>
-        <OfxParamTypeDouble name="prism.prism.weight">
           <OfxPropLabel>平滑度</OfxPropLabel>
         </OfxParamTypeDouble>
-        <OfxParamTypeGroup name="group.prism.group.prism.colors">
+        <OfxParamTypeDouble name="prism.prism.weight">
           <OfxPropLabel>权重</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="group.prism.group.prism.colors">
+          <OfxPropLabel>棱镜颜色</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeRGB name="prism.prism.color1">
-          <OfxPropLabel>棱镜颜色</OfxPropLabel>
-        </OfxParamTypeRGB>
-        <OfxParamTypeRGB name="prism.prism.color2">
           <OfxPropLabel>短颜色</OfxPropLabel>
         </OfxParamTypeRGB>
-        <OfxParamTypeRGB name="prism.prism.color3">
+        <OfxParamTypeRGB name="prism.prism.color2">
           <OfxPropLabel>中间颜色</OfxPropLabel>
         </OfxParamTypeRGB>
-        <OfxParamTypeDouble name="prism.spiralTurns">
+        <OfxParamTypeRGB name="prism.prism.color3">
           <OfxPropLabel>长颜色</OfxPropLabel>
-        </OfxParamTypeDouble>
-        <OfxParamTypeDouble name="prism.spiralDistance">
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="prism.spiralTurns">
           <OfxPropLabel>螺旋圈数</OfxPropLabel>
         </OfxParamTypeDouble>
-        <OfxParamTypeDouble name="prism.falloff">
+        <OfxParamTypeDouble name="prism.spiralDistance">
           <OfxPropLabel>螺旋距离</OfxPropLabel>
         </OfxParamTypeDouble>
-        <OfxParamTypeChoice name="prism.edgeMode">
+        <OfxParamTypeDouble name="prism.falloff">
           <OfxPropLabel>衰减</OfxPropLabel>
-          <OfxParamPropChoiceOption>边缘模式</OfxParamPropChoiceOption>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="prism.edgeMode">
+          <OfxPropLabel>边缘模式</OfxPropLabel>
           <OfxParamPropChoiceOption>透明</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>重复</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeBoolean name="prism.draft">
-          <OfxPropLabel>反射</OfxPropLabel>
+          <OfxPropLabel>草稿渲染</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group.blur">
-          <OfxPropLabel>草稿渲染</OfxPropLabel>
+          <OfxPropLabel>模糊</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeChoice name="blur.quality">
-          <OfxPropLabel>模糊</OfxPropLabel>
-          <OfxParamPropChoiceOption>模糊质量</OfxParamPropChoiceOption>
+          <OfxPropLabel>模糊质量</OfxPropLabel>
           <OfxParamPropChoiceOption>盒状</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>金字塔</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>金字塔更平滑</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>高斯</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="blur.blur">
-          <OfxPropLabel>高斯</OfxPropLabel>
+          <OfxPropLabel>模糊</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="blur.edgeMode">
-          <OfxPropLabel>模糊</OfxPropLabel>
-          <OfxParamPropChoiceOption>边缘模式</OfxParamPropChoiceOption>
+          <OfxPropLabel>边缘模式</OfxPropLabel>
           <OfxParamPropChoiceOption>透明</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>重复</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeBoolean name="blur.draft">
-          <OfxPropLabel>反射</OfxPropLabel>
+          <OfxPropLabel>草稿</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeDouble name="blur.perpendicularBlur">
-          <OfxPropLabel>草稿</OfxPropLabel>
+          <OfxPropLabel>垂直模糊</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeGroup name="group.cc">
-          <OfxPropLabel>垂直模糊</OfxPropLabel>
+          <OfxPropLabel>颜色校正</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeDouble name="cc.hue">
-          <OfxPropLabel>颜色校正</OfxPropLabel>
+          <OfxPropLabel>色相</OfxPropLabel>
           <!-- <OfxParamPropHint>OfxParamPropDoubleHintHue</OfxParamPropHint> -->
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="cc.saturation">
-          <OfxPropLabel>色相</OfxPropLabel>
+          <OfxPropLabel>饱和度</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="cc.brightness">
-          <OfxPropLabel>饱和度</OfxPropLabel>
+          <OfxPropLabel>亮度</OfxPropLabel>
           <!-- <OfxParamPropHint>OfxParamPropDoubleHintLuminance</OfxParamPropHint> -->
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="cc.contrast">
-          <OfxPropLabel>亮度</OfxPropLabel>
-        </OfxParamTypeDouble>
-        <OfxParamTypeDouble name="cc.gamma">
           <OfxPropLabel>对比度</OfxPropLabel>
         </OfxParamTypeDouble>
-        <OfxParamTypeDouble name="cc.temperature">
+        <OfxParamTypeDouble name="cc.gamma">
           <OfxPropLabel>Gamma</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="cc.temperature">
+          <OfxPropLabel>色温</OfxPropLabel>
           <!-- <OfxParamPropHint>OfxParamPropDoubleHintTemperature</OfxParamPropHint> -->
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="cc.cyanMagenta">
-          <OfxPropLabel>色温</OfxPropLabel>
+          <OfxPropLabel>青色/洋红</OfxPropLabel>
           <!-- <OfxParamPropHint>OfxParamPropDoubleHintCyanMagenta</OfxParamPropHint> -->
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="cc.red">
-          <OfxPropLabel>青色/洋红</OfxPropLabel>
+          <OfxPropLabel>红</OfxPropLabel>
           <!-- <OfxParamPropHint>OfxParamPropDoubleHintRed</OfxParamPropHint> -->
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="cc.green">
-          <OfxPropLabel>红</OfxPropLabel>
+          <OfxPropLabel>绿</OfxPropLabel>
           <!-- <OfxParamPropHint>OfxParamPropDoubleHintGreen</OfxParamPropHint> -->
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="cc.blue">
-          <OfxPropLabel>绿</OfxPropLabel>
+          <OfxPropLabel>蓝</OfxPropLabel>
           <!-- <OfxParamPropHint>OfxParamPropDoubleHintBlue</OfxParamPropHint> -->
         </OfxParamTypeDouble>
         <OfxParamTypeGroup name="group.tuning">
-          <OfxPropLabel>蓝</OfxPropLabel>
+          <OfxPropLabel>动画调整</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeDouble name="tuning.ease_in">
-          <OfxPropLabel>动画调整</OfxPropLabel>
-        </OfxParamTypeDouble>
-        <OfxParamTypeDouble name="tuning.ease_out">
           <OfxPropLabel>缓入</OfxPropLabel>
         </OfxParamTypeDouble>
-        <OfxParamTypeBoolean name="osc_enabled">
+        <OfxParamTypeDouble name="tuning.ease_out">
           <OfxPropLabel>缓出</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="osc_enabled">
+          <OfxPropLabel>启用OSC</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name=".precision">
-          <OfxPropLabel>启用OSC</OfxPropLabel>
-          <OfxParamPropChoiceOption>GPU渲染</OfxParamPropChoiceOption>
+          <OfxPropLabel>GPU渲染</OfxPropLabel>
           <OfxParamPropChoiceOption>默认</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>16 位浮点</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>32 位浮点</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>禁用</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -60123,146 +60124,146 @@
       <OfxImageEffectPluginPropGrouping>BCC 转场</OfxImageEffectPluginPropGrouping>
       <OfxImageEffectContext name="default">
         <OfxParamTypePushButton name=".help">
-          <OfxPropLabel>BCC+快速平移镜头 变形</OfxPropLabel>
-        </OfxParamTypePushButton>
-        <OfxParamTypePushButton name=".setup">
           <OfxPropLabel>帮助...</OfxPropLabel>
         </OfxParamTypePushButton>
-        <OfxParamTypePushButton name=".license">
+        <OfxParamTypePushButton name=".setup">
           <OfxPropLabel>FX编辑器...</OfxPropLabel>
         </OfxParamTypePushButton>
-        <OfxParamTypeChoice name="transition.mode">
+        <OfxParamTypePushButton name=".license">
           <OfxPropLabel>许可证/关于...</OfxPropLabel>
-          <OfxParamPropChoiceOption>动画</OfxParamPropChoiceOption>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="transition.mode">
+          <OfxPropLabel>动画</OfxPropLabel>
           <OfxParamPropChoiceOption>自动</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>手动完成百分比</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="percentDone">
-          <OfxPropLabel>手动完成百分比</OfxPropLabel>
+          <OfxPropLabel>完成百分比</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="panDirection">
-          <OfxPropLabel>完成百分比</OfxPropLabel>
-          <OfxParamPropChoiceOption>平移方向</OfxParamPropChoiceOption>
+          <OfxPropLabel>平移方向</OfxPropLabel>
           <OfxParamPropChoiceOption>左</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>上</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>右</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>下</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeInteger name="rollSpeed">
-          <OfxPropLabel>下</OfxPropLabel>
+          <OfxPropLabel>滚动速度</OfxPropLabel>
         </OfxParamTypeInteger>
         <OfxParamTypeDouble name="separation">
-          <OfxPropLabel>滚动速度</OfxPropLabel>
+          <OfxPropLabel>分离</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeBoolean name="useColoredBackground">
-          <OfxPropLabel>分离</OfxPropLabel>
+          <OfxPropLabel>使用彩色背景</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeRGB name="backgroundColor">
-          <OfxPropLabel>使用彩色背景</OfxPropLabel>
+          <OfxPropLabel>背景颜色</OfxPropLabel>
         </OfxParamTypeRGB>
         <OfxParamTypeBoolean name="expandEdge">
-          <OfxPropLabel>背景颜色</OfxPropLabel>
+          <OfxPropLabel>扩展边缘</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group.warp">
-          <OfxPropLabel>扩展边缘</OfxPropLabel>
+          <OfxPropLabel>变形</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeDouble name="wideAngleLens.amount">
-          <OfxPropLabel>变形</OfxPropLabel>
-        </OfxParamTypeDouble>
-        <OfxParamTypeDouble name="wideAngleLens.asymetricX">
           <OfxPropLabel>扭曲</OfxPropLabel>
         </OfxParamTypeDouble>
-        <OfxParamTypeDouble name="wideAngleLens.asymetricY">
+        <OfxParamTypeDouble name="wideAngleLens.asymetricX">
           <OfxPropLabel>X 校正</OfxPropLabel>
         </OfxParamTypeDouble>
-        <OfxParamTypeChoice name="wideAngleLens.edgeMode">
+        <OfxParamTypeDouble name="wideAngleLens.asymetricY">
           <OfxPropLabel>Y 校正</OfxPropLabel>
-          <OfxParamPropChoiceOption>边缘模式</OfxParamPropChoiceOption>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="wideAngleLens.edgeMode">
+          <OfxPropLabel>边缘模式</OfxPropLabel>
+          <OfxParamPropChoiceOption>透明</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>重复</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>包裹</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="group.blur">
+          <OfxPropLabel>模糊</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="blur.quality">
+          <OfxPropLabel>模糊质量</OfxPropLabel>
+          <OfxParamPropChoiceOption>盒状</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>金字塔</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>金字塔更平滑</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>高斯</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="blur.blur">
+          <OfxPropLabel>模糊</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="blur.edgeMode">
+          <OfxPropLabel>边缘模式</OfxPropLabel>
           <OfxParamPropChoiceOption>透明</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>重复</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
-        <OfxParamTypeGroup name="group.blur">
-          <OfxPropLabel>包裹</OfxPropLabel>
-        </OfxParamTypeGroup>
-        <OfxParamTypeChoice name="blur.quality">
-          <OfxPropLabel>模糊</OfxPropLabel>
-          <OfxParamPropChoiceOption>模糊质量</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>盒状</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>金字塔</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>金字塔更平滑</OfxParamPropChoiceOption>
-        </OfxParamTypeChoice>
-        <OfxParamTypeDouble name="blur.blur">
-          <OfxPropLabel>高斯</OfxPropLabel>
-        </OfxParamTypeDouble>
-        <OfxParamTypeChoice name="blur.edgeMode">
-          <OfxPropLabel>模糊</OfxPropLabel>
-          <OfxParamPropChoiceOption>边缘模式</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>透明</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>重复</OfxParamPropChoiceOption>
-        </OfxParamTypeChoice>
         <OfxParamTypeBoolean name="blur.draft">
-          <OfxPropLabel>反射</OfxPropLabel>
+          <OfxPropLabel>草稿</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeDouble name="blur.perpendicularBlur">
-          <OfxPropLabel>草稿</OfxPropLabel>
+          <OfxPropLabel>垂直模糊</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeGroup name="group.cc">
-          <OfxPropLabel>垂直模糊</OfxPropLabel>
+          <OfxPropLabel>颜色校正</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeDouble name="cc.hue">
-          <OfxPropLabel>颜色校正</OfxPropLabel>
+          <OfxPropLabel>色相</OfxPropLabel>
           <!-- <OfxParamPropHint>OfxParamPropDoubleHintHue</OfxParamPropHint> -->
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="cc.saturation">
-          <OfxPropLabel>色相</OfxPropLabel>
+          <OfxPropLabel>饱和度</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="cc.brightness">
-          <OfxPropLabel>饱和度</OfxPropLabel>
+          <OfxPropLabel>亮度</OfxPropLabel>
           <!-- <OfxParamPropHint>OfxParamPropDoubleHintLuminance</OfxParamPropHint> -->
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="cc.contrast">
-          <OfxPropLabel>亮度</OfxPropLabel>
-        </OfxParamTypeDouble>
-        <OfxParamTypeDouble name="cc.gamma">
           <OfxPropLabel>对比度</OfxPropLabel>
         </OfxParamTypeDouble>
-        <OfxParamTypeDouble name="cc.temperature">
+        <OfxParamTypeDouble name="cc.gamma">
           <OfxPropLabel>Gamma</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="cc.temperature">
+          <OfxPropLabel>色温</OfxPropLabel>
           <!-- <OfxParamPropHint>OfxParamPropDoubleHintTemperature</OfxParamPropHint> -->
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="cc.cyanMagenta">
-          <OfxPropLabel>色温</OfxPropLabel>
+          <OfxPropLabel>青色/洋红</OfxPropLabel>
           <!-- <OfxParamPropHint>OfxParamPropDoubleHintCyanMagenta</OfxParamPropHint> -->
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="cc.red">
-          <OfxPropLabel>青色/洋红</OfxPropLabel>
+          <OfxPropLabel>红</OfxPropLabel>
           <!-- <OfxParamPropHint>OfxParamPropDoubleHintRed</OfxParamPropHint> -->
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="cc.green">
-          <OfxPropLabel>红</OfxPropLabel>
+          <OfxPropLabel>绿</OfxPropLabel>
           <!-- <OfxParamPropHint>OfxParamPropDoubleHintGreen</OfxParamPropHint> -->
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="cc.blue">
-          <OfxPropLabel>绿</OfxPropLabel>
+          <OfxPropLabel>蓝</OfxPropLabel>
           <!-- <OfxParamPropHint>OfxParamPropDoubleHintBlue</OfxParamPropHint> -->
         </OfxParamTypeDouble>
         <OfxParamTypeGroup name="group.tuning">
-          <OfxPropLabel>蓝</OfxPropLabel>
+          <OfxPropLabel>动画调整</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeDouble name="tuning.ease_in">
-          <OfxPropLabel>动画调整</OfxPropLabel>
-        </OfxParamTypeDouble>
-        <OfxParamTypeDouble name="tuning.ease_out">
           <OfxPropLabel>缓入</OfxPropLabel>
         </OfxParamTypeDouble>
-        <OfxParamTypeBoolean name="osc_enabled">
+        <OfxParamTypeDouble name="tuning.ease_out">
           <OfxPropLabel>缓出</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="osc_enabled">
+          <OfxPropLabel>启用OSC</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name=".precision">
-          <OfxPropLabel>启用OSC</OfxPropLabel>
-          <OfxParamPropChoiceOption>GPU渲染</OfxParamPropChoiceOption>
+          <OfxPropLabel>GPU渲染</OfxPropLabel>
           <OfxParamPropChoiceOption>默认</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>16 位浮点</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>32 位浮点</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>禁用</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -60307,10 +60308,10 @@
           <OfxPropLabel>强度</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypePushButton name="_pc.savePreset">
-          <OfxPropLabel>Save Preset</OfxPropLabel>
+          <OfxPropLabel>保存预设</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypePushButton name="_pc.loadPreset">
-          <OfxPropLabel>Load Preset</OfxPropLabel>
+          <OfxPropLabel>加载预设</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.mask">
           <OfxPropLabel>遮罩</OfxPropLabel>
@@ -61513,10 +61514,10 @@
           <OfxPropLabel>强度</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypePushButton name="_pc.savePreset">
-          <OfxPropLabel>Save Preset</OfxPropLabel>
+          <OfxPropLabel>保存预设</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypePushButton name="_pc.loadPreset">
-          <OfxPropLabel>Load Preset</OfxPropLabel>
+          <OfxPropLabel>加载预设</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.mask">
           <OfxPropLabel>遮罩</OfxPropLabel>
@@ -61855,10 +61856,10 @@
           <OfxPropLabel>强度</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypePushButton name="_pc.savePreset">
-          <OfxPropLabel>Save Preset</OfxPropLabel>
+          <OfxPropLabel>保存预设</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypePushButton name="_pc.loadPreset">
-          <OfxPropLabel>Load Preset</OfxPropLabel>
+          <OfxPropLabel>加载预设</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.mask">
           <OfxPropLabel>遮罩</OfxPropLabel>
