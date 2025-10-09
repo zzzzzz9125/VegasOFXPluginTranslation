@@ -59928,7 +59928,6 @@
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name=".precision">
           <OfxPropLabel>GPU渲染</OfxPropLabel>
-          <OfxParamPropChoiceOption>GPU渲染</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>默认</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>16 位浮点</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>32 位浮点</OfxParamPropChoiceOption>
