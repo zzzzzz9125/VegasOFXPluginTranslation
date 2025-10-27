@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="wtf.vala:NtscRs">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>NTSC-rs</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Filter</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="load_preset">
+          <OfxPropLabel>프리셋 불러오기...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="save_preset">
+          <OfxPropLabel>프리셋 저장...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeInteger name="36">
+          <OfxPropLabel>랜덤 시드</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeChoice name="30">
+          <OfxPropLabel>사용 필드</OfxPropLabel>
+          <OfxParamPropHint>원본 이미지의 어떤 행(NTSC 용어로 "필드")을 사용할지 선택합니다.</OfxParamPropHint>
+          <OfxParamPropChoiceOption>교대</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>상단만</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>하단만</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>인터리브(상단 우선)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>인터리브(하단 우선)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>둘 다</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="46">
+          <OfxPropLabel>저역 통과 필터 유형</OfxPropLabel>
+          <OfxParamPropHint>효과 전체에 사용되는 저역 통과 필터입니다.</OfxParamPropHint>
+          <OfxParamPropChoiceOption>상수 K (흐림)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>버터워스 (더 선명)</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="38">
+          <OfxPropLabel>입력 휘도 필터</OfxPropLabel>
+          <OfxParamPropHint>무지개 아티팩트를 줄이기 위해 입력 휘도를 필터링합니다.</OfxParamPropHint>
+          <OfxParamPropChoiceOption>노치</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>박스</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>없음</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="0">
+          <OfxPropLabel>입력 색도 저역 통과</OfxPropLabel>
+          <OfxParamPropHint>입력 색도(색상) 신호에 저역 통과 필터를 적용합니다.</OfxParamPropHint>
+          <OfxParamPropChoiceOption>전체</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>약함</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>없음</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>합성 신호 샤프닝</OfxPropLabel>
+          <OfxParamPropHint>NTSC 신호의 고주파를 증폭하여 이미지를 선명하게 하고 색상을 강화합니다.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="52_group">
+          <OfxPropLabel>합성 신호 노이즈</OfxPropLabel>
+          <OfxParamPropHint>합성 NTSC 신호에 적용되는 노이즈입니다.</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="52">
+          <OfxPropLabel>활성화</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>강도</OfxPropLabel>
+          <OfxParamPropHint>노이즈의 강도입니다.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="53">
+          <OfxPropLabel>주파수</OfxPropLabel>
+          <OfxParamPropHint>노이즈의 기본 파장(픽셀 단위)입니다.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="54">
+          <OfxPropLabel>상세도</OfxPropLabel>
+          <OfxParamPropHint>노이즈의 옥타브 수입니다.</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>스노우</OfxPropLabel>
+          <OfxParamPropHint>이미지의 랜덤 스펙클 주파수입니다.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="34">
+          <OfxPropLabel>스노우 이방성</OfxPropLabel>
+          <OfxParamPropHint>스펙클이 진정으로 랜덤하게 배치되는지 아니면 특정 행에 집중되는지를 결정합니다.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="2">
+          <OfxPropLabel>스캔라인 위상 이동</OfxPropLabel>
+          <OfxParamPropHint>각 스캔라인의 색도(색상) 신호 위상 이동. 보통 180도입니다.</OfxParamPropHint>
+          <OfxParamPropChoiceOption>0도</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>90도</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>180도</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>270도</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeInteger name="3">
+          <OfxPropLabel>스캔라인 위상 이동 오프셋</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeChoice name="33">
+          <OfxPropLabel>색도 복조 필터</OfxPropLabel>
+          <OfxParamPropHint>합성 NTSC 신호에서 색도(색상) 데이터를 복조하는 데 사용되는 필터입니다.</OfxParamPropHint>
+          <OfxParamPropChoiceOption>박스</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>노치</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1-라인 콤</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>2-라인 콤</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="45">
+          <OfxPropLabel>휘도 스미어</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="11_group">
+          <OfxPropLabel>헤드 스위칭</OfxPropLabel>
+          <OfxParamPropHint>이미지 하단의 VHS 헤드 스위칭 아티팩트를 에뮬레이션합니다.</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="11">
+          <OfxPropLabel>활성화</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeInteger name="12">
+          <OfxPropLabel>높이</OfxPropLabel>
+          <OfxParamPropHint>헤드 스위칭 아티팩트의 총 높이입니다.</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="13">
+          <OfxPropLabel>오프셋</OfxPropLabel>
+          <OfxParamPropHint>헤드 스위칭 아티팩트가 화면 밖으로 얼마나 나가는지입니다.</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="14">
+          <OfxPropLabel>수평 이동</OfxPropLabel>
+          <OfxParamPropHint>헤드 스위칭 아티팩트가 행을 수평으로 얼마나 이동시키는지입니다.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="49_group">
+          <OfxPropLabel>중간 라인 시작</OfxPropLabel>
+          <OfxParamPropHint>헤드 스위칭 아티팩트를 스캔라인 중간에서 시작하고, 시작 지점에 약간의 정적을 줍니다.</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="49">
+          <OfxPropLabel>활성화</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="50">
+          <OfxPropLabel>위치</OfxPropLabel>
+          <OfxParamPropHint>헤드 스위칭이 시작되는 수평 위치입니다.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="51">
+          <OfxPropLabel>지터</OfxPropLabel>
+          <OfxParamPropHint>헤드 스위칭 아티팩트가 수평으로 얼마나 "지터"하는지입니다.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="15_group">
+          <OfxPropLabel>트래킹 노이즈</OfxPropLabel>
+          <OfxParamPropHint>VHS 트래킹 오류로부터의 노이즈를 에뮬레이션합니다.</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="15">
+          <OfxPropLabel>활성화</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeInteger name="16">
+          <OfxPropLabel>높이</OfxPropLabel>
+          <OfxParamPropHint>트래킹 아티팩트의 총 높이입니다.</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="17">
+          <OfxPropLabel>웨이브 강도</OfxPropLabel>
+          <OfxParamPropHint>영향받는 스캔라인들이 앞뒤로 얼마나 "웨이브"하는지입니다.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="18">
+          <OfxPropLabel>스노우 강도</OfxPropLabel>
+          <OfxParamPropHint>아티팩트의 스펙클 유형 노이즈 주파수입니다.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="35">
+          <OfxPropLabel>스노우 이방성</OfxPropLabel>
+          <OfxParamPropHint>스펙클이 스캔라인별로 얼마나 클러스터되는지입니다.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="31">
+          <OfxPropLabel>노이즈 강도</OfxPropLabel>
+          <OfxParamPropHint>비-스펙클 노이즈의 강도입니다.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="19_group">
+          <OfxPropLabel>링잉</OfxPropLabel>
+          <OfxParamPropHint>노치 필터로 시뮬레이션된 추가 링잉 아티팩트입니다.</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="19">
+          <OfxPropLabel>활성화</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="20">
+          <OfxPropLabel>주파수</OfxPropLabel>
+          <OfxParamPropHint>링잉의 주파수/주기, "픽셀당 링" 단위입니다.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="21">
+          <OfxPropLabel>파워</OfxPropLabel>
+          <OfxParamPropHint>노치 필터의 파워 / 링잉이 얼마나 멀리 확장되는지입니다.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="22">
+          <OfxPropLabel>스케일</OfxPropLabel>
+          <OfxParamPropHint>링잉의 강도입니다.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="55_group">
+          <OfxPropLabel>휘도 노이즈</OfxPropLabel>
+          <OfxParamPropHint>휘도 신호에 적용되는 노이즈입니다. "합성 노이즈" 설정이 제공할 수 있는 것보다 높은 주파수 노이즈에 유용합니다.</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="55">
+          <OfxPropLabel>활성화</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="57">
+          <OfxPropLabel>강도</OfxPropLabel>
+          <OfxParamPropHint>노이즈의 강도입니다.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="56">
+          <OfxPropLabel>주파수</OfxPropLabel>
+          <OfxParamPropHint>노이즈의 기본 파장(픽셀 단위)입니다.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="58">
+          <OfxPropLabel>상세도</OfxPropLabel>
+          <OfxParamPropHint>노이즈의 옥타브 수입니다.</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeGroup name="42_group">
+          <OfxPropLabel>색도 노이즈</OfxPropLabel>
+          <OfxParamPropHint>색도(색상) 신호에 적용되는 노이즈입니다.</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="42">
+          <OfxPropLabel>활성화</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>강도</OfxPropLabel>
+          <OfxParamPropHint>노이즈의 강도입니다.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="43">
+          <OfxPropLabel>주파수</OfxPropLabel>
+          <OfxParamPropHint>노이즈의 기본 파장(픽셀 단위)입니다.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="44">
+          <OfxPropLabel>상세도</OfxPropLabel>
+          <OfxParamPropHint>노이즈의 옥타브 수입니다.</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="37">
+          <OfxPropLabel>색도 위상 오류</OfxPropLabel>
+          <OfxParamPropHint>색도(색상) 신호의 위상 오류입니다.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>색도 위상 노이즈</OfxPropLabel>
+          <OfxParamPropHint>색도(색상) 신호의 위상에 스캔라인별로 적용되는 노이즈입니다.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="8">
+          <OfxPropLabel>색도 지연 (수평)</OfxPropLabel>
+          <OfxParamPropHint>색도(색상) 신호의 수평 오프셋입니다.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="9">
+          <OfxPropLabel>색도 지연 (수직)</OfxPropLabel>
+          <OfxParamPropHint>색도(색상) 신호의 수직 오프셋입니다. VHS 세대 손실에 따라 보통 증가합니다.</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeGroup name="23_group">
+          <OfxPropLabel>VHS 에뮬레이션</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="23">
+          <OfxPropLabel>활성화</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="24">
+          <OfxPropLabel>테이프 속도</OfxPropLabel>
+          <OfxParamPropHint>다양한 VHS 녹화 속도에서 고주파 데이터의 컷오프를 에뮬레이션합니다.</OfxParamPropHint>
+          <OfxParamPropChoiceOption>SP (표준 재생)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>LP (장시간 재생)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>EP (확장 재생)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>없음</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="26">
+          <OfxPropLabel>색도 손실</OfxPropLabel>
+          <OfxParamPropHint>각 스캔라인에서 색도(색상) 신호가 완전히 손실될 확률입니다.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="47_group">
+          <OfxPropLabel>샤펀</OfxPropLabel>
+          <OfxParamPropHint>일부 VHS 데크에서 수행되는 이미지 샤프닝입니다.</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="47">
+          <OfxPropLabel>활성화</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="27">
+          <OfxPropLabel>강도</OfxPropLabel>
+          <OfxParamPropHint>적용할 샤프닝 양입니다.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="48">
+          <OfxPropLabel>주파수</OfxPropLabel>
+          <OfxParamPropHint>테이프 속도의 컷오프 주파수에 상대적인 샤프닝의 주파수 / 반경입니다.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="39_group">
+          <OfxPropLabel>엣지 웨이브</OfxPropLabel>
+          <OfxParamPropHint>이미지의 수평 웨이빙입니다.</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="39">
+          <OfxPropLabel>활성화</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="28">
+          <OfxPropLabel>강도</OfxPropLabel>
+          <OfxParamPropHint>이미지의 수평 웨이빙(픽셀 단위)입니다.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="29">
+          <OfxPropLabel>속도</OfxPropLabel>
+          <OfxParamPropHint>수평 웨이빙이 발생하는 속도입니다.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="40">
+          <OfxPropLabel>주파수</OfxPropLabel>
+          <OfxParamPropHint>수평 웨이빙의 기본 파장입니다.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="41">
+          <OfxPropLabel>상세도</OfxPropLabel>
+          <OfxParamPropHint>웨이브의 노이즈 옥타브 수입니다.</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeBoolean name="25">
+          <OfxPropLabel>색도 수직 블렌드</OfxPropLabel>
+          <OfxParamPropHint>각 스캔라인의 색도를 위 스캔라인과 수직으로 블렌드합니다.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="10">
+          <OfxPropLabel>출력 색도 저역 통과</OfxPropLabel>
+          <OfxParamPropHint>출력 색도 신호에 저역 통과 필터를 적용합니다.</OfxParamPropHint>
+          <OfxParamPropChoiceOption>전체</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>약함</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>없음</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="61_group">
+          <OfxPropLabel>스케일</OfxPropLabel>
+          <OfxParamPropHint>이 팩터로 효과를 스케일링합니다.</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="61">
+          <OfxPropLabel>활성화</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="32">
+          <OfxPropLabel>수평 스케일</OfxPropLabel>
+          <OfxParamPropHint>효과를 이 양만큼 수평으로 스케일링합니다. 480p 비디오의 경우 가장 물리적으로 정확한 결과를 위해 1.0으로 유지하세요.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="59">
+          <OfxPropLabel>수직 스케일</OfxPropLabel>
+          <OfxParamPropHint>효과를 이 양만큼 수직으로 스케일링합니다. 이는 1.0으로 유지하는 것이 좋습니다.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="60">
+          <OfxPropLabel>비디오 크기와 스케일</OfxPropLabel>
+          <OfxParamPropHint>스케일링 팩터를 비디오의 높이로 곱합니다. 입력 비디오를 480p로 스케일링하는 것이 훨씬 더 정확한 결과를 제공하므로 이를 선호하세요.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="SrgbGammaCorrect">
+          <OfxPropLabel>sRGB 감마 적용</OfxPropLabel>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>
