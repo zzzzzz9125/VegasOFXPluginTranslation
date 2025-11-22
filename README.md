@@ -14,6 +14,7 @@ BCC 插件：夜__晓、Grok 3
 Ignite Pro 插件：夜__晓、Grok 3
 NewBlue 插件：夜__晓、Grok 3
 红巨星 Universe 插件：夜__晓、官方汉化
+Textuler 插件：Grok 3
 MisczOFX 插件：zzzzzz9125
 TextOFX 插件：zzzzzz9125
 NTSC-rs 插件：zzzzzz9125
@@ -61,8 +62,8 @@ Gyroflow 插件：Grok 3
 Ignite Pro 插件：https://www.fxhome.com/（注：FXHome 已经倒闭了。）
 NewBlue 插件：https://newbluefx.com/
 红巨星 Universe 插件：https://www.maxon.net/red-giant/universe
-MisczOFX 插件：https://www.bilibili.com/read/cv33944312/
-TextOFX 插件：https://text.openfx.no/
+MisczOFX 插件：https://github.com/zzzzzz9125/Miscz
+Textuler 插件：https://textuler.io/
 NTSC-rs 插件：https://github.com/valadaptive/ntsc-rs
 OFXClock 插件：https://www.hlinke.de/dokuwiki/doku.php?id=en:vegas_pro_ofx
 Gyroflow 插件：https://gyroflow.xyz/
