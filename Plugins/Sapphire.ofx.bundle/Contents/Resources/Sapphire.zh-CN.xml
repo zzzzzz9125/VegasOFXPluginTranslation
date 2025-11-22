@@ -1038,7 +1038,7 @@
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="Config">
           <OfxPropLabel>配置</OfxPropLabel>
-          <!-- <OfxParamPropChoiceOption>c:/Program Files/BorisFX/Sapphire 2025.5 OFX/ocio/config.ocio</OfxParamPropChoiceOption> -->
+          <!-- <OfxParamPropChoiceOption>c:/Program Files/BorisFX/Sapphire 2026 OFX/ocio/config.ocio</OfxParamPropChoiceOption> -->
         </OfxParamTypeChoice>
         <OfxParamTypeString name="Config Path">
           <OfxPropLabel>配置路径</OfxPropLabel>
@@ -2902,13 +2902,13 @@
           <OfxPropLabel>边缘模式 X</OfxPropLabel>
           <OfxParamPropChoiceOption>透明</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>重复</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Edge Mode Y">
           <OfxPropLabel>边缘模式 Y</OfxPropLabel>
           <OfxParamPropChoiceOption>透明</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>重复</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeGroup name="group_1">
           <OfxPropLabel>内核细节</OfxPropLabel>
@@ -2960,7 +2960,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -4370,7 +4370,7 @@
           <OfxPropLabel>边缘模式</OfxPropLabel>
           <OfxParamPropChoiceOption>透明</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>重复</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeBoolean name="Soft Borders">
           <OfxPropLabel>柔和边框</OfxPropLabel>
@@ -4385,7 +4385,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -9132,7 +9132,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>Enable GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -13747,7 +13747,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -13919,7 +13919,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -14053,7 +14053,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -14317,7 +14317,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -18196,7 +18196,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -18404,7 +18404,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -18702,7 +18702,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="Style">
           <OfxParamPropChoiceOption>彩虹光线</OfxParamPropChoiceOption>
@@ -18891,7 +18891,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -19060,7 +19060,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -19193,7 +19193,7 @@
         <OfxParamTypeChoice name="Edge Mode">
           <OfxPropLabel>边缘模式</OfxPropLabel>
           <OfxParamPropChoiceOption>透明</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="Bg Brightness">
           <OfxPropLabel>背景亮度</OfxPropLabel>
@@ -19229,7 +19229,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -19396,7 +19396,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -19531,7 +19531,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -19665,7 +19665,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -19814,7 +19814,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -19980,7 +19980,7 @@
         <OfxParamTypeChoice name="Edge Mode">
           <OfxPropLabel>边缘模式</OfxPropLabel>
           <OfxParamPropChoiceOption>透明</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="Bg Brightness">
           <OfxPropLabel>背景亮度</OfxPropLabel>
@@ -19998,7 +19998,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -20124,7 +20124,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -20279,7 +20279,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -20434,7 +20434,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -21622,7 +21622,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -22170,7 +22170,7 @@
         <OfxParamTypeChoice name="Edge Mode">
           <OfxPropLabel>边缘模式</OfxPropLabel>
           <OfxParamPropChoiceOption>透明</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>反射(镜像)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeBoolean name="Edge Fill">
           <OfxPropLabel>边缘填充</OfxPropLabel>
@@ -22327,7 +22327,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -24661,6 +24661,22 @@
           <OfxParamPropChoiceOption>灰尘</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>污渍</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>斑点</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆圈</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>几何线条</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>液体亚麻油毡</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>几何星图</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>月尘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>星场喷雾</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>喷漆星星</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>喷漆</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>溅射和喷雾</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>手绘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>墨滴</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>大海绵</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>纸海绵</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>腐朽的大马士革花纹</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>风格化绽放</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>油画花卉</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeGroup name="group_3">
           <OfxPropLabel>图章1细节</OfxPropLabel>
@@ -24715,6 +24731,22 @@
           <OfxParamPropChoiceOption>灰尘</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>污渍</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>斑点</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆圈</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>几何线条</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>液体亚麻油毡</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>几何星图</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>月尘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>星场喷雾</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>喷漆星星</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>喷漆</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>溅射和喷雾</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>手绘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>墨滴</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>大海绵</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>纸海绵</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>腐朽的大马士革花纹</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>风格化绽放</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>油画花卉</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeGroup name="group_4">
           <OfxPropLabel>图章2细节</OfxPropLabel>
@@ -24769,6 +24801,22 @@
           <OfxParamPropChoiceOption>灰尘</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>污渍</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>斑点</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆圈</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>几何线条</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>液体亚麻油毡</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>几何星图</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>月尘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>星场喷雾</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>喷漆星星</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>喷漆</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>溅射和喷雾</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>手绘</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>墨滴</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>大海绵</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>纸海绵</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>腐朽的大马士革花纹</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>风格化绽放</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>油画花卉</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeGroup name="group_5">
           <OfxPropLabel>图章3细节</OfxPropLabel>
@@ -32620,6 +32668,716 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
+  <OfxPlugin name="com.genarts.sapphire.Stylize.S_FilmBurn">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>S_FilmBurn</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>蓝宝石 风格化</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="Load Preset">
+          <OfxPropLabel>加载预设</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="Save Preset">
+          <OfxPropLabel>保存预设</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="Edit Mocha">
+          <OfxPropLabel>编辑Mocha遮罩</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeCustom name="Mocha Project">
+          <!-- <OfxPropLabel>Mocha项目</OfxPropLabel> -->
+        </OfxParamTypeCustom>
+        <OfxParamTypeGroup name="group_0">
+          <OfxPropLabel>Mocha遮罩</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Blur Mocha">
+          <OfxPropLabel>羽化</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Mocha Opacity">
+          <OfxPropLabel>透明度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="Invert Mocha">
+          <OfxPropLabel>反转</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="Resize Mocha">
+          <OfxPropLabel>调整大小</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Resize Rel X">
+          <OfxPropLabel>调整x相对尺寸</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Resize Rel Y">
+          <OfxPropLabel>调整y相对尺寸</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Shift Mocha X">
+          <OfxPropLabel>偏移x</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Shift Mocha Y">
+          <OfxPropLabel>偏移y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Dilate Mocha">
+          <OfxPropLabel>扩大Mocha</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Dilation Quality">
+          <OfxPropLabel>扩大质量</OfxPropLabel>
+          <OfxParamPropChoiceOption>快速</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>高</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="Bypass Mocha">
+          <OfxPropLabel>禁用Mocha遮罩</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="Show Mocha Only">
+          <OfxPropLabel>仅显示Mocha遮罩</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="Combine Masks">
+          <OfxPropLabel>连接遮罩</OfxPropLabel>
+          <OfxParamPropChoiceOption>并集</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>交集</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>仅Mocha遮罩</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="Flash1">
+          <OfxPropLabel>闪光1</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="Flash2">
+          <OfxPropLabel>闪光2</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="Flash3">
+          <OfxPropLabel>闪光3</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="Leader">
+          <OfxPropLabel>片头</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="Writing">
+          <OfxPropLabel>书写</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="Edges">
+          <OfxPropLabel>边缘</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="Scratches">
+          <OfxPropLabel>划痕</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="Hairs And Stains">
+          <OfxPropLabel>毛发和污渍</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="Dust">
+          <OfxPropLabel>尘埃</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="Grain">
+          <OfxPropLabel>颗粒</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="group_1">
+          <OfxPropLabel>闪光1</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Size1">
+          <OfxPropLabel>大小1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Stretch1">
+          <OfxPropLabel>拉伸1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Rotation1">
+          <OfxPropLabel>旋转1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Brightness1">
+          <OfxPropLabel>亮度1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="Center1">
+          <OfxPropLabel>中心1</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeRGB name="Outer Color1">
+          <OfxPropLabel>外颜色1</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="Inner Color1">
+          <OfxPropLabel>内颜色1</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="Midpoint1">
+          <OfxPropLabel>中点1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Softness1">
+          <OfxPropLabel>柔和度1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Shape1">
+          <OfxPropLabel>形状1</OfxPropLabel>
+          <OfxParamPropChoiceOption>圆形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>多边形</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeInteger name="Num Sides1">
+          <OfxPropLabel>边数1</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="Noise Amp1">
+          <OfxPropLabel>噪声幅度1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Noise Freq1">
+          <OfxPropLabel>噪声频率1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Noise Freq Rel Y1">
+          <OfxPropLabel>噪声频率相对 Y1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Flicker Amp1">
+          <OfxPropLabel>闪烁幅度1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Flicker Freq1">
+          <OfxPropLabel>闪烁频率1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Motion Style1">
+          <OfxPropLabel>运动风格1</OfxPropLabel>
+          <OfxParamPropChoiceOption>线性</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>波浪</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="Motion Amount1">
+          <OfxPropLabel>运动量1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Motion Angle1">
+          <OfxPropLabel>运动角度1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Motion Freq1">
+          <OfxPropLabel>运动频率1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Motion Delay1">
+          <OfxPropLabel>运动延迟1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="group_2">
+          <OfxPropLabel>闪光2</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Size2">
+          <OfxPropLabel>大小2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Stretch2">
+          <OfxPropLabel>拉伸2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Rotation2">
+          <OfxPropLabel>旋转2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Brightness2">
+          <OfxPropLabel>亮度2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="Center2">
+          <OfxPropLabel>中心2</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeRGB name="Outer Color2">
+          <OfxPropLabel>外颜色2</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="Inner Color2">
+          <OfxPropLabel>内颜色2</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="Midpoint2">
+          <OfxPropLabel>中点2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Softness2">
+          <OfxPropLabel>柔和度2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Shape2">
+          <OfxPropLabel>形状2</OfxPropLabel>
+          <OfxParamPropChoiceOption>圆形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>多边形</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeInteger name="Num Sides2">
+          <OfxPropLabel>边数2</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="Noise Amp2">
+          <OfxPropLabel>噪声幅度2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Noise Freq2">
+          <OfxPropLabel>噪声频率2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Noise Freq Rel Y2">
+          <OfxPropLabel>噪声频率相对 Y2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Flicker Amp2">
+          <OfxPropLabel>闪烁幅度2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Flicker Freq2">
+          <OfxPropLabel>闪烁频率2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Motion Style2">
+          <OfxPropLabel>运动风格2</OfxPropLabel>
+          <OfxParamPropChoiceOption>线性</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>波浪</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="Motion Amount2">
+          <OfxPropLabel>运动量2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Motion Angle2">
+          <OfxPropLabel>运动角度2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Motion Freq2">
+          <OfxPropLabel>运动频率2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Motion Delay2">
+          <OfxPropLabel>运动延迟2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="group_3">
+          <OfxPropLabel>闪光3</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Size3">
+          <OfxPropLabel>大小3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Stretch3">
+          <OfxPropLabel>拉伸3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Rotation3">
+          <OfxPropLabel>旋转3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Brightness3">
+          <OfxPropLabel>亮度3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="Center3">
+          <OfxPropLabel>中心3</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeRGB name="Outer Color3">
+          <OfxPropLabel>外颜色3</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="Inner Color3">
+          <OfxPropLabel>内颜色3</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="Midpoint3">
+          <OfxPropLabel>中点3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Softness3">
+          <OfxPropLabel>柔和度3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Shape3">
+          <OfxPropLabel>形状3</OfxPropLabel>
+          <OfxParamPropChoiceOption>圆形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>多边形</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeInteger name="Num Sides3">
+          <OfxPropLabel>边数3</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="Noise Amp3">
+          <OfxPropLabel>噪声幅度3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Noise Freq3">
+          <OfxPropLabel>噪声频率3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Noise Freq Rel Y3">
+          <OfxPropLabel>噪声频率相对 Y3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Flicker Amp3">
+          <OfxPropLabel>闪烁幅度3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Flicker Freq3">
+          <OfxPropLabel>闪烁频率3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Motion Style3">
+          <OfxPropLabel>运动风格3</OfxPropLabel>
+          <OfxParamPropChoiceOption>线性</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>波浪</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="Motion Amount3">
+          <OfxPropLabel>运动量3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Motion Angle3">
+          <OfxPropLabel>运动角度3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Motion Freq3">
+          <OfxPropLabel>运动频率3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Motion Delay3">
+          <OfxPropLabel>运动延迟3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Flashes Combine">
+          <OfxPropLabel>闪光组合</OfxPropLabel>
+          <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="group_4">
+          <OfxPropLabel>片头</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="Leader Style">
+          <OfxPropLabel>片头风格</OfxPropLabel>
+          <OfxParamPropChoiceOption>倒计时</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>文本</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>同步标记</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="Leader Amount">
+          <OfxPropLabel>片头量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="Leader Persistence">
+          <OfxPropLabel>片头持久性</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="Leader Opacity">
+          <OfxPropLabel>片头不透明度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="Leader Center">
+          <OfxPropLabel>片头中心</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="Leader Size">
+          <OfxPropLabel>片头大小</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Leader Size">
+          <OfxPropLabel>变化片头大小</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Leader Pos X">
+          <OfxPropLabel>变化片头位置 X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Leader Pos Y">
+          <OfxPropLabel>变化片头位置 Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="Leader Color">
+          <OfxPropLabel>片头颜色</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="Leader Glow Brightness">
+          <OfxPropLabel>片头辉光亮度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Leader Combine">
+          <OfxPropLabel>片头组合</OfxPropLabel>
+          <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>模板亮度</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="Leader Seed">
+          <OfxPropLabel>片头种子</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="group_5">
+          <OfxPropLabel>书写</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="Writing Style">
+          <OfxPropLabel>书写风格</OfxPropLabel>
+          <OfxParamPropChoiceOption>水平文本</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>垂直文本</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>蜡笔</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="Writing Amount">
+          <OfxPropLabel>书写量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="Writing Persistence">
+          <OfxPropLabel>书写持久性</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="Writing Opacity">
+          <OfxPropLabel>书写不透明度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="Writing Center">
+          <OfxPropLabel>书写中心</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="Writing Size">
+          <OfxPropLabel>书写大小</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Writing Size">
+          <OfxPropLabel>变化书写大小</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Writing Pos X">
+          <OfxPropLabel>变化书写位置 X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Writing Pos Y">
+          <OfxPropLabel>变化书写位置 Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="Writing Color">
+          <OfxPropLabel>书写颜色</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="Writing Glow Brightness">
+          <OfxPropLabel>书写辉光亮度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Writing Combine">
+          <OfxPropLabel>书写组合</OfxPropLabel>
+          <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>模板亮度</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="Writing Seed">
+          <OfxPropLabel>书写种子</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="group_6">
+          <OfxPropLabel>边缘</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="Edges Style">
+          <OfxPropLabel>边缘风格</OfxPropLabel>
+          <OfxParamPropChoiceOption>齿孔垂直 A</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>齿孔垂直 B</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>单个垂直齿孔</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble2D name="Edges Center">
+          <OfxPropLabel>边缘中心</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="Edges Size">
+          <OfxPropLabel>边缘大小</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Edges Pos X">
+          <OfxPropLabel>变化边缘位置 X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Edges Pos Y">
+          <OfxPropLabel>变化边缘位置 Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="Edges Outline Color">
+          <OfxPropLabel>边缘轮廓颜色</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="Edges Center Color">
+          <OfxPropLabel>边缘中心颜色</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="Edges Glow Brightness">
+          <OfxPropLabel>边缘辉光亮度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Edges Outline Combine">
+          <OfxPropLabel>边缘轮廓组合</OfxPropLabel>
+          <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>模板亮度</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="Edges Center Combine">
+          <OfxPropLabel>边缘中心组合</OfxPropLabel>
+          <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>模板亮度</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="group_7">
+          <OfxPropLabel>划痕</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Scratches1 Amount">
+          <OfxPropLabel>划痕1 量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Scratches2 Amount">
+          <OfxPropLabel>划痕2 量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Scratches1 Length">
+          <OfxPropLabel>划痕1 长度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Scratches2 Length">
+          <OfxPropLabel>划痕2 长度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Scratches Width">
+          <OfxPropLabel>划痕宽度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Scratches Width">
+          <OfxPropLabel>变化划痕宽度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Scratches Opacity">
+          <OfxPropLabel>划痕不透明度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Scratches Roughness">
+          <OfxPropLabel>划痕粗糙度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Scratches Rough Freq">
+          <OfxPropLabel>划痕粗糙频率</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Gaps">
+          <OfxPropLabel>间隙</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Gaps Frequency">
+          <OfxPropLabel>间隙频率</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Scratches Area Center">
+          <OfxPropLabel>划痕区域中心</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Scratches Area Width">
+          <OfxPropLabel>划痕区域宽度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Weave Amount">
+          <OfxPropLabel>编织量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Weave Frequency">
+          <OfxPropLabel>编织频率</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="Scratches1 Color">
+          <OfxPropLabel>划痕1 颜色</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="Scratches2 Color">
+          <OfxPropLabel>划痕2 颜色</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeChoice name="Scratches Combine">
+          <OfxPropLabel>划痕组合</OfxPropLabel>
+          <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>模板亮度</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="group_8">
+          <OfxPropLabel>毛发</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Hairs Amount">
+          <OfxPropLabel>毛发量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Hairs Persistence">
+          <OfxPropLabel>毛发持久性</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Hairs Wiggle Amp">
+          <OfxPropLabel>毛发摆动幅度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Hairs Wiggle Freq">
+          <OfxPropLabel>毛发摆动频率</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Hairs Size">
+          <OfxPropLabel>毛发大小</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Hairs Size">
+          <OfxPropLabel>变化毛发大小</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Hairs Opacity">
+          <OfxPropLabel>毛发不透明度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="Hairs Color">
+          <OfxPropLabel>毛发颜色</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeChoice name="Hairs Combine">
+          <OfxPropLabel>毛发组合</OfxPropLabel>
+          <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>模板亮度</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="group_9">
+          <OfxPropLabel>污渍</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Stains Density">
+          <OfxPropLabel>污渍密度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Stains Size">
+          <OfxPropLabel>污渍大小</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Stains Size">
+          <OfxPropLabel>变化污渍大小</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Stains Opacity">
+          <OfxPropLabel>污渍不透明度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="Stains Color1">
+          <OfxPropLabel>污渍颜色1</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="Stains Color2">
+          <OfxPropLabel>污渍颜色2</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeChoice name="Stains Combine">
+          <OfxPropLabel>污渍组合</OfxPropLabel>
+          <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>模板亮度</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="group_10">
+          <OfxPropLabel>尘埃</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Dust Density">
+          <OfxPropLabel>尘埃密度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Dust Size">
+          <OfxPropLabel>尘埃大小</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Dust Size">
+          <OfxPropLabel>变化尘埃大小</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Dust Opacity">
+          <OfxPropLabel>尘埃不透明度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="Dust Color1">
+          <OfxPropLabel>尘埃颜色1</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="Dust Color2">
+          <OfxPropLabel>尘埃颜色2</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeChoice name="Dust Combine">
+          <OfxPropLabel>尘埃组合</OfxPropLabel>
+          <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>模板亮度</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="group_11">
+          <OfxPropLabel>颗粒</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Grain Amp">
+          <OfxPropLabel>颗粒幅度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Size">
+          <OfxPropLabel>颗粒大小</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Blur">
+          <OfxPropLabel>颗粒模糊</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Amp Red">
+          <OfxPropLabel>颗粒幅度红色</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Amp Green">
+          <OfxPropLabel>颗粒幅度绿色</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Amp Blue">
+          <OfxPropLabel>颗粒幅度蓝色</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Blur Red">
+          <OfxPropLabel>颗粒模糊红色</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Blur Green">
+          <OfxPropLabel>颗粒模糊绿色</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Blur Blue">
+          <OfxPropLabel>颗粒模糊蓝色</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Amp Darks">
+          <OfxPropLabel>颗粒幅度暗部</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Amp Mids">
+          <OfxPropLabel>颗粒幅度中间调</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Amp Brights">
+          <OfxPropLabel>颗粒幅度亮部</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Midtone Pos Red">
+          <OfxPropLabel>中间调位置红色</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Midtone Pos Green">
+          <OfxPropLabel>中间调位置绿色</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Midtone Pos Blue">
+          <OfxPropLabel>中间调位置蓝色</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="Grain Mono">
+          <OfxPropLabel>颗粒单色</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="group_12">
+          <OfxPropLabel>元素辉光</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Glow Width">
+          <OfxPropLabel>辉光宽度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Glow Width Blue">
+          <OfxPropLabel>辉光宽度蓝色</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Glow Width Green">
+          <OfxPropLabel>辉光宽度绿色</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Glow Width Red">
+          <OfxPropLabel>辉光宽度红色</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Seed">
+          <OfxPropLabel>种子</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Mask Use">
+          <OfxPropLabel>蒙版使用</OfxPropLabel>
+          <OfxParamPropChoiceOption>亮度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Alpha</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="Blur Mask">
+          <OfxPropLabel>模糊蒙版</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="Invert Mask">
+          <OfxPropLabel>反转蒙版</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypePushButton name="Help">
+          <OfxPropLabel>帮助</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeBoolean name="Enable GPU">
+          <OfxPropLabel>启用GPU</OfxPropLabel>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
   <OfxPlugin name="com.genarts.sapphire.Stylize.S_FilmDamage">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>S_胶片损坏</OfxPropLabel>
@@ -37051,7 +37809,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -41269,7 +42027,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -41301,7 +42059,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -41363,7 +42121,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -41407,7 +42165,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -41454,13 +42212,13 @@
           <OfxPropLabel>X 轴包裹</OfxPropLabel>
           <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Wrap Y">
           <OfxPropLabel>Y 轴包裹</OfxPropLabel>
           <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeBoolean name="Filter">
           <OfxPropLabel>滤镜</OfxPropLabel>
@@ -41484,7 +42242,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -41572,7 +42330,7 @@
           <OfxPropLabel>边缘模式</OfxPropLabel>
           <OfxParamPropChoiceOption>透明</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>重复</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeBoolean name="Show Defocus Width">
           <OfxPropLabel>显示散焦宽度</OfxPropLabel>
@@ -41581,7 +42339,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -41613,13 +42371,13 @@
           <OfxPropLabel>X 轴包裹</OfxPropLabel>
           <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Wrap Y">
           <OfxPropLabel>Y 轴包裹</OfxPropLabel>
           <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeGroup name="Crop Input">
           <OfxPropLabel>裁剪输入</OfxPropLabel>
@@ -41643,7 +42401,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -41852,7 +42610,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -41896,13 +42654,13 @@
           <OfxPropLabel>X 轴包裹</OfxPropLabel>
           <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Wrap Y">
           <OfxPropLabel>Y 轴包裹</OfxPropLabel>
           <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeBoolean name="Filter">
           <OfxPropLabel>滤镜</OfxPropLabel>
@@ -41911,7 +42669,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -42065,7 +42823,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -42091,7 +42849,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -42167,7 +42925,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -42265,7 +43023,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -42390,7 +43148,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -42518,7 +43276,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -42604,7 +43362,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -42757,7 +43515,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="Lens">
           <OfxParamPropChoiceOption>50 300mm缩放</OfxParamPropChoiceOption>
@@ -43229,7 +43987,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -43350,7 +44108,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -43415,13 +44173,13 @@
           <OfxPropLabel>X 轴包裹</OfxPropLabel>
           <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Wrap Y">
           <OfxPropLabel>Y 轴包裹</OfxPropLabel>
           <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeBoolean name="Filter">
           <OfxPropLabel>滤镜</OfxPropLabel>
@@ -43460,7 +44218,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -43614,7 +44372,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -43804,7 +44562,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -43827,7 +44585,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -43906,7 +44664,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -44014,7 +44772,7 @@
         <OfxParamTypeChoice name="Edge Mode">
           <OfxPropLabel>边缘模式</OfxPropLabel>
           <OfxParamPropChoiceOption>透明</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeBoolean name="Edge Fill">
           <OfxPropLabel>边缘填充</OfxPropLabel>
@@ -44059,7 +44817,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -44103,13 +44861,13 @@
           <OfxPropLabel>X 轴包裹</OfxPropLabel>
           <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Wrap Y">
           <OfxPropLabel>Y 轴包裹</OfxPropLabel>
           <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeBoolean name="Filter">
           <OfxPropLabel>滤镜</OfxPropLabel>
@@ -44136,7 +44894,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -44186,13 +44944,13 @@
           <OfxPropLabel>X 轴包裹</OfxPropLabel>
           <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Wrap Y">
           <OfxPropLabel>Y 轴包裹</OfxPropLabel>
           <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeBoolean name="Filter">
           <OfxPropLabel>滤镜</OfxPropLabel>
@@ -44216,7 +44974,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -44311,7 +45069,665 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+  <OfxPlugin name="com.genarts.sapphire.Transitions.S_FilmBurnTransition">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>S_胶片燃烧转场</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>蓝宝石 转场</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="Load Preset">
+          <OfxPropLabel>加载预设</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="Save Preset">
+          <OfxPropLabel>保存预设</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble name="Dissolve Amount">
+          <OfxPropLabel>溶解量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Dissolve Speed">
+          <OfxPropLabel>溶解速度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Slow In">
+          <OfxPropLabel>缓慢进入</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Slow Out">
+          <OfxPropLabel>缓慢退出</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="Flash1">
+          <OfxPropLabel>闪光1</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="Flash2">
+          <OfxPropLabel>闪光2</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="Flash3">
+          <OfxPropLabel>闪光3</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="Leader">
+          <OfxPropLabel>片头</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="Writing">
+          <OfxPropLabel>书写</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="Edges">
+          <OfxPropLabel>边缘</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="Scratches">
+          <OfxPropLabel>划痕</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="Hairs And Stains">
+          <OfxPropLabel>毛发和污渍</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="Dust">
+          <OfxPropLabel>尘埃</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="Grain">
+          <OfxPropLabel>颗粒</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="group_0">
+          <OfxPropLabel>闪光1</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Size1">
+          <OfxPropLabel>大小1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Stretch1">
+          <OfxPropLabel>拉伸1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Rotation1">
+          <OfxPropLabel>旋转1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Brightness1">
+          <OfxPropLabel>亮度1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="Center1">
+          <OfxPropLabel>中心1</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeRGB name="Outer Color1">
+          <OfxPropLabel>外颜色1</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="Inner Color1">
+          <OfxPropLabel>内颜色1</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="Midpoint1">
+          <OfxPropLabel>中点1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Softness1">
+          <OfxPropLabel>柔和度1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Shape1">
+          <OfxPropLabel>形状1</OfxPropLabel>
+          <OfxParamPropChoiceOption>圆形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>多边形</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeInteger name="Num Sides1">
+          <OfxPropLabel>边数1</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="Noise Amp1">
+          <OfxPropLabel>噪声幅度1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Noise Freq1">
+          <OfxPropLabel>噪声频率1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Noise Freq Rel Y1">
+          <OfxPropLabel>噪声频率相对 Y1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Flicker Amp1">
+          <OfxPropLabel>闪烁幅度1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Flicker Freq1">
+          <OfxPropLabel>闪烁频率1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Motion Style1">
+          <OfxPropLabel>运动风格1</OfxPropLabel>
+          <OfxParamPropChoiceOption>线性</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>波浪</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="Motion Amount1">
+          <OfxPropLabel>运动量1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Motion Angle1">
+          <OfxPropLabel>运动角度1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Motion Freq1">
+          <OfxPropLabel>运动频率1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Motion Delay1">
+          <OfxPropLabel>运动延迟1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="group_1">
+          <OfxPropLabel>闪光2</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Size2">
+          <OfxPropLabel>大小2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Stretch2">
+          <OfxPropLabel>拉伸2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Rotation2">
+          <OfxPropLabel>旋转2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Brightness2">
+          <OfxPropLabel>亮度2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="Center2">
+          <OfxPropLabel>中心2</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeRGB name="Outer Color2">
+          <OfxPropLabel>外颜色2</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="Inner Color2">
+          <OfxPropLabel>内颜色2</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="Midpoint2">
+          <OfxPropLabel>中点2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Softness2">
+          <OfxPropLabel>柔和度2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Shape2">
+          <OfxPropLabel>形状2</OfxPropLabel>
+          <OfxParamPropChoiceOption>圆形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>多边形</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeInteger name="Num Sides2">
+          <OfxPropLabel>边数2</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="Noise Amp2">
+          <OfxPropLabel>噪声幅度2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Noise Freq2">
+          <OfxPropLabel>噪声频率2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Noise Freq Rel Y2">
+          <OfxPropLabel>噪声频率相对 Y2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Flicker Amp2">
+          <OfxPropLabel>闪烁幅度2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Flicker Freq2">
+          <OfxPropLabel>闪烁频率2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Motion Style2">
+          <OfxPropLabel>运动风格2</OfxPropLabel>
+          <OfxParamPropChoiceOption>线性</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>波浪</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="Motion Amount2">
+          <OfxPropLabel>运动量2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Motion Angle2">
+          <OfxPropLabel>运动角度2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Motion Freq2">
+          <OfxPropLabel>运动频率2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Motion Delay2">
+          <OfxPropLabel>运动延迟2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="group_2">
+          <OfxPropLabel>闪光3</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Size3">
+          <OfxPropLabel>大小3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Stretch3">
+          <OfxPropLabel>拉伸3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Rotation3">
+          <OfxPropLabel>旋转3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Brightness3">
+          <OfxPropLabel>亮度3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="Center3">
+          <OfxPropLabel>中心3</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeRGB name="Outer Color3">
+          <OfxPropLabel>外颜色3</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="Inner Color3">
+          <OfxPropLabel>内颜色3</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="Midpoint3">
+          <OfxPropLabel>中点3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Softness3">
+          <OfxPropLabel>柔和度3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Shape3">
+          <OfxPropLabel>形状3</OfxPropLabel>
+          <OfxParamPropChoiceOption>圆形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>多边形</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeInteger name="Num Sides3">
+          <OfxPropLabel>边数3</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="Noise Amp3">
+          <OfxPropLabel>噪声幅度3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Noise Freq3">
+          <OfxPropLabel>噪声频率3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Noise Freq Rel Y3">
+          <OfxPropLabel>噪声频率相对 Y3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Flicker Amp3">
+          <OfxPropLabel>闪烁幅度3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Flicker Freq3">
+          <OfxPropLabel>闪烁频率3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Motion Style3">
+          <OfxPropLabel>运动风格3</OfxPropLabel>
+          <OfxParamPropChoiceOption>线性</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>波浪</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="Motion Amount3">
+          <OfxPropLabel>运动量3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Motion Angle3">
+          <OfxPropLabel>运动角度3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Motion Freq3">
+          <OfxPropLabel>运动频率3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Motion Delay3">
+          <OfxPropLabel>运动延迟3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Flashes Combine">
+          <OfxPropLabel>闪光组合</OfxPropLabel>
+          <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="group_3">
+          <OfxPropLabel>片头</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="Leader Style">
+          <OfxPropLabel>片头风格</OfxPropLabel>
+          <OfxParamPropChoiceOption>倒计时</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>文本</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>同步标记</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="Leader Amount">
+          <OfxPropLabel>片头量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="Leader Persistence">
+          <OfxPropLabel>片头持久性</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="Leader Opacity">
+          <OfxPropLabel>片头不透明度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="Leader Center">
+          <OfxPropLabel>片头中心</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="Leader Size">
+          <OfxPropLabel>片头大小</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Leader Size">
+          <OfxPropLabel>变化片头大小</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Leader Pos X">
+          <OfxPropLabel>变化片头位置 X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Leader Pos Y">
+          <OfxPropLabel>变化片头位置 Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="Leader Color">
+          <OfxPropLabel>片头颜色</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="Leader Glow Brightness">
+          <OfxPropLabel>片头辉光亮度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Leader Combine">
+          <OfxPropLabel>片头组合</OfxPropLabel>
+          <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>模板亮度</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="Leader Seed">
+          <OfxPropLabel>片头种子</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="group_4">
+          <OfxPropLabel>书写</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="Writing Style">
+          <OfxPropLabel>书写风格</OfxPropLabel>
+          <OfxParamPropChoiceOption>水平文本</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>垂直文本</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>蜡笔</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="Writing Amount">
+          <OfxPropLabel>书写量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="Writing Persistence">
+          <OfxPropLabel>书写持久性</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="Writing Opacity">
+          <OfxPropLabel>书写不透明度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="Writing Center">
+          <OfxPropLabel>书写中心</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="Writing Size">
+          <OfxPropLabel>书写大小</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Writing Size">
+          <OfxPropLabel>变化书写大小</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Writing Pos X">
+          <OfxPropLabel>变化书写位置 X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Writing Pos Y">
+          <OfxPropLabel>变化书写位置 Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="Writing Color">
+          <OfxPropLabel>书写颜色</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="Writing Glow Brightness">
+          <OfxPropLabel>书写辉光亮度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Writing Combine">
+          <OfxPropLabel>书写组合</OfxPropLabel>
+          <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>模板亮度</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="Writing Seed">
+          <OfxPropLabel>书写种子</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="group_5">
+          <OfxPropLabel>边缘</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="Edges Style">
+          <OfxPropLabel>边缘风格</OfxPropLabel>
+          <OfxParamPropChoiceOption>齿孔垂直 A</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>齿孔垂直 B</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>单个垂直齿孔</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble2D name="Edges Center">
+          <OfxPropLabel>边缘中心</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="Edges Size">
+          <OfxPropLabel>边缘大小</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Edges Pos X">
+          <OfxPropLabel>变化边缘位置 X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Edges Pos Y">
+          <OfxPropLabel>变化边缘位置 Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="Edges Outline Color">
+          <OfxPropLabel>边缘轮廓颜色</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="Edges Center Color">
+          <OfxPropLabel>边缘中心颜色</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="Edges Glow Brightness">
+          <OfxPropLabel>边缘辉光亮度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Edges Outline Combine">
+          <OfxPropLabel>边缘轮廓组合</OfxPropLabel>
+          <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>模板亮度</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="Edges Center Combine">
+          <OfxPropLabel>边缘中心组合</OfxPropLabel>
+          <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>模板亮度</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="group_6">
+          <OfxPropLabel>划痕</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Scratches1 Amount">
+          <OfxPropLabel>划痕1 量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Scratches2 Amount">
+          <OfxPropLabel>划痕2 量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Scratches1 Length">
+          <OfxPropLabel>划痕1 长度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Scratches2 Length">
+          <OfxPropLabel>划痕2 长度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Scratches Width">
+          <OfxPropLabel>划痕宽度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Scratches Width">
+          <OfxPropLabel>变化划痕宽度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Scratches Opacity">
+          <OfxPropLabel>划痕不透明度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Scratches Roughness">
+          <OfxPropLabel>划痕粗糙度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Scratches Rough Freq">
+          <OfxPropLabel>划痕粗糙频率</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Gaps">
+          <OfxPropLabel>间隙</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Gaps Frequency">
+          <OfxPropLabel>间隙频率</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Scratches Area Center">
+          <OfxPropLabel>划痕区域中心</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Scratches Area Width">
+          <OfxPropLabel>划痕区域宽度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Weave Amount">
+          <OfxPropLabel>编织量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Weave Frequency">
+          <OfxPropLabel>编织频率</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="Scratches1 Color">
+          <OfxPropLabel>划痕1 颜色</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="Scratches2 Color">
+          <OfxPropLabel>划痕2 颜色</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeChoice name="Scratches Combine">
+          <OfxPropLabel>划痕组合</OfxPropLabel>
+          <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>模板亮度</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="group_7">
+          <OfxPropLabel>毛发</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Hairs Amount">
+          <OfxPropLabel>毛发量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Hairs Persistence">
+          <OfxPropLabel>毛发持久性</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Hairs Wiggle Amp">
+          <OfxPropLabel>毛发摆动幅度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Hairs Wiggle Freq">
+          <OfxPropLabel>毛发摆动频率</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Hairs Size">
+          <OfxPropLabel>毛发大小</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Hairs Size">
+          <OfxPropLabel>变化毛发大小</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Hairs Opacity">
+          <OfxPropLabel>毛发不透明度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="Hairs Color">
+          <OfxPropLabel>毛发颜色</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeChoice name="Hairs Combine">
+          <OfxPropLabel>毛发组合</OfxPropLabel>
+          <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>模板亮度</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="group_8">
+          <OfxPropLabel>污渍</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Stains Density">
+          <OfxPropLabel>污渍密度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Stains Size">
+          <OfxPropLabel>污渍大小</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Stains Size">
+          <OfxPropLabel>变化污渍大小</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Stains Opacity">
+          <OfxPropLabel>污渍不透明度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="Stains Color1">
+          <OfxPropLabel>污渍颜色1</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="Stains Color2">
+          <OfxPropLabel>污渍颜色2</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeChoice name="Stains Combine">
+          <OfxPropLabel>污渍组合</OfxPropLabel>
+          <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>模板亮度</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="group_9">
+          <OfxPropLabel>尘埃</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Dust Density">
+          <OfxPropLabel>尘埃密度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Dust Size">
+          <OfxPropLabel>尘埃大小</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Dust Size">
+          <OfxPropLabel>变化尘埃大小</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Dust Opacity">
+          <OfxPropLabel>尘埃不透明度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="Dust Color1">
+          <OfxPropLabel>尘埃颜色1</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="Dust Color2">
+          <OfxPropLabel>尘埃颜色2</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeChoice name="Dust Combine">
+          <OfxPropLabel>尘埃组合</OfxPropLabel>
+          <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>添加</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>屏幕/滤色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>相乘/正片叠底</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>叠加/覆盖</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>模板亮度</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="group_10">
+          <OfxPropLabel>颗粒</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Grain Amp">
+          <OfxPropLabel>颗粒幅度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Size">
+          <OfxPropLabel>颗粒大小</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Blur">
+          <OfxPropLabel>颗粒模糊</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Amp Red">
+          <OfxPropLabel>颗粒幅度红色</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Amp Green">
+          <OfxPropLabel>颗粒幅度绿色</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Amp Blue">
+          <OfxPropLabel>颗粒幅度蓝色</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Blur Red">
+          <OfxPropLabel>颗粒模糊红色</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Blur Green">
+          <OfxPropLabel>颗粒模糊绿色</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Blur Blue">
+          <OfxPropLabel>颗粒模糊蓝色</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Amp Darks">
+          <OfxPropLabel>颗粒幅度暗部</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Amp Mids">
+          <OfxPropLabel>颗粒幅度中间调</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Amp Brights">
+          <OfxPropLabel>颗粒幅度亮部</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Midtone Pos Red">
+          <OfxPropLabel>中间调位置红色</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Midtone Pos Green">
+          <OfxPropLabel>中间调位置绿色</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Midtone Pos Blue">
+          <OfxPropLabel>中间调位置蓝色</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="Grain Mono">
+          <OfxPropLabel>颗粒单色</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="group_11">
+          <OfxPropLabel>元素辉光</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Glow Width">
+          <OfxPropLabel>辉光宽度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Glow Width Blue">
+          <OfxPropLabel>辉光宽度蓝色</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Glow Width Green">
+          <OfxPropLabel>辉光宽度绿色</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Glow Width Red">
+          <OfxPropLabel>辉光宽度红色</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Seed">
+          <OfxPropLabel>种子</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypePushButton name="Help">
+          <OfxPropLabel>帮助</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeBoolean name="Enable GPU">
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -44595,7 +46011,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -45059,6 +46475,273 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
+  <OfxPlugin name="com.genarts.sapphire.Transitions.S_MochaWhip">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>S_Mocha遮罩甩动</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>蓝宝石 转场</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="Load Preset">
+          <OfxPropLabel>加载预设</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="Save Preset">
+          <OfxPropLabel>保存预设</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="Edit Mocha">
+          <OfxPropLabel>编辑Mocha遮罩</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeCustom name="Mocha Project">
+          <!-- <OfxPropLabel>Mocha项目</OfxPropLabel> -->
+        </OfxParamTypeCustom>
+        <OfxParamTypeGroup name="group_0">
+          <OfxPropLabel>Mocha遮罩</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Blur Mocha">
+          <OfxPropLabel>羽化</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Mocha Opacity">
+          <OfxPropLabel>不透明度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="Invert Mocha">
+          <OfxPropLabel>反转</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="Resize Mocha">
+          <OfxPropLabel>调整大小</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Resize Rel X">
+          <OfxPropLabel>调整x相对尺寸</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Resize Rel Y">
+          <OfxPropLabel>调整y相对尺寸</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Shift Mocha X">
+          <OfxPropLabel>偏移x</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Shift Mocha Y">
+          <OfxPropLabel>偏移y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Dilate Mocha">
+          <OfxPropLabel>扩大Mocha</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Dilation Quality">
+          <OfxPropLabel>扩大质量</OfxPropLabel>
+          <OfxParamPropChoiceOption>快速</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>高</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="Bypass Mocha">
+          <OfxPropLabel>禁用Mocha遮罩</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="Show Mocha Only">
+          <OfxPropLabel>仅显示Mocha遮罩</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="Input For Tracking">
+          <OfxPropLabel>用于跟踪的输入</OfxPropLabel>
+          <OfxParamPropChoiceOption>从</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>到</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="Wipe Amount">
+          <OfxPropLabel>擦除量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Swish Auto Trans">
+          <OfxPropLabel>滑动自动过渡</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Cutout Offset Start X">
+          <OfxPropLabel>切出偏移开始 X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Cutout Offset Start Y">
+          <OfxPropLabel>切出偏移开始 Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Cutout Shift X">
+          <OfxPropLabel>切出移位 X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Cutout Shift Y">
+          <OfxPropLabel>切出移位 Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Cutout Fadein Time">
+          <OfxPropLabel>切出淡入时间</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="Cutout Center">
+          <OfxPropLabel>切出中心</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="Cutout Rotate">
+          <OfxPropLabel>切出旋转</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Cutout Motion Blur">
+          <OfxPropLabel>切出运动模糊</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Cutout Scale">
+          <OfxPropLabel>切出缩放</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Cutout Whip Out">
+          <OfxPropLabel>切出甩出</OfxPropLabel>
+          <OfxParamPropChoiceOption>平滑</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>反弹</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>捕捉</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="Cutout Wrap X">
+          <OfxPropLabel>切出包裹 X</OfxPropLabel>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="Cutout Wrap Y">
+          <OfxPropLabel>切出包裹 Y</OfxPropLabel>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="group_1">
+          <OfxPropLabel>切出 RGB 模糊和移位</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Cutout Mix RGB">
+          <OfxPropLabel>切出混合 RGB</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Cutout Blur Amount">
+          <OfxPropLabel>切出模糊量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Cutout Angle">
+          <OfxPropLabel>切出角度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Cutout Shift RGB">
+          <OfxPropLabel>切出移位 RGB</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Cutout Blur Red">
+          <OfxPropLabel>切出模糊红色</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Cutout Blur Green">
+          <OfxPropLabel>切出模糊绿色</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Cutout Blur Blue">
+          <OfxPropLabel>切出模糊蓝色</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Cutout Shift Red">
+          <OfxPropLabel>切出移位红色</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Cutout Shift Green">
+          <OfxPropLabel>切出移位绿色</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Cutout Shift Blue">
+          <OfxPropLabel>切出移位蓝色</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Cutout Brightness">
+          <OfxPropLabel>切出亮度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Background Whip Side">
+          <OfxPropLabel>背景甩侧</OfxPropLabel>
+          <OfxParamPropChoiceOption>两者</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>从</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>到</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble2D name="Background Center">
+          <OfxPropLabel>背景中心</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="Background Motion Blur">
+          <OfxPropLabel>背景运动模糊</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Background Rotate">
+          <OfxPropLabel>背景旋转</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Background Shift X">
+          <OfxPropLabel>背景移位 X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Background Shift Y">
+          <OfxPropLabel>背景移位 Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Background Scale">
+          <OfxPropLabel>背景缩放</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Background Whip Out">
+          <OfxPropLabel>背景甩出</OfxPropLabel>
+          <OfxParamPropChoiceOption>平滑</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>反弹</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>捕捉</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="group_2">
+          <OfxPropLabel>背景包裹</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="Background Wrap From X">
+          <OfxPropLabel>背景包裹从 X</OfxPropLabel>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="Background Wrap From Y">
+          <OfxPropLabel>背景包裹从 Y</OfxPropLabel>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="Background Wrap To X">
+          <OfxPropLabel>背景包裹到 X</OfxPropLabel>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="Background Wrap To Y">
+          <OfxPropLabel>背景包裹到 Y</OfxPropLabel>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="group_3">
+          <OfxPropLabel>背景 RGB 模糊和移位</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Background Mix RGB">
+          <OfxPropLabel>背景混合 RGB</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Background Blur Amount">
+          <OfxPropLabel>背景模糊量</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Background Angle">
+          <OfxPropLabel>背景角度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Background Shift RGB">
+          <OfxPropLabel>背景移位 RGB</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Background Bias">
+          <OfxPropLabel>背景偏差</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Background Blur Red">
+          <OfxPropLabel>背景模糊红色</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Background Blur Green">
+          <OfxPropLabel>背景模糊绿色</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Background Blur Blue">
+          <OfxPropLabel>背景模糊蓝色</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Background Shift Red">
+          <OfxPropLabel>背景移位红色</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Background Shift Green">
+          <OfxPropLabel>背景移位绿色</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Background Shift Blue">
+          <OfxPropLabel>背景移位蓝色</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Background Brightness">
+          <OfxPropLabel>背景亮度</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Background Offset Darks">
+          <OfxPropLabel>背景偏移暗部</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Background Edge Mode">
+          <OfxPropLabel>背景边缘模式</OfxPropLabel>
+          <OfxParamPropChoiceOption>透明</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>重复</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="Soft Borders">
+          <OfxPropLabel>柔和边界</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypePushButton name="Help">
+          <OfxPropLabel>帮助</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeBoolean name="Enable GPU">
+          <OfxPropLabel>启用GPU</OfxPropLabel>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
   <OfxPlugin name="com.genarts.sapphire.Transitions.S_ParallaxStripsTransition">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>S_视差条转场</OfxPropLabel>
@@ -45139,7 +46822,7 @@
           <OfxPropLabel>包裹</OfxPropLabel>
           <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeDouble name="Seed">
           <OfxPropLabel>种子</OfxPropLabel>
@@ -45154,7 +46837,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -45233,7 +46916,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -45327,25 +47010,25 @@
           <OfxPropLabel>从 X 包裹</OfxPropLabel>
           <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Wrap From Y">
           <OfxPropLabel>从 Y 包裹</OfxPropLabel>
           <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Wrap To X">
           <OfxPropLabel>到 X 包裹</OfxPropLabel>
           <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Wrap To Y">
           <OfxPropLabel>到 Y 包裹</OfxPropLabel>
           <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeBoolean name="Filter">
           <OfxPropLabel>滤镜</OfxPropLabel>
@@ -45396,7 +47079,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -45441,7 +47124,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -45584,7 +47267,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -45637,25 +47320,25 @@
           <OfxPropLabel>从 X 包裹</OfxPropLabel>
           <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Wrap From Y">
           <OfxPropLabel>从 Y 包裹</OfxPropLabel>
           <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Wrap To X">
           <OfxPropLabel>到 X 包裹</OfxPropLabel>
           <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Wrap To Y">
           <OfxPropLabel>到 Y 包裹</OfxPropLabel>
           <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeGroup name="group_1">
           <OfxPropLabel>RGB 模糊和偏移</OfxPropLabel>
@@ -45703,7 +47386,7 @@
           <OfxPropLabel>边缘模式</OfxPropLabel>
           <OfxParamPropChoiceOption>透明</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>重复</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeBoolean name="Soft Borders">
           <OfxPropLabel>柔和边框</OfxPropLabel>
@@ -45712,7 +47395,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -45819,7 +47502,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -45863,13 +47546,13 @@
           <OfxPropLabel>X 轴包裹</OfxPropLabel>
           <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Wrap Y">
           <OfxPropLabel>Y 轴包裹</OfxPropLabel>
           <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeGroup name="Crop Input">
           <OfxPropLabel>裁剪输入</OfxPropLabel>
@@ -45893,7 +47576,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -46002,7 +47685,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -46114,7 +47797,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -46208,7 +47891,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -46302,7 +47985,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -46361,7 +48044,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -46393,13 +48076,13 @@
           <OfxPropLabel>X 轴包裹</OfxPropLabel>
           <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="Wrap Y">
           <OfxPropLabel>Y 轴包裹</OfxPropLabel>
           <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>平铺</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>反射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>镜像</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeGroup name="Crop Input">
           <OfxPropLabel>裁剪输入</OfxPropLabel>
@@ -46423,7 +48106,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -46535,7 +48218,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -46626,7 +48309,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
       </OfxImageEffectContext>
     </OfxResourceSet>
@@ -46745,7 +48428,7 @@
           <OfxPropLabel>帮助</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeBoolean name="Enable GPU">
-          <OfxPropLabel>启用 GPU</OfxPropLabel>
+          <OfxPropLabel>启用GPU</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="Opacity">
           <OfxParamPropChoiceOption>所有不透明</OfxParamPropChoiceOption>

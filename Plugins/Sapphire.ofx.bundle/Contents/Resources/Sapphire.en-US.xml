@@ -1038,7 +1038,7 @@
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="Config">
           <OfxPropLabel>Config</OfxPropLabel>
-          <!-- <OfxParamPropChoiceOption>c:/Program Files/BorisFX/Sapphire 2025.5 OFX/ocio/config.ocio</OfxParamPropChoiceOption> -->
+          <!-- <OfxParamPropChoiceOption>c:/Program Files/BorisFX/Sapphire 2026 OFX/ocio/config.ocio</OfxParamPropChoiceOption> -->
         </OfxParamTypeChoice>
         <OfxParamTypeString name="Config Path">
           <OfxPropLabel>Config Path</OfxPropLabel>
@@ -24661,6 +24661,22 @@
           <OfxParamPropChoiceOption>Dust</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>Stains</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>Flecks</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Circles</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Geometric Lines</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Liquid Lino</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Geometric Star Map</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Moon Dust</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Starfield Spray</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Spray Paint Stars</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Spray Paint</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Splatter And Spray</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hand Painted</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ink Drops</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Large Sponges</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Paper Sponges</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Decaying Damask</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Stylized Blooms</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Oil Paint Floral</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeGroup name="group_3">
           <OfxPropLabel>Stamp1 Details</OfxPropLabel>
@@ -24715,6 +24731,22 @@
           <OfxParamPropChoiceOption>Dust</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>Stains</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>Flecks</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Circles</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Geometric Lines</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Liquid Lino</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Geometric Star Map</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Moon Dust</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Starfield Spray</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Spray Paint Stars</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Spray Paint</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Splatter And Spray</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hand Painted</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ink Drops</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Large Sponges</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Paper Sponges</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Decaying Damask</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Stylized Blooms</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Oil Paint Floral</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeGroup name="group_4">
           <OfxPropLabel>Stamp2 Details</OfxPropLabel>
@@ -24769,6 +24801,22 @@
           <OfxParamPropChoiceOption>Dust</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>Stains</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>Flecks</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Circles</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Geometric Lines</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Liquid Lino</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Geometric Star Map</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Moon Dust</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Starfield Spray</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Spray Paint Stars</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Spray Paint</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Splatter And Spray</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hand Painted</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ink Drops</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Large Sponges</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Paper Sponges</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Decaying Damask</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Stylized Blooms</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Oil Paint Floral</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeGroup name="group_5">
           <OfxPropLabel>Stamp3 Details</OfxPropLabel>
@@ -32610,6 +32658,716 @@
         </OfxParamTypeBoolean>
         <OfxParamTypeBoolean name="Show Lines Shift">
           <OfxPropLabel>Show Lines Shift</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypePushButton name="Help">
+          <OfxPropLabel>Help</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeBoolean name="Enable GPU">
+          <OfxPropLabel>Enable GPU</OfxPropLabel>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+  <OfxPlugin name="com.genarts.sapphire.Stylize.S_FilmBurn">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>S_FilmBurn</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping> Sapphire Stylize</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="Load Preset">
+          <OfxPropLabel>Load Preset</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="Save Preset">
+          <OfxPropLabel>Save Preset</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="Edit Mocha">
+          <OfxPropLabel>Edit Mocha</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeCustom name="Mocha Project">
+          <!-- <OfxPropLabel>Mocha Project</OfxPropLabel> -->
+        </OfxParamTypeCustom>
+        <OfxParamTypeGroup name="group_0">
+          <OfxPropLabel>Mocha</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Blur Mocha">
+          <OfxPropLabel>Blur Mocha</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Mocha Opacity">
+          <OfxPropLabel>Mocha Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="Invert Mocha">
+          <OfxPropLabel>Invert Mocha</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="Resize Mocha">
+          <OfxPropLabel>Resize Mocha</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Resize Rel X">
+          <OfxPropLabel>Resize Rel X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Resize Rel Y">
+          <OfxPropLabel>Resize Rel Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Shift Mocha X">
+          <OfxPropLabel>Shift Mocha X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Shift Mocha Y">
+          <OfxPropLabel>Shift Mocha Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Dilate Mocha">
+          <OfxPropLabel>Dilate Mocha</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Dilation Quality">
+          <OfxPropLabel>Dilation Quality</OfxPropLabel>
+          <OfxParamPropChoiceOption>Fast</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>High</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="Bypass Mocha">
+          <OfxPropLabel>Bypass Mocha</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="Show Mocha Only">
+          <OfxPropLabel>Show Mocha Only</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="Combine Masks">
+          <OfxPropLabel>Combine Masks</OfxPropLabel>
+          <OfxParamPropChoiceOption>Union</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Intersect</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Mocha Only</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="Flash1">
+          <OfxPropLabel>Flash1</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="Flash2">
+          <OfxPropLabel>Flash2</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="Flash3">
+          <OfxPropLabel>Flash3</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="Leader">
+          <OfxPropLabel>Leader</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="Writing">
+          <OfxPropLabel>Writing</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="Edges">
+          <OfxPropLabel>Edges</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="Scratches">
+          <OfxPropLabel>Scratches</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="Hairs And Stains">
+          <OfxPropLabel>Hairs And Stains</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="Dust">
+          <OfxPropLabel>Dust</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="Grain">
+          <OfxPropLabel>Grain</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="group_1">
+          <OfxPropLabel>Flash1</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Size1">
+          <OfxPropLabel>Size1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Stretch1">
+          <OfxPropLabel>Stretch1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Rotation1">
+          <OfxPropLabel>Rotation1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Brightness1">
+          <OfxPropLabel>Brightness1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="Center1">
+          <OfxPropLabel>Center1</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeRGB name="Outer Color1">
+          <OfxPropLabel>Outer Color1</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="Inner Color1">
+          <OfxPropLabel>Inner Color1</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="Midpoint1">
+          <OfxPropLabel>Midpoint1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Softness1">
+          <OfxPropLabel>Softness1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Shape1">
+          <OfxPropLabel>Shape1</OfxPropLabel>
+          <OfxParamPropChoiceOption>Circle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Polygon</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeInteger name="Num Sides1">
+          <OfxPropLabel>Num Sides1</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="Noise Amp1">
+          <OfxPropLabel>Noise Amp1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Noise Freq1">
+          <OfxPropLabel>Noise Freq1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Noise Freq Rel Y1">
+          <OfxPropLabel>Noise Freq Rel Y1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Flicker Amp1">
+          <OfxPropLabel>Flicker Amp1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Flicker Freq1">
+          <OfxPropLabel>Flicker Freq1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Motion Style1">
+          <OfxPropLabel>Motion Style1</OfxPropLabel>
+          <OfxParamPropChoiceOption>Linear</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Wave</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="Motion Amount1">
+          <OfxPropLabel>Motion Amount1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Motion Angle1">
+          <OfxPropLabel>Motion Angle1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Motion Freq1">
+          <OfxPropLabel>Motion Freq1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Motion Delay1">
+          <OfxPropLabel>Motion Delay1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="group_2">
+          <OfxPropLabel>Flash2</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Size2">
+          <OfxPropLabel>Size2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Stretch2">
+          <OfxPropLabel>Stretch2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Rotation2">
+          <OfxPropLabel>Rotation2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Brightness2">
+          <OfxPropLabel>Brightness2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="Center2">
+          <OfxPropLabel>Center2</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeRGB name="Outer Color2">
+          <OfxPropLabel>Outer Color2</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="Inner Color2">
+          <OfxPropLabel>Inner Color2</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="Midpoint2">
+          <OfxPropLabel>Midpoint2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Softness2">
+          <OfxPropLabel>Softness2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Shape2">
+          <OfxPropLabel>Shape2</OfxPropLabel>
+          <OfxParamPropChoiceOption>Circle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Polygon</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeInteger name="Num Sides2">
+          <OfxPropLabel>Num Sides2</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="Noise Amp2">
+          <OfxPropLabel>Noise Amp2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Noise Freq2">
+          <OfxPropLabel>Noise Freq2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Noise Freq Rel Y2">
+          <OfxPropLabel>Noise Freq Rel Y2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Flicker Amp2">
+          <OfxPropLabel>Flicker Amp2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Flicker Freq2">
+          <OfxPropLabel>Flicker Freq2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Motion Style2">
+          <OfxPropLabel>Motion Style2</OfxPropLabel>
+          <OfxParamPropChoiceOption>Linear</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Wave</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="Motion Amount2">
+          <OfxPropLabel>Motion Amount2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Motion Angle2">
+          <OfxPropLabel>Motion Angle2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Motion Freq2">
+          <OfxPropLabel>Motion Freq2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Motion Delay2">
+          <OfxPropLabel>Motion Delay2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="group_3">
+          <OfxPropLabel>Flash3</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Size3">
+          <OfxPropLabel>Size3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Stretch3">
+          <OfxPropLabel>Stretch3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Rotation3">
+          <OfxPropLabel>Rotation3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Brightness3">
+          <OfxPropLabel>Brightness3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="Center3">
+          <OfxPropLabel>Center3</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeRGB name="Outer Color3">
+          <OfxPropLabel>Outer Color3</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="Inner Color3">
+          <OfxPropLabel>Inner Color3</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="Midpoint3">
+          <OfxPropLabel>Midpoint3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Softness3">
+          <OfxPropLabel>Softness3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Shape3">
+          <OfxPropLabel>Shape3</OfxPropLabel>
+          <OfxParamPropChoiceOption>Circle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Polygon</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeInteger name="Num Sides3">
+          <OfxPropLabel>Num Sides3</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="Noise Amp3">
+          <OfxPropLabel>Noise Amp3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Noise Freq3">
+          <OfxPropLabel>Noise Freq3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Noise Freq Rel Y3">
+          <OfxPropLabel>Noise Freq Rel Y3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Flicker Amp3">
+          <OfxPropLabel>Flicker Amp3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Flicker Freq3">
+          <OfxPropLabel>Flicker Freq3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Motion Style3">
+          <OfxPropLabel>Motion Style3</OfxPropLabel>
+          <OfxParamPropChoiceOption>Linear</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Wave</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="Motion Amount3">
+          <OfxPropLabel>Motion Amount3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Motion Angle3">
+          <OfxPropLabel>Motion Angle3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Motion Freq3">
+          <OfxPropLabel>Motion Freq3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Motion Delay3">
+          <OfxPropLabel>Motion Delay3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Flashes Combine">
+          <OfxPropLabel>Flashes Combine</OfxPropLabel>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Add</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Mult</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Overlay</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="group_4">
+          <OfxPropLabel>Leader</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="Leader Style">
+          <OfxPropLabel>Leader Style</OfxPropLabel>
+          <OfxParamPropChoiceOption>Countdown</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Text</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Sync Mark</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="Leader Amount">
+          <OfxPropLabel>Leader Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="Leader Persistence">
+          <OfxPropLabel>Leader Persistence</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="Leader Opacity">
+          <OfxPropLabel>Leader Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="Leader Center">
+          <OfxPropLabel>Leader Center</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="Leader Size">
+          <OfxPropLabel>Leader Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Leader Size">
+          <OfxPropLabel>Vary Leader Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Leader Pos X">
+          <OfxPropLabel>Vary Leader Pos X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Leader Pos Y">
+          <OfxPropLabel>Vary Leader Pos Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="Leader Color">
+          <OfxPropLabel>Leader Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="Leader Glow Brightness">
+          <OfxPropLabel>Leader Glow Brightness</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Leader Combine">
+          <OfxPropLabel>Leader Combine</OfxPropLabel>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Add</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Mult</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Overlay</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Stencil Luma</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="Leader Seed">
+          <OfxPropLabel>Leader Seed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="group_5">
+          <OfxPropLabel>Writing</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="Writing Style">
+          <OfxPropLabel>Writing Style</OfxPropLabel>
+          <OfxParamPropChoiceOption>Horizontal Text</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Vertical Text</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Wax Pencil</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="Writing Amount">
+          <OfxPropLabel>Writing Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="Writing Persistence">
+          <OfxPropLabel>Writing Persistence</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="Writing Opacity">
+          <OfxPropLabel>Writing Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="Writing Center">
+          <OfxPropLabel>Writing Center</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="Writing Size">
+          <OfxPropLabel>Writing Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Writing Size">
+          <OfxPropLabel>Vary Writing Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Writing Pos X">
+          <OfxPropLabel>Vary Writing Pos X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Writing Pos Y">
+          <OfxPropLabel>Vary Writing Pos Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="Writing Color">
+          <OfxPropLabel>Writing Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="Writing Glow Brightness">
+          <OfxPropLabel>Writing Glow Brightness</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Writing Combine">
+          <OfxPropLabel>Writing Combine</OfxPropLabel>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Add</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Mult</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Overlay</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Stencil Luma</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="Writing Seed">
+          <OfxPropLabel>Writing Seed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="group_6">
+          <OfxPropLabel>Edges</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="Edges Style">
+          <OfxPropLabel>Edges Style</OfxPropLabel>
+          <OfxParamPropChoiceOption>Sprockets Vertical A</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Sprockets Vertical B</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Single Vertical Sprocket</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble2D name="Edges Center">
+          <OfxPropLabel>Edges Center</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="Edges Size">
+          <OfxPropLabel>Edges Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Edges Pos X">
+          <OfxPropLabel>Vary Edges Pos X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Edges Pos Y">
+          <OfxPropLabel>Vary Edges Pos Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="Edges Outline Color">
+          <OfxPropLabel>Edges Outline Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="Edges Center Color">
+          <OfxPropLabel>Edges Center Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="Edges Glow Brightness">
+          <OfxPropLabel>Edges Glow Brightness</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Edges Outline Combine">
+          <OfxPropLabel>Edges Outline Combine</OfxPropLabel>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Add</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Mult</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Overlay</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Stencil Luma</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="Edges Center Combine">
+          <OfxPropLabel>Edges Center Combine</OfxPropLabel>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Add</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Mult</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Overlay</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Stencil Luma</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="group_7">
+          <OfxPropLabel>Scratches</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Scratches1 Amount">
+          <OfxPropLabel>Scratches1 Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Scratches2 Amount">
+          <OfxPropLabel>Scratches2 Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Scratches1 Length">
+          <OfxPropLabel>Scratches1 Length</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Scratches2 Length">
+          <OfxPropLabel>Scratches2 Length</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Scratches Width">
+          <OfxPropLabel>Scratches Width</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Scratches Width">
+          <OfxPropLabel>Vary Scratches Width</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Scratches Opacity">
+          <OfxPropLabel>Scratches Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Scratches Roughness">
+          <OfxPropLabel>Scratches Roughness</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Scratches Rough Freq">
+          <OfxPropLabel>Scratches Rough Freq</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Gaps">
+          <OfxPropLabel>Gaps</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Gaps Frequency">
+          <OfxPropLabel>Gaps Frequency</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Scratches Area Center">
+          <OfxPropLabel>Scratches Area Center</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Scratches Area Width">
+          <OfxPropLabel>Scratches Area Width</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Weave Amount">
+          <OfxPropLabel>Weave Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Weave Frequency">
+          <OfxPropLabel>Weave Frequency</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="Scratches1 Color">
+          <OfxPropLabel>Scratches1 Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="Scratches2 Color">
+          <OfxPropLabel>Scratches2 Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeChoice name="Scratches Combine">
+          <OfxPropLabel>Scratches Combine</OfxPropLabel>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Add</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Mult</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Overlay</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Stencil Luma</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="group_8">
+          <OfxPropLabel>Hairs</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Hairs Amount">
+          <OfxPropLabel>Hairs Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Hairs Persistence">
+          <OfxPropLabel>Hairs Persistence</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Hairs Wiggle Amp">
+          <OfxPropLabel>Hairs Wiggle Amp</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Hairs Wiggle Freq">
+          <OfxPropLabel>Hairs Wiggle Freq</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Hairs Size">
+          <OfxPropLabel>Hairs Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Hairs Size">
+          <OfxPropLabel>Vary Hairs Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Hairs Opacity">
+          <OfxPropLabel>Hairs Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="Hairs Color">
+          <OfxPropLabel>Hairs Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeChoice name="Hairs Combine">
+          <OfxPropLabel>Hairs Combine</OfxPropLabel>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Add</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Mult</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Overlay</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Stencil Luma</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="group_9">
+          <OfxPropLabel>Stains</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Stains Density">
+          <OfxPropLabel>Stains Density</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Stains Size">
+          <OfxPropLabel>Stains Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Stains Size">
+          <OfxPropLabel>Vary Stains Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Stains Opacity">
+          <OfxPropLabel>Stains Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="Stains Color1">
+          <OfxPropLabel>Stains Color1</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="Stains Color2">
+          <OfxPropLabel>Stains Color2</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeChoice name="Stains Combine">
+          <OfxPropLabel>Stains Combine</OfxPropLabel>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Add</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Mult</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Overlay</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Stencil Luma</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="group_10">
+          <OfxPropLabel>Dust</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Dust Density">
+          <OfxPropLabel>Dust Density</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Dust Size">
+          <OfxPropLabel>Dust Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Dust Size">
+          <OfxPropLabel>Vary Dust Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Dust Opacity">
+          <OfxPropLabel>Dust Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="Dust Color1">
+          <OfxPropLabel>Dust Color1</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="Dust Color2">
+          <OfxPropLabel>Dust Color2</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeChoice name="Dust Combine">
+          <OfxPropLabel>Dust Combine</OfxPropLabel>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Add</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Mult</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Overlay</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Stencil Luma</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="group_11">
+          <OfxPropLabel>Grain</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Grain Amp">
+          <OfxPropLabel>Grain Amp</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Size">
+          <OfxPropLabel>Grain Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Blur">
+          <OfxPropLabel>Grain Blur</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Amp Red">
+          <OfxPropLabel>Grain Amp Red</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Amp Green">
+          <OfxPropLabel>Grain Amp Green</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Amp Blue">
+          <OfxPropLabel>Grain Amp Blue</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Blur Red">
+          <OfxPropLabel>Grain Blur Red</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Blur Green">
+          <OfxPropLabel>Grain Blur Green</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Blur Blue">
+          <OfxPropLabel>Grain Blur Blue</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Amp Darks">
+          <OfxPropLabel>Grain Amp Darks</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Amp Mids">
+          <OfxPropLabel>Grain Amp Mids</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Amp Brights">
+          <OfxPropLabel>Grain Amp Brights</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Midtone Pos Red">
+          <OfxPropLabel>Midtone Pos Red</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Midtone Pos Green">
+          <OfxPropLabel>Midtone Pos Green</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Midtone Pos Blue">
+          <OfxPropLabel>Midtone Pos Blue</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="Grain Mono">
+          <OfxPropLabel>Grain Mono</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="group_12">
+          <OfxPropLabel>Elements Glow</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Glow Width">
+          <OfxPropLabel>Glow Width</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Glow Width Blue">
+          <OfxPropLabel>Glow Width Blue</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Glow Width Green">
+          <OfxPropLabel>Glow Width Green</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Glow Width Red">
+          <OfxPropLabel>Glow Width Red</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Seed">
+          <OfxPropLabel>Seed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Mask Use">
+          <OfxPropLabel>Mask Use</OfxPropLabel>
+          <OfxParamPropChoiceOption>Luma</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Alpha</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="Blur Mask">
+          <OfxPropLabel>Blur Mask</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="Invert Mask">
+          <OfxPropLabel>Invert Mask</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypePushButton name="Help">
           <OfxPropLabel>Help</OfxPropLabel>
@@ -44316,6 +45074,664 @@
       </OfxImageEffectContext>
     </OfxResourceSet>
   </OfxPlugin>
+  <OfxPlugin name="com.genarts.sapphire.Transitions.S_FilmBurnTransition">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>S_FilmBurnTransition</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping> Sapphire Transitions</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="Load Preset">
+          <OfxPropLabel>Load Preset</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="Save Preset">
+          <OfxPropLabel>Save Preset</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble name="Dissolve Amount">
+          <OfxPropLabel>Dissolve Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Dissolve Speed">
+          <OfxPropLabel>Dissolve Speed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Slow In">
+          <OfxPropLabel>Slow In</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Slow Out">
+          <OfxPropLabel>Slow Out</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="Flash1">
+          <OfxPropLabel>Flash1</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="Flash2">
+          <OfxPropLabel>Flash2</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="Flash3">
+          <OfxPropLabel>Flash3</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="Leader">
+          <OfxPropLabel>Leader</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="Writing">
+          <OfxPropLabel>Writing</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="Edges">
+          <OfxPropLabel>Edges</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="Scratches">
+          <OfxPropLabel>Scratches</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="Hairs And Stains">
+          <OfxPropLabel>Hairs And Stains</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="Dust">
+          <OfxPropLabel>Dust</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="Grain">
+          <OfxPropLabel>Grain</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="group_0">
+          <OfxPropLabel>Flash1</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Size1">
+          <OfxPropLabel>Size1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Stretch1">
+          <OfxPropLabel>Stretch1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Rotation1">
+          <OfxPropLabel>Rotation1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Brightness1">
+          <OfxPropLabel>Brightness1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="Center1">
+          <OfxPropLabel>Center1</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeRGB name="Outer Color1">
+          <OfxPropLabel>Outer Color1</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="Inner Color1">
+          <OfxPropLabel>Inner Color1</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="Midpoint1">
+          <OfxPropLabel>Midpoint1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Softness1">
+          <OfxPropLabel>Softness1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Shape1">
+          <OfxPropLabel>Shape1</OfxPropLabel>
+          <OfxParamPropChoiceOption>Circle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Polygon</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeInteger name="Num Sides1">
+          <OfxPropLabel>Num Sides1</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="Noise Amp1">
+          <OfxPropLabel>Noise Amp1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Noise Freq1">
+          <OfxPropLabel>Noise Freq1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Noise Freq Rel Y1">
+          <OfxPropLabel>Noise Freq Rel Y1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Flicker Amp1">
+          <OfxPropLabel>Flicker Amp1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Flicker Freq1">
+          <OfxPropLabel>Flicker Freq1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Motion Style1">
+          <OfxPropLabel>Motion Style1</OfxPropLabel>
+          <OfxParamPropChoiceOption>Linear</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Wave</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="Motion Amount1">
+          <OfxPropLabel>Motion Amount1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Motion Angle1">
+          <OfxPropLabel>Motion Angle1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Motion Freq1">
+          <OfxPropLabel>Motion Freq1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Motion Delay1">
+          <OfxPropLabel>Motion Delay1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="group_1">
+          <OfxPropLabel>Flash2</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Size2">
+          <OfxPropLabel>Size2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Stretch2">
+          <OfxPropLabel>Stretch2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Rotation2">
+          <OfxPropLabel>Rotation2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Brightness2">
+          <OfxPropLabel>Brightness2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="Center2">
+          <OfxPropLabel>Center2</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeRGB name="Outer Color2">
+          <OfxPropLabel>Outer Color2</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="Inner Color2">
+          <OfxPropLabel>Inner Color2</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="Midpoint2">
+          <OfxPropLabel>Midpoint2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Softness2">
+          <OfxPropLabel>Softness2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Shape2">
+          <OfxPropLabel>Shape2</OfxPropLabel>
+          <OfxParamPropChoiceOption>Circle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Polygon</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeInteger name="Num Sides2">
+          <OfxPropLabel>Num Sides2</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="Noise Amp2">
+          <OfxPropLabel>Noise Amp2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Noise Freq2">
+          <OfxPropLabel>Noise Freq2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Noise Freq Rel Y2">
+          <OfxPropLabel>Noise Freq Rel Y2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Flicker Amp2">
+          <OfxPropLabel>Flicker Amp2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Flicker Freq2">
+          <OfxPropLabel>Flicker Freq2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Motion Style2">
+          <OfxPropLabel>Motion Style2</OfxPropLabel>
+          <OfxParamPropChoiceOption>Linear</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Wave</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="Motion Amount2">
+          <OfxPropLabel>Motion Amount2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Motion Angle2">
+          <OfxPropLabel>Motion Angle2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Motion Freq2">
+          <OfxPropLabel>Motion Freq2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Motion Delay2">
+          <OfxPropLabel>Motion Delay2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="group_2">
+          <OfxPropLabel>Flash3</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Size3">
+          <OfxPropLabel>Size3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Stretch3">
+          <OfxPropLabel>Stretch3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Rotation3">
+          <OfxPropLabel>Rotation3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Brightness3">
+          <OfxPropLabel>Brightness3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="Center3">
+          <OfxPropLabel>Center3</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeRGB name="Outer Color3">
+          <OfxPropLabel>Outer Color3</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="Inner Color3">
+          <OfxPropLabel>Inner Color3</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="Midpoint3">
+          <OfxPropLabel>Midpoint3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Softness3">
+          <OfxPropLabel>Softness3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Shape3">
+          <OfxPropLabel>Shape3</OfxPropLabel>
+          <OfxParamPropChoiceOption>Circle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Polygon</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeInteger name="Num Sides3">
+          <OfxPropLabel>Num Sides3</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="Noise Amp3">
+          <OfxPropLabel>Noise Amp3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Noise Freq3">
+          <OfxPropLabel>Noise Freq3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Noise Freq Rel Y3">
+          <OfxPropLabel>Noise Freq Rel Y3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Flicker Amp3">
+          <OfxPropLabel>Flicker Amp3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Flicker Freq3">
+          <OfxPropLabel>Flicker Freq3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Motion Style3">
+          <OfxPropLabel>Motion Style3</OfxPropLabel>
+          <OfxParamPropChoiceOption>Linear</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Wave</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="Motion Amount3">
+          <OfxPropLabel>Motion Amount3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Motion Angle3">
+          <OfxPropLabel>Motion Angle3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Motion Freq3">
+          <OfxPropLabel>Motion Freq3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Motion Delay3">
+          <OfxPropLabel>Motion Delay3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Flashes Combine">
+          <OfxPropLabel>Flashes Combine</OfxPropLabel>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Add</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Mult</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Overlay</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="group_3">
+          <OfxPropLabel>Leader</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="Leader Style">
+          <OfxPropLabel>Leader Style</OfxPropLabel>
+          <OfxParamPropChoiceOption>Countdown</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Text</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Sync Mark</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="Leader Amount">
+          <OfxPropLabel>Leader Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="Leader Persistence">
+          <OfxPropLabel>Leader Persistence</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="Leader Opacity">
+          <OfxPropLabel>Leader Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="Leader Center">
+          <OfxPropLabel>Leader Center</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="Leader Size">
+          <OfxPropLabel>Leader Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Leader Size">
+          <OfxPropLabel>Vary Leader Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Leader Pos X">
+          <OfxPropLabel>Vary Leader Pos X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Leader Pos Y">
+          <OfxPropLabel>Vary Leader Pos Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="Leader Color">
+          <OfxPropLabel>Leader Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="Leader Glow Brightness">
+          <OfxPropLabel>Leader Glow Brightness</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Leader Combine">
+          <OfxPropLabel>Leader Combine</OfxPropLabel>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Add</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Mult</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Overlay</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Stencil Luma</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="Leader Seed">
+          <OfxPropLabel>Leader Seed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="group_4">
+          <OfxPropLabel>Writing</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="Writing Style">
+          <OfxPropLabel>Writing Style</OfxPropLabel>
+          <OfxParamPropChoiceOption>Horizontal Text</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Vertical Text</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Wax Pencil</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="Writing Amount">
+          <OfxPropLabel>Writing Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="Writing Persistence">
+          <OfxPropLabel>Writing Persistence</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="Writing Opacity">
+          <OfxPropLabel>Writing Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="Writing Center">
+          <OfxPropLabel>Writing Center</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="Writing Size">
+          <OfxPropLabel>Writing Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Writing Size">
+          <OfxPropLabel>Vary Writing Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Writing Pos X">
+          <OfxPropLabel>Vary Writing Pos X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Writing Pos Y">
+          <OfxPropLabel>Vary Writing Pos Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="Writing Color">
+          <OfxPropLabel>Writing Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="Writing Glow Brightness">
+          <OfxPropLabel>Writing Glow Brightness</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Writing Combine">
+          <OfxPropLabel>Writing Combine</OfxPropLabel>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Add</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Mult</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Overlay</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Stencil Luma</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="Writing Seed">
+          <OfxPropLabel>Writing Seed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="group_5">
+          <OfxPropLabel>Edges</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="Edges Style">
+          <OfxPropLabel>Edges Style</OfxPropLabel>
+          <OfxParamPropChoiceOption>Sprockets Vertical A</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Sprockets Vertical B</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Single Vertical Sprocket</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble2D name="Edges Center">
+          <OfxPropLabel>Edges Center</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="Edges Size">
+          <OfxPropLabel>Edges Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Edges Pos X">
+          <OfxPropLabel>Vary Edges Pos X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Edges Pos Y">
+          <OfxPropLabel>Vary Edges Pos Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="Edges Outline Color">
+          <OfxPropLabel>Edges Outline Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="Edges Center Color">
+          <OfxPropLabel>Edges Center Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="Edges Glow Brightness">
+          <OfxPropLabel>Edges Glow Brightness</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Edges Outline Combine">
+          <OfxPropLabel>Edges Outline Combine</OfxPropLabel>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Add</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Mult</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Overlay</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Stencil Luma</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="Edges Center Combine">
+          <OfxPropLabel>Edges Center Combine</OfxPropLabel>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Add</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Mult</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Overlay</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Stencil Luma</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="group_6">
+          <OfxPropLabel>Scratches</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Scratches1 Amount">
+          <OfxPropLabel>Scratches1 Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Scratches2 Amount">
+          <OfxPropLabel>Scratches2 Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Scratches1 Length">
+          <OfxPropLabel>Scratches1 Length</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Scratches2 Length">
+          <OfxPropLabel>Scratches2 Length</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Scratches Width">
+          <OfxPropLabel>Scratches Width</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Scratches Width">
+          <OfxPropLabel>Vary Scratches Width</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Scratches Opacity">
+          <OfxPropLabel>Scratches Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Scratches Roughness">
+          <OfxPropLabel>Scratches Roughness</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Scratches Rough Freq">
+          <OfxPropLabel>Scratches Rough Freq</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Gaps">
+          <OfxPropLabel>Gaps</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Gaps Frequency">
+          <OfxPropLabel>Gaps Frequency</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Scratches Area Center">
+          <OfxPropLabel>Scratches Area Center</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Scratches Area Width">
+          <OfxPropLabel>Scratches Area Width</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Weave Amount">
+          <OfxPropLabel>Weave Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Weave Frequency">
+          <OfxPropLabel>Weave Frequency</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="Scratches1 Color">
+          <OfxPropLabel>Scratches1 Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="Scratches2 Color">
+          <OfxPropLabel>Scratches2 Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeChoice name="Scratches Combine">
+          <OfxPropLabel>Scratches Combine</OfxPropLabel>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Add</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Mult</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Overlay</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Stencil Luma</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="group_7">
+          <OfxPropLabel>Hairs</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Hairs Amount">
+          <OfxPropLabel>Hairs Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Hairs Persistence">
+          <OfxPropLabel>Hairs Persistence</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Hairs Wiggle Amp">
+          <OfxPropLabel>Hairs Wiggle Amp</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Hairs Wiggle Freq">
+          <OfxPropLabel>Hairs Wiggle Freq</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Hairs Size">
+          <OfxPropLabel>Hairs Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Hairs Size">
+          <OfxPropLabel>Vary Hairs Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Hairs Opacity">
+          <OfxPropLabel>Hairs Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="Hairs Color">
+          <OfxPropLabel>Hairs Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeChoice name="Hairs Combine">
+          <OfxPropLabel>Hairs Combine</OfxPropLabel>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Add</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Mult</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Overlay</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Stencil Luma</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="group_8">
+          <OfxPropLabel>Stains</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Stains Density">
+          <OfxPropLabel>Stains Density</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Stains Size">
+          <OfxPropLabel>Stains Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Stains Size">
+          <OfxPropLabel>Vary Stains Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Stains Opacity">
+          <OfxPropLabel>Stains Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="Stains Color1">
+          <OfxPropLabel>Stains Color1</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="Stains Color2">
+          <OfxPropLabel>Stains Color2</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeChoice name="Stains Combine">
+          <OfxPropLabel>Stains Combine</OfxPropLabel>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Add</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Mult</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Overlay</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Stencil Luma</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="group_9">
+          <OfxPropLabel>Dust</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Dust Density">
+          <OfxPropLabel>Dust Density</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Dust Size">
+          <OfxPropLabel>Dust Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Vary Dust Size">
+          <OfxPropLabel>Vary Dust Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Dust Opacity">
+          <OfxPropLabel>Dust Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="Dust Color1">
+          <OfxPropLabel>Dust Color1</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="Dust Color2">
+          <OfxPropLabel>Dust Color2</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeChoice name="Dust Combine">
+          <OfxPropLabel>Dust Combine</OfxPropLabel>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Add</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Mult</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Overlay</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Stencil Luma</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="group_10">
+          <OfxPropLabel>Grain</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Grain Amp">
+          <OfxPropLabel>Grain Amp</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Size">
+          <OfxPropLabel>Grain Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Blur">
+          <OfxPropLabel>Grain Blur</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Amp Red">
+          <OfxPropLabel>Grain Amp Red</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Amp Green">
+          <OfxPropLabel>Grain Amp Green</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Amp Blue">
+          <OfxPropLabel>Grain Amp Blue</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Blur Red">
+          <OfxPropLabel>Grain Blur Red</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Blur Green">
+          <OfxPropLabel>Grain Blur Green</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Blur Blue">
+          <OfxPropLabel>Grain Blur Blue</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Amp Darks">
+          <OfxPropLabel>Grain Amp Darks</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Amp Mids">
+          <OfxPropLabel>Grain Amp Mids</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Grain Amp Brights">
+          <OfxPropLabel>Grain Amp Brights</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Midtone Pos Red">
+          <OfxPropLabel>Midtone Pos Red</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Midtone Pos Green">
+          <OfxPropLabel>Midtone Pos Green</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Midtone Pos Blue">
+          <OfxPropLabel>Midtone Pos Blue</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="Grain Mono">
+          <OfxPropLabel>Grain Mono</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="group_11">
+          <OfxPropLabel>Elements Glow</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Glow Width">
+          <OfxPropLabel>Glow Width</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Glow Width Blue">
+          <OfxPropLabel>Glow Width Blue</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Glow Width Green">
+          <OfxPropLabel>Glow Width Green</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Glow Width Red">
+          <OfxPropLabel>Glow Width Red</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Seed">
+          <OfxPropLabel>Seed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypePushButton name="Help">
+          <OfxPropLabel>Help</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeBoolean name="Enable GPU">
+          <OfxPropLabel>Enable GPU</OfxPropLabel>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
   <OfxPlugin name="com.genarts.sapphire.Transitions.S_FilmRoll">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>S_FilmRoll</OfxPropLabel>
@@ -45050,6 +46466,273 @@
         <OfxParamTypeDouble name="Distort RGB Amount">
           <OfxPropLabel>Distort RGB Amount</OfxPropLabel>
         </OfxParamTypeDouble>
+        <OfxParamTypePushButton name="Help">
+          <OfxPropLabel>Help</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeBoolean name="Enable GPU">
+          <OfxPropLabel>Enable GPU</OfxPropLabel>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+  <OfxPlugin name="com.genarts.sapphire.Transitions.S_MochaWhip">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>S_MochaWhip</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping> Sapphire Transitions</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="Load Preset">
+          <OfxPropLabel>Load Preset</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="Save Preset">
+          <OfxPropLabel>Save Preset</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="Edit Mocha">
+          <OfxPropLabel>Edit Mocha</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeCustom name="Mocha Project">
+          <!-- <OfxPropLabel>Mocha Project</OfxPropLabel> -->
+        </OfxParamTypeCustom>
+        <OfxParamTypeGroup name="group_0">
+          <OfxPropLabel>Mocha</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Blur Mocha">
+          <OfxPropLabel>Blur Mocha</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Mocha Opacity">
+          <OfxPropLabel>Mocha Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="Invert Mocha">
+          <OfxPropLabel>Invert Mocha</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="Resize Mocha">
+          <OfxPropLabel>Resize Mocha</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Resize Rel X">
+          <OfxPropLabel>Resize Rel X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Resize Rel Y">
+          <OfxPropLabel>Resize Rel Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Shift Mocha X">
+          <OfxPropLabel>Shift Mocha X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Shift Mocha Y">
+          <OfxPropLabel>Shift Mocha Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Dilate Mocha">
+          <OfxPropLabel>Dilate Mocha</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Dilation Quality">
+          <OfxPropLabel>Dilation Quality</OfxPropLabel>
+          <OfxParamPropChoiceOption>Fast</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>High</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="Bypass Mocha">
+          <OfxPropLabel>Bypass Mocha</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="Show Mocha Only">
+          <OfxPropLabel>Show Mocha Only</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="Input For Tracking">
+          <OfxPropLabel>Input For Tracking</OfxPropLabel>
+          <OfxParamPropChoiceOption>From</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>To</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="Wipe Amount">
+          <OfxPropLabel>Wipe Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Swish Auto Trans">
+          <OfxPropLabel>Swish Auto Trans</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Cutout Offset Start X">
+          <OfxPropLabel>Cutout Offset Start X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Cutout Offset Start Y">
+          <OfxPropLabel>Cutout Offset Start Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Cutout Shift X">
+          <OfxPropLabel>Cutout Shift X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Cutout Shift Y">
+          <OfxPropLabel>Cutout Shift Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Cutout Fadein Time">
+          <OfxPropLabel>Cutout Fadein Time</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="Cutout Center">
+          <OfxPropLabel>Cutout Center</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="Cutout Rotate">
+          <OfxPropLabel>Cutout Rotate</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Cutout Motion Blur">
+          <OfxPropLabel>Cutout Motion Blur</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Cutout Scale">
+          <OfxPropLabel>Cutout Scale</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Cutout Whip Out">
+          <OfxPropLabel>Cutout Whip Out</OfxPropLabel>
+          <OfxParamPropChoiceOption>Smooth</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Bounce</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Snap</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="Cutout Wrap X">
+          <OfxPropLabel>Cutout Wrap X</OfxPropLabel>
+          <OfxParamPropChoiceOption>No</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Tile</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Reflect</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="Cutout Wrap Y">
+          <OfxPropLabel>Cutout Wrap Y</OfxPropLabel>
+          <OfxParamPropChoiceOption>No</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Tile</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Reflect</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="group_1">
+          <OfxPropLabel>Cutout RGB Blur And Shift</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Cutout Mix RGB">
+          <OfxPropLabel>Cutout Mix RGB</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Cutout Blur Amount">
+          <OfxPropLabel>Cutout Blur Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Cutout Angle">
+          <OfxPropLabel>Cutout Angle</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Cutout Shift RGB">
+          <OfxPropLabel>Cutout Shift RGB</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Cutout Blur Red">
+          <OfxPropLabel>Cutout Blur Red</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Cutout Blur Green">
+          <OfxPropLabel>Cutout Blur Green</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Cutout Blur Blue">
+          <OfxPropLabel>Cutout Blur Blue</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Cutout Shift Red">
+          <OfxPropLabel>Cutout Shift Red</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Cutout Shift Green">
+          <OfxPropLabel>Cutout Shift Green</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Cutout Shift Blue">
+          <OfxPropLabel>Cutout Shift Blue</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Cutout Brightness">
+          <OfxPropLabel>Cutout Brightness</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Background Whip Side">
+          <OfxPropLabel>Background Whip Side</OfxPropLabel>
+          <OfxParamPropChoiceOption>Both</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>From</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>To</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble2D name="Background Center">
+          <OfxPropLabel>Background Center</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="Background Motion Blur">
+          <OfxPropLabel>Background Motion Blur</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Background Rotate">
+          <OfxPropLabel>Background Rotate</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Background Shift X">
+          <OfxPropLabel>Background Shift X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Background Shift Y">
+          <OfxPropLabel>Background Shift Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Background Scale">
+          <OfxPropLabel>Background Scale</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Background Whip Out">
+          <OfxPropLabel>Background Whip Out</OfxPropLabel>
+          <OfxParamPropChoiceOption>Smooth</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Bounce</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Snap</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="group_2">
+          <OfxPropLabel>Bg Wrap</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="Background Wrap From X">
+          <OfxPropLabel>Background Wrap From X</OfxPropLabel>
+          <OfxParamPropChoiceOption>No</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Tile</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Reflect</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="Background Wrap From Y">
+          <OfxPropLabel>Background Wrap From Y</OfxPropLabel>
+          <OfxParamPropChoiceOption>No</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Tile</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Reflect</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="Background Wrap To X">
+          <OfxPropLabel>Background Wrap To X</OfxPropLabel>
+          <OfxParamPropChoiceOption>No</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Tile</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Reflect</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="Background Wrap To Y">
+          <OfxPropLabel>Background Wrap To Y</OfxPropLabel>
+          <OfxParamPropChoiceOption>No</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Tile</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Reflect</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="group_3">
+          <OfxPropLabel>BG RGB Blur And Shift</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Background Mix RGB">
+          <OfxPropLabel>Background Mix RGB</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Background Blur Amount">
+          <OfxPropLabel>Background Blur Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Background Angle">
+          <OfxPropLabel>Background Angle</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Background Shift RGB">
+          <OfxPropLabel>Background Shift RGB</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Background Bias">
+          <OfxPropLabel>Background Bias</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Background Blur Red">
+          <OfxPropLabel>Background Blur Red</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Background Blur Green">
+          <OfxPropLabel>Background Blur Green</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Background Blur Blue">
+          <OfxPropLabel>Background Blur Blue</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Background Shift Red">
+          <OfxPropLabel>Background Shift Red</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Background Shift Green">
+          <OfxPropLabel>Background Shift Green</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Background Shift Blue">
+          <OfxPropLabel>Background Shift Blue</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Background Brightness">
+          <OfxPropLabel>Background Brightness</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Background Offset Darks">
+          <OfxPropLabel>Background Offset Darks</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="Background Edge Mode">
+          <OfxPropLabel>Background Edge Mode</OfxPropLabel>
+          <OfxParamPropChoiceOption>Transparent</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Repeat</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Reflect</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="Soft Borders">
+          <OfxPropLabel>Soft Borders</OfxPropLabel>
+        </OfxParamTypeBoolean>
         <OfxParamTypePushButton name="Help">
           <OfxPropLabel>Help</OfxPropLabel>
         </OfxParamTypePushButton>
