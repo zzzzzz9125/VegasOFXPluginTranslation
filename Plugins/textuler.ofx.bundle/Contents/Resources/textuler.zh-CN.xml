@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="us.co.misc.Textuler">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>Textuler</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Draw</OfxImageEffectPluginPropGrouping>
+      <OfxPropPluginDescription>Text drawing node plugin</OfxPropPluginDescription>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="presets">
+          <OfxPropLabel>预设</OfxPropLabel>
+          <OfxParamPropHint>设置由Textuler团队设计的预设气泡/文本</OfxParamPropHint>
+          <OfxParamPropChoiceOption>选择一个预设</OfxParamPropChoiceOption>
+          <!-- <OfxParamPropChoiceOption>圆角_蓝色渐变-L</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆角_大黄蜂亮色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆角_大黄蜂暗色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆角_深灰阴影</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆角_华丽青色-L</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆角_华丽紫色-R</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆角_薰衣草色-R</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆角_浅石灰色-L</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆角_浅黄色-R</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆角_石灰色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆角_柔和蓝色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆角_橙色微风-R</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆角_轮廓_黑色-L</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆角_轮廓_蓝色-R</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆角_轮廓_绿色-L</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆角_轮廓_橙色-L</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆角_轮廓_白色-R</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆角_药丸_蓝色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆角_药丸_绿色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆角_药丸_红色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆角_药丸_玫瑰色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆角_青色-L</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆角_三角蓝色-R</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆角_三角金色-R</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆角_三角灰色-L</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆角_三角粉色-L</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆角_三角日落渐变-R</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆角_三角青色渐变-L</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆角_波浪蓝色-R</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆角_波浪绿色-R</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆角_波浪灰色_暗-L</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆角_波浪灰色_亮-L</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆角_白色与青色-R</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>方形_烧橙色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>方形_柔和深红色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>方形_天空渐变</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>方形_三角绿色-L</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>方形_三角长柔粉色-L</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>方形_三角洋红色-R</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>方形_白色与灰色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>用户图标_酷阴影</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>用户图标_深紫色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>用户图标_灰色</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>用户图标_橙汁</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>用户图标_饱和</OfxParamPropChoiceOption> -->
+        </OfxParamTypeChoice>
+        <OfxParamTypePushButton name="licenseButton">
+          <OfxPropLabel>许可证管理器</OfxPropLabel>
+          <OfxParamPropHint>许可证管理器</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypeInteger2D name="position">
+          <OfxPropLabel>位置</OfxPropLabel>
+          <OfxParamPropHint>设置节点的位置</OfxParamPropHint>
+        </OfxParamTypeInteger2D>
+        <OfxParamTypeChoice name="bubbleShape">
+          <OfxPropLabel>气泡形状</OfxPropLabel>
+          <OfxParamPropHint>包围文本的气泡形状</OfxParamPropHint>
+          <OfxParamPropChoiceOption>圆角矩形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>圆形</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="bubbleSizing">
+          <OfxPropLabel>气泡大小调整</OfxPropLabel>
+          <OfxParamPropHint>文本气泡的大小如何驱动，可以是文本驱动或固定</OfxParamPropHint>
+          <OfxParamPropChoiceOption>自动</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>固定</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeInteger2D name="bubbleSize">
+          <OfxPropLabel>气泡大小</OfxPropLabel>
+          <OfxParamPropHint>从气泡大小调整计算的气泡大小</OfxParamPropHint>
+        </OfxParamTypeInteger2D>
+        <OfxParamTypeChoice name="horizontalJustify">
+          <OfxPropLabel>气泡X对齐</OfxPropLabel>
+          <OfxParamPropHint>文本框相对于画布的水平对齐</OfxParamPropHint>
+          <OfxParamPropChoiceOption>左</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>居中</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>右</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="verticalJustify">
+          <OfxPropLabel>气泡Y对齐</OfxPropLabel>
+          <OfxParamPropHint>文本框相对于画布的垂直对齐</OfxParamPropHint>
+          <OfxParamPropChoiceOption>上</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>居中</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>下</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeInteger2D name="textCenterOffset">
+          <OfxPropLabel>文本偏移</OfxPropLabel>
+          <OfxParamPropHint>设置文本框在x和y方向的偏移，0,0为气泡中心</OfxParamPropHint>
+        </OfxParamTypeInteger2D>
+        <OfxParamTypeChoice name="alignment">
+          <OfxPropLabel>文本对齐</OfxPropLabel>
+          <OfxParamPropHint>气泡内文本的对齐</OfxParamPropHint>
+          <OfxParamPropChoiceOption>左</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>居中</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>右</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeString name="textMessage">
+          <OfxPropLabel>文本消息</OfxPropLabel>
+          <OfxParamPropHint>消息的文本内容</OfxParamPropHint>
+        </OfxParamTypeString>
+        <OfxParamTypePushButton name="advancedTextEdit">
+          <OfxPropLabel>高级文本编辑</OfxPropLabel>
+          <OfxParamPropHint>高级文本编辑</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypeString name="attrList">
+          <OfxPropLabel>属性列表</OfxPropLabel>
+          <OfxParamPropHint>隐藏参数，用于存储高级文本编辑</OfxParamPropHint>
+        </OfxParamTypeString>
+        <OfxParamTypePushButton name="fontSelectorButton">
+          <OfxPropLabel>选择字体</OfxPropLabel>
+          <OfxParamPropHint>选择字体</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="fontFamily">
+          <OfxPropLabel>字体家族</OfxPropLabel>
+          <OfxParamPropHint>选择要使用的字体。</OfxParamPropHint>
+        </OfxParamTypeChoice>
+        <OfxParamTypeString name="fontFace">
+          <OfxPropLabel>字体样式</OfxPropLabel>
+          <OfxParamPropHint>从选定字体中的字体样式，使用选择字体和样式按钮可选择</OfxParamPropHint>
+        </OfxParamTypeString>
+        <OfxParamTypeDouble name="fontSize">
+          <OfxPropLabel>字体大小</OfxPropLabel>
+          <OfxParamPropHint>要渲染的字符高度，以像素为单位。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="letterSpace">
+          <OfxPropLabel>字母间距</OfxPropLabel>
+          <OfxParamPropHint>字母之间的间距。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="lineSpacing">
+          <OfxPropLabel>行间距</OfxPropLabel>
+          <OfxParamPropHint>每行之间的间距（类似于Word中的单/双行属性）。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="weight">
+          <OfxPropLabel>字体粗细</OfxPropLabel>
+          <OfxParamPropHint>选择字体样式</OfxParamPropHint>
+          <OfxParamPropChoiceOption>细（发丝）</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>超细（额外细）</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>细</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>半细</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>书体</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>正常（常规）</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>中等</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>半粗（半粗体）</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>粗体</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>超粗（额外粗）</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>重（黑色）</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>超重（额外黑）</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="fontStretch">
+          <OfxPropLabel>字体拉伸</OfxPropLabel>
+          <OfxParamPropHint>指定字体相对于字体家族中其他设计的宽度</OfxParamPropHint>
+          <OfxParamPropChoiceOption>超压缩</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>额外压缩</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>压缩</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>半压缩</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>正常</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>半扩展</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>扩展</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>额外扩展</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>超扩展</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="underline">
+          <OfxPropLabel>下划线</OfxPropLabel>
+          <OfxParamPropHint>选择下划线样式</OfxParamPropHint>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>单</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>双</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>低</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>错误</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>单（线）</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>双（线）</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>错误（线）</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="italics">
+          <OfxPropLabel>斜体</OfxPropLabel>
+          <OfxParamPropHint>为选定字体启用或禁用斜体</OfxParamPropHint>
+          <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>斜体</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>倾斜</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeRGBA name="bubbleBGColor">
+          <OfxPropLabel>气泡颜色</OfxPropLabel>
+          <OfxParamPropHint>气泡的填充颜色。</OfxParamPropHint>
+        </OfxParamTypeRGBA>
+        <OfxParamTypeDouble name="bubbleBGColorOpacity">
+          <OfxPropLabel>气泡不透明度</OfxPropLabel>
+          <OfxParamPropHint>调整气泡背景颜色的透明度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGBA name="color">
+          <OfxPropLabel>文本颜色</OfxPropLabel>
+          <OfxParamPropHint>要渲染的文本的填充颜色。</OfxParamPropHint>
+        </OfxParamTypeRGBA>
+        <OfxParamTypeDouble name="textColorOpacity">
+          <OfxPropLabel>文本不透明度</OfxPropLabel>
+          <OfxParamPropHint>调整文本颜色的透明度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="disableBubble">
+          <OfxPropLabel>禁用气泡</OfxPropLabel>
+          <OfxParamPropHint>不绘制包围文本的矩形</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="disableText">
+          <OfxPropLabel>禁用文本</OfxPropLabel>
+          <OfxParamPropHint>不绘制矩形内的文本</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeString name="emojiFont">
+          <OfxPropLabel>表情符号字体</OfxPropLabel>
+          <OfxParamPropHint>指定在应用回退字体之前哪个字体样式将优先作为表情符号字体</OfxParamPropHint>
+        </OfxParamTypeString>
+        <OfxParamTypeGroup name="bubbleExpansionGroup">
+          <OfxPropLabel>气泡扩展</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeInteger name="bubbleExpansion">
+          <OfxPropLabel>气泡扩展</OfxPropLabel>
+          <OfxParamPropHint>向所有方向扩展消息气泡。如果选择了个别扩展，则禁用</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeBoolean name="individualExpansion">
+          <OfxPropLabel>个别扩展</OfxPropLabel>
+          <OfxParamPropHint>个别指定气泡扩展</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeInteger name="topExpansion">
+          <OfxPropLabel>顶部扩展</OfxPropLabel>
+          <OfxParamPropHint>气泡向顶部的扩展</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="bottomExpansion">
+          <OfxPropLabel>底部扩展</OfxPropLabel>
+          <OfxParamPropHint>气泡向底部的扩展</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="leftExpansion">
+          <OfxPropLabel>左侧扩展</OfxPropLabel>
+          <OfxParamPropHint>气泡向左侧的扩展</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="rightExpansion">
+          <OfxPropLabel>右侧扩展</OfxPropLabel>
+          <OfxParamPropHint>气泡向右侧的扩展</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeGroup name="bubbleRadiusGroup">
+          <OfxPropLabel>气泡角半径</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeInteger name="cornerRadius">
+          <OfxPropLabel>角半径</OfxPropLabel>
+          <OfxParamPropHint>设置文本气泡的角半径</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeBoolean name="individualRounding">
+          <OfxPropLabel>个别圆角</OfxPropLabel>
+          <OfxParamPropHint>个别指定角圆角</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeInteger name="topLeftRadius">
+          <OfxPropLabel>左上角半径</OfxPropLabel>
+          <OfxParamPropHint>设置文本气泡左上角的角半径</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="topRightRadius">
+          <OfxPropLabel>右上角半径</OfxPropLabel>
+          <OfxParamPropHint>设置文本气泡右上角的角半径</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="bottomLeftRadius">
+          <OfxPropLabel>左下角半径</OfxPropLabel>
+          <OfxParamPropHint>设置文本气泡左下角的角半径</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="bottomRightRadius">
+          <OfxPropLabel>右下角半径</OfxPropLabel>
+          <OfxParamPropHint>设置文本气泡右下角的角半径</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeGroup name="tailSettings">
+          <OfxPropLabel>气泡尾部</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="enableTail">
+          <OfxPropLabel>启用尾部</OfxPropLabel>
+          <OfxParamPropHint>在消息框末尾启用绘制尾部</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="tailStyle">
+          <OfxPropLabel>尾部样式</OfxPropLabel>
+          <OfxParamPropHint>选择要使用的尾部样式</OfxParamPropHint>
+          <OfxParamPropChoiceOption>三角形</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>波浪</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>等边</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="tailSide">
+          <OfxPropLabel>尾部侧边</OfxPropLabel>
+          <OfxParamPropHint>选择尾部所在的侧边</OfxParamPropHint>
+          <OfxParamPropChoiceOption>左下</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>右下</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>右上</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>左上</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="tailYScale">
+          <OfxPropLabel>尾部Y缩放</OfxPropLabel>
+          <OfxParamPropHint>如果适用，在Y方向缩放尾部</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="tailXScale">
+          <OfxPropLabel>尾部X缩放</OfxPropLabel>
+          <OfxParamPropHint>如果适用，在X方向缩放尾部</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="tailPosition">
+          <OfxPropLabel>位置</OfxPropLabel>
+          <OfxParamPropHint>如果可能，更改尾部的位置</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="borderGroup">
+          <OfxPropLabel>气泡边框</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeInteger name="borderWidth">
+          <OfxPropLabel>边框宽度</OfxPropLabel>
+          <OfxParamPropHint>设置文本气泡的边框宽度</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeRGBA name="borderColor">
+          <OfxPropLabel>边框颜色</OfxPropLabel>
+          <OfxParamPropHint>气泡边框的填充颜色。</OfxParamPropHint>
+        </OfxParamTypeRGBA>
+        <OfxParamTypeDouble name="borderColorOpacity">
+          <OfxPropLabel>边框颜色不透明度</OfxPropLabel>
+          <OfxParamPropHint>调整渐变的边框颜色的透明度。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="enableBorderGradient">
+          <OfxPropLabel>启用渐变</OfxPropLabel>
+          <OfxParamPropHint>为边框启用渐变</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="borderGradientType">
+          <OfxPropLabel>渐变类型</OfxPropLabel>
+          <OfxParamPropHint>线性或径向渐变类型</OfxParamPropHint>
+          <OfxParamPropChoiceOption>线性</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>径向</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeRGBA name="borderStartColor">
+          <OfxPropLabel>起始颜色</OfxPropLabel>
+          <OfxParamPropHint>镜像气泡渐变设置，但使用自定义颜色（忽略边框颜色）</OfxParamPropHint>
+        </OfxParamTypeRGBA>
+        <OfxParamTypeDouble name="borderStartColorOpacity">
+          <OfxPropLabel>起始颜色不透明度</OfxPropLabel>
+          <OfxParamPropHint>调整渐变的边框起始颜色的透明度。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="borderStartXPosition">
+          <OfxPropLabel>起始X位置</OfxPropLabel>
+          <OfxParamPropHint>边框渐变的起始x位置，作为框的百分比</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="borderStartYPosition">
+          <OfxPropLabel>起始Y位置</OfxPropLabel>
+          <OfxParamPropHint>边框渐变的起始y位置，作为框的百分比</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGBA name="borderEndColor">
+          <OfxPropLabel>结束颜色</OfxPropLabel>
+          <OfxParamPropHint>镜像气泡渐变设置，但使用自定义颜色（忽略边框颜色）</OfxParamPropHint>
+        </OfxParamTypeRGBA>
+        <OfxParamTypeDouble name="borderEndColorOpacity">
+          <OfxPropLabel>结束颜色不透明度</OfxPropLabel>
+          <OfxParamPropHint>调整渐变的边框结束颜色的透明度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="borderEndXPosition">
+          <OfxPropLabel>结束X位置</OfxPropLabel>
+          <OfxParamPropHint>边框渐变的结束x位置，作为框的百分比</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="borderEndYPosition">
+          <OfxPropLabel>结束Y位置</OfxPropLabel>
+          <OfxParamPropHint>边框渐变的结束y位置，作为框的百分比</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="borderGradColorMidpoint">
+          <OfxPropLabel>颜色中点</OfxPropLabel>
+          <OfxParamPropHint>边框渐变的颜色中点</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="isolateBorder">
+          <OfxPropLabel>隔离边框</OfxPropLabel>
+          <OfxParamPropHint>隐藏气泡，仅显示边框轮廓</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypePushButton name="copyBubbleColors">
+          <OfxPropLabel>从气泡复制颜色</OfxPropLabel>
+          <OfxParamPropHint>从气泡复制颜色</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypeGroup name="gradSettings">
+          <OfxPropLabel>气泡渐变</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="enableGradient">
+          <OfxPropLabel>启用气泡渐变</OfxPropLabel>
+          <OfxParamPropHint>选中以启用渐变背景。启用时将忽略背景颜色字段。</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="gradientType">
+          <OfxPropLabel>渐变类型</OfxPropLabel>
+          <OfxParamPropHint>线性或径向渐变类型</OfxParamPropHint>
+          <OfxParamPropChoiceOption>线性</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>径向</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeRGBA name="gradStartColor">
+          <OfxPropLabel>起始颜色</OfxPropLabel>
+          <OfxParamPropHint>渐变的起始颜色。</OfxParamPropHint>
+        </OfxParamTypeRGBA>
+        <OfxParamTypeDouble name="gradStartColorOpacity">
+          <OfxPropLabel>起始颜色不透明度</OfxPropLabel>
+          <OfxParamPropHint>调整渐变的起始颜色的透明度。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="startXPosition">
+          <OfxPropLabel>起始X位置</OfxPropLabel>
+          <OfxParamPropHint>渐变的起始x位置，作为框的百分比</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="startYPosition">
+          <OfxPropLabel>起始Y位置</OfxPropLabel>
+          <OfxParamPropHint>渐变的起始y位置，作为框的百分比</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGBA name="grandEndColor">
+          <OfxPropLabel>结束颜色</OfxPropLabel>
+          <OfxParamPropHint>渐变的结束颜色。</OfxParamPropHint>
+        </OfxParamTypeRGBA>
+        <OfxParamTypeDouble name="grandEndColorOpacity">
+          <OfxPropLabel>结束颜色不透明度</OfxPropLabel>
+          <OfxParamPropHint>调整渐变的结束颜色的透明度。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="endXPosition">
+          <OfxPropLabel>结束X位置</OfxPropLabel>
+          <OfxParamPropHint>渐变的结束x位置，作为框的百分比</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="endYPosition">
+          <OfxPropLabel>结束Y位置</OfxPropLabel>
+          <OfxParamPropHint>渐变的结束y位置，作为框的百分比</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="gradColorMidpoint">
+          <OfxPropLabel>颜色中点</OfxPropLabel>
+          <OfxParamPropHint>渐变的颜色中点</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="revealGroup">
+          <OfxPropLabel>文本揭示</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="textReveal">
+          <OfxPropLabel>文本揭示</OfxPropLabel>
+          <OfxParamPropHint>控制字符、单词或行的揭示的键</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="revealType">
+          <OfxPropLabel>揭示类型</OfxPropLabel>
+          <OfxParamPropHint>选择按字符、单词或行控制揭示</OfxParamPropHint>
+          <OfxParamPropChoiceOption>字符</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>单词</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>行</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="revealTextOnly">
+          <OfxPropLabel>仅揭示文本</OfxPropLabel>
+          <OfxParamPropHint>在揭示文本时保持气泡大小扩展</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="enableHumanize">
+          <OfxPropLabel>启用文本人性化</OfxPropLabel>
+          <OfxParamPropHint>动画文本以模拟打字</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeInteger name="humanizeDuration">
+          <OfxPropLabel>持续时间</OfxPropLabel>
+          <OfxParamPropHint>用户打字的总持续时间，以帧为单位（默认为项目帧范围）</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="humanizeTypingSpeed">
+          <OfxPropLabel>打字速度</OfxPropLabel>
+          <OfxParamPropHint>打字速度改变用户通过单词打字的速度，与单词之间暂停的时间成反比</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="humanizeAccuracy">
+          <OfxPropLabel>打字准确度</OfxPropLabel>
+          <OfxParamPropHint>人类每个单词犯错误的概率，1表示完美打字者</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="randomSeed">
+          <OfxPropLabel>随机种子</OfxPropLabel>
+          <OfxParamPropHint>随机化生成各种文本的生成器的值</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeString name="mistakeCharset">
+          <OfxPropLabel>错误字符</OfxPropLabel>
+          <OfxParamPropHint>允许用户错误键入的字符</OfxParamPropHint>
+        </OfxParamTypeString>
+        <OfxParamTypeGroup name="textGradSettings">
+          <OfxPropLabel>文本渐变</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="enableTextGradient">
+          <OfxPropLabel>启用文本渐变</OfxPropLabel>
+          <OfxParamPropHint>选中以启用文本渐变背景。启用时将忽略文本颜色字段。</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="textGradientType">
+          <OfxPropLabel>渐变类型</OfxPropLabel>
+          <OfxParamPropHint>线性或径向渐变类型</OfxParamPropHint>
+          <OfxParamPropChoiceOption>线性</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>径向</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeRGBA name="textGradStartColor">
+          <OfxPropLabel>起始颜色</OfxPropLabel>
+          <OfxParamPropHint>渐变的起始颜色。</OfxParamPropHint>
+        </OfxParamTypeRGBA>
+        <OfxParamTypeDouble name="textGradStartColorOpacity">
+          <OfxPropLabel>起始颜色不透明度</OfxPropLabel>
+          <OfxParamPropHint>调整渐变的起始颜色的透明度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="textStartXPosition">
+          <OfxPropLabel>起始X位置</OfxPropLabel>
+          <OfxParamPropHint>渐变的起始x位置，作为框的百分比</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="textStartYPosition">
+          <OfxPropLabel>起始Y位置</OfxPropLabel>
+          <OfxParamPropHint>渐变的起始y位置，作为框的百分比</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGBA name="textGradEndColor">
+          <OfxPropLabel>结束颜色</OfxPropLabel>
+          <OfxParamPropHint>渐变的结束颜色。</OfxParamPropHint>
+        </OfxParamTypeRGBA>
+        <OfxParamTypeDouble name="textGradEndColorOpacity">
+          <OfxPropLabel>结束颜色不透明度</OfxPropLabel>
+          <OfxParamPropHint>调整渐变的结束颜色的透明度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="textEndXPosition">
+          <OfxPropLabel>结束X位置</OfxPropLabel>
+          <OfxParamPropHint>渐变的结束x位置，作为框的百分比</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="textEndYPosition">
+          <OfxPropLabel>结束Y位置</OfxPropLabel>
+          <OfxParamPropHint>渐变的结束y位置，作为框的百分比</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="textGradColorMidpoint">
+          <OfxPropLabel>颜色中点</OfxPropLabel>
+          <OfxParamPropHint>渐变的颜色中点</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="textStrokeGroup">
+          <OfxPropLabel>文本描边</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="enableTextStroke">
+          <OfxPropLabel>启用文本描边</OfxPropLabel>
+          <OfxParamPropHint>启用文本周围的描边</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="textStrokeWidth">
+          <OfxPropLabel>描边宽度</OfxPropLabel>
+          <OfxParamPropHint>文本周围描边宽度的大小</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGBA name="textStrokeColor">
+          <OfxPropLabel>描边颜色</OfxPropLabel>
+          <OfxParamPropHint>文本描边的颜色</OfxParamPropHint>
+        </OfxParamTypeRGBA>
+        <OfxParamTypeDouble name="textStrokeOpacity">
+          <OfxPropLabel>不透明度</OfxPropLabel>
+          <OfxParamPropHint>调整文本描边的透明度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="dropShadow">
+          <OfxPropLabel>文本投影阴影</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="enableDropShadow">
+          <OfxPropLabel>启用投影阴影</OfxPropLabel>
+          <OfxParamPropHint>为内部文本框启用投影阴影</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="dropShadowDirection">
+          <OfxPropLabel>方向</OfxPropLabel>
+          <OfxParamPropHint>投影阴影的方向，从0到360度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="dropShadowDistance">
+          <OfxPropLabel>距离</OfxPropLabel>
+          <OfxParamPropHint>距离</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="dropShadowSoftness">
+          <OfxPropLabel>柔和度</OfxPropLabel>
+          <OfxParamPropHint>投影阴影的模糊柔和度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGBA name="dropShadowColor">
+          <OfxPropLabel>颜色</OfxPropLabel>
+          <OfxParamPropHint>背景中阴影的颜色</OfxParamPropHint>
+        </OfxParamTypeRGBA>
+        <OfxParamTypeDouble name="dropShadowOpacity">
+          <OfxPropLabel>不透明度</OfxPropLabel>
+          <OfxParamPropHint>调整投影阴影的透明度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="textCursor">
+          <OfxPropLabel>文本光标</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="enableTextCursor">
+          <OfxPropLabel>启用文本光标</OfxPropLabel>
+          <OfxParamPropHint>在从最后一个插入字符的给定偏移处绘制文本光标</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeInteger name="cursorOffset">
+          <OfxPropLabel>字符偏移</OfxPropLabel>
+          <OfxParamPropHint>相对于文本末尾的字符偏移（0为最后一个字符，1为倒数第二个，等等）</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger2D name="cursorPositionOffset">
+          <OfxPropLabel>位置偏移</OfxPropLabel>
+          <OfxParamPropHint>光标位置的X和Y偏移</OfxParamPropHint>
+        </OfxParamTypeInteger2D>
+        <OfxParamTypeInteger name="cursorBlinkRate">
+          <OfxPropLabel>闪烁率</OfxPropLabel>
+          <OfxParamPropHint>基于帧的闪烁器开/关，闪烁率为5意味着光标将开启5帧然后关闭5帧</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeRGBA name="cursorColor">
+          <OfxPropLabel>颜色</OfxPropLabel>
+          <OfxParamPropHint>光标的颜色</OfxParamPropHint>
+        </OfxParamTypeRGBA>
+        <OfxParamTypeDouble name="cursorColorOpacity">
+          <OfxPropLabel>不透明度</OfxPropLabel>
+          <OfxParamPropHint>调整光标的透明度</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="cursorWidth">
+          <OfxPropLabel>宽度</OfxPropLabel>
+          <OfxParamPropHint>光标的宽度，以像素为单位</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="cursorHeight">
+          <OfxPropLabel>高度</OfxPropLabel>
+          <OfxParamPropHint>光标的高度，以像素为单位。高度为0将使光标高度匹配字符高度（自动高度）</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="cursorRoundness">
+          <OfxPropLabel>圆度</OfxPropLabel>
+          <OfxParamPropHint>控制光标的角圆角</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeGroup name="outputSettings">
+          <OfxPropLabel>输出设置</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="outputAsLinear">
+          <OfxPropLabel>表情符号/彩色字体作为线性</OfxPropLabel>
+          <OfxParamPropHint>表情符号和彩色字体的最终输出作为线性（对Nuke的有用）</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble3D name="brightnessRGB">
+          <OfxPropLabel>文本亮度RGB</OfxPropLabel>
+          <OfxParamPropHint>用于调整文本输出RGB的缩放</OfxParamPropHint>
+        </OfxParamTypeDouble3D>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>
