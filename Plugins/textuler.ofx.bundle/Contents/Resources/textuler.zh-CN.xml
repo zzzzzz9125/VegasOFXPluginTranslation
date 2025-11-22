@@ -3,8 +3,8 @@
   <OfxPlugin name="us.co.misc.Textuler">
     <OfxResourceSet ofxHost="default">
       <OfxPropLabel>Textuler</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>Draw</OfxImageEffectPluginPropGrouping>
-      <OfxPropPluginDescription>Text drawing node plugin</OfxPropPluginDescription>
+      <OfxImageEffectPluginPropGrouping>绘图</OfxImageEffectPluginPropGrouping>
+      <OfxPropPluginDescription>文本绘图节点插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeChoice name="presets">
           <OfxPropLabel>预设</OfxPropLabel>
