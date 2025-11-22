@@ -32670,7 +32670,7 @@
   </OfxPlugin>
   <OfxPlugin name="com.genarts.sapphire.Stylize.S_FilmBurn">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>S_FilmBurn</OfxPropLabel>
+      <OfxPropLabel>S_胶片燃烧</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>蓝宝石 风格化</OfxImageEffectPluginPropGrouping>
       <OfxImageEffectContext name="default">
         <OfxParamTypePushButton name="Load Preset">
