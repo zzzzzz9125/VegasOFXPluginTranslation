@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="wtf.vala:NtscRs">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>NTSC-rs</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Filter</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="load_preset">
+          <OfxPropLabel>プリセットをロード...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="save_preset">
+          <OfxPropLabel>プリセットを保存...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeInteger name="36">
+          <OfxPropLabel>ランダムシード</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeChoice name="30">
+          <OfxPropLabel>使用フィールド</OfxPropLabel>
+          <OfxParamPropHint>ソース画像のどの行（NTSC用語では「フィールド」）を使用するかを選択します。</OfxParamPropHint>
+          <OfxParamPropChoiceOption>交互</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>上のみ</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>下のみ</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>インターレース（上優先）</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>インターレース（下優先）</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>両方</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="46">
+          <OfxPropLabel>ローパスフィルタタイプ</OfxPropLabel>
+          <OfxParamPropHint>エフェクト全体で使用するローパスフィルタ。</OfxParamPropHint>
+          <OfxParamPropChoiceOption>定数K（ぼやけた）</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>バターワース（シャープ）</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="38">
+          <OfxPropLabel>入力輝度フィルタ</OfxPropLabel>
+          <OfxParamPropHint>入力輝度をフィルタリングして虹色のアーティファクトを減少させます。</OfxParamPropHint>
+          <OfxParamPropChoiceOption>ノッチ</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>ボックス</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>なし</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="0">
+          <OfxPropLabel>入力クロマローパス</OfxPropLabel>
+          <OfxParamPropHint>入力クロマ（色）信号にローパスフィルタを適用します。</OfxParamPropHint>
+          <OfxParamPropChoiceOption>フル</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>ライト</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>なし</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>コンポジット信号シャープニング</OfxPropLabel>
+          <OfxParamPropHint>NTSC信号の高周波をブーストし、画像をシャープにし、色を強調します。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="52_group">
+          <OfxPropLabel>コンポジット信号ノイズ</OfxPropLabel>
+          <OfxParamPropHint>コンポジットNTSC信号に適用されるノイズ。</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="52">
+          <OfxPropLabel>有効</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>強度</OfxPropLabel>
+          <OfxParamPropHint>ノイズの強度。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="53">
+          <OfxPropLabel>周波数</OfxPropLabel>
+          <OfxParamPropHint>ノイズの基本波長、ピクセル単位。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="54">
+          <OfxPropLabel>詳細</OfxPropLabel>
+          <OfxParamPropHint>ノイズのオクターブ。</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>スノー</OfxPropLabel>
+          <OfxParamPropHint>画像内のランダムな斑点の頻度。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="34">
+          <OfxPropLabel>スノー異方性</OfxPropLabel>
+          <OfxParamPropHint>斑点が本当にランダムに配置されるか、特定の行に集中するかを決定します。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="2">
+          <OfxPropLabel>スキャンライン位相シフト</OfxPropLabel>
+          <OfxParamPropHint>各スキャンラインのクロマ（色）信号の位相シフト。通常180度。</OfxParamPropHint>
+          <OfxParamPropChoiceOption>0度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>90度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>180度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>270度</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeInteger name="3">
+          <OfxPropLabel>スキャンライン位相シフトオフセット</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeChoice name="33">
+          <OfxPropLabel>クロマ復調フィルタ</OfxPropLabel>
+          <OfxParamPropHint>コンポジットNTSC信号からクロマ（色）データを変調するためのフィルタ。</OfxParamPropHint>
+          <OfxParamPropChoiceOption>ボックス</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>ノッチ</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1ラインコム</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>2ラインコム</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="45">
+          <OfxPropLabel>輝度スミア</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="11_group">
+          <OfxPropLabel>ヘッドスイッチング</OfxPropLabel>
+          <OfxParamPropHint>画像の下部でVHSヘッドスイッチングのアーティファクトをエミュレートします。</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="11">
+          <OfxPropLabel>有効</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeInteger name="12">
+          <OfxPropLabel>高さ</OfxPropLabel>
+          <OfxParamPropHint>ヘッドスイッチングアーティファクトの合計高さ。</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="13">
+          <OfxPropLabel>オフセット</OfxPropLabel>
+          <OfxParamPropHint>ヘッドスイッチングアーティファクトのどれだけが画面外か。</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="14">
+          <OfxPropLabel>水平シフト</OfxPropLabel>
+          <OfxParamPropHint>ヘッドスイッチングアーティファクトが行を水平にどれだけシフトするか。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="49_group">
+          <OfxPropLabel>ミッドライン開始</OfxPropLabel>
+          <OfxParamPropHint>ヘッドスイッチングアーティファクトをスキャンラインの途中で開始し、開始点に静電気が発生します。</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="49">
+          <OfxPropLabel>有効</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="50">
+          <OfxPropLabel>位置</OfxPropLabel>
+          <OfxParamPropHint>ヘッドスイッチングが開始する水平位置。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="51">
+          <OfxPropLabel>ジッター</OfxPropLabel>
+          <OfxParamPropHint>ヘッドスイッチングアーティファクトが水平にどれだけ「ジッター」するか。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="15_group">
+          <OfxPropLabel>トラッキングノイズ</OfxPropLabel>
+          <OfxParamPropHint>VHSトラッキングエラーからのノイズをエミュレートします。</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="15">
+          <OfxPropLabel>有効</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeInteger name="16">
+          <OfxPropLabel>高さ</OfxPropLabel>
+          <OfxParamPropHint>トラッキングアーティファクトの合計高さ。</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="17">
+          <OfxPropLabel>波強度</OfxPropLabel>
+          <OfxParamPropHint>影響を受けるスキャンラインがどれだけ前後に「波打つ」か。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="18">
+          <OfxPropLabel>スノー強度</OfxPropLabel>
+          <OfxParamPropHint>アーティファクト内の斑点型ノイズの頻度。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="35">
+          <OfxPropLabel>スノー異方性</OfxPropLabel>
+          <OfxParamPropHint>斑点がスキャンラインごとにどれだけクラスタリングされるか。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="31">
+          <OfxPropLabel>ノイズ強度</OfxPropLabel>
+          <OfxParamPropHint>非斑点ノイズの強度。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="19_group">
+          <OfxPropLabel>リンギング</OfxPropLabel>
+          <OfxParamPropHint>ノッチフィルタでシミュレートされた追加のリンギングアーティファクト。</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="19">
+          <OfxPropLabel>有効</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="20">
+          <OfxPropLabel>周波数</OfxPropLabel>
+          <OfxParamPropHint>リンギングの周波数/周期、「ピクセルあたりのリング」単位。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="21">
+          <OfxPropLabel>パワー</OfxPropLabel>
+          <OfxParamPropHint>ノッチフィルタのパワー / リンギングがどれだけ遠くまで広がるか。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="22">
+          <OfxPropLabel>スケール</OfxPropLabel>
+          <OfxParamPropHint>リンギングの強度。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="55_group">
+          <OfxPropLabel>輝度ノイズ</OfxPropLabel>
+          <OfxParamPropHint>輝度信号に適用されるノイズ。「コンポジットノイズ」設定よりも高い周波数のノイズに便利です。</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="55">
+          <OfxPropLabel>有効</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="57">
+          <OfxPropLabel>強度</OfxPropLabel>
+          <OfxParamPropHint>ノイズの強度。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="56">
+          <OfxPropLabel>周波数</OfxPropLabel>
+          <OfxParamPropHint>ノイズの基本波長、ピクセル単位。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="58">
+          <OfxPropLabel>詳細</OfxPropLabel>
+          <OfxParamPropHint>ノイズのオクターブ。</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeGroup name="42_group">
+          <OfxPropLabel>クロマノイズ</OfxPropLabel>
+          <OfxParamPropHint>クロマ（色）信号に適用されるノイズ。</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="42">
+          <OfxPropLabel>有効</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>強度</OfxPropLabel>
+          <OfxParamPropHint>ノイズの強度。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="43">
+          <OfxPropLabel>周波数</OfxPropLabel>
+          <OfxParamPropHint>ノイズの基本波長、ピクセル単位。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="44">
+          <OfxPropLabel>詳細</OfxPropLabel>
+          <OfxParamPropHint>ノイズのオクターブ。</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="37">
+          <OfxPropLabel>クロマ位相エラー</OfxPropLabel>
+          <OfxParamPropHint>クロマ（色）信号の位相エラー。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>クロマ位相ノイズ</OfxPropLabel>
+          <OfxParamPropHint>各スキャンラインに適用されるクロマ（色）信号の位相へのノイズ。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="8">
+          <OfxPropLabel>クロマ遅延（水平）</OfxPropLabel>
+          <OfxParamPropHint>クロマ（色）信号の水平オフセット。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="9">
+          <OfxPropLabel>クロマ遅延（垂直）</OfxPropLabel>
+          <OfxParamPropHint>クロマ（色）信号の垂直オフセット。通常VHS世代損失で増加します。</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeGroup name="23_group">
+          <OfxPropLabel>VHSエミュレーション</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="23">
+          <OfxPropLabel>有効</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="24">
+          <OfxPropLabel>テープ速度</OfxPropLabel>
+          <OfxParamPropHint>さまざまなVHS録画速度での高周波データの遮断をエミュレートします。</OfxParamPropHint>
+          <OfxParamPropChoiceOption>SP（スタンダードプレイ）</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>LP（ロングプレイ）</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>EP（エクステンデッドプレイ）</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>なし</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="26">
+          <OfxPropLabel>クロマ損失</OfxPropLabel>
+          <OfxParamPropHint>各スキャンラインでクロマ（色）信号が完全に失われる確率。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="47_group">
+          <OfxPropLabel>シャープン</OfxPropLabel>
+          <OfxParamPropHint>一部のVHSデッキで行われる画像のシャープニング。</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="47">
+          <OfxPropLabel>有効</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="27">
+          <OfxPropLabel>強度</OfxPropLabel>
+          <OfxParamPropHint>適用するシャープニングの量。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="48">
+          <OfxPropLabel>周波数</OfxPropLabel>
+          <OfxParamPropHint>シャープニングの周波数 / 半径、テープ速度のカットオフ周波数に対する相対値。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="39_group">
+          <OfxPropLabel>エッジウェーブ</OfxPropLabel>
+          <OfxParamPropHint>画像の水平波打ち。</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="39">
+          <OfxPropLabel>有効</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="28">
+          <OfxPropLabel>強度</OfxPropLabel>
+          <OfxParamPropHint>画像の水平波打ち、ピクセル単位。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="29">
+          <OfxPropLabel>速度</OfxPropLabel>
+          <OfxParamPropHint>水平波打ちが発生する速度。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="40">
+          <OfxPropLabel>周波数</OfxPropLabel>
+          <OfxParamPropHint>水平波打ちの基本波長。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="41">
+          <OfxPropLabel>詳細</OfxPropLabel>
+          <OfxParamPropHint>波のノイズのオクターブ。</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeBoolean name="25">
+          <OfxPropLabel>垂直にクロマをブレンド</OfxPropLabel>
+          <OfxParamPropHint>各スキャンラインのクロマをその上のスキャンラインと垂直にブレンドします。</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="10">
+          <OfxPropLabel>出力クロマローパス</OfxPropLabel>
+          <OfxParamPropHint>出力クロマ信号にローパスフィルタを適用します。</OfxParamPropHint>
+          <OfxParamPropChoiceOption>フル</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>ライト</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>なし</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="61_group">
+          <OfxPropLabel>スケール</OfxPropLabel>
+          <OfxParamPropHint>これらの係数でエフェクトをスケーリングします。</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="61">
+          <OfxPropLabel>有効</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="32">
+          <OfxPropLabel>水平スケール</OfxPropLabel>
+          <OfxParamPropHint>エフェクトをこの量で水平にスケーリングします。480pビデオの場合、最も物理的に正確な結果を得るためにこれを1.0にしておきます。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="59">
+          <OfxPropLabel>垂直スケール</OfxPropLabel>
+          <OfxParamPropHint>エフェクトをこの量で垂直にスケーリングします。おそらくこれを1.0にしておくべきです。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="60">
+          <OfxPropLabel>ビデオサイズでスケール</OfxPropLabel>
+          <OfxParamPropHint>スケーリング係数をビデオの高さで乗算します。代わりに入力ビデオを480pにスケーリングすることを優先し、より正確な結果が得られます。</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="SrgbGammaCorrect">
+          <OfxPropLabel>sRGBガンマを適用</OfxPropLabel>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>
