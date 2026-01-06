@@ -2873,8 +2873,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Brick">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 砖块</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 纹理</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 砖块 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -5569,8 +5569,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Cloth">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 布</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 纹理</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 布 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -5689,8 +5689,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Clouds">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 云</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 纹理</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 云 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -8708,8 +8708,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Comet">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 彗星</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 粒子</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 彗星 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -11222,8 +11222,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3DVE">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC DVE三维变换</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 透视</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC DVE三维变换 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -11897,8 +11897,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3DVE_Basic">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC DVE三维变换基础</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 透视</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC DVE三维变换基础 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -12645,8 +12645,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Directional_Blur">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 方向模糊</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 模糊</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 方向模糊 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -15691,8 +15691,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Film_Damage">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 胶片损坏</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 电影胶片风格</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 胶片损坏 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -16226,8 +16226,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Film_Grain">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 胶片颗粒</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 电影胶片风格</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 胶片颗粒 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -17842,8 +17842,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Fractal_Noise">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 分形噪波</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 纹理</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 分形噪波 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -18029,8 +18029,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Gaussian_Blur">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 高斯模糊</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 模糊</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 高斯模糊 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -18758,8 +18758,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Glare">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 炫光</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 灯光</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 炫光 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -19465,8 +19465,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Glint">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC Glint闪光</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 灯光</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC Glint闪光 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -20155,8 +20155,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Glitter">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC Glitter闪光</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 灯光</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC Glitter闪光 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -22649,8 +22649,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Granite">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 花岗岩</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 纹理</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 花岗岩 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -28276,8 +28276,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Light_Wrap">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 背景光包裹</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 键控与合成</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 背景光包裹 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -28918,8 +28918,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Linear_Color_Key">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 线性色键</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 键控与合成</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 线性色键 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -29049,8 +29049,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Linear_Luma_Key">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 线性亮度建</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 键控与合成</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 线性亮度建 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -29173,8 +29173,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Linear_Wipe">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 线性擦除</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 转场</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 线性擦除 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -32131,8 +32131,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3MotionKey">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 运动键(物体移除)</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 图像修复</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 运动键(物体移除) 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -32288,8 +32288,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Motion_Blur">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 运动模糊</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 模糊</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 运动模糊 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -34371,8 +34371,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Optical_Flow">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 光流法补帧</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 时间</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 光流法补帧 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -34553,8 +34553,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Particle_System">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 粒子系统</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 粒子</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 粒子系统 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -36807,8 +36807,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Pyramid_Blur">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 金字塔模糊</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 模糊</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 金字塔模糊 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -38474,8 +38474,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Radial_Blur">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 径向模糊</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 模糊</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 径向模糊 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -39183,8 +39183,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Radial_Wipe">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 径向擦除</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 转场</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 径向擦除 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -40330,8 +40330,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Rays_Cartoon">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 卡通边缘光线</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 灯光</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 卡通边缘光线 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -43121,8 +43121,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Rays_Radiant_Spotlight">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 聚光灯射线</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 灯光</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 聚光灯射线 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -44086,8 +44086,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Rays_Ring">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 环状射线</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 灯光</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 环状射线 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -45042,8 +45042,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Rays_Ripply">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 波纹射线</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 灯光</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 波纹射线 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -46017,8 +46017,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Rays_Streaky">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 条纹射线</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 灯光</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 条纹射线 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -46947,8 +46947,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Rays_Textured">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 纹理射线</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 灯光</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 纹理射线 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -47920,8 +47920,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Rays_Wedge">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 楔形射线</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 灯光</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 楔形射线 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -48871,8 +48871,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Rectangular_Wipe">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 矩形擦除</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 转场</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 矩形擦除 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -49536,8 +49536,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Reptilian">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 鳞状/斑点皮肤</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 纹理</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 鳞状/斑点皮肤 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -51067,8 +51067,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Rock">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 岩石</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 纹理</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 岩石 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -51707,7 +51707,7 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Safe_Colors">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 安全颜色</OfxPropLabel>
+      <OfxPropLabel>BCC 安全颜色 旧</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
@@ -52911,8 +52911,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Sparks">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 火花</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 粒子</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 火花 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -54356,8 +54356,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Spiral_Blur">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 螺旋模糊</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 模糊</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 螺旋模糊 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -57182,8 +57182,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Stars">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 星星</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 纹理</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 星星 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -57295,8 +57295,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Steel_Plate">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 钢板</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 纹理</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 钢板 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -57996,8 +57996,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Textured_Wipe">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 纹理擦除</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 转场</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 纹理擦除 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -61104,8 +61104,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Two_Way_Key">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 双向键控</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 键控与合成</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 双向键控 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -62806,8 +62806,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Veined_Marble">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 大理石</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 纹理</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 大理石 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -62980,8 +62980,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Velocity_Remap">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 速度重映射</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 时间</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 速度重映射 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -63858,8 +63858,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Weave">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 编织布</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 纹理</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 编织布 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -64409,8 +64409,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Wood_Grain">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 木材纹理</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 纹理</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 木材纹理 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -64574,8 +64574,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC3Wooden_Planks">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 木板</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 纹理</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 木板 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -66031,8 +66031,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC4LED">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC LED</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 风格化</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC LED 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -66709,8 +66709,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC4Prism">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 棱镜色散/色差/RGB分离</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 风格化</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 棱镜色散/色差/RGB分离 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -70035,8 +70035,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC6DV_Fixer">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC DV修复(锯齿修复)</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 图像修复</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC DV修复(锯齿修复) 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -71398,8 +71398,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC6Noise_Reduction">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 降噪</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 图像修复</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 降噪 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -72970,8 +72970,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC6Swish_Pan">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 快速平移镜头</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 转场</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 快速平移镜头 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -74258,8 +74258,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCCFlutter">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 颤振闪屏</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 转场</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 颤振闪屏 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -74402,8 +74402,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCCLightLeakDslv">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 漏光/光晕淡化</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 转场</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 漏光/光晕淡化 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -74943,8 +74943,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCCVignette">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 暗角/晕影</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 电影胶片风格</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 暗角/晕影 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -75042,8 +75042,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCCVignette_Wipe">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 暗角/晕影擦除</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 转场</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 暗角/晕影擦除 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -76068,8 +76068,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC_Beauty_Studio">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 磨皮美容工作室</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 图像修复</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 磨皮美容工作室 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -76748,8 +76748,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC_Blur_Dissolve">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 模糊淡化</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 转场</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 模糊淡化 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -79613,8 +79613,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC_Crash_Zoom_Dissolve">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 快速拉镜淡化</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 转场</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 快速拉镜淡化 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -79787,8 +79787,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC_Cross_Glitch">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 交叉故障</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 转场</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 交叉故障 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -80291,8 +80291,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC_Cross_Zoom">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 交叉拉镜</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 转场</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 交叉拉镜 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -81890,8 +81890,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC_Fast_Film_Glow_Dissolve">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 快速胶片发光淡化</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 转场</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 快速胶片发光淡化 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -82129,8 +82129,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC_Fast_Film_Process">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 快速胶片处理</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 电影胶片风格</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 快速胶片处理 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -83117,8 +83117,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC_Film_Glow_Fast">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 快速胶片发光</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 电影胶片风格</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 快速胶片发光 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -88514,8 +88514,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC_Light_Leaks">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 漏光/光晕</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 灯光</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 漏光/光晕 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -89572,8 +89572,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC_Magic_Sharp">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 神奇锐化</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 图像修复</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 神奇锐化 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -97594,8 +97594,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC_Prism_Dissolve">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 棱镜色散/色差/RGB分离淡化</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 转场</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 棱镜色散/色差/RGB分离淡化 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -97761,8 +97761,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC_RGB_Blur_Dissolve">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC RGB模糊淡化</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 转场</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC RGB模糊淡化 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -98130,8 +98130,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC_Rays_Dissolve">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 光线擦除</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 转场</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 光线擦除 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -100304,8 +100304,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC_Spill_Remover">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 溢出移除器</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 键控与合成</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 溢出移除器 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -100627,8 +100627,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC_Spin_Blur_Dissolve">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 自旋模糊淡化</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 转场</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 自旋模糊淡化 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -101155,8 +101155,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC_Two_Strip_Color">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC Two-Strip颜色</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 电影胶片风格</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC Two-Strip颜色 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -101625,8 +101625,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC_UpRez">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 提升分辨率</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 图像修复</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 提升分辨率 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -102534,8 +102534,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:BCC_Video_Glitch">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 视频故障</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 风格化</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 视频故障 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -103335,8 +103335,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:Boris3Pixelate">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 马赛克</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 风格化</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 马赛克 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
@@ -103715,8 +103715,8 @@
   </OfxPlugin>
 <OfxPlugin name="com.borisfx:Boris3WitnessProtection">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC 证人保护(马赛克)</OfxPropLabel>
-      <OfxImageEffectPluginPropGrouping>BCC 匹配运动</OfxImageEffectPluginPropGrouping>
+      <OfxPropLabel>BCC 证人保护(马赛克) 旧</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>BCC 旧式</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>Digital Artists效果插件</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeDouble name="ParamID.904">
