@@ -27316,6 +27316,9 @@
           <OfxParamPropChoiceOption>Stencil Alpha</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>Silhouette Alpha</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="preserveAlpha">
+          <OfxPropLabel>Preserve Alpha</OfxPropLabel>
+        </OfxParamTypeBoolean>
         <OfxParamTypeBoolean name="sltBlur">
           <OfxPropLabel>Use SLT Blur</OfxPropLabel>
         </OfxParamTypeBoolean>
@@ -79751,6 +79754,11 @@
         <OfxParamTypePushButton name="primatte.fxeLaunch">
           <OfxPropLabel>Refine Key</OfxPropLabel>
         </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="primatte.sampleShape">
+          <OfxPropLabel>Sampling Shape</OfxPropLabel>
+          <OfxParamPropChoiceOption>Point</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rectangle</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeChoice name="primatte.sampleMode">
           <OfxPropLabel>Sampling Mode</OfxPropLabel>
           <OfxParamPropChoiceOption>Manual Sample BG</OfxParamPropChoiceOption>

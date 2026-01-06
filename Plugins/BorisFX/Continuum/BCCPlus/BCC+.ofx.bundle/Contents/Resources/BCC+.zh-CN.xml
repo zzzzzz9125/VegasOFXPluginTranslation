@@ -27316,6 +27316,9 @@
           <OfxParamPropChoiceOption>模板Alpha</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>轮廓Alpha</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="preserveAlpha">
+          <OfxPropLabel>保留Alpha</OfxPropLabel>
+        </OfxParamTypeBoolean>
         <OfxParamTypeBoolean name="sltBlur">
           <OfxPropLabel>使用SLT模糊</OfxPropLabel>
         </OfxParamTypeBoolean>
@@ -79751,6 +79754,11 @@
         <OfxParamTypePushButton name="primatte.fxeLaunch">
           <OfxPropLabel>完善键</OfxPropLabel>
         </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="primatte.sampleShape">
+          <OfxPropLabel>采样形状</OfxPropLabel>
+          <OfxParamPropChoiceOption>点</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>矩形</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
         <OfxParamTypeChoice name="primatte.sampleMode">
           <OfxPropLabel>采样模式</OfxPropLabel>
           <OfxParamPropChoiceOption>手动采样背景</OfxParamPropChoiceOption>
