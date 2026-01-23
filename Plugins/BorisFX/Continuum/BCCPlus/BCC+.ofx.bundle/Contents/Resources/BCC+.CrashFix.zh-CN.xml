@@ -243,7 +243,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -939,7 +939,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -2104,7 +2104,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -3215,7 +3215,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -3965,7 +3965,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -4667,7 +4667,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -5267,7 +5267,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -5999,7 +5999,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -6581,7 +6581,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -7301,7 +7301,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -8021,7 +8021,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -8771,7 +8771,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -9648,7 +9648,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -10203,7 +10203,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -10908,7 +10908,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -11665,7 +11665,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -12175,7 +12175,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -12727,7 +12727,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -13297,7 +13297,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -13876,7 +13876,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -14973,7 +14973,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -15501,7 +15501,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -16078,7 +16078,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -16585,7 +16585,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -17089,7 +17089,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -17654,7 +17654,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -18233,7 +18233,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -18797,7 +18797,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -19348,7 +19348,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -19891,7 +19891,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -20741,7 +20741,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -21519,7 +21519,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -22089,7 +22089,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -22686,7 +22686,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -27036,7 +27036,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -27780,7 +27780,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -28721,7 +28721,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -29283,7 +29283,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -29811,7 +29811,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -30435,7 +30435,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -31242,7 +31242,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -31994,7 +31994,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -32753,7 +32753,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -33299,7 +33299,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -33944,7 +33944,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -34670,7 +34670,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -35442,7 +35442,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -36045,7 +36045,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -36600,7 +36600,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -37177,7 +37177,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -37912,7 +37912,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -38458,7 +38458,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -39175,7 +39175,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -39773,7 +39773,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -40493,7 +40493,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -41007,7 +41007,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -41520,7 +41520,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -42057,7 +42057,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -42648,7 +42648,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -43387,7 +43387,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -43945,7 +43945,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -44464,7 +44464,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -44795,13 +44795,13 @@
           <OfxPropLabel>虚化阴影</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeGroup name="group.zmap">
-          <OfxPropLabel>模糊贴图</OfxPropLabel>
+          <OfxPropLabel>模糊映射</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeChoice name="zmap.type">
-          <OfxPropLabel>贴图类型</OfxPropLabel>
+          <OfxPropLabel>映射类型</OfxPropLabel>
         </OfxParamTypeChoice>
         <OfxParamTypeGroup name="group.zmap.group.zmap.depthML">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeChoice name="zmap.depthML.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
@@ -45867,7 +45867,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -46447,7 +46447,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -47326,7 +47326,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -48128,7 +48128,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -49205,7 +49205,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -49733,7 +49733,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -50312,7 +50312,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -51029,7 +51029,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -51793,7 +51793,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -52324,7 +52324,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -52918,7 +52918,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -53440,7 +53440,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -54023,7 +54023,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -54295,7 +54295,7 @@
   </OfxPlugin>
   <OfxPlugin name="com.borisfx.bcc_dft.ofx.mlDepthEstimation">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC+深度贴图 ML</OfxPropLabel>
+      <OfxPropLabel>BCC+深度映射 ML</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>BCC 键控与合成</OfxImageEffectPluginPropGrouping>
       <OfxImageEffectContext name="default">
         <OfxParamTypePushButton name=".help">
@@ -54536,7 +54536,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -55035,7 +55035,7 @@
           <OfxPropLabel>中点</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeGroup name="group.depthML">
-          <OfxPropLabel>深度贴图</OfxPropLabel>
+          <OfxPropLabel>深度映射</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeChoice name="depthML.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
@@ -55465,7 +55465,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -56047,7 +56047,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -56674,7 +56674,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -57524,7 +57524,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -58061,7 +58061,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -58766,7 +58766,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -59309,7 +59309,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -59855,7 +59855,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -60417,7 +60417,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -60994,7 +60994,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -61548,7 +61548,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -62395,7 +62395,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -63091,7 +63091,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -63655,7 +63655,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group.pcfo.group.pcfo.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="pcfo.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -64141,7 +64141,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -64693,7 +64693,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -65749,7 +65749,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -66550,7 +66550,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -67102,7 +67102,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -67846,7 +67846,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -68401,7 +68401,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -69169,7 +69169,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -70141,7 +70141,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -70843,7 +70843,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -71671,7 +71671,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -72310,7 +72310,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -72856,7 +72856,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -73411,7 +73411,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -73945,7 +73945,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -74519,7 +74519,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -75074,7 +75074,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -75872,7 +75872,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -76812,7 +76812,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -77343,7 +77343,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -77874,7 +77874,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -78194,7 +78194,7 @@
   </OfxPlugin>
   <OfxPlugin name="com.borisfx.bcc_dft.ofx.stMap">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC+ST贴图</OfxPropLabel>
+      <OfxPropLabel>BCC+ST坐标贴图</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>BCC 变形</OfxImageEffectPluginPropGrouping>
       <OfxImageEffectContext name="default">
         <OfxParamTypePushButton name=".help">
@@ -78210,13 +78210,13 @@
           <OfxPropLabel>视图</OfxPropLabel>
         </OfxParamTypeChoice>
         <OfxParamTypeBoolean name="useExternalMap">
-          <OfxPropLabel>使用外部 ST 贴图</OfxPropLabel>
+          <OfxPropLabel>使用外部 ST 坐标贴图</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypePushButton name="imagePath.choose">
           <OfxPropLabel>选择图像...</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeString name="imagePath">
-          <OfxPropLabel>选择 ST 贴图</OfxPropLabel>
+          <OfxPropLabel>选择 ST 坐标贴图</OfxPropLabel>
         </OfxParamTypeString>
         <OfxParamTypePushButton name="watchFolder.watch">
           <OfxPropLabel>监视文件夹...</OfxPropLabel>
@@ -78515,7 +78515,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -79235,7 +79235,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -79814,7 +79814,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -82095,7 +82095,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -82791,7 +82791,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -83371,7 +83371,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -83951,7 +83951,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -84506,7 +84506,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -85846,7 +85846,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
@@ -86429,7 +86429,7 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>

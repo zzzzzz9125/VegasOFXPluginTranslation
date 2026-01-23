@@ -303,16 +303,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -1374,16 +1374,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -2872,16 +2872,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -4151,16 +4151,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -5019,16 +5019,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -5914,16 +5914,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -6631,16 +6631,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -7566,16 +7566,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -8239,16 +8239,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -9163,16 +9163,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -10087,16 +10087,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -11030,16 +11030,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -12110,16 +12110,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -12762,16 +12762,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -13654,16 +13654,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -14559,16 +14559,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -15158,16 +15158,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -15807,16 +15807,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -16468,16 +16468,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -17144,16 +17144,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -18454,16 +18454,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -19071,16 +19071,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -19737,16 +19737,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -20333,16 +20333,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -20926,16 +20926,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -21580,16 +21580,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -22255,16 +22255,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -22919,16 +22919,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -23559,16 +23559,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -24203,16 +24203,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -25275,16 +25275,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -26244,16 +26244,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -26922,16 +26922,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -27638,16 +27638,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -32657,16 +32657,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -33595,16 +33595,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -34909,16 +34909,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -35563,16 +35563,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -36186,16 +36186,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -37097,16 +37097,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -38139,16 +38139,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -39180,16 +39180,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -40136,16 +40136,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -40966,16 +40966,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -41728,16 +41728,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -42645,16 +42645,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -43611,16 +43611,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -44307,16 +44307,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -44959,16 +44959,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -45627,16 +45627,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -46553,16 +46553,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -47188,16 +47188,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -48016,16 +48016,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -48707,16 +48707,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -49627,16 +49627,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -50230,16 +50230,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -50832,16 +50832,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -51466,16 +51466,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -52163,16 +52163,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -53102,16 +53102,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -53757,16 +53757,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -54367,16 +54367,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -54687,9 +54687,9 @@
           <OfxPropLabel>视图</OfxPropLabel>
           <OfxParamPropChoiceOption>输出</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>光圈</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>贴图层原图</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>Z贴图</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>焦点贴图</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>映射层原图</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Z映射</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>焦点映射</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>遮罩散焦像素</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>噪点</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>噪点光圈</OfxParamPropChoiceOption>
@@ -54746,22 +54746,22 @@
           <OfxPropLabel>虚化阴影</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeGroup name="group.zmap">
-          <OfxPropLabel>模糊贴图</OfxPropLabel>
+          <OfxPropLabel>模糊映射</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeChoice name="zmap.type">
-          <OfxPropLabel>贴图类型</OfxPropLabel>
+          <OfxPropLabel>映射类型</OfxPropLabel>
           <OfxParamPropChoiceOption>无</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>Z层</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeGroup name="group.zmap.group.zmap.depthML">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeChoice name="zmap.depthML.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="zmap.depthML.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -56156,16 +56156,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -56854,16 +56854,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -58159,16 +58159,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -59170,16 +59170,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -60486,16 +60486,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -61136,16 +61136,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -61827,16 +61827,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -62673,16 +62673,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -63817,16 +63817,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -64440,16 +64440,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -65127,16 +65127,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -65768,16 +65768,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -66444,16 +66444,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -66751,7 +66751,7 @@
   </OfxPlugin>
   <OfxPlugin name="com.borisfx.bcc_dft.ofx.mlDepthEstimation">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC+深度贴图 ML</OfxPropLabel>
+      <OfxPropLabel>BCC+深度映射 ML</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>BCC 键控与合成</OfxImageEffectPluginPropGrouping>
       <OfxImageEffectContext name="default">
         <OfxParamTypePushButton name=".help">
@@ -67052,16 +67052,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -67370,19 +67370,19 @@
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name=".view">
           <OfxPropLabel>视图</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>源</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="outputMode">
           <OfxPropLabel>输出模式</OfxPropLabel>
           <OfxParamPropChoiceOption>黑白蒙版</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>热量贴图</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>热量映射</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>Alpha通道</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>相乘/正片叠底Alpha</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>屏幕/滤色Alpha</OfxParamPropChoiceOption>
@@ -67610,13 +67610,13 @@
           <OfxPropLabel>中点</OfxPropLabel>
         </OfxParamTypeDouble>
         <OfxParamTypeGroup name="group.depthML">
-          <OfxPropLabel>深度贴图</OfxPropLabel>
+          <OfxPropLabel>深度映射</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeChoice name="depthML.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="depthML.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -68116,16 +68116,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -68800,16 +68800,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -69525,16 +69525,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -70632,16 +70632,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -71283,16 +71283,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -72182,16 +72182,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -72819,16 +72819,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -73462,16 +73462,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -74113,16 +74113,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -74789,16 +74789,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -75443,16 +75443,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -76504,16 +76504,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -77387,16 +77387,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -78048,16 +78048,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group.pcfo.group.pcfo.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="pcfo.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="pcfo.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="pcfo.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -78619,16 +78619,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -79274,16 +79274,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -79725,9 +79725,9 @@
           <OfxParamPropChoiceOption>黑底上的光线包裹边缘</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>仅边缘颜色</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>黑底上的边缘颜色</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>溢出贴图颜色+Alpha</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>溢出贴图Alpha</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>溢出贴图灰度</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>溢出映射颜色+Alpha</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>溢出映射Alpha</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>溢出映射灰度</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>仅光线包裹溢出</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>黑底上的光线包裹溢出</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
@@ -80617,16 +80617,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -81647,16 +81647,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -82293,16 +82293,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -83256,16 +83256,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -83902,16 +83902,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -84782,16 +84782,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -85971,16 +85971,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -86862,16 +86862,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -88110,16 +88110,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -88893,16 +88893,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -89532,16 +89532,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -90184,16 +90184,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -90810,16 +90810,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -91485,16 +91485,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -92137,16 +92137,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -93158,16 +93158,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -94355,16 +94355,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -94980,16 +94980,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -95602,16 +95602,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -95955,7 +95955,7 @@
   </OfxPlugin>
   <OfxPlugin name="com.borisfx.bcc_dft.ofx.stMap">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>BCC+ST贴图</OfxPropLabel>
+      <OfxPropLabel>BCC+ST映射</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>BCC 变形</OfxImageEffectPluginPropGrouping>
       <OfxImageEffectContext name="default">
         <OfxParamTypePushButton name=".help">
@@ -95970,16 +95970,16 @@
         <OfxParamTypeChoice name=".view">
           <OfxPropLabel>视图</OfxPropLabel>
           <OfxParamPropChoiceOption>输出</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>ST 贴图</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>ST 坐标贴图</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeBoolean name="useExternalMap">
-          <OfxPropLabel>使用外部 ST 贴图</OfxPropLabel>
+          <OfxPropLabel>使用外部 ST 坐标贴图</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypePushButton name="imagePath.choose">
           <OfxPropLabel>选择图像...</OfxPropLabel>
         </OfxParamTypePushButton>
         <OfxParamTypeString name="imagePath">
-          <OfxPropLabel>选择 ST 贴图</OfxPropLabel>
+          <OfxPropLabel>选择 ST 坐标贴图</OfxPropLabel>
         </OfxParamTypeString>
         <OfxParamTypePushButton name="watchFolder.watch">
           <OfxPropLabel>监视文件夹...</OfxPropLabel>
@@ -96348,16 +96348,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -97259,16 +97259,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -98152,16 +98152,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -100888,16 +100888,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -101705,16 +101705,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -102378,16 +102378,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -103051,16 +103051,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -103712,16 +103712,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -105404,16 +105404,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
@@ -106105,16 +106105,16 @@
           <OfxPropLabel>反转蒙版</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeGroup name="group._mocha.group._pc.group._pc.depth">
-          <OfxPropLabel>深度贴图 ML</OfxPropLabel>
+          <OfxPropLabel>深度映射 ML</OfxPropLabel>
         </OfxParamTypeGroup>
         <OfxParamTypeBoolean name="_pc.depth.enable">
           <OfxPropLabel>启用</OfxPropLabel>
         </OfxParamTypeBoolean>
         <OfxParamTypeChoice name="_pc.depth.modelNum">
           <OfxPropLabel>模型</OfxPropLabel>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更快)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (更好)</OfxParamPropChoiceOption>
-          <OfxParamPropChoiceOption>深度贴图 ML v1.0 (最佳)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更快)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (更好)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>深度映射 ML v1.0 (最佳)</OfxParamPropChoiceOption>
         </OfxParamTypeChoice>
         <OfxParamTypeChoice name="_pc.depth.mappingMode">
           <OfxPropLabel>映射模式</OfxPropLabel>
