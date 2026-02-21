@@ -2,7 +2,7 @@
 <OfxImageEffectResource>
   <OfxPlugin name="com.redgiantsoftware.Universe_Generators_Fractal_Background_OFX">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>uni.uni.分形背景</OfxPropLabel>
+      <OfxPropLabel>uni.分形背景</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Universe 生成器</OfxImageEffectPluginPropGrouping>
       <OfxImageEffectContext name="default">
         <OfxParamTypePushButton name="PARAM_ID_LICENSING">
