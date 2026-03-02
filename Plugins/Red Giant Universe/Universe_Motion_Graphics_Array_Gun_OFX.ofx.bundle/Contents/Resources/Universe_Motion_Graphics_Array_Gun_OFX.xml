@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Motion_Graphics_Array_Gun_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Array Gun</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Motion Graphics</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1001">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1002">
+          <OfxPropLabel>Save a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble2D name="0">
+          <OfxPropLabel>Position</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>Width</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>Height</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="3">
+          <OfxPropLabel>Columns</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="4">
+          <OfxPropLabel>Rows</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeGroup name="5">
+          <OfxPropLabel>Line Grid</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="6">
+          <OfxPropLabel>Draw Grid</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="7">
+          <OfxPropLabel>Grid Style</OfxPropLabel>
+          <OfxParamPropChoiceOption>Grid</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Lines</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="8">
+          <OfxPropLabel>Grid Stroke Style</OfxPropLabel>
+          <OfxParamPropChoiceOption>Square</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Round</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeRGB name="9">
+          <OfxPropLabel>Grid Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="10">
+          <OfxPropLabel>Grid Stroke Width</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="11">
+          <OfxPropLabel>Draw Grid Subdivisions</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeInteger name="12">
+          <OfxPropLabel>Grid Subdivide X</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="13">
+          <OfxPropLabel>Grid Subdivide Y</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeRGB name="14">
+          <OfxPropLabel>Grid Sub Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="15">
+          <OfxPropLabel>Grid Sub Stroke Width</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="16">
+          <OfxPropLabel>Grid Position</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="17">
+          <OfxPropLabel>Grid Scale X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="18">
+          <OfxPropLabel>Grid Scale Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="19">
+          <OfxPropLabel>Grid Angle</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="20">
+          <OfxPropLabel>Grid Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="21">
+          <OfxPropLabel>Shape Grid</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="22">
+          <OfxPropLabel>Draw Shape Grid</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeRGB name="23">
+          <OfxPropLabel>Color A</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="24">
+          <OfxPropLabel>Color B</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeChoice name="25">
+          <OfxPropLabel>Color Scheme</OfxPropLabel>
+          <OfxParamPropChoiceOption>Color A</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color A/B</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Random A to B</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Horizontal A to B</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Vertical A to B</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Monotone</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Analagous</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Triadic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Complementary</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Split Complementary</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Individual Colors</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="26">
+          <OfxPropLabel>Stroke Uses Color Scheme</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="27">
+          <OfxPropLabel>Color Scheme Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="28">
+          <OfxPropLabel>Hue Offset</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="29">
+          <OfxPropLabel>Lightness 1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="30">
+          <OfxPropLabel>Lightness 2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="31">
+          <OfxPropLabel>Shape Position</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="32">
+          <OfxPropLabel>Shape Scale</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="33">
+          <OfxPropLabel>Shape Rotate</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="34">
+          <OfxPropLabel>Shape Position Random</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="35">
+          <OfxPropLabel>Shape Scale Random</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="36">
+          <OfxPropLabel>Shape Rotation Random</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="37">
+          <OfxPropLabel>Stagger</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="38">
+          <OfxPropLabel>Shape Count</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="39">
+          <OfxPropLabel>Shape 1</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="40">
+          <OfxPropLabel>Shape 1</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rectangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ellipse</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Triangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pentagon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hexagon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Plus</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Half Circle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Sprite Library</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypePushButton name="1910">
+          <OfxPropLabel>Choose a Shape S1...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeGroup name="41">
+          <OfxPropLabel>Shape 1 Custom Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="42">
+          <OfxPropLabel>Custom Sprite 1</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Abstract X1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Abstract X2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Abstract X3</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Abstract X4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Arrow 8 Bit</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Basic Arrow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Blob</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Capsule</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Chevron Basic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Chevron Outline</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Chevron Stroke</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Circle Doodads</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Circle Target</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Connector</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Dash X</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Double Doodads</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Double Edge</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Double Triangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>HalfFill</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hex Cornerfill</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hex Corners 1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hex Corners 2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Locator 1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Locator 2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Open Arrow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Open Closed Tri</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Plus Inverted</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pointer Narrow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pointer</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Quarter</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>QuarterFill</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>QuintPattern</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Round Sqr Stroke</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded Arrow Box</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded Arrow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded Square FIll</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Slashes</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square 01</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square 02</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square 03</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square 04</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square 05</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square 06</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Target 1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Target 2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Target 8 Bit</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Triple Chevron Thin</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Triple Chevron</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Triple Doodads</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Wide Chevron</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>X Blip</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Zig Zag 1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Zig Zag 2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Skull</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Plant 1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Plant 2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Triangle Skew</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="43">
+          <OfxPropLabel>Custom Layer 1 Colorize</OfxPropLabel>
+          <OfxParamPropChoiceOption>Original</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Colorize</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Fill</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="44">
+          <OfxPropLabel>Shape Size 1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="45">
+          <OfxPropLabel>Shape Rotate 1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="46">
+          <OfxPropLabel>Shape Aspect 1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="47">
+          <OfxPropLabel>Shape Size Random 1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="48">
+          <OfxPropLabel>Shape Rotate Random 1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="49">
+          <OfxPropLabel>Shape Fill 1</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeRGB name="50">
+          <OfxPropLabel>Shape Fill Color 1</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="51">
+          <OfxPropLabel>Shape Opacity 1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="52">
+          <OfxPropLabel>Shape Opacity Random 1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="53">
+          <OfxPropLabel>Shape Stroke 1</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeRGB name="54">
+          <OfxPropLabel>Shape Stroke Color 1</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="55">
+          <OfxPropLabel>Shape Stroke Width 1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="56">
+          <OfxPropLabel>Shape 2</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="57">
+          <OfxPropLabel>Shape 2</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rectangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ellipse</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Triangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pentagon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hexagon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Plus</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Half Circle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Sprite Library</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypePushButton name="1911">
+          <OfxPropLabel>Choose a Shape S2...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeGroup name="58">
+          <OfxPropLabel>Shape 2 Custom Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="59">
+          <OfxPropLabel>Custom Sprite 2</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Abstract X1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Abstract X2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Abstract X3</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Abstract X4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Arrow 8 Bit</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Basic Arrow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Blob</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Capsule</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Chevron Basic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Chevron Outline</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Chevron Stroke</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Circle Doodads</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Circle Target</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Connector</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Dash X</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Double Doodads</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Double Edge</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Double Triangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>HalfFill</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hex Cornerfill</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hex Corners 1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hex Corners 2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Locator 1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Locator 2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Open Arrow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Open Closed Tri</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Plus Inverted</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pointer Narrow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pointer</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Quarter</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>QuarterFill</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>QuintPattern</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Round Sqr Stroke</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded Arrow Box</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded Arrow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded Square FIll</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Slashes</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square 01</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square 02</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square 03</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square 04</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square 05</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square 06</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Target 1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Target 2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Target 8 Bit</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Triple Chevron Thin</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Triple Chevron</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Triple Doodads</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Wide Chevron</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>X Blip</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Zig Zag 1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Zig Zag 2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Skull</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Plant 1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Plant 2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Triangle Skew</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="60">
+          <OfxPropLabel>Custom Layer 2 Colorize</OfxPropLabel>
+          <OfxParamPropChoiceOption>Original</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Colorize</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Fill</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="61">
+          <OfxPropLabel>Shape Size 2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="62">
+          <OfxPropLabel>Shape Rotate 2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="63">
+          <OfxPropLabel>Shape Aspect 2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="64">
+          <OfxPropLabel>Shape Size Random 2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="65">
+          <OfxPropLabel>Shape Rotate Random 2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="66">
+          <OfxPropLabel>Shape Fill 2</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeRGB name="67">
+          <OfxPropLabel>Shape Fill Color 2</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="68">
+          <OfxPropLabel>Shape Opacity 2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="69">
+          <OfxPropLabel>Shape Opacity Random 2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="70">
+          <OfxPropLabel>Shape Stroke 2</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeRGB name="71">
+          <OfxPropLabel>Shape Stroke Color 2</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="72">
+          <OfxPropLabel>Shape Stroke Width 2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="73">
+          <OfxPropLabel>Shape 3</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="74">
+          <OfxPropLabel>Shape 3</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rectangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ellipse</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Triangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pentagon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hexagon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Plus</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Half Circle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Sprite Library</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypePushButton name="1912">
+          <OfxPropLabel>Choose a Shape S3...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeGroup name="75">
+          <OfxPropLabel>Shape 3 Custom Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="76">
+          <OfxPropLabel>Custom Sprite 3</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Abstract X1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Abstract X2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Abstract X3</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Abstract X4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Arrow 8 Bit</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Basic Arrow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Blob</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Capsule</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Chevron Basic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Chevron Outline</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Chevron Stroke</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Circle Doodads</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Circle Target</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Connector</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Dash X</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Double Doodads</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Double Edge</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Double Triangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>HalfFill</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hex Cornerfill</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hex Corners 1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hex Corners 2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Locator 1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Locator 2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Open Arrow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Open Closed Tri</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Plus Inverted</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pointer Narrow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pointer</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Quarter</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>QuarterFill</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>QuintPattern</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Round Sqr Stroke</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded Arrow Box</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded Arrow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded Square FIll</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Slashes</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square 01</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square 02</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square 03</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square 04</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square 05</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square 06</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Target 1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Target 2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Target 8 Bit</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Triple Chevron Thin</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Triple Chevron</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Triple Doodads</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Wide Chevron</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>X Blip</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Zig Zag 1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Zig Zag 2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Skull</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Plant 1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Plant 2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Triangle Skew</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="77">
+          <OfxPropLabel>Custom Layer 3 Colorize</OfxPropLabel>
+          <OfxParamPropChoiceOption>Original</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Colorize</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Fill</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="78">
+          <OfxPropLabel>Shape Size 3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="79">
+          <OfxPropLabel>Shape Rotate 3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="80">
+          <OfxPropLabel>Shape Aspect 3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="81">
+          <OfxPropLabel>Shape Size Random 3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="82">
+          <OfxPropLabel>Shape Rotate Random 3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="83">
+          <OfxPropLabel>Shape Fill 3</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeRGB name="84">
+          <OfxPropLabel>Shape Fill Color 3</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="85">
+          <OfxPropLabel>Shape Opacity 3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="86">
+          <OfxPropLabel>Shape Opacity Random 3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="87">
+          <OfxPropLabel>Shape Stroke 3</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeRGB name="88">
+          <OfxPropLabel>Shape Stroke Color 3</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="89">
+          <OfxPropLabel>Shape Stroke Width 3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="90">
+          <OfxPropLabel>Shape 4</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="91">
+          <OfxPropLabel>Shape 4</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rectangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ellipse</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Triangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pentagon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hexagon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Plus</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Half Circle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Sprite Library</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypePushButton name="1913">
+          <OfxPropLabel>Choose a Shape S4...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeGroup name="92">
+          <OfxPropLabel>Shape 4 Custom Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="93">
+          <OfxPropLabel>Custom Sprite 4</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Abstract X1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Abstract X2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Abstract X3</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Abstract X4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Arrow 8 Bit</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Basic Arrow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Blob</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Capsule</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Chevron Basic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Chevron Outline</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Chevron Stroke</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Circle Doodads</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Circle Target</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Connector</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Dash X</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Double Doodads</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Double Edge</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Double Triangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>HalfFill</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hex Cornerfill</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hex Corners 1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hex Corners 2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Locator 1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Locator 2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Open Arrow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Open Closed Tri</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Plus Inverted</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pointer Narrow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pointer</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Quarter</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>QuarterFill</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>QuintPattern</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Round Sqr Stroke</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded Arrow Box</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded Arrow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded Square FIll</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Slashes</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square 01</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square 02</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square 03</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square 04</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square 05</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square 06</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Target 1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Target 2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Target 8 Bit</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Triple Chevron Thin</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Triple Chevron</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Triple Doodads</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Wide Chevron</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>X Blip</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Zig Zag 1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Zig Zag 2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Skull</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Plant 1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Plant 2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Triangle Skew</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="94">
+          <OfxPropLabel>Custom Layer 4 Colorize</OfxPropLabel>
+          <OfxParamPropChoiceOption>Original</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Colorize</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Fill</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="95">
+          <OfxPropLabel>Shape Size 4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="96">
+          <OfxPropLabel>Shape Rotate 4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="97">
+          <OfxPropLabel>Shape Aspect 4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="98">
+          <OfxPropLabel>Shape Size Random 4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="99">
+          <OfxPropLabel>Shape Rotate Random 4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="100">
+          <OfxPropLabel>Shape Fill 4</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeRGB name="101">
+          <OfxPropLabel>Shape Fill Color 4</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="102">
+          <OfxPropLabel>Shape Opacity 4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="103">
+          <OfxPropLabel>Shape Opacity Random 4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="104">
+          <OfxPropLabel>Shape Stroke 4</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeRGB name="105">
+          <OfxPropLabel>Shape Stroke Color 4</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="106">
+          <OfxPropLabel>Shape Stroke Width 4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="107">
+          <OfxPropLabel>Effector Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble2D name="108">
+          <OfxPropLabel>Effector Center</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="109">
+          <OfxPropLabel>Effector Width</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="110">
+          <OfxPropLabel>Effector Height</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="111">
+          <OfxPropLabel>Effector Min Value</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="112">
+          <OfxPropLabel>Effector Max Value</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="113">
+          <OfxPropLabel>Effect Size</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="114">
+          <OfxPropLabel>Effect Size Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="115">
+          <OfxPropLabel>Effect Rotation</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="116">
+          <OfxPropLabel>Effect Rotation Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="117">
+          <OfxPropLabel>Effect Position X</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="118">
+          <OfxPropLabel>Effect Position X Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="119">
+          <OfxPropLabel>Effect Position Y</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="120">
+          <OfxPropLabel>Effect Position Y Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="121">
+          <OfxPropLabel>Effect Opacity</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="122">
+          <OfxPropLabel>Effect Opacity Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="123">
+          <OfxPropLabel>Animation Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="124">
+          <OfxPropLabel>Animation Behavior</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Randomize</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Oscillate</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Wiggle</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="125">
+          <OfxPropLabel>Animation Grouping</OfxPropLabel>
+          <OfxParamPropChoiceOption>Unison</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Random</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Horizontal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Vertical</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="126">
+          <OfxPropLabel>Animation Speed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="127">
+          <OfxPropLabel>Animation Amplitude</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="128">
+          <OfxPropLabel>Animate Size</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="129">
+          <OfxPropLabel>Animate Size Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="130">
+          <OfxPropLabel>Animate Rotation</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="131">
+          <OfxPropLabel>Animate Rotation Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="132">
+          <OfxPropLabel>Animate Position X</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="133">
+          <OfxPropLabel>Animate Position X Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="134">
+          <OfxPropLabel>Animate Position Y</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="135">
+          <OfxPropLabel>Animate Position Y Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="136">
+          <OfxPropLabel>Animate Opacity</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="137">
+          <OfxPropLabel>Animate Opacity Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="138">
+          <OfxPropLabel>Cell Grid</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="139">
+          <OfxPropLabel>Draw Cell Grid</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="140">
+          <OfxPropLabel>Cell Shape 1</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rectangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ellipse</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Triangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pentagon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hexagon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Plus</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Half Circle</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="141">
+          <OfxPropLabel>Cell Count</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="142">
+          <OfxPropLabel>Cell Offset</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeBoolean name="143">
+          <OfxPropLabel>Match Grid Size</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="144">
+          <OfxPropLabel>Cell Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="145">
+          <OfxPropLabel>Cell Aspect</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="146">
+          <OfxPropLabel>Cell Rotation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="147">
+          <OfxPropLabel>Use Shape Colors</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeRGB name="148">
+          <OfxPropLabel>Cell Fill Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="149">
+          <OfxPropLabel>Cell Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="150">
+          <OfxPropLabel>Cell Opacity Random</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="151">
+          <OfxPropLabel>Cell Scale Random</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="152">
+          <OfxPropLabel>Single Shape</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="153">
+          <OfxPropLabel>Draw Single Shape</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="154">
+          <OfxPropLabel>Single Shape Type</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rectangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ellipse</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Triangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pentagon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hexagon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Plus</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Half Circle</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble2D name="155">
+          <OfxPropLabel>Single Shape Position</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="156">
+          <OfxPropLabel>Single Shape Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="157">
+          <OfxPropLabel>Single Shape Rotate</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="158">
+          <OfxPropLabel>Single Shape Aspect</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="159">
+          <OfxPropLabel>Single Shape Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="160">
+          <OfxPropLabel>Single Shape Fill</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeRGB name="161">
+          <OfxPropLabel>Single Shape Fill Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeBoolean name="162">
+          <OfxPropLabel>Single Shape Stroke</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeRGB name="163">
+          <OfxPropLabel>Single Shape Stroke Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="164">
+          <OfxPropLabel>Single Shape Stroke Width</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="165">
+          <OfxPropLabel>Matte Shape Grid</OfxPropLabel>
+          <OfxParamPropChoiceOption>Below Shape Grid</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Matte Shape Grid</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Single Shape on Top</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Below Line Grid</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeRGB name="166">
+          <OfxPropLabel>Background Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="167">
+          <OfxPropLabel>Background Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="168">
+          <OfxPropLabel>Blend Mode</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Darken</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Multiply</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Burn</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Add</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Lighten</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Dodge</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Overlay</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Soft Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hard Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Difference</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Exclusion</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Subtract</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Saturation</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Luminosity</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cutout</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Behind</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="169">
+          <OfxPropLabel>Blend with Original</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="170">
+          <OfxPropLabel>Random Seed</OfxPropLabel>
+        </OfxParamTypeInteger>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

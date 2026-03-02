@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Motion_Graphics_Line_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Line</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Motion Graphics</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble2D name="0">
+          <OfxPropLabel>Point 1</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeChoice name="1">
+          <OfxPropLabel>Point 1 Shape</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Circle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Basic Triangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Basic Triangle Round</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Basic Triangle Stroke</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Open + Closed Triangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Double Triangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Basic Arrow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Open Arrow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Target 1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Target 2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Circle Target</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Circle Outline</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Locator 1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Locator 2</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="1024">
+          <OfxPropLabel>Point 1 Attributes</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="2">
+          <OfxPropLabel>Point 1 Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>Point 1 Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1022">
+          <OfxPropLabel>Point 1 Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="1025">
+          <OfxPropLabel>Orient Point 1 to Motion</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="1026">
+          <OfxPropLabel>Point 1 Rotation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1034">
+          <OfxPropLabel>Point 1 Offset X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1035">
+          <OfxPropLabel>Point 1 Offset Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="1043">
+          <OfxPropLabel>Point 1 Text Label</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypePushButton name="1044">
+          <OfxPropLabel>Edit Text...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="1045">
+          <OfxPropLabel>Point 1 Text Justification</OfxPropLabel>
+          <OfxParamPropChoiceOption>Left</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Center</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Right</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeString name="1046">
+          <OfxPropLabel>Point 1 Text</OfxPropLabel>
+        </OfxParamTypeString>
+        <OfxParamTypeString name="1047">
+          <OfxPropLabel>Point 1 Font</OfxPropLabel>
+        </OfxParamTypeString>
+        <OfxParamTypeString name="1048">
+          <OfxPropLabel>Point 1 Font Style</OfxPropLabel>
+        </OfxParamTypeString>
+        <OfxParamTypeString name="1049">
+          <OfxPropLabel>Point 1 Font Weight</OfxPropLabel>
+        </OfxParamTypeString>
+        <OfxParamTypeDouble name="1050">
+          <OfxPropLabel>Point 1 Font Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="1051">
+          <OfxPropLabel>Point 1 Font Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="1052">
+          <OfxPropLabel>Point 1 Font Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1053">
+          <OfxPropLabel>Point 1 Tracking</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1054">
+          <OfxPropLabel>Point 1 Text Offset X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1055">
+          <OfxPropLabel>Point 1 Text Offset Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="4">
+          <OfxPropLabel>Point 2</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeChoice name="5">
+          <OfxPropLabel>Point 2 Shape</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Circle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Basic Triangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Basic Triangle Round</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Basic Triangle Stroke</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Open + Closed Triangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Double Triangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Basic Arrow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Open Arrow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Target 1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Target 2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Circle Target</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Circle Outline</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Locator 1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Locator 2</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="1028">
+          <OfxPropLabel>Point 2 Attributes</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="6">
+          <OfxPropLabel>Point 2 Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>Point 2 Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1023">
+          <OfxPropLabel>Point 2 Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="1029">
+          <OfxPropLabel>Orient Point 2 to Motion</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="1030">
+          <OfxPropLabel>Point 2 Rotation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1032">
+          <OfxPropLabel>Point 2 Offset X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1033">
+          <OfxPropLabel>Point 2 Offset Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="1057">
+          <OfxPropLabel>Point 2 Text Label</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypePushButton name="1058">
+          <OfxPropLabel>Edit Text...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="1059">
+          <OfxPropLabel>Point 2 Text Justification</OfxPropLabel>
+          <OfxParamPropChoiceOption>Left</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Center</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Right</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeString name="1060">
+          <OfxPropLabel>Point 2 Text</OfxPropLabel>
+        </OfxParamTypeString>
+        <OfxParamTypeString name="1061">
+          <OfxPropLabel>Point 2 Font</OfxPropLabel>
+        </OfxParamTypeString>
+        <OfxParamTypeString name="1062">
+          <OfxPropLabel>Point 2 Font Style</OfxPropLabel>
+        </OfxParamTypeString>
+        <OfxParamTypeString name="1063">
+          <OfxPropLabel>Point 2 Font Weight</OfxPropLabel>
+        </OfxParamTypeString>
+        <OfxParamTypeDouble name="1064">
+          <OfxPropLabel>Point 2 Font Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="1065">
+          <OfxPropLabel>Point 2 Font Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="1066">
+          <OfxPropLabel>Point 2 Font Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1067">
+          <OfxPropLabel>Point 2 Tracking</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1068">
+          <OfxPropLabel>Point 2 Text Offset X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1069">
+          <OfxPropLabel>Point 2 Text Offset Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1020">
+          <OfxPropLabel>Draw On</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="8">
+          <OfxPropLabel>Bezier</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="9">
+          <OfxPropLabel>Bezier Style</OfxPropLabel>
+          <OfxParamPropChoiceOption>Linear</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>3-Point Bezier</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>4-Point Bezier</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Auto Curve</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="10">
+          <OfxPropLabel>Auto Tweak</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="11">
+          <OfxPropLabel>Control Point 1</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="12">
+          <OfxPropLabel>Control Point 2</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="13">
+          <OfxPropLabel>Quadratic Control Point</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeGroup name="14">
+          <OfxPropLabel>Primary Line</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="15">
+          <OfxPropLabel>Primary Line Style</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Solid</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Dashed</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="16">
+          <OfxPropLabel>Primary Shape</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Circle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Basic Triangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Basic Triangle Round</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Basic Triangle Stroke</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Open + Closed Triangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Double Triangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Basic Arrow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Open Arrow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Target 1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Target 2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Circle Target</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Circle Outline</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Locator 1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Locator 2</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="17">
+          <OfxPropLabel>Primary Line Style Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="18">
+          <OfxPropLabel>Primary Line Start Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="19">
+          <OfxPropLabel>Primary Line Start Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="20">
+          <OfxPropLabel>Primary Line End Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="21">
+          <OfxPropLabel>Primary Line End Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="22">
+          <OfxPropLabel>Primary Line Width</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="23">
+          <OfxPropLabel>Primary Dash Length</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="24">
+          <OfxPropLabel>Primary Dash Space</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="25">
+          <OfxPropLabel>Primary Shape Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="26">
+          <OfxPropLabel>Primary Shape Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="27">
+          <OfxPropLabel>Primary Shape Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="28">
+          <OfxPropLabel>Primary Shape Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="29">
+          <OfxPropLabel>Primary Animation</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="30">
+          <OfxPropLabel>Orient to Motion Primary</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="31">
+          <OfxPropLabel>Primary Line Auto Animate</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="32">
+          <OfxPropLabel>Primary Reverse Line Direction</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="33">
+          <OfxPropLabel>Primary Line Animation Style</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Draw On</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Blink</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Draw On and Blink</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="34">
+          <OfxPropLabel>Use Clip/Comp Duration Primary</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="35">
+          <OfxPropLabel>Primary Animation Duration (sec)</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="36">
+          <OfxPropLabel>Primary Blink On Frames</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="37">
+          <OfxPropLabel>Primary Blink Off Frames</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeGroup name="38">
+          <OfxPropLabel>Secondary Line</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="39">
+          <OfxPropLabel>Secondary Line Style</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Solid</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Dashed</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="40">
+          <OfxPropLabel>Secondary Shape</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Circle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Basic Triangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Basic Triangle Round</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Basic Triangle Stroke</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Open + Closed Triangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Double Triangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Basic Arrow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Open Arrow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Target 1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Target 2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Circle Target</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Circle Outline</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Locator 1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Locator 2</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="41">
+          <OfxPropLabel>Secondary Line Style Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="42">
+          <OfxPropLabel>Secondary Line Start Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="43">
+          <OfxPropLabel>Secondary Line Start Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="44">
+          <OfxPropLabel>Secondary Line End Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="45">
+          <OfxPropLabel>Secondary Line End Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="46">
+          <OfxPropLabel>Secondary Line Width</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="47">
+          <OfxPropLabel>Secondary Dash Length</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="48">
+          <OfxPropLabel>Secondary Dash Space</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="49">
+          <OfxPropLabel>Secondary Shape Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="50">
+          <OfxPropLabel>Secondary Shape Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="51">
+          <OfxPropLabel>Secondary Shape Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="52">
+          <OfxPropLabel>Secondary Shape Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="1021">
+          <OfxPropLabel>Use Primary Animation Settings</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="53">
+          <OfxPropLabel>Secondary Animation</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="54">
+          <OfxPropLabel>Orient to Motion Secondary</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="55">
+          <OfxPropLabel>Secondary Line Auto Animate</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="56">
+          <OfxPropLabel>Secondary Reverse Line Direction</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="57">
+          <OfxPropLabel>Secondary Draw On Percent</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="58">
+          <OfxPropLabel>Secondary Line Animation Style</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Draw On</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Blink</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Draw On and Blink</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="59">
+          <OfxPropLabel>Use Clip/Comp Duration Secondary</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="60">
+          <OfxPropLabel>Secondary Animation Duration (sec)</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="61">
+          <OfxPropLabel>Secondary Blink On Frames</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="62">
+          <OfxPropLabel>Secondary Blink Off Frames</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="63">
+          <OfxPropLabel>Line Offset X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="64">
+          <OfxPropLabel>Line Offset Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="65">
+          <OfxPropLabel>Draw Under Primary</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble2D name="66">
+          <OfxPropLabel>Master Position</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeGroup name="67">
+          <OfxPropLabel>Motion Blur</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="68">
+          <OfxPropLabel>Motion Blur</OfxPropLabel>
+          <OfxParamPropChoiceOption>Off</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Low</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Medium</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>High</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="69">
+          <OfxPropLabel>Motion Blur Shutter</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="70">
+          <OfxPropLabel>Motion Blur Phase</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="71">
+          <OfxPropLabel>Quality</OfxPropLabel>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>High</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="72">
+          <OfxPropLabel>Blending Mode</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Darken</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Multiply</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Burn</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Add</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Lighten</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Dodge</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Overlay</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Soft Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hard Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Difference</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Exclusion</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Subtract</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Saturation</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Luminosity</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cutout</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Behind</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

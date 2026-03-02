@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Transitions_RetroGrade_Transition_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.RetroGrade Transition</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Transitions</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble name="Transition">
+          <OfxPropLabel>Transition</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeGroup name="2">
+          <OfxPropLabel>Animation</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="3">
+          <OfxPropLabel>Direction</OfxPropLabel>
+          <OfxParamPropChoiceOption>Downward</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Upward</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeInteger name="4">
+          <OfxPropLabel>Slide Distance</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeChoice name="5">
+          <OfxPropLabel>Animation Curve</OfxPropLabel>
+          <OfxParamPropChoiceOption>Linear Tween</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Quad</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease Out Quad</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Out Quad</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Cubic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease Out Cubic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Out Cubic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Quartic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease Out Quartic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Out Quartic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Quintic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease Out Quintic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Out Quintic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Sine</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease Out Sine</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Out Sine</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Exponential</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease Out Exponential</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption> Ease In Out Exponential</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Circle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease Out Circle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Out Circle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Step</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>Dolly</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="7">
+          <OfxPropLabel>Enable Color Treatment</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="8">
+          <OfxPropLabel>Color Treatment</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="9">
+          <OfxPropLabel>Film Fading</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="10">
+          <OfxPropLabel>Color Process</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>Saturation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>Exposure</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="13">
+          <OfxPropLabel>Blur</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="14">
+          <OfxPropLabel>Flicker</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="15">
+          <OfxPropLabel>Frame Style</OfxPropLabel>
+          <OfxParamPropChoiceOption>8mm</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>8mm Soundtrack</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>16mm</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>16mm Soundtrack</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Projection Frame</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="16">
+          <OfxPropLabel>Frame Size</OfxPropLabel>
+          <OfxParamPropChoiceOption>16:9</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="17">
+          <OfxPropLabel>Crop to Frame Size</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="18">
+          <OfxPropLabel>Vignette</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="19">
+          <OfxPropLabel>Light Leak</OfxPropLabel>
+          <OfxParamPropChoiceOption>Crash</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Crash Bokeh</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Crash Glow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Crash Triangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Wipe Beam</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Wipe Glow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Wipe Shutter</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Wipe Sparkle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Wipe Vertical</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeInteger name="20">
+          <OfxPropLabel>Light Leak Intensity</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="21">
+          <OfxPropLabel>Film Grain</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="22">
+          <OfxPropLabel>Motion Blur</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="23">
+          <OfxPropLabel>Background</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="24">
+          <OfxPropLabel>Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeInteger name="25">
+          <OfxPropLabel>Opacity </OfxPropLabel>
+        </OfxParamTypeInteger>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

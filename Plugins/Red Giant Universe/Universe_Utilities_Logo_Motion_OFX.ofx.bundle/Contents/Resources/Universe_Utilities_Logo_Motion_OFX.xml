@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Utilities_Logo_Motion_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Logo Motion</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Motion Graphics</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="1">
+          <OfxPropLabel>Idle Animation Preset</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Springy</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Springy Fast</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Wobble X/Y</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pivot Y</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pivot Z</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hover</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>User Defined</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="2">
+          <OfxPropLabel>Use Clip Length</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>Transition Duration</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>Idle Duration</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>Idle Animation Speed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="6">
+          <OfxPropLabel>Start Properties</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble2D name="7">
+          <OfxPropLabel>Position Start</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="8">
+          <OfxPropLabel>Scale Start</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="9">
+          <OfxPropLabel>Rotate X Start</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="10">
+          <OfxPropLabel>Rotate Y Start</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>Rotate Z Start</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>Opacity Start</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="13">
+          <OfxPropLabel>Blur Start</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="14">
+          <OfxPropLabel>Idle Properties</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble2D name="15">
+          <OfxPropLabel>Position Idle</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="16">
+          <OfxPropLabel>Scale Idle</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="17">
+          <OfxPropLabel>Rotate X Idle</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="18">
+          <OfxPropLabel>Rotate Y Idle</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="19">
+          <OfxPropLabel>Rotate Z Idle</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="20">
+          <OfxPropLabel>Anchor Offset</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeGroup name="21">
+          <OfxPropLabel>Idle Animation</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="22">
+          <OfxPropLabel>Idle Preroll Adjust</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="23">
+          <OfxPropLabel>Spring Amplitude</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="24">
+          <OfxPropLabel>Spring Frequency</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="25">
+          <OfxPropLabel>Spring Decay</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="26">
+          <OfxPropLabel>Wiggle Amplitude X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="27">
+          <OfxPropLabel>Wiggle Amplitude Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="28">
+          <OfxPropLabel>Wiggle Frequency</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="29">
+          <OfxPropLabel>Pivot Amplitude X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="30">
+          <OfxPropLabel>Pivot Amplitude Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="31">
+          <OfxPropLabel>Pivot Amplitude Z</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="32">
+          <OfxPropLabel>Pivot Frequency</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="33">
+          <OfxPropLabel>Hover Amplitude</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="34">
+          <OfxPropLabel>Hover Frequency</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="35">
+          <OfxPropLabel>End Properties</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble2D name="36">
+          <OfxPropLabel>Position End</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="37">
+          <OfxPropLabel>Scale End</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="38">
+          <OfxPropLabel>Rotate X End</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="39">
+          <OfxPropLabel>Rotate Y End</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="40">
+          <OfxPropLabel>Rotate Z End</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="41">
+          <OfxPropLabel>Opacity End</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="42">
+          <OfxPropLabel>Blur End</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="43">
+          <OfxPropLabel>Position Offset</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="44">
+          <OfxPropLabel>Scale</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="45">
+          <OfxPropLabel>Anchor X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="46">
+          <OfxPropLabel>Anchor Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="47">
+          <OfxPropLabel>Motion Blur</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="48">
+          <OfxPropLabel>Motion Blur</OfxPropLabel>
+          <OfxParamPropChoiceOption>Off</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Low</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Medium</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>High</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="49">
+          <OfxPropLabel>Motion Blur Shutter</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="50">
+          <OfxPropLabel>Motion Blur Phase</OfxPropLabel>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

@@ -1,0 +1,1158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="net.sf.openfx.MzCard3D">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>Mz_Card3DOFX</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>MisczOFX</OfxImageEffectPluginPropGrouping>
+      <OfxPropPluginDescription>Card3D.
+This effect applies a transform that corresponds to projection the source image onto a 3D card in space. The 3D card is positioned with relative to the Axis position</OfxPropPluginDescription>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeGroup name="axis">
+          <OfxPropLabel>Axis</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeGroup name="axisFile">
+          <OfxPropLabel>File</OfxPropLabel>
+          <OfxParamPropHint>Import/export data</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="axisImportFormat">
+          <OfxPropLabel>Import Format</OfxPropLabel>
+          <OfxParamPropHint>The format of the file to import.
+
+chan: Chan format, each line is FRAME TX TY TZ RX RY RZ VFOV. Can be created using Natron, Nuke, 3D-Equalizer, Maya and other 3D tracking software. Be careful that the rotation order must be exactly the same when exporting and importing the chan file.
+Boujou: Boujou text export. In Boujou, after finishing the track and solving, go to Export &gt; Export Camera Solve (Or press F12) &gt; choose where to save the data and give it a name, click he drop down Export Type and make sure it will save as a .txt, then click Save. Each camera line is R(0,0) R(0,1) R(0,2) R(1,0) R(1,1) R(1,2) R(2,0) R(2,1) R(2,2) Tx Ty Tz F(mm).</OfxParamPropHint>
+          <OfxParamPropChoiceOption>chan</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Boujou</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeString name="axisImportFile">
+          <OfxPropLabel>Import</OfxPropLabel>
+          <OfxParamPropHint>Import a chan file created using 3D tracking software, or a txt file created using Boujou.</OfxParamPropHint>
+        </OfxParamTypeString>
+        <OfxParamTypePushButton name="axisImportFileReload">
+          <OfxPropLabel>Reload</OfxPropLabel>
+          <OfxParamPropHint>Reload the file.</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypeString name="axisExportChan">
+          <OfxPropLabel>Export</OfxPropLabel>
+          <OfxParamPropHint>Export a .chan file which can be used in Natron, Nuke or 3D tracking software, such as 3D-Equalizer, Maya, or Boujou. Be careful that the rotation order must be exactly the same when exporting and importing the chan file.</OfxParamPropHint>
+        </OfxParamTypeString>
+        <OfxParamTypePushButton name="axisExportChanRewrite">
+          <OfxPropLabel>Rewrite</OfxPropLabel>
+          <OfxParamPropHint>Rewrite the .chan file.</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="axisXformOrder">
+          <OfxPropLabel>Transform Order</OfxPropLabel>
+          <OfxParamPropHint>Order in which scale (S), rotation (R) and translation (T) are applied.
+
+SRT: Scale, Rotation, Translation.
+STR: Scale, Translation, Rotation.
+RST: Rotation, Scale, Translation.
+RTS: Rotation, Translation, Scale.
+TSR: Translation, Scale, Rotation.
+TRS: Translation, Rotation, Scale.</OfxParamPropHint>
+          <OfxParamPropChoiceOption>SRT</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>STR</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>RST</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>RTS</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>TSR</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>TRS</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="axisRotOrder">
+          <OfxPropLabel>Rotation Order</OfxPropLabel>
+          <OfxParamPropHint>Order in which Euler angles are applied in the rotation.
+
+XYZ: Rotation over X axis, then Y and Z.
+XZY: Rotation over X axis, then Z and Y.
+YXZ: Rotation over Y axis, then X and Z.
+YZX: Rotation over Y axis, then Z and X.
+ZXY: Rotation over Z axis, then X and Y.
+ZYX: Rotation over Z axis, then Y and X.</OfxParamPropHint>
+          <OfxParamPropChoiceOption>XYZ</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>XZY</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>YXZ</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>YZX</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>ZXY</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>ZYX</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble3D name="axisTranslate">
+          <OfxPropLabel>Translate</OfxPropLabel>
+          <OfxParamPropHint>Translation component.</OfxParamPropHint>
+        </OfxParamTypeDouble3D>
+        <OfxParamTypeDouble3D name="axisRotate">
+          <OfxPropLabel>Rotate</OfxPropLabel>
+          <OfxParamPropHint>Euler angles (in degrees).</OfxParamPropHint>
+        </OfxParamTypeDouble3D>
+        <OfxParamTypeDouble3D name="axisScaling">
+          <OfxPropLabel>Scale</OfxPropLabel>
+          <OfxParamPropHint>Scale factor over each axis.</OfxParamPropHint>
+        </OfxParamTypeDouble3D>
+        <OfxParamTypeDouble name="axisUniformScale">
+          <OfxPropLabel>Uniform Scale</OfxPropLabel>
+          <OfxParamPropHint>Scale factor over all axis. It is multiplied by the scale factor over each axis.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble3D name="axisSkew">
+          <OfxPropLabel>Skew</OfxPropLabel>
+          <OfxParamPropHint>Skew over each axis, in degrees.</OfxParamPropHint>
+        </OfxParamTypeDouble3D>
+        <OfxParamTypeDouble3D name="axisPivot">
+          <OfxPropLabel>Pivot</OfxPropLabel>
+          <OfxParamPropHint>The position of the origin for position, scaling, skewing, and rotation.</OfxParamPropHint>
+        </OfxParamTypeDouble3D>
+        <OfxParamTypeGroup name="axisLocalMatrix">
+          <OfxPropLabel>Local Matrix</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="axisUseMatrix">
+          <OfxPropLabel>Specify Matrix</OfxPropLabel>
+          <OfxParamPropHint>Check to specify manually all the values for the position matrix.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="cam">
+          <OfxPropLabel>Cam</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="camEnable">
+          <OfxPropLabel>Enable Camera</OfxPropLabel>
+          <OfxParamPropHint>Enable the camera projection parameters.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="camFile">
+          <OfxPropLabel>Cam File</OfxPropLabel>
+          <OfxParamPropHint>Import/export data</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="camImportFormat">
+          <OfxPropLabel>Cam Import Format</OfxPropLabel>
+          <OfxParamPropHint>The format of the file to import.
+
+chan: Chan format, each line is FRAME TX TY TZ RX RY RZ VFOV. Can be created using Natron, Nuke, 3D-Equalizer, Maya and other 3D tracking software. Be careful that the rotation order must be exactly the same when exporting and importing the chan file.
+Boujou: Boujou text export. In Boujou, after finishing the track and solving, go to Export &gt; Export Camera Solve (Or press F12) &gt; choose where to save the data and give it a name, click he drop down Export Type and make sure it will save as a .txt, then click Save. Each camera line is R(0,0) R(0,1) R(0,2) R(1,0) R(1,1) R(1,2) R(2,0) R(2,1) R(2,2) Tx Ty Tz F(mm).</OfxParamPropHint>
+          <OfxParamPropChoiceOption>chan</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Boujou</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeString name="camImportFile">
+          <OfxPropLabel>Cam Import</OfxPropLabel>
+          <OfxParamPropHint>Import a chan file created using 3D tracking software, or a txt file created using Boujou.</OfxParamPropHint>
+        </OfxParamTypeString>
+        <OfxParamTypePushButton name="camImportFileReload">
+          <OfxPropLabel>Cam Reload</OfxPropLabel>
+          <OfxParamPropHint>Reload the file.</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypeString name="camExportChan">
+          <OfxPropLabel>Cam Export</OfxPropLabel>
+          <OfxParamPropHint>Export a .chan file which can be used in Natron, Nuke or 3D tracking software, such as 3D-Equalizer, Maya, or Boujou. Be careful that the rotation order must be exactly the same when exporting and importing the chan file.</OfxParamPropHint>
+        </OfxParamTypeString>
+        <OfxParamTypePushButton name="camExportChanRewrite">
+          <OfxPropLabel>Cam Rewrite</OfxPropLabel>
+          <OfxParamPropHint>Rewrite the .chan file.</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="camXformOrder">
+          <OfxPropLabel>Cam Transform Order</OfxPropLabel>
+          <OfxParamPropHint>Order in which scale (S), rotation (R) and translation (T) are applied.
+
+SRT: Scale, Rotation, Translation.
+STR: Scale, Translation, Rotation.
+RST: Rotation, Scale, Translation.
+RTS: Rotation, Translation, Scale.
+TSR: Translation, Scale, Rotation.
+TRS: Translation, Rotation, Scale.</OfxParamPropHint>
+          <OfxParamPropChoiceOption>SRT</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>STR</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>RST</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>RTS</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>TSR</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>TRS</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="camRotOrder">
+          <OfxPropLabel>Cam Rotation Order</OfxPropLabel>
+          <OfxParamPropHint>Order in which Euler angles are applied in the rotation.
+
+XYZ: Rotation over X axis, then Y and Z.
+XZY: Rotation over X axis, then Z and Y.
+YXZ: Rotation over Y axis, then X and Z.
+YZX: Rotation over Y axis, then Z and X.
+ZXY: Rotation over Z axis, then X and Y.
+ZYX: Rotation over Z axis, then Y and X.</OfxParamPropHint>
+          <OfxParamPropChoiceOption>XYZ</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>XZY</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>YXZ</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>YZX</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>ZXY</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>ZYX</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble3D name="camTranslate">
+          <OfxPropLabel>Cam Translate</OfxPropLabel>
+          <OfxParamPropHint>Translation component.</OfxParamPropHint>
+        </OfxParamTypeDouble3D>
+        <OfxParamTypeDouble3D name="camRotate">
+          <OfxPropLabel>Cam Rotate</OfxPropLabel>
+          <OfxParamPropHint>Euler angles (in degrees).</OfxParamPropHint>
+        </OfxParamTypeDouble3D>
+        <OfxParamTypeDouble3D name="camScaling">
+          <OfxPropLabel>Cam Scale</OfxPropLabel>
+          <OfxParamPropHint>Scale factor over each axis.</OfxParamPropHint>
+        </OfxParamTypeDouble3D>
+        <OfxParamTypeDouble name="camUniformScale">
+          <OfxPropLabel>Cam Uniform Scale</OfxPropLabel>
+          <OfxParamPropHint>Scale factor over all axis. It is multiplied by the scale factor over each axis.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble3D name="camSkew">
+          <OfxPropLabel>Cam Skew</OfxPropLabel>
+          <OfxParamPropHint>Skew over each axis, in degrees.</OfxParamPropHint>
+        </OfxParamTypeDouble3D>
+        <OfxParamTypeDouble3D name="camPivot">
+          <OfxPropLabel>Cam Pivot</OfxPropLabel>
+          <OfxParamPropHint>The position of the origin for position, scaling, skewing, and rotation.</OfxParamPropHint>
+        </OfxParamTypeDouble3D>
+        <OfxParamTypeGroup name="camLocalMatrix">
+          <OfxPropLabel>Cam Local Matrix</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="camUseMatrix">
+          <OfxPropLabel>Cam Specify Matrix</OfxPropLabel>
+          <OfxParamPropHint>Check to specify manually all the values for the position matrix.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="camMatrix11">
+          <OfxPropLabel>Cam </OfxPropLabel>
+          <OfxParamPropHint>Matrix coefficient.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="camMatrix12">
+          <OfxPropLabel>Cam </OfxPropLabel>
+          <OfxParamPropHint>Matrix coefficient.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="camMatrix13">
+          <OfxPropLabel>Cam </OfxPropLabel>
+          <OfxParamPropHint>Matrix coefficient.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="camMatrix14">
+          <OfxPropLabel>Cam </OfxPropLabel>
+          <OfxParamPropHint>Matrix coefficient.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="camMatrix21">
+          <OfxPropLabel>Cam </OfxPropLabel>
+          <OfxParamPropHint>Matrix coefficient.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="camMatrix22">
+          <OfxPropLabel>Cam </OfxPropLabel>
+          <OfxParamPropHint>Matrix coefficient.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="camMatrix23">
+          <OfxPropLabel>Cam </OfxPropLabel>
+          <OfxParamPropHint>Matrix coefficient.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="camMatrix24">
+          <OfxPropLabel>Cam </OfxPropLabel>
+          <OfxParamPropHint>Matrix coefficient.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="camMatrix31">
+          <OfxPropLabel>Cam </OfxPropLabel>
+          <OfxParamPropHint>Matrix coefficient.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="camMatrix32">
+          <OfxPropLabel>Cam </OfxPropLabel>
+          <OfxParamPropHint>Matrix coefficient.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="camMatrix33">
+          <OfxPropLabel>Cam </OfxPropLabel>
+          <OfxParamPropHint>Matrix coefficient.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="camMatrix34">
+          <OfxPropLabel>Cam </OfxPropLabel>
+          <OfxParamPropHint>Matrix coefficient.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="camMatrix41">
+          <OfxPropLabel>Cam </OfxPropLabel>
+          <OfxParamPropHint>Matrix coefficient.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="camMatrix42">
+          <OfxPropLabel>Cam </OfxPropLabel>
+          <OfxParamPropHint>Matrix coefficient.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="camMatrix43">
+          <OfxPropLabel>Cam </OfxPropLabel>
+          <OfxParamPropHint>Matrix coefficient.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="camMatrix44">
+          <OfxPropLabel>Cam </OfxPropLabel>
+          <OfxParamPropHint>Matrix coefficient.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="camProjection">
+          <OfxPropLabel>Cam Projection</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="camprojection_mode">
+          <OfxPropLabel>Projection</OfxPropLabel>
+          <OfxParamPropHint>Perspective: Perspective projection.
+Orthographic: Orthographic projection</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Perspective</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Orthographic</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="camfocal">
+          <OfxPropLabel>Focal Length</OfxPropLabel>
+          <OfxParamPropHint>The camera focal length, in arbitrary units (usually either millimeters or 35 mm equivalent focal length). haperture and vaperture must be expressed in the same units.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="camhaperture">
+          <OfxPropLabel>Horiz. Aperture</OfxPropLabel>
+          <OfxParamPropHint>The camera horizontal aperture (or film back width), in the same units as the focal length. In the case of scanned film, this can be obtained as image_width * scanner_pitch.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="camvaperture">
+          <OfxPropLabel>Vert. Aperture</OfxPropLabel>
+          <OfxParamPropHint>The camera vertical aperture (or film back height), in the same units as the focal length. This does not affect the projection (which is computed from haperture and the image aspect ratio), but it is used to compute the focal length from vertical FOV when importing chan files, using the formula: focal = 0.5 * vaperture / tan(vfov/2). It is thus best set as: haperture = vaperture * image_width/image_height. In the case of scanned film, this can be obtained as image_height * scanner_pitch.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="camwin_translate">
+          <OfxPropLabel>Window Translate</OfxPropLabel>
+          <OfxParamPropHint>The camera window (or film back) is translated by this fraction of the horizontal aperture, without changing the position of the camera center. This can be used to model tilt-shift or perspective-control lens.</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="camwin_scale">
+          <OfxPropLabel>Window Scale</OfxPropLabel>
+          <OfxParamPropHint>Scale the camera window (or film back).</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="camwinroll">
+          <OfxPropLabel>Window Roll</OfxPropLabel>
+          <OfxParamPropHint>Rotation (in degrees) of the camera window (or film back) around the z axis.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="cardFile">
+          <OfxPropLabel>File</OfxPropLabel>
+          <OfxParamPropHint>Import/export data</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="cardImportFormat">
+          <OfxPropLabel>Import Format</OfxPropLabel>
+          <OfxParamPropHint>The format of the file to import.
+
+chan: Chan format, each line is FRAME TX TY TZ RX RY RZ VFOV. Can be created using Natron, Nuke, 3D-Equalizer, Maya and other 3D tracking software. Be careful that the rotation order must be exactly the same when exporting and importing the chan file.
+Boujou: Boujou text export. In Boujou, after finishing the track and solving, go to Export &gt; Export Camera Solve (Or press F12) &gt; choose where to save the data and give it a name, click he drop down Export Type and make sure it will save as a .txt, then click Save. Each camera line is R(0,0) R(0,1) R(0,2) R(1,0) R(1,1) R(1,2) R(2,0) R(2,1) R(2,2) Tx Ty Tz F(mm).</OfxParamPropHint>
+          <OfxParamPropChoiceOption>chan</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Boujou</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeString name="cardImportFile">
+          <OfxPropLabel>Import</OfxPropLabel>
+          <OfxParamPropHint>Import a chan file created using 3D tracking software, or a txt file created using Boujou.</OfxParamPropHint>
+        </OfxParamTypeString>
+        <OfxParamTypePushButton name="cardImportFileReload">
+          <OfxPropLabel>Reload</OfxPropLabel>
+          <OfxParamPropHint>Reload the file.</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypeString name="cardExportChan">
+          <OfxPropLabel>Export</OfxPropLabel>
+          <OfxParamPropHint>Export a .chan file which can be used in Natron, Nuke or 3D tracking software, such as 3D-Equalizer, Maya, or Boujou. Be careful that the rotation order must be exactly the same when exporting and importing the chan file.</OfxParamPropHint>
+        </OfxParamTypeString>
+        <OfxParamTypePushButton name="cardExportChanRewrite">
+          <OfxPropLabel>Rewrite</OfxPropLabel>
+          <OfxParamPropHint>Rewrite the .chan file.</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="cardXformOrder">
+          <OfxPropLabel>Transform Order</OfxPropLabel>
+          <OfxParamPropHint>Order in which scale (S), rotation (R) and translation (T) are applied.
+
+SRT: Scale, Rotation, Translation.
+STR: Scale, Translation, Rotation.
+RST: Rotation, Scale, Translation.
+RTS: Rotation, Translation, Scale.
+TSR: Translation, Scale, Rotation.
+TRS: Translation, Rotation, Scale.</OfxParamPropHint>
+          <OfxParamPropChoiceOption>SRT</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>STR</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>RST</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>RTS</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>TSR</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>TRS</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="cardRotOrder">
+          <OfxPropLabel>Rotation Order</OfxPropLabel>
+          <OfxParamPropHint>Order in which Euler angles are applied in the rotation.
+
+XYZ: Rotation over X axis, then Y and Z.
+XZY: Rotation over X axis, then Z and Y.
+YXZ: Rotation over Y axis, then X and Z.
+YZX: Rotation over Y axis, then Z and X.
+ZXY: Rotation over Z axis, then X and Y.
+ZYX: Rotation over Z axis, then Y and X.</OfxParamPropHint>
+          <OfxParamPropChoiceOption>XYZ</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>XZY</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>YXZ</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>YZX</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>ZXY</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>ZYX</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble3D name="cardTranslate">
+          <OfxPropLabel>Translate</OfxPropLabel>
+          <OfxParamPropHint>Translation component.</OfxParamPropHint>
+        </OfxParamTypeDouble3D>
+        <OfxParamTypeDouble3D name="cardRotate">
+          <OfxPropLabel>Rotate</OfxPropLabel>
+          <OfxParamPropHint>Euler angles (in degrees).</OfxParamPropHint>
+        </OfxParamTypeDouble3D>
+        <OfxParamTypeDouble3D name="cardScaling">
+          <OfxPropLabel>Scale</OfxPropLabel>
+          <OfxParamPropHint>Scale factor over each axis.</OfxParamPropHint>
+        </OfxParamTypeDouble3D>
+        <OfxParamTypeDouble name="cardUniformScale">
+          <OfxPropLabel>Uniform Scale</OfxPropLabel>
+          <OfxParamPropHint>Scale factor over all axis. It is multiplied by the scale factor over each axis.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble3D name="cardSkew">
+          <OfxPropLabel>Skew</OfxPropLabel>
+          <OfxParamPropHint>Skew over each axis, in degrees.</OfxParamPropHint>
+        </OfxParamTypeDouble3D>
+        <OfxParamTypeDouble3D name="cardPivot">
+          <OfxPropLabel>Pivot</OfxPropLabel>
+          <OfxParamPropHint>The position of the origin for position, scaling, skewing, and rotation.</OfxParamPropHint>
+        </OfxParamTypeDouble3D>
+        <OfxParamTypeGroup name="cardLocalMatrix">
+          <OfxPropLabel>Local Matrix</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="cardUseMatrix">
+          <OfxPropLabel>Specify Matrix</OfxPropLabel>
+          <OfxParamPropHint>Check to specify manually all the values for the position matrix.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="lensInFocal">
+          <OfxPropLabel>Lens-In Focal</OfxPropLabel>
+          <OfxParamPropHint>The focal length of the camera that took the picture on the card. The card is scaled so that at distance 1 (which is the default card Z) it occupies the field of view corresponding to lensInFocal and lensInHAperture.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="lensInHAperture">
+          <OfxPropLabel>Lens-In H.Aperture</OfxPropLabel>
+          <OfxParamPropHint>The horizontal aperture (or sensor/film back width) of the camera that took the picture on the card. The card is scaled so that at distance 1 (which is the default card Z) it occupies the field of view corresponding to lensInFocal and lensInHAperture.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="format">
+          <OfxPropLabel>Output Format</OfxPropLabel>
+          <OfxParamPropHint>Desired format for the output sequence.
+
+Format: Use a pre-defined image format.
+Size: Use a specific extent (size and offset).
+Project: Use the project extent (size and offset).</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Format</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Size</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Project</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypePushButton name="recenter">
+          <OfxPropLabel>Center</OfxPropLabel>
+          <OfxParamPropHint>Centers the region of definition to the input region of definition. If there is no input, then the region of definition is centered to the project window.</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="NatronParamFormatChoice">
+          <OfxPropLabel>Format</OfxPropLabel>
+          <OfxParamPropHint>The output format</OfxParamPropHint>
+          <OfxParamPropChoiceOption>PC_Video 640x480</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>NTSC 720x486 0.91</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>PAL 720x576 1.09</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>NTSC_16:9 720x486 1.21</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>PAL_16:9 720x576 1.46</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>HD_720 1280x1720</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>HD 1920x1080</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>UHD_4K 3840x2160</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1K_Super35(full-ap) 1024x778</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1K_Cinemascope 914x778 2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>2K_Super35(full-ap) 2048x1556</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>2K_Cinemascope 1828x1556 2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>2K_DCP 2048x1080</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>4K_Super35(full-ap) 4096x3112</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>4K_Cinemascope 3656x3112 2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>4K_DCP 4096x2160</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>square_256 256x256</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>square_512 512x512</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>square_1K 1024x1024</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>square_2K 2048x2048</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeInteger2D name="NatronParamFormatSize">
+          <OfxPropLabel>Size</OfxPropLabel>
+          <OfxParamPropHint>The output dimensions of the image in pixels.</OfxParamPropHint>
+        </OfxParamTypeInteger2D>
+        <OfxParamTypeDouble name="NatronParamFormatPar">
+          <OfxPropLabel>Pixel Aspect Ratio</OfxPropLabel>
+          <OfxParamPropHint>Output pixel aspect ratio.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="bottomLeft">
+          <OfxPropLabel>Bottom Left</OfxPropLabel>
+          <OfxParamPropHint>Coordinates of the bottom left corner of the size rectangle.</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="size">
+          <OfxPropLabel>Size</OfxPropLabel>
+          <OfxParamPropHint>Width and height of the size rectangle.</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeBoolean name="invert">
+          <OfxPropLabel>Invert</OfxPropLabel>
+          <OfxParamPropHint>Invert the transform.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="filter">
+          <OfxPropLabel>Filter</OfxPropLabel>
+          <OfxParamPropHint>Filtering algorithm - some filters may produce values outside of the initial range (*) or modify the values even if there is no movement (+).
+
+Impulse: (nearest neighbor / box) Use original values.
+Box: Integrate the source image over the bounding box of the back-transformed pixel.
+Bilinear: (tent / triangle) Bilinear interpolation between original values.
+Cubic: (cubic spline) Some smoothing.
+Keys: (Catmull-Rom / Hermite spline) Some smoothing, plus minor sharpening (*).
+Simon: Some smoothing, plus medium sharpening (*).
+Rifman: Some smoothing, plus significant sharpening (*).
+Mitchell: Some smoothing, plus blurring to hide pixelation (*)(+).
+Parzen: (cubic B-spline) Greatest smoothing of all filters (+).
+Notch: Flat smoothing (which tends to hide moire' patterns) (+).</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Impulse</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Box</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Bilinear</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cubic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Keys</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Simon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rifman</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Mitchell</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Parzen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Notch</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="clamp">
+          <OfxPropLabel>Clamp</OfxPropLabel>
+          <OfxParamPropHint>Clamp filter output within the original range - useful to avoid negative values in mattes.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="black_outside">
+          <OfxPropLabel>Black outside</OfxPropLabel>
+          <OfxParamPropHint>Fill the area outside the source image with black.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="motionBlurGroup">
+          <OfxPropLabel>Motion Blur</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="motionBlur">
+          <OfxPropLabel>Motion Blur</OfxPropLabel>
+          <OfxParamPropHint>Quality of motion blur rendering. 0 disables motion blur, 1 is a good value. Increasing this slows down rendering.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="directionalBlur">
+          <OfxPropLabel>Directional Blur Mode</OfxPropLabel>
+          <OfxParamPropHint>Motion blur is computed from the original image to the transformed image, each parameter being interpolated linearly. The motionBlur parameter must be set to a nonzero value.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="shutter">
+          <OfxPropLabel>Shutter</OfxPropLabel>
+          <OfxParamPropHint>Controls how long (in frames) the shutter should remain open.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="shutterOffset">
+          <OfxPropLabel>Shutter Offset</OfxPropLabel>
+          <OfxParamPropHint>Controls when the shutter should be open/closed. Ignored if there is no motion blur (i.e. shutter=0 or motionBlur=0).
+
+Centered: Centers the shutter around the frame (from t-shutter/2 to t+shutter/2).
+Start: Open the shutter at the frame (from t to t+shutter).
+End: Close the shutter at the frame (from t-shutter to t).
+Custom: Open the shutter at t+shuttercustomoffset (from t+shuttercustomoffset to t+shuttercustomoffset+shutter).</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Centered</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Start</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>End</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Custom</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="shutterCustomOffset">
+          <OfxPropLabel>Custom Offset</OfxPropLabel>
+          <OfxParamPropHint>When custom is selected, the shutter is open at current time plus this offset (in frames). Ignored if there is no motion blur (i.e. shutter=0 or motionBlur=0).</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="interactive">
+          <OfxPropLabel>Interactive Update</OfxPropLabel>
+          <OfxParamPropHint>If checked, update the parameter values during interaction with the image viewer, else update the values when pen is released.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+  <OfxPlugin name="net.sf.openfx.MzCornerPinPlugin">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>Mz_CornerPinOFX</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>MisczOFX</OfxImageEffectPluginPropGrouping>
+      <OfxPropPluginDescription>Allows an image to fit another in translation, rotation and scale.
+The resulting transform is a translation if 1 point is enabled, a similarity if 2 are enabled, an affin</OfxPropPluginDescription>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeGroup name="to">
+          <OfxPropLabel>to</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble2D name="to1">
+          <OfxPropLabel>to1</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeBoolean name="enable1">
+          <OfxPropLabel>enable1</OfxPropLabel>
+          <OfxParamPropHint>Enables the point on the left.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble2D name="to2">
+          <OfxPropLabel>to2</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeBoolean name="enable2">
+          <OfxPropLabel>enable2</OfxPropLabel>
+          <OfxParamPropHint>Enables the point on the left.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble2D name="to3">
+          <OfxPropLabel>to3</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeBoolean name="enable3">
+          <OfxPropLabel>enable3</OfxPropLabel>
+          <OfxParamPropHint>Enables the point on the left.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble2D name="to4">
+          <OfxPropLabel>to4</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeBoolean name="enable4">
+          <OfxPropLabel>enable4</OfxPropLabel>
+          <OfxParamPropHint>Enables the point on the left.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypePushButton name="copyFrom">
+          <OfxPropLabel>Copy "From"</OfxPropLabel>
+          <OfxParamPropHint>Copy the contents (including animation) of the "from" points to the "to" points.</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="copyFromSingle">
+          <OfxPropLabel>Copy "From" (Single)</OfxPropLabel>
+          <OfxParamPropHint>Copy the current values of the "from" points to the "to" points.</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypeGroup name="from">
+          <OfxPropLabel>from</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble2D name="from1">
+          <OfxPropLabel>from1</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="from2">
+          <OfxPropLabel>from2</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="from3">
+          <OfxPropLabel>from3</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="from4">
+          <OfxPropLabel>from4</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypePushButton name="setToInputRod">
+          <OfxPropLabel>Set to input rod</OfxPropLabel>
+          <OfxParamPropHint>Copy the values from the source region of definition into the "from" points.</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="copyTo">
+          <OfxPropLabel>Copy "To"</OfxPropLabel>
+          <OfxParamPropHint>Copy the contents (including animation) of the "to" points to the "from" points.</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="copyToSingle">
+          <OfxPropLabel>Copy "To" (Single)</OfxPropLabel>
+          <OfxParamPropHint>Copy the current values of the "to" points to the "from" points.</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble name="transformAmount">
+          <OfxPropLabel>Amount</OfxPropLabel>
+          <OfxParamPropHint>Amount of transform to apply (excluding the extra matrix, which is always applied). 0 means the transform is identity, 1 means to apply the full transform. Intermediate transforms are computed by linear interpolation between the 'from' and the 'to' points. See the plugin description on how to use the amount parameter for a crash zoom effect.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="transformMatrix">
+          <OfxPropLabel>Extra Matrix</OfxPropLabel>
+          <OfxParamPropHint>This matrix gets concatenated to the transform defined by the other parameters.</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="overlayPoints">
+          <OfxPropLabel>Overlay Points</OfxPropLabel>
+          <OfxParamPropHint>Whether to display the "from" or the "to" points in the overlay.
+
+To: Display the "to" points.
+From: Display the "from" points.</OfxParamPropHint>
+          <OfxParamPropChoiceOption>To</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>From</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="interactive">
+          <OfxPropLabel>Interactive Update</OfxPropLabel>
+          <OfxParamPropHint>If checked, update the parameter values during interaction with the image viewer, else update the values when pen is released.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="hidpi">
+          <OfxPropLabel>HiDPI</OfxPropLabel>
+          <OfxParamPropHint>Should be checked when the display area is High-DPI (a.k.a Retina). Draws OpenGL overlays twice larger.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="invert">
+          <OfxPropLabel>Invert</OfxPropLabel>
+          <OfxParamPropHint>Invert the transform.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="filter">
+          <OfxPropLabel>Filter</OfxPropLabel>
+          <OfxParamPropHint>Filtering algorithm - some filters may produce values outside of the initial range (*) or modify the values even if there is no movement (+).
+
+Impulse: (nearest neighbor / box) Use original values.
+Box: Integrate the source image over the bounding box of the back-transformed pixel.
+Bilinear: (tent / triangle) Bilinear interpolation between original values.
+Cubic: (cubic spline) Some smoothing.
+Keys: (Catmull-Rom / Hermite spline) Some smoothing, plus minor sharpening (*).
+Simon: Some smoothing, plus medium sharpening (*).
+Rifman: Some smoothing, plus significant sharpening (*).
+Mitchell: Some smoothing, plus blurring to hide pixelation (*)(+).
+Parzen: (cubic B-spline) Greatest smoothing of all filters (+).
+Notch: Flat smoothing (which tends to hide moire' patterns) (+).</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Impulse</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Box</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Bilinear</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cubic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Keys</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Simon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rifman</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Mitchell</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Parzen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Notch</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="clamp">
+          <OfxPropLabel>Clamp</OfxPropLabel>
+          <OfxParamPropHint>Clamp filter output within the original range - useful to avoid negative values in mattes.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="black_outside">
+          <OfxPropLabel>Black outside</OfxPropLabel>
+          <OfxParamPropHint>Fill the area outside the source image with black.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="motionBlurGroup">
+          <OfxPropLabel>Motion Blur</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="motionBlur">
+          <OfxPropLabel>Motion Blur</OfxPropLabel>
+          <OfxParamPropHint>Quality of motion blur rendering. 0 disables motion blur, 1 is a good value. Increasing this slows down rendering.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="directionalBlur">
+          <OfxPropLabel>Directional Blur Mode</OfxPropLabel>
+          <OfxParamPropHint>Motion blur is computed from the original image to the transformed image, each parameter being interpolated linearly. The motionBlur parameter must be set to a nonzero value.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="shutter">
+          <OfxPropLabel>Shutter</OfxPropLabel>
+          <OfxParamPropHint>Controls how long (in frames) the shutter should remain open.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="shutterOffset">
+          <OfxPropLabel>Shutter Offset</OfxPropLabel>
+          <OfxParamPropHint>Controls when the shutter should be open/closed. Ignored if there is no motion blur (i.e. shutter=0 or motionBlur=0).
+
+Centered: Centers the shutter around the frame (from t-shutter/2 to t+shutter/2).
+Start: Open the shutter at the frame (from t to t+shutter).
+End: Close the shutter at the frame (from t-shutter to t).
+Custom: Open the shutter at t+shuttercustomoffset (from t+shuttercustomoffset to t+shuttercustomoffset+shutter).</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Centered</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Start</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>End</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Custom</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="shutterCustomOffset">
+          <OfxPropLabel>Custom Offset</OfxPropLabel>
+          <OfxParamPropHint>When custom is selected, the shutter is open at current time plus this offset (in frames). Ignored if there is no motion blur (i.e. shutter=0 or motionBlur=0).</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="maskInvert">
+          <OfxPropLabel>Invert Mask</OfxPropLabel>
+          <OfxParamPropHint>When checked, the effect is fully applied where the mask is 0.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="mix">
+          <OfxPropLabel>Mix</OfxPropLabel>
+          <OfxParamPropHint>Mix factor between the original and the transformed image.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+  <OfxPlugin name="net.sf.openfx.MzPosition">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>Mz_PositionOFX</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>MisczOFX</OfxImageEffectPluginPropGrouping>
+      <OfxPropPluginDescription>Translate an image by an integer number of pixels.
+This plugin does not concatenate transforms.</OfxPropPluginDescription>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeDouble2D name="translate">
+          <OfxPropLabel>Translate</OfxPropLabel>
+          <OfxParamPropHint>New position of the bottom-left pixel. Rounded to the closest pixel.</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeBoolean name="interactive">
+          <OfxPropLabel>Interactive</OfxPropLabel>
+          <OfxParamPropHint>When checked the image will be rendered whenever moving the overlay interact instead of when releasing the mouse button.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+  <OfxPlugin name="net.sf.openfx.MzSpriteSheet">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>Mz_SpriteSheet</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>MisczOFX</OfxImageEffectPluginPropGrouping>
+      <OfxPropPluginDescription>Read individual frames from a sprite sheet. A sprite sheet is a series of images (usually animation frames) combined into a larger image (or images). For example, an anima</OfxPropPluginDescription>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeInteger2D name="spriteSize">
+          <OfxPropLabel>Sprite Size</OfxPropLabel>
+          <OfxParamPropHint>Size in pixels of an individual sprite.</OfxParamPropHint>
+        </OfxParamTypeInteger2D>
+        <OfxParamTypeInteger2D name="spriteRange">
+          <OfxPropLabel>Sprite Range</OfxPropLabel>
+          <OfxParamPropHint>Index of the first and last sprite in the animation. The sprite index starts at zero.</OfxParamPropHint>
+        </OfxParamTypeInteger2D>
+        <OfxParamTypeInteger name="frameOffset">
+          <OfxPropLabel>Frame Offset</OfxPropLabel>
+          <OfxParamPropHint>Output frame number for the first sprite as a whole.</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="frameSeparation">
+          <OfxPropLabel>Frame Separation</OfxPropLabel>
+          <OfxParamPropHint>The separation of the frames, based on the frame rate of the project.</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeChoice name="readingDirection">
+          <OfxPropLabel>Reading Direction</OfxPropLabel>
+          <OfxParamPropHint>The reading direction of the sprites.
+
+Horizontal Forward: Read the sprites in a horizontal forward direction.
+Horizontal Backward: Read the sprites in a horizontal backward direction.
+Vertical Forward: Read the sprites in a vertical forward direction.
+Vertical Backward: Read the sprites in a vertical backward direction.
+Horizontal Forward (S-shaped): Read the sprites in a horizontal forward S-shape direction.
+Horizontal Backward (S-shaped): Read the sprites in a horizontal backward S-shape direction.
+Vertical Forward (S-shaped): Read the sprites in a vertical forward S-shape direction.
+Vertical Backward (S-shaped): Read the sprites in a vertical backward S-shape direction.</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Horizontal Forward</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Horizontal Backward</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Vertical Forward</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Vertical Backward</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Horizontal Forward (S-shaped)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Horizontal Backward (S-shaped)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Vertical Forward (S-shaped)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Vertical Backward (S-shaped)</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="playbackMode">
+          <OfxPropLabel>Playback Mode</OfxPropLabel>
+          <OfxParamPropHint>The playback mode when playing the sprites.
+
+Normal: Play the sprites in Normal mode.
+Normal &amp; Reverse: Play the sprites in Normal &amp; Reverse mode.
+Normal &amp; Reverse (Merge): Play the sprites in Normal &amp; Reverse mode, with repeated first/last frames being merged into one frame.</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Normal &amp; Reverse</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Normal &amp; Reverse (Merge)</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeInteger name="loopOffset">
+          <OfxPropLabel>Loop Offset</OfxPropLabel>
+          <OfxParamPropHint>Output frame number for the first sprite in a single loop.</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger2D name="repeatRange">
+          <OfxPropLabel>Repeat Range</OfxPropLabel>
+          <OfxParamPropHint>Delimit a range within which the sprites will be repeated several times. When the Repeat Count is 0, no repeat is performed.</OfxParamPropHint>
+        </OfxParamTypeInteger2D>
+        <OfxParamTypeInteger name="repeatCount">
+          <OfxPropLabel>Repeat Count</OfxPropLabel>
+          <OfxParamPropHint>Delimit a range within which the sprites will be repeated several times. When the Repeat Count is 0, no repeat is performed.</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger2D name="spritesCut">
+          <OfxPropLabel>Sprites Cut</OfxPropLabel>
+          <OfxParamPropHint>Cut the sprite sheet and read it separately.</OfxParamPropHint>
+        </OfxParamTypeInteger2D>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+  <OfxPlugin name="net.sf.openfx.MzTransformPlugin">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>Mz_TransformOFX</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>MisczOFX</OfxImageEffectPluginPropGrouping>
+      <OfxPropPluginDescription>Translate / Rotate / Scale a 2D image, with optional masking.
+This plugin concatenates transforms upstream.</OfxPropPluginDescription>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeGroup name="periodic">
+          <OfxPropLabel>Periodic Motion</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="periodicRadius">
+          <OfxPropLabel>Radius</OfxPropLabel>
+          <OfxParamPropHint>Radius of the trajectory of periodic motion.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="periodicFrequency">
+          <OfxPropLabel>Speed</OfxPropLabel>
+          <OfxParamPropHint>Speed of periodic motion.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="periodicFrequencyUnit">
+          <OfxPropLabel>Speed Unit</OfxPropLabel>
+          <OfxParamPropHint>Unit of Speed.</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Hz</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>BPM</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="periodicFrequencyBeat">
+          <OfxPropLabel>Beat Type</OfxPropLabel>
+          <OfxParamPropHint>Beat Type.</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Quadruple Wholes</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Breve</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Whole</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Half</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Quarter</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Eighth</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Sixteenth</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Thirty-Second</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Half Triplet</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Quarter Triplet</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Eighth Triplet</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Sixteenth Triplet</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Thirty-Second Triplet</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="periodicAutorotate">
+          <OfxPropLabel>Autorotate</OfxPropLabel>
+          <OfxParamPropHint>Autorotation speed of periodic motion.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="periodicAutorotateStep">
+          <OfxPropLabel>Autorotate Step</OfxPropLabel>
+          <OfxParamPropHint>Autorotation step of periodic motion.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="periodicScale">
+          <OfxPropLabel>Scale</OfxPropLabel>
+          <OfxParamPropHint>Scale value of periodic motion.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="periodicScaleStep">
+          <OfxPropLabel>Scale Step</OfxPropLabel>
+          <OfxParamPropHint>Scale step of periodic motion.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="periodicOffset">
+          <OfxPropLabel>Offset</OfxPropLabel>
+          <OfxParamPropHint>Offset of periodic motion.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="periodicSkip">
+          <OfxPropLabel>Skip</OfxPropLabel>
+          <OfxParamPropHint>Number of steps of periodic motion you want to skip.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="periodicN">
+          <OfxPropLabel>N-sided</OfxPropLabel>
+          <OfxParamPropHint>Point/Side numbers of polygon of the trajectory of periodic motion. 1 is a circle, 2 is a two-point line, and 3 or more is a polygon.</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="periodicInterval">
+          <OfxPropLabel>Interval</OfxPropLabel>
+          <OfxParamPropHint>Point interval of the trajectory of periodic motion.</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="periodicBend">
+          <OfxPropLabel>Bend</OfxPropLabel>
+          <OfxParamPropHint>Bend of the trajectory of periodic motion.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="periodicRotate">
+          <OfxPropLabel>Rotate</OfxPropLabel>
+          <OfxParamPropHint>Rotation of the trajectory of periodic motion, in degrees.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="periodicDeform">
+          <OfxPropLabel>Deform</OfxPropLabel>
+          <OfxParamPropHint>Deformation of the trajectory of periodic motion.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="periodicCurve">
+          <OfxPropLabel>Curve Type</OfxPropLabel>
+          <OfxParamPropHint>Motion Curve Type.</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Custom</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Default</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease Out</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Quad</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Quad In</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Quad Out</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cubic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cubic In</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cubic Out</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Quart</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Quart In</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Quart Out</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Quint</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Quint In</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Quint Out</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Expo</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Expo In</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Expo Out</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Circ</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Circ In</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Circ Out</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Back</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Back In</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Back Out</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Linear</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble2D name="periodicBezierP1">
+          <OfxPropLabel>Bezier P1</OfxPropLabel>
+          <OfxParamPropHint>Bezier Curve P1 &amp; P2.</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="periodicBezierP2">
+          <OfxPropLabel>Bezier P2</OfxPropLabel>
+          <OfxParamPropHint>Bezier Curve P1 &amp; P2.</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeBoolean name="periodicSymmetry">
+          <OfxPropLabel>Curve Symmetry</OfxPropLabel>
+          <OfxParamPropHint>It allows the two adjacent motion curves to be symmetric.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="functionGroup">
+          <OfxPropLabel>Function</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeString name="functionExpression">
+          <OfxPropLabel>Expression</OfxPropLabel>
+          <OfxParamPropHint>Expression of Function.</OfxParamPropHint>
+        </OfxParamTypeString>
+        <OfxParamTypeDouble2D name="functionDomain">
+          <OfxPropLabel>Domain</OfxPropLabel>
+          <OfxParamPropHint>Domain of Function.</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="functionUnit">
+          <OfxPropLabel>Unit</OfxPropLabel>
+          <OfxParamPropHint>Unit of Function.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="functionFrequency">
+          <OfxPropLabel>Speed</OfxPropLabel>
+          <OfxParamPropHint>Speed of Function.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="functionRoundTrip">
+          <OfxPropLabel>Round-Trip</OfxPropLabel>
+          <OfxParamPropHint>Enable Round-Trip or not.</OfxParamPropHint>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Round-Trip Only</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Round-Trip (Vertical Flip)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Round-Trip (Horizontal Flip)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Round-Trip (Both)</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="functionRotate">
+          <OfxPropLabel>Rotate</OfxPropLabel>
+          <OfxParamPropHint>Rotation of Function, in degrees.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="functionCurve">
+          <OfxPropLabel>Curve Type</OfxPropLabel>
+          <OfxParamPropHint>Motion Curve Type.</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Custom</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Default</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease Out</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Quad</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Quad In</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Quad Out</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cubic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cubic In</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cubic Out</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Quart</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Quart In</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Quart Out</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Quint</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Quint In</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Quint Out</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Expo</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Expo In</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Expo Out</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Circ</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Circ In</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Circ Out</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Back</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Back In</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Back Out</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Linear</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Same As Before</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble2D name="functionBezierP1">
+          <OfxPropLabel>Bezier P1</OfxPropLabel>
+          <OfxParamPropHint>Bezier Curve P1 &amp; P2.</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="functionBezierP2">
+          <OfxPropLabel>Bezier P2</OfxPropLabel>
+          <OfxParamPropHint>Bezier Curve P1 &amp; P2.</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeBoolean name="functionSymmetry">
+          <OfxPropLabel>Curve Symmetry</OfxPropLabel>
+          <OfxParamPropHint>It allows the two adjacent motion curves to be symmetric.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble2D name="translate">
+          <OfxPropLabel>Translate</OfxPropLabel>
+          <OfxParamPropHint>Translation along the x and y axes. Can also be adjusted by clicking and dragging the center handle in the Viewer.</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="rotate">
+          <OfxPropLabel>Rotate</OfxPropLabel>
+          <OfxParamPropHint>Rotation angle in degrees around the Center. Can also be adjusted by clicking and dragging the rotation bar in the Viewer.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="faceToCenter">
+          <OfxPropLabel>Face To Center</OfxPropLabel>
+          <OfxParamPropHint>It allows the moving object to automatically face to the center.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble2D name="scale">
+          <OfxPropLabel>Scale</OfxPropLabel>
+          <OfxParamPropHint>Scale factor along the x and y axes.</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeBoolean name="flop">
+          <OfxPropLabel>Horizontal (flop)</OfxPropLabel>
+          <OfxParamPropHint>Mirror image (swap left and right).</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="flip">
+          <OfxPropLabel>Vertical (flip)</OfxPropLabel>
+          <OfxParamPropHint>Upside-down (swap top and bottom).</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="uniform">
+          <OfxPropLabel>Uniform</OfxPropLabel>
+          <OfxParamPropHint>Use the X scale for both directions.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="skewX">
+          <OfxPropLabel>Skew X</OfxPropLabel>
+          <OfxParamPropHint>Skew along the x axis.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="skewY">
+          <OfxPropLabel>Skew Y</OfxPropLabel>
+          <OfxParamPropHint>Skew along the y axis.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="skewOrder">
+          <OfxPropLabel>Skew Order</OfxPropLabel>
+          <OfxParamPropHint>The order in which skew transforms are applied: X then Y, or Y then X.</OfxParamPropHint>
+          <OfxParamPropChoiceOption>XY</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>YX</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="transformAmount">
+          <OfxPropLabel>Amount</OfxPropLabel>
+          <OfxParamPropHint>Amount of transform to apply. 0 means the transform is identity, 1 means to apply the full transform.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="center">
+          <OfxPropLabel>Center</OfxPropLabel>
+          <OfxParamPropHint>Center of rotation and scale.</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypePushButton name="resetCenter">
+          <OfxPropLabel>Reset Center</OfxPropLabel>
+          <OfxParamPropHint>Reset the position of the center to the center of the input region of definition</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypeBoolean name="transformInteractOpen">
+          <OfxPropLabel>Show Interact</OfxPropLabel>
+          <OfxParamPropHint>If checked, the transform interact is displayed over the image.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="interactive">
+          <OfxPropLabel>Interactive Update</OfxPropLabel>
+          <OfxParamPropHint>If checked, update the parameter values during interaction with the image viewer, else update the values when pen is released.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="hidpi">
+          <OfxPropLabel>HiDPI</OfxPropLabel>
+          <OfxParamPropHint>Should be checked when the display area is High-DPI (a.k.a Retina). Draws OpenGL overlays twice larger.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="invert">
+          <OfxPropLabel>Invert</OfxPropLabel>
+          <OfxParamPropHint>Invert the transform.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="filter">
+          <OfxPropLabel>Filter</OfxPropLabel>
+          <OfxParamPropHint>Filtering algorithm - some filters may produce values outside of the initial range (*) or modify the values even if there is no movement (+).
+
+Impulse: (nearest neighbor / box) Use original values.
+Box: Integrate the source image over the bounding box of the back-transformed pixel.
+Bilinear: (tent / triangle) Bilinear interpolation between original values.
+Cubic: (cubic spline) Some smoothing.
+Keys: (Catmull-Rom / Hermite spline) Some smoothing, plus minor sharpening (*).
+Simon: Some smoothing, plus medium sharpening (*).
+Rifman: Some smoothing, plus significant sharpening (*).
+Mitchell: Some smoothing, plus blurring to hide pixelation (*)(+).
+Parzen: (cubic B-spline) Greatest smoothing of all filters (+).
+Notch: Flat smoothing (which tends to hide moire' patterns) (+).</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Impulse</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Box</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Bilinear</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cubic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Keys</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Simon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rifman</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Mitchell</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Parzen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Notch</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="clamp">
+          <OfxPropLabel>Clamp</OfxPropLabel>
+          <OfxParamPropHint>Clamp filter output within the original range - useful to avoid negative values in mattes.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="black_outside">
+          <OfxPropLabel>Black outside</OfxPropLabel>
+          <OfxParamPropHint>Fill the area outside the source image with black.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="motionBlurGroup">
+          <OfxPropLabel>Motion Blur</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="motionBlur">
+          <OfxPropLabel>Motion Blur</OfxPropLabel>
+          <OfxParamPropHint>Quality of motion blur rendering. 0 disables motion blur, 1 is a good value. Increasing this slows down rendering.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="directionalBlur">
+          <OfxPropLabel>Directional Blur Mode</OfxPropLabel>
+          <OfxParamPropHint>Motion blur is computed from the original image to the transformed image, each parameter being interpolated linearly. The motionBlur parameter must be set to a nonzero value.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="shutter">
+          <OfxPropLabel>Shutter</OfxPropLabel>
+          <OfxParamPropHint>Controls how long (in frames) the shutter should remain open.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="shutterOffset">
+          <OfxPropLabel>Shutter Offset</OfxPropLabel>
+          <OfxParamPropHint>Controls when the shutter should be open/closed. Ignored if there is no motion blur (i.e. shutter=0 or motionBlur=0).
+
+Centered: Centers the shutter around the frame (from t-shutter/2 to t+shutter/2).
+Start: Open the shutter at the frame (from t to t+shutter).
+End: Close the shutter at the frame (from t-shutter to t).
+Custom: Open the shutter at t+shuttercustomoffset (from t+shuttercustomoffset to t+shuttercustomoffset+shutter).</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Centered</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Start</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>End</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Custom</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="shutterCustomOffset">
+          <OfxPropLabel>Custom Offset</OfxPropLabel>
+          <OfxParamPropHint>When custom is selected, the shutter is open at current time plus this offset (in frames). Ignored if there is no motion blur (i.e. shutter=0 or motionBlur=0).</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="maskInvert">
+          <OfxPropLabel>Invert Mask</OfxPropLabel>
+          <OfxParamPropHint>When checked, the effect is fully applied where the mask is 0.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="mix">
+          <OfxPropLabel>Mix</OfxPropLabel>
+          <OfxParamPropHint>Mix factor between the original and the transformed image.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

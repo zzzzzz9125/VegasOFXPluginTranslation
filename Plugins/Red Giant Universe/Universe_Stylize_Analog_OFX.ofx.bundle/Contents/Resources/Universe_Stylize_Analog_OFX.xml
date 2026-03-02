@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Stylize_Analog_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Analog</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Stylize</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1200">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1201">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="0">
+          <OfxPropLabel>Aspect Ratio</OfxPropLabel>
+          <OfxParamPropChoiceOption>4:3 - CRT</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1:1 - Square</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>16:9 - Widescreen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>5:4 - PC</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>16:10 - Widescreen PC</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>Saturation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>Phase</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>Filter</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>Temperature</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>Image Contrast</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>Chroma Split</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>Luma Contrast</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="8">
+          <OfxPropLabel>Black Level</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="9">
+          <OfxPropLabel>Screen Brightness</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="10">
+          <OfxPropLabel>Sharpness</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="11">
+          <OfxPropLabel>Tint</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>Tint Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="13">
+          <OfxPropLabel>Scan Lines</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="14">
+          <OfxPropLabel>Scan Line Direction</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Horizontal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Vertical</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Squares</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>TV CRT</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>PC CRT</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="15">
+          <OfxPropLabel>Scan Line Scale</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="16">
+          <OfxPropLabel>Scan Line Spacing</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="17">
+          <OfxPropLabel>Scan Line Feather</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="18">
+          <OfxPropLabel>Scan Line Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="19">
+          <OfxPropLabel>Interference</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="20">
+          <OfxPropLabel>Static Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="21">
+          <OfxPropLabel>Static Displacement</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="22">
+          <OfxPropLabel>Scramble Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="23">
+          <OfxPropLabel>Scramble Scale</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="24">
+          <OfxPropLabel>Scramble Speed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="25">
+          <OfxPropLabel>Flicker Brightness</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="26">
+          <OfxPropLabel>Flicker Scale</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="27">
+          <OfxPropLabel>Flicker Speed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="28">
+          <OfxPropLabel>Line Thickness</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="29">
+          <OfxPropLabel>Line Speed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="30">
+          <OfxPropLabel>Line Brightness</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="31">
+          <OfxPropLabel>Line Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeGroup name="32">
+          <OfxPropLabel>Random Interference</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="33">
+          <OfxPropLabel>Enable Random Interference</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="34">
+          <OfxPropLabel>Random Interference Frequency</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="35">
+          <OfxPropLabel>Random Roll Speed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="36">
+          <OfxPropLabel>Random Scramble Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="37">
+          <OfxPropLabel>Random Scramble Scale</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="38">
+          <OfxPropLabel>Random Separation Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="39">
+          <OfxPropLabel>Random Noise Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="40">
+          <OfxPropLabel>Transformation</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="41">
+          <OfxPropLabel>Curvature</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="42">
+          <OfxPropLabel>Crop Source Image</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="43">
+          <OfxPropLabel>X Rotation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="44">
+          <OfxPropLabel>Y Rotation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="45">
+          <OfxPropLabel>Z Rotation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="46">
+          <OfxPropLabel>Scale</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="47">
+          <OfxPropLabel>Camera</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble2D name="48">
+          <OfxPropLabel>Camera Position X/Y</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="49">
+          <OfxPropLabel>Camera Z Position</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="50">
+          <OfxPropLabel>Field of View</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="51">
+          <OfxPropLabel>Camera X Rotation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="52">
+          <OfxPropLabel>Camera Y Rotation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="53">
+          <OfxPropLabel>Camera Z Rotation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="54">
+          <OfxPropLabel>Material &amp; Lighting</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="55">
+          <OfxPropLabel>Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="56">
+          <OfxPropLabel>Color Mix</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="57">
+          <OfxPropLabel>Gloss</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="58">
+          <OfxPropLabel>Specular</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="59">
+          <OfxPropLabel>Environment Map</OfxPropLabel>
+          <OfxParamPropChoiceOption>Bedroom Interior</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Modern Interior</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Photo Studio</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Softbox Studio</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Two Light Setup</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="60">
+          <OfxPropLabel>Environment Light</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="61">
+          <OfxPropLabel>Environment Light Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="62">
+          <OfxPropLabel>Point Light</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="63">
+          <OfxPropLabel>Point Light Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="64">
+          <OfxPropLabel>Point Light X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="65">
+          <OfxPropLabel>Point Light Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="66">
+          <OfxPropLabel>Point Light Z</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="67">
+          <OfxPropLabel>Anti Aliasing</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>x2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>x4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>x8</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>x16</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="68">
+          <OfxPropLabel>Glow Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="69">
+          <OfxPropLabel>Glow Radius</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="70">
+          <OfxPropLabel>Random Seed</OfxPropLabel>
+        </OfxParamTypeInteger>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

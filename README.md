@@ -1,71 +1,163 @@
-# VegasOFXPluginTranslation_zh-CN
-为 VEGAS Pro 中的第三方 OFX 插件提供简体中文（zh-CN）汉化。
+# Vegas OFX Plugin Translation
 
-详见：https://www.bilibili.com/read/cv43150917/
+[English](README.md) | [简体中文](README.zh.md) | [日本語](README.ja.md) | [한국어](README.ko.md)
 
-**注意，这里不提供任何插件的破解版本。这里只提供 VEGAS Pro 可以读取的 XML 翻译文件。**
+This project provides localized translation files for third-party OFX plugins used in VEGAS Pro, based on the original English XML strings.
 
-***Note that no cracked versions of any plugins are provided here. Only XML translation files that can be read by VEGAS Pro are provided.***
+## Legal Notice
 
-目前包含的插件汉化，及其对应的汉化贡献者：
-```
-蓝宝石 Sapphire 插件：夜__晓、Grok 3
-BCC 插件：夜__晓、Grok 3
-Ignite Pro 插件：夜__晓、Grok 3
-NewBlue 插件：夜__晓、Grok 3
-红巨星 Universe 插件：夜__晓、官方汉化
-Textuler 插件：Grok 3
-MisczOFX 插件：zzzzzz9125
-TextOFX 插件：zzzzzz9125
-NTSC-rs 插件：zzzzzz9125
-OFXClock 插件：zzzzzz9125
-Gyroflow 插件：Grok 3
-```
+This repository does **not** include any pirated, cracked, or patched plugin binaries.
 
-## 使用方法
-1. 解压 .zip 文件。里边有很多按照特定路径保存的 xxx.zh-CN.xml 翻译文件。
-2. 转到 OFX 文件夹路径 `C:\Program Files\Common Files\OFX\Plugins\`。
-3. 找到你的插件的 `.ofx` 安装位置，确认你的文件夹路径是否能和我提供的路径完全对上。若能完全对上，则可以直接合并文件夹；否则，请根据你的 OFX 路径结构，放置 XML 翻译文件。
-4. 重启 VEGAS Pro。
+Only XML localization files that can be loaded by VEGAS Pro are provided.
 
-路径示例：`C:\Program Files\Common Files\OFX\Plugins\xxx.ofx.bundle\Contents\Resources\xxx.zh-CN.xml`
+## What is OFX in VEGAS Pro?
+
+OFX (OpenFX) is a plugin standard used by VEGAS Pro and many third-party video effects.
+
+In VEGAS Pro, OFX plugins are typically installed in one of these locations:
+
+- Shared OFX path:
+  `C:\Program Files\Common Files\OFX\Plugins\`
+- Standalone VEGAS OFX path:
+  `...<VEGAS installation path>\OFX Video Plug-Ins\`
+
+For general OFX background and VEGAS-specific references, see the OFX section in [VegTips](https://zzzzzz9125.github.io/VegTips/).
+
+Typical OFX bundle structure:
 
 ```
 ├── xxx.ofx.bundle/
 │  └── Contents/
 │    ├── Presets/
 │    │  ├── PresetPackage.xml
-│    │  ├── PresetPackage.zh-CN.xml
-│    │  └── ...
+│    │  ├── PresetPackage.de-DE.xml
+│    │  ├── PresetPackage.es-ES.xml
+│    │  ├── PresetPackage.fr-FR.xml
+│    │  ├── PresetPackage.ja-JP.xml
+│    │  ├── PresetPackage.ko-KR.xml
+│    │  ├── PresetPackage.pl-PL.xml
+│    │  ├── PresetPackage.pt-BR.xml
+│    │  └── PresetPackage.zh-CN.xml
 │    ├── Resources/
 │    │  ├── xxx.xml
-│    │  ├── xxx.zh-CN.xml
-│    │  └── ...
+│    │  ├── xxx.de-DE.xml
+│    │  ├── xxx.es-ES.xml
+│    │  ├── xxx.fr-FR.xml
+│    │  ├── xxx.ja-JP.xml
+│    │  ├── xxx.ko-KR.xml
+│    │  ├── xxx.pl-PL.xml
+│    │  ├── xxx.pt-BR.xml
+│    │  └── xxx.zh-CN.xml
 │    └── Win64/
 │       └── xxx.ofx
 └── yyy.ofx.bundle/
    └── ...
 ```
 
-其中，`Resources\xxx.xml` 和 `Resources\xxx.zh-CN.xml` 均为翻译文件。
+Notes:
 
-如果遇到没法读取 `xxx.zh-CN.xml` 翻译文件的问题，这可能说明你的 VEGAS Pro 的语言注册表值并不指向中文。你可以尝试[将语言注册表值修改为中文](https://docs.qq.com/doc/p/c1828ff31c5f03da27dd6c0c26d49ddd6d1d868b)，或者也可以将 `xxx.zh-CN.xml` 重命名为 `xxx.xml`。
+- `Win64\xxx.ofx` is the OFX plugin interface binary.
+- `Presets\PresetPackage.xml` is the built-in preset definition file.
+- XML files listed above are language localization files recognized by VEGAS Pro.
+- `xxx.xml` (without language tag) is usually the English fallback.
+- `xxx.zh-CN.xml`, `xxx.ja-JP.xml`, etc. are language-specific files loaded with higher priority.
+- If a localized file is not available or fails to load, VEGAS Pro falls back to `xxx.xml`.
+- If your language is not in the list, you may edit `xxx.xml` directly.
+- If you plan to contribute to this repository, use proper locale suffixes in file names.
 
-如果你之前装的是英文版插件，在安装汉化后，插件效果名称仍然保持英文，请转到 VEGAS Pro 缓存目录 `%localappdata%\VEGAS Pro\`（粘贴到文件管理器的地址栏后回车），找到 `%localappdata%\VEGAS Pro\<版本号>\plugin_manager_cache.bin` 并删除，之后重启 VEGAS Pro。
+Because OFX folders usually require administrator privileges, avoid editing XML files with non-elevated Notepad. Visual Studio Code is recommended (it can prompt for elevated save when needed).
 
-这样的外置 XML 的汉化形式似乎只支持 VEGAS Pro，不支持其他 OFX 插件宿主。让 DaVinci Resolve 用户测试过，没用。
+## Tutorials
 
+### 1) How to change VEGAS Pro language
 
-## 插件官网
-```
-蓝宝石 Sapphire、BCC 插件：https://borisfx.com/
-Ignite Pro 插件：https://www.fxhome.com/（注：FXHome 已经倒闭了。）
-NewBlue 插件：https://newbluefx.com/
-红巨星 Universe 插件：https://www.maxon.net/red-giant/universe
-MisczOFX 插件：https://github.com/zzzzzz9125/Miscz
-Textuler 插件：https://textuler.io/
-NTSC-rs 插件：https://github.com/valadaptive/ntsc-rs
-OFXClock 插件：https://www.hlinke.de/dokuwiki/doku.php?id=en:vegas_pro_ofx
-Gyroflow 插件：https://gyroflow.xyz/
-```
+Refer to Chapter IV on [VegTips](https://zzzzzz9125.github.io/VegTips/).
 
+### 2) How to clear OFX effect-name cache in VEGAS Pro
+
+1. Copy `%localappdata%\VEGAS Pro\` into File Explorer address bar and press Enter.
+2. For VEGAS Pro 18 and newer, delete `%localappdata%\VEGAS Pro\<version>\plugin_manager_cache.bin`.
+   For older versions, delete `%localappdata%\VEGAS Pro\<version>\svfx_plugin_cache.bin`.
+3. Restart VEGAS Pro and wait until the Video Plug-Ins Factory finishes loading.
+
+### 3) How to export all OFX strings from your current VEGAS Pro
+
+In VEGAS Pro, run `./Scripts/OFX_Translation_XML_Export.cs` from **Tools → Scripting**.
+
+This exports localized text from both built-in OFX effects and third-party OFX effects detected by your current VEGAS installation.
+
+Default export folder: `Desktop\OFX_XML`.
+
+If you need strings for a specific language, first change VEGAS Pro language and clear effect-name cache, then export again.
+
+### 4) How to translate XML strings
+
+You can use any text editor to edit XML. Visual Studio Code is recommended because side-by-side diff editing is useful for localization.
+
+You can also use LLM tools for translation.
+
+Translatable XML tags:
+
+- `OfxPropLabel`: FX display name and parameter display name
+- `OfxImageEffectPluginPropGrouping`: FX grouping/category name
+- `OfxPropPluginDescription`: FX description
+- `OfxParamPropHint`: parameter tooltip text
+- `OfxParamPropChoiceOption`: dropdown options for `OfxParamTypeChoice`
+
+Not recommended to translate (should be removed or commented in this repository):
+
+- File name related strings, such as `.bsp`, `.jpg`, `.config.ocio`
+- Font names stored as `OfxParamPropChoiceOption` (common in BCC and Ignite Pro)
+- Known problematic options that may cause crashes in VEGAS Pro
+
+Must never be translated:
+
+- `OfxPlugin` attribute `name` (FX GUID)
+- `OfxParamTypeDouble` attribute `name` (internal parameter key)
+
+Because raw XML is verbose, it is not ideal for direct LLM translation input.
+
+This repository provides `./Scripts/xml_csv_tool.py` to:
+
+- extract translatable strings from XML to CSV
+- write translated CSV back into XML and generate new XML files
+
+Some plugin CSV files (for example BCC) can still exceed many LLM context limits. Split them manually into smaller segments.
+
+### 5) About Ignite Group Fix
+
+Ignite Pro (`IgniteCore.ofx.bundle` and `IgnitePro.ofx.bundle`) uses dynamic group loading behavior.
+
+Its `OfxParamTypeGroup` `name` can change depending on the order in which Ignite FX are loaded in the current VEGAS process. This also affects `./Scripts/OFX_Translation_XML_Export.cs`.
+
+Workflow:
+
+1. Start a fresh VEGAS Pro process and do not open any Ignite FX. Run `OFX_Translation_XML_Export.cs`.
+   If you only want Ignite effects, set `White list` to `HitFilm`.
+2. After localization, run Ignite Group Fix in `xml_csv_tool.py`.
+   It duplicates `OfxParamTypeGroup` entries multiple times.
+   `Group Max` controls duplication count. Larger values increase output size.
+   If too small, localization may still fail after many Ignite FX are loaded.
+   Default `250` is a practical balance.
+3. Before deployment, remove `.GroupFix` from file name and place the XML in the correct OFX path.
+
+### 6) About Crash Fix
+
+Some plugins have `OfxParamPropChoiceOption` values that may trigger VEGAS Pro startup errors during first plugin rescan: An error occurred when starting VEGAS Pro. The cause of the error cannot be determined.
+
+Typical affected plugins include:
+
+- BCC+ in BCC 2025 and earlier
+- Sapphire in Sapphire 2025 and earlier
+
+In many cases, newer versions (for example BCC 2026 and Sapphire 2026) do not show this issue.
+
+Files marked as CrashFix in this repository (for example `BCC+.CrashFix.zh-CN.xml`) remove all `OfxParamPropChoiceOption` entries to avoid startup errors during initial rescan.
+
+Usage:
+
+1. Remove `.CrashFix` from file name and place it correctly.
+2. After plugin rescan is complete, you may replace it with a full version from this repository.
+3. If plugin cache is cleared again, or new plugins are installed, the same issue can return and the process must be repeated.
+
+If you prefer a one-time stable setup, keep using the CrashFix variant, with the trade-off that all `OfxParamPropChoiceOption` localization is missing.

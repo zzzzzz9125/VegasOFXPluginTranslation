@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Stylize_RetroGrade_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.RetroGrade</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Stylize</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="1">
+          <OfxPropLabel>Film Stock</OfxPropLabel>
+          <OfxParamPropChoiceOption>8mm Black and White</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>8mm Camcorder</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>8mm Cartridge</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>8mm Color Shift</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>8mm Home Video</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>8mm Student</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>16mm Aged</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>16mm Black and White</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>16mm Camcorder</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>16mm Clean</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>16mm Documentary</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>16mm Home Movie</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="2">
+          <OfxPropLabel>18 FPS</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="3">
+          <OfxPropLabel>Frame &amp; Vignette</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="4">
+          <OfxPropLabel>Frame Size</OfxPropLabel>
+          <OfxParamPropChoiceOption>Original</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>4:3</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>Image Offset</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="6">
+          <OfxPropLabel>Edge Style</OfxPropLabel>
+          <OfxParamPropChoiceOption>Clean Edge</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cutout Edge</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Faded Edge</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Projector Edge</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>Vignette</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="8">
+          <OfxPropLabel>Color Treatment</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="9">
+          <OfxPropLabel>Film Fading</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="10">
+          <OfxPropLabel>Color Process</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>Saturation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>Exposure</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="13">
+          <OfxPropLabel>Blur</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="14">
+          <OfxPropLabel>Flicker</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="15">
+          <OfxPropLabel>Grime</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="16">
+          <OfxPropLabel>Dust Count</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="17">
+          <OfxPropLabel>Dust Scale</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="18">
+          <OfxPropLabel>Hair Count</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="19">
+          <OfxPropLabel>Hair Scale</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="20">
+          <OfxPropLabel>Splotch Count</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="21">
+          <OfxPropLabel>Splotch Scale</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="22">
+          <OfxPropLabel>Splotch Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="23">
+          <OfxPropLabel>Splotch Lightness</OfxPropLabel>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Transitions_Color_Mosaic_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Color Mosaic Transition</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Transitions</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble name="Transition">
+          <OfxPropLabel>Transition</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="2">
+          <OfxPropLabel>Color Map</OfxPropLabel>
+          <OfxParamPropChoiceOption>Warm</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ice</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Chlorophyll</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Nostalgic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Sultry</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Satin</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Snow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Shimmer</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Epic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Aqualight</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Prismlight</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Clover</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>CMY</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Happy</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>User Defined</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeRGB name="3">
+          <OfxPropLabel>Highlights</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="4">
+          <OfxPropLabel>Midtones</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="5">
+          <OfxPropLabel>Shadows</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>Color Mix</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>Evolution Speed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="8">
+          <OfxPropLabel>Horizontal Scroll</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="9">
+          <OfxPropLabel>Vertical Scroll</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="10">
+          <OfxPropLabel>Scale</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>Aspect</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>Skew</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="13">
+          <OfxPropLabel>Glow Mix</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="14">
+          <OfxPropLabel>Glow Radius</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="15">
+          <OfxPropLabel>Edge Mix</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeChoice name="16">
+          <OfxPropLabel>Blend Mode</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Darken</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Multiply</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Burn</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Add</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Lighten</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Dodge</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Overlay</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Soft Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hard Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Difference</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Exclusion</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Subtract</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Saturation</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Luminosity</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cutout</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Behind</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="17">
+          <OfxPropLabel>Seed</OfxPropLabel>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

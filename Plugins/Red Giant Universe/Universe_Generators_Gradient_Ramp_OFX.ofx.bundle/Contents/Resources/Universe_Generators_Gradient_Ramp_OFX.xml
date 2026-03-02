@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Generators_Gradient_Ramp_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Gradient Ramp</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Generators</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble2D name="0">
+          <OfxPropLabel>Start Point</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeRGB name="1">
+          <OfxPropLabel>Start Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="2">
+          <OfxPropLabel>Middle Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble2D name="3">
+          <OfxPropLabel>End Point</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeRGB name="4">
+          <OfxPropLabel>End Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypePushButton name="5">
+          <OfxPropLabel>Reverse Colors</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="6">
+          <OfxPropLabel>Ramp Color</OfxPropLabel>
+          <OfxParamPropChoiceOption>Two Color</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Three Color</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="7">
+          <OfxPropLabel>Ramp Shape</OfxPropLabel>
+          <OfxParamPropChoiceOption>Linear</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Radial</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="8">
+          <OfxPropLabel>Interpolation</OfxPropLabel>
+          <OfxParamPropChoiceOption>Linear</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Smooth</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="9">
+          <OfxPropLabel>Alpha</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="10">
+          <OfxPropLabel>Start Alpha</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>Middle Alpha</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>End Alpha</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="13">
+          <OfxPropLabel>Falloff</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="14">
+          <OfxPropLabel>Radial Spread</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="15">
+          <OfxPropLabel>Noise</OfxPropLabel>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

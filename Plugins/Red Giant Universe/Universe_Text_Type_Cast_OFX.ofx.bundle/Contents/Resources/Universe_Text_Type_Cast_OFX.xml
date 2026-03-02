@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Text_Type_Cast_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Type Cast</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Text</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeString name="0">
+          <OfxPropLabel>Text</OfxPropLabel>
+        </OfxParamTypeString>
+        <OfxParamTypeString name="1">
+          <OfxPropLabel>Font Family</OfxPropLabel>
+        </OfxParamTypeString>
+        <OfxParamTypeString name="2">
+          <OfxPropLabel>Font Style</OfxPropLabel>
+        </OfxParamTypeString>
+        <OfxParamTypePushButton name="3">
+          <OfxPropLabel>Edit Text...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble2D name="4">
+          <OfxPropLabel>Position</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeChoice name="5">
+          <OfxPropLabel>Grouping</OfxPropLabel>
+          <OfxParamPropChoiceOption>Characters</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Words</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>Effect Start</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>Effect Width</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="8">
+          <OfxPropLabel>Effect Ramp</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="9">
+          <OfxPropLabel>Crop</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>To Effect</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="10">
+          <OfxPropLabel>Use Effect Color</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeRGB name="11">
+          <OfxPropLabel>Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>OffsetX</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="13">
+          <OfxPropLabel>OffsetY</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="14">
+          <OfxPropLabel>Link Scale</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="15">
+          <OfxPropLabel>ScaleX</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="16">
+          <OfxPropLabel>ScaleY</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="17">
+          <OfxPropLabel>Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="18">
+          <OfxPropLabel>Rotation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="19">
+          <OfxPropLabel>Animation Curve</OfxPropLabel>
+          <OfxParamPropChoiceOption>Linear Tween</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Quad</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease Out Quad</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Out Quad</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Cubic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease Out Cubic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Out Cubic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Quartic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease Out Quartic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Out Quartic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Quintic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease Out Quintic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Out Quintic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Sine</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease Out Sine</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Out Sine</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Exponential</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease Out Exponential</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption> Ease In Out Exponential</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Circle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease Out Circle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Out Circle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Step</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="20">
+          <OfxPropLabel>Text Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="21">
+          <OfxPropLabel>Font Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="22">
+          <OfxPropLabel>Font Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeChoice name="23">
+          <OfxPropLabel>Justification</OfxPropLabel>
+          <OfxParamPropChoiceOption>Left</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Center</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Right</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="24">
+          <OfxPropLabel>Line Spacing</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="25">
+          <OfxPropLabel>Horizontal Tracking</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="1020">
+          <OfxPropLabel>Kerning</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeInteger name="1021">
+          <OfxPropLabel>Kerning Pair 1</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="1022">
+          <OfxPropLabel>Kerning Adjust 1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="1023">
+          <OfxPropLabel>Kerning Pair 2</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="1024">
+          <OfxPropLabel>Kerning Adjust 2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="1025">
+          <OfxPropLabel>Kerning Pair 3</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="1026">
+          <OfxPropLabel>Kerning Adjust 3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="1027">
+          <OfxPropLabel>Kerning Pair 4</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="1028">
+          <OfxPropLabel>Kerning Adjust 4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="27">
+          <OfxPropLabel>Foreground Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="28">
+          <OfxPropLabel>Background Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="29">
+          <OfxPropLabel>Blend Mode</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Darken</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Multiply</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Burn</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Add</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Lighten</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Dodge</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Overlay</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Soft Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hard Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Difference</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Exclusion</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Subtract</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Saturation</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Luminosity</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cutout</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Behind</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

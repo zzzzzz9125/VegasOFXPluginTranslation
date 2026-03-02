@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Generators_Spectralicious_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Spectralicious</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Generators</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeBoolean name="2">
+          <OfxPropLabel>Show Overlays</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble2D name="3">
+          <OfxPropLabel>Point 01</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeRGB name="4">
+          <OfxPropLabel>Color 01</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>Opacity 01</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="6">
+          <OfxPropLabel>Point 02</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeRGB name="7">
+          <OfxPropLabel>Color 02</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="8">
+          <OfxPropLabel>Opacity 02</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="9">
+          <OfxPropLabel>Point 03</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeRGB name="10">
+          <OfxPropLabel>Color 03</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>Opacity 03</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="12">
+          <OfxPropLabel>Point 04</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeRGB name="13">
+          <OfxPropLabel>Color 04</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="14">
+          <OfxPropLabel>Opacity 04</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="15">
+          <OfxPropLabel>Point 05</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeRGB name="16">
+          <OfxPropLabel>Color 05</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="17">
+          <OfxPropLabel>Opacity 05</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="18">
+          <OfxPropLabel>Point 06</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeRGB name="19">
+          <OfxPropLabel>Color 06</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="20">
+          <OfxPropLabel>Opacity 06</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="21">
+          <OfxPropLabel>Master Spread</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="22">
+          <OfxPropLabel>Noise</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="23">
+          <OfxPropLabel>Preview Crop</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble2D name="24">
+          <OfxPropLabel>Crop 01</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="25">
+          <OfxPropLabel>Crop 02</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeBoolean name="26">
+          <OfxPropLabel>Lighten Blend</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="27">
+          <OfxPropLabel>Post Saturation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="28">
+          <OfxPropLabel>Post Exposure</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="29">
+          <OfxPropLabel>Blend Mode</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Darken</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Multiply</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Burn</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Add</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Lighten</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Dodge</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Overlay</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Soft Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hard Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Difference</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Exclusion</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Subtract</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Saturation</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Luminosity</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cutout</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Behind</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="30">
+          <OfxPropLabel>Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

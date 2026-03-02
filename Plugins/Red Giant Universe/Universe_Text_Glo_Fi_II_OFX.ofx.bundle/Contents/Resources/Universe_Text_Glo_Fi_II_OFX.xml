@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Text_Glo_Fi_II_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Glo Fi II</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Stylize</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="1">
+          <OfxPropLabel>Color Map</OfxPropLabel>
+          <OfxParamPropChoiceOption>Warm</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ice</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Chlorophyll</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Nostalgic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Sultry</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Satin</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Snow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Shimmer</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Epic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Aqualight</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Prismlight</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Clover</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>User Defined</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>Loop Duration (Sec)</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>Speed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>Brightness</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>Boost</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="6">
+          <OfxPropLabel>Directional Blur</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Vertical</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Horizontal</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="7">
+          <OfxPropLabel>Blur</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="8">
+          <OfxPropLabel>Gaussian Blur Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="9">
+          <OfxPropLabel>Gaussian Blur Mix</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="10">
+          <OfxPropLabel>Streak Blur Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>Streak Blur Mix</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="12">
+          <OfxPropLabel>Colorize</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="13">
+          <OfxPropLabel>Highlights</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="14">
+          <OfxPropLabel>Midtones</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="15">
+          <OfxPropLabel>Shadows</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="16">
+          <OfxPropLabel>Saturation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="17">
+          <OfxPropLabel>Post Glow</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="18">
+          <OfxPropLabel>Source Pattern</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="19">
+          <OfxPropLabel>Contrast</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="20">
+          <OfxPropLabel>Scale</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="21">
+          <OfxPropLabel>Scroll X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="22">
+          <OfxPropLabel>Scroll Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="23">
+          <OfxPropLabel>Random Seed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="24">
+          <OfxPropLabel>Glow Mix</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="25">
+          <OfxPropLabel>Allow HDR Results</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="26">
+          <OfxPropLabel>Unmult</OfxPropLabel>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

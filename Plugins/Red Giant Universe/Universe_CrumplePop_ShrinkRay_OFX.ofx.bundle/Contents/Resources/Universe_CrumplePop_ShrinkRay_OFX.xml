@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_CrumplePop_ShrinkRay_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.ShrinkRay</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Stylize</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeGroup name="0">
+          <OfxPropLabel>ShrinkRay Controls</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="1">
+          <OfxPropLabel>Mask View</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble2D name="2">
+          <OfxPropLabel>Focus Position</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>Focus Height</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>Focus Width</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>Focus Rotation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>Blur Falloff</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>Blur Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="8">
+          <OfxPropLabel>Blur Gain</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="9">
+          <OfxPropLabel>Saturate</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="10">
+          <OfxPropLabel>Saturation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="11">
+          <OfxPropLabel>Contrast</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>Contrast Strength</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="13">
+          <OfxPropLabel>Patch 1 Controls</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="14">
+          <OfxPropLabel>Show Patch 1</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="15">
+          <OfxPropLabel>Patch 1 Type</OfxPropLabel>
+          <OfxParamPropChoiceOption>Blur</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Focus</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble2D name="16">
+          <OfxPropLabel>Patch 1 Position</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="17">
+          <OfxPropLabel>Patch 1 Width</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="18">
+          <OfxPropLabel>Patch 1 Height</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="19">
+          <OfxPropLabel>Patch 1 Rotation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="20">
+          <OfxPropLabel>Patch 1 Blur Falloff</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="21">
+          <OfxPropLabel>Patch 2 Controls</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="22">
+          <OfxPropLabel>Show Patch 2</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="23">
+          <OfxPropLabel>Patch 2 Type</OfxPropLabel>
+          <OfxParamPropChoiceOption>Blur</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Focus</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble2D name="24">
+          <OfxPropLabel>Patch 2 Position</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="25">
+          <OfxPropLabel>Patch 2 Width</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="26">
+          <OfxPropLabel>Patch 2 Height</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="27">
+          <OfxPropLabel>Patch 2 Rotation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="28">
+          <OfxPropLabel>Patch 2 Blur Falloff</OfxPropLabel>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

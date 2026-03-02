@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Text_Long_Shadow_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Long Shadow</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Stylize</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble name="0">
+          <OfxPropLabel>Angle</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>Length</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="2">
+          <OfxPropLabel>Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>Shadow Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>Expansion</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="5">
+          <OfxPropLabel>Source Crop</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="6">
+          <OfxPropLabel>Enable Crop</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble2D name="7">
+          <OfxPropLabel>Crop 1</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="8">
+          <OfxPropLabel>Crop 2</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeGroup name="9">
+          <OfxPropLabel>Mask</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="10">
+          <OfxPropLabel>Enable Mask</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="11">
+          <OfxPropLabel>Show Mask</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="12">
+          <OfxPropLabel>Shape</OfxPropLabel>
+          <OfxParamPropChoiceOption>Rectangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ellipse</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble2D name="13">
+          <OfxPropLabel>Position</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="14">
+          <OfxPropLabel>Width</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="15">
+          <OfxPropLabel>Height</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="16">
+          <OfxPropLabel>Angle</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="17">
+          <OfxPropLabel>Invert</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="18">
+          <OfxPropLabel>Feather Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="19">
+          <OfxPropLabel>Composite Over Source</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="20">
+          <OfxPropLabel>Unmult</OfxPropLabel>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

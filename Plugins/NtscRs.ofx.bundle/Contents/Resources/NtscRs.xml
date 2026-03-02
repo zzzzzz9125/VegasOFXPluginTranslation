@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="wtf.vala:NtscRs">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>NTSC-rs</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Filter</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="load_preset">
+          <OfxPropLabel>Load Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="save_preset">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeInteger name="36">
+          <OfxPropLabel>Random seed</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeChoice name="30">
+          <OfxPropLabel>Use field</OfxPropLabel>
+          <OfxParamPropHint>Choose which rows ("fields" in NTSC parlance) of the source image will be used.</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Alternating</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Upper only</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Lower only</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Interleaved (upper first)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Interleaved (lower first)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Both</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="46">
+          <OfxPropLabel>Lowpass filter type</OfxPropLabel>
+          <OfxParamPropHint>The low-pass filter to use throughout the effect.</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Constant K (blurry)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Butterworth (sharper)</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="38">
+          <OfxPropLabel>Input luma filter</OfxPropLabel>
+          <OfxParamPropHint>Filter the input luminance to decrease rainbow artifacts.</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Notch</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Box</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="0">
+          <OfxPropLabel>Chroma low-pass in</OfxPropLabel>
+          <OfxParamPropHint>Apply a low-pass filter to the input chrominance (color) signal.</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Full</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>Composite signal sharpening</OfxPropLabel>
+          <OfxParamPropHint>Boost high frequencies in the NTSC signal, sharpening the image and intensifying colors.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="52_group">
+          <OfxPropLabel>Composite signal noise</OfxPropLabel>
+          <OfxParamPropHint>Noise applied to the composite NTSC signal.</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="52">
+          <OfxPropLabel>Enabled</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>Intensity</OfxPropLabel>
+          <OfxParamPropHint>Intensity of the noise.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="53">
+          <OfxPropLabel>Frequency</OfxPropLabel>
+          <OfxParamPropHint>Base wavelength, in pixels, of the noise.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="54">
+          <OfxPropLabel>Detail</OfxPropLabel>
+          <OfxParamPropHint>Octaves of noise.</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>Snow</OfxPropLabel>
+          <OfxParamPropHint>Frequency of random speckles in the image.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="34">
+          <OfxPropLabel>Snow anisotropy</OfxPropLabel>
+          <OfxParamPropHint>Determines whether the speckles are placed truly randomly or concentrated in certain rows.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="2">
+          <OfxPropLabel>Scanline phase shift</OfxPropLabel>
+          <OfxParamPropHint>Phase shift of the chrominance (color) signal each scanline. Usually 180 degrees.</OfxParamPropHint>
+          <OfxParamPropChoiceOption>0 degrees</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>90 degrees</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>180 degrees</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>270 degrees</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeInteger name="3">
+          <OfxPropLabel>Scanline phase shift offset</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeChoice name="33">
+          <OfxPropLabel>Chroma demodulation filter</OfxPropLabel>
+          <OfxParamPropHint>Filter used to modulate the chrominance (color) data out of the composite NTSC signal.</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Box</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Notch</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1-line comb</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>2-line comb</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="45">
+          <OfxPropLabel>Luma smear</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="11_group">
+          <OfxPropLabel>Head switching</OfxPropLabel>
+          <OfxParamPropHint>Emulate VHS head-switching artifacts at the bottom of the image.</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="11">
+          <OfxPropLabel>Enabled</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeInteger name="12">
+          <OfxPropLabel>Height</OfxPropLabel>
+          <OfxParamPropHint>Total height of the head-switching artifact.</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="13">
+          <OfxPropLabel>Offset</OfxPropLabel>
+          <OfxParamPropHint>How much of the head-switching artifact is off-screen.</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="14">
+          <OfxPropLabel>Horizontal shift</OfxPropLabel>
+          <OfxParamPropHint>How much the head-switching artifact shifts rows horizontally.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="49_group">
+          <OfxPropLabel>Start mid-line</OfxPropLabel>
+          <OfxParamPropHint>Start the head-switching artifact mid-scanline, with some static where it begins.</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="49">
+          <OfxPropLabel>Enabled</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="50">
+          <OfxPropLabel>Position</OfxPropLabel>
+          <OfxParamPropHint>Horizontal position at which the head-switching starts.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="51">
+          <OfxPropLabel>Jitter</OfxPropLabel>
+          <OfxParamPropHint>How much the head-switching artifact "jitters" horizontally.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="15_group">
+          <OfxPropLabel>Tracking noise</OfxPropLabel>
+          <OfxParamPropHint>Emulate noise from VHS tracking error.</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="15">
+          <OfxPropLabel>Enabled</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeInteger name="16">
+          <OfxPropLabel>Height</OfxPropLabel>
+          <OfxParamPropHint>Total height of the tracking artifacts.</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="17">
+          <OfxPropLabel>Wave intensity</OfxPropLabel>
+          <OfxParamPropHint>How much the affected scanlines "wave" back and forth.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="18">
+          <OfxPropLabel>Snow intensity</OfxPropLabel>
+          <OfxParamPropHint>Frequency of speckle-type noise in the artifacts.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="35">
+          <OfxPropLabel>Snow anisotropy</OfxPropLabel>
+          <OfxParamPropHint>How much the speckles are clustered by scanline.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="31">
+          <OfxPropLabel>Noise intensity</OfxPropLabel>
+          <OfxParamPropHint>Intensity of non-speckle noise.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="19_group">
+          <OfxPropLabel>Ringing</OfxPropLabel>
+          <OfxParamPropHint>Additional ringing artifacts, simulated with a notch filter.</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="19">
+          <OfxPropLabel>Enabled</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="20">
+          <OfxPropLabel>Frequency</OfxPropLabel>
+          <OfxParamPropHint>Frequency/period of the ringing, in "rings per pixel".</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="21">
+          <OfxPropLabel>Power</OfxPropLabel>
+          <OfxParamPropHint>The power of the notch filter / how far out the ringing extends.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="22">
+          <OfxPropLabel>Scale</OfxPropLabel>
+          <OfxParamPropHint>Intensity of the ringing.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="55_group">
+          <OfxPropLabel>Luma noise</OfxPropLabel>
+          <OfxParamPropHint>Noise applied to the luminance signal. Useful for higher-frequency noise than the "Composite noise" setting can provide.</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="55">
+          <OfxPropLabel>Enabled</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="57">
+          <OfxPropLabel>Intensity</OfxPropLabel>
+          <OfxParamPropHint>Intensity of the noise.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="56">
+          <OfxPropLabel>Frequency</OfxPropLabel>
+          <OfxParamPropHint>Base wavelength, in pixels, of the noise.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="58">
+          <OfxPropLabel>Detail</OfxPropLabel>
+          <OfxParamPropHint>Octaves of noise.</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeGroup name="42_group">
+          <OfxPropLabel>Chroma noise</OfxPropLabel>
+          <OfxParamPropHint>Noise applied to the chrominance (color) signal.</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="42">
+          <OfxPropLabel>Enabled</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>Intensity</OfxPropLabel>
+          <OfxParamPropHint>Intensity of the noise.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="43">
+          <OfxPropLabel>Frequency</OfxPropLabel>
+          <OfxParamPropHint>Base wavelength, in pixels, of the noise.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="44">
+          <OfxPropLabel>Detail</OfxPropLabel>
+          <OfxParamPropHint>Octaves of noise.</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="37">
+          <OfxPropLabel>Chroma phase error</OfxPropLabel>
+          <OfxParamPropHint>Phase error for the chrominance (color) signal.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>Chroma phase noise</OfxPropLabel>
+          <OfxParamPropHint>Noise applied per-scanline to the phase of the chrominance (color) signal.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="8">
+          <OfxPropLabel>Chroma delay (horizontal)</OfxPropLabel>
+          <OfxParamPropHint>Horizontal offset of the chrominance (color) signal.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="9">
+          <OfxPropLabel>Chroma delay (vertical)</OfxPropLabel>
+          <OfxParamPropHint>Vertical offset of the chrominance (color) signal. Usually increases with VHS generation loss.</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeGroup name="23_group">
+          <OfxPropLabel>VHS emulation</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="23">
+          <OfxPropLabel>Enabled</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="24">
+          <OfxPropLabel>Tape speed</OfxPropLabel>
+          <OfxParamPropHint>Emulate cutoff of high-frequency data at various VHS recording speeds.</OfxParamPropHint>
+          <OfxParamPropChoiceOption>SP (Standard Play)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>LP (Long Play)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>EP (Extended Play)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="26">
+          <OfxPropLabel>Chroma loss</OfxPropLabel>
+          <OfxParamPropHint>Chance that the chrominance (color) signal is completely lost in each scanline.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="47_group">
+          <OfxPropLabel>Sharpen</OfxPropLabel>
+          <OfxParamPropHint>Sharpening of the image, as done by some VHS decks.</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="47">
+          <OfxPropLabel>Enabled</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="27">
+          <OfxPropLabel>Intensity</OfxPropLabel>
+          <OfxParamPropHint>Amount of sharpening to apply.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="48">
+          <OfxPropLabel>Frequency</OfxPropLabel>
+          <OfxParamPropHint>Frequency / radius of the sharpening, relative to the tape speed's cutoff frequency.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="39_group">
+          <OfxPropLabel>Edge wave</OfxPropLabel>
+          <OfxParamPropHint>Horizontal waving of the image.</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="39">
+          <OfxPropLabel>Enabled</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="28">
+          <OfxPropLabel>Intensity</OfxPropLabel>
+          <OfxParamPropHint>Horizontal waving of the image, in pixels.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="29">
+          <OfxPropLabel>Speed</OfxPropLabel>
+          <OfxParamPropHint>Speed at which the horizontal waving occurs.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="40">
+          <OfxPropLabel>Frequency</OfxPropLabel>
+          <OfxParamPropHint>Base wavelength for the horizontal waving.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="41">
+          <OfxPropLabel>Detail</OfxPropLabel>
+          <OfxParamPropHint>Octaves of noise for the waves.</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeBoolean name="25">
+          <OfxPropLabel>Vertically blend chroma</OfxPropLabel>
+          <OfxParamPropHint>Vertically blend each scanline's chrominance with the scanline above it.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="10">
+          <OfxPropLabel>Chroma low-pass out</OfxPropLabel>
+          <OfxParamPropHint>Apply a low-pass filter to the output chroma signal.</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Full</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="61_group">
+          <OfxPropLabel>Scale</OfxPropLabel>
+          <OfxParamPropHint>Scale the effect by these factors.</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="61">
+          <OfxPropLabel>Enabled</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="32">
+          <OfxPropLabel>Horizontal scale</OfxPropLabel>
+          <OfxParamPropHint>Horizontally scale the effect by this amount. For 480p video, leave this at 1.0 for the most physically-accurate result.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="59">
+          <OfxPropLabel>Vertical scale</OfxPropLabel>
+          <OfxParamPropHint>Vertically scale the effect by this amount. You should probably leave this at 1.0.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="60">
+          <OfxPropLabel>Scale with video size</OfxPropLabel>
+          <OfxParamPropHint>Multiply the scaling factors by the video's height. Prefer scaling the input video to 480p instead, which gives much more accurate-looking results.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="SrgbGammaCorrect">
+          <OfxPropLabel>Apply sRGB gamma</OfxPropLabel>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

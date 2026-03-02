@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Noise_Turbulence_Noise_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Turbulence Noise</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Generators</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="0">
+          <OfxPropLabel>Pattern</OfxPropLabel>
+          <OfxParamPropChoiceOption>Default</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Billowed</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ridged</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Aero</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Max</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Plasma</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Scramble</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Default Positive</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Max Positive</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="1">
+          <OfxPropLabel>Interpolation</OfxPropLabel>
+          <OfxParamPropChoiceOption>Blocky Grad</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Blocky Flat</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Linear</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Spline</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Advanced</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="2">
+          <OfxPropLabel>Appearance</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeInteger name="3">
+          <OfxPropLabel>Complexity</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>Contrast</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>Brightness</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>Gamma</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="7">
+          <OfxPropLabel>Invert</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="8">
+          <OfxPropLabel>Output</OfxPropLabel>
+          <OfxParamPropChoiceOption>HDR</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Soft Clamp</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Clipped</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="9">
+          <OfxPropLabel>Animation</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="10">
+          <OfxPropLabel>Evolution</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="11">
+          <OfxPropLabel>Cycles</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>Animation Speed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="13">
+          <OfxPropLabel>Auto Animate</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="14">
+          <OfxPropLabel>Transform</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="15">
+          <OfxPropLabel>Zoom</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="16">
+          <OfxPropLabel>Aspect</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="17">
+          <OfxPropLabel>Center</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="18">
+          <OfxPropLabel>Rotate</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="19">
+          <OfxPropLabel>Filter</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="20">
+          <OfxPropLabel>Advanced</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="21">
+          <OfxPropLabel>Influence</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="22">
+          <OfxPropLabel>Turbulence Factor</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="23">
+          <OfxPropLabel>Seed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="24">
+          <OfxPropLabel>Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

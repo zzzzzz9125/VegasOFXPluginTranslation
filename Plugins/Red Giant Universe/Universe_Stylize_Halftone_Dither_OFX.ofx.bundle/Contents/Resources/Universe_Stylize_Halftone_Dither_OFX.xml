@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Stylize_Halftone_Dither_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Halftone Dither</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Stylize</OfxImageEffectPluginPropGrouping>
+      <OfxPropPluginDescription>Copyright (C) 2016 Red Giant LLC. All Rights Reserved.</OfxPropPluginDescription>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="2127">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="26583">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="11356">
+          <OfxPropLabel>Halftone Type</OfxPropLabel>
+          <OfxParamPropChoiceOption>Printer</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Monitor</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>LED</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="174">
+          <OfxPropLabel>Dither Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="9966">
+          <OfxPropLabel>Color Correction</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="58682">
+          <OfxPropLabel>RGB Split</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="33382">
+          <OfxPropLabel>Hue Offset</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="25770">
+          <OfxPropLabel>Brightness</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="40710">
+          <OfxPropLabel>Pre-Saturation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="46115">
+          <OfxPropLabel>Post-Saturation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="5719">
+          <OfxPropLabel>Printer Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="57778">
+          <OfxPropLabel>Rotation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="56877">
+          <OfxPropLabel>Spacing</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="1929">
+          <OfxPropLabel>Monitor Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="41474">
+          <OfxPropLabel>Pixel Scale X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="41909">
+          <OfxPropLabel>Pixel Scale Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="56242">
+          <OfxPropLabel>LED Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="43177">
+          <OfxPropLabel>Pixel Scale X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="42742">
+          <OfxPropLabel>Pixel Scale Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="30334">
+          <OfxPropLabel>LED Scale</OfxPropLabel>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

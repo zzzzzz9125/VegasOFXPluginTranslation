@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Utilities_Unmult_Premium_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Unmult</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Utilities</OfxImageEffectPluginPropGrouping>
+      <OfxPropPluginDescription>Copyright (C) 2016 Red Giant LLC. All Rights Reserved.</OfxPropPluginDescription>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeBoolean name="0">
+          <OfxPropLabel>Unmult</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="1">
+          <OfxPropLabel>Invert</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>Tolerance</OfxPropLabel>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

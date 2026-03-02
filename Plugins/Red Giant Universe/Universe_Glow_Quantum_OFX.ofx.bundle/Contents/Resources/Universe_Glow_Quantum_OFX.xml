@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Glow_Quantum_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Quantum</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Glow</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1049">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble2D name="0">
+          <OfxPropLabel>Position</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeChoice name="1">
+          <OfxPropLabel>Input Channel</OfxPropLabel>
+          <OfxParamPropChoiceOption>Lightness</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Luminance</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Alpha</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Red</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Green</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Blue</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>Threshold</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>Threshold Softness</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>Threshold Blur</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>Streak Length</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>Boost Light</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="7">
+          <OfxPropLabel>Glow 1</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="8">
+          <OfxPropLabel>Enable Glow 1</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="9">
+          <OfxPropLabel>Glow 1 Length</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="10">
+          <OfxPropLabel>Glow 1 Intensity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypePushButton name="1910">
+          <OfxPropLabel>Choose a Color Map G1...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeRGB name="11">
+          <OfxPropLabel>Highlights G1</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="12">
+          <OfxPropLabel>Midtones G1</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="13">
+          <OfxPropLabel>Shadows G1</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeGroup name="14">
+          <OfxPropLabel>Glow 2</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="15">
+          <OfxPropLabel>Enable Glow 2</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="16">
+          <OfxPropLabel>Glow 2 Length</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="17">
+          <OfxPropLabel>Glow 2 Intensity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypePushButton name="1920">
+          <OfxPropLabel>Choose a Color Map G2...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeRGB name="18">
+          <OfxPropLabel>Highlights G2</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="19">
+          <OfxPropLabel>Midtones G2</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="20">
+          <OfxPropLabel>Shadows G2</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeGroup name="21">
+          <OfxPropLabel>Glow 3</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="22">
+          <OfxPropLabel>Enable Glow 3</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="23">
+          <OfxPropLabel>Glow 3 Length</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="24">
+          <OfxPropLabel>Glow 3 Intensity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypePushButton name="1930">
+          <OfxPropLabel>Choose a Color Map G3...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeRGB name="25">
+          <OfxPropLabel>Highlights G3</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="26">
+          <OfxPropLabel>Midtones G3</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="27">
+          <OfxPropLabel>Shadows G3</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeGroup name="28">
+          <OfxPropLabel>Shimmer</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="29">
+          <OfxPropLabel>Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="30">
+          <OfxPropLabel>Scale</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="31">
+          <OfxPropLabel>Complexity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="32">
+          <OfxPropLabel>Animation Speed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="33">
+          <OfxPropLabel>Loop Duration (Sec)</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="34">
+          <OfxPropLabel>Post Glow</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="35">
+          <OfxPropLabel>Glow Threshold</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="36">
+          <OfxPropLabel>Mix</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="37">
+          <OfxPropLabel>Radius</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="38">
+          <OfxPropLabel>Inner Glow Radius</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="39">
+          <OfxPropLabel>Inner Glow Mix</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="40">
+          <OfxPropLabel>Inner Glow Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeGroup name="41">
+          <OfxPropLabel>Mask</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="42">
+          <OfxPropLabel>Use Mask</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="43">
+          <OfxPropLabel>Show Masked Area</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="44">
+          <OfxPropLabel>Mask Shape</OfxPropLabel>
+          <OfxParamPropChoiceOption>Rectangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ellipse</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble2D name="45">
+          <OfxPropLabel>Mask Position</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="46">
+          <OfxPropLabel>Mask Width</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="47">
+          <OfxPropLabel>Mask Height</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="48">
+          <OfxPropLabel>Link Width/Height</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="49">
+          <OfxPropLabel>Mask Rotation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="50">
+          <OfxPropLabel>Mask Feather</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="51">
+          <OfxPropLabel>Invert Mask</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="52">
+          <OfxPropLabel>Quantum Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="53">
+          <OfxPropLabel>Source Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="54">
+          <OfxPropLabel>Blend Mode</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Darken</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Multiply</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Burn</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Add</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Lighten</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Dodge</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Overlay</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Soft Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hard Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Difference</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Exclusion</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Subtract</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Saturation</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Luminosity</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

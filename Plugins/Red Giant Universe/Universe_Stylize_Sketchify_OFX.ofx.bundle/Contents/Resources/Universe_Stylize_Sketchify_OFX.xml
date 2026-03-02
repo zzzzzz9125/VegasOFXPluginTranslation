@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Stylize_Sketchify_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Sketchify</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Stylize</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeGroup name="0">
+          <OfxPropLabel>Pre-Process</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>Pre-Blur</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>Sharpen</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>Ink Intensity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="4">
+          <OfxPropLabel>Ink Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeChoice name="5">
+          <OfxPropLabel>Ink Texture Select</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Concrete</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Abstract</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Canvas</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Crayon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Crumpled Paper</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cutting Board</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Drum Head</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Fabric</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Fuzzy</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ground</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Marker</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Shattered</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Threaded</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Watercolor</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>Ink Texture Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>Color Strength</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="8">
+          <OfxPropLabel>Color Smoothing</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="9">
+          <OfxPropLabel>Smoothing Radius</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="10">
+          <OfxPropLabel>Smoothing Detail</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="11">
+          <OfxPropLabel>Colorize</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>Colorize Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="13">
+          <OfxPropLabel>Shadow</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="14">
+          <OfxPropLabel>Midtone</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="15">
+          <OfxPropLabel>Highlight</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="16">
+          <OfxPropLabel>Background Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="17">
+          <OfxPropLabel>Sketchify Strength</OfxPropLabel>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

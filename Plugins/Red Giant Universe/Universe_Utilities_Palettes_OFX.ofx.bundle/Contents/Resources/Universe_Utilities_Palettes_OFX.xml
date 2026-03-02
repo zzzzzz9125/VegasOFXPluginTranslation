@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Utilities_Palettes_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Palettes</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Utilities</OfxImageEffectPluginPropGrouping>
+      <OfxPropPluginDescription>Copyright (C) 2016 Red Giant LLC. All Rights Reserved.</OfxPropPluginDescription>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="2127">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="26583">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="53405">
+          <OfxPropLabel>Browse Palettes...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeString name="11972">
+          <OfxPropLabel>universe.palette.string_buffer</OfxPropLabel>
+        </OfxParamTypeString>
+        <OfxParamTypeDouble name="31716">
+          <OfxPropLabel>Dither Bias</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="40265">
+          <OfxPropLabel>Color Correction</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="33382">
+          <OfxPropLabel>Hue Offset</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="25770">
+          <OfxPropLabel>Brightness</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="40710">
+          <OfxPropLabel>Saturation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4543">
+          <OfxPropLabel>Blend with Original</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="43243">
+          <OfxPropLabel>Blend Mode</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>(-</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Add</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Subtract</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Multiply</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>(-</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Darken</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Lighten</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Difference</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>In Front</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Behind</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>(-</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Soft Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hard Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Exclusion</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Overlay</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

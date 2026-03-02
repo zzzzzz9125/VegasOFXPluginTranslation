@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Transitions_Soft_Edge_Wipe_Premium_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Soft Edge Wipe</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Transitions</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble name="Transition">
+          <OfxPropLabel>Transition</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypePushButton name="1001">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1002">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="2">
+          <OfxPropLabel>Animation</OfxPropLabel>
+          <OfxParamPropChoiceOption>Linear Tween</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Quad</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease Out Quad</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Out Quad</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Cubic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease Out Cubic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Out Cubic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Quartic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease Out Quartic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Out Quartic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Quintic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease Out Quintic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Out Quintic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Sine</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease Out Sine</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Out Sine</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Exponential</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease Out Exponential</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption> Ease In Out Exponential</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Circle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease Out Circle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Out Circle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Step</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="3">
+          <OfxPropLabel>Edge Start</OfxPropLabel>
+          <OfxParamPropChoiceOption>Top Left</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Top Middle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Top Right</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Left Edge</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Right Edge</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Bottom Left</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Bottom Middle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Bottom Right</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="4">
+          <OfxPropLabel>Edge Angle</OfxPropLabel>
+          <OfxParamPropChoiceOption>Diagonal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>45 Degree</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>Edge Softness</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="6">
+          <OfxPropLabel>Stroke Border</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeInteger name="7">
+          <OfxPropLabel>Border Width</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeRGB name="8">
+          <OfxPropLabel>Border Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Stylize_Texturize_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Texturize</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Stylize</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="0">
+          <OfxPropLabel>Texture</OfxPropLabel>
+          <OfxParamPropChoiceOption>Cracked Wall</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Concrete</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>High Contrast Wall</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Concrete Bricks</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ground</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Speckled Asphalt</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Weathered Rock</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cinder Blocks</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Porous Concrete</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Concrete Holes</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Spattered Bricks</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Spattered Bricks 2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Grimy Bricks</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Weathered Paint</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Weathered Rock</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>Scale</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="2">
+          <OfxPropLabel>Center</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>Texture Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>Texture Contrast</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>Texture Blur</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="1001">
+          <OfxPropLabel>Displacement Map</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="1002">
+          <OfxPropLabel>Use Displacement</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="1003">
+          <OfxPropLabel>Horizontal Displacement</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1004">
+          <OfxPropLabel>Vertical Displacement</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1005">
+          <OfxPropLabel>Soften Displacement Map</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="6">
+          <OfxPropLabel>Tint</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>Tint Strength</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="8">
+          <OfxPropLabel>Blend Mode</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Darken</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Multiply</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Burn</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Add</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Lighten</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Dodge</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Overlay</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Soft Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hard Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Difference</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Exclusion</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Subtract</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Saturation</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Luminosity</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cutout</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Behind</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="9">
+          <OfxPropLabel>Mask</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="10">
+          <OfxPropLabel>Enable Mask</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>Scale</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="12">
+          <OfxPropLabel>Center</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="13">
+          <OfxPropLabel>Aspect</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="14">
+          <OfxPropLabel>Falloff</OfxPropLabel>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

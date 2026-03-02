@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="us.co.misc.Textuler">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>Textuler</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Draw</OfxImageEffectPluginPropGrouping>
+      <OfxPropPluginDescription>Text drawing node plugin</OfxPropPluginDescription>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="presets">
+          <OfxPropLabel>Presets</OfxPropLabel>
+          <OfxParamPropHint>Set a pre-designed bubble/text designed by the Textuler team</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Select a preset</OfxParamPropChoiceOption>
+          <!-- <OfxParamPropChoiceOption>Rounded_BlueGrad-L</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded_BumbleBee Bright</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded_BumbleBee Dark</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded_DarkGrey_Shadow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded_FancyCyan-L</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded_FancyPurple-R</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded_Lavender-R</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded_LightLime-L</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded_LightYellow-R</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded_Lime</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded_MutedBlue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded_OrangeBreeze-R</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded_Outline_Black-L</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded_Outline_Blue-R</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded_Outline_Green-L</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded_Outline_Orange-L</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded_Outline_White-R</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded_Pill_Blue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded_Pill_Green</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded_Pill_Red</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded_Pill_Rose</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded_Teal-L</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded_TriangleBlue-R</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded_TriangleGolden-R</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded_TriangleGrey-L</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded_TrianglePink-L</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded_TriangleSunsetGrad-R</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded_Triangle_TealGrad-L</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded_WavyBlue-R</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded_WavyGreen-R</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded_WavyGrey_Dark-L</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded_WavyGrey_Light-L</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rounded_WhiteNTeal-R</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square_BurntOrange</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square_MutedCrimson</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square_SkyGrad</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square_TriangleGreen-L</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square_TriangleLongSoftPink-L</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square_TriangleMagenta-R</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square_White&amp;Grey</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>UserIcon_CoolShaded</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>UserIcon_DarkPurple</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>UserIcon_Grey</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>UserIcon_OJ</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>UserIcon_Saturated</OfxParamPropChoiceOption> -->
+        </OfxParamTypeChoice>
+        <OfxParamTypePushButton name="licenseButton">
+          <OfxPropLabel>License Manager</OfxPropLabel>
+          <OfxParamPropHint>License Manager</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypeInteger2D name="position">
+          <OfxPropLabel>Position</OfxPropLabel>
+          <OfxParamPropHint>Set the position of the node</OfxParamPropHint>
+        </OfxParamTypeInteger2D>
+        <OfxParamTypeChoice name="bubbleShape">
+          <OfxPropLabel>Bubble Shape</OfxPropLabel>
+          <OfxParamPropHint>The shape of the bubble surrounding the text</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Rounded Rectangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Circle</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="bubbleSizing">
+          <OfxPropLabel>Bubble Sizing</OfxPropLabel>
+          <OfxParamPropHint>How the size of the text bubble is driven, can be text-driven or fixed</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Automatic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Fixed</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeInteger2D name="bubbleSize">
+          <OfxPropLabel>Bubble Size</OfxPropLabel>
+          <OfxParamPropHint>Bubble size calculated from bubble sizing</OfxParamPropHint>
+        </OfxParamTypeInteger2D>
+        <OfxParamTypeChoice name="horizontalJustify">
+          <OfxPropLabel>Bubble X Align</OfxPropLabel>
+          <OfxParamPropHint>Horizontal justification of textbox to canvas</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Left</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Center</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Right</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="verticalJustify">
+          <OfxPropLabel>Bubble Y Align</OfxPropLabel>
+          <OfxParamPropHint>Vertical justification of textbox to canvas</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Top</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Center</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Bottom</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeInteger2D name="textCenterOffset">
+          <OfxPropLabel>Text Offset</OfxPropLabel>
+          <OfxParamPropHint>Set the offset of the text box in the x and y direction with 0, 0 being the center of the bubble</OfxParamPropHint>
+        </OfxParamTypeInteger2D>
+        <OfxParamTypeChoice name="alignment">
+          <OfxPropLabel>Text Alignment</OfxPropLabel>
+          <OfxParamPropHint>Alignment of the text within the bubble</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Left</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Center</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Right</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeString name="textMessage">
+          <OfxPropLabel>Text Message</OfxPropLabel>
+          <OfxParamPropHint>The text content of the message</OfxParamPropHint>
+        </OfxParamTypeString>
+        <OfxParamTypePushButton name="advancedTextEdit">
+          <OfxPropLabel>Advanced Text Edit</OfxPropLabel>
+          <OfxParamPropHint>Advanced Text Edit</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypeString name="attrList">
+          <OfxPropLabel>Attr List</OfxPropLabel>
+          <OfxParamPropHint>Hidden parameter to store advanced text edits</OfxParamPropHint>
+        </OfxParamTypeString>
+        <OfxParamTypePushButton name="fontSelectorButton">
+          <OfxPropLabel>Select Font</OfxPropLabel>
+          <OfxParamPropHint>Select Font</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="fontFamily">
+          <OfxPropLabel>Font Family</OfxPropLabel>
+          <OfxParamPropHint>Select the font to be used.</OfxParamPropHint>
+        </OfxParamTypeChoice>
+        <OfxParamTypeString name="fontFace">
+          <OfxPropLabel>Font Face</OfxPropLabel>
+          <OfxParamPropHint>Font face from selected font, pickable using the Select Font and Face button</OfxParamPropHint>
+        </OfxParamTypeString>
+        <OfxParamTypeDouble name="fontSize">
+          <OfxPropLabel>Font Size</OfxPropLabel>
+          <OfxParamPropHint>The height of the characters to render in pixels.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="letterSpace">
+          <OfxPropLabel>Letter Spacing</OfxPropLabel>
+          <OfxParamPropHint>Spacing between letters.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="lineSpacing">
+          <OfxPropLabel>Line Spacing</OfxPropLabel>
+          <OfxParamPropHint>Spacing between each line (similar to single/double line property in word).</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="weight">
+          <OfxPropLabel>Font Weight</OfxPropLabel>
+          <OfxParamPropHint>Select the font style</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Thin (Hairline)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ultralight (Extra Light)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Semilight</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Book</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Normal (Regular)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Medium</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Semibold (Demi Bold)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Bold</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ultrabold (Extra Bold)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Heavy (Black)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ultraheavy (Extra Black)</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="fontStretch">
+          <OfxPropLabel>Font Stretch</OfxPropLabel>
+          <OfxParamPropHint>Specifies the width of the font relative to other designs in the font family</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Ultra Condensed</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Extra Condensed</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Condensed</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Semi Condensed</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Semi Expanded</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Expanded</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Extra Expanded</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ultra Expanded</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="underline">
+          <OfxPropLabel>Underline</OfxPropLabel>
+          <OfxParamPropHint>Select the underline style</OfxParamPropHint>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Single</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Double</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Low</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Error</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Single (Line)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Double (Line)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Error (Line)</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="italics">
+          <OfxPropLabel>Italic</OfxPropLabel>
+          <OfxParamPropHint>Enable or disable italics for selected font</OfxParamPropHint>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Italic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Oblique</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeRGBA name="bubbleBGColor">
+          <OfxPropLabel>Bubble Color</OfxPropLabel>
+          <OfxParamPropHint>The fill color of the bubble.</OfxParamPropHint>
+        </OfxParamTypeRGBA>
+        <OfxParamTypeDouble name="bubbleBGColorOpacity">
+          <OfxPropLabel>Bubble Opacity</OfxPropLabel>
+          <OfxParamPropHint>Adjusts transparency of bubbles background color</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGBA name="color">
+          <OfxPropLabel>Text Color</OfxPropLabel>
+          <OfxParamPropHint>The fill color of the text to render.</OfxParamPropHint>
+        </OfxParamTypeRGBA>
+        <OfxParamTypeDouble name="textColorOpacity">
+          <OfxPropLabel>Text Opacity</OfxPropLabel>
+          <OfxParamPropHint>Adjusts transparency of text color</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="disableBubble">
+          <OfxPropLabel>Disable Bubble</OfxPropLabel>
+          <OfxParamPropHint>Do not draw the rectangle surrounding the text</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="disableText">
+          <OfxPropLabel>Disable Text</OfxPropLabel>
+          <OfxParamPropHint>Do not draw the text inside of the rectangle</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeString name="emojiFont">
+          <OfxPropLabel>Emoji Font</OfxPropLabel>
+          <OfxParamPropHint>Specifies which font face will get priority as an emoji font before fallback fonts are applied</OfxParamPropHint>
+        </OfxParamTypeString>
+        <OfxParamTypeGroup name="bubbleExpansionGroup">
+          <OfxPropLabel>Bubble Expansion</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeInteger name="bubbleExpansion">
+          <OfxPropLabel>Bubble Expansion</OfxPropLabel>
+          <OfxParamPropHint>Expands the message bubble in all directions. Disabled if individual expansion is selected</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeBoolean name="individualExpansion">
+          <OfxPropLabel>Individual Expansion</OfxPropLabel>
+          <OfxParamPropHint>Specify bubble expansion individually</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeInteger name="topExpansion">
+          <OfxPropLabel>Top Expansion</OfxPropLabel>
+          <OfxParamPropHint>Expansion of bubble towards the top</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="bottomExpansion">
+          <OfxPropLabel>Bottom Expansion</OfxPropLabel>
+          <OfxParamPropHint>Expansion of bubble towards the bottom</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="leftExpansion">
+          <OfxPropLabel>Left Expansion</OfxPropLabel>
+          <OfxParamPropHint>Expansion of bubble towards the left</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="rightExpansion">
+          <OfxPropLabel>Right Expansion</OfxPropLabel>
+          <OfxParamPropHint>Expansion of bubble towards the right</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeGroup name="bubbleRadiusGroup">
+          <OfxPropLabel>Bubble Corner Radius</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeInteger name="cornerRadius">
+          <OfxPropLabel>Corner Radius</OfxPropLabel>
+          <OfxParamPropHint>Sets the corner radius of the text bubble</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeBoolean name="individualRounding">
+          <OfxPropLabel>Individual Rounding</OfxPropLabel>
+          <OfxParamPropHint>Specify corner rouding individually</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeInteger name="topLeftRadius">
+          <OfxPropLabel>Top Left Radius</OfxPropLabel>
+          <OfxParamPropHint>Sets the corner radius of the top-left of the text bubble</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="topRightRadius">
+          <OfxPropLabel>Top Right Radius</OfxPropLabel>
+          <OfxParamPropHint>Sets the corner radius of the top-right of the text bubble</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="bottomLeftRadius">
+          <OfxPropLabel>Bottom Left Radius</OfxPropLabel>
+          <OfxParamPropHint>Sets the corner radius of the bottom-left of the text bubble</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="bottomRightRadius">
+          <OfxPropLabel>Bottom Right Radius</OfxPropLabel>
+          <OfxParamPropHint>Sets the corner radius of the bottom-right of the text bubble</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeGroup name="tailSettings">
+          <OfxPropLabel>Bubble Tail</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="enableTail">
+          <OfxPropLabel>Enable Tail</OfxPropLabel>
+          <OfxParamPropHint>Enable drawing tail at end of message box</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="tailStyle">
+          <OfxPropLabel>Tail Style</OfxPropLabel>
+          <OfxParamPropHint>Choose the style of tail to use</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Triangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Wavey</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Equilateral</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="tailSide">
+          <OfxPropLabel>Tail Side</OfxPropLabel>
+          <OfxParamPropHint>Choose the side on which the tail lies</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Bottom Left</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Bottom Right</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Top Right</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Top Left</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="tailYScale">
+          <OfxPropLabel>Tail Y Scale</OfxPropLabel>
+          <OfxParamPropHint>Scale the tail in the Y direction, if applicable</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="tailXScale">
+          <OfxPropLabel>Tail X Scale</OfxPropLabel>
+          <OfxParamPropHint>Scale the tail in the X direction, if applicable</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="tailPosition">
+          <OfxPropLabel>Position</OfxPropLabel>
+          <OfxParamPropHint>Changes the positioning of the tail if possible</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="borderGroup">
+          <OfxPropLabel>Bubble Border</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeInteger name="borderWidth">
+          <OfxPropLabel>Border Width</OfxPropLabel>
+          <OfxParamPropHint>Sets the border width of the text bubble</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeRGBA name="borderColor">
+          <OfxPropLabel>Border Color</OfxPropLabel>
+          <OfxParamPropHint>The fill color of the bubble border.</OfxParamPropHint>
+        </OfxParamTypeRGBA>
+        <OfxParamTypeDouble name="borderColorOpacity">
+          <OfxPropLabel>Border Color Opacity</OfxPropLabel>
+          <OfxParamPropHint>Adjusts the transparency of the border color of the gradient.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="enableBorderGradient">
+          <OfxPropLabel>Enable Gradient</OfxPropLabel>
+          <OfxParamPropHint>Enable Gradient for border</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="borderGradientType">
+          <OfxPropLabel>Gradient Type</OfxPropLabel>
+          <OfxParamPropHint>Linear or Radial gradient type</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Linear</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Radial</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeRGBA name="borderStartColor">
+          <OfxPropLabel>Start Color</OfxPropLabel>
+          <OfxParamPropHint>Mirror the bubble gradient settings but with custom colors (border color ignored)</OfxParamPropHint>
+        </OfxParamTypeRGBA>
+        <OfxParamTypeDouble name="borderStartColorOpacity">
+          <OfxPropLabel>Start Color Opacity</OfxPropLabel>
+          <OfxParamPropHint>Adjusts the transparency of the border start color of the gradient.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="borderStartXPosition">
+          <OfxPropLabel>Start X Position</OfxPropLabel>
+          <OfxParamPropHint>The start x position of the border gradient as a percentage of the box</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="borderStartYPosition">
+          <OfxPropLabel>Start Y Position</OfxPropLabel>
+          <OfxParamPropHint>The start y position of the border gradient as a percentage of the box</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGBA name="borderEndColor">
+          <OfxPropLabel>End Color</OfxPropLabel>
+          <OfxParamPropHint>Mirror the bubble gradient settings but with custom colors (border color ignored)</OfxParamPropHint>
+        </OfxParamTypeRGBA>
+        <OfxParamTypeDouble name="borderEndColorOpacity">
+          <OfxPropLabel>End Color Opacity</OfxPropLabel>
+          <OfxParamPropHint>Adjusts the transparency of the border end color of the gradient</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="borderEndXPosition">
+          <OfxPropLabel>End X Position</OfxPropLabel>
+          <OfxParamPropHint>The end x position of the border gradient as a percentage of the box</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="borderEndYPosition">
+          <OfxPropLabel>End Y Position</OfxPropLabel>
+          <OfxParamPropHint>The end y position of the border gradient as a percentage of the box</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="borderGradColorMidpoint">
+          <OfxPropLabel>Color Midpoint</OfxPropLabel>
+          <OfxParamPropHint>Color midpoint for border gradient</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="isolateBorder">
+          <OfxPropLabel>Isolate Border</OfxPropLabel>
+          <OfxParamPropHint>Hides the bubble showing only the outline of the border</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypePushButton name="copyBubbleColors">
+          <OfxPropLabel>Copy Colors From Bubble</OfxPropLabel>
+          <OfxParamPropHint>Copy Colors From Bubble</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypeGroup name="gradSettings">
+          <OfxPropLabel>Bubble Gradient</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="enableGradient">
+          <OfxPropLabel>Enable Bubble Gradient</OfxPropLabel>
+          <OfxParamPropHint>Check to enable gradient background. Background color field will be ignored when enabled.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="gradientType">
+          <OfxPropLabel>Gradient Type</OfxPropLabel>
+          <OfxParamPropHint>Linear or Radial gradient type</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Linear</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Radial</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeRGBA name="gradStartColor">
+          <OfxPropLabel>Start Color</OfxPropLabel>
+          <OfxParamPropHint>The start color of the gradient.</OfxParamPropHint>
+        </OfxParamTypeRGBA>
+        <OfxParamTypeDouble name="gradStartColorOpacity">
+          <OfxPropLabel>Start Color Opacity</OfxPropLabel>
+          <OfxParamPropHint>Adjusts the transparency of the start color of the gradient.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="startXPosition">
+          <OfxPropLabel>Start X Position</OfxPropLabel>
+          <OfxParamPropHint>The start x position of the gradient as a percentage of the box</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="startYPosition">
+          <OfxPropLabel>Start Y Position</OfxPropLabel>
+          <OfxParamPropHint>The start y position of the gradient as a percentage of the box</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGBA name="grandEndColor">
+          <OfxPropLabel>End Color</OfxPropLabel>
+          <OfxParamPropHint>The end color of the gradient.</OfxParamPropHint>
+        </OfxParamTypeRGBA>
+        <OfxParamTypeDouble name="grandEndColorOpacity">
+          <OfxPropLabel>End Color Opacity</OfxPropLabel>
+          <OfxParamPropHint>Adjusts the transparency of the end color of the gradient.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="endXPosition">
+          <OfxPropLabel>End X Position</OfxPropLabel>
+          <OfxParamPropHint>The end x position of the gradient as a percentage of the box</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="endYPosition">
+          <OfxPropLabel>End Y Position</OfxPropLabel>
+          <OfxParamPropHint>The end y position of the gradient as a percentage of the box</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="gradColorMidpoint">
+          <OfxPropLabel>Color Midpoint</OfxPropLabel>
+          <OfxParamPropHint>Color midpoint for gradient</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="revealGroup">
+          <OfxPropLabel>Text Reveal</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="textReveal">
+          <OfxPropLabel>Text Reveal</OfxPropLabel>
+          <OfxParamPropHint>Key to control reveal of characters, words, or lines</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="revealType">
+          <OfxPropLabel>Reveal Type</OfxPropLabel>
+          <OfxParamPropHint>Choice to control reveal by character, word, or line</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Character</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Word</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Line</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="revealTextOnly">
+          <OfxPropLabel>Reveal Text Only</OfxPropLabel>
+          <OfxParamPropHint>Keeps bubble size expanded while revealing text</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="enableHumanize">
+          <OfxPropLabel>Enable Text Humanization</OfxPropLabel>
+          <OfxParamPropHint>Animates text to emulate typing</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeInteger name="humanizeDuration">
+          <OfxPropLabel>Duration</OfxPropLabel>
+          <OfxParamPropHint>Total duration in frames the user spends typing (defaults to project frame range)</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="humanizeTypingSpeed">
+          <OfxPropLabel>Typing Speed</OfxPropLabel>
+          <OfxParamPropHint>Typing speed changes how quickly the user types through words, inversely related to how much time spend pausing between words</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="humanizeAccuracy">
+          <OfxPropLabel>Typing Accuracy</OfxPropLabel>
+          <OfxParamPropHint>Probability the human makes a mistake per word, with 1 being a perfect typer</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="randomSeed">
+          <OfxPropLabel>Random Seed</OfxPropLabel>
+          <OfxParamPropHint>Value that randomizes the generator for generating various texts</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeString name="mistakeCharset">
+          <OfxPropLabel>Mistake Characters</OfxPropLabel>
+          <OfxParamPropHint>Characters that users are allowed to mistakenly type</OfxParamPropHint>
+        </OfxParamTypeString>
+        <OfxParamTypeGroup name="textGradSettings">
+          <OfxPropLabel>Text Gradient</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="enableTextGradient">
+          <OfxPropLabel>Enable Text Gradient</OfxPropLabel>
+          <OfxParamPropHint>Check to enable text gradient background. Text color field will be ignored when enabled.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="textGradientType">
+          <OfxPropLabel>Gradient Type</OfxPropLabel>
+          <OfxParamPropHint>Linear or Radial gradient type</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Linear</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Radial</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeRGBA name="textGradStartColor">
+          <OfxPropLabel>Start Color</OfxPropLabel>
+          <OfxParamPropHint>The start color of the gradient.</OfxParamPropHint>
+        </OfxParamTypeRGBA>
+        <OfxParamTypeDouble name="textGradStartColorOpacity">
+          <OfxPropLabel>Start Color Opacity</OfxPropLabel>
+          <OfxParamPropHint>Adjusts the transparency of the start color of the gradient</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="textStartXPosition">
+          <OfxPropLabel>Start X Position</OfxPropLabel>
+          <OfxParamPropHint>The start x position of the gradient as a percentage of the box</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="textStartYPosition">
+          <OfxPropLabel>Start Y Position</OfxPropLabel>
+          <OfxParamPropHint>The start y position of the gradient as a percentage of the box</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGBA name="textGradEndColor">
+          <OfxPropLabel>End Color</OfxPropLabel>
+          <OfxParamPropHint>The end color of the gradient.</OfxParamPropHint>
+        </OfxParamTypeRGBA>
+        <OfxParamTypeDouble name="textGradEndColorOpacity">
+          <OfxPropLabel>Ene Color Opacity</OfxPropLabel>
+          <OfxParamPropHint>Adjusts the transparency of the end color of the gradient</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="textEndXPosition">
+          <OfxPropLabel>End X Position</OfxPropLabel>
+          <OfxParamPropHint>The end x position of the gradient as a percentage of the box</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="textEndYPosition">
+          <OfxPropLabel>End Y Position</OfxPropLabel>
+          <OfxParamPropHint>The end y position of the gradient as a percentage of the box</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="textGradColorMidpoint">
+          <OfxPropLabel>Color Midpoint</OfxPropLabel>
+          <OfxParamPropHint>Color midpoint for gradient</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="textStrokeGroup">
+          <OfxPropLabel>Text Stroke</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="enableTextStroke">
+          <OfxPropLabel>Enable Text Stroke</OfxPropLabel>
+          <OfxParamPropHint>Enable stroke around text</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="textStrokeWidth">
+          <OfxPropLabel>Stroke Width</OfxPropLabel>
+          <OfxParamPropHint>The size of the stroke width around the text</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGBA name="textStrokeColor">
+          <OfxPropLabel>Stroke Color</OfxPropLabel>
+          <OfxParamPropHint>The color of the text stroke</OfxParamPropHint>
+        </OfxParamTypeRGBA>
+        <OfxParamTypeDouble name="textStrokeOpacity">
+          <OfxPropLabel>Opacity</OfxPropLabel>
+          <OfxParamPropHint>Adjusts the transparency of the text stroke</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="dropShadow">
+          <OfxPropLabel>Text Drop Shadow</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="enableDropShadow">
+          <OfxPropLabel>Enable Drop Shadow</OfxPropLabel>
+          <OfxParamPropHint>Enable Drop Shadow for inner text box</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="dropShadowDirection">
+          <OfxPropLabel>Direction</OfxPropLabel>
+          <OfxParamPropHint>Direction of the drop shadow from 0 to 360 degrees</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="dropShadowDistance">
+          <OfxPropLabel>Distance</OfxPropLabel>
+          <OfxParamPropHint>Distance</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="dropShadowSoftness">
+          <OfxPropLabel>Softness</OfxPropLabel>
+          <OfxParamPropHint>Softness of blur for drop shadow</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGBA name="dropShadowColor">
+          <OfxPropLabel>Color</OfxPropLabel>
+          <OfxParamPropHint>Color of shadow in the background</OfxParamPropHint>
+        </OfxParamTypeRGBA>
+        <OfxParamTypeDouble name="dropShadowOpacity">
+          <OfxPropLabel>Opacity</OfxPropLabel>
+          <OfxParamPropHint>Adjusts the transparency of the drop shadow</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="textCursor">
+          <OfxPropLabel>Text Cursor</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="enableTextCursor">
+          <OfxPropLabel>Enable Text Cursor</OfxPropLabel>
+          <OfxParamPropHint>Draws a text cursor in the given offset from the last inserted character</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeInteger name="cursorOffset">
+          <OfxPropLabel>Character Offset</OfxPropLabel>
+          <OfxParamPropHint>Character offset relative to the back of the text (0 being the last character, 1 being 2nd to last, etc)</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger2D name="cursorPositionOffset">
+          <OfxPropLabel>Position Offset</OfxPropLabel>
+          <OfxParamPropHint>X and Y offset of the position of the cursor</OfxParamPropHint>
+        </OfxParamTypeInteger2D>
+        <OfxParamTypeInteger name="cursorBlinkRate">
+          <OfxPropLabel>Blink Rate</OfxPropLabel>
+          <OfxParamPropHint>On/off of blinker based on frames, a blink rate of 5 means the cursor will be on for 5 frames then off for 5</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeRGBA name="cursorColor">
+          <OfxPropLabel>Color</OfxPropLabel>
+          <OfxParamPropHint>Color of the cursor</OfxParamPropHint>
+        </OfxParamTypeRGBA>
+        <OfxParamTypeDouble name="cursorColorOpacity">
+          <OfxPropLabel>Opacity</OfxPropLabel>
+          <OfxParamPropHint>Adjusts transparency of cursor</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="cursorWidth">
+          <OfxPropLabel>Width</OfxPropLabel>
+          <OfxParamPropHint>Width of cursor in pixels</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="cursorHeight">
+          <OfxPropLabel>Height</OfxPropLabel>
+          <OfxParamPropHint>Height of cursor in pixels. A height of 0 will cause cursor height to match the character height (auto-height)</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeInteger name="cursorRoundness">
+          <OfxPropLabel>Roundness</OfxPropLabel>
+          <OfxParamPropHint>Controls the corner rounding of the cursor</OfxParamPropHint>
+        </OfxParamTypeInteger>
+        <OfxParamTypeGroup name="outputSettings">
+          <OfxPropLabel>Output Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="outputAsLinear">
+          <OfxPropLabel>Emojis/Colorfonts as linear</OfxPropLabel>
+          <OfxParamPropHint>Final output of emojis and color fonts as linear (useful for Nuke's)</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble3D name="brightnessRGB">
+          <OfxPropLabel>Text Brightness RGB</OfxPropLabel>
+          <OfxParamPropHint>Scale for adjusting text output RGB</OfxParamPropHint>
+        </OfxParamTypeDouble3D>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

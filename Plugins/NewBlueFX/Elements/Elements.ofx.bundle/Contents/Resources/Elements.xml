@@ -1,0 +1,2176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.NewBlue.ELActiveCamera">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>Active Camera</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue Elements</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>Preset</OfxPropLabel>
+          <OfxParamPropHint>Opens Presets drop-down menu</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Dirt Road</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hand Held</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Itchy Camera</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Jack Hammer</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Jumping Image</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Large Boat</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Reset To None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rocket Ship</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Seesaw</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Stumbling Drunk</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Subtle Moves</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Train Ride</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Wild Shaking</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Open Preset...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Save Preset As...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="0">
+          <OfxPropLabel>Horizontal</OfxPropLabel>
+          <OfxParamPropHint>Sets range of motion from side to side</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>Vertical</OfxPropLabel>
+          <OfxParamPropHint>Sets range of motion up and down</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>Rotation</OfxPropLabel>
+          <OfxParamPropHint>Sets range of rotation around center</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>Crop</OfxPropLabel>
+          <OfxParamPropHint>Adjusts size of the image</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>Rate</OfxPropLabel>
+          <OfxParamPropHint>Sets speed at which camera moves</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>Jitter</OfxPropLabel>
+          <OfxParamPropHint>Sets rate and intensity of random jitter</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>Hold</OfxPropLabel>
+          <OfxParamPropHint>Sets time at each new position</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>Blur</OfxPropLabel>
+          <OfxParamPropHint>Creates trailing ghost of image</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="8">
+          <OfxPropLabel>Synchronize Axes</OfxPropLabel>
+          <OfxParamPropHint>Ensures all motions stay coordinated</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.ELAlphaProcessor">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>Alpha Processor</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue Elements</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>Preset</OfxPropLabel>
+          <OfxParamPropHint>Opens Presets drop-down menu</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Black and White Mask</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Black Halo</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Clean Chromakey</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cutout</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Overlapping Cutout</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Premultiply</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Reset to None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Transparent Edges</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Open Preset...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Save Preset As...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="0">
+          <OfxPropLabel>Grow</OfxPropLabel>
+          <OfxParamPropHint>Sets the size of the alpha mask</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>Blur</OfxPropLabel>
+          <OfxParamPropHint>Sets how sharp the alpha mask is</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="2">
+          <OfxPropLabel>Invert</OfxPropLabel>
+          <OfxParamPropHint>Inverts the alpha mask</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="3">
+          <OfxPropLabel>Premultiply</OfxPropLabel>
+          <OfxParamPropHint>Blends transparent edges of alpha channel with background</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="4">
+          <OfxPropLabel>Test Mask</OfxPropLabel>
+          <OfxParamPropHint>Shows the image as a black and white mask</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.ELAutoPan">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>Auto Pan</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue Elements</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>Preset</OfxPropLabel>
+          <OfxParamPropHint>Opens Presets drop-down menu</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Ease In</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease Out</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Empty</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>From Bottom</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>From Top Left</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>From Top Right</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Left to Right</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Left to Right Tight</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Opposite Corners</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Reset to None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rotate Big</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rotate In</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Swoop Down</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Swoop Up</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Tilt In</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Tilt Out</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Top to Bottom</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Top to Bottom Tight</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Twist In</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Zoom Out</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Open Preset...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Save Preset As...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="0">
+          <OfxPropLabel>Set Up View</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="1">
+          <OfxPropLabel>Start</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble2D name="2">
+          <OfxPropLabel>Position</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>Rotate</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>Zoom</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="6">
+          <OfxPropLabel>End</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble2D name="7">
+          <OfxPropLabel>Position</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="8">
+          <OfxPropLabel>Rotate</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="9">
+          <OfxPropLabel>Zoom</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="11">
+          <OfxPropLabel>Animation</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="12">
+          <OfxPropLabel>Velocity</OfxPropLabel>
+          <OfxParamPropChoiceOption>Ease In</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease Out</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Smooth</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Linear</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="13">
+          <OfxPropLabel>Start Hold</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="14">
+          <OfxPropLabel>End Hold</OfxPropLabel>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.ELBackgroundGenerator">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>Background Generator</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue Elements</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>Preset</OfxPropLabel>
+          <OfxParamPropHint>Opens Presets drop-down menu</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Blue Ink</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cascading Down</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Chill</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Colored Blobs</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Colored Blobs</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Extreme Closeup</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Faded Memory</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Frantic Scroll</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Green Dream</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Green Haze</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Inferno</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Kaleidoscope</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Old Film</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Painted Panorama</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pale Scroll</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Reset to None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Tequila Sunrise</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Violent Dream</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Open Preset...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Save Preset As...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="0">
+          <OfxPropLabel>Image</OfxPropLabel>
+          <OfxParamPropHint>Background Generator</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>Magnify</OfxPropLabel>
+          <OfxParamPropHint>Sets the amount to magnify the area</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>Blur</OfxPropLabel>
+          <OfxParamPropHint>Sets how sharp the image is</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="3">
+          <OfxPropLabel>Color</OfxPropLabel>
+          <OfxParamPropHint>Selects a color to tint the image</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>Tint</OfxPropLabel>
+          <OfxParamPropHint>Sets how much color is applied to the image</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>Saturation</OfxPropLabel>
+          <OfxParamPropHint>Adjusts the strength of the image colors</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>Brightness</OfxPropLabel>
+          <OfxParamPropHint>Sets image brightness</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>Clarity</OfxPropLabel>
+          <OfxParamPropHint>Adjusts the image contrast</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="8">
+          <OfxPropLabel>Opacity</OfxPropLabel>
+          <OfxParamPropHint>Sets the visibility of the background</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="10">
+          <OfxPropLabel>Motion</OfxPropLabel>
+          <OfxParamPropHint>Background Generator</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>Angle</OfxPropLabel>
+          <OfxParamPropHint>Sets the direction of movement</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>Speed</OfxPropLabel>
+          <OfxParamPropHint>Sets the background speed</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="13">
+          <OfxPropLabel>Cross Fade</OfxPropLabel>
+          <OfxParamPropHint>Adjusts the transition softness between the edges</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="14">
+          <OfxPropLabel>Start position</OfxPropLabel>
+          <OfxParamPropHint>Sets the position where the image begins</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.ELChromaKeyPro">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>Chroma Key Pro</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue Elements</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>Preset</OfxPropLabel>
+          <OfxParamPropHint>Opens Presets drop-down menu</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Reset to None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Black Outline</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Blue Key</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Blue Key Ghostly Aura</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Blue Key Omit Sides</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Blue Key Only Center</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Blue Key with Glow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Green Key</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Green Key Ghostly Aura</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Green Key Omit Sides</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Green Key Only Center</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Green Key with Glow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hard Drop Shadow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Soft Drop Shadow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>White Outline</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Open Preset...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Save Preset As...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="0">
+          <OfxPropLabel>Show Mask</OfxPropLabel>
+          <OfxParamPropHint>View the chroma key or shape mask</OfxParamPropHint>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Chroma Key</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Shape mask</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="1">
+          <OfxPropLabel>Chroma Key</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="2">
+          <OfxPropLabel>Color</OfxPropLabel>
+          <OfxParamPropHint>Sets the color used in the background</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>Color Range</OfxPropLabel>
+          <OfxParamPropHint>Adjusts the range of color used in the background</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>Sensitivity</OfxPropLabel>
+          <OfxParamPropHint>Sets the sensitivity of the keyer</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>Smooth Key</OfxPropLabel>
+          <OfxParamPropHint>Cleans colors in the imageRemoves key color from the image</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>Erase Spill</OfxPropLabel>
+          <OfxParamPropHint>Blurs the edges of the mask</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>Feather</OfxPropLabel>
+          <OfxParamPropHint>Reduces size of visible portion of foreground image</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="8">
+          <OfxPropLabel>Shrink</OfxPropLabel>
+          <OfxParamPropHint>Reverses the chroma key</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="9">
+          <OfxPropLabel>Invert</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="11">
+          <OfxPropLabel>Garbage Matte</OfxPropLabel>
+          <OfxParamPropHint>Sets the top left corner of the garbage matte</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble2D name="12">
+          <OfxPropLabel>Top Left</OfxPropLabel>
+          <OfxParamPropHint>Sets the top right corner of the garbage matte</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="13">
+          <OfxPropLabel>Top Right</OfxPropLabel>
+          <OfxParamPropHint>Sets the bottom left corner of the garbage matte</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="14">
+          <OfxPropLabel>Bottom Left</OfxPropLabel>
+          <OfxParamPropHint>Sets the bottom right corner of the garbage matte</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="15">
+          <OfxPropLabel>Bottom Right</OfxPropLabel>
+          <OfxParamPropHint>Sets the roundness of the garbage matte</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="16">
+          <OfxPropLabel>Curve</OfxPropLabel>
+          <OfxParamPropHint>Blurs the edges of the garbage matte</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="17">
+          <OfxPropLabel>Feather</OfxPropLabel>
+          <OfxParamPropHint>Reverses the garbage matte</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="18">
+          <OfxPropLabel>Invert</OfxPropLabel>
+          <OfxParamPropHint>Enables the garbage matte</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="19">
+          <OfxPropLabel>Enable</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="21">
+          <OfxPropLabel>Outline</OfxPropLabel>
+          <OfxParamPropHint>Sets color of outline</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="22">
+          <OfxPropLabel>Color</OfxPropLabel>
+          <OfxParamPropHint>Sets size of outline</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="23">
+          <OfxPropLabel>Width</OfxPropLabel>
+          <OfxParamPropHint>Blurs edges of outline</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="24">
+          <OfxPropLabel>Soften</OfxPropLabel>
+          <OfxParamPropHint>Sets visibility of outline</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="25">
+          <OfxPropLabel>Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="27">
+          <OfxPropLabel>Drop Shadow</OfxPropLabel>
+          <OfxParamPropHint>Sets the border color</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="28">
+          <OfxPropLabel>Color</OfxPropLabel>
+          <OfxParamPropHint>Sets the distance of the shadow</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="29">
+          <OfxPropLabel>Offset</OfxPropLabel>
+          <OfxParamPropHint>Sets the direction of the shadow</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="30">
+          <OfxPropLabel>Angle</OfxPropLabel>
+          <OfxParamPropHint>Sets the width of the blurring</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="31">
+          <OfxPropLabel>Blur</OfxPropLabel>
+          <OfxParamPropHint>Sets the visibility of the border</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="32">
+          <OfxPropLabel>Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.ELCutAway">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>Cut Away</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue Elements</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>Preset</OfxPropLabel>
+          <OfxParamPropHint>Opens Presets drop-down menu</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Reset to None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Black Circle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Black Rectangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Centered Circle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Diamond</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Extreme Closeup</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Framed Picture</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Magnify Center</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Offset Center Square</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Scan Horizontal End</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Scan Horizontal Start</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Side by Side</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Simple Circle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Simple Rectangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Stacked Zoom</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Superimposition</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Wedge</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>White Circle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>White Rectangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Zoom Diamond Thin Border</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Zoom In</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Open Preset...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Save Preset As...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="0">
+          <OfxPropLabel>Placement</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble2D name="1">
+          <OfxPropLabel>Origin</OfxPropLabel>
+          <OfxParamPropHint>Sets the location of the magnification area</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="2">
+          <OfxPropLabel>View</OfxPropLabel>
+          <OfxParamPropHint>Sets the position of the magnified image</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeChoice name="3">
+          <OfxPropLabel>Shape</OfxPropLabel>
+          <OfxParamPropHint>Sets shape of the area to be magnified</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Oval</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rectangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Diamond</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>Size</OfxPropLabel>
+          <OfxParamPropHint>Sets the size of the magnified area</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>Aspect Ratio</OfxPropLabel>
+          <OfxParamPropHint>Sets the aspect of the magnified area</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>Magnify</OfxPropLabel>
+          <OfxParamPropHint>Sets the amount to magnify the area</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="8">
+          <OfxPropLabel>Border</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="9">
+          <OfxPropLabel>Color</OfxPropLabel>
+          <OfxParamPropHint>Sets the color of the border</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="10">
+          <OfxPropLabel>Width</OfxPropLabel>
+          <OfxParamPropHint>Sets the width of the border</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>Feather</OfxPropLabel>
+          <OfxParamPropHint>Softens the edges of the border</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="13">
+          <OfxPropLabel>Background</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="14">
+          <OfxPropLabel>Dim</OfxPropLabel>
+          <OfxParamPropHint>Sets the dimming of the background</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="15">
+          <OfxPropLabel>Blur</OfxPropLabel>
+          <OfxParamPropHint>Sets the blurring of the background</OfxParamPropHint>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.ELDropShadow">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>Drop Shadow</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue Elements</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>Preset</OfxPropLabel>
+          <OfxParamPropHint>Opens Presets drop-down menu</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Add Definition</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Extrude Bottom</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Flashlight Shadow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>From Top</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Long Shadow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Reset to None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Slightly Raised</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Open Preset...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Save Preset As...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="0">
+          <OfxPropLabel>Offset</OfxPropLabel>
+          <OfxParamPropHint>Sets the distance of the shadow</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>Angle</OfxPropLabel>
+          <OfxParamPropHint>Sets the direction of the shadow</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>Blur</OfxPropLabel>
+          <OfxParamPropHint>Sets the width of the blurring</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="3">
+          <OfxPropLabel>Color</OfxPropLabel>
+          <OfxParamPropHint>Sets the border color</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>Opacity</OfxPropLabel>
+          <OfxParamPropHint>Sets the visibility of the border</OfxParamPropHint>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.ELFlyingPiP">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>Flying PiP</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue Elements</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>Preset</OfxPropLabel>
+          <OfxParamPropHint>Opens Presets drop-down menu</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Ease In</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Fall Away</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Fall In</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Fall Left</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Fall Right</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Fly from Corner</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Grow Fast</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Grow from Bottom</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Grow from Top</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Headline News</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Left Falling</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Reset to None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rotate In</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Slow Down Left</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Slow Down Right</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Top Left</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Top Right</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Traverse Bottom</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Traverse Top</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Open Preset...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Save Preset As...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="0">
+          <OfxPropLabel>Disable Animation</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="1">
+          <OfxPropLabel>Start Point</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble2D name="2">
+          <OfxPropLabel>Position</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>Rotation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>Zoom</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="6">
+          <OfxPropLabel>End Point (Animation)</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble2D name="7">
+          <OfxPropLabel>Position</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="8">
+          <OfxPropLabel>Rotation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="9">
+          <OfxPropLabel>Zoom</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="10">
+          <OfxPropLabel>Velocity</OfxPropLabel>
+          <OfxParamPropChoiceOption>Ease In</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease Out</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Smooth</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Linear</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>Start Hold</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="13">
+          <OfxPropLabel>End Hold</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="14">
+          <OfxPropLabel>Motion Blur</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="15">
+          <OfxPropLabel>Aspect Ratio</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="16">
+          <OfxPropLabel>Outline</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="17">
+          <OfxPropLabel>Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="18">
+          <OfxPropLabel>Width</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="19">
+          <OfxPropLabel>Soften</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="20">
+          <OfxPropLabel>Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="22">
+          <OfxPropLabel>Drop Shadow</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="23">
+          <OfxPropLabel>Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="24">
+          <OfxPropLabel>Offset</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="25">
+          <OfxPropLabel>Angle</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="26">
+          <OfxPropLabel>Blur</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="27">
+          <OfxPropLabel>Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.ELGarbageMatte">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>Garbage Matte</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue Elements</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>Preset</OfxPropLabel>
+          <OfxParamPropHint>Opens Presets drop-down menu</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Centered Square</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cropped In</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Keep Center Oval</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Keep Edges</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Keep Lower Left</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Keep Lower Right</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Keep Upper Left</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Keep Upper Right</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Matte Left Side</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Matte Right Side</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Omit Center Oval</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Omit Edges</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Omit Lower Left</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Omit Lower Right</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Omit Upper Left</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Omit Upper Right</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pyramid</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Reset to None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Open Preset...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Save Preset As...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="0">
+          <OfxPropLabel>Garbage Matte</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble2D name="1">
+          <OfxPropLabel>Top Left</OfxPropLabel>
+          <OfxParamPropHint>Sets the top left corner of the garbage matte</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="2">
+          <OfxPropLabel>Top Right</OfxPropLabel>
+          <OfxParamPropHint>Sets the top right corner of the garbage matte</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="3">
+          <OfxPropLabel>Bottom Left</OfxPropLabel>
+          <OfxParamPropHint>Sets the bottom left corner of the garbage matte</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="4">
+          <OfxPropLabel>Bottom Right</OfxPropLabel>
+          <OfxParamPropHint>Sets the bottom right corner of the garbage matte</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>Curve</OfxPropLabel>
+          <OfxParamPropHint>Sets the roundness of the garbage matte</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>Feather</OfxPropLabel>
+          <OfxParamPropHint>Blurs the edges of the garbage matte</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="7">
+          <OfxPropLabel>Invert</OfxPropLabel>
+          <OfxParamPropHint>Reverses the garbage matte</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="8">
+          <OfxPropLabel>Show Mask</OfxPropLabel>
+          <OfxParamPropHint>Shows the area outside the garbage matte as a negative image</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.ELGradientFillPro">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>Gradient Fill Pro</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue Elements</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>Preset</OfxPropLabel>
+          <OfxParamPropHint>Opens Presets drop-down menu</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Reset to None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Black and Shadow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cut Out on Black</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cut Out on Grey</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cut Out on White</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Embossed</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Shine and Shadow Pop</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Shine and Shadow Screen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Stencil</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Two Tone</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>White and Shadow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Open Preset...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Save Preset As...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="0">
+          <OfxPropLabel>Solid</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeGroup name="1">
+          <OfxPropLabel>First Color</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="2">
+          <OfxPropLabel>Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble2D name="3">
+          <OfxPropLabel>Position</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>Blend</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="7">
+          <OfxPropLabel>Second Color</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="8">
+          <OfxPropLabel>Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble2D name="9">
+          <OfxPropLabel>Position</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="10">
+          <OfxPropLabel>Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>Blend</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="12">
+          <OfxPropLabel>Disable</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="14">
+          <OfxPropLabel>Blending Mode</OfxPropLabel>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pop</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Multiply</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Lighten</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Darken</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Dodge</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Burn</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Negation</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="16">
+          <OfxPropLabel>Transparent</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeGroup name="17">
+          <OfxPropLabel>First Color</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="18">
+          <OfxPropLabel>Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble2D name="19">
+          <OfxPropLabel>Position</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="20">
+          <OfxPropLabel>Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="22">
+          <OfxPropLabel>Second Color</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="23">
+          <OfxPropLabel>Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble2D name="24">
+          <OfxPropLabel>Position</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="25">
+          <OfxPropLabel>Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="26">
+          <OfxPropLabel>Disable</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="29">
+          <OfxPropLabel>Drop Shadow</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="30">
+          <OfxPropLabel>Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="31">
+          <OfxPropLabel>Offset</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="32">
+          <OfxPropLabel>Angle</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="33">
+          <OfxPropLabel>Blur</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="34">
+          <OfxPropLabel>Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="35">
+          <OfxPropLabel>Target</OfxPropLabel>
+          <OfxParamPropChoiceOption>Opaque-&gt;Background</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Transparent-&gt;Back-d</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Opaque-&gt;Transparent</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Transparent-&gt;Opaque</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.ELImageMapper">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>Image Mapper</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue Elements</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>Preset</OfxPropLabel>
+          <OfxParamPropHint>Opens Presets drop-down menu</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Alien View Screeen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Apparition</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cape</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Claw</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Dark Theater</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Flag</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Galazey Far Far Away</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hirozintal Streaks</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Inner X</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Jumbotron</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Off</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Reset to None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rotate Left</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rotate Right</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Sideways Cone</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Simple PiP</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Skewed Rhombus</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Television</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Tilted Plane</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Vertical Streaks</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Windswept Paper</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Open Preset...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Save Preset As...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="0">
+          <OfxPropLabel>Corner Positions</OfxPropLabel>
+          <OfxParamPropHint>Adjust four corners of the image</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble2D name="1">
+          <OfxPropLabel>Top Left</OfxPropLabel>
+          <OfxParamPropHint>Top Left</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="2">
+          <OfxPropLabel>Top Right</OfxPropLabel>
+          <OfxParamPropHint>Top Right</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="3">
+          <OfxPropLabel>Bottom Left</OfxPropLabel>
+          <OfxParamPropHint>Bottom Left</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="4">
+          <OfxPropLabel>Bottom Right</OfxPropLabel>
+          <OfxParamPropHint>Bottom Right</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeGroup name="6">
+          <OfxPropLabel>Edge Curves</OfxPropLabel>
+          <OfxParamPropHint>Create variable shape inserts</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>Top</OfxPropLabel>
+          <OfxParamPropHint>Adjust curve of top edge</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="8">
+          <OfxPropLabel>Bottom</OfxPropLabel>
+          <OfxParamPropHint>Adjust curve of bottom edge</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="9">
+          <OfxPropLabel>Left</OfxPropLabel>
+          <OfxParamPropHint>Adjust curve of left edge</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="10">
+          <OfxPropLabel>Right</OfxPropLabel>
+          <OfxParamPropHint>Adjust curve of right edge</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>Crop</OfxPropLabel>
+          <OfxParamPropHint>Change size of image</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="13">
+          <OfxPropLabel>Aspect Ratio</OfxPropLabel>
+          <OfxParamPropHint>Fine tune dimensions</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="14">
+          <OfxPropLabel>Edge Blur</OfxPropLabel>
+          <OfxParamPropHint>Softens edges of image</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="15">
+          <OfxPropLabel>Shift </OfxPropLabel>
+          <OfxParamPropHint>Move entire image </OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.ELLumaKey">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>Luma Key</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue Elements</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>Preset</OfxPropLabel>
+          <OfxParamPropHint>Opens Presets drop-down menu</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Reset to None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Apparition</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cross Fade</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Gray Scale</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Harsh Whites</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Key Black</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Key White</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Negative</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Replace Blacks</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Replace Whites</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>See Through Highlights</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>See Through Shadows</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Stark Black and White</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Open Preset...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Save Preset As...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="0">
+          <OfxPropLabel>Threshold</OfxPropLabel>
+          <OfxParamPropHint>Sets the sensitivity to the dark or light colors.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>Contrast</OfxPropLabel>
+          <OfxParamPropHint>Sets the image contrast</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>Soften</OfxPropLabel>
+          <OfxParamPropHint>Blurs the boundaries between processed and unprocessed image.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="3">
+          <OfxPropLabel>Invert</OfxPropLabel>
+          <OfxParamPropHint>Reverse the luma key</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="4">
+          <OfxPropLabel>Show Mask</OfxPropLabel>
+          <OfxParamPropHint>View the image as a black and white mask</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.ELOutline">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>Outline</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue Elements</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>Preset</OfxPropLabel>
+          <OfxParamPropHint>Opens Presets drop-down menu</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Reset to None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Angelic Halo</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Bad Chromakey</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Bold Red</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Inked Lines</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pumkin Glow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Red Glow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Solid Black</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Subtle Edge Definition</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Open Preset...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Save Preset As...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="0">
+          <OfxPropLabel>Width</OfxPropLabel>
+          <OfxParamPropHint>Sets size of outline</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>Soften</OfxPropLabel>
+          <OfxParamPropHint>Blurs edges of outline</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="2">
+          <OfxPropLabel>Color</OfxPropLabel>
+          <OfxParamPropHint>Sets color of outline</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>Opacity</OfxPropLabel>
+          <OfxParamPropHint>Sets visibility of outline</OfxParamPropHint>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.ELPanandZoom">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>Pan and Zoom</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue Elements</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>Preset</OfxPropLabel>
+          <OfxParamPropHint>Opens Presets drop-down menu</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Pan and Zoom Left</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pan and Zoom Right</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pan Left to Right</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pan Right to Left</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Reset to None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Subtle Zoom Out</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Tilt Down</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Tilt Up</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Zoom and Highlight Center</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Zoom and Hold</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Zoom Out from Center</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Open Preset...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Save Preset As...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="0_PictureGroup">
+          <OfxPropLabel>Image</OfxPropLabel>
+          <OfxParamPropHint>Sets the image</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypePushButton name="0_PictureSelect">
+          <OfxPropLabel>File open</OfxPropLabel>
+          <OfxParamPropHint>Sets the image</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="0_PictureClear">
+          <OfxPropLabel>Clear Image</OfxPropLabel>
+          <OfxParamPropHint>Sets the image</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypeInteger name="0_PictureValue">
+          <OfxPropLabel>Image</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeBoolean name="1">
+          <OfxPropLabel>Set Up View</OfxPropLabel>
+          <OfxParamPropHint>Displays Start and End positions simultaneously</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="2">
+          <OfxPropLabel>Use Start value for keyframing</OfxPropLabel>
+          <OfxParamPropHint>Enables keyframing using only the Start settings</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="3">
+          <OfxPropLabel>Start</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble2D name="4">
+          <OfxPropLabel>Position</OfxPropLabel>
+          <OfxParamPropHint>Sets the starting position of the image</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>Rotate</OfxPropLabel>
+          <OfxParamPropHint>Adjusts image rotation at start</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>Zoom</OfxPropLabel>
+          <OfxParamPropHint>Adjusts image size at start</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="8">
+          <OfxPropLabel>End</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble2D name="9">
+          <OfxPropLabel>Position</OfxPropLabel>
+          <OfxParamPropHint>Sets the final position of the image</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="10">
+          <OfxPropLabel>Rotate</OfxPropLabel>
+          <OfxParamPropHint>Adjusts image rotation at end</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>Zoom</OfxPropLabel>
+          <OfxParamPropHint>Adjusts image size at end</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="13">
+          <OfxPropLabel>Animation</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="14">
+          <OfxPropLabel>Velocity</OfxPropLabel>
+          <OfxParamPropHint>Sets the velocity of the movement</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Ease In</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease Out</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Smooth</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Linear</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="15">
+          <OfxPropLabel>Start Hold</OfxPropLabel>
+          <OfxParamPropHint>Sets delay before animation begins</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="16">
+          <OfxPropLabel>End Hold</OfxPropLabel>
+          <OfxParamPropHint>Sets time image holds after animation ends</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="18">
+          <OfxPropLabel>Vignette</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="19">
+          <OfxPropLabel>Apply vignette</OfxPropLabel>
+          <OfxParamPropHint>Enable or disable vignette</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="20">
+          <OfxPropLabel>Apply To</OfxPropLabel>
+          <OfxParamPropHint>Sets where vignette is applied</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Image</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Frame</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="21">
+          <OfxPropLabel>Style</OfxPropLabel>
+          <OfxParamPropHint>Vignette shape</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Ellipse</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rectangle</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble2D name="22">
+          <OfxPropLabel>Position</OfxPropLabel>
+          <OfxParamPropHint>Sets the center of the vignette</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="23">
+          <OfxPropLabel>Size</OfxPropLabel>
+          <OfxParamPropHint>Vignette area from edges</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="24">
+          <OfxPropLabel>Feather</OfxPropLabel>
+          <OfxParamPropHint>Softness of vignette edge</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="25">
+          <OfxPropLabel>Strength</OfxPropLabel>
+          <OfxParamPropHint>Amount of vignette mixed with original</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="26">
+          <OfxPropLabel>Blur</OfxPropLabel>
+          <OfxParamPropHint>Amount of blur applied to the vignette</OfxParamPropHint>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.ELPicture-In-Picture">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>Picture-In-Picture</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue Elements</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>Preset</OfxPropLabel>
+          <OfxParamPropHint>Opens Presets drop-down menu</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Reset to None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Broadcast Standard</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ceiling Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Center Highlight</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cropped Excitement</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Doormat</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Drop Shadow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Empty Frame</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Fine Art</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Framed Reflection</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Gentle Reflection</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ghost Layer</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Insert Title Here</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Neon Border</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Perspective Trick</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Postcard Pretty</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Scifi HUD</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Side View</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>TV-Style</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Upside Down</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Watermelon Dreams</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Web 2.0</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>White Backlight</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Open Preset...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Save Preset As...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="0">
+          <OfxPropLabel>Picture</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble2D name="1">
+          <OfxPropLabel>Center</OfxPropLabel>
+          <OfxParamPropHint>Sets the position of the picture</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>Size</OfxPropLabel>
+          <OfxParamPropHint>Sets the size of the insert</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>Crop</OfxPropLabel>
+          <OfxParamPropHint>Adjusts the size of the picture</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>Opacity</OfxPropLabel>
+          <OfxParamPropHint>Determines mix of picture and background</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>Rotate X</OfxPropLabel>
+          <OfxParamPropHint>Rotates the insert around the horizontal axis</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>Rotate Y</OfxPropLabel>
+          <OfxParamPropHint>Rotates the insert around the vertical axis</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>Rotate Z</OfxPropLabel>
+          <OfxParamPropHint>Rotates  the insert flat on the screen</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="9">
+          <OfxPropLabel>Border</OfxPropLabel>
+          <OfxParamPropHint>Sets up the painting of the picture border</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="10">
+          <OfxPropLabel>Width</OfxPropLabel>
+          <OfxParamPropHint>Sets the width of the border</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>Opacity</OfxPropLabel>
+          <OfxParamPropHint>Sets the visibility of the border</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="12">
+          <OfxPropLabel>Color</OfxPropLabel>
+          <OfxParamPropHint>Sets the color of the border</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="13">
+          <OfxPropLabel>Blur In</OfxPropLabel>
+          <OfxParamPropHint>Causes border to blur into the picture</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="14">
+          <OfxPropLabel>Blur Out</OfxPropLabel>
+          <OfxParamPropHint>Causes border to blur into the background</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="16">
+          <OfxPropLabel>Shadow</OfxPropLabel>
+          <OfxParamPropHint>Sets up rendering of a drop shadow</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="17">
+          <OfxPropLabel>Blur</OfxPropLabel>
+          <OfxParamPropHint>Sets the amount of blurring in the drop shadow</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="18">
+          <OfxPropLabel>Opacity</OfxPropLabel>
+          <OfxParamPropHint>Sets the visibility of the shadow</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="19">
+          <OfxPropLabel>Color</OfxPropLabel>
+          <OfxParamPropHint>Sets the drop shadow color</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="20">
+          <OfxPropLabel>Angle</OfxPropLabel>
+          <OfxParamPropHint>Sets the direction of the shadow</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="21">
+          <OfxPropLabel>Offset</OfxPropLabel>
+          <OfxParamPropHint>Sets the distance of the shadow</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="23">
+          <OfxPropLabel>Reflection</OfxPropLabel>
+          <OfxParamPropHint>Sets up a reflected copy of the picture displayed underneath</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="24">
+          <OfxPropLabel>Opacity</OfxPropLabel>
+          <OfxParamPropHint>Sets up a reflected copy of the picture displayed underneath</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="25">
+          <OfxPropLabel>Offset</OfxPropLabel>
+          <OfxParamPropHint>Moves the reflection </OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="26">
+          <OfxPropLabel>Fade</OfxPropLabel>
+          <OfxParamPropHint>Fade</OfxParamPropHint>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.ELPicture-in-Shape">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>Picture-in-Shape</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue Elements</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>Preset</OfxPropLabel>
+          <OfxParamPropHint>Opens Presets drop-down menu</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Diamond</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Diamond Rotated</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Diamond with Drop Shadow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Diamond with Soft Border</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Floating Egg</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Oblong Horizontal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Oblong Vertical</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Oval Rotated</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Oval Shadow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Oval Soft Border</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>PictureInPicture Lower Right</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Reset to None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Upside Down PIP</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Open Preset...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Save Preset As...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="0">
+          <OfxPropLabel>Frame</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble2D name="1">
+          <OfxPropLabel>Top Left</OfxPropLabel>
+          <OfxParamPropHint>Sets the top left corner of the frame</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="2">
+          <OfxPropLabel>Top Right</OfxPropLabel>
+          <OfxParamPropHint>Sets the top right corner of the frame</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="3">
+          <OfxPropLabel>Bottom Left</OfxPropLabel>
+          <OfxParamPropHint>Sets the bottom left corner of the frame</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="4">
+          <OfxPropLabel>Bottom Right</OfxPropLabel>
+          <OfxParamPropHint>Sets the bottom right corner of the frame</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>Curve</OfxPropLabel>
+          <OfxParamPropHint>Sets the roundness of the frame</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>Feather</OfxPropLabel>
+          <OfxParamPropHint>Blurs the edges of the frame</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="8">
+          <OfxPropLabel>Placement</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble2D name="9">
+          <OfxPropLabel>Position</OfxPropLabel>
+          <OfxParamPropHint>Sets the location of the frame</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="10">
+          <OfxPropLabel>Shrink</OfxPropLabel>
+          <OfxParamPropHint>Sets the size of the picture</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>Rotate</OfxPropLabel>
+          <OfxParamPropHint>Rotates the image flat on the screen</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="13">
+          <OfxPropLabel>Outline</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="14">
+          <OfxPropLabel>Color</OfxPropLabel>
+          <OfxParamPropHint>Sets color of outline</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="15">
+          <OfxPropLabel>Width</OfxPropLabel>
+          <OfxParamPropHint>Sets size of outline</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="16">
+          <OfxPropLabel>Soften</OfxPropLabel>
+          <OfxParamPropHint>Blurs edges of outline</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="17">
+          <OfxPropLabel>Opacity</OfxPropLabel>
+          <OfxParamPropHint>Sets visibility of outline</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="19">
+          <OfxPropLabel>Drop Shadow</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="20">
+          <OfxPropLabel>Offset</OfxPropLabel>
+          <OfxParamPropHint>Sets the distance of the shadow</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="21">
+          <OfxPropLabel>Angle</OfxPropLabel>
+          <OfxParamPropHint>Sets the direction of the shadow</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="22">
+          <OfxPropLabel>Shadow Blur</OfxPropLabel>
+          <OfxParamPropHint>Softens the edges of the drop shadow</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="23">
+          <OfxPropLabel>Color</OfxPropLabel>
+          <OfxParamPropHint>Sets the drop shadow color</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="24">
+          <OfxPropLabel>Opacity</OfxPropLabel>
+          <OfxParamPropHint>Sets the visibility of the drop shadow</OfxParamPropHint>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.ELPictureGrid">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>Picture Grid</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue Elements</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>Preset</OfxPropLabel>
+          <OfxParamPropHint>Opens Presets drop-down menu</OfxParamPropHint>
+          <OfxParamPropChoiceOption>1x3-A</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1x3-B</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1x3-C</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>2x2 A1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>2x2 A2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>2x2 B1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>2x2 B2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>3x3 A1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>3x3 A2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>3x3 A3</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>3x3 B1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>3x3 B2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>3x3 B3</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>3x3 C1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>3x3 C2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>3x3 C3</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>4x4 A1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>4x4 A2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>4x4 A3</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>4x4 A4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>4x4 B1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>4x4 B2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>4x4 B3</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>4x4 B4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>4x4 C1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>4x4 C2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>4x4 C3</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>4x4 C4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>4x4 D1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>4x4 D2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>4x4 D3</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>4x4 D4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>5x5 A1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>5x5 A2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>5x5 A3</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>5x5 A4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>5x5 A5</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>5x5 B1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>5x5 B2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>5x5 B3</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>5x5 B4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>5x5 B5</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>5x5 C1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>5x5 C2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>5x5 C3</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>5x5 C4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>5x5 C5</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>5x5 D1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>5x5 D2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>5x5 D3</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>5x5 D4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>5x5 D5</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>5x5 E1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>5x5 E2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>5x5 E3</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>5x5 E4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>5x5 E5</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>8x8 grid</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Brady-A1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Brady-A2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Brady-A3</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Brady-B1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Brady-B2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Brady-B3</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Brady-C1</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Brady-C2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Brady-C3</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Horizontal Eighth</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Horizontal Fourth</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Horizontal Half</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Left Half</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pillar</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Reset to None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Vertical Eighth</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Vertical Fourth</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Vertical Half</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Open Preset...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Save Preset As...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="0">
+          <OfxPropLabel>Grid Segments</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>H Count</OfxPropLabel>
+          <OfxParamPropHint>Sets the number of spaces in the grid horizontally</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>V Count</OfxPropLabel>
+          <OfxParamPropHint>Sets the number of spaces in the grid vertically</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="4">
+          <OfxPropLabel>Window Size</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>Width</OfxPropLabel>
+          <OfxParamPropHint>Sets how many grid spaces the image will occupy horizontally</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>Height</OfxPropLabel>
+          <OfxParamPropHint>Sets how many grid spaces the image will occupy vertically</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>Grid Position</OfxPropLabel>
+          <OfxParamPropHint>Sets which grid position the image will occupy</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="9">
+          <OfxPropLabel>Picture</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble2D name="10">
+          <OfxPropLabel>Position</OfxPropLabel>
+          <OfxParamPropHint>Sets the position of the image inside the square</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>Size</OfxPropLabel>
+          <OfxParamPropHint>Adjusts the magnification of the image inside the grid</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>Opacity</OfxPropLabel>
+          <OfxParamPropHint>Sets the visibility of the image</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="13">
+          <OfxPropLabel>Stretch</OfxPropLabel>
+          <OfxParamPropHint>Adjusts the size of the image to fit inside the square</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="15">
+          <OfxPropLabel>Border</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="16">
+          <OfxPropLabel>Color</OfxPropLabel>
+          <OfxParamPropHint>Sets the color of the border</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="17">
+          <OfxPropLabel>Thickness</OfxPropLabel>
+          <OfxParamPropHint>Sets the thickness of the border</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="18">
+          <OfxPropLabel>Opacity</OfxPropLabel>
+          <OfxParamPropHint>Sets the visibility of the border</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="19">
+          <OfxPropLabel>Rounding</OfxPropLabel>
+          <OfxParamPropHint>Adjusts the roundness of the border edges</OfxParamPropHint>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.ELReflection">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>Reflection</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue Elements</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>Preset</OfxPropLabel>
+          <OfxParamPropHint>Opens Presets drop-down menu</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Angled Inset Left</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Angled Inset Right</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Lake Reflection</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Picture in Picture</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Reset to None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rotate Left Side</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rotate Right Side</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rough Winds</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Simple Reflection</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Spyglass</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Upside Down</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Zoom In</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Open Preset...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Save Preset As...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="0">
+          <OfxPropLabel>Shape</OfxPropLabel>
+          <OfxParamPropHint>Reflection</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble2D name="1">
+          <OfxPropLabel>Center</OfxPropLabel>
+          <OfxParamPropHint>Sets the location of the original clip display.</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>Width</OfxPropLabel>
+          <OfxParamPropHint>Sets the width of the original clip display</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>Height</OfxPropLabel>
+          <OfxParamPropHint>Sets the height of the original clip display</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>Rotate</OfxPropLabel>
+          <OfxParamPropHint>Rotate the clip around the Y-axis</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="6">
+          <OfxPropLabel>Image</OfxPropLabel>
+          <OfxParamPropHint>Reflection</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble2D name="7">
+          <OfxPropLabel>Shift</OfxPropLabel>
+          <OfxParamPropHint>Moves the frame around inside the area created by the Shape group.</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="8">
+          <OfxPropLabel>Scale</OfxPropLabel>
+          <OfxParamPropHint>Sets the scale of the original image</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="10">
+          <OfxPropLabel>Reflection</OfxPropLabel>
+          <OfxParamPropHint>Reflection</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>Position</OfxPropLabel>
+          <OfxParamPropHint>Sets distance between the original clip and the reflection</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>Opacity</OfxPropLabel>
+          <OfxParamPropHint>Sets the opacity level of the reflection</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="13">
+          <OfxPropLabel>Fade</OfxPropLabel>
+          <OfxParamPropHint>Sets how much the reflection will fade</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="15">
+          <OfxPropLabel>Background</OfxPropLabel>
+          <OfxParamPropHint>Reflection</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="16">
+          <OfxPropLabel>Feather</OfxPropLabel>
+          <OfxParamPropHint>Sets how much the clip and reflection will feather into the background.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="17">
+          <OfxPropLabel>Color</OfxPropLabel>
+          <OfxParamPropHint>Sets the background color.</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="18">
+          <OfxPropLabel>Opacity</OfxPropLabel>
+          <OfxParamPropHint>Sets the opacity level of the background color</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="20">
+          <OfxPropLabel>Wave</OfxPropLabel>
+          <OfxParamPropHint>Reflection</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="21">
+          <OfxPropLabel>Amplitude</OfxPropLabel>
+          <OfxParamPropHint>Sets the height of the water ripples.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="22">
+          <OfxPropLabel>Length</OfxPropLabel>
+          <OfxParamPropHint>Sets the length of the ripples.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="23">
+          <OfxPropLabel>Speed</OfxPropLabel>
+          <OfxParamPropHint>Sets the rate the ripples move across the water.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="24">
+          <OfxPropLabel>Direction</OfxPropLabel>
+          <OfxParamPropHint>Sets the direction of the ripples.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.ELSplitScreen">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>Split Screen</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue Elements</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>Preset</OfxPropLabel>
+          <OfxParamPropHint>Opens Presets drop-down menu</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Bottom Half</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Bottom Third</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Bottom Two Thirds</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Censor Bar</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Clean Horizontal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Clean Vertical</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Close Up</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Diagonal Dynamic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Diagonal Lower Left</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Diagonal Lower Right</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Diagonal Upper Left</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Diagonal Upper Right</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Dramatic Reveal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Drop Down Start</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Left Half</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Left One Third</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Left Two Thirds</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Montage</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Mow the Lawn</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pink Dynamo</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Red Laser</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Reset to None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Revolving Door Wipe</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Right Half</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Right One Third</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Right Two Thirds</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Top Half</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Top One Third</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Top Two Thirds</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Triangle Insert</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Open Preset...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Save Preset As...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble2D name="0">
+          <OfxPropLabel>Split Center</OfxPropLabel>
+          <OfxParamPropHint>Adjusts center position for split</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>Split Angle</OfxPropLabel>
+          <OfxParamPropHint>Adjusts angle of the split line</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="2">
+          <OfxPropLabel>Shift</OfxPropLabel>
+          <OfxParamPropHint>Offsets image</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>Crop</OfxPropLabel>
+          <OfxParamPropHint>Zooms image to adjust borders</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="4">
+          <OfxPropLabel>Lock Image to Split</OfxPropLabel>
+          <OfxParamPropHint>Forces image position to split center</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>Line Width</OfxPropLabel>
+          <OfxParamPropHint>Adjusts thickness of split line</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="6">
+          <OfxPropLabel>Line Color</OfxPropLabel>
+          <OfxParamPropHint>Adjusts color of split line</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>Feather</OfxPropLabel>
+          <OfxParamPropHint>Adjust softness and transition of split line</OfxParamPropHint>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.ELTile">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>Tile</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue Elements</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>Preset</OfxPropLabel>
+          <OfxParamPropHint>Opens Presets drop-down menu</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Dusty Trio</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Fly On The Wall</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hazy Overlay</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Micro Tiles</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Mosaic Tiles</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Random Micro Tiles</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Reset to None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Sitcom Family</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Squared Variety</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Stair Steps</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Tile Wall</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Transparent Micro Tiles</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Transparent Tile Wall</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Venetian Blinds</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Open Preset...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Save Preset As...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="0">
+          <OfxPropLabel>Tile</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>Vertical</OfxPropLabel>
+          <OfxParamPropHint>Sets the number of rectangles vertically</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>Horizontal</OfxPropLabel>
+          <OfxParamPropHint>Sets the number of rectangles horizontally</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="3">
+          <OfxPropLabel>Stretch</OfxPropLabel>
+          <OfxParamPropHint>Scales the image to fit inside the rectangle</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>Overlap</OfxPropLabel>
+          <OfxParamPropHint>Adjusts how much the rows are offset from each other</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="5">
+          <OfxPropLabel>Tile Vertically</OfxPropLabel>
+          <OfxParamPropHint>Causes the rectangles to be offset vertically</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble2D name="6">
+          <OfxPropLabel>Origin</OfxPropLabel>
+          <OfxParamPropHint>Adjusts the position of the image inside the rectangle</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>Scale</OfxPropLabel>
+          <OfxParamPropHint>Adjusts the size of the image inside the rectangle</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="9">
+          <OfxPropLabel>Process</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="10">
+          <OfxPropLabel>Color</OfxPropLabel>
+          <OfxParamPropHint>Sets the tint color</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>Tint</OfxPropLabel>
+          <OfxParamPropHint>Adjusts amount of tint</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>Saturation</OfxPropLabel>
+          <OfxParamPropHint>Adjusts saturation of image</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="13">
+          <OfxPropLabel>Brightness</OfxPropLabel>
+          <OfxParamPropHint>Adjusts brightness of image</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="14">
+          <OfxPropLabel>Clarity</OfxPropLabel>
+          <OfxParamPropHint>Adjusts contrast of image</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="15">
+          <OfxPropLabel>Opacity</OfxPropLabel>
+          <OfxParamPropHint>Adjusts opacity of rectangles</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="16">
+          <OfxPropLabel>Blur</OfxPropLabel>
+          <OfxParamPropHint>Blurs the image inside the rectangles</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="18">
+          <OfxPropLabel>Variation</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="19">
+          <OfxPropLabel>Color</OfxPropLabel>
+          <OfxParamPropHint>Sets the amount of random variation of color</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="20">
+          <OfxPropLabel>Tint</OfxPropLabel>
+          <OfxParamPropHint>Sets the amount of random variation of tint</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="21">
+          <OfxPropLabel>Saturation</OfxPropLabel>
+          <OfxParamPropHint>Sets the amount of random variation of saturation</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="22">
+          <OfxPropLabel>Brightness</OfxPropLabel>
+          <OfxParamPropHint>Sets the amount of random variation of brightness</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="23">
+          <OfxPropLabel>Clarity</OfxPropLabel>
+          <OfxParamPropHint>Sets the amount of random variation of contrast</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="24">
+          <OfxPropLabel>Opacity</OfxPropLabel>
+          <OfxParamPropHint>Sets the amount of random variation of opacity</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="25">
+          <OfxPropLabel>Blur</OfxPropLabel>
+          <OfxParamPropHint>Sets the amount of random variation of blur</OfxParamPropHint>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.ELTimeClock">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>Time Clock</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue Elements</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>Preset</OfxPropLabel>
+          <OfxParamPropHint>Opens Presets drop-down menu</OfxParamPropHint>
+          <OfxParamPropChoiceOption>10 Second Count Down</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>5 Minute Count Down</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Bold Blue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cartoon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Christmas Counter</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Clock</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Combat</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Count Down</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>First Preset</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Fright</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Gentle Time Keeper</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Groovy</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>LCD Display</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Reset to None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Sci Fi</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Scoreboard Timer</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Train Time</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Open Preset...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Save Preset As...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="0">
+          <OfxPropLabel>Draw</OfxPropLabel>
+          <OfxParamPropHint>Time Clock</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble2D name="1">
+          <OfxPropLabel>Position</OfxPropLabel>
+          <OfxParamPropHint>Sets the location of the text display</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>Size</OfxPropLabel>
+          <OfxParamPropHint>Sets the size of the text</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="3">
+          <OfxPropLabel>Style</OfxPropLabel>
+          <OfxParamPropHint>Sets the font to be used</OfxParamPropHint>
+          <OfxParamPropChoiceOption>LCD</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ticker</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Inked</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Stencil</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Simple</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Smooth</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Digital</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Neon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Brash</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Chalk</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="4">
+          <OfxPropLabel>Overlay</OfxPropLabel>
+          <OfxParamPropHint>Set the background to be transparent or opaque</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeRGB name="5">
+          <OfxPropLabel>Text</OfxPropLabel>
+          <OfxParamPropHint>Sets the color of the text</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="6">
+          <OfxPropLabel>Background</OfxPropLabel>
+          <OfxParamPropHint>Sets the color of the background rectangle</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>Background</OfxPropLabel>
+          <OfxParamPropHint>Sets the opacity of the rectangle background color</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="9">
+          <OfxPropLabel>Start Time</OfxPropLabel>
+          <OfxParamPropHint>Time Clock</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="10">
+          <OfxPropLabel>Hour</OfxPropLabel>
+          <OfxParamPropHint>Sets the inial value for Hour</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>Minute</OfxPropLabel>
+          <OfxParamPropHint>Sets the inial value for Minutes</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>Second</OfxPropLabel>
+          <OfxParamPropHint>Sets the inial value for Seconds</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="13">
+          <OfxPropLabel>Frame</OfxPropLabel>
+          <OfxParamPropHint>Sets the inial value for Frames</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="15">
+          <OfxPropLabel>Time Format</OfxPropLabel>
+          <OfxParamPropHint>Time Clock</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="16">
+          <OfxPropLabel>Hours</OfxPropLabel>
+          <OfxParamPropHint>Sets whether or not to display hours</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="17">
+          <OfxPropLabel>Minutes</OfxPropLabel>
+          <OfxParamPropHint>Sets whether or not to display minutes</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="18">
+          <OfxPropLabel>Seconds</OfxPropLabel>
+          <OfxParamPropHint>Sets whether or not to display seconds</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="19">
+          <OfxPropLabel>Frames</OfxPropLabel>
+          <OfxParamPropHint>Sets whether or not to display frames</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="20">
+          <OfxPropLabel>Separator</OfxPropLabel>
+          <OfxParamPropHint>Sets the character which separates the clock values</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Semicolon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Colon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Dot</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Line</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Blank</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="21">
+          <OfxPropLabel>FPS</OfxPropLabel>
+          <OfxParamPropHint>Sets the frames per second the effect will use</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="22">
+          <OfxPropLabel>Count Down</OfxPropLabel>
+          <OfxParamPropHint>Sets whether the clock should count down instead of up</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.ELVideoMapper">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>Video Mapper</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue Elements</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>Preset</OfxPropLabel>
+          <OfxParamPropHint>Opens Presets drop-down menu</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Bottom Half</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Flipped</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Horizontal Stretch</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Left Half</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>PiP Bottom Left</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>PiP Bottom Right</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>PiP Center</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>PiP Top Left</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>PiP Top Right</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Reset to None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Right Half</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rotate Left</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rotate Right</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Top Half</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Vertical Stretch</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Open Preset...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Save Preset As...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble2D name="0">
+          <OfxPropLabel>Top Left</OfxPropLabel>
+          <OfxParamPropHint>Top Left</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="1">
+          <OfxPropLabel>Top Right</OfxPropLabel>
+          <OfxParamPropHint>Top Right</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="2">
+          <OfxPropLabel>Bottom Left</OfxPropLabel>
+          <OfxParamPropHint>Bottom Left</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="3">
+          <OfxPropLabel>Bottom Right</OfxPropLabel>
+          <OfxParamPropHint>Bottom Right</OfxParamPropHint>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>Aspect Ratio</OfxPropLabel>
+          <OfxParamPropHint>Aspect Ratio</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>Opacity</OfxPropLabel>
+          <OfxParamPropHint>Opacity</OfxParamPropHint>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+<OfxPlugin name="com.NewBlue.ELViewfinder">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>Viewfinder</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>NewBlue Elements</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeChoice name="Presets">
+          <OfxPropLabel>Preset</OfxPropLabel>
+          <OfxParamPropHint>Opens Presets drop-down menu</OfxParamPropHint>
+          <OfxParamPropChoiceOption>1980s</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1970s</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1990s</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>2000s</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cheap Camera</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Night Vision</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pixelate</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pixelvision</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Reset to None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Simple</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Weapon Site</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>______________</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Open Preset...</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Save Preset As...</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="0">
+          <OfxPropLabel>Image</OfxPropLabel>
+          <OfxParamPropHint>Viewfinder</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="1">
+          <OfxPropLabel>Tint</OfxPropLabel>
+          <OfxParamPropHint>Sets the tint color</OfxParamPropHint>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>Tint</OfxPropLabel>
+          <OfxParamPropHint>Adjusts mix of tint</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="3">
+          <OfxPropLabel>B/W</OfxPropLabel>
+          <OfxParamPropHint>Turns the image black and white</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="4">
+          <OfxPropLabel>Sharpen</OfxPropLabel>
+          <OfxParamPropHint>Sharpens the image</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>Resolution</OfxPropLabel>
+          <OfxParamPropHint>Sets how pixelated the image is</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="7">
+          <OfxPropLabel>Overlay</OfxPropLabel>
+          <OfxParamPropHint>Viewfinder</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="8">
+          <OfxPropLabel>Record</OfxPropLabel>
+          <OfxParamPropHint>Displays a blinking record light</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="9">
+          <OfxPropLabel>Battery</OfxPropLabel>
+          <OfxParamPropHint>Displays a battery life indicator</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="10">
+          <OfxPropLabel>Safe Area</OfxPropLabel>
+          <OfxParamPropHint>Displays the outer safe area indicator</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="11">
+          <OfxPropLabel>Focus Box</OfxPropLabel>
+          <OfxParamPropHint>Displays the inner focus box indicator</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="12">
+          <OfxPropLabel>Counter</OfxPropLabel>
+          <OfxParamPropHint>Displays the time code indicator</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="13">
+          <OfxPropLabel>Outline</OfxPropLabel>
+          <OfxParamPropHint>Adds an outline to the image overlays</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="15">
+          <OfxPropLabel>Counter</OfxPropLabel>
+          <OfxParamPropHint>Viewfinder</OfxParamPropHint>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="16">
+          <OfxPropLabel>Hour</OfxPropLabel>
+          <OfxParamPropHint>Sets the initial value for Hour</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="17">
+          <OfxPropLabel>Minute</OfxPropLabel>
+          <OfxParamPropHint>Sets the initial value for Minutes</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="18">
+          <OfxPropLabel>Second</OfxPropLabel>
+          <OfxParamPropHint>Sets the initial value for Seconds</OfxParamPropHint>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

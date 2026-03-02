@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Stylize_Carousel_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Carousel</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Stylize</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeGroup name="1">
+          <OfxPropLabel>Frame &amp; Vignette</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="2">
+          <OfxPropLabel>Frame Style</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>16x9</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>16x9 Soft</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square Soft</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>Image Offset</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>Vignette Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="5">
+          <OfxPropLabel>Color</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>Color Process</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>Red</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="8">
+          <OfxPropLabel>Green</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="9">
+          <OfxPropLabel>Blue</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="10">
+          <OfxPropLabel>Fading</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>Contrast</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="12">
+          <OfxPropLabel>Light Leaks</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="13">
+          <OfxPropLabel>Light Style</OfxPropLabel>
+          <OfxParamPropChoiceOption>Torches</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Rays</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Double Edges</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Edge Large</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Edge Small</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="14">
+          <OfxPropLabel>Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="15">
+          <OfxPropLabel>Flicker Strength</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="16">
+          <OfxPropLabel>Flicker Speed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="17">
+          <OfxPropLabel>Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeChoice name="18">
+          <OfxPropLabel>Flip Light Leak</OfxPropLabel>
+          <OfxParamPropChoiceOption>Off</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Flip Horizontal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Flip Vertical</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Flip Both</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Transitions_HalfLight_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.HalfLight</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Transitions</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble name="Transition">
+          <OfxPropLabel>Transition</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="2">
+          <OfxPropLabel>Lens Flare</OfxPropLabel>
+          <OfxParamPropChoiceOption>Crash</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Crash Beams</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Crash Bokeh</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Crash Circle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Crash Glow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Crash Pop</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Crash Square</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Crash Triangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Wipe Angle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Wipe Beam</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Wipe Glow</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Wipe Horizontal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Wipe Shutter</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Wipe Sparkle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Wipe Vertical</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="3">
+          <OfxPropLabel>Blend Mode</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Darken</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Multiply</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Burn</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Add</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Lighten</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Dodge</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Overlay</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Soft Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hard Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Difference</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Exclusion</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Subtract</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Saturation</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Luminosity</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cutout</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Behind</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>Brightness</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>Saturation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="7">
+          <OfxPropLabel>Flip</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Horizontal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Vertical</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Both</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

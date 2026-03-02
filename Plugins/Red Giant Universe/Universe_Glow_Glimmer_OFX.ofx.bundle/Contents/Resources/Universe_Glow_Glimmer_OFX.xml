@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Glow_Glimmer_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Glimmer</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Glow</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="35">
+          <OfxPropLabel>Input Channel</OfxPropLabel>
+          <OfxParamPropChoiceOption>Lightness</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Luminance</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Alpha</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Red</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Green</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Blue</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>Threshold</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="36">
+          <OfxPropLabel>Threshold Softness</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>Streak Length</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>Boost Light</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="37">
+          <OfxPropLabel>Rotation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="500">
+          <OfxPropLabel>Legacy Mode</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="8">
+          <OfxPropLabel>Streak 1</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="39">
+          <OfxPropLabel>Enable Streak 1</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="40">
+          <OfxPropLabel>Streak 1 Color Map</OfxPropLabel>
+          <OfxParamPropChoiceOption>Colormap A</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Colormap B</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Colormap C</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="9">
+          <OfxPropLabel>Intensity 1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="10">
+          <OfxPropLabel>Angle 1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>Streak Length 1A</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="41">
+          <OfxPropLabel>Streak Length 1B</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>Hue Shift 1</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="13">
+          <OfxPropLabel>Streak 2</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="43">
+          <OfxPropLabel>Enable Streak 2</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="44">
+          <OfxPropLabel>Streak 2 Color Map</OfxPropLabel>
+          <OfxParamPropChoiceOption>Colormap A</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Colormap B</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Colormap C</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="14">
+          <OfxPropLabel>Intensity 2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="15">
+          <OfxPropLabel>Angle 2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="16">
+          <OfxPropLabel>Streak Length 2A</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="45">
+          <OfxPropLabel>Streak Length 2B</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="17">
+          <OfxPropLabel>Hue Shift 2</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="18">
+          <OfxPropLabel>Streak 3</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="47">
+          <OfxPropLabel>Enable Streak 3</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="48">
+          <OfxPropLabel>Streak 3 Color Map</OfxPropLabel>
+          <OfxParamPropChoiceOption>Colormap A</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Colormap B</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Colormap C</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="19">
+          <OfxPropLabel>Intensity 3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="20">
+          <OfxPropLabel>Angle 3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="21">
+          <OfxPropLabel>Streak Length 3A</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="49">
+          <OfxPropLabel>Streak Length 3B</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="22">
+          <OfxPropLabel>Hue Shift 3</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="50">
+          <OfxPropLabel>Streak 4</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="51">
+          <OfxPropLabel>Enable Streak 4</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="52">
+          <OfxPropLabel>Streak 4 Color Map</OfxPropLabel>
+          <OfxParamPropChoiceOption>Colormap A</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Colormap B</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Colormap C</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="53">
+          <OfxPropLabel>Intensity 4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="54">
+          <OfxPropLabel>Angle 4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="55">
+          <OfxPropLabel>Streak Length 4A</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="56">
+          <OfxPropLabel>Streak Length 4B</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="57">
+          <OfxPropLabel>Hue Shift 4</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="58">
+          <OfxPropLabel>Streak 5</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="59">
+          <OfxPropLabel>Enable Streak 5</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="60">
+          <OfxPropLabel>Streak 5 Color Map</OfxPropLabel>
+          <OfxParamPropChoiceOption>Colormap A</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Colormap B</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Colormap C</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="61">
+          <OfxPropLabel>Intensity 5</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="62">
+          <OfxPropLabel>Angle 5</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="63">
+          <OfxPropLabel>Streak Length 5A</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="64">
+          <OfxPropLabel>Streak Length 5B</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="65">
+          <OfxPropLabel>Hue Shift 5</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="66">
+          <OfxPropLabel>Streak 6</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="67">
+          <OfxPropLabel>Enable Streak 6</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="68">
+          <OfxPropLabel>Streak 6 Color Map</OfxPropLabel>
+          <OfxParamPropChoiceOption>Colormap A</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Colormap B</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Colormap C</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="69">
+          <OfxPropLabel>Intensity 6</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="70">
+          <OfxPropLabel>Angle 6</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="71">
+          <OfxPropLabel>Streak Length 6A</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="72">
+          <OfxPropLabel>Streak Length 6B</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="73">
+          <OfxPropLabel>Hue Shift 6</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="74">
+          <OfxPropLabel>Color Map A</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypePushButton name="2000">
+          <OfxPropLabel>Choose Color Map A...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeRGB name="5">
+          <OfxPropLabel>Highlights A</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="6">
+          <OfxPropLabel>Midtones A</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="7">
+          <OfxPropLabel>Shadows A</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeGroup name="75">
+          <OfxPropLabel>Color Map B</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypePushButton name="2001">
+          <OfxPropLabel>Choose Color Map B...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeRGB name="76">
+          <OfxPropLabel>Highlights B</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="77">
+          <OfxPropLabel>Midtones B</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="78">
+          <OfxPropLabel>Shadows B</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeGroup name="79">
+          <OfxPropLabel>Color Map C</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypePushButton name="2003">
+          <OfxPropLabel>Choose Color Map C...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeRGB name="80">
+          <OfxPropLabel>Highlights C</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="81">
+          <OfxPropLabel>Midtones C</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="82">
+          <OfxPropLabel>Shadows C</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeGroup name="83">
+          <OfxPropLabel>Shimmer</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="84">
+          <OfxPropLabel>Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="85">
+          <OfxPropLabel>Scale</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="86">
+          <OfxPropLabel>Complexity</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="87">
+          <OfxPropLabel>Scroll X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="88">
+          <OfxPropLabel>Scroll Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="89">
+          <OfxPropLabel>Animation Speed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="90">
+          <OfxPropLabel>Loop Duration</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="25">
+          <OfxPropLabel>Mask</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="26">
+          <OfxPropLabel>Use Mask</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="92">
+          <OfxPropLabel>Show Masked Area</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="27">
+          <OfxPropLabel>Mask Shape</OfxPropLabel>
+          <OfxParamPropChoiceOption>Rectangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ellipse</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble2D name="29">
+          <OfxPropLabel>Point A</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="30">
+          <OfxPropLabel>Point B</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="31">
+          <OfxPropLabel>Mask Radius</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="32">
+          <OfxPropLabel>Mask Feather</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="33">
+          <OfxPropLabel>Feather Direction</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="28">
+          <OfxPropLabel>Invert Mask</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="34">
+          <OfxPropLabel>Mask Alpha</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="23">
+          <OfxPropLabel>Glimmer Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="93">
+          <OfxPropLabel>Source Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="24">
+          <OfxPropLabel>Blend Mode</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Darken</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Multiply</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Burn</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Add</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Lighten</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Dodge</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Overlay</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Soft Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hard Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Difference</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Exclusion</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Subtract</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Saturation</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Luminosity</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cutout</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Behind</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

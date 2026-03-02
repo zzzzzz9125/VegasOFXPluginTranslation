@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Transitions_Bokeh_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Bokeh Transition</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Transitions</OfxImageEffectPluginPropGrouping>
+      <OfxPropPluginDescription>Copyright (C) 2016 Red Giant LLC. All Rights Reserved.</OfxPropPluginDescription>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="2127">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="26583">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="42918">
+          <OfxPropLabel>Shape</OfxPropLabel>
+          <OfxParamPropChoiceOption>Triangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Square</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Circle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pentagon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hexagon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Heptagon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Octagon</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Star</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="7803">
+          <OfxPropLabel>Blur Amount</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="44159">
+          <OfxPropLabel>Blur Angle</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="51146">
+          <OfxPropLabel>Highlight Boost</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5729">
+          <OfxPropLabel>Bokeh Ratio</OfxPropLabel>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

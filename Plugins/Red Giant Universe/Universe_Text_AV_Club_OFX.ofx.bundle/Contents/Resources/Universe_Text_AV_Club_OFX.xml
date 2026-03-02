@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Text_AV_Club_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.AV Club</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Stylize</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble name="0">
+          <OfxPropLabel>Source Fuzzy</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>Source Blocky</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="2">
+          <OfxPropLabel>Tint</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>Tint Strength</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>Edge Freakout</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="5">
+          <OfxPropLabel>Edge Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>Edge Hue Noise</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>Edge Luma Noise</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="8">
+          <OfxPropLabel>Quantize Color</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="9">
+          <OfxPropLabel>Sharpen</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="10">
+          <OfxPropLabel>Separation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>Post Noise</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>Jitter</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="13">
+          <OfxPropLabel>Shadow</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="14">
+          <OfxPropLabel>Enable</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="15">
+          <OfxPropLabel>Wiggle</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="16">
+          <OfxPropLabel>Offset</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="17">
+          <OfxPropLabel>Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="18">
+          <OfxPropLabel>Blink Speed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="19">
+          <OfxPropLabel>Color Blink</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="20">
+          <OfxPropLabel>Blend Original</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="21">
+          <OfxPropLabel>Unmult</OfxPropLabel>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

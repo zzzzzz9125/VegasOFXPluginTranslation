@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Transitions_Dolly_Fade_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Dolly Fade</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Transitions</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble name="Transition">
+          <OfxPropLabel>Transition</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="2">
+          <OfxPropLabel>Direction</OfxPropLabel>
+          <OfxParamPropChoiceOption>Dolly In</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Dolly Out</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="3">
+          <OfxPropLabel>Animation</OfxPropLabel>
+          <OfxParamPropChoiceOption>Linear Tween</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Quad</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease Out Quad</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Out Quad</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Cubic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease Out Cubic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Out Cubic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Quartic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease Out Quartic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Out Quartic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Quintic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease Out Quintic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Out Quintic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Sine</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease Out Sine</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Out Sine</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Exponential</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease Out Exponential</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption> Ease In Out Exponential</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Circle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease Out Circle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In Out Circle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Step</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>Dolly</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="5">
+          <OfxPropLabel>Motion Blur</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="6">
+          <OfxPropLabel>Motion Blur</OfxPropLabel>
+          <OfxParamPropChoiceOption>Off</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Low</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Medium</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>High</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>Motion Blur Shutter</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="8">
+          <OfxPropLabel>Edge Smoothing</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Low</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Medium</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>High</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

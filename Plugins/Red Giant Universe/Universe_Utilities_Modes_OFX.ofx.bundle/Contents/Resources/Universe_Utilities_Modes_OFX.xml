@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Utilities_Modes_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Modes</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Utilities</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1001">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1002">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="0">
+          <OfxPropLabel>Input Color Space </OfxPropLabel>
+          <OfxParamPropChoiceOption>RGB</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>RGB to HSL</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>RGB to YUV</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>HSL to RGB</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>YUV to RGB</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>RGB to Lightness</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>RGB to Luminance</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="1">
+          <OfxPropLabel>Blend Mode A</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Darken</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Multiply</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Burn</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Add</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Lighten</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Dodge</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Overlay</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Soft Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hard Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Vivid Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Linear Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pin Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Difference</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Exclusion</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Subtract</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Saturation</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Luminosity</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Custom Blend</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="2">
+          <OfxPropLabel>Blend Mode B</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Darken</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Multiply</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Burn</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Add</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Lighten</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Dodge</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Overlay</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Soft Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hard Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Vivid Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Linear Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pin Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Difference</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Exclusion</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Subtract</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Saturation</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Luminosity</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Custom Blend</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>A &lt;-&gt; B Mix</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>Foreground Intensity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>Background Intensity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="6">
+          <OfxPropLabel>Swap FG/BG</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="7">
+          <OfxPropLabel>Stretch Background to Fit</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="8">
+          <OfxPropLabel>Custom Blend Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="9">
+          <OfxPropLabel>Inital Value</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="10">
+          <OfxPropLabel>Inital Operator</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Add</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Subtract</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Multiply</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Divide</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Less Than</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Greater Than</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="11">
+          <OfxPropLabel>Combine (R=G=B)</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="12">
+          <OfxPropLabel>Red Channel</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="13">
+          <OfxPropLabel>Red Source</OfxPropLabel>
+          <OfxParamPropChoiceOption>Red</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Green</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Blue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Alpha</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1 - Red</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1 - Green</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1 - Blue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Full On</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Full Off</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="14">
+          <OfxPropLabel>Red Source Multiplier</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="15">
+          <OfxPropLabel>Red Operator</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Add</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Subtract</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Multiply</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Divide</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Less Than</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Greater Than</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>min(src.dest)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>max(src.dest)</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="16">
+          <OfxPropLabel>Red Destination</OfxPropLabel>
+          <OfxParamPropChoiceOption>Red</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Green</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Blue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Alpha</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1 - Red</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1 - Green</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1 - Blue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Full On</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Full Off</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="17">
+          <OfxPropLabel>Red Destination Multiplier</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="18">
+          <OfxPropLabel>Green Channel</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="19">
+          <OfxPropLabel>Green Source</OfxPropLabel>
+          <OfxParamPropChoiceOption>Red</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Green</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Blue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Alpha</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1 - Red</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1 - Green</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1 - Blue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Full On</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Full Off</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="20">
+          <OfxPropLabel>Green Source Multiplier</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="21">
+          <OfxPropLabel>Green Operator</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Add</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Subtract</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Multiply</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Divide</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Less Than</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Greater Than</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>min(src.dest)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>max(src.dest)</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="22">
+          <OfxPropLabel>Green Destination</OfxPropLabel>
+          <OfxParamPropChoiceOption>Red</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Green</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Blue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Alpha</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1 - Red</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1 - Green</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1 - Blue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Full On</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Full Off</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="23">
+          <OfxPropLabel>Green Destination Multiplier</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="24">
+          <OfxPropLabel>Blue Channel</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="25">
+          <OfxPropLabel>Blue Source</OfxPropLabel>
+          <OfxParamPropChoiceOption>Red</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Green</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Blue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Alpha</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1 - Red</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1 - Green</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1 - Blue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Full On</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Full Off</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="26">
+          <OfxPropLabel>Blue Source Multiplier</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="27">
+          <OfxPropLabel>Blue Operator</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Add</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Subtract</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Multiply</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Divide</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Less Than</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Greater Than</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>min(src.dest)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>max(src.dest)</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="28">
+          <OfxPropLabel>Blue Destination</OfxPropLabel>
+          <OfxParamPropChoiceOption>Red</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Green</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Blue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Alpha</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1 - Red</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1 - Green</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1 - Blue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Full On</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Full Off</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="29">
+          <OfxPropLabel>Blue Destination Multiplier</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="30">
+          <OfxPropLabel>Output Color Space</OfxPropLabel>
+          <OfxParamPropChoiceOption>Pass Through</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>RGB to HSL</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>RGB to YUV</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>HSL to RGB</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>YUV to RGB</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>RGB to Lightness</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>RGB to Luminance</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="31">
+          <OfxPropLabel>Linear</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="32">
+          <OfxPropLabel>Show Equations</OfxPropLabel>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

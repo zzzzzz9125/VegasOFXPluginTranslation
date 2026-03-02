@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Blur_Blur_Premium_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Blur</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Blur</OfxImageEffectPluginPropGrouping>
+      <OfxPropPluginDescription>Copyright (C) 2016 Red Giant LLC. All Rights Reserved.</OfxPropPluginDescription>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble name="0">
+          <OfxPropLabel>Blur Width</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>Blur Height</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="2">
+          <OfxPropLabel>Proportional</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>Angle</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="4">
+          <OfxPropLabel>Apply Linear</OfxPropLabel>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

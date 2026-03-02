@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Generators_Fractal_Background_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Fractal Background</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Generators</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble name="0">
+          <OfxPropLabel>Loop Duration</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>Scale</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>Angle</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="5">
+          <OfxPropLabel>Brightness</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>Contrast</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>Aspect</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="8">
+          <OfxPropLabel>Scroll X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="9">
+          <OfxPropLabel>Scroll Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="10">
+          <OfxPropLabel>Rotations</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>Animation Speed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="12">
+          <OfxPropLabel>Fractal Type</OfxPropLabel>
+          <OfxParamPropChoiceOption>Billowed</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ridged</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Perlin</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cellular</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Warp</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>IQ</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeInteger name="13">
+          <OfxPropLabel>Complexity</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeBoolean name="14">
+          <OfxPropLabel>Invert</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="15">
+          <OfxPropLabel>Blur Horizontal</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="16">
+          <OfxPropLabel>Blur Vertical</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="17">
+          <OfxPropLabel>Color Map</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeRGB name="18">
+          <OfxPropLabel>Color 1</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="19">
+          <OfxPropLabel>Color 2</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="20">
+          <OfxPropLabel>Color 3</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeChoice name="21">
+          <OfxPropLabel>Blend Mode</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Darken</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Multiply</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Burn</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Add</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Lighten</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Dodge</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Overlay</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Soft Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hard Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Difference</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Exclusion</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Subtract</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Saturation</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Luminosity</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cutout</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Behind</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="22">
+          <OfxPropLabel>Blend with Original</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="23">
+          <OfxPropLabel>Text Area</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="24">
+          <OfxPropLabel>Text Area Preset</OfxPropLabel>
+          <OfxParamPropChoiceOption>Off</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hard Backdrop</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Soft Fuzz</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Lower Third</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>User Defined</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="25">
+          <OfxPropLabel>Height</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="26">
+          <OfxPropLabel>Feather</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="27">
+          <OfxPropLabel>Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="28">
+          <OfxPropLabel>Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeDouble name="29">
+          <OfxPropLabel>Vertical Offset</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="30">
+          <OfxPropLabel>Horizontal Offset</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="31">
+          <OfxPropLabel>Shape</OfxPropLabel>
+          <OfxParamPropChoiceOption>Rectangle</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ellipse</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="32">
+          <OfxPropLabel>Mask Invert</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="33">
+          <OfxPropLabel>Cutout</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble2D name="34">
+          <OfxPropLabel>Point A</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble2D name="35">
+          <OfxPropLabel>Point B</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

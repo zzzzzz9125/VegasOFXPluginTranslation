@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_CrumplePop_Finisher_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Finisher</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Stylize</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble name="0">
+          <OfxPropLabel>Enhanced Contrast</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="1">
+          <OfxPropLabel>Contrast</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>Exposure</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>Saturation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>Detail</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="5">
+          <OfxPropLabel>Filter</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Atwater</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Broadway</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cherokee</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Echo Park</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Florence</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hyperion</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Los Feliz</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Mariposa</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Olvera</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Pico</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>San Pedro</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Santee</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Silverlake</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Soto</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Spring</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Victoria</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>Filter Strength</OfxPropLabel>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

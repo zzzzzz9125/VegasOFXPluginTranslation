@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="xyz.gyroflow">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>Gyroflow</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Warp</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeGroup name="ProjectGroup">
+          <OfxPropLabel>Gyroflow project</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeString name="Status">
+          <OfxPropLabel>Status</OfxPropLabel>
+          <OfxParamPropHint>Status</OfxParamPropHint>
+        </OfxParamTypeString>
+        <OfxParamTypePushButton name="Browse">
+          <OfxPropLabel>Browse</OfxPropLabel>
+          <OfxParamPropHint>Browse for the Gyroflow project file</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="LoadLens">
+          <OfxPropLabel>Load preset/lens profile</OfxPropLabel>
+          <OfxParamPropHint>Browse for the lens profile or a preset</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="OpenGyroflow">
+          <OfxPropLabel>Open Gyroflow</OfxPropLabel>
+          <OfxParamPropHint>Open project in Gyroflow</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="ReloadProject">
+          <OfxPropLabel>Reload project</OfxPropLabel>
+          <OfxParamPropHint>Reload currently loaded project</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="OpenRecentProject">
+          <OfxPropLabel>Last saved project</OfxPropLabel>
+          <OfxParamPropHint>Load most recently saved project in the Gyroflow app</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypeGroup name="AdjustGroup">
+          <OfxPropLabel>Adjust parameters</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="Smoothness">
+          <OfxPropLabel>Smoothness</OfxPropLabel>
+          <OfxParamPropHint>Smoothness</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="ZoomLimit">
+          <OfxPropLabel>Zoom limit</OfxPropLabel>
+          <OfxParamPropHint>Zoom limit</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="LensCorrectionStrength">
+          <OfxPropLabel>Lens correction</OfxPropLabel>
+          <OfxParamPropHint>Lens correction</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="HorizonLockAmount">
+          <OfxPropLabel>Horizon lock</OfxPropLabel>
+          <OfxParamPropHint>Horizon lock amount</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="HorizonLockRoll">
+          <OfxPropLabel>Horizon roll</OfxPropLabel>
+          <OfxParamPropHint>Horizon lock roll adjustment</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="AdditionalPitch">
+          <OfxPropLabel>Additional pitch</OfxPropLabel>
+          <OfxParamPropHint>Additional pitch rotation</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="AdditionalYaw">
+          <OfxPropLabel>Additional yaw</OfxPropLabel>
+          <OfxParamPropHint>Additional yaw rotation</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Rotation">
+          <OfxPropLabel>Video rotation</OfxPropLabel>
+          <OfxParamPropHint>Video rotation</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="InputRotation">
+          <OfxPropLabel>Input rotation</OfxPropLabel>
+          <OfxParamPropHint>Input rotation</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="Fov">
+          <OfxPropLabel>FOV</OfxPropLabel>
+          <OfxParamPropHint>FOV</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="VideoSpeed">
+          <OfxPropLabel>Video speed</OfxPropLabel>
+          <OfxParamPropHint>Use this slider to change video speed or keyframe it, instead of built-in speed changes in the editor</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="DisableStretch">
+          <OfxPropLabel>Disable Gyroflow's stretch</OfxPropLabel>
+          <OfxParamPropHint>If you used Input stretch in the lens profile in Gyroflow, and you de-stretched the video separately in your editor (by setting anamorphic squeeze factor), check this to disable Gyroflow's internal stretching.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="IntegrationMethod">
+          <OfxPropLabel>Integration method</OfxPropLabel>
+          <OfxParamPropHint>IMU integration method</OfxParamPropHint>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Complementary</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>VQF</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Simple gyro</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Simple gyro + accel</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Mahony</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Madgwick</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="KeyframesGroup">
+          <OfxPropLabel>Keyframes</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="UseGyroflowsKeyframes">
+          <OfxPropLabel>Use Gyroflow's keyframes</OfxPropLabel>
+          <OfxParamPropHint>Use internal Gyroflow's keyframes, instead of the editor ones.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypePushButton name="RecalculateKeyframes">
+          <OfxPropLabel>Recalculate keyframes</OfxPropLabel>
+          <OfxParamPropHint>Recalculate keyframes after adjusting the splines (in Fusion mode)</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypeGroup name="OutputSizeGroup">
+          <OfxPropLabel>Output size</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="OutputWidth">
+          <OfxPropLabel>Width</OfxPropLabel>
+          <OfxParamPropHint>Width</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="OutputHeight">
+          <OfxPropLabel>Height</OfxPropLabel>
+          <OfxParamPropHint>Height</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypePushButton name="OutputSizeToTimeline">
+          <OfxPropLabel>Fit to timeline</OfxPropLabel>
+          <OfxParamPropHint>Set the output size to the timeline dimensions</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="OutputSizeSwap">
+          <OfxPropLabel>Swap</OfxPropLabel>
+          <OfxParamPropHint>Swap width and height</OfxParamPropHint>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="Interpolation">
+          <OfxPropLabel>Interpolation</OfxPropLabel>
+          <OfxParamPropHint>Scaling interpolation method</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Lanczos4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>RobidouxSharp</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Bilinear</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Bicubic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Robidoux</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Mitchell</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>CatmullRom</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="ToggleOverview">
+          <OfxPropLabel>Stabilization overview</OfxPropLabel>
+          <OfxParamPropHint>Zooms out the view to see the stabilization results. Disable this before rendering.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="DontDrawOutside">
+          <OfxPropLabel>Don't draw outside source clip</OfxPropLabel>
+          <OfxParamPropHint>When clip and timeline aspect ratio don't match, draw the final image inside the source clip, instead of drawing outside it.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="IncludeProjectData">
+          <OfxPropLabel>Embed .gyroflow data in plugin</OfxPropLabel>
+          <OfxParamPropHint>If you intend to share the project to someone else, the plugin can embed the Gyroflow project data including gyro data inside the video editor project. This way you don't have to share .gyroflow project files. Enabling this option will make the project bigger.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="InfoGroup">
+          <OfxPropLabel>Info</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeString name="LoadedProject">
+          <OfxPropLabel>Loaded project</OfxPropLabel>
+          <OfxParamPropHint>Loaded project or video file</OfxParamPropHint>
+        </OfxParamTypeString>
+        <OfxParamTypeString name="LoadedPreset">
+          <OfxPropLabel>Loaded preset</OfxPropLabel>
+          <OfxParamPropHint>Loaded preset</OfxParamPropHint>
+        </OfxParamTypeString>
+        <OfxParamTypeString name="LoadedLens">
+          <OfxPropLabel>Loaded lens profile</OfxPropLabel>
+          <OfxParamPropHint>Loaded lens profile</OfxParamPropHint>
+        </OfxParamTypeString>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

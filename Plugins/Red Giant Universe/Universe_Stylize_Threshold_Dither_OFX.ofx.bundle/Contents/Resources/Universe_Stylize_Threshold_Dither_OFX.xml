@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Stylize_Threshold_Dither_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Threshold Dither</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Stylize</OfxImageEffectPluginPropGrouping>
+      <OfxPropPluginDescription>Copyright (C) 2016 Red Giant LLC. All Rights Reserved.</OfxPropPluginDescription>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="2127">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="26583">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="43629">
+          <OfxPropLabel>Threshold Type</OfxPropLabel>
+          <OfxParamPropChoiceOption>Luminance</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>RGB</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Saturation</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Alpha</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="45377">
+          <OfxPropLabel>Dither Size</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1/2</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1/4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1/8</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>1/16</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="31716">
+          <OfxPropLabel>Dither Bias</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeInteger name="53638">
+          <OfxPropLabel>Posterization Level</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeGroup name="4278">
+          <OfxPropLabel>Threshold Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="46677">
+          <OfxPropLabel>Invert</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="4543">
+          <OfxPropLabel>Blend with Original</OfxPropLabel>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

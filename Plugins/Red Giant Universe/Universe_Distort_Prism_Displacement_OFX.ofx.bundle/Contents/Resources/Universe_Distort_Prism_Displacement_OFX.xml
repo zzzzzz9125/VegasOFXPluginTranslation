@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Distort_Prism_Displacement_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Prism Displacement</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Distort</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeChoice name="0">
+          <OfxPropLabel>Preset</OfxPropLabel>
+          <OfxParamPropChoiceOption>Default</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Minor Refraction</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Medium Refraction</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Major Refraction</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Soft Displacement</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Heavy Refraction</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Reverse Color Shift</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Vertical Color Split</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>-------</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>SET: Gray = 0</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>SET: Black = 0</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>SET: Alpha = Gray</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>SET: Alpha = Black</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>User Defined</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="1">
+          <OfxPropLabel>Source</OfxPropLabel>
+          <OfxParamPropChoiceOption>Luminance</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Alpha (Premult with Gray)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Alpha (Premult with Black)</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="2">
+          <OfxPropLabel>Glass Refraction</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>Refractive Index</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>Soften Displacement Map</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="1500">
+          <OfxPropLabel>Legacy Mode</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="5">
+          <OfxPropLabel>Refraction Settings</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>Red Refraction</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>Green Refraction</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="8">
+          <OfxPropLabel>Blue Refraction</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="9">
+          <OfxPropLabel>Displacement Map Levels</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="10">
+          <OfxPropLabel>Black Level</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>White Level</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>Gamma</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="13">
+          <OfxPropLabel>Lighting</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="14">
+          <OfxPropLabel>Light X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="15">
+          <OfxPropLabel>Light Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="16">
+          <OfxPropLabel>Light Z</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="17">
+          <OfxPropLabel>Diffuse</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeBoolean name="18">
+          <OfxPropLabel>Stretch Map to Fit</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="19">
+          <OfxPropLabel>Bicubic Sampling</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="20">
+          <OfxPropLabel>Wrap Mode</OfxPropLabel>
+          <OfxParamPropChoiceOption>Border</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Repeat</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Mirror</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Clamp</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="21">
+          <OfxPropLabel>View Displacement Map</OfxPropLabel>
+        </OfxParamTypeBoolean>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

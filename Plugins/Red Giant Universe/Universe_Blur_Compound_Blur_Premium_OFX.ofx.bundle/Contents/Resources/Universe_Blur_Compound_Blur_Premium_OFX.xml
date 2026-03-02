@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Blur_Compound_Blur_Premium_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.Compound Blur</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Blur</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1010">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="1011">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeDouble name="0">
+          <OfxPropLabel>Maximum Blur Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="1">
+          <OfxPropLabel>Blur Channel(s)</OfxPropLabel>
+          <OfxParamPropChoiceOption>RGB</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Red</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Green</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Blue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Alpha</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>HSL</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Saturation</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Lightness</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeGroup name="2">
+          <OfxPropLabel>Mask Controls</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="3">
+          <OfxPropLabel>Soften Mask</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="4">
+          <OfxPropLabel>Mask Channel</OfxPropLabel>
+          <OfxParamPropChoiceOption>Luma</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Red</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Green</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Blue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Alpha</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="5">
+          <OfxPropLabel>Show Mask</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="6">
+          <OfxPropLabel>Invert Mask</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>Mask Scale</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble2D name="8">
+          <OfxPropLabel>Mask Position</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeInteger name="9">
+          <OfxPropLabel>Quality</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeBoolean name="10">
+          <OfxPropLabel>Apply Linear</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="11">
+          <OfxPropLabel>Preserve Original Alpha</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="12">
+          <OfxPropLabel>Blend Mode</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Normal</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Darken</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Multiply</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Burn</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Add</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Lighten</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Screen</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Dodge</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Overlay</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Soft Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hard Light</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Difference</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Exclusion</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Subtract</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Hue</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Saturation</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Luminosity</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Cutout</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Behind</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="13">
+          <OfxPropLabel>Opacity</OfxPropLabel>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

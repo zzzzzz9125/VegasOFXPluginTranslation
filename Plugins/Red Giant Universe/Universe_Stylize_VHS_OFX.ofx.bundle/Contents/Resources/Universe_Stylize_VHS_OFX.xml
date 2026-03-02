@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="com.redgiantsoftware.Universe_Stylize_VHS_OFX">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>uni.VHS</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Universe Stylize</OfxImageEffectPluginPropGrouping>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypePushButton name="PARAM_ID_LICENSING">
+          <OfxPropLabel>Licensing...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="200">
+          <OfxPropLabel>Choose a Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypePushButton name="301">
+          <OfxPropLabel>Save Preset...</OfxPropLabel>
+        </OfxParamTypePushButton>
+        <OfxParamTypeBoolean name="201">
+          <OfxPropLabel>Enable Color Controls</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="5">
+          <OfxPropLabel>Color Controls</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="6">
+          <OfxPropLabel>Black Level</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="7">
+          <OfxPropLabel>Saturation</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="8">
+          <OfxPropLabel>Luminance Blur</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="9">
+          <OfxPropLabel>Chroma Blur</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="202">
+          <OfxPropLabel>Sharpen Radius</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="203">
+          <OfxPropLabel>Sharpen Mix</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="10">
+          <OfxPropLabel>Color Offset</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="11">
+          <OfxPropLabel>Chroma Offset X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="12">
+          <OfxPropLabel>Chroma Offset Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="13">
+          <OfxPropLabel>Chroma Weave X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="14">
+          <OfxPropLabel>Chroma Weave Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="15">
+          <OfxPropLabel>Speed X</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="16">
+          <OfxPropLabel>Speed Y</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="204">
+          <OfxPropLabel>Color Mix</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="19">
+          <OfxPropLabel>Channel Controls</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="20">
+          <OfxPropLabel>Red Offset</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="21">
+          <OfxPropLabel>Green Offset</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="22">
+          <OfxPropLabel>Blue Offset</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="23">
+          <OfxPropLabel>Red Blur</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="24">
+          <OfxPropLabel>Green Blur</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="25">
+          <OfxPropLabel>Blue Blur</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="205">
+          <OfxPropLabel>Enable Tape Damage</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="27">
+          <OfxPropLabel>Tape Damage</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeChoice name="36">
+          <OfxPropLabel>Tape Noise Type</OfxPropLabel>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>VHS Noise</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Bad Tracking</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Very Bad Tracking</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Blank Tape</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Vertical Slip</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Mixed Tracking</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Color Noise</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Vertical Slip 2</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="206">
+          <OfxPropLabel>Adjust Noise Scale</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="28">
+          <OfxPropLabel>Pop Line Frequency</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="29">
+          <OfxPropLabel>Frame Jitter</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="30">
+          <OfxPropLabel>Interlace Error</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeDouble name="31">
+          <OfxPropLabel>Interlace Error</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="32">
+          <OfxPropLabel>Scale</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="33">
+          <OfxPropLabel>Color 1</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeRGB name="34">
+          <OfxPropLabel>Color 2</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeInteger name="37">
+          <OfxPropLabel>Offset</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="38">
+          <OfxPropLabel>Tape Noise</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="39">
+          <OfxPropLabel>Distortion</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="40">
+          <OfxPropLabel>Tape Wrinkle</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="41">
+          <OfxPropLabel>Wrinkle Distortion</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="42">
+          <OfxPropLabel>Scroll Speed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="43">
+          <OfxPropLabel>Percent Chance</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="44">
+          <OfxPropLabel>Wrinkle Radius</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="207">
+          <OfxPropLabel>Enable Text</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeGroup name="208">
+          <OfxPropLabel>Text Generator</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeGroup name="209">
+          <OfxPropLabel>Play Status</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="210">
+          <OfxPropLabel>Show Status</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="211">
+          <OfxPropLabel>Include Icon</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="212">
+          <OfxPropLabel>Status Text</OfxPropLabel>
+          <OfxParamPropChoiceOption>PLAY</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>STOP</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>REWIND</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>FF</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>EJECT</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>-----</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>AUTO CALIBRATION</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>PAUSE</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble2D name="213">
+          <OfxPropLabel>Status Position</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeBoolean name="214">
+          <OfxPropLabel>Blink</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="215">
+          <OfxPropLabel>Blink Speed</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="217">
+          <OfxPropLabel>Timecode</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="218">
+          <OfxPropLabel>Show Counter</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="219">
+          <OfxPropLabel>Format</OfxPropLabel>
+          <OfxParamPropChoiceOption>MM-SS</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>MM:SS</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>HH:MM:SS</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>HH:MM:SS:FF</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble2D name="220">
+          <OfxPropLabel>Timecode Position</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeDouble name="221">
+          <OfxPropLabel>Time Offset</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeGroup name="223">
+          <OfxPropLabel>Tape Speed</OfxPropLabel>
+        </OfxParamTypeGroup>
+        <OfxParamTypeBoolean name="224">
+          <OfxPropLabel>Show Speed</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="225">
+          <OfxPropLabel>Speed</OfxPropLabel>
+          <OfxParamPropChoiceOption>SP</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>LP</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>SLP</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble2D name="226">
+          <OfxPropLabel>Text Speed Position</OfxPropLabel>
+        </OfxParamTypeDouble2D>
+        <OfxParamTypeBoolean name="228">
+          <OfxPropLabel>Text Shadow</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="229">
+          <OfxPropLabel>Solid Color</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="230">
+          <OfxPropLabel>Text Size</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeRGB name="240">
+          <OfxPropLabel>Fill Color</OfxPropLabel>
+        </OfxParamTypeRGB>
+        <OfxParamTypeChoice name="241">
+          <OfxPropLabel>Source</OfxPropLabel>
+          <OfxParamPropChoiceOption>From VCR</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>From Tape</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="3">
+          <OfxPropLabel>Frame Style</OfxPropLabel>
+          <OfxParamPropChoiceOption>Original</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>4x3</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="4">
+          <OfxPropLabel>Image Offset</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="2">
+          <OfxPropLabel>Tape Style (LUT)</OfxPropLabel>
+          <OfxParamPropChoiceOption>VHS</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Bad VHS</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>S-VHS</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>U-matic</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Beta</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="243">
+          <OfxPropLabel>Post Noise</OfxPropLabel>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="244">
+          <OfxPropLabel>Render Alpha</OfxPropLabel>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeInteger name="47">
+          <OfxPropLabel>Random Seed</OfxPropLabel>
+        </OfxParamTypeInteger>
+        <OfxParamTypeDouble name="48">
+          <OfxPropLabel>Blend with Original</OfxPropLabel>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>
