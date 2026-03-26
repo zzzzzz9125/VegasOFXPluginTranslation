@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="net.alestemple.AdvancedGIFManager">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>Advanced GIF Manager</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>Utility</OfxImageEffectPluginPropGrouping>
+      <OfxPropPluginDescription>Advanced GIF Manager — powerful tool by alestemple.net
+Author: Alessander Demyanov</OfxPropPluginDescription>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeBoolean name="exportGif">
+          <OfxPropLabel>&gt;&gt; Export GIF &lt;&lt;</OfxPropLabel>
+          <OfxParamPropHint>Toggle ON to generate the GIF file. Toggle OFF to reset.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="browseSaveAs">
+          <OfxPropLabel>Browse Save As...</OfxPropLabel>
+          <OfxParamPropHint>Opens a Save As dialog to choose the output file.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeString name="outputPath">
+          <OfxPropLabel>Output Path</OfxPropLabel>
+          <OfxParamPropHint>Full path for the GIF file (use Browse Save As to pick)</OfxParamPropHint>
+        </OfxParamTypeString>
+        <OfxParamTypeChoice name="preset">
+          <OfxPropLabel>Preset</OfxPropLabel>
+          <OfxParamPropHint>Social media presets with size/fps limits.</OfxParamPropHint>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Twitter (15MB, 512px)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Discord (10MB, 400px)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Telegram (5MB, 320px)</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="openFolder">
+          <OfxPropLabel>Open Folder After Export</OfxPropLabel>
+          <OfxParamPropHint>Opens the output folder in Explorer after GIF is saved.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="gifWidth">
+          <OfxPropLabel>Width (px)</OfxPropLabel>
+          <OfxParamPropHint>GIF output width.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="gifHeight">
+          <OfxPropLabel>Height (px)</OfxPropLabel>
+          <OfxParamPropHint>GIF output height.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="lockAspect">
+          <OfxPropLabel>Lock Aspect Ratio</OfxPropLabel>
+          <OfxParamPropHint>Maintain source aspect ratio (adjusts height).</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="pixelArt">
+          <OfxPropLabel>Pixel Art Mode</OfxPropLabel>
+          <OfxParamPropHint>Nearest-neighbor resize instead of bilinear. Sharp pixels.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="autoCrop">
+          <OfxPropLabel>Auto-Crop</OfxPropLabel>
+          <OfxParamPropHint>Detect and crop static borders to reduce file size.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="gifFPS">
+          <OfxPropLabel>GIF FPS</OfxPropLabel>
+          <OfxParamPropHint>Frame rate of the output GIF.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="maxFrames">
+          <OfxPropLabel>Max Frames</OfxPropLabel>
+          <OfxParamPropHint>Maximum frames in the GIF.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="maxDuration">
+          <OfxPropLabel>Max Duration (sec)</OfxPropLabel>
+          <OfxParamPropHint>Maximum GIF duration.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="loopMode">
+          <OfxPropLabel>Loop Mode</OfxPropLabel>
+          <OfxParamPropHint>How the GIF loops.</OfxParamPropHint>
+          <OfxParamPropChoiceOption>No Loop</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Infinite</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Count</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="loopCount">
+          <OfxPropLabel>Loop Count</OfxPropLabel>
+          <OfxParamPropHint>Loops (for Count mode).</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="pingPong">
+          <OfxPropLabel>Ping-Pong</OfxPropLabel>
+          <OfxParamPropHint>Forward+reverse boomerang loop.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="reverse">
+          <OfxPropLabel>Reverse</OfxPropLabel>
+          <OfxParamPropHint>Play frames in reverse.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="maxColors">
+          <OfxPropLabel>Max Colors</OfxPropLabel>
+          <OfxParamPropHint>Palette size.</OfxParamPropHint>
+          <OfxParamPropChoiceOption>4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>8</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>16</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>32</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>64</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>128</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>256</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="ditherMode">
+          <OfxPropLabel>Dither Mode</OfxPropLabel>
+          <OfxParamPropHint>Color dithering method.</OfxParamPropHint>
+          <OfxParamPropChoiceOption>None</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Floyd-Steinberg</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ordered (Bayer)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Temporal (animated dither)</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="ditherStrength">
+          <OfxPropLabel>Dither Strength</OfxPropLabel>
+          <OfxParamPropHint>Dithering intensity.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="perFramePalette">
+          <OfxPropLabel>Per-Frame Palette</OfxPropLabel>
+          <OfxParamPropHint>Build optimal palette for each frame. Better quality, larger file.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="frameDelta">
+          <OfxPropLabel>Frame Delta Optimization</OfxPropLabel>
+          <OfxParamPropHint>Encode only changed pixels. 30-60% smaller files.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="transparencyEn">
+          <OfxPropLabel>Transparency</OfxPropLabel>
+          <OfxParamPropHint>Enable GIF transparency for alpha &lt; threshold.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="transpThreshold">
+          <OfxPropLabel>Alpha Threshold</OfxPropLabel>
+          <OfxParamPropHint>Pixels with alpha below this become transparent.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="matteR">
+          <OfxPropLabel>Matte Red</OfxPropLabel>
+          <OfxParamPropHint>Alpha matte background red channel.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="matteG">
+          <OfxPropLabel>Matte Green</OfxPropLabel>
+          <OfxParamPropHint>Alpha matte background green channel.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="matteB">
+          <OfxPropLabel>Matte Blue</OfxPropLabel>
+          <OfxParamPropHint>Alpha matte background blue channel.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="speed">
+          <OfxPropLabel>Speed</OfxPropLabel>
+          <OfxParamPropHint>Playback speed multiplier.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="easeMode">
+          <OfxPropLabel>Ease Mode</OfxPropLabel>
+          <OfxParamPropHint>Frame delay curve.</OfxParamPropHint>
+          <OfxParamPropChoiceOption>Linear</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease Out</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ease In-Out</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="crossfadeEn">
+          <OfxPropLabel>Crossfade Loop</OfxPropLabel>
+          <OfxParamPropHint>Blend last frames into first for seamless loop.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="crossfadeFrames">
+          <OfxPropLabel>Crossfade Frames</OfxPropLabel>
+          <OfxParamPropHint>Number of frames to blend.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="targetSizeEn">
+          <OfxPropLabel>Target File Size</OfxPropLabel>
+          <OfxParamPropHint>Auto-optimize to fit within target KB. May reduce colors/dimensions.</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="targetSizeKB">
+          <OfxPropLabel>Target Size (KB)</OfxPropLabel>
+          <OfxParamPropHint>Maximum GIF file size in kilobytes.</OfxParamPropHint>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfxImageEffectResource>
+  <OfxPlugin name="net.alestemple.AdvancedGIFManager">
+    <OfxResourceSet ofxHost="default">
+      <OfxPropLabel>Advanced GIF Manager</OfxPropLabel>
+      <OfxImageEffectPluginPropGrouping>ユーティリティ</OfxImageEffectPluginPropGrouping>
+      <OfxPropPluginDescription>Advanced GIF Manager — alestemple.net による強力なツール
+作者: Alessander Demyanov</OfxPropPluginDescription>
+      <OfxImageEffectContext name="default">
+        <OfxParamTypeBoolean name="exportGif">
+          <OfxPropLabel>&gt;&gt; GIFをエクスポート &lt;&lt;</OfxPropLabel>
+          <OfxParamPropHint>ONにするとGIFファイルを生成します。OFFにするとリセットされます。</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="browseSaveAs">
+          <OfxPropLabel>名前を付けて保存...</OfxPropLabel>
+          <OfxParamPropHint>保存先ダイアログを開き、出力ファイルを選択します。</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeString name="outputPath">
+          <OfxPropLabel>出力パス</OfxPropLabel>
+          <OfxParamPropHint>GIFファイルのフルパス（「名前を付けて保存」で選択してください）</OfxParamPropHint>
+        </OfxParamTypeString>
+        <OfxParamTypeChoice name="preset">
+          <OfxPropLabel>プリセット</OfxPropLabel>
+          <OfxParamPropHint>サイズ/fps制限付きのソーシャルメディア向けプリセット。</OfxParamPropHint>
+          <OfxParamPropChoiceOption>なし</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Twitter (15MB, 512px)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Discord (10MB, 400px)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Telegram (5MB, 320px)</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="openFolder">
+          <OfxPropLabel>エクスポート後にフォルダを開く</OfxPropLabel>
+          <OfxParamPropHint>GIF保存後、出力フォルダをエクスプローラーで開きます。</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="gifWidth">
+          <OfxPropLabel>幅 (px)</OfxPropLabel>
+          <OfxParamPropHint>GIF出力の幅。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="gifHeight">
+          <OfxPropLabel>高さ (px)</OfxPropLabel>
+          <OfxParamPropHint>GIF出力の高さ。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="lockAspect">
+          <OfxPropLabel>アスペクト比を固定</OfxPropLabel>
+          <OfxParamPropHint>元のアスペクト比を維持します（高さが調整されます）。</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="pixelArt">
+          <OfxPropLabel>ピクセルアートモード</OfxPropLabel>
+          <OfxParamPropHint>バイリニアではなくニアレストネイバーでリサイズ。シャープなピクセルになります。</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="autoCrop">
+          <OfxPropLabel>自動クロップ</OfxPropLabel>
+          <OfxParamPropHint>静止した境界を検出してクロップし、ファイルサイズを削減します。</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="gifFPS">
+          <OfxPropLabel>GIF FPS</OfxPropLabel>
+          <OfxParamPropHint>出力GIFのフレームレート。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="maxFrames">
+          <OfxPropLabel>最大フレーム数</OfxPropLabel>
+          <OfxParamPropHint>GIF内の最大フレーム数。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="maxDuration">
+          <OfxPropLabel>最大時間 (秒)</OfxPropLabel>
+          <OfxParamPropHint>GIFの最大長。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="loopMode">
+          <OfxPropLabel>ループモード</OfxPropLabel>
+          <OfxParamPropHint>GIFのループ方法。</OfxParamPropHint>
+          <OfxParamPropChoiceOption>ループなし</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>無限</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>回数指定</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="loopCount">
+          <OfxPropLabel>ループ回数</OfxPropLabel>
+          <OfxParamPropHint>ループ回数（「回数指定」モード用）。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="pingPong">
+          <OfxPropLabel>ピンポン</OfxPropLabel>
+          <OfxParamPropHint>順再生＋逆再生のブーメランループ。</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="reverse">
+          <OfxPropLabel>逆再生</OfxPropLabel>
+          <OfxParamPropHint>フレームを逆順で再生します。</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeChoice name="maxColors">
+          <OfxPropLabel>最大色数</OfxPropLabel>
+          <OfxParamPropHint>パレットサイズ。</OfxParamPropHint>
+          <OfxParamPropChoiceOption>4</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>8</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>16</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>32</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>64</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>128</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>256</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeChoice name="ditherMode">
+          <OfxPropLabel>ディザモード</OfxPropLabel>
+          <OfxParamPropHint>カラーディザリング方法。</OfxParamPropHint>
+          <OfxParamPropChoiceOption>なし</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Floyd-Steinberg</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Ordered (Bayer)</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>Temporal (アニメーションディザ)</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeDouble name="ditherStrength">
+          <OfxPropLabel>ディザ強度</OfxPropLabel>
+          <OfxParamPropHint>ディザリングの強さ。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="perFramePalette">
+          <OfxPropLabel>フレームごとのパレット</OfxPropLabel>
+          <OfxParamPropHint>各フレームに最適なパレットを構築します。高品質、ファイルサイズは増加。</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="frameDelta">
+          <OfxPropLabel>フレーム差分最適化</OfxPropLabel>
+          <OfxParamPropHint>変化したピクセルのみをエンコード。30～60%のファイルサイズ削減。</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeBoolean name="transparencyEn">
+          <OfxPropLabel>透明度</OfxPropLabel>
+          <OfxParamPropHint>アルファが閾値未満のピクセルに対してGIFの透明を有効にします。</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="transpThreshold">
+          <OfxPropLabel>アルファ閾値</OfxPropLabel>
+          <OfxParamPropHint>この値未満のアルファを持つピクセルは透明になります。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="matteR">
+          <OfxPropLabel>マット 赤</OfxPropLabel>
+          <OfxParamPropHint>アルファマットの背景赤チャンネル。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="matteG">
+          <OfxPropLabel>マット 緑</OfxPropLabel>
+          <OfxParamPropHint>アルファマットの背景緑チャンネル。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="matteB">
+          <OfxPropLabel>マット 青</OfxPropLabel>
+          <OfxParamPropHint>アルファマットの背景青チャンネル。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeDouble name="speed">
+          <OfxPropLabel>速度</OfxPropLabel>
+          <OfxParamPropHint>再生速度の倍率。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeChoice name="easeMode">
+          <OfxPropLabel>イージングモード</OfxPropLabel>
+          <OfxParamPropHint>フレーム遅延のカーブ。</OfxParamPropHint>
+          <OfxParamPropChoiceOption>リニア</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>イーズイン</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>イーズアウト</OfxParamPropChoiceOption>
+          <OfxParamPropChoiceOption>イーズインアウト</OfxParamPropChoiceOption>
+        </OfxParamTypeChoice>
+        <OfxParamTypeBoolean name="crossfadeEn">
+          <OfxPropLabel>クロスフェードループ</OfxPropLabel>
+          <OfxParamPropHint>シームレスなループのために最後の数フレームを最初にブレンドします。</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="crossfadeFrames">
+          <OfxPropLabel>クロスフェードフレーム数</OfxPropLabel>
+          <OfxParamPropHint>ブレンドするフレーム数。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+        <OfxParamTypeBoolean name="targetSizeEn">
+          <OfxPropLabel>目標ファイルサイズ</OfxPropLabel>
+          <OfxParamPropHint>指定されたKB以内に収まるよう自動最適化します。色数や寸法が削減される場合があります。</OfxParamPropHint>
+        </OfxParamTypeBoolean>
+        <OfxParamTypeDouble name="targetSizeKB">
+          <OfxPropLabel>目標サイズ (KB)</OfxPropLabel>
+          <OfxParamPropHint>GIFファイルの最大サイズ（キロバイト）。</OfxParamPropHint>
+        </OfxParamTypeDouble>
+      </OfxImageEffectContext>
+    </OfxResourceSet>
+  </OfxPlugin>
+</OfxImageEffectResource>
