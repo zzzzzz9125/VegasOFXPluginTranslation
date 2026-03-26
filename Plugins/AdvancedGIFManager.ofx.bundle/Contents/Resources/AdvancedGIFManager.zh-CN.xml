@@ -2,14 +2,14 @@
 <OfxImageEffectResource>
   <OfxPlugin name="net.alestemple.AdvancedGIFManager">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>高级GIF管理器</OfxPropLabel>
+      <OfxPropLabel>高级 GIF 管理器</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>实用工具</OfxImageEffectPluginPropGrouping>
-      <OfxPropPluginDescription>高级GIF管理器 — 强大的工具，由alestemple.net提供
+      <OfxPropPluginDescription>高级 GIF 管理器 — 强大的工具，由 alestemple.net 提供
 作者：Alessander Demyanov</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
         <OfxParamTypeBoolean name="exportGif">
           <OfxPropLabel>&gt;&gt; 导出 GIF &lt;&lt;</OfxPropLabel>
-          <OfxParamPropHint>开启以生成GIF文件。关闭以重置。</OfxParamPropHint>
+          <OfxParamPropHint>开启以生成 GIF 文件。关闭以重置。</OfxParamPropHint>
         </OfxParamTypeBoolean>
         <OfxParamTypeBoolean name="browseSaveAs">
           <OfxPropLabel>浏览保存为...</OfxPropLabel>
@@ -17,7 +17,7 @@
         </OfxParamTypeBoolean>
         <OfxParamTypeString name="outputPath">
           <OfxPropLabel>输出路径</OfxPropLabel>
-          <OfxParamPropHint>GIF文件的完整路径（使用“浏览保存为”选择）</OfxParamPropHint>
+          <OfxParamPropHint>GIF 文件的完整路径（使用“浏览保存为”选择）</OfxParamPropHint>
         </OfxParamTypeString>
         <OfxParamTypeChoice name="preset">
           <OfxPropLabel>预设</OfxPropLabel>
@@ -29,15 +29,15 @@
         </OfxParamTypeChoice>
         <OfxParamTypeBoolean name="openFolder">
           <OfxPropLabel>导出后打开文件夹</OfxPropLabel>
-          <OfxParamPropHint>GIF保存后在资源管理器中打开输出文件夹。</OfxParamPropHint>
+          <OfxParamPropHint>GIF 保存后在资源管理器中打开输出文件夹。</OfxParamPropHint>
         </OfxParamTypeBoolean>
         <OfxParamTypeDouble name="gifWidth">
           <OfxPropLabel>宽度（像素）</OfxPropLabel>
-          <OfxParamPropHint>GIF输出宽度。</OfxParamPropHint>
+          <OfxParamPropHint>GIF 输出宽度。</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="gifHeight">
           <OfxPropLabel>高度（像素）</OfxPropLabel>
-          <OfxParamPropHint>GIF输出高度。</OfxParamPropHint>
+          <OfxParamPropHint>GIF 输出高度。</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeBoolean name="lockAspect">
           <OfxPropLabel>锁定纵横比</OfxPropLabel>
@@ -52,20 +52,20 @@
           <OfxParamPropHint>检测并裁剪静态边框以减小文件大小。</OfxParamPropHint>
         </OfxParamTypeBoolean>
         <OfxParamTypeDouble name="gifFPS">
-          <OfxPropLabel>GIF帧率</OfxPropLabel>
-          <OfxParamPropHint>输出GIF的帧率。</OfxParamPropHint>
+          <OfxPropLabel>GIF 帧率</OfxPropLabel>
+          <OfxParamPropHint>输出 GIF 的帧率。</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="maxFrames">
           <OfxPropLabel>最大帧数</OfxPropLabel>
-          <OfxParamPropHint>GIF中的最大帧数。</OfxParamPropHint>
+          <OfxParamPropHint>GIF 中的最大帧数。</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeDouble name="maxDuration">
           <OfxPropLabel>最大时长（秒）</OfxPropLabel>
-          <OfxParamPropHint>GIF最大时长。</OfxParamPropHint>
+          <OfxParamPropHint>GIF 最大时长。</OfxParamPropHint>
         </OfxParamTypeDouble>
         <OfxParamTypeChoice name="loopMode">
           <OfxPropLabel>循环模式</OfxPropLabel>
-          <OfxParamPropHint>GIF的循环方式。</OfxParamPropHint>
+          <OfxParamPropHint>GIF 的循环方式。</OfxParamPropHint>
           <OfxParamPropChoiceOption>不循环</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>无限循环</OfxParamPropChoiceOption>
           <OfxParamPropChoiceOption>指定次数</OfxParamPropChoiceOption>
@@ -111,11 +111,11 @@
         </OfxParamTypeBoolean>
         <OfxParamTypeBoolean name="frameDelta">
           <OfxPropLabel>帧间差异优化</OfxPropLabel>
-          <OfxParamPropHint>仅编码变化的像素。文件缩小30-60%。</OfxParamPropHint>
+          <OfxParamPropHint>仅编码变化的像素。文件缩小 30 - 60%。</OfxParamPropHint>
         </OfxParamTypeBoolean>
         <OfxParamTypeBoolean name="transparencyEn">
           <OfxPropLabel>透明度</OfxPropLabel>
-          <OfxParamPropHint>为alpha低于阈值的像素启用GIF透明度。</OfxParamPropHint>
+          <OfxParamPropHint>为 alpha 低于阈值的像素启用 GIF 透明度。</OfxParamPropHint>
         </OfxParamTypeBoolean>
         <OfxParamTypeDouble name="transpThreshold">
           <OfxPropLabel>Alpha阈值</OfxPropLabel>
@@ -155,11 +155,11 @@
         </OfxParamTypeDouble>
         <OfxParamTypeBoolean name="targetSizeEn">
           <OfxPropLabel>目标文件大小</OfxPropLabel>
-          <OfxParamPropHint>自动优化以符合目标KB。可能会减少颜色/尺寸。</OfxParamPropHint>
+          <OfxParamPropHint>自动优化以符合目标 KB。可能会减少颜色/尺寸。</OfxParamPropHint>
         </OfxParamTypeBoolean>
         <OfxParamTypeDouble name="targetSizeKB">
           <OfxPropLabel>目标大小（KB）</OfxPropLabel>
-          <OfxParamPropHint>GIF文件的最大大小（千字节）。</OfxParamPropHint>
+          <OfxParamPropHint>GIF 文件的最大大小（KB）。</OfxParamPropHint>
         </OfxParamTypeDouble>
       </OfxImageEffectContext>
     </OfxResourceSet>
