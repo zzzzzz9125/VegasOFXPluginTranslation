@@ -1271,8 +1271,14 @@ class LocalizationTool:
                 if row:
                     csv_values.append(row[0])
 
-        # Parse XML and replace values
-        tree = ET.parse(xml_path)
+        # Parse XML and replace values. Try to preserve XML comments when possible.
+        try:
+            # TreeBuilder(insert_comments=True) preserves <!-- comments --> nodes
+            parser = ET.XMLParser(target=ET.TreeBuilder(insert_comments=True))
+            tree = ET.parse(xml_path, parser=parser)
+        except Exception:
+            # Fallback for older Python versions where insert_comments might not be supported
+            tree = ET.parse(xml_path)
         root = tree.getroot()
         target_count = 0
         for elem in root.iter():
