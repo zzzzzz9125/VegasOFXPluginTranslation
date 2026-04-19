@@ -2,7 +2,7 @@
 <OfxImageEffectResource>
   <OfxPlugin name="com.redgiantsoftware.Universe_Stylize_Halftone_Dither_OFX">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>uni.Halftone Dither</OfxPropLabel>
+      <OfxPropLabel>uni.半色调振颤</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Universe 风格化</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>版权所有(C) 2016 Red Giant LLC.保留所有权利。</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">

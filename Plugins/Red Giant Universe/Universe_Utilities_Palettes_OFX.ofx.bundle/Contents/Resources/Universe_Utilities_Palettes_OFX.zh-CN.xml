@@ -2,7 +2,7 @@
 <OfxImageEffectResource>
   <OfxPlugin name="com.redgiantsoftware.Universe_Utilities_Palettes_OFX">
     <OfxResourceSet ofxHost="default">
-      <OfxPropLabel>uni.Palettes</OfxPropLabel>
+      <OfxPropLabel>uni.调色板</OfxPropLabel>
       <OfxImageEffectPluginPropGrouping>Universe 实用工具</OfxImageEffectPluginPropGrouping>
       <OfxPropPluginDescription>版权所有(C) 2016 Red Giant LLC.保留所有权利。</OfxPropPluginDescription>
       <OfxImageEffectContext name="default">
